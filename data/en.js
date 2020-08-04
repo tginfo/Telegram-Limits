@@ -1,283 +1,283 @@
 window.data = [
     {
-        "name": "Учётные записи",
+        "name": "Accounts",
         "icon": "account_circle",
         "color": "110, 80, 200",
         "items": [
             {
                 "name": "Username",
                 "hint": "(e.g. @cameraman)",
-                "text": "от 5 до 32 символов",
+                "text": "5 to 32 symbols",
                 "icon": "alternate_email"
             },
             {
                 "name": "Bio",
-                "hint": "(описание)",
-                "text": "70 символов",
+                "hint": "",
+                "text": "up to 70 symbols",
                 "icon": "description"
             },
             {
-                "name": "Срок самоуничтожения аккаунта",
-                "hint": "(при отсутствиии активности)",
-                "text": "от 1 до 12 месяцев",
+                "name": "Self-destruction period",
+                "hint": "(if no activity)",
+                "text": "from 1 to 12 months",
                 "icon": "auto_delete"
             },
             {
-                "name": "Спам-бан",
+                "name": "Spam ban",
                 "hint": "",
-                "text": "от 3 дней и выше",
+                "text": "3 days and more",
                 "icon": "block"
             },
             {
-                "name": "Количество каналов и групп, в которых можно состоять",
-                "hint": "",
-                "text": "максимум 500 (включая созданные вами)",
+                "name": "Channels and groups number",
+                "hint": "you can be member of",
+                "text": "up to 500 (including one you own)",
                 "icon": "groups"
             },
             {
-                "name": "Длительность видеоаватара",
+                "name": "Video-avatar duration",
                 "hint": "",
-                "text": "до 10 секунд",
+                "text": "up to 10 seconds",
                 "icon": "slow_motion_video"
             },
         ]
     },
     {
-        "name": "Чаты и группы",
+        "name": "Chats and groups",
         "icon": "chat",
         "color": "244, 64, 52",
         "items": [
             {
-                "name": "Число участников",
-                "hint": "(лимит постоянно увеличивается)",
-                "text": "до 200 000",
+                "name": "Participants",
+                "hint": "(limit can be raised)",
+                "text": "up to 200,000",
                 "icon": "group_add"
             },
             {
-                "name": "Закреплённые чаты в ленте пользователя",
+                "name": "Pinned chats in main list",
                 "hint": "",
-                "text": "до 5 чатов или каналов + 5 секретных чатов",
+                "text": "up to 5 chats or channels + 5 secret chats",
                 "icon": "push_pin"
             },
             {
-                "name": "Название и описание группы",
+                "name": "Group name and description",
                 "hint": "",
-                "text": "до 255 символов",
+                "text": "up to 255 symbols",
                 "icon": "subject"
             },
             {
-                "name": "Длина одного сообщения",
+                "name": "One message length",
                 "hint": "",
-                "text": "до 4096 символов",
+                "text": "up to 4,096 symbols",
                 "icon": "textsms"
             },
             {
-                "name": "Описание к медиафайлам",
+                "name": "Media captions",
                 "hint": "",
-                "text": "до 1024 символов",
+                "text": "up to 1,024 symbols",
                 "icon": "loyalty"
             },
             {
-                "name": "Объем отправляемых файлов",
+                "name": "File size limit",
                 "hint": "",
-                "text": "до 2,0 ГБ",
+                "text": "up to 2.0GB",
                 "icon": "cloud_upload"
             },
             {
-                "name": "Длительность видеосообщения",
+                "name": "Video message duration",
                 "hint": "",
-                "text": "до 1 минуты",
+                "text": "up to 1 minute",
                 "icon": "motion_photos_on"
             },
             {
-                "name": "Количество фотографий в одном сообщении",
-                "hint": "(альбом)",
-                "text": "до 10 штук",
+                "name": "Images in single message number",
+                "hint": "(album)",
+                "text": "up to 10 items",
                 "icon": "dashboard"
             },
             {
-                "name": "Возможность редактирования соообщения",
-                "hint": "в публичных чатах",
-                "text": "в течение 48 часов после отправки",
+                "name": "Message editing",
+                "hint": "in public chats",
+                "text": "in 48 hours after sending",
                 "icon": "edit"
             },
             {
-                "name": "Самоуничтожение фото или видео",
-                "hint": "в публичных чатах",
-                "text": "от 1 до 60 секунд",
+                "name": "Photo and video self-destruction",
+                "hint": "in public chats",
+                "text": "1 to 60 seconds",
                 "icon": "shutter_speed"
             },
             {
-                "name": "Приглашение пользователей в группы",
+                "name": "Inviting users to chats",
                 "hint": "",
-                "text": "до 200 человек",
+                "text": "up to 200 people",
                 "icon": "inbox"
             },
             {
-                "name": "Количество видимых сообщений",
-                "hint": "в группе",
-                "text": "1 000 000 последних сообщений",
+                "name": "Visible messages number",
+                "hint": "in group",
+                "text": "1,000,000 last messages",
                 "icon": "visibility"
             },
         ]
     },
     {
-        "name": "Каналы",
+        "name": "Channels",
         "icon": "campaign",
         "color": "96, 125, 139",
         "items": [
             {
-                "name": "Количество публичных юзернеймов",
-                "hint": "на один аккаунт",
-                "text": "до 10 (включая группы)",
+                "name": "Public usernames number",
+                "hint": "for a single account",
+                "text": "up to 10 (including groups)",
                 "icon": "alternate_email"
             },
             {
-                "name": "Длина @username",
+                "name": "Length of @username",
                 "hint": "",
-                "text": "от 5 до 32 символов",
+                "text": "5 to 32 symbols",
                 "icon": "text_rotation_none"
             },
             {
-                "name": "Длина названия и описания канала",
+                "name": "Channel name and description",
                 "hint": "",
-                "text": "до 255 символов",
+                "text": "up to 255 symbols",
                 "icon": "description"
             },
             {
-                "name": "Количество читателей канала",
+                "name": "Channel subscribers number",
                 "hint": "",
-                "text": "неограничено",
+                "text": "unlimited",
                 "icon": "groups"
             },
             {
-                "name": "Видимые участники для создателя канала",
-                "hint": "",
-                "text": "200 человек",
+                "name": "Visible subscribers",
+                "hint": "for channel admin",
+                "text": "200 people",
                 "icon": "visibility"
             },
             {
-                "name": "История действий",
-                "hint": "(движения участников, постов и т.п.)",
-                "text": "последние два дня",
+                "name": "Action history",
+                "hint": "(sunscriptions, posts, etc.)",
+                "text": "last two days",
                 "icon": "history"
             },
             {
-                "name": "Удаление канала",
+                "name": "Channel deletion",
                 "hint": "",
-                "text": "канал с более чем 1К подписчиков может быть удалён только через поддержку Telegram",
+                "text": "channels with more than 1K subscribers can be deleted only with Telegram support",
                 "icon": "delete"
             },
             {
-                "name": "Чтение приватного канала",
-                "hint": "без подписки",
-                "text": "до 5 минут раз в сутки",
+                "name": "Private channel access",
+                "hint": "without subscription",
+                "text": "up to 5 minutes once a day",
                 "icon": "lock"
             },
         ]
     },
     {
-        "name": "Папки",
+        "name": "Folders",
         "icon": "folder",
         "color": "156, 39, 176",
         "items": [
             {
-                "name": "Количество папок",
+                "name": "Folders amount",
                 "hint": "",
-                "text": "до 10 штук",
+                "text": "up to 10 items",
                 "icon": "create_new_folder"
             },
             {
-                "name": "Закреплённые чаты в папке",
+                "name": "Pinned chats in a folder",
                 "hint": "",
-                "text": "до 100 штук",
+                "text": "up to 100 items",
                 "icon": "push_pin"
             },
         ]
     },
     {
-        "name": "Люди рядом",
+        "name": "People Nearby",
         "icon": "person_pin_circle",
         "color": "175, 180, 43",
         "items": [
             {
-                "name": "Радиус видимости",
+                "name": "Visibility range",
                 "hint": "",
-                "text": "около 12 километров",
+                "text": "about 12 kilometers",
                 "icon": "track_changes"
             },
             {
-                "name": "Количество отображаемых пользователей",
+                "name": "Visible users amount",
                 "hint": "",
-                "text": "до 100 человек",
+                "text": "up to 100 people",
                 "icon": "groups"
             },
         ]
     },
     {
-        "name": "Боты",
+        "name": "Bots",
         "icon": "settings",
         "color": "76, 175, 80",
         "items": [
             {
-                "name": "Количество ботов",
-                "hint": "(созданных через @BotFather)",
-                "text": "до 20 штук",
+                "name": "Bots number",
+                "hint": "(created by @BotFather)",
+                "text": "up to 20 items",
                 "icon": "widgets"
             },
             {
-                "name": "Длина @username",
-                "hint": "для бота",
-                "text": "от 5 до 32 символов",
+                "name": "Length of @username",
+                "hint": "for bots",
+                "text": "5 to 32 symbols",
                 "icon": "alternate_email"
             },
             {
-                "name": "Длина информации о боте",
+                "name": "Bot info length",
                 "hint": "(/setabouttext)",
-                "text": "до 120 символов",
+                "text": "up to 120 symbols",
                 "icon": "text_rotation_none"
             },
             {
-                "name": "Длина описания бота",
-                "hint": "(description)",
-                "text": "до 512 символов",
+                "name": "Bot description length",
+                "hint": "",
+                "text": "up to 512 symbols",
                 "icon": "description"
             },
             {
-                "name": "Размер отправляемый ботом",
+                "name": "File upload limit",
                 "hint": "(BotAPI)",
-                "text": "до 50МБ",
+                "text": "up to 50MB",
                 "icon": "cloud_upload"
             },
             {
-                "name": "Размер принимаего ботом файла",
+                "name": "File download limit",
                 "hint": "(BotAPI)",
-                "text": "до 20МБ",
+                "text": "up to 20MB",
                 "icon": "cloud_download"
             },
         ]
     },
     {
-        "name": "Стикеры",
+        "name": "Stickers",
         "icon": "insert_emoticon",
         "color": "255, 152, 0",
         "items": [
             {
-                "name": "Количество добавленных стикерпаков",
+                "name": "Added packs number",
                 "hint": "",
-                "text": "до 200 штук",
+                "text": "up to 200 items",
                 "icon": "queue"
             },
             {
-                "name": "Количество избранных стикеров",
+                "name": "Favorite stickers number",
                 "hint": "",
-                "text": "до 5 штук",
+                "text": "up to 5 items",
                 "icon": "star"
             },
             {
-                "name": "Количество стикеров в наборе",
+                "name": "Stickers in a pack number",
                 "hint": "",
-                "text": "до 120 штук",
+                "text": "up to 120 items",
                 "icon": "collections"
             },
         ]
@@ -288,15 +288,15 @@ window.data = [
         "color": "3, 169, 244",
         "items": [
             {
-                "name": "Количество аккаунтов",
-                "hint": "в боте @telegragh",
-                "text": "до 5 штук",
+                "name": "Accounts number",
+                "hint": "in @telegragh bot",
+                "text": "up to 5 items",
                 "icon": "how_to_reg"
             },
             {
-                "name": "Количество знаков в тексте",
+                "name": "Article length",
                 "hint": "",
-                "text": "до 34 087 символов",
+                "text": "up to 34,087 symbols",
                 "icon": "text_rotation_none"
             },
         ]

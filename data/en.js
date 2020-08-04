@@ -277,13 +277,13 @@ window.data = [
             {
                 "name": "Stickers in a pack number",
                 "hint": "",
-                "text": "up to 120 items",
+                "text": "up to 120 for static, up to 50 for animated",
                 "icon": "collections"
             },
             {
                 "name": "Sticker size",
                 "hint": "",
-                "text": "one size equals to 512px, other one — 512px or less",
+                "text": "one size equals to 512px, other one — 512px or less; strict 512x512 for animated",
                 "icon": "crop_free"
             },
             {
@@ -291,6 +291,12 @@ window.data = [
                 "hint": "",
                 "text": "up to 3 seconds",
                 "icon": "timelapse"
+            },
+            {
+                "name": "Sticker file size",
+                "hint": "",
+                "text": "up to 512KB for static, up to 64KB for animated",
+                "icon": "folder_open"
             },
         ]
     },

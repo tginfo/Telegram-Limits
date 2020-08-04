@@ -236,7 +236,7 @@ main .collection>.header {
 }
 
 main .collection>.header>.name {
-    text-align: start;
+    text-align: left;
 }
 
 main .collection>.header>md-icon {
@@ -282,7 +282,7 @@ main .collection>.card>.item>md-icon {
 main .collection>.card>.item>.content>.title {
     font-weight: 500;
     display: block;
-    text-align: start;
+    text-align: left;
 }
 
 main .collection>.card>.item>.content>.title>.info {

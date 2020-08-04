@@ -280,6 +280,18 @@ window.data = [
                 "text": "up to 120 items",
                 "icon": "collections"
             },
+            {
+                "name": "Sticker size",
+                "hint": "",
+                "text": "one size equals to 512px, other one — 512px or less",
+                "icon": "crop_free"
+            },
+            {
+                "name": "Animation duration",
+                "hint": "",
+                "text": "up to 3 seconds",
+                "icon": "timelapse"
+            },
         ]
     },
     {

@@ -307,7 +307,7 @@ window.data = [
         "items": [
             {
                 "name": "Количество аккаунтов",
-                "hint": "в боте @telegragh",
+                "hint": "в боте @telegraph",
                 "text": "до 5 штук",
                 "icon": "how_to_reg"
             },

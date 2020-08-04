@@ -307,7 +307,7 @@ window.data = [
         "items": [
             {
                 "name": "Accounts number",
-                "hint": "in @telegragh bot",
+                "hint": "in @telegraph bot",
                 "text": "up to 5 items",
                 "icon": "how_to_reg"
             },

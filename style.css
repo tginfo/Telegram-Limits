@@ -1,0 +1,403 @@
+@font-face {
+    font-family: 'Material Icons Outlined';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(./assets/icons.woff2) format('woff2');
+}
+
+:root {
+    --base-size: 2vmin;
+}
+
+* {
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    -webkit-tap-highlight-color: transparent;
+    font-size: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: var(--base-size);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background: #86BBFF;
+}
+
+a {
+    color: inherit;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+header {
+    background: linear-gradient(180deg, #CF82FF 0%, #86BBFF 50%);
+    min-height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: relative;
+    font-size: 2.5vh;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./assets/plane.png);
+    background-size: auto 105%;
+    background-repeat: no-repeat;
+    background-position: 60% 100%;
+    z-index: 1;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./assets/limits.png);
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: 5% 100%;
+    z-index: 1;
+}
+
+header .header-box {
+    width: calc(calc(100% / 3) * 2);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    max-width: 40em;
+    margin-bottom: 0;
+}
+
+header .header-box>.title>.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+header .header-box>.title>.logo>img {
+    height: calc(var(--base-size) * 1.3);
+}
+
+header .header-box>.title>.logo>* {
+    margin-right: .25em;
+}
+
+header .header-box>.title>.logo>.bold {
+    font-weight: bold;
+}
+
+header .header-box>.title>.logo>.middle {
+    font-weight: 500;
+}
+
+header .header-box>.title>.logo>.name {
+    opacity: .6;
+}
+
+header .header-box>.title>.name {
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 1;
+    margin-bottom: .8em;
+}
+
+header .header-box>.explanator {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+header .header-box>.explanator>.content {
+    margin-left: 1em;
+}
+
+header .header-box>.explanator>.title {
+    display: flex;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+header .header-box>.explanator>.content>p {
+    margin: 0;
+}
+
+header .header-box>.explanator>.content>p+p {
+    margin-top: 1em;
+}
+
+main {
+    background: white;
+    border-radius: 1em 1em 0 0;
+    z-index: 2;
+    box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, .05);
+}
+
+main>.content {
+    width: 80%;
+    margin: 3em auto 3em auto;
+}
+
+md-icon {
+    font-family: 'Material Icons Outlined';
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+.searchbox {
+    height: 3em;
+    box-shadow: 0 0.3em 1em rgba(0, 0, 0, .1);
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.searchbox>md-icon {
+    font-size: 1.5em;
+    margin: .5em;
+    margin-right: .25em;
+}
+
+.searchbox>input {
+    height: 100%;
+    flex-grow: 1;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+main .loader {
+    text-align: center;
+    padding: 1em;
+    font-family: 'Montserrat', Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+main .collection {
+    --vcolor: 0, 0, 0;
+    margin-top: 2.5em;
+    display: block;
+}
+
+main .collection>.header {
+    margin: 0 1em;
+    padding: .8em;
+    border-radius: 1em 1em 0 0;
+    background: #F6F6F9;
+    box-shadow: 0 -0.2em 0.5em rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+main .collection>.header>.name {
+    text-align: start;
+}
+
+main .collection>.header>md-icon {
+    background: rgba(var(--vcolor), .15);
+    color: rgb(var(--vcolor));
+    font-size: 1.3em;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    min-width: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5em;
+}
+
+main .collection>.card {
+    background: white;
+    border-radius: 1em;
+    box-shadow: 0 -.25em 1em rgba(0, 0, 0, .1);
+    display: block;
+}
+
+main .collection>.card>.item {
+    padding: .75em 1.5em;
+    border-bottom: solid 1px #eee;
+    display: flex;
+    align-items: center;
+}
+
+main .collection>.card>.item:last-child {
+    border: 0;
+}
+
+main .collection>.card>.item>md-icon {
+    margin-right: .75em;
+    color: rgb(var(--vcolor));
+    font-size: 1.5em;
+    align-self: baseline;
+    margin-top: calc(.75em / 2);
+}
+
+main .collection>.card>.item>.content>.title {
+    font-weight: 500;
+    display: block;
+    text-align: start;
+}
+
+main .collection>.card>.item>.content>.title>.info {
+    font-weight: normal;
+    opacity: .3;
+    display: inline;
+}
+
+main .collection>.card>.item>.content>.data {
+    opacity: .7;
+    display: block;
+}
+
+footer {
+    background: #f1f1f1;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+footer>.logo>img {
+    border-radius: 50%;
+    width: 5em;
+}
+
+footer>.side {
+    margin-left: 1em;
+}
+
+footer>.side>.name {
+    margin-bottom: .2em;
+    font-family: 'Montserrat', Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+
+footer>.side>.name>.bold {
+    font-weight: 600;
+}
+
+footer>.side>.name>.middle {
+    font-weight: 500;
+}
+
+footer>.side>.data {
+    opacity: .5;
+}
+
+#results {
+    position: relative;
+}
+
+@media (max-width: 1020px) {
+    :root {
+        --base-size: 4vmin;
+    }
+    header {
+        font-size: 3vmin;
+    }
+    header .header-box>.explanator {
+        font-size: .5em;
+    }
+    main>.content {
+        width: 95%;
+        margin-top: 1em;
+    }
+    header .header-box>.title>.name {
+        font-size: 5em;
+    }
+    header .header-box>.title>.name {
+        margin-bottom: .3em;
+        font-size: 5em;
+    }
+    header .header-box>.explanator {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6em;
+    }
+    header .header-box>.explanator>.title {
+        font-size: .8em;
+    }
+    header .header-box>.explanator>.content {
+        margin-left: 0;
+        font-size: .7em;
+    }
+    header::before {
+        display: none;
+    }
+    header::after {
+        background-position: 90% 100%;
+        background-size: auto 100%;
+        opacity: .5;
+    }
+    footer {
+        padding: 1em;
+        justify-content: center;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    md-icon {
+        display: none;
+    }
+    header .header-box {
+        margin-left: 2em;
+    }
+    .searchbox input {
+        padding-left: 1em;
+    }
+}
+
+/* @media (min-width: 1500px) {
+    #results {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-column-gap: 15px;
+    }
+} */

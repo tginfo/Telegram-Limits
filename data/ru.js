@@ -250,7 +250,7 @@ window.data = [
                 "icon": "cloud_upload"
             },
             {
-                "name": "Размер принимаего ботом файла",
+                "name": "Размер принимаемый ботом",
                 "hint": "(BotAPI)",
                 "text": "до 20МБ",
                 "icon": "cloud_download"

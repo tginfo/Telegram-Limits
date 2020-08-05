@@ -1,5 +1,5 @@
 # Лимиты Telegram ([See in English](#telegram-limits))
-Данный проект описывает всевозможные лимиты и ограничения в Telegram и отображает на странице limits.tginfo.me.
+Данный проект описывает всевозможные лимиты и ограничения в Telegram и отображает на странице [limits.tginfo.me](https://limits.tginfo.me).
 
 ## Как помочь проекту
 ### Сообщить о проблеме или предложить идею
@@ -52,7 +52,7 @@ window.data = [
 3. Pull запросы приветствуются
 
 # Telegram Limits
-This project describes Telegram limitations and displays them on limits.tginfo.me/en
+This project describes Telegram limitations and displays them on [limits.tginfo.me/en](https://limits.tginfo.me/en)
 
 ## How to contribute
 ### Сообщить о проблеме или предложить идею

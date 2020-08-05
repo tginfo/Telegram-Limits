@@ -55,7 +55,7 @@ window.data = [
 This project describes Telegram limitations and displays them on [limits.tginfo.me/en](https://limits.tginfo.me/en)
 
 ## How to contribute
-### Сообщить о проблеме или предложить идею
+### Report problem or make a suggestion
 - [Bug Tracker](https://github.com/tginfo/Telegram-Limits/issues/new)
 - [Feedback](https://t.me/infowritebot) 
 

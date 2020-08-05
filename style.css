@@ -340,6 +340,10 @@ footer>.side>.data {
     position: relative;
 }
 
+.giticon img {
+    height: 1em;
+}
+
 @media (max-width: 1020px) {
     :root {
         --base-size: 4vmin;

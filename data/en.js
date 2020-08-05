@@ -17,6 +17,18 @@ window.data = [
                 "icon": "description"
             },
             {
+                "name": "First Name length",
+                "hint": "",
+                "text": "from 1 to 64 symbols",
+                "icon": "assignment_ind"
+            },
+            {
+                "name": "Last Name length",
+                "hint": "",
+                "text": "from 0 to 64 symbols",
+                "icon": "assignment"
+            },
+            {
                 "name": "Self-destruction period",
                 "hint": "(if no activity)",
                 "text": "from 1 to 12 months",
@@ -40,11 +52,23 @@ window.data = [
                 "text": "up to 10 seconds",
                 "icon": "slow_motion_video"
             },
+            {
+                "name": "Inviting users",
+                "hint": "to chats and channels",
+                "text": "up to 200 people",
+                "icon": "inbox"
+            },
+            {
+                "name": "Group and channel creation",
+                "hint": "",
+                "text": "up to 50 in a day",
+                "icon": "add"
+            },
         ]
     },
     {
         "name": "Chats and groups",
-        "icon": "chat",
+        "icon": "forum",
         "color": "244, 64, 52",
         "items": [
             {
@@ -66,39 +90,9 @@ window.data = [
                 "icon": "subject"
             },
             {
-                "name": "One message length",
-                "hint": "",
-                "text": "up to 4,096 symbols",
-                "icon": "textsms"
-            },
-            {
-                "name": "Media captions",
-                "hint": "",
-                "text": "up to 1,024 symbols",
-                "icon": "loyalty"
-            },
-            {
-                "name": "File size limit",
-                "hint": "",
-                "text": "up to 2.0GB",
-                "icon": "cloud_upload"
-            },
-            {
-                "name": "Video message duration",
-                "hint": "",
-                "text": "up to 1 minute",
-                "icon": "motion_photos_on"
-            },
-            {
-                "name": "Images in single message number",
-                "hint": "(album)",
-                "text": "up to 10 items",
-                "icon": "dashboard"
-            },
-            {
                 "name": "Message editing",
                 "hint": "in public chats",
-                "text": "in 48 hours after sending",
+                "text": "in 48 hours after sending; unlimited in Saved",
                 "icon": "edit"
             },
             {
@@ -108,16 +102,28 @@ window.data = [
                 "icon": "shutter_speed"
             },
             {
-                "name": "Inviting users to chats",
-                "hint": "",
-                "text": "up to 200 people",
-                "icon": "inbox"
+                "name": "Action history",
+                "hint": "(sunscriptions, posts, etc.)",
+                "text": "last two days",
+                "icon": "history"
+            },
+            {
+                "name": "Mentions number",
+                "hint": "in a single message",
+                "text": "up to 50, else notifications won't be sent",
+                "icon": "alternate_email"
             },
             {
                 "name": "Visible messages number",
                 "hint": "in group",
                 "text": "1,000,000 last messages",
                 "icon": "visibility"
+            },
+            {
+                "name": "Username change reservation",
+                "hint": "(time before username will be available for everyone, not just the original owner)",
+                "text": "about 15-30 minutes",
+                "icon": "timelapse"
             },
         ]
     },
@@ -145,6 +151,12 @@ window.data = [
                 "icon": "description"
             },
             {
+                "name": "Posts editing",
+                "hint": "",
+                "text": "unlimited",
+                "icon": "edit"
+            },
+            {
                 "name": "Channel subscribers number",
                 "hint": "",
                 "text": "unlimited",
@@ -157,12 +169,6 @@ window.data = [
                 "icon": "visibility"
             },
             {
-                "name": "Action history",
-                "hint": "(sunscriptions, posts, etc.)",
-                "text": "last two days",
-                "icon": "history"
-            },
-            {
                 "name": "Channel deletion",
                 "hint": "",
                 "text": "channels with more than 1K subscribers can be deleted only with Telegram support",
@@ -173,6 +179,49 @@ window.data = [
                 "hint": "without subscription",
                 "text": "up to 5 minutes once a day",
                 "icon": "lock"
+            },
+            {
+                "name": "Username change reservation",
+                "hint": "(time before username will be available for everyone, not just the original owner)",
+                "text": "about 15-30 minutes",
+                "icon": "timelapse"
+            },
+        ]
+    },
+    {
+        "name": "Messages",
+        "icon": "message",
+        "color": "0, 150, 136",
+        "items": [
+            {
+                "name": "One message length",
+                "hint": "",
+                "text": "up to 4,096 symbols",
+                "icon": "textsms"
+            },
+            {
+                "name": "Media captions",
+                "hint": "",
+                "text": "up to 1,024 symbols",
+                "icon": "loyalty"
+            },
+            {
+                "name": "File size limit",
+                "hint": "",
+                "text": "up to 2.0GB",
+                "icon": "cloud_upload"
+            },
+            {
+                "name": "Video message duration",
+                "hint": "",
+                "text": "up to 1 minute",
+                "icon": "motion_photos_on"
+            },
+            {
+                "name": "Images in single message",
+                "hint": "(album)",
+                "text": "up to 10 items",
+                "icon": "dashboard"
             },
         ]
     },
@@ -211,6 +260,12 @@ window.data = [
                 "hint": "",
                 "text": "up to 100 people",
                 "icon": "groups"
+            },
+            {
+                "name": "Visible geochats number",
+                "hint": "",
+                "text": "up to 10 closest",
+                "icon": "forum"
             },
         ]
     },
@@ -254,6 +309,49 @@ window.data = [
                 "hint": "(BotAPI)",
                 "text": "up to 20MB",
                 "icon": "cloud_download"
+            },
+            {
+                "name": "Message forwarding",
+                "hint": "",
+                "text": "up to 2 000 per hour",
+                "icon": "forward_to_inbox"
+            },
+            {
+                "name": "Keyboard buttons number",
+                "hint": "",
+                "text": "up to 100 entities",
+                "icon": "keyboard"
+            },
+            {
+                "name": "Message formatting data",
+                "hint": "",
+                "text": "up to 10KB",
+                "icon": "format_shapes"
+            },
+            {
+                "name": "Messages frequency",
+                "hint": "(can be raised by support)",
+                "text": "up to 30 messages per second; 20 per minute for public chats and channels",
+                "icon": "speed"
+            },
+        ]
+    },
+    {
+        "name": "Search",
+        "icon": "search",
+        "color": "63, 81, 181",
+        "items": [
+            {
+                "name": "Global search results",
+                "hint": "",
+                "text": "up to 10 items; up to 3 for Android",
+                "icon": "receipt_long"
+            },
+            {
+                "name": "Minimal query length",
+                "hint": "for global search",
+                "text": "starting from 4 symbols",
+                "icon": "text_rotation_none"
             },
         ]
     },

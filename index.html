@@ -8,6 +8,7 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&family=Material+Icons+Outlined&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
     <!-- Primary Meta Tags -->
     <meta name="title" content="Лимиты Telegram">
     <meta name="description" content="Узнайте о лимитах в Telegram и о том, зачем они нужны">
@@ -72,7 +73,7 @@
                 <span class="middle">Info</span>
             </div>
             <div class="data">Proudly powered by <a href="https://t.me/tginfo" target="_blank">@tginfo</a></div>
-            <div class="data"><a href="/">Домашняя страница</a></div>
+            <div class="data"><a href="https://tginfo.me/">Домашняя страница</a></div>
         </div>
     </footer>
     <script>
@@ -103,7 +104,7 @@
             if (fits <= 1) return;
 
             var map = [];
-            var margin = (res.clientWidth - gap - ((wid + gap) * (fits + 1))) / 2;
+            var margin = (res.clientWidth - ((wid + gap) * (fits + 1)));
             for (var index = 0; index <= fits; index++) {
                 map[index] = [];
             }

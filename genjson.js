@@ -18,9 +18,19 @@ var resp = d.map((e) =>
 
 );
 
+resp.unshift({
+    "@type": "Question",
+    "name": document.querySelector("header article h2").innerText,
+    "acceptedAnswer": {
+        "@type": "Answer",
+        "text": document.querySelector("header article .content").innerHTML,
+    },
+})
+
 var json = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "name": document.querySelector("header h1").innerText,
     "mainEntity": [].concat.apply([], resp),
 };
 

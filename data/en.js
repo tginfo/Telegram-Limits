@@ -7,25 +7,25 @@ window.data = [
             {
                 "name": "Username",
                 "hint": "(e.g. @cameraman)",
-                "text": "5 to 32 symbols",
+                "text": "5 to 32 characters",
                 "icon": "alternate_email"
             },
             {
                 "name": "Bio",
                 "hint": "",
-                "text": "up to 70 symbols",
+                "text": "up to 70 characters",
                 "icon": "description"
             },
             {
                 "name": "First Name length",
                 "hint": "",
-                "text": "from 1 to 64 symbols",
+                "text": "from 1 to 64 characters",
                 "icon": "assignment_ind"
             },
             {
                 "name": "Last Name length",
                 "hint": "",
-                "text": "from 0 to 64 symbols",
+                "text": "from 0 to 64 characters",
                 "icon": "assignment"
             },
             {
@@ -86,7 +86,7 @@ window.data = [
             {
                 "name": "Group name and description",
                 "hint": "",
-                "text": "up to 255 symbols",
+                "text": "up to 255 characters",
                 "icon": "subject"
             },
             {
@@ -141,13 +141,13 @@ window.data = [
             {
                 "name": "Length of @username",
                 "hint": "",
-                "text": "5 to 32 symbols",
+                "text": "5 to 32 characters",
                 "icon": "text_rotation_none"
             },
             {
                 "name": "Channel name and description",
                 "hint": "",
-                "text": "up to 255 symbols",
+                "text": "up to 255 characters",
                 "icon": "description"
             },
             {
@@ -196,13 +196,13 @@ window.data = [
             {
                 "name": "One message length",
                 "hint": "",
-                "text": "up to 4,096 symbols",
+                "text": "up to 4,096 characters",
                 "icon": "textsms"
             },
             {
                 "name": "Media captions",
                 "hint": "",
-                "text": "up to 1,024 symbols",
+                "text": "up to 1,024 characters",
                 "icon": "loyalty"
             },
             {
@@ -283,19 +283,19 @@ window.data = [
             {
                 "name": "Length of @username",
                 "hint": "for bots",
-                "text": "5 to 32 symbols",
+                "text": "5 to 32 characters",
                 "icon": "alternate_email"
             },
             {
                 "name": "Bot info length",
                 "hint": "(/setabouttext)",
-                "text": "up to 120 symbols",
+                "text": "up to 120 characters",
                 "icon": "text_rotation_none"
             },
             {
                 "name": "Bot description length",
                 "hint": "",
-                "text": "up to 512 symbols",
+                "text": "up to 512 characters",
                 "icon": "description"
             },
             {
@@ -350,7 +350,7 @@ window.data = [
             {
                 "name": "Minimal query length",
                 "hint": "for global search",
-                "text": "starting from 4 symbols",
+                "text": "starting from 4 characters",
                 "icon": "text_rotation_none"
             },
         ]
@@ -412,7 +412,7 @@ window.data = [
             {
                 "name": "Article length",
                 "hint": "",
-                "text": "up to 34,087 symbols",
+                "text": "up to 34,087 characters",
                 "icon": "text_rotation_none"
             },
         ]

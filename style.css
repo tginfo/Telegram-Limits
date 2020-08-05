@@ -234,7 +234,7 @@ main .collection>.header {
     padding: .5em;
     border-radius: .4em .4em 0 0;
     background: #F6F6F9;
-    box-shadow: 0 -0.1em 0.2em rgb(22, 31, 93, .07);
+    box-shadow: 0 -0.1em 0.2em rgba(22, 31, 93, .07);
     display: flex;
     align-items: center;
     font-size: 1.25em;

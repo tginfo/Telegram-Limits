@@ -1,5 +1,6 @@
 body {
     color: white;
+    background: #1d1d1d;
 }
 
 main {
@@ -19,7 +20,6 @@ main .collection>.card>.item {
 }
 
 .searchbox {
-    box-shadow: 0 0.3em 1em rgba(255, 255, 255, .15);
     background: rgba(255, 255, 255, .15);
 }
 
@@ -27,7 +27,7 @@ footer {
     background: #1d1d1d;
 }
 
-body {
+.backgrounder {
     background: #052956;
 }
 
@@ -45,6 +45,10 @@ main .collection>.card>.item>md-icon {
 
 main .collection>.header>md-icon {
     filter: brightness(1.5);
+}
+
+.searchbox>input {
+    color: white;
 }
 
 @media (max-width: 1020px) {

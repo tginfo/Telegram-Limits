@@ -24,7 +24,12 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+}
+
+.backgrounder {
     background: #86BBFF;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -159,14 +164,14 @@ header .header-box>.explanator>.content>p+p {
 
 main {
     background: white;
-    border-radius: 1em 1em 0 0;
+    border-radius: .5em .5em 0 0;
     z-index: 2;
     box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, .05);
 }
 
 main>.content {
     width: 80%;
-    margin: 3em auto 3em auto;
+    margin: .8em auto 1em auto;
 }
 
 md-icon {
@@ -190,8 +195,8 @@ md-icon {
 
 .searchbox {
     height: 3em;
-    box-shadow: 0 0.3em 1em rgba(0, 0, 0, .1);
-    border-radius: 2em;
+    box-shadow: 0 0.15em 0.8em rgba(114, 114, 114, .24);
+    border-radius: .5em;
     display: flex;
     align-items: center;
 }
@@ -225,11 +230,11 @@ main .collection {
 }
 
 main .collection>.header {
-    margin: 0 1em;
-    padding: .8em;
-    border-radius: 1em 1em 0 0;
+    margin: 0 .6em;
+    padding: .5em;
+    border-radius: .4em .4em 0 0;
     background: #F6F6F9;
-    box-shadow: 0 -0.2em 0.5em rgba(0, 0, 0, .1);
+    box-shadow: 0 -0.1em 0.2em rgb(22, 31, 93, .07);
     display: flex;
     align-items: center;
     font-size: 1.25em;
@@ -255,8 +260,8 @@ main .collection>.header>md-icon {
 
 main .collection>.card {
     background: white;
-    border-radius: 1em;
-    box-shadow: 0 -.25em 1em rgba(0, 0, 0, .1);
+    border-radius: .5em;
+    box-shadow: 0 -0.08em 0.35em rgba(0, 0, 0, .13);
     display: block;
 }
 
@@ -347,7 +352,6 @@ footer>.side>.data {
     }
     main>.content {
         width: 95%;
-        margin-top: 1em;
     }
     header .header-box>.title>.name {
         font-size: 5em;
@@ -379,6 +383,9 @@ footer>.side>.data {
     footer {
         padding: 1em;
         justify-content: center;
+    }
+    main .collection:nth-child(1) {
+        margin-top: 1em;
     }
 }
 

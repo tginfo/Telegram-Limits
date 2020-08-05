@@ -91,13 +91,13 @@ window.data = [
             },
             {
                 "name": "Message editing",
-                "hint": "in public chats",
+                "hint": "",
                 "text": "in 48 hours after sending; unlimited in Saved",
                 "icon": "edit"
             },
             {
                 "name": "Photo and video self-destruction",
-                "hint": "in public chats",
+                "hint": "",
                 "text": "1 to 60 seconds",
                 "icon": "shutter_speed"
             },

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&family=Material+Icons+Outlined&display=swap"
         rel="stylesheet">
@@ -36,6 +36,24 @@
 
     <title>Лимиты в Telegram — Telegram Info</title>
     <script src="./data/ru.js"></script>
+
+
+    <script>
+
+        var viewport = document.getElementById('viewport');
+        var orV = viewport.getAttribute('content');
+        var r = function () {
+            if (window.innerWidth >= 1000 && window.innerHeight / window.innerWidth > .8) {
+                viewport.setAttribute("content", "width=1000");
+                document.documentElement.style.setProperty('--base-size', '2vmin');
+            } else {
+                viewport.setAttribute("content", orV);
+                document.documentElement.style.setProperty('--base-size', '');
+            }
+        };
+        window.addEventListener("resize", r);
+        r();
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38971936-4"></script>

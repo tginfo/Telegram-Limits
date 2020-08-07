@@ -84,6 +84,18 @@ window.data = [
                 "icon": "group_add"
             },
             {
+                "name": "Yönetici sayısı",
+                "hint": "gruplarda",
+                "text": "50'ye kadar",
+                "icon": "security"
+            },
+            {
+                "name": "Bot sayısı",
+                "hint": "gruplarda",
+                "text": "20'ye kadar",
+                "icon": "settings"
+            },
+            {
                 "name": "Ana listede sabit sohbetler",
                 "hint": "",
                 "text": "5 sohbet veya kanal + 5 gizli sohbet",

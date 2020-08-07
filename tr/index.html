@@ -140,7 +140,7 @@
 
 
 
-            if (fits <= 1 || matchMedia("print")) return;
+            if (fits <= 1 || matchMedia("print").matches) return;
 
             var map = [];
             var margin = (res.clientWidth - ((wid + gap) * (fits + 1)));

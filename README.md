@@ -1,4 +1,4 @@
-# Лимиты Telegram ([See in English](#telegram-limits))
+# Лимиты Telegram ([See in English](#telegram-limits)) ([See in Turkish](#telegram-sınırları))
 Данный проект описывает всевозможные лимиты и ограничения в Telegram и отображает на странице [limits.tginfo.me](https://limits.tginfo.me).
 
 ## Как помочь проекту
@@ -103,3 +103,56 @@ window.data = [
 ];
 ```
 3. Pull requests are welcomed
+
+# Telegram Sınırları
+Bu proje, Telegram sınırlamalarını açıklar ve onları [limits.tginfo.me/tr](https://limits.tginfo.me/tr) sayfasında gösterir
+
+## Nasıl katkıda bulunuruz
+### Report problem or make a suggestion
+- [Hata Takibi](https://github.com/tginfo/Telegram-Limits/issues/new)
+- [Geri bildirim](https://t.me/infowritebot) 
+
+### Veriler nasıl çalışıyor
+1. Tüm veriler `/data` klasöründe `ru.js`, `en.js` veya `tr.js` dosyalarına göre bulunur
+2. Dosya yapısı
+```javascript
+// Присваивание данных в ожидаемую переменную
+window.data = [
+    // Секция
+    {
+        // Bölüm adı
+        "name": "Hesaplar",
+
+        // material.io/icons'dan ikon ismi
+        "icon": "account_circle",
+
+        // RGB olarak bölüm rengi
+        "color": "110, 80, 200",
+
+        // Bölüm içeriği
+        "items": [
+            {
+                // Element adı
+                "name": "Kullanıcı Adı",
+
+                // Açıklama (isimden sonraki gri yazı)
+                "hint": "(e.g. @cameraman)",
+
+                // Sınır
+                "text": "5 ila 32 sembol",
+
+                // material.io/icons'dan ikon adı
+                "icon": "alternate_email"
+            },
+
+            {
+                ...
+            }
+        ]
+    },
+    {
+        ...
+    }
+];
+```
+3. PR kabul edilir

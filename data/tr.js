@@ -41,10 +41,16 @@ window.data = [
                 "icon": "block"
             },
             {
-                "name": "Kanal ve grup sayısı",
+                "name": "Kanal ve süpergrup sayısı",
                 "hint": "üye olabileceğiniz",
                 "text": "500 (sizinkiler dahil)",
                 "icon": "groups"
+            },
+            {
+                "name": "Kayıtlı GIF sayısı",
+                "hint": "",
+                "text": "200'e kadar",
+                "icon": "gif"
             },
             {
                 "name": "Video profil süresi",

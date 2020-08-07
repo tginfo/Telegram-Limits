@@ -84,6 +84,18 @@ window.data = [
                 "icon": "group_add"
             },
             {
+                "name": "Admins number",
+                "hint": "in groups",
+                "text": "up to 50",
+                "icon": "security"
+            },
+            {
+                "name": "Bots number",
+                "hint": "in a group",
+                "text": "up to 20",
+                "icon": "settings"
+            },
+            {
                 "name": "Pinned chats in main list",
                 "hint": "",
                 "text": "up to 5 chats or channels + 5 secret chats",

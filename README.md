@@ -108,7 +108,7 @@ window.data = [
 Bu proje, Telegram sınırlamalarını açıklar ve onları [limits.tginfo.me/tr](https://limits.tginfo.me/tr) sayfasında gösterir
 
 ## Nasıl katkıda bulunuruz
-### Report problem or make a suggestion
+### Sorun bildirin veya öneri yapın
 - [Hata Takibi](https://github.com/tginfo/Telegram-Limits/issues/new)
 - [Geri bildirim](https://t.me/infowritebot) 
 

@@ -9,6 +9,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="print.css" media="print">
     <!-- Primary Meta Tags -->
     <meta name="title" content="Лимиты и Ограничения Telegram — Telegram Info">
     <meta name="description" content="Всегда актуальные лимиты Telegram в 2020. 
@@ -149,7 +150,7 @@
 
 
 
-            if (fits <= 1) return;
+            if (fits <= 1 || matchMedia("print")) return;
 
             var map = [];
             var margin = (res.clientWidth - ((wid + gap) * (fits + 1)));

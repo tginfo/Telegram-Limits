@@ -1,0 +1,62 @@
+:root {
+    --base-size: 14px;
+}
+
+.searchbox {
+    display: none;
+}
+
+footer .giticon {
+    display: none;
+}
+
+footer .side>.data:nth-child(3) {
+    display: none;
+}
+
+footer .side>.data:nth-child(2)::after {
+    display: block;
+    content: "limits.tginfo.me";
+}
+
+header {
+    font-size: 1em;
+    min-height: auto;
+    background: none;
+    color: inherit;
+    position: static;
+}
+
+header::before, header::after, .backgrounder {
+    background: none;
+}
+
+main {
+    box-shadow: none;
+}
+
+header .header-box {
+    margin: 0;
+    margin-left: 2em;
+}
+
+main .collection>.header {
+    box-shadow: 0 0 0 1px #828282;
+}
+
+main .collection>.card {
+    box-shadow: 0 0 0 1px #828282;
+}
+
+main>.content {
+    width: auto;
+    margin: .8em 1em 1em 1em;
+}
+
+md-icon {
+    opacity: .5;
+}
+
+#results {
+    position: static;
+}

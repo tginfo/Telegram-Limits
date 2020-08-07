@@ -244,6 +244,10 @@ main .collection>.header {
     display: flex;
     align-items: center;
     font-size: 1.25em;
+    break-after: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 main .collection>.header>.name {
@@ -276,6 +280,9 @@ main .collection>.card>.item {
     border-bottom: solid 1px #eee;
     display: flex;
     align-items: center;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 main .collection>.card>.item:last-child {
@@ -313,6 +320,9 @@ footer {
     display: flex;
     align-items: center;
     padding-left: 10%;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
 }
 
 footer>.logo>img {
@@ -410,11 +420,3 @@ footer>.side>.data {
         padding-left: 1em;
     }
 }
-
-/* @media (min-width: 1500px) {
-    #results {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-        grid-column-gap: 15px;
-    }
-} */

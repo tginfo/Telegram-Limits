@@ -64,6 +64,12 @@ window.data = [
                 "text": "up to 50 in a day",
                 "icon": "add"
             },
+            {
+                "name": "Accounts number",
+                "hint": "(official clients)",
+                "text": "up to 3",
+                "icon": "group_work"
+            },
         ]
     },
     {

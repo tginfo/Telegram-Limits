@@ -98,7 +98,7 @@ window.data = [
             {
                 "name": "Message editing",
                 "hint": "",
-                "text": "in 48 hours after sending; unlimited in Saved",
+                "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights",
                 "icon": "edit"
             },
             {

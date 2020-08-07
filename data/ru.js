@@ -447,4 +447,17 @@ window.data = [
             },
         ]
     },
+    {
+        "name": "Разное",
+        "icon": "miscellaneous_services",
+        "color": "139, 195, 74",
+        "items": [
+            {
+                "name": "Свойства видеоаватара",
+                "hint": "",
+                "text": "800x800px, до 2 MB",
+                "icon": "slow_motion_video"
+            },
+        ]
+    },
 ];

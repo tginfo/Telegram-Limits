@@ -447,4 +447,17 @@ window.data = [
             },
         ]
     },
+    {
+        "name": "Miscellaneous",
+        "icon": "miscellaneous_services",
+        "color": "139, 195, 74",
+        "items": [
+            {
+                "name": "Video avatar properties",
+                "hint": "",
+                "text": "800x800px, up to 2 MB",
+                "icon": "slow_motion_video"
+            },
+        ]
+    },
 ];

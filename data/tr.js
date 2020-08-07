@@ -64,6 +64,12 @@ window.data = [
                 "text": "bir günde 50'ye kadar",
                 "icon": "add"
             },
+            {
+                "name": "Hesap sayısı",
+                "hint": "(resmi istemciler)",
+                "text": "3'e kadar",
+                "icon": "group_work"
+            },
         ]
     },
     {
@@ -208,7 +214,7 @@ window.data = [
             {
                 "name": "Dosya boyut sınırı",
                 "hint": "",
-                "text": "2.0GB'a kadar",
+                "text": "2.0 GB'a kadar",
                 "icon": "cloud_upload"
             },
             {
@@ -301,13 +307,13 @@ window.data = [
             {
                 "name": "Dosya yükleme sınırı",
                 "hint": "(BotAPI)",
-                "text": "50MB'a kadar",
+                "text": "50 MB'a kadar",
                 "icon": "cloud_upload"
             },
             {
                 "name": "Dosya indirme sınırı",
                 "hint": "(BotAPI)",
-                "text": "20MB'a kadar",
+                "text": "20 MB'a kadar",
                 "icon": "cloud_download"
             },
             {
@@ -325,7 +331,7 @@ window.data = [
             {
                 "name": "Mesaj biçimlendirme verisi",
                 "hint": "",
-                "text": "10KB'a kadar",
+                "text": "10 KB'a kadar",
                 "icon": "format_shapes"
             },
             {
@@ -396,6 +402,12 @@ window.data = [
                 "text": "statik için 512KB'a kadar, hareketli için 64KB",
                 "icon": "folder_open"
             },
+            {
+                "name": "FPS",
+                "hint": "",
+                "text": "30 veya 60",
+                "icon": "speed"
+            },
         ]
     },
     {
@@ -410,9 +422,9 @@ window.data = [
                 "icon": "how_to_reg"
             },
             {
-                "name": "Makale uzunluğu",
+                "name": "Makale boyutu",
                 "hint": "",
-                "text": "34,087 karaktere kadar",
+                "text": "64 KiB'e kadar",
                 "icon": "text_rotation_none"
             },
         ]

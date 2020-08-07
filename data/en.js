@@ -47,6 +47,12 @@ window.data = [
                 "icon": "groups"
             },
             {
+                "name": "Saved GIFs number",
+                "hint": "",
+                "text": "up to 200",
+                "icon": "gif"
+            },
+            {
                 "name": "Video-avatar duration",
                 "hint": "",
                 "text": "up to 10 seconds",

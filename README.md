@@ -113,7 +113,7 @@ Bu proje, Telegram sınırlamalarını açıklar ve onları [limits.tginfo.me/tr
 - [Geri bildirim](https://t.me/infowritebot) 
 
 ### Veriler nasıl çalışıyor
-1. Tüm veriler `/data` klasöründe `ru.js`, `en.js` veya `tr.js` dosyalarına göre bulunur
+1. Tüm veriler `/data` klasöründe `en.js` ve `tr.js` dosyalarına göre bulunur
 2. Dosya yapısı
 ```javascript
 // Присваивание данных в ожидаемую переменную

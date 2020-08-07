@@ -30,8 +30,8 @@ window.data = [
             },
             {
                 "name": "Self-destruction period",
-                "hint": "(if no activity)",
-                "text": "from 1 to 12 months",
+                "hint": "if no activity",
+                "text": "1, 3, 6 and 12 months (6 by default)",
                 "icon": "auto_delete"
             },
             {

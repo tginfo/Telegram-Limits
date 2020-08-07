@@ -447,4 +447,17 @@ window.data = [
             },
         ]
     },
+    {
+        "name": "Çeşitli",
+        "icon": "miscellaneous_services",
+        "color": "139, 195, 74",
+        "items": [
+            {
+                "name": "Video profil özellikleri",
+                "hint": "",
+                "text": "800x800px, 2 MB'a kadar",
+                "icon": "slow_motion_video"
+            },
+        ]
+    },
 ];

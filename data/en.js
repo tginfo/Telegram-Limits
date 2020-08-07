@@ -41,7 +41,7 @@ window.data = [
                 "icon": "block"
             },
             {
-                "name": "Channels and groups number",
+                "name": "Channels and supergroups number",
                 "hint": "you can be member of",
                 "text": "up to 500 (including one you own)",
                 "icon": "groups"
@@ -57,12 +57,6 @@ window.data = [
                 "hint": "",
                 "text": "up to 10 seconds",
                 "icon": "slow_motion_video"
-            },
-            {
-                "name": "Inviting users",
-                "hint": "to chats and channels",
-                "text": "up to 200 people",
-                "icon": "inbox"
             },
             {
                 "name": "Group and channel creation",
@@ -120,8 +114,8 @@ window.data = [
                 "icon": "shutter_speed"
             },
             {
-                "name": "Action history",
-                "hint": "(sunscriptions, posts, etc.)",
+                "name": "Recent actions",
+                "hint": "(subscriptions, posts, etc.)",
                 "text": "last two days",
                 "icon": "history"
             },
@@ -197,6 +191,12 @@ window.data = [
                 "hint": "without subscription",
                 "text": "up to 5 minutes once a day",
                 "icon": "lock"
+            },
+            {
+                "name": "Inviting users",
+                "hint": "",
+                "text": "up to 200 people",
+                "icon": "inbox"
             },
             {
                 "name": "Username change reservation",

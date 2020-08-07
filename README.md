@@ -59,6 +59,9 @@ This project describes Telegram limitations and displays them on [limits.tginfo.
 - [Bug Tracker](https://github.com/tginfo/Telegram-Limits/issues/new)
 - [Feedback](https://t.me/infowritebot) 
 
+### Translations
+The project is not ready yet to be multilangual, please check in few days
+
 ### How to work with data
 1. All the data is located in `/data`, in `ru.js` and `en.js` files accordingly
 2. File structure

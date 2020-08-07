@@ -1,58 +1,42 @@
-body {
-    color: white;
-    background: #1d1d1d;
-}
-
-main {
-    background: black;
-}
-
-main .collection>.header {
-    background: #3f3f48;
-}
-
-main .collection>.card {
-    background: #2d2e2f;
-}
-
-main .collection>.card>.item {
-    border-bottom: solid 1px #424242;
-}
-
-.searchbox {
-    background: rgba(255, 255, 255, .15);
-}
-
-footer {
-    background: #1d1d1d;
-}
-
-.backgrounder {
-    background: #052956;
-}
-
-header {
-    background: linear-gradient(180deg, #4f0080 0%, #052956 50%);
-}
-
-header::after {
-    opacity: .5;
-}
-
-main .collection>.card>.item>md-icon {
-    filter: brightness(1.5);
-}
-
-main .collection>.header>md-icon {
-    filter: brightness(1.5);
-}
-
-.searchbox>input {
-    color: white;
-}
-
-@media (max-width: 1020px) {
+@media screen {
+    body {
+        color: white;
+        background: #1d1d1d;
+    }
+    main {
+        background: black;
+    }
+    main .collection>.header {
+        background: #3f3f48;
+    }
+    main .collection>.card {
+        background: #2d2e2f;
+    }
+    main .collection>.card>.item {
+        border-bottom: solid 1px #424242;
+    }
+    .searchbox {
+        background: rgba(255, 255, 255, .15);
+    }
+    footer {
+        background: #1d1d1d;
+    }
+    .backgrounder {
+        background: #052956;
+    }
+    header {
+        background: linear-gradient(180deg, #4f0080 0%, #052956 50%);
+    }
     header::after {
-        opacity: .2;
+        opacity: .5;
+    }
+    main .collection>.card>.item>md-icon {
+        filter: brightness(1.5);
+    }
+    main .collection>.header>md-icon {
+        filter: brightness(1.5);
+    }
+    .searchbox>input {
+        color: white;
     }
 }

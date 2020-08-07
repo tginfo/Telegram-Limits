@@ -414,6 +414,12 @@ window.data = [
                 "text": "до 512КБ для простых, до 64КБ для анимированных",
                 "icon": "folder_open"
             },
+            {
+                "name": "FPS",
+                "hint": "",
+                "text": "30 или 60",
+                "icon": "speed"
+            },
         ]
     },
     {

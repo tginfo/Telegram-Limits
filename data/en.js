@@ -414,6 +414,12 @@ window.data = [
                 "text": "up to 512KB for static, up to 64KB for animated",
                 "icon": "folder_open"
             },
+            {
+                "name": "FPS",
+                "hint": "",
+                "text": "either 30 or 60",
+                "icon": "speed"
+            },
         ]
     },
     {

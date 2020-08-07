@@ -116,7 +116,7 @@ window.data = [
             {
                 "name": "Mesaj düzenleme",
                 "hint": "",
-                "text": "Gönderdikten sonra 48 saat; Kayıtlı'da sınırsız",
+                "text": "Gönderdikten sonra 48 saat; Kayıtlı'da ve sabitleme hakkı olan yöneticiler için sınırsız",
                 "icon": "edit"
             },
             {

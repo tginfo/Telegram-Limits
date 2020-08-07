@@ -91,7 +91,7 @@ window.data = [
             },
             {
                 "name": "Bots number",
-                "hint": "in a group",
+                "hint": "in groups",
                 "text": "up to 20",
                 "icon": "settings"
             },

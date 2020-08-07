@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&family=Material+Icons+Outlined&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../dark.css" media="(prefers-color-scheme: dark)">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Telegram Sınırları — Telegram Info">
+    <meta name="description" content="2020'de her zaman güncel Telegram sınırlarıMesaj uzunluğu, paketteki çıkartma sayısı, Bot API'de mesaj sıklığı, katılımcı sayısı,
+    düzenleme, maksimum dosya boyutu ve daha fazlası hakkında sınırlar">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tginfo.me/limits/">
+    <meta property="og:title" content="Telegram Sınırları — Telegram Info">
+    <meta property="og:description" content="Her zaman güncel Telegram sınırları">
+    <meta property="og:image" content="../assets/picto_tr.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://tginfo.me/limits/tr">
+    <meta property="twitter:title" content="Telegram Sınırları — Telegram Info">
+    <meta property="twitter:description" content="Her zaman güncel Telegram sınırları">
+    <meta property="twitter:image" content="https://limits.tginfo.me/assets/picto_twitter_tr.png">
+
+    <link rel=”alternate” href=”/tr” hreflang=”x-default” />
+    <link rel=”alternate” hreflang=”ru-ru” href=”/” />
+    <link rel=”alternate” hreflang=”uk-ua” href=”/” />
+    <link rel=”alternate” hreflang=”en-us” href=”/en” />
+    <link rel=”alternate” hreflang=”tr-tr” href=”/tr” />
+
+    <title>Telegram Sınırları — Telegram Info</title>
+    <script src="../data/tr.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38971936-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-38971936-4', {
+            'page_path': '/limits/tr'
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="header-box">
+            <div class="title">
+                <div class="logo">
+                    <a href="https://tginfo.me">
+                        <img src="../assets/tginfo.png" alt="Telegram Info logo">
+                        <span class="bold">Telegram</span>
+                        <span class="middle">Info</span>
+                    </a>
+                    <span class="name" id="subtitle">| Çalışma</span>
+                </div>
+                <h1 class="name" id="bigname">Telegram Sınırları</h1>
+            </div>
+            <article class="explanator">
+                <h2 class="title" id="articlename">Sınırlar neden vardır</h2>
+                <div class="content">
+                    <p id="explainp1">Diğer tüm hizmetlerde olduğu gibi, Telegram da kullanıcıların Adil Kullanım Politikasına uymasını sağlamak ve hizmetin çalışmaya devam etmesini sağlamak için sınırları kullanır.</p>
+                    <p id="explainp2">Bu tablo şu anda bilinen Telegram sınırlarını listeler ve güncel tutulmaktadır.</p>
+                </div>
+            </article>
+        </div>
+    </header>
+    <div class="backgrounder">
+        <main>
+            <div class="content">
+                <label class="searchbox" for="search">
+                    <md-icon>search</md-icon>
+                    <input type="search" id="search" placeholder="Search" autocomplete="off">
+                </label>
+                <div id="results">
+                    <div class="loader" id="loadingtitle">Yükleniyor...</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="logo">
+            <img src="../assets/tginfologo.jpg" alt="Telegram Info logo">
+        </div>
+        <div class="side">
+            <div class="name">
+                <span class="bold">Telegram</span>
+                <span class="middle">Info</span>
+                <a href="https://github.com/tginfo/Telegram-Limits/" target="_blank" class="giticon">
+                    <img src="../assets/git.svg" alt="GitHub">
+                </a>
+            </div>
+            <div class="data"><a href="https://t.me/tginfo" target="_blank">@tginfo</a> tarafından sağlanır</div>
+            <div class="data"><a href="https://tginfo.me/" id="homepagelink">Ana Sayfa</a> | <a href="/"
+                    hreflang="ru-ru">Rusça</a> | <a href="/en"
+                    hreflang="en-us">İngilizce</a></div>
+        </div>
+    </footer>
+
+    <script>
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        function position() {
+            var max = 0;
+            var res = document.getElementById("results");
+            var gap = parseInt(getComputedStyle(res).fontSize, 10);
+            var wid = Math.max(450, ((res.clientWidth - gap) / 3) - gap);
+            var fits = Math.floor((res.clientWidth + gap) / (wid + gap)) - 1;
+            if (fits > 3) fits = 3;
+
+            var cur = -1;
+            [].slice.call(res.children)
+                .forEach(function (el) {
+
+                    el.style.width = "";
+                    el.style.top = "";
+                    el.style.left = "";
+                    el.style.position = "";
+                    el.style.margin = "";
+                    res.style.marginTop = "";
+                    res.style.height = ""
+                });
+
+
+
+            if (fits <= 1) return;
+
+            var map = [];
+            var margin = (res.clientWidth - ((wid + gap) * (fits + 1)));
+            for (var index = 0; index <= fits; index++) {
+                map[index] = [];
+            }
+
+
+            [].slice.call(res.children)
+                .forEach(function (el) {
+                    cur++;
+                    if (cur > fits) cur = 0;
+
+                    const al = map.map(function (col) {
+                        var last = col[col.length - 1];
+
+                        if (!last) return 0;
+                        return last.offsetTop + last.clientHeight;
+                    });
+
+                    var min = Math.min.apply(null, al);
+                    cur = al.findIndex(function (e) {
+                        return e === min;
+                    });
+
+                    var lasted = map[cur][map[cur].length - 1];
+
+                    el.style.position = "absolute";
+                    el.style.width = wid + "px";
+                    el.style.margin = "0";
+                    el.style.left = margin + cur * (wid + gap) + "px";
+                    el.style.top = (lasted ? (lasted.offsetTop + lasted.clientHeight) + gap : 0) + "px";
+                    map[cur].push(el);
+
+                    if (el.offsetTop + el.clientHeight > max) max = el.offsetTop + el.clientHeight
+                });
+
+
+            res.style.height = max + gap + "px";
+            res.style.marginTop = "2.5em";
+        }
+
+        function run() {
+            var search = document.getElementById("search").value.toUpperCase().trim();
+            document.getElementById("results").innerHTML = "";
+
+            data.forEach(function (c) {
+                var collection = document.createElement("table");
+                collection.className = "collection";
+                collection.style.setProperty("--vcolor", c.color);
+
+                var header = document.createElement("div");
+                header.className = "header";
+
+                collection.appendChild(header);
+
+                var hIcon = document.createElement("md-icon");
+                hIcon.innerText = c.icon;
+                header.appendChild(hIcon);
+
+                var hName = document.createElement("caption");
+                hName.className = "name";
+                hName.innerText = c.name;
+                header.appendChild(hName);
+
+
+                var card = document.createElement("tbody");
+                card.className = "card";
+                collection.appendChild(card);
+
+                var count = 0;
+
+                c.items.forEach(function (i) {
+                    if (search.length > 0) {
+                        if (c.name.toUpperCase().indexOf(search) === -1
+                            && i.name.toUpperCase().indexOf(search) === -1
+                            && i.hint.toUpperCase().indexOf(search) === -1
+                            && i.text.toUpperCase().indexOf(search) === -1) {
+                            return;
+                        }
+                    }
+                    count++;
+
+                    var item = document.createElement("tr");
+                    item.className = "item";
+                    card.appendChild(item);
+
+                    var icon = document.createElement("md-icon");
+                    icon.innerText = i.icon;
+                    item.appendChild(icon);
+
+                    var content = document.createElement("div");
+                    content.className = "content";
+                    item.appendChild(content);
+
+                    var title = document.createElement("th");
+                    title.className = "title";
+                    content.appendChild(title);
+                    title.innerText = i.name + " ";
+
+                    var info = document.createElement("span");
+                    info.className = "info";
+                    title.appendChild(info);
+                    info.innerText = i.hint;
+
+                    var data = document.createElement("td");
+                    data.className = "data";
+                    content.appendChild(data);
+                    data.innerText = i.text;
+                });
+
+                if (count === 0) return;
+                document.getElementById("results").appendChild(collection);
+            });
+            position();
+        }
+        window.addEventListener("load", function () {
+            position();
+        }, false);
+
+        document.getElementById("search").addEventListener("keyup", run, false);
+        window.addEventListener("resize", position, false);
+
+        document.getElementById("search").value = getParameterByName("q");
+        run();
+    </script>
+
+    <script src="../genjson.js"></script>
+</body>
+
+</html>

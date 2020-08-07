@@ -136,7 +136,7 @@ window.data = [
                 "name": "Kullanıcı Adı",
 
                 // Açıklama (isimden sonraki gri yazı)
-                "hint": "(e.g. @cameraman)",
+                "hint": "(örn. @kameraman)",
 
                 // Sınır
                 "text": "5 ila 32 sembol",

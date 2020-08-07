@@ -226,7 +226,7 @@ window.data = [
             {
                 "name": "File size limit",
                 "hint": "",
-                "text": "up to 2.0GB",
+                "text": "up to 2.0 GB",
                 "icon": "cloud_upload"
             },
             {
@@ -319,13 +319,13 @@ window.data = [
             {
                 "name": "File upload limit",
                 "hint": "(BotAPI)",
-                "text": "up to 50MB",
+                "text": "up to 50 MB",
                 "icon": "cloud_upload"
             },
             {
                 "name": "File download limit",
                 "hint": "(BotAPI)",
-                "text": "up to 20MB",
+                "text": "up to 20 MB",
                 "icon": "cloud_download"
             },
             {
@@ -343,7 +343,7 @@ window.data = [
             {
                 "name": "Message formatting data",
                 "hint": "",
-                "text": "up to 10KB",
+                "text": "up to 10 KB",
                 "icon": "format_shapes"
             },
             {
@@ -411,7 +411,7 @@ window.data = [
             {
                 "name": "Sticker file size",
                 "hint": "",
-                "text": "up to 512KB for static, up to 64KB for animated",
+                "text": "up to 512 KB for static, up to 64 KB for animated",
                 "icon": "folder_open"
             },
             {
@@ -434,9 +434,9 @@ window.data = [
                 "icon": "how_to_reg"
             },
             {
-                "name": "Article length",
+                "name": "Article size",
                 "hint": "",
-                "text": "up to 34,087 characters",
+                "text": "up to 64 KiB",
                 "icon": "text_rotation_none"
             },
         ]

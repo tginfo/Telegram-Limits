@@ -226,7 +226,7 @@ window.data = [
             {
                 "name": "Объем отправляемых файлов",
                 "hint": "",
-                "text": "до 2,0 ГБ",
+                "text": "до 2,0 GB",
                 "icon": "cloud_upload"
             },
             {
@@ -319,13 +319,13 @@ window.data = [
             {
                 "name": "Файлы отправляемые ботом",
                 "hint": "(BotAPI)",
-                "text": "до 50МБ",
+                "text": "до 50 МБ",
                 "icon": "cloud_upload"
             },
             {
                 "name": "Файлы принимаемые ботом",
                 "hint": "(BotAPI)",
-                "text": "до 20МБ",
+                "text": "до 20 МБ",
                 "icon": "cloud_download"
             },
             {
@@ -343,7 +343,7 @@ window.data = [
             {
                 "name": "Данные форматирования сообщения",
                 "hint": "",
-                "text": "до 10КБ",
+                "text": "до 10 KB",
                 "icon": "format_shapes"
             },
             {
@@ -411,7 +411,7 @@ window.data = [
             {
                 "name": "Размер файла стикера",
                 "hint": "",
-                "text": "до 512КБ для простых, до 64КБ для анимированных",
+                "text": "до 512 KB для простых, до 64 KB для анимированных",
                 "icon": "folder_open"
             },
             {
@@ -434,9 +434,9 @@ window.data = [
                 "icon": "how_to_reg"
             },
             {
-                "name": "Количество знаков в тексте",
+                "name": "Размер текста",
                 "hint": "",
-                "text": "до 34 087 символов",
+                "text": "до 64 KiB",
                 "icon": "text_rotation_none"
             },
         ]

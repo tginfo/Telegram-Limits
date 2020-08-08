@@ -4,15 +4,7 @@
 ## Как помочь проекту
 ### Сообщить о проблеме или предложить идею
 - [Баг-трекер](https://github.com/tginfo/Telegram-Limits/issues/new)
-- [Обратная связь](https://t.me/infowritebot) 
-
-# Telegram Sınırları
-Bu proje, Telegram sınırlarını açıklıyor ve [limits.tginfo.me/tr](https://limits.tginfo.me/tr) adresinde gösteriyor.
-
-## Katkıda bulunma
-### Sorun bildirin ya da öneri yapın
-- [Hata Takibi](https://github.com/tginfo/Telegram-Limits/issues/new)
-- [Geri bildirim](https://t.me/infowritebot) 
+- [Обратная связь](https://t.me/infowritebot)
 
 # Telegram Limits
 This project describes Telegram limitations and displays them on [limits.tginfo.me/en](https://limits.tginfo.me/en)

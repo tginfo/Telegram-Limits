@@ -6,10 +6,6 @@
 - [Баг-трекер](https://github.com/tginfo/Telegram-Limits/issues/new)
 - [Обратная связь](https://t.me/infowritebot) 
 
-### Как работать с данными
-1. Все данные находятся в `/data`, в файлах `ru.js` и `en.js` соответственно
-2. Структура файла
-
 # Telegram Limits
 This project describes Telegram limitations and displays them on [limits.tginfo.me/en](https://limits.tginfo.me/en)
 

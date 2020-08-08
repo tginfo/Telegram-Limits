@@ -180,11 +180,11 @@ $markup = [
             <div class="name">
                 <span class="bold">Telegram</span>
                 <span class="middle">Info</span>
-                <a href="https://github.com/tginfo/Telegram-Limits/" target="_blank" class="giticon">
+                <a href="https://github.com/tginfo/Telegram-Limits/" rel="noopener" target="_blank" class="giticon">
                     <img src="<?= BASE ?>/assets/images/git.svg" alt="GitHub">
                 </a>
             </div>
-            <div class="data">Proudly powered by <a href="https://t.me/tginfo" target="_blank">@tginfo</a></div>
+            <div class="data">Proudly powered by <a href="https://t.me/tginfo" rel="noopener" target="_blank">@tginfo</a></div>
             <div class="data"><a href="https://tginfo.me/" data-lang="homepage"><?= __("homepage", UCOMP) ?></a> |
                 <label for="lang-switch">
                     <md-icon id="langicon">language</md-icon>

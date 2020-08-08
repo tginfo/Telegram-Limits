@@ -69,3 +69,6 @@ Example: `/assets/images/previews/es/preview.png` and `/assets/images/previews/e
     }
 ];
 ```
+
+## Translators
+- Turkish: @cnpltdncsln

@@ -15,7 +15,7 @@ jobs:
         with:
           token: "${{ github.token }}"
           target_url: https://limits.tginfo.me
-          ref: "${{ github.event.ref }}"
+          ref: "${{ github.event.after }}"
           auto_merge: "false"
           inititial_status: pending
           environment: production

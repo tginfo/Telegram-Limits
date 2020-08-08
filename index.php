@@ -6,7 +6,7 @@ if ($lang !== $_GET["hl"]) {
     header("Location: /$lang/");
 }
 
-$data = json_decode(file_get_contents(__DIR__ . "/data/$lang.json"), true);
+$data = json_decode(file_get_contents(__DIR__ . "/data/$lang.json"), UCOMP);
 
 $main_qa = [];
 
@@ -52,22 +52,22 @@ $markup = [
     <link rel="stylesheet" href="<?= BASE ?>/assets/styles/dark.css" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="<?= BASE ?>/assets/styles/print.css" media="print">
     <!-- Primary Meta Tags -->
-    <meta name="title" content="<?= __("title", true) ?>" data-lang="title">
-    <meta name="description" content="<?= __("description", true) ?>" data-lang="description">
+    <meta name="title" content="<?= __("title", UCOMP) ?>" data-lang="title">
+    <meta name="description" content="<?= __("description", UCOMP) ?>" data-lang="description">
 
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?= $_SERVER['REQUEST_URI'] ?>">
-    <meta property="og:title" content="<?= __("title", true) ?>" data-lang="title">
-    <meta property="og:description" content="<?= __("description_short", true) ?>" data-lang="description_short">
+    <meta property="og:title" content="<?= __("title", UCOMP) ?>" data-lang="title">
+    <meta property="og:description" content="<?= __("description_short", UCOMP) ?>" data-lang="description_short">
     <meta property="og:image" content="<?= BASE ?>/assets/images/previews/<?= $lang ?>/preview.png" data-lang="preview">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="<?= $_SERVER['REQUEST_URI'] ?>">
-    <meta property="twitter:title" content="<?= __("title", true) ?>" data-lang="title">
-    <meta property="twitter:description" content="<?= __("description_short", true) ?>" data-lang="description_short">
+    <meta property="twitter:title" content="<?= __("title", UCOMP) ?>" data-lang="title">
+    <meta property="twitter:description" content="<?= __("description_short", UCOMP) ?>" data-lang="description_short">
     <meta property="twitter:image" content="<?= BASE ?>/assets/images/previews/<?= $lang ?>/twitter.png" data-lang="preview_twitter">
 
     <link rel="alternate" href="/<?= $supported_langs[""] ?>" hreflang="x-default" />
@@ -80,7 +80,7 @@ $markup = [
     }
     ?>
 
-    <title data-lang="title"><?= __("title", true) ?></title>
+    <title data-lang="title"><?= __("title", UCOMP) ?></title>
     <script>
         window.data =
             <?= json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_UNICODE) ?>
@@ -115,15 +115,15 @@ $markup = [
                         <span class="bold">Telegram</span>
                         <span class="middle">Info</span>
                     </a>
-                    <span class="name" data-lang="study"><?= __("study", true) ?></span>
+                    <span class="name" data-lang="study"><?= __("study", UCOMP) ?></span>
                 </div>
-                <h1 class="name" data-lang="big_title"><?= __("big_title", true) ?></h1>
+                <h1 class="name" data-lang="big_title"><?= __("big_title", UCOMP) ?></h1>
             </div>
             <article class="explanator">
-                <h2 class="title" data-lang="article_name"><?= __("article_name", true) ?></h2>
+                <h2 class="title" data-lang="article_name"><?= __("article_name", UCOMP) ?></h2>
                 <div class="content">
-                    <p data-lang="article_p1"><?= __("article_p1", true) ?></p>
-                    <p data-lang="article_p2"><?= __("article_p2", true) ?></p>
+                    <p data-lang="article_p1"><?= __("article_p1", UCOMP) ?></p>
+                    <p data-lang="article_p2"><?= __("article_p2", UCOMP) ?></p>
                 </div>
             </article>
         </div>
@@ -133,7 +133,7 @@ $markup = [
             <div class="content">
                 <label class="searchbox" for="search">
                     <md-icon>search</md-icon>
-                    <input type="search" id="search" placeholder="<?= __("search", true) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"]) ?>">
+                    <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"]) ?>">
                 </label>
                 <div id="results">
                     <?php
@@ -185,7 +185,7 @@ $markup = [
                 </a>
             </div>
             <div class="data">Proudly powered by <a href="https://t.me/tginfo" target="_blank">@tginfo</a></div>
-            <div class="data"><a href="https://tginfo.me/" data-lang="homepage"><?= __("homepage", true) ?></a> |
+            <div class="data"><a href="https://tginfo.me/" data-lang="homepage"><?= __("homepage", UCOMP) ?></a> |
                 <label for="lang-switch">
                     <md-icon id="langicon">language</md-icon>
                     <select id="lang-switch">

@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(./assets/icons.woff2) format('woff2');
+    src: url(../images/icons.woff2) format('woff2');
 }
 
 :root {
@@ -75,7 +75,7 @@ header::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(./assets/plane.png);
+    background: url(../images/plane.png);
     background-size: auto 105%;
     background-repeat: no-repeat;
     background-position: 60% 100%;
@@ -89,7 +89,7 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(./assets/limits.png);
+    background: url(../images/limits.png);
     background-size: auto 40%;
     background-repeat: no-repeat;
     background-position: 5% 100%;
@@ -358,6 +358,10 @@ footer>.side>.data {
 
 .giticon img {
     height: 1em;
+}
+
+#langicon {
+    vertical-align: bottom;
 }
 
 @media (max-width: 1020px) {

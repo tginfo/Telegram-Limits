@@ -1,0 +1,138 @@
+function position() {
+    var max = 0;
+    var res = document.getElementById("results");
+    var gap = parseInt(getComputedStyle(res).fontSize, 10);
+    var wid = Math.max(450, ((res.clientWidth - gap) / 3) - gap);
+    var fits = Math.floor((res.clientWidth + gap) / (wid + gap)) - 1;
+    if (fits > 3) fits = 3;
+
+    var cur = -1;
+    [].slice.call(res.children)
+        .forEach(function (el) {
+
+            el.style.width = "";
+            el.style.top = "";
+            el.style.left = "";
+            el.style.position = "";
+            el.style.margin = "";
+            res.style.marginTop = "";
+            res.style.height = ""
+        });
+
+
+
+    if (fits <= 1 || matchMedia("print").matches) return;
+
+    var map = [];
+    var margin = (res.clientWidth - ((wid + gap) * (fits + 1)));
+    for (var index = 0; index <= fits; index++) {
+        map[index] = [];
+    }
+
+
+    [].slice.call(res.children)
+        .forEach(function (el) {
+            cur++;
+            if (cur > fits) cur = 0;
+
+            const al = map.map(function (col) {
+                var last = col[col.length - 1];
+
+                if (!last) return 0;
+                return last.offsetTop + last.clientHeight;
+            });
+
+            var min = Math.min.apply(null, al);
+            cur = al.findIndex(function (e) {
+                return e === min;
+            });
+
+            var lasted = map[cur][map[cur].length - 1];
+
+            el.style.position = "absolute";
+            el.style.width = wid + "px";
+            el.style.margin = "0";
+            el.style.left = margin + cur * (wid + gap) + "px";
+            el.style.top = (lasted ? (lasted.offsetTop + lasted.clientHeight) + gap : 0) + "px";
+            map[cur].push(el);
+
+            if (el.offsetTop + el.clientHeight > max) max = el.offsetTop + el.clientHeight
+        });
+
+
+    res.style.height = max + gap + "px";
+    res.style.marginTop = "2.5em";
+}
+
+var res = document.getElementById("results");
+var list = [].slice.call(res.children)
+var reg = list
+    .map(function (e) {
+        return [].slice.call(e.querySelectorAll(".item"))
+    })
+
+function uc(s) {
+    return s.toUpperCase().replace(/Ё/, "Е")
+}
+
+function run() {
+    var s = uc(document.getElementById("search").value.trim());
+
+
+    list.forEach(function (e, ind) {
+        var se = 0;
+        var seA = 0;
+        var c = e.querySelector(".card");
+        var h = e.querySelector(".header .name");
+
+        if (uc(h.innerText).indexOf(s) !== -1) {
+            se = 1;
+            seA = 1;
+        }
+
+        reg[ind]
+            .forEach(function (i) {
+                var l = i.querySelector(".content");
+
+                if (seA || uc(l.innerText).indexOf(s) !== -1 || s.length === 0) {
+                    se = 1;
+                    c.appendChild(i)
+                }
+                else try {
+                    c.removeChild(i);
+                } catch (e) {
+
+                }
+            })
+
+        if (!se) try {
+            res.removeChild(e);
+        } catch (e) {
+
+        }
+        else res.appendChild(e);
+    })
+
+    position();
+}
+window.addEventListener("load", function () {
+    position();
+}, false);
+
+document.getElementById("search").addEventListener("keyup", run, false);
+window.addEventListener("resize", position, false);
+
+document.getElementById("lang-switch").addEventListener("change", function () {
+    window.location.href = "/" + this.value;
+})
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+run();

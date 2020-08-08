@@ -9,47 +9,6 @@
 ### Как работать с данными
 1. Все данные находятся в `/data`, в файлах `ru.js` и `en.js` соответственно
 2. Структура файла
-```javascript
-// Присваивание данных в ожидаемую переменную
-window.data = [
-    // Секция
-    {
-        // Название секции
-        "name": "Учётные записи",
-
-        // Название иконки из material.io/icons
-        "icon": "account_circle",
-
-        // RGB акцентного цвета секции
-        "color": "110, 80, 200",
-
-        // Содержимое секции
-        "items": [
-            {
-                // Описываемый элемент
-                "name": "Имя пользователя",
-
-                // Уточнение (серый текст после назвния)
-                "hint": "(например, @cameraman)",
-
-                // Собственно, лимит
-                "text": "от 5 до 32 символов",
-
-                // Название иконки из material.io/icons
-                "icon": "alternate_email"
-            },
-
-            {
-                ...
-            }
-        ]
-    },
-    {
-        ...
-    }
-];
-```
-3. Pull запросы приветствуются
 
 # Telegram Limits
 This project describes Telegram limitations and displays them on [limits.tginfo.me/en](https://limits.tginfo.me/en)
@@ -59,16 +18,25 @@ This project describes Telegram limitations and displays them on [limits.tginfo.
 - [Bug Tracker](https://github.com/tginfo/Telegram-Limits/issues/new)
 - [Feedback](https://t.me/infowritebot) 
 
-### Translations
-The project is not ready yet to be multilangual, please check in few days
+### Add new language
+0. Fork
+1. Create folder in `/localization` named in according to [ISO 639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) 
+with `lang.json`, so it will be `/localization/es/lang.json` for Spanish
+2. Create file in `/data/<code>.json`. Example: `es.json` for Spanish
+3. Translate the files by using any other available language
+4. Check out `/assets/images/previews/_templates` directory. It contains Illustrator files with templates for
+OpenGraph and Twitter preview snippets images. Also it contains `fonts` folder with required fonts to render
+the picture correctly
+5. Translate the images and export them as PNGs to `/assets/images/previews/<code>` directory. 
+Example: `/assets/images/previews/es/preview.png` and `/assets/images/previews/es/twitter.png` for Spanish
+6. Add your language to the `/localization/languages.json` file. Example: `"es": ["Español"]` for Spanish
+7. Well done! You can make a pull-request now.
 
-### How to work with data
-1. All the data is located in `/data`, in `ru.js` and `en.js` files accordingly
+### How to help translate
+1. All the displayed data is located in `/data`, in `ru.json` and `en.json` etc.
 2. File structure
 ```javascript
-// Присваивание данных в ожидаемую переменную
-window.data = [
-    // Секция
+[
     {
         // Section name
         "name": "Accounts",
@@ -105,4 +73,3 @@ window.data = [
     }
 ];
 ```
-3. Pull requests are welcomed

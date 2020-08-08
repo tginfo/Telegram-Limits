@@ -1,0 +1,6 @@
+Header add Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ index.php?hl=$1 [QSA]
+RewriteRule ^([^/]+)/([^/]+)/?$ index.php?hl=$1&q=$2 [QSA]

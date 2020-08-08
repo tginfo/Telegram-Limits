@@ -1,4 +1,4 @@
-window.data = [
+[
     {
         "name": "Accounts",
         "icon": "account_circle",
@@ -69,7 +69,7 @@ window.data = [
                 "hint": "(official clients)",
                 "text": "up to 3",
                 "icon": "group_work"
-            },
+            }
         ]
     },
     {
@@ -142,7 +142,7 @@ window.data = [
                 "hint": "(time before username will be available for everyone, not just the original owner)",
                 "text": "about 15-30 minutes",
                 "icon": "timelapse"
-            },
+            }
         ]
     },
     {
@@ -209,7 +209,7 @@ window.data = [
                 "hint": "(time before username will be available for everyone, not just the original owner)",
                 "text": "about 15-30 minutes",
                 "icon": "timelapse"
-            },
+            }
         ]
     },
     {
@@ -247,6 +247,18 @@ window.data = [
                 "text": "up to 10 items",
                 "icon": "dashboard"
             },
+            {
+                "name": "Scheduled messages number",
+                "hint": "",
+                "text": "up to 100 items",
+                "icon": "update"
+            },
+            {
+                "name": "Schedule range",
+                "hint": "",
+                "text": "up to 365 days",
+                "icon": "date_range"
+            }
         ]
     },
     {
@@ -265,7 +277,7 @@ window.data = [
                 "hint": "",
                 "text": "up to 100 items",
                 "icon": "push_pin"
-            },
+            }
         ]
     },
     {
@@ -290,7 +302,7 @@ window.data = [
                 "hint": "",
                 "text": "up to 10 closest",
                 "icon": "forum"
-            },
+            }
         ]
     },
     {
@@ -357,7 +369,7 @@ window.data = [
                 "hint": "(can be raised by support)",
                 "text": "up to 30 messages per second; 20 per minute for public chats and channels",
                 "icon": "speed"
-            },
+            }
         ]
     },
     {
@@ -376,7 +388,7 @@ window.data = [
                 "hint": "for global search",
                 "text": "starting from 4 characters",
                 "icon": "text_rotation_none"
-            },
+            }
         ]
     },
     {
@@ -425,7 +437,7 @@ window.data = [
                 "hint": "",
                 "text": "either 30 or 60",
                 "icon": "speed"
-            },
+            }
         ]
     },
     {
@@ -444,7 +456,7 @@ window.data = [
                 "hint": "",
                 "text": "up to 64 KiB",
                 "icon": "text_rotation_none"
-            },
+            }
         ]
     },
     {
@@ -457,7 +469,7 @@ window.data = [
                 "hint": "",
                 "text": "800x800px, up to 2 MB",
                 "icon": "slow_motion_video"
-            },
+            }
         ]
-    },
-];
+    }
+]

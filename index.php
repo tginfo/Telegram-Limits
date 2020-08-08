@@ -23,7 +23,7 @@ foreach ($data as $section) {
     foreach ($section["items"] as $item) {
         $main_qa[] = [
             "@type" => "Question",
-            "name" => $section["name"] + ": " + $item["name"] + (empty($item["hint"] ? "" : " {$item["hint"]}")),
+            "name" => $section["name"] . ": " . $item["name"] . (empty($item["hint"]) ? "" : " {$item["hint"]}"),
             "acceptedAnswer" => [
                 "@type" => "Answer",
                 "text" => mb_ucfirst($item["text"], "utf8"),
@@ -133,7 +133,7 @@ $markup = [
             <div class="content">
                 <label class="searchbox" for="search">
                     <md-icon>search</md-icon>
-                    <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"]) ?>">
+                    <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
                 </label>
                 <div id="results">
                     <?php

@@ -123,7 +123,7 @@ document.getElementById("search").addEventListener("keyup", run, false);
 window.addEventListener("resize", position, false);
 
 document.getElementById("lang-switch").addEventListener("change", function () {
-    window.location.href = "/" + this.value;
+    window.location.href = "/" + this.value + "/";
 })
 
 function getParameterByName(name, url) {

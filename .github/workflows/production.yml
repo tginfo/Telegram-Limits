@@ -1,0 +1,22 @@
+name: Upload to Production
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Start GitHub Action
+        uses: actions/checkout@v1
+      - uses: chrnorm/deployment-action@releases/v1
+        name: Request Production Deployment
+        id: deployment
+        with:
+          token: "${{ github.token }}"
+          target_url: https://limits.tginfo.me
+          ref: "${{ github.event.ref }}"
+          auto_merge: "false"
+          inititial_status: pending
+          environment: production
+          description: "Release publication"

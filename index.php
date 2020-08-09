@@ -6,7 +6,11 @@ if ($lang !== $_GET["hl"]) {
     header("Location: /$lang/");
 }
 
-$data = json_decode(file_get_contents(__DIR__ . "/data/$lang.json"), UCOMP);
+$data = json_decode(file_get_contents(__DIR__ . "/data/$lang.json"), true);
+
+if (!$data && $lang !== $supported_langs[""]) {
+    header("Location: /{$supported_langs[""]}/");
+}
 
 $main_qa = [];
 

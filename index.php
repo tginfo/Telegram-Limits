@@ -51,7 +51,6 @@ $markup = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&family=Material+Icons+Outlined&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= BASE ?>/assets/styles/style.css">
     <link rel="stylesheet" href="<?= BASE ?>/assets/styles/dark.css" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="<?= BASE ?>/assets/styles/print.css" media="print">
@@ -89,7 +88,9 @@ $markup = [
         window.data =
             <?= json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_UNICODE) ?>
     </script>
-    <script src="<?= BASE ?>/assets/scripts/screen.js"></script>
+    <script>
+        <?= file_get_contents("./assets/scripts/screen.js") ?>
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38971936-4"></script>
     <script>
@@ -206,6 +207,7 @@ $markup = [
             </div>
         </div>
     </footer>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <script src="<?= BASE ?>/assets/scripts/main.js"></script>
 </body>
 

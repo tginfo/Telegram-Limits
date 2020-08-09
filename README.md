@@ -4,7 +4,7 @@
 ## Как помочь проекту
 ### Сообщить о проблеме или предложить идею
 - [Баг-трекер](https://github.com/tginfo/Telegram-Limits/issues/new)
-- [Обратная связь](https://t.me/infowritebot) 
+- [Обратная связь](https://t.me/infowritebot)
 
 # Telegram Limits
 This project describes Telegram limitations and displays them on [limits.tginfo.me/en](https://limits.tginfo.me/en)
@@ -69,3 +69,6 @@ Example: `/assets/images/previews/es/preview.png` and `/assets/images/previews/e
     }
 ];
 ```
+
+## Translators
+- Turkish: @cnpltdncsln

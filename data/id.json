@@ -1,0 +1,475 @@
+[
+    {
+        "name": "Akun",
+        "icon": "account_circle",
+        "color": "110, 80, 200",
+        "items": [
+            {
+                "name": "Username",
+                "hint": "(mis. @username)",
+                "text": "5 sampai 32 karakter",
+                "icon": "alternate_email"
+            },
+            {
+                "name": "Bio",
+                "hint": "",
+                "text": "hingga 70 karakter",
+                "icon": "description"
+            },
+            {
+                "name": "Panjang Nama Depan",
+                "hint": "",
+                "text": "dari 1 sampai 64 karakter",
+                "icon": "assignment_ind"
+            },
+            {
+                "name": "Panjang Nama Belakang",
+                "hint": "",
+                "text": "dari 0 sampai 64 karakter",
+                "icon": "assignment"
+            },
+            {
+                "name": "Periode penghancur akun otomatis",
+                "hint": "jika tidak ada aktifitas",
+                "text": "1, 3, 6 dan 12 bulan (6 secara bawaan)",
+                "icon": "auto_delete"
+            },
+            {
+                "name": "Pemblokiran Spam",
+                "hint": "",
+                "text": "3 hari atau lebih",
+                "icon": "block"
+            },
+            {
+                "name": "Jumlah channel dan supergrup",
+                "hint": "yang dapat anda masuki",
+                "text": "hingga 500 (termasuk yang anda miliki sendiri)",
+                "icon": "groups"
+            },
+            {
+                "name": "Jumlah GIF tersimpan",
+                "hint": "",
+                "text": "hingga 200",
+                "icon": "gif"
+            },
+            {
+                "name": "Durasi video-avatar",
+                "hint": "",
+                "text": "hingga 10 detik",
+                "icon": "slow_motion_video"
+            },
+            {
+                "name": "Pembuatan grup dan channel",
+                "hint": "",
+                "text": "hingga 50 sehari",
+                "icon": "add"
+            },
+            {
+                "name": "Jumlah akun",
+                "hint": "(klien resmi)",
+                "text": "hingga 3",
+                "icon": "group_work"
+            }
+        ]
+    },
+    {
+        "name": "Obrolan dan grup",
+        "icon": "forum",
+        "color": "244, 64, 52",
+        "items": [
+            {
+                "name": "Partisipan",
+                "hint": "(batasan dapat ditingkatkan)",
+                "text": "hingga 200.000",
+                "icon": "group_add"
+            },
+            {
+                "name": "Jumlah admin",
+                "hint": "di grup",
+                "text": "hingga 50",
+                "icon": "security"
+            },
+            {
+                "name": "Jumlah bot",
+                "hint": "di grup",
+                "text": "hingga 20",
+                "icon": "settings"
+            },
+            {
+                "name": "Obrolan tersemat di daftar utama",
+                "hint": "",
+                "text": "hingga 5 obrolan atau channel + 5 pesan rahasia",
+                "icon": "push_pin"
+            },
+            {
+                "name": "Nama grup dan deskripsi",
+                "hint": "",
+                "text": "hingga 255 karakter",
+                "icon": "subject"
+            },
+            {
+                "name": "Perubahan pesan",
+                "hint": "",
+                "text": "dalam 48 jam setelah dikirim; selamanya di Tersimpan dan untuk admin dengan hak penyematan",
+                "icon": "edit"
+            },
+            {
+                "name": "Penghancuran foto dan video otomatis",
+                "hint": "",
+                "text": "1 sampai 60 detik",
+                "icon": "shutter_speed"
+            },
+            {
+                "name": "Tindakan terkini",
+                "hint": "(berlangganan, postingan, dsb.)",
+                "text": "dua hari terakhir",
+                "icon": "history"
+            },
+            {
+                "name": "Jumlah penyebutan",
+                "hint": "dalam satu pesan",
+                "text": "hingga 50, lebih dari itu pemberitahuan tidak akan dikirim",
+                "icon": "alternate_email"
+            },
+            {
+                "name": "Jumlah pesan terlihat",
+                "hint": "dalam grup",
+                "text": "1.000.000 pesan terakhir",
+                "icon": "visibility"
+            },
+            {
+                "name": "Reservasi perubahan username",
+                "hint": "(waktu sebelum username akan tersedia untuk semua orang, bukan hanya pemilik asli)",
+                "text": "sekitar 15-30 menit",
+                "icon": "timelapse"
+            }
+        ]
+    },
+    {
+        "name": "Channel",
+        "icon": "campaign",
+        "color": "96, 125, 139",
+        "items": [
+            {
+                "name": "Jumlah publik usernames",
+                "hint": "untuk satu akun",
+                "text": "hingga 10 (termasuk grup)",
+                "icon": "alternate_email"
+            },
+            {
+                "name": "Panjang @username",
+                "hint": "",
+                "text": "5 sampai 32 karakter",
+                "icon": "text_rotation_none"
+            },
+            {
+                "name": "Nama dan dekripsi channel",
+                "hint": "",
+                "text": "hingga 255 karakter",
+                "icon": "description"
+            },
+            {
+                "name": "Perubahan postingan",
+                "hint": "",
+                "text": "tak terbatas",
+                "icon": "edit"
+            },
+            {
+                "name": "Jumlah pelanggan channel",
+                "hint": "",
+                "text": "tak terbatas",
+                "icon": "groups"
+            },
+            {
+                "name": "Jumlah pelanggan terlihat",
+                "hint": "untuk admin channel",
+                "text": "200 orang",
+                "icon": "visibility"
+            },
+            {
+                "name": "Penghapusan channel",
+                "hint": "",
+                "text": "channels dengan lebih dari 1K hanya dapat dihapus melalui bantuan Telegram",
+                "icon": "delete"
+            },
+            {
+                "name": "Akses channel privat",
+                "hint": "tanpa pelanggan",
+                "text": "hingga 5 sekali per hari",
+                "icon": "lock"
+            },
+            {
+                "name": "Mengundang pengguna",
+                "hint": "",
+                "text": "hingga 200 orang",
+                "icon": "inbox"
+            },
+            {
+                "name": "Reservasi perubahan username",
+                "hint": "(waktu sebelum username akan tersedia untuk semua orang, bukan hanya pemilik asli)",
+                "text": "sekitar 15-30 menit",
+                "icon": "timelapse"
+            }
+        ]
+    },
+    {
+        "name": "Pesan",
+        "icon": "message",
+        "color": "0, 150, 136",
+        "items": [
+            {
+                "name": "Panjang sebuah pesan",
+                "hint": "",
+                "text": "hingga 4.096 karakter",
+                "icon": "textsms"
+            },
+            {
+                "name": "Keterangan Media",
+                "hint": "",
+                "text": "hingga 1.024 karakter",
+                "icon": "loyalty"
+            },
+            {
+                "name": "Batas ukuran file",
+                "hint": "",
+                "text": "hingga 2.0 GB",
+                "icon": "cloud_upload"
+            },
+            {
+                "name": "Durasi pesan video",
+                "hint": "",
+                "text": "hingga 1 menit",
+                "icon": "motion_photos_on"
+            },
+            {
+                "name": "Gambar dalam satu pesan",
+                "hint": "(album)",
+                "text": "hingga 10 item",
+                "icon": "dashboard"
+            },
+            {
+                "name": "Jumlah pesan terjadwal",
+                "hint": "",
+                "text": "hingga 100 item",
+                "icon": "update"
+            },
+            {
+                "name": "Bentang penjadwalan",
+                "hint": "",
+                "text": "hingga 365 hari",
+                "icon": "date_range"
+            }
+        ]
+    },
+    {
+        "name": "Folder",
+        "icon": "folder",
+        "color": "156, 39, 176",
+        "items": [
+            {
+                "name": "Banyak folder",
+                "hint": "",
+                "text": "hingga 10 item",
+                "icon": "create_new_folder"
+            },
+            {
+                "name": "Pesan tersemat pada folder",
+                "hint": "",
+                "text": "hingga 100 item",
+                "icon": "push_pin"
+            }
+        ]
+    },
+    {
+        "name": "Pengguna sekitar",
+        "icon": "person_pin_circle",
+        "color": "175, 180, 43",
+        "items": [
+            {
+                "name": "Jarak terlihat",
+                "hint": "",
+                "text": "sekitar 12 kilometer",
+                "icon": "track_changes"
+            },
+            {
+                "name": "Jumlah pengguna terlihat",
+                "hint": "",
+                "text": "hingga 100 orang",
+                "icon": "groups"
+            },
+            {
+                "name": "Jumlah obrolan berbasis lokasi yang terlihat",
+                "hint": "",
+                "text": "hingga 10 terdekat",
+                "icon": "forum"
+            }
+        ]
+    },
+    {
+        "name": "Bot",
+        "icon": "settings",
+        "color": "76, 175, 80",
+        "items": [
+            {
+                "name": "Jumlah bot",
+                "hint": "(dibuat oleh @BotFather)",
+                "text": "hingga 20 item",
+                "icon": "widgets"
+            },
+            {
+                "name": "Panjang @username",
+                "hint": "untuk bot",
+                "text": "5 sampai 32 karakter",
+                "icon": "alternate_email"
+            },
+            {
+                "name": "Panjang informasi bot",
+                "hint": "(/setabouttext)",
+                "text": "hingga 120 karakter",
+                "icon": "text_rotation_none"
+            },
+            {
+                "name": "Panjang deskripsi bot",
+                "hint": "",
+                "text": "hingga 512 karakter",
+                "icon": "description"
+            },
+            {
+                "name": "Batas unggahan file",
+                "hint": "(BotAPI)",
+                "text": "hingga 50 MB",
+                "icon": "cloud_upload"
+            },
+            {
+                "name": "batas unduhan file",
+                "hint": "(BotAPI)",
+                "text": "hingga 20 MB",
+                "icon": "cloud_download"
+            },
+            {
+                "name": "Pesan diteruskan",
+                "hint": "",
+                "text": "hingga 2.000 per jam",
+                "icon": "forward_to_inbox"
+            },
+            {
+                "name": "Jumlah tombol papan ketik",
+                "hint": "",
+                "text": "hingga 100 entitas",
+                "icon": "keyboard"
+            },
+            {
+                "name": "Data pemformatan pesan",
+                "hint": "",
+                "text": "hingga 10 KB",
+                "icon": "format_shapes"
+            },
+            {
+                "name": "Frekuensi pesan",
+                "hint": "(dapat ditingkatkan melalui dukungan)",
+                "text": "hingga 30 pesan per detik; 20 per menit untuk obrolan channel publik",
+                "icon": "speed"
+            }
+        ]
+    },
+    {
+        "name": "Pencarian",
+        "icon": "search",
+        "color": "63, 81, 181",
+        "items": [
+            {
+                "name": "Hasil pencarian umum",
+                "hint": "",
+                "text": "hingga 10 item; hingga 3 untuk Android",
+                "icon": "receipt_long"
+            },
+            {
+                "name": "Minimal panjang kueri",
+                "hint": "untuk pencarian umun",
+                "text": "mulai dari 4 karakter",
+                "icon": "text_rotation_none"
+            }
+        ]
+    },
+    {
+        "name": "Stiker",
+        "icon": "insert_emoticon",
+        "color": "255, 152, 0",
+        "items": [
+            {
+                "name": "Jumlah paket ditambahkan",
+                "hint": "",
+                "text": "hingga 200 item",
+                "icon": "queue"
+            },
+            {
+                "name": "Jumlah stiker favorit",
+                "hint": "",
+                "text": "hingga 5 item",
+                "icon": "star"
+            },
+            {
+                "name": "Jumlah stiker dalam satu paket",
+                "hint": "",
+                "text": "hingga 120 untuk statis, hingga 50 untuk animasi",
+                "icon": "collections"
+            },
+            {
+                "name": "Ukuran stiker",
+                "hint": "",
+                "text": "salah satunya harus sama dengan 512px, yang lainnya — 512px atau kurang; tepat 512x512 untuk animasi",
+                "icon": "crop_free"
+            },
+            {
+                "name": "Durasi animasi",
+                "hint": "",
+                "text": "hingga 3 detik",
+                "icon": "timelapse"
+            },
+            {
+                "name": "Ukuran file stiker",
+                "hint": "",
+                "text": "hingga 512 KB untuk statis, hingga 64 KB untuk animasi",
+                "icon": "folder_open"
+            },
+            {
+                "name": "FPS",
+                "hint": "",
+                "text": "antara 30 atau 60",
+                "icon": "speed"
+            }
+        ]
+    },
+    {
+        "name": "Telegraph",
+        "icon": "article",
+        "color": "3, 169, 244",
+        "items": [
+            {
+                "name": "Jumlah akum",
+                "hint": "di bot @telegraph",
+                "text": "hingga 5 item",
+                "icon": "how_to_reg"
+            },
+            {
+                "name": "Ukuran artikel",
+                "hint": "",
+                "text": "hingga 64 KiB",
+                "icon": "text_rotation_none"
+            }
+        ]
+    },
+    {
+        "name": "Lainnya",
+        "icon": "miscellaneous_services",
+        "color": "139, 195, 74",
+        "items": [
+            {
+                "name": "properti video avatar",
+                "hint": "",
+                "text": "800x800px, hingga 2 MB",
+                "icon": "slow_motion_video"
+            }
+        ]
+    }
+]

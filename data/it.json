@@ -1,0 +1,475 @@
+[
+    {
+        "name": "Utenti",
+        "icon": "account_circle",
+        "color": "110, 80, 200",
+        "items": [
+            {
+                "name": "Nome utente",
+                "hint": "(es. @cameraman)",
+                "text": "da 5 a 32 caratteri",
+                "icon": "alternate_email"
+            },
+            {
+                "name": "Biografia",
+                "hint": "",
+                "text": "fino a 70 caratteri",
+                "icon": "description"
+            },
+            {
+                "name": "Lunghezza del nome",
+                "hint": "",
+                "text": "da 1 a 64 caratteri",
+                "icon": "assignment_ind"
+            },
+            {
+                "name": "Lunghezza del cognome",
+                "hint": "",
+                "text": "da 1 a 64 caratteri",
+                "icon": "assignment"
+            },
+            {
+                "name": "Autodistruzione dell'account",
+                "hint": "se si è inattivi",
+                "text": "1, 3, 6 e 12 mesi (preimpostato a 6)",
+                "icon": "auto_delete"
+            },
+            {
+                "name": "Limitazione",
+                "hint": "",
+                "text": "Da 3 giorni in poi",
+                "icon": "block"
+            },
+            {
+                "name": "Numero di supergruppi e canali",
+                "hint": "di cui fai parte",
+                "text": "fino a 500 (inclusi quelli creati da te)",
+                "icon": "groups"
+            },
+            {
+                "name": "Numero di gif salvabili",
+                "hint": "",
+                "text": "fino a 200",
+                "icon": "gif"
+            },
+            {
+                "name": "Durata del video profilo",
+                "hint": "",
+                "text": "up to 10 seconds",
+                "icon": "slow_motion_video"
+            },
+            {
+                "name": "Creazione di gruppi e canali",
+                "hint": "",
+                "text": "fino a 50 al giorno",
+                "icon": "add"
+            },
+            {
+                "name": "Numero di profili",
+                "hint": "(nei client ufficiali)",
+                "text": "fino a 3",
+                "icon": "group_work"
+            }
+        ]
+    },
+    {
+        "name": "Chat e gruppi",
+        "icon": "forum",
+        "color": "244, 64, 52",
+        "items": [
+            {
+                "name": "Partecipanti",
+                "hint": "(il limite può essere esteso)",
+                "text": "fino a 200,000",
+                "icon": "group_add"
+            },
+            {
+                "name": "Numero di admin",
+                "hint": "nei gruppi",
+                "text": "fino a 50",
+                "icon": "security"
+            },
+            {
+                "name": "Numero di bot",
+                "hint": "nei gruppi",
+                "text": "fino a 20",
+                "icon": "settings"
+            },
+            {
+                "name": "Chat fissate nella lista principale",
+                "hint": "",
+                "text": "Fino a 5 chat o canali + 5 chat segrete",
+                "icon": "push_pin"
+            },
+            {
+                "name": "Nome e descrizione di un gruppo",
+                "hint": "",
+                "text": "fino a 255 caratteri",
+                "icon": "subject"
+            },
+            {
+                "name": "Modifica dei messaggi",
+                "hint": "",
+                "text": "entro 48 ore dall'invio del messaggio; durata illimitata nei messaggi salvati e per admin con il permesso di fissare messaggi",
+                "icon": "edit"
+            },
+            {
+                "name": "Autodistruzione di media",
+                "hint": "",
+                "text": "da 1 a 60 secondi",
+                "icon": "shutter_speed"
+            },
+            {
+                "name": "Azioni recenti",
+                "hint": "(utenti nuovi, bannati, ecc.)",
+                "text": "ultime 48 ore",
+                "icon": "history"
+            },
+            {
+                "name": "Menzioni massime",
+                "hint": "in un singolo messaggio",
+                "text": "fino a 50, per le altre non verrà inviata la notifica ai menzionati",
+                "icon": "alternate_email"
+            },
+            {
+                "name": "Numero visibile di messaggi",
+                "hint": "nei gruppi",
+                "text": "ultimi 1,000,000 messaggi",
+                "icon": "visibility"
+            },
+            {
+                "name": "Proprietà di un username",
+                "hint": "(tempo prima che il nome utente sia disponibile per tutti, non solo per il proprietario originale)",
+                "text": "circa 15-30 minuti",
+                "icon": "timelapse"
+            }
+        ]
+    },
+    {
+        "name": "Canali",
+        "icon": "campaign",
+        "color": "96, 125, 139",
+        "items": [
+            {
+                "name": "Numero di username pubblici",
+                "hint": "per un singolo account",
+                "text": "fino a 10 (gruppi inclusi)",
+                "icon": "alternate_email"
+            },
+            {
+                "name": "Lunghezza di un @username",
+                "hint": "",
+                "text": "da 5 a 32 caratteri",
+                "icon": "text_rotation_none"
+            },
+            {
+                "name": "Nome e descrizione di un canale",
+                "hint": "",
+                "text": "fino a 255 caratteri",
+                "icon": "description"
+            },
+            {
+                "name": "Modifica dei post",
+                "hint": "",
+                "text": "illimitata",
+                "icon": "edit"
+            },
+            {
+                "name": "Numero di iscritti",
+                "hint": "",
+                "text": "illimitata",
+                "icon": "groups"
+            },
+            {
+                "name": "Iscritti visibili",
+                "hint": "agli admin di un canale",
+                "text": "200 iscritti",
+                "icon": "visibility"
+            },
+            {
+                "name": "Eliminazione di un canale",
+                "hint": "",
+                "text": "i canali con più di 1000 iscritti possono essere eliminati solamente contattando il supporto Telegram",
+                "icon": "delete"
+            },
+            {
+                "name": "Anteprima di un canale privato",
+                "hint": "senza essere iscritti",
+                "text": "fino a 5 minuti al giorno",
+                "icon": "lock"
+            },
+            {
+                "name": "Aggiunta di contatti in gruppi/canali",
+                "hint": "",
+                "text": "fino a 200 persone",
+                "icon": "inbox"
+            },
+            {
+                "name": "Proprietà di un username",
+                "hint": "(tempo prima che il nome utente sia disponibile per tutti, non solo per il proprietario originale)",
+                "text": "circa 15-30 minuti",
+                "icon": "timelapse"
+            }
+        ]
+    },
+    {
+        "name": "Messaggi",
+        "icon": "message",
+        "color": "0, 150, 136",
+        "items": [
+            {
+                "name": "Lunghezza di un messaggio",
+                "hint": "",
+                "text": "fino a 4,096 caratteri",
+                "icon": "textsms"
+            },
+            {
+                "name": "Didascalia dei media",
+                "hint": "",
+                "text": "fino a 1,024 caratteri",
+                "icon": "loyalty"
+            },
+            {
+                "name": "Dimensioni di un file",
+                "hint": "",
+                "text": "fino a 2.0 GB",
+                "icon": "cloud_upload"
+            },
+            {
+                "name": "Durata di un video-messaggio",
+                "hint": "",
+                "text": "fino ad 1 minuto",
+                "icon": "motion_photos_on"
+            },
+            {
+                "name": "Media in un singolo messaggio",
+                "hint": "(album)",
+                "text": "fino a 10 elementi",
+                "icon": "dashboard"
+            },
+            {
+                "name": "Numero di messaggi programmabili",
+                "hint": "",
+                "text": "fino a 100 elementi",
+                "icon": "update"
+            },
+            {
+                "name": "Intervallo di programmazione",
+                "hint": "di un messaggio",
+                "text": "fino a 365 giorni",
+                "icon": "date_range"
+            }
+        ]
+    },
+    {
+        "name": "Cartelle",
+        "icon": "folder",
+        "color": "156, 39, 176",
+        "items": [
+            {
+                "name": "Numero di cartelle",
+                "hint": "",
+                "text": "fino a 10 elementi",
+                "icon": "create_new_folder"
+            },
+            {
+                "name": "Chat fissate in una cartella",
+                "hint": "",
+                "text": "fino a 100 elementi",
+                "icon": "push_pin"
+            }
+        ]
+    },
+    {
+        "name": "Persone nei dintorni",
+        "icon": "person_pin_circle",
+        "color": "175, 180, 43",
+        "items": [
+            {
+                "name": "Raggio di visibilità",
+                "hint": "",
+                "text": "circa 12 chilometri",
+                "icon": "track_changes"
+            },
+            {
+                "name": "Numero di persone visibili",
+                "hint": "",
+                "text": "fino a 100 persone",
+                "icon": "groups"
+            },
+            {
+                "name": "Numero di chat nei dintorni visibili",
+                "hint": "",
+                "text": "le 10 più vicine",
+                "icon": "forum"
+            }
+        ]
+    },
+    {
+        "name": "Bot",
+        "icon": "settings",
+        "color": "76, 175, 80",
+        "items": [
+            {
+                "name": "Numero di bot",
+                "hint": "(creabili per account su @BotFather)",
+                "text": "fino a 20 bot",
+                "icon": "widgets"
+            },
+            {
+                "name": "Lunghezza di un @username",
+                "hint": "per un bot",
+                "text": "da 5 a 32 caratteri",
+                "icon": "alternate_email"
+            },
+            {
+                "name": "Lunghezza delle info di un bot",
+                "hint": "(/setabouttext)",
+                "text": "fino a 120 caratteri",
+                "icon": "text_rotation_none"
+            },
+            {
+                "name": "Lunghezza della descrizione di un bot",
+                "hint": "",
+                "text": "fino a 512 caratteri",
+                "icon": "description"
+            },
+            {
+                "name": "Limite del peso di un file",
+                "hint": "(BotAPI)",
+                "text": "fino a 50 MB",
+                "icon": "cloud_upload"
+            },
+            {
+                "name": "Limite di download di un file",
+                "hint": "(BotAPI)",
+                "text": "fino a 20 MB",
+                "icon": "cloud_download"
+            },
+            {
+                "name": "Inoltro di messaggi",
+                "hint": "",
+                "text": "fino a 2000 all'ora",
+                "icon": "forward_to_inbox"
+            },
+            {
+                "name": "Numero di bottoni inline",
+                "hint": "",
+                "text": "fino a 100 entità",
+                "icon": "keyboard"
+            },
+            {
+                "name": "Peso della formattazione di un messaggio",
+                "hint": "",
+                "text": "fino a 10 KB",
+                "icon": "format_shapes"
+            },
+            {
+                "name": "Frequenza di invio messaggi",
+                "hint": "(può essere estesa dal supporto)",
+                "text": "fino a 30 messaggi al secondo; 20 al minuto in canali e gruppi pubblici",
+                "icon": "speed"
+            }
+        ]
+    },
+    {
+        "name": "Ricerca",
+        "icon": "search",
+        "color": "63, 81, 181",
+        "items": [
+            {
+                "name": "Risultato ricerca globale",
+                "hint": "",
+                "text": "fino a 10 elementi; fino a 3 per Android",
+                "icon": "receipt_long"
+            },
+            {
+                "name": "Lunghezza minima di una query",
+                "hint": "per la ricerca globale",
+                "text": "da 4 caratteri in poi",
+                "icon": "text_rotation_none"
+            }
+        ]
+    },
+    {
+        "name": "Sticker",
+        "icon": "insert_emoticon",
+        "color": "255, 152, 0",
+        "items": [
+            {
+                "name": "Numero di pacchetti aggiunti",
+                "hint": "",
+                "text": "fino a 200 elementi",
+                "icon": "queue"
+            },
+            {
+                "name": "Numero di sticker preferiti",
+                "hint": "",
+                "text": "fino a 5 elementi",
+                "icon": "star"
+            },
+            {
+                "name": "Numero di sticker in un pacchetto",
+                "hint": "",
+                "text": "fino a 120 per , up to 50 for animated",
+                "icon": "collections"
+            },
+            {
+                "name": "Dimensioni di uno sticker",
+                "hint": "",
+                "text": "una dimensione 512px, un'altra — 512px o meno per sticker statici; rigorosamente 512x512 per gli sticker animati",
+                "icon": "crop_free"
+            },
+            {
+                "name": "Durata di uno sticker animato",
+                "hint": "",
+                "text": "fino a 3 secondi",
+                "icon": "timelapse"
+            },
+            {
+                "name": "Peso di uno sticker",
+                "hint": "",
+                "text": "fino a 512 KB per sticker statici, fino a 64 KB per quelli animati",
+                "icon": "folder_open"
+            },
+            {
+                "name": "FPS",
+                "hint": "",
+                "text": "sia 30 che 60",
+                "icon": "speed"
+            }
+        ]
+    },
+    {
+        "name": "Telegraph",
+        "icon": "article",
+        "color": "3, 169, 244",
+        "items": [
+            {
+                "name": "Numero di account",
+                "hint": "nel bot @telegraph",
+                "text": "fino a 5 profili",
+                "icon": "how_to_reg"
+            },
+            {
+                "name": "Peso di un articolo",
+                "hint": "",
+                "text": "fino a 64 KiB",
+                "icon": "text_rotation_none"
+            }
+        ]
+    },
+    {
+        "name": "Altro",
+        "icon": "miscellaneous_services",
+        "color": "139, 195, 74",
+        "items": [
+            {
+                "name": "Dettagli sui video profilo",
+                "hint": "",
+                "text": "800x800px, fino a 2 MB",
+                "icon": "slow_motion_video"
+            }
+        ]
+    }
+]

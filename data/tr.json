@@ -142,7 +142,7 @@
                 "hint": "(kullanıcı adının herkes için kullanılabilir olmadan önceki zaman, sadece orijinal sahibine değil)",
                 "text": "15-30 dakika civarı",
                 "icon": "timelapse"
-            },
+            }
         ]
     },
     {
@@ -209,7 +209,7 @@
                 "hint": "(kullanıcı adının herkes için kullanılabilir olmadan önceki zaman, sadece orijinal sahibine değil)",
                 "text": "15-30 dakika civarı",
                 "icon": "timelapse"
-            },
+            }
         ]
     },
     {
@@ -277,7 +277,7 @@
                 "hint": "",
                 "text": "100 öğeye kadar",
                 "icon": "push_pin"
-            },
+            }
         ]
     },
     {
@@ -302,7 +302,7 @@
                 "hint": "",
                 "text": "en yakındaki 10 sohbet",
                 "icon": "forum"
-            },
+            }
         ]
     },
     {
@@ -369,7 +369,7 @@
                 "hint": "(destekle arttırılabilir)",
                 "text": "saniyede 30 mesaja kadar; genel sohbet ve kanallar için dakikada 20",
                 "icon": "speed"
-            },
+            }
         ]
     },
     {
@@ -388,7 +388,7 @@
                 "hint": "küresel arama için",
                 "text": "4 karakter",
                 "icon": "text_rotation_none"
-            },
+            }
         ]
     },
     {
@@ -456,7 +456,7 @@
                 "hint": "",
                 "text": "64 KiB'e kadar",
                 "icon": "text_rotation_none"
-            },
+            }
         ]
     },
     {

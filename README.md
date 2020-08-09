@@ -26,7 +26,8 @@ the picture correctly
 5. Translate the images and export them as PNGs to `/assets/images/previews/<code>` directory. 
 Example: `/assets/images/previews/es/preview.png` and `/assets/images/previews/es/twitter.png` for Spanish
 6. Add your language to the `/localization/languages.json` file. Example: `"es": ["Español"]` for Spanish
-7. Well done! You can make a pull-request now.
+7. Don't forget to mention yourself at the end of README!
+8. Well done! You can make a pull-request now.
 
 ### How to help translate
 1. All the displayed data is located in `/data`, in `ru.json` and `en.json` etc.
@@ -71,5 +72,6 @@ Example: `/assets/images/previews/es/preview.png` and `/assets/images/previews/e
 ```
 
 ## Translators
-- Turkish: @cnpltdncsln
-- Bahasa Indonesia: @mubassari
+- Turkish: cnpltdncsln
+- Italian: DavideGalilei
+- Indonesian: mubassari

@@ -1,7 +1,7 @@
 <?php
 require "./core/i.php";
 
-setLang($_GET["hl"]);
+setLang($_GET["hl"] ?? false);
 if ($lang !== $_GET["hl"]) {
     header("Location: /$lang/");
 }

@@ -75,3 +75,4 @@ Example: `/assets/images/previews/es/preview.png` and `/assets/images/previews/e
 - Turkish: cnpltdncsln
 - Italian: DavideGalilei
 - Indonesian: mubassari
+- Polish: Sebek

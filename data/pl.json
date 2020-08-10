@@ -187,7 +187,7 @@
                 "icon": "groups"
             },
             {
-                "name": "Widoczni subsktybenci",
+                "name": "Widoczni subskrybenci",
                 "hint": "dla administratorów kanału",
                 "text": "200 osób",
                 "icon": "visibility"
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "name": "Wiadomoóści",
+        "name": "Wiadomości",
         "icon": "message",
         "color": "0, 150, 136",
         "items": [
@@ -310,7 +310,7 @@
                 "icon": "groups"
             },
             {
-                "name": "Liczba wyświetlanych geochatówr",
+                "name": "Liczba wyświetlanych geoczatów",
                 "hint": "",
                 "text": "do 10 najbliższych",
                 "icon": "forum"
@@ -367,7 +367,7 @@
             {
                 "name": "Liczba przycisków",
                 "hint": "",
-                "text": "doo 100 sztuk",
+                "text": "do 100 sztuk",
                 "icon": "keyboard"
             },
             {
@@ -378,7 +378,7 @@
             },
             {
                 "name": "Częstotliwość wiadomości",
-                "hint": "(może zostać zwiększony przez wsparcie)",
+                "hint": "(może zostać zwiększona przez wsparcie)",
                 "text": "do 30 wiadomości na sekundę; 20 wiadomości na minutę dla czatów i kanałów",
                 "icon": "speed"
             }
@@ -466,7 +466,7 @@
             {
                 "name": "Rozmiar artykułu",
                 "hint": "",
-                "text": "do 64 KiB",
+                "text": "do 64 KB",
                 "icon": "text_rotation_none"
             }
         ]

@@ -140,7 +140,7 @@
             {
                 "name": "Liczba subskrybentów, aby zobaczyć statystyki",
                 "hint": "",
-                "text": "500 i więcej",
+                "text": "co najmniej 500",
                 "icon": "poll"
             },
             {
@@ -213,7 +213,7 @@
             {
                 "name": "Liczba subskrybentów, aby zobaczyć statystyki",
                 "hint": "",
-                "text": "500 i więcej",
+                "text": "co najmniej 500",
                 "icon": "poll"
             },
             {

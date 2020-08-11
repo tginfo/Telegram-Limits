@@ -138,6 +138,12 @@
                 "icon": "visibility"
             },
             {
+                "name": "İstatistikleri görmek için katılımcı sayısı",
+                "hint": "",
+                "text": "en az 500",
+                "icon": "poll"
+            },
+            {
                 "name": "Kullanıcı adı değişim rezervasyonu",
                 "hint": "(kullanıcı adının herkes için kullanılabilir olmadan önceki zaman, sadece orijinal sahibine değil)",
                 "text": "15-30 dakika civarı",
@@ -203,6 +209,12 @@
                 "hint": "",
                 "text": "200 kişiye kadar",
                 "icon": "inbox"
+            },
+            {
+                "name": "İstatistikleri görmek için abone sayısı",
+                "hint": "",
+                "text": "en az 500",
+                "icon": "poll"
             },
             {
                 "name": "Kullanıcı adı değişim rezervasyonu",

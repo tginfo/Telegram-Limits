@@ -122,17 +122,24 @@ window.addEventListener("load", function () {
 document.getElementById("search").addEventListener("keyup", run, false);
 window.addEventListener("resize", position, false);
 
-document.getElementById("lang-switch").addEventListener("change", function () {
-    window.location.href = "/" + this.value + "/";
-})
+function langSwitch(el) {
+    var e = document.getElementById("langlist");
+    e.style.display = "block"
+    e.style.bottom = el.offsetTop + "px"
+    e.style.left = el.offsetLeft + "px"
 
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, '\\$&');
-    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    function cl() {
+        e.style.display = "";
+        document.removeEventListener("click", cl, false);
+        window.removeEventListener("resize", cl, false);
+    }
+
+    setTimeout(function () {
+        document.addEventListener("click", cl, false);
+        window.addEventListener("resize", cl, false);
+    }, 0);
+
+    return false
 }
+
 run();

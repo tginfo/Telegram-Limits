@@ -26,6 +26,27 @@ body {
     flex-direction: column;
 }
 
+@media (hover: hover) and (pointer: fine) {
+    *::-webkit-scrollbar-thumb, *::-webkit-scrollbar {
+        background: transparent;
+        width: 5px;
+        height: 5px;
+        padding: 3px;
+    }
+    *::-webkit-scrollbar-thumb {
+        background: rgba(200, 200, 200, 0.5);
+    }
+    *::-webkit-scrollbar-thumb:horizontal {
+        border-radius: 2em;
+    }
+    *::-webkit-scrollbar-thumb:vertical {
+        border-radius: 2em;
+    }
+    *::-webkit-scrollbar-track {
+        display: none;
+    }
+}
+
 .backgrounder {
     background: #86BBFF;
     display: flex;
@@ -171,7 +192,6 @@ header .header-box>.explanator>.content>p+p {
 main {
     background: white;
     border-radius: .5em .5em 0 0;
-    z-index: 2;
     box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, .05);
 }
 
@@ -323,6 +343,7 @@ footer {
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
+    position: relative;
 }
 
 footer>.logo>img {
@@ -332,6 +353,10 @@ footer>.logo>img {
 
 footer>.side {
     margin-left: 1em;
+}
+
+footer>.side>.data {
+    opacity: .5;
 }
 
 footer>.side>.name {
@@ -348,10 +373,6 @@ footer>.side>.name>.middle {
     font-weight: 500;
 }
 
-footer>.side>.data {
-    opacity: .5;
-}
-
 #results {
     position: relative;
 }
@@ -362,6 +383,60 @@ footer>.side>.data {
 
 #langicon {
     vertical-align: bottom;
+    font-size: 1.2em;
+}
+
+#langswitchlabel {
+    text-decoration: none;
+    font-size: 1.2em;
+    position: relative;
+}
+
+#langswitchlabel::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .1em;
+    vertical-align: middle;
+    border-top: .2em solid;
+    border-right: .2em solid transparent;
+    border-left: .2em solid transparent;
+}
+
+#langlist {
+    position: absolute;
+    display: block;
+    overflow: auto;
+    background: white;
+    opacity: 100%;
+    border-radius: .2em;
+    box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, .15);
+    margin: 1em;
+    padding: 0;
+    max-height: 33vh;
+    display: none;
+}
+
+li.lang-link>a {
+    list-style: none;
+    padding: .7em;
+    display: flex;
+    text-decoration: none;
+}
+
+li.lang-link {
+    list-style: none;
+    transition: background .15s;
+}
+
+li.lang-link:hover, li.lang-link.active-lang {
+    background: rgba(122, 122, 122, .15);
+}
+
+li.lang-link .lang-code {
+    opacity: .5;
+    min-width: 2em;
 }
 
 @media (max-width: 1020px) {
@@ -410,6 +485,13 @@ footer>.side>.data {
     }
     main .collection:nth-child(1) {
         margin-top: 1em;
+    }
+}
+
+@media (max-width: 500px) {
+    #langlist {
+        left: 0 !important;
+        right: 0 !important;
     }
 }
 

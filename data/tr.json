@@ -110,7 +110,7 @@
             {
                 "name": "Mesaj düzenleme",
                 "hint": "",
-                "text": "Gönderdikten sonra 48 saat; Kayıtlı'da sınırsız",
+                "text": "Gönderdikten sonra 48 saat; Kayıtlı'da ve sabitleme izinleri olan yöneticiler için sınırsız",
                 "icon": "edit"
             },
             {
@@ -136,6 +136,12 @@
                 "hint": "grupta",
                 "text": "1,000,000 son mesaj",
                 "icon": "visibility"
+            },
+            {
+                "name": "İstatistikleri görmek için katılımcı sayısı",
+                "hint": "",
+                "text": "en az 500",
+                "icon": "poll"
             },
             {
                 "name": "Kullanıcı adı değişim rezervasyonu",
@@ -203,6 +209,12 @@
                 "hint": "",
                 "text": "200 kişiye kadar",
                 "icon": "inbox"
+            },
+            {
+                "name": "İstatistikleri görmek için abone sayısı",
+                "hint": "",
+                "text": "en az 500",
+                "icon": "poll"
             },
             {
                 "name": "Kullanıcı adı değişim rezervasyonu",

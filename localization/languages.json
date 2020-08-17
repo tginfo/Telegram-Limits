@@ -6,6 +6,7 @@
     "it": ["Italian"],
     "id": ["Bahasa Indonesia"],
     "pl": ["Polski"],
+    "ar": ["العربية", {"isRtl": true}],
     "uk": "ru",
     "be": "ru"
 }

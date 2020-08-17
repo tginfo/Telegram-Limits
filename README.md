@@ -76,3 +76,4 @@ Example: `/assets/images/previews/es/preview.png` and `/assets/images/previews/e
 - Italian: DavideGalilei
 - Indonesian: mubassari
 - Polish: Sebek
+- Arabic: Disk3

@@ -15,6 +15,7 @@ if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' ||
 define("BASE", "https://" . $_SERVER['HTTP_HOST']);
 
 $lang = false;
+$isRtl = false;
 $lang_lib = [];
 
 
@@ -76,19 +77,18 @@ function lang_analyze_headers()
 
 function setLang($l = false)
 {
-    global $lang, $supported_langs, $lang_lib;
+    global $lang, $supported_langs, $supported_langs_file, $lang_lib, $isRtl;
 
     if ($l !== false && in_array($l, array_keys($supported_langs))) {
         if ($supported_langs[$l] === true) {
             $lang_path = __DIR__ . "/../localization";
             if (file_exists($lang_path . '/' . $l . '/lang.json')) {
                 $lang = $l;
+                $isRtl = $supported_langs_file[$l][1]['isRtl'] ?? false;
                 $gl = file_get_contents($lang_path . '/' . $l . '/lang.json');
                 $gl = json_decode($gl, true);
                 if (json_last_error() !== JSON_ERROR_NONE) exit("Language corrupted (CODE: " . $l . ")");
                 $lang_lib = $gl;
-            } else {
-                exit("Language not found (CODE: " . $l . " | " . $lang_path . $l . '.json' . ")");
             }
         } else {
             setLang($supported_langs[$l]);

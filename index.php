@@ -46,7 +46,7 @@ $markup = [
 
 ?>
 <!DOCTYPE html>
-<html lang="<?= $lang ?>">
+<html lang="<?= $lang ?>" dir="<?= ($isRtl ? "rtl" : "ltr") ?>">
 
 <head>
     <meta charset="UTF-8">
@@ -73,12 +73,12 @@ $markup = [
     <meta property="twitter:description" content="<?= __("description_short", UCOMP) ?>" data-lang="description_short">
     <meta property="twitter:image" content="<?= BASE ?>/assets/images/previews/<?= $lang ?>/twitter.png" data-lang="preview_twitter">
 
-    <link rel="alternate" href="/<?= $supported_langs[""] ?>" hreflang="x-default" />
+    <link rel="alternate" href="<?= BASE ?>/<?= $supported_langs[""] ?>" hreflang="x-default" />
     <?php
     foreach ($supported_langs as $key => $value) {
         if (strlen($key) == 0) continue;
     ?>
-        <link rel="alternate" hreflang="<?= $key ?>" href="/<?= ($value === true ? $key : $value) ?>" />
+        <link rel="alternate" hreflang="<?= $key ?>" href="<?= BASE ?>/<?= ($value === true ? $key : $value) ?>" />
     <?php
     }
     ?>

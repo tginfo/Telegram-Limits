@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Material Icons Outlined';
+    font-family: material icons outlined;
     font-style: normal;
     font-weight: 400;
     font-display: block;
@@ -19,22 +19,22 @@
 
 body {
     margin: 0;
-    font-family: Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, segoe ui, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     font-size: var(--base-size);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
 
-@media (hover: hover) and (pointer: fine) {
+@media(hover: hover) and (pointer:fine) {
     *::-webkit-scrollbar-thumb, *::-webkit-scrollbar {
-        background: transparent;
+        background: 0 0;
         width: 5px;
         height: 5px;
         padding: 3px;
     }
     *::-webkit-scrollbar-thumb {
-        background: rgba(200, 200, 200, 0.5);
+        background: rgba(200, 200, 200, .5);
     }
     *::-webkit-scrollbar-thumb:horizontal {
         border-radius: 2em;
@@ -48,7 +48,7 @@ body {
 }
 
 .backgrounder {
-    background: #86BBFF;
+    background: #86bbff;
     display: flex;
     flex-direction: column;
 }
@@ -73,7 +73,7 @@ input[type=search]::-ms-reveal {
     height: 0;
 }
 
-input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {
+input[type=search]::-webkit-search-decoration, input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-results-button, input[type=search]::-webkit-search-results-decoration {
     display: none;
 }
 
@@ -83,8 +83,8 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    font-family: 'Montserrat', Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
+    font-family: montserrat, Roboto, segoe ui, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    color: #fff;
     position: relative;
     font-size: 2.5vh;
 }
@@ -118,7 +118,7 @@ header::before {
 }
 
 header .header-box {
-    width: calc(calc(100% / 3) * 2);
+    width: calc(calc(100%/3) * 2);
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -141,13 +141,14 @@ header .header-box>.title>.logo img {
 
 header .header-box>.title>.logo>a {
     text-decoration: none;
-    margin-right: .25em;
+    margin: 0 .25em;
     display: flex;
     align-items: center;
+    direction: ltr;
 }
 
 header .header-box>.title>.logo .bold {
-    font-weight: bold;
+    font-weight: 700;
     margin-right: .25em;
 }
 
@@ -160,7 +161,7 @@ header .header-box>.title>.logo .name {
 }
 
 header .header-box>.title>.name {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3em;
     line-height: 1;
     margin-bottom: .8em;
@@ -178,7 +179,7 @@ header .header-box>.explanator>.content {
 header .header-box>.explanator>.title {
     display: flex;
     font-size: 2em;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 header .header-box>.explanator>.content>p {
@@ -190,23 +191,23 @@ header .header-box>.explanator>.content>p+p {
 }
 
 main {
-    background: white;
+    background: #fff;
     border-radius: .5em .5em 0 0;
-    box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, .05);
+    box-shadow: 0 -.5em .5em rgba(0, 0, 0, .05);
 }
 
 main>.content {
     width: 80%;
-    margin: .8em auto 1em auto;
+    margin: .8em auto 1em;
 }
 
 md-icon {
-    font-family: 'Material Icons Outlined';
+    font-family: material icons outlined;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
     font-size: 24px;
     line-height: 1;
@@ -215,13 +216,12 @@ md-icon {
     display: inline-block;
     white-space: nowrap;
     word-wrap: normal;
-    direction: ltr;
     -webkit-font-smoothing: antialiased;
 }
 
 .searchbox {
     height: 3em;
-    box-shadow: 0 0.15em 0.8em rgba(114, 114, 114, .24);
+    box-shadow: 0 .15em .8em rgba(114, 114, 114, .24);
     border-radius: .5em;
     display: flex;
     align-items: center;
@@ -230,13 +230,15 @@ md-icon {
 .searchbox>md-icon {
     font-size: 1.5em;
     margin: .5em;
-    margin-right: .25em;
+    -webkit-margin-end: .25em;
+    -webkit-margin-end: .25em;
+    margin-inline-end: .25em;
 }
 
 .searchbox>input {
     height: 100%;
     flex-grow: 1;
-    background: transparent;
+    background: 0 0;
     border: 0;
     outline: 0;
     -webkit-appearance: none;
@@ -245,7 +247,7 @@ md-icon {
 main .loader {
     text-align: center;
     padding: 1em;
-    font-family: 'Montserrat', Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: montserrat, Roboto, segoe ui, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     font-weight: 500;
 }
 
@@ -259,8 +261,8 @@ main .collection>.header {
     margin: 0 .6em;
     padding: .5em;
     border-radius: .4em .4em 0 0;
-    background: #F6F6F9;
-    box-shadow: 0 -0.1em 0.2em rgba(22, 31, 93, .07);
+    background: #f6f6f9;
+    box-shadow: 0 -.1em .2em rgba(22, 31, 93, .07);
     display: flex;
     align-items: center;
     font-size: 1.25em;
@@ -285,13 +287,15 @@ main .collection>.header>md-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: .5em;
+    -webkit-margin-end: .5em;
+    -moz-margin-end: .5em;
+    margin-inline-end: .5em;
 }
 
 main .collection>.card {
-    background: white;
+    background: #fff;
     border-radius: .5em;
-    box-shadow: 0 -0.08em 0.35em rgba(0, 0, 0, .13);
+    box-shadow: 0 -.08em .35em rgba(0, 0, 0, .13);
     display: block;
 }
 
@@ -310,21 +314,24 @@ main .collection>.card>.item:last-child {
 }
 
 main .collection>.card>.item>md-icon {
-    margin-right: .75em;
     color: rgb(var(--vcolor));
     font-size: 1.5em;
     align-self: baseline;
-    margin-top: calc(.75em / 2);
+    margin-top: calc(.75em/2);
+    -webkit-margin-end: .75em;
+    -moz-margin-end: .75em;
+    margin-inline-end: .75em;
 }
 
 main .collection>.card>.item>.content>.title {
     font-weight: 500;
     display: block;
     text-align: left;
+    text-align: start;
 }
 
 main .collection>.card>.item>.content>.title>.info {
-    font-weight: normal;
+    font-weight: 400;
     opacity: .3;
     display: inline;
 }
@@ -339,7 +346,9 @@ footer {
     padding: 1em;
     display: flex;
     align-items: center;
-    padding-left: 10%;
+    -webkit-padding-start: 10%;
+    -moz-padding-start: 10%;
+    padding-inline-start: 10%;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
@@ -352,7 +361,9 @@ footer>.logo>img {
 }
 
 footer>.side {
-    margin-left: 1em;
+    -webkit-margin-start: 1em;
+    -moz-margin-start: 1em;
+    margin-inline-start: 1em;
 }
 
 footer>.side>.data {
@@ -361,7 +372,7 @@ footer>.side>.data {
 
 footer>.side>.name {
     margin-bottom: .2em;
-    font-family: 'Montserrat', Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: montserrat, Roboto, segoe ui, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     font-size: 1.2em;
 }
 
@@ -408,10 +419,10 @@ footer>.side>.name>.middle {
     position: absolute;
     display: block;
     overflow: auto;
-    background: white;
+    background: #fff;
     opacity: 100%;
     border-radius: .2em;
-    box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, .15);
+    box-shadow: 0 .1em .5em rgba(0, 0, 0, .15);
     margin: 1em;
     padding: 0;
     max-height: 33vh;
@@ -439,7 +450,7 @@ li.lang-link .lang-code {
     min-width: 2em;
 }
 
-@media (max-width: 1020px) {
+@media(max-width: 1020px) {
     :root {
         --base-size: 4vmin;
     }
@@ -488,14 +499,18 @@ li.lang-link .lang-code {
     }
 }
 
-@media (max-width: 500px) {
+html[dir="rtl"] header::after, html[dir="rtl"] header::before {
+    transform: scaleX(-1);
+}
+
+@media(max-width: 500px) {
     #langlist {
-        left: 0 !important;
-        right: 0 !important;
+        left: 0!important;
+        right: 0!important;
     }
 }
 
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+@media all and (-ms-high-contrast:none), (-ms-high-contrast:active) {
     md-icon {
         display: none;
     }

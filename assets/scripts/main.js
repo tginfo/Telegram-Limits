@@ -1,3 +1,5 @@
+var isRtl = document.documentElement.getAttribute("dir") === "rtl";
+
 function position() {
     var max = 0;
     var res = document.getElementById("results");
@@ -13,6 +15,7 @@ function position() {
             el.style.width = "";
             el.style.top = "";
             el.style.left = "";
+            el.style.right = "";
             el.style.position = "";
             el.style.margin = "";
             res.style.marginTop = "";
@@ -52,7 +55,7 @@ function position() {
             el.style.position = "absolute";
             el.style.width = wid + "px";
             el.style.margin = "0";
-            el.style.left = margin + cur * (wid + gap) + "px";
+            el.style[(isRtl ? 'right' : 'left')] = margin + cur * (wid + gap) + "px";
             el.style.top = (lasted ? (lasted.offsetTop + lasted.clientHeight) + gap : 0) + "px";
             map[cur].push(el);
 
@@ -125,8 +128,8 @@ window.addEventListener("resize", position, false);
 function langSwitch(el) {
     var e = document.getElementById("langlist");
     e.style.display = "block"
-    e.style.bottom = el.offsetTop + "px"
-    e.style.left = el.offsetLeft + "px"
+    e.style.bottom = el.offsetTop + "px";
+    e.style[(isRtl ? 'right' : 'left')] = (isRtl ? el.getBoundingClientRect().right : el.offsetLeft) + "px"
 
     function cl() {
         e.style.display = "";

@@ -129,7 +129,7 @@ function langSwitch(el) {
     var e = document.getElementById("langlist");
     e.style.display = "block"
     e.style.bottom = el.offsetTop + "px";
-    e.style[(isRtl ? 'right' : 'left')] = (isRtl ? el.getBoundingClientRect().right : el.offsetLeft) + "px"
+    e.style.left = el.offsetLeft + "px"
 
     function cl() {
         e.style.display = "";

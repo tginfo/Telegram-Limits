@@ -512,7 +512,7 @@ html[dir="rtl"] header::after, html[dir="rtl"] header::before {
 
 @media all and (-ms-high-contrast:none), (-ms-high-contrast:active) {
     md-icon {
-        display: none;
+        display: none !important;
     }
     header .header-box {
         margin-left: 2em;

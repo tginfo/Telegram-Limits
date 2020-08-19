@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Numero di supergruppi e canali",
         "hint": "di cui fai parte",
-        "text": "fino a 500 (inclusi quelli creati da te)"
+        "text": "up to 500 (including ones you own)"
       },
       "gifs_number": {
         "name": "Numero di gif salvabili",
@@ -68,12 +68,12 @@
         "text": "fino a 200,000"
       },
       "admins_number": {
-        "name": "Numero di admin",
+        "name": "Number of admins",
         "hint": "nei gruppi",
         "text": "fino a 50"
       },
       "bots_amount": {
-        "name": "Numero di bot",
+        "name": "Number of bots",
         "hint": "nei gruppi",
         "text": "fino a 20"
       },
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Numero di cartelle",
         "hint": "",
-        "text": "fino a 10 elementi"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Chat fissate in una cartella",
         "hint": "",
-        "text": "fino a 100 elementi"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Inoltro di messaggi",
         "hint": "",
-        "text": "fino a 2000 all'ora"
+        "text": "up to 2,000 per hour"
       },
       "keys_in_keyboard_number": {
         "name": "Numero di bottoni inline",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Lunghezza minima di una query",
         "hint": "per la ricerca globale",
-        "text": "da 4 caratteri in poi"
+        "text": "at least 4 characters"
       }
     }
   },
@@ -337,10 +337,10 @@
         "hint": "",
         "text": "fino a 200 elementi"
       },
-      "favirite_stickers": {
-        "name": "Numero di sticker preferiti",
+      "favorite_stickers": {
+        "name": "Favorite stickers number",
         "hint": "",
-        "text": "fino a 5 elementi"
+        "text": "up to 5 items"
       },
       "pack_size": {
         "name": "Numero di sticker in un pacchetto",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Dimensioni di uno sticker",
         "hint": "",
-        "text": "una dimensione 512px, un'altra — 512px o meno per sticker statici; rigorosamente 512x512 per gli sticker animati"
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "Durata di uno sticker animato",

@@ -1,0 +1,352 @@
+[
+    {
+        "id": "accounts",
+        "icon": "account_circle",
+        "color": "110, 80, 200",
+        "items": [
+            {
+                "id": "username",
+                "icon": "alternate_email"
+            },
+            {
+                "id": "bio",
+                "icon": "description"
+            },
+            {
+                "id": "name_length",
+                "icon": "assignment_ind"
+            },
+            {
+                "id": "last_name_length",
+                "icon": "assignment"
+            },
+            {
+                "id": "self_destruction",
+                "icon": "auto_delete"
+            },
+            {
+                "id": "spam_ban",
+                "icon": "block"
+            },
+            {
+                "id": "channels_and_chats_number",
+                "icon": "groups"
+            },
+            {
+                "id": "gifs_number",
+                "icon": "gif"
+            },
+            {
+                "id": "video_length",
+                "icon": "slow_motion_video"
+            },
+            {
+                "id": "groups_and_channels_creation",
+                "icon": "add"
+            },
+            {
+                "id": "accounts_number",
+                "icon": "group_work"
+            }
+        ]
+    },
+    {
+        "id": "chats",
+        "icon": "forum",
+        "color": "244, 64, 52",
+        "items": [
+            {
+                "id": "participants_number",
+                "icon": "group_add"
+            },
+            {
+                "id": "admins_number",
+                "icon": "security"
+            },
+            {
+                "id": "bots_amount",
+                "icon": "settings"
+            },
+            {
+                "id": "pinned_number",
+                "icon": "push_pin"
+            },
+            {
+                "id": "group_name",
+                "icon": "subject"
+            },
+            {
+                "id": "editing",
+                "icon": "edit"
+            },
+            {
+                "id": "media_self_destruction",
+                "icon": "shutter_speed"
+            },
+            {
+                "id": "recent_actions",
+                "icon": "history"
+            },
+            {
+                "id": "mentions_amount",
+                "icon": "alternate_email"
+            },
+            {
+                "id": "visible_messages",
+                "icon": "visibility"
+            },
+            {
+                "id": "participants_to_see_stats",
+                "icon": "poll"
+            },
+            {
+                "id": "username_reservation",
+                "icon": "timelapse"
+            }
+        ]
+    },
+    {
+        "id": "channels",
+        "icon": "campaign",
+        "color": "96, 125, 139",
+        "items": [
+            {
+                "id": "public_usernames",
+                "icon": "alternate_email"
+            },
+            {
+                "id": "username_length",
+                "icon": "text_rotation_none"
+            },
+            {
+                "id": "channel_name",
+                "icon": "description"
+            },
+            {
+                "id": "editing",
+                "icon": "edit"
+            },
+            {
+                "id": "subscribers",
+                "icon": "groups"
+            },
+            {
+                "id": "visible_participants",
+                "icon": "visibility"
+            },
+            {
+                "id": "channel_deletion",
+                "icon": "delete"
+            },
+            {
+                "id": "private_channel_access",
+                "icon": "lock"
+            },
+            {
+                "id": "invintations",
+                "icon": "inbox"
+            },
+            {
+                "id": "followers_to_see_stats",
+                "icon": "poll"
+            },
+            {
+                "id": "username_reservation",
+                "icon": "timelapse"
+            }
+        ]
+    },
+    {
+        "id": "messages",
+        "icon": "message",
+        "color": "0, 150, 136",
+        "items": [
+            {
+                "id": "single_message_length",
+                "icon": "textsms"
+            },
+            {
+                "id": "media_descriptions",
+                "icon": "loyalty"
+            },
+            {
+                "id": "upload_size",
+                "icon": "cloud_upload"
+            },
+            {
+                "id": "video_message_duration",
+                "icon": "motion_photos_on"
+            },
+            {
+                "id": "album_size",
+                "icon": "dashboard"
+            },
+            {
+                "id": "delayed_messages",
+                "icon": "update"
+            },
+            {
+                "id": "delaying_messages",
+                "icon": "date_range"
+            }
+        ]
+    },
+    {
+        "id": "folders",
+        "icon": "folder",
+        "color": "156, 39, 176",
+        "items": [
+            {
+                "id": "folder_amount",
+                "icon": "create_new_folder"
+            },
+            {
+                "id": "pinned_chats_in_folder",
+                "text": "до 100 штук",
+                "icon": "push_pin"
+            }
+        ]
+    },
+    {
+        "id": "people_nearby",
+        "icon": "person_pin_circle",
+        "color": "175, 180, 43",
+        "items": [
+            {
+                "id": "range",
+                "icon": "track_changes"
+            },
+            {
+                "id": "amount_of_people",
+                "icon": "groups"
+            },
+            {
+                "id": "geochats_number",
+                "icon": "forum"
+            }
+        ]
+    },
+    {
+        "id": "bots",
+        "icon": "settings",
+        "color": "76, 175, 80",
+        "items": [
+            {
+                "id": "bots_amount",
+                "icon": "widgets"
+            },
+            {
+                "id": "username length",
+                "icon": "alternate_email"
+            },
+            {
+                "id": "info_length",
+                "icon": "text_rotation_none"
+            },
+            {
+                "id": "description_length",
+                "icon": "description"
+            },
+            {
+                "id": "upload_limit_botapi",
+                "icon": "cloud_upload"
+            },
+            {
+                "id": "download_limit_botapi",
+                "icon": "cloud_download"
+            },
+            {
+                "id": "forwarding",
+                "icon": "forward_to_inbox"
+            },
+            {
+                "id": "keys_in_keyboard_number",
+                "icon": "keyboard"
+            },
+            {
+                "id": "formatting_data",
+                "icon": "format_shapes"
+            },
+            {
+                "id": "messaging_frequency",
+                "icon": "speed"
+            }
+        ]
+    },
+    {
+        "id": "search",
+        "icon": "search",
+        "color": "63, 81, 181",
+        "items": [
+            {
+                "id": "global_search",
+                "icon": "receipt_long"
+            },
+            {
+                "id": "global_search_min_query",
+                "icon": "text_rotation_none"
+            }
+        ]
+    },
+    {
+        "id": "stickers",
+        "icon": "insert_emoticon",
+        "color": "255, 152, 0",
+        "items": [
+            {
+                "id": "added_packs",
+                "icon": "queue"
+            },
+            {
+                "id": "favirite_stickers",
+                "icon": "star"
+            },
+            {
+                "id": "pack_size",
+                "icon": "collections"
+            },
+            {
+                "id": "sticker_size",
+                "icon": "crop_free"
+            },
+            {
+                "id": "animation_duration",
+                "icon": "timelapse"
+            },
+            {
+                "id": "file_size",
+                "icon": "folder_open"
+            },
+            {
+                "id": "fps",
+                "icon": "speed"
+            }
+        ]
+    },
+    {
+        "id": "telegraph",
+        "icon": "article",
+        "color": "3, 169, 244",
+        "items": [
+            {
+                "id": "accounts_number",
+                "icon": "how_to_reg"
+            },
+            {
+                "id": "text_size",
+                "icon": "text_rotation_none"
+            }
+        ]
+    },
+    {
+        "id": "miscellaneous",
+        "icon": "miscellaneous_services",
+        "color": "139, 195, 74",
+        "items": [
+            {
+                "id": "properties",
+                "icon": "slow_motion_video"
+            }
+        ]
+    }
+]

@@ -5,8 +5,8 @@ setLang($_GET["hl"] ?? false);
 if ($lang !== $_GET["hl"]) {
     header("Location: /$lang");
 }
-
-$data = json_decode(file_get_contents(__DIR__ . "/data/$lang.json"), true);
+$structure = json_decode(file_get_contents(__DIR__ . "/data/structure.json"), true);
+$data = json_decode(file_get_contents(__DIR__ . "/localization/$lang/data.json"), true);
 
 if (!$data && $lang !== $supported_langs[""]) {
     header("Location: /{$supported_langs[""]}");
@@ -142,24 +142,26 @@ $markup = [
                 </label>
                 <div id="results">
                     <?php
-                    foreach ($data as $section) {
+                    foreach ($structure as $section) {
+                        $cur_section = $data[$section["id"]];
                     ?>
 
-                        <div role="table" aria-label="<?= htmlentities($section["name"]) ?>" class="collection" style="--vcolor:<?= htmlentities($section["color"]) ?>;">
+                        <div role="table" aria-label="<?= htmlentities($cur_section["name"]) ?>" class="collection" style="--vcolor:<?= htmlentities($section["color"]) ?>;">
                             <div class="header">
                                 <md-icon aria-hidden="true"><?= $section["icon"] ?></md-icon>
-                                <div class="name"><?= $section["name"] ?></div>
+                                <div class="name"><?= $cur_section["name"] ?></div>
                             </div>
                             <div class="card" role="rowgroup">
                                 <?php
                                 foreach ($section["items"] as $item) {
+                                    $cur_item = $cur_section["items"][$item["id"]];
                                 ?>
 
                                     <div class="item" role="row">
                                         <md-icon aria-hidden="true"><?= $item["icon"] ?></md-icon>
                                         <div class="content">
-                                            <div class="title" role="columnheader"><?= $item["name"] ?> <span class="info"><?= $item["hint"] ?></span></div>
-                                            <div class="data" role="cell"><?= $item["text"] ?></div>
+                                            <div class="title" role="columnheader"><?= $cur_item["name"] ?> <span class="info"><?= $cur_item["hint"] ?></span></div>
+                                            <div class="data" role="cell"><?= $cur_item["text"] ?></div>
                                         </div>
                                     </div>
 

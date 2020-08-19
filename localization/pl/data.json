@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Blokada za SPAM",
         "hint": "",
-        "text": "3 dni i więcej"
+        "text": "3 days or more"
       },
       "channels_and_chats_number": {
         "name": "Liczba kanałów i supergrup",

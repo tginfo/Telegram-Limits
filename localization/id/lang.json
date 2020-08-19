@@ -1,14 +1,14 @@
 {
-    "title": "Batasan Telegram — Telegram Info",
-    "description": "Selalu perbarui batasan Telegram di 2020. Batasan pada panjang pesan, jumlah stiker dalam satu set, frekuensi pesan dalam Bot API, jumlah partisipan, perubahan, ukuran maksimal file dan sebagainya",
-    "description_short": "Selalu perbarui batasan Telegram",
-    "study": "| Pelajari",
-    "big_title": "Batasan Telegram",
-    "article_name": "Mengapa ada pembatasan",
-    "article_p1": "Seperti halnya layanan lain, Telegram menggunakan pembatasan untuk memastikan pengguna mengikuti Kebijakan Penggunaan Wajar dan agar layanan tetap dapat berjalan.",
-    "article_p2": "Tabel berikut berisikan daftar Batasan Telegram yang saat ini diketahui dan akan selalu diperbarui.",
-    "loading": "Memuat...",
-    "homepage": "Beranda",
-    "language": "Bahasa",
-    "search": "Cari"
+    "title": "Telegram Limits — Telegram Info",
+    "description": "Always up-to-date Telegram limits in 2020. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
+    "description_short": "Always up-to-date Telegram limits",
+    "study": "| Study",
+    "big_title": "Telegram Limits",
+    "article_name": "Why limitations exist",
+    "article_p1": "Just like any other service, Telegram uses limits to ensure that users follow Fair Usage Policy and to keep the service running.",
+    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
+    "loading": "Loading...",
+    "homepage": "Homepage",
+    "language": "Language",
+    "search": "Search"
 }

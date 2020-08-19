@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "قيود الازعاج",
         "hint": "",
-        "text": "٣ ايام و يتزايد"
+        "text": "3 days or more"
       },
       "channels_and_chats_number": {
         "name": "عدد القنوات و المجموعات",

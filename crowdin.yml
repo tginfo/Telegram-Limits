@@ -1,3 +1,7 @@
 files:
   - source: /localization/en/lang.json
     translation: /localization/%two_letters_code%/lang.json
+  - source: /data/en.json
+    translation: /data/%two_letters_code%.json
+  - source: /assets/images/previews/en/*.png
+    translation: /assets/images/previews/%two_letters_code%/%original_file_name%

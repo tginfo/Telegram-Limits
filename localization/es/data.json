@@ -34,71 +34,71 @@
       },
       "channels_and_chats_number": {
         "name": "Número de canales y supergrupos",
-        "hint": "you can be member of",
-        "text": "up to 500 (including one you own)"
+        "hint": "puedes ser miembro de",
+        "text": "hasta 500 (incluyendo los de que posees)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "Número de GIF guardados",
         "hint": "",
         "text": "hasta 200"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "Duración del avatar de video",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "hasta 10 segundos"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "Creación de grupos y canales",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "hasta 50 en un día"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "Número de cuentas",
+        "hint": "(clientes oficiales)",
+        "text": "hasta 3"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "Chats y grupos",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "name": "Participantes",
+        "hint": "(puede aumentar el límite)",
+        "text": "hasta 200 000"
       },
       "admins_number": {
-        "name": "Admins number",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "Número de administradores",
+        "hint": "en grupos",
+        "text": "hasta 50"
       },
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "Número de bots",
+        "hint": "en grupos",
+        "text": "hasta 20"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "Chats fijados en la lista principal",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "hasta 5 chats o canales + 5 chats secretos"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Nombre y descripción del grupo",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "hasta 255 caracteres"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Editar mensaje",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "en 48 horas después del envío; ilimitado en mensajes guardados y para administradores con derechos de fijación"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Autodestrucción de fotos y videos",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 a 60 segundos"
       },
       "recent_actions": {
-        "name": "Recent actions",
+        "name": "Acciones recientes",
         "hint": "(subscriptions, posts, etc.)",
         "text": "last two days"
       },

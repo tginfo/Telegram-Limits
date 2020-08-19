@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Количество каналов и супергрупп",
         "hint": "в которых можно состоять",
-        "text": "максимум 500 (включая созданные вами)"
+        "text": "up to 500 (including ones you own)"
       },
       "gifs_number": {
         "name": "Количество сохранённых GIF",
@@ -68,12 +68,12 @@
         "text": "до 200 000"
       },
       "admins_number": {
-        "name": "Число администраторов",
+        "name": "Number of admins",
         "hint": "в группе",
         "text": "до 50 человек"
       },
       "bots_amount": {
-        "name": "Число ботов",
+        "name": "Number of bots",
         "hint": "в группе",
         "text": "до 20 штук"
       },
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Количество папок",
         "hint": "",
-        "text": "до 10 штук"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Закреплённые чаты в папке",
         "hint": "",
-        "text": "до 100 штук"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Возможность пересылки сообщений",
         "hint": "",
-        "text": "до 2 000 в час"
+        "text": "up to 2,000 per hour"
       },
       "keys_in_keyboard_number": {
         "name": "Количество кнопок",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Минимальная длина запроса",
         "hint": "для глобального поиска",
-        "text": "от 4 символов"
+        "text": "at least 4 characters"
       }
     }
   },
@@ -337,10 +337,10 @@
         "hint": "",
         "text": "до 200 штук"
       },
-      "favirite_stickers": {
-        "name": "Количество избранных стикеров",
+      "favorite_stickers": {
+        "name": "Favorite stickers number",
         "hint": "",
-        "text": "до 5 штук"
+        "text": "up to 5 items"
       },
       "pack_size": {
         "name": "Количество стикеров в наборе",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Размер стикера",
         "hint": "",
-        "text": "одна из сторон равна 512px, другая — 512px и меньше; строго 512x512 для анимированных"
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "Длительность анимации",

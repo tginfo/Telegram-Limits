@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Spam engeli",
         "hint": "",
-        "text": "3 days or more"
+        "text": "3 gün ve daha fazla"
       },
       "channels_and_chats_number": {
         "name": "Kanal ve grup sayısı",

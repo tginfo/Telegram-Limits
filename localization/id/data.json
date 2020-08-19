@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Pemblokiran Spam",
         "hint": "",
-        "text": "3 hari atau lebih"
+        "text": "3 days or more"
       },
       "channels_and_chats_number": {
         "name": "Jumlah channel dan supergrup",

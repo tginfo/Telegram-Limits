@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Limitazione",
         "hint": "",
-        "text": "3 days or more"
+        "text": "Da 3 giorni in poi"
       },
       "channels_and_chats_number": {
         "name": "Numero di supergruppi e canali",

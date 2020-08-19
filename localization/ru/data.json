@@ -1,371 +1,371 @@
 {
   "accounts": {
-    "name": "Accounts",
+    "name": "Учётные записи",
     "items": {
       "username": {
         "name": "Username",
-        "hint": "(e.g. @cameraman)",
-        "text": "5 to 32 characters"
+        "hint": "(имя пользователя; например @cameraman)",
+        "text": "от 5 до 32 символов"
       },
       "bio": {
         "name": "Bio",
         "hint": "",
-        "text": "up to 70 characters"
+        "text": "70 символов"
       },
       "name_length": {
-        "name": "First Name length",
+        "name": "Длина имени",
         "hint": "",
-        "text": "from 1 to 64 characters"
+        "text": "от 1 до 64 символов"
       },
       "last_name_length": {
-        "name": "Last Name length",
+        "name": "Длина фамилии",
         "hint": "",
-        "text": "from 0 to 64 characters"
+        "text": "от 0 до 64 символов"
       },
       "self_destruction": {
-        "name": "Self-destruction period",
-        "hint": "if no activity",
-        "text": "1, 3, 6 and 12 months (6 by default)"
+        "name": "Срок самоуничтожения аккаунта",
+        "hint": "при отсутствиии активности",
+        "text": "1, 3, 6 и 12 месяцев (6 по умолчанию)"
       },
       "spam_ban": {
-        "name": "Spam ban",
+        "name": "Спам-бан",
         "hint": "",
-        "text": "3 days and more"
+        "text": "от 3 дней и выше"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
-        "hint": "you can be member of",
-        "text": "up to 500 (including one you own)"
+        "name": "Количество каналов и супергрупп",
+        "hint": "в которых можно состоять",
+        "text": "максимум 500 (включая созданные вами)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "Количество сохранённых GIF",
         "hint": "",
-        "text": "up to 200"
+        "text": "до 200 штук"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "Длительность видеоаватара",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "до 10 секунд"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "Создание групп и каналов",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "до 50 в день"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "Количество аккаунтов",
+        "hint": "(официальные клиенты)",
+        "text": "до 3 профилей"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "Чаты и группы",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "name": "Число участников",
+        "hint": "(лимит постоянно увеличивается)",
+        "text": "до 200 000"
       },
       "admins_number": {
-        "name": "Admins number",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "Число администраторов",
+        "hint": "в группе",
+        "text": "до 50 человек"
       },
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "Число ботов",
+        "hint": "в группе",
+        "text": "до 20 штук"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "Закреплённые чаты в ленте пользователя",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "до 5 чатов или каналов + 5 секретных чатов"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Название и описание группы",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "до 255 символов"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Редактирование сообщений",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "в течение 48 часов после отправки; неограничено в Сохранённых и для администраторов с правами закрепления"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Самоуничтожение фото или видео",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "от 1 до 60 секунд"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "История действий",
+        "hint": "(движения участников, сообщений и т.п.)",
+        "text": "последние два дня"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "name": "Количество упоминаний",
+        "hint": "в одном сообщении",
+        "text": "до 50, иначе уведомления не будет"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Количество видимых сообщений",
+        "hint": "в группе",
+        "text": "1 000 000 последних сообщений"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Количество подписчиков для открытия статистики",
         "hint": "",
-        "text": "at least 500"
+        "text": "500 и более"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Резервация @username после смены",
+        "hint": "(время, на которое имя пользователя доступно только для его бывшего владельца)",
+        "text": "около 15-30 минут"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Каналы",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "Количество публичных юзернеймов",
+        "hint": "на один аккаунт",
+        "text": "до 10 (включая группы)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "Длина @username",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "от 5 до 32 символов"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Длина названия и описания канала",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "до 255 символов"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Редактирование постов",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограничено"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Количество читателей канала",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограничено"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Видимые участники",
+        "hint": "для администратора канала",
+        "text": "200 человек"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Удаление канала",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "канал с более чем 1К подписчиков может быть удалён только через поддержку Telegram"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "Чтение приватного канала",
+        "hint": "без подписки",
+        "text": "до 5 минут раз в сутки"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Приглашение пользователей",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "до 200 человек"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Количество подписчиков для открытия статистики",
         "hint": "",
-        "text": "at least 500"
+        "text": "500 и более"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Резервация @username после смены",
+        "hint": "(время, на которое имя пользователя доступно только для его бывшего владельца)",
+        "text": "около 15-30 минут"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Сообщения",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Длина одного сообщения",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "до 4 096 символов"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Описание к медиафайлам",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "до 1 024 символов"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Объем отправляемых файлов",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "до 2,0 GB"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Длительность видеосообщения",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "до 1 минуты"
       },
       "album_size": {
-        "name": "Images in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "Количество фотографий в одном сообщении",
+        "hint": "(альбом)",
+        "text": "до 10 штук"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Количество отложенных сообщений",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "до 100 сообщений"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Планирование сообщений",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "до 365 дней"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Папки",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Количество папок",
         "hint": "",
-        "text": "up to 10 items"
+        "text": "до 10 штук"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "Закреплённые чаты в папке",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "до 100 штук"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Люди рядом",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Радиус видимости",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "около 12 километров"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Количество отображаемых пользователей",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "до 100 человек"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Количество отображаемых геочатов",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "до 10 ближайших"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "Боты",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "Количество ботов",
+        "hint": "(созданных через @BotFather)",
+        "text": "до 20 штук"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "Длина @username",
+        "hint": "для бота",
+        "text": "от 5 до 32 символов"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Длина информации о боте",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "до 120 символов"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Длина описания бота",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "до 512 символов"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Файлы отправляемые ботом",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "до 50 МБ"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Файлы принимаемые ботом",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "до 20 МБ"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "Возможность пересылки сообщений",
         "hint": "",
-        "text": "up to 2 000 per hour"
+        "text": "до 2 000 в час"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "Количество кнопок",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "до 100 штук"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Данные форматирования сообщения",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "до 10 KB"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by support)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "Частота сообщений",
+        "hint": "(может быть увеличена поддержкой)",
+        "text": "до 30 сообщений в секунду; 20 сообщений в минуту для чатов и каналов"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Поиск",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Результаты в глобальном поиске",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "до 10 элементов; до 3 на Android"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "starting from 4 characters"
+        "name": "Минимальная длина запроса",
+        "hint": "для глобального поиска",
+        "text": "от 4 символов"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Стикеры",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Количество добавленных стикерпаков",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "до 200 штук"
       },
       "favirite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Количество избранных стикеров",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "до 5 штук"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "Количество стикеров в наборе",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "до 120 для простых, до 50 для анимированных"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Размер стикера",
         "hint": "",
-        "text": "one size equals to 512px, other one — 512px or less; strict 512x512 for animated"
+        "text": "одна из сторон равна 512px, другая — 512px и меньше; строго 512x512 для анимированных"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Длительность анимации",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "до 3 секунд"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Размер файла стикера",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "до 512 KB для простых, до 64 KB для анимированных"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 или 60"
       }
     }
   },
@@ -373,24 +373,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Количество аккаунтов",
+        "hint": "в боте @telegraph",
+        "text": "до 5 штук"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Размер текста",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "до 64 KiB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Разное",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Свойства видеоаватара",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, до 2 MB"
       }
     }
   }

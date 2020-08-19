@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "عدد القنوات و المجموعات",
         "hint": "التي لك الحد الإنضمام لها",
-        "text": "الأقصى ٥٠٠ (بتضمين التي أنشأتها)"
+        "text": "up to 500 (including ones you own)"
       },
       "gifs_number": {
         "name": "أقصى حفظ للصور المتحركة",
@@ -68,12 +68,12 @@
         "text": "الأقصى ٢٠٠,٠٠٠"
       },
       "admins_number": {
-        "name": "عدد المشرفين",
+        "name": "Number of admins",
         "hint": "في مجموعة واحدة",
         "text": "الأقصى ٥٠"
       },
       "bots_amount": {
-        "name": "عدد البوتات",
+        "name": "Number of bots",
         "hint": "في مجموعة واحدة",
         "text": "الأقصى ٢٠"
       },
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "عدد المجلدات",
         "hint": "",
-        "text": "الأقصى ١٠ عناصر"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "محادثات المثبتة في مجلد",
         "hint": "",
-        "text": "ما يصل إلى ١٠٠ عنصر"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "تحويل الرسائل",
         "hint": "",
-        "text": "الأقصى الفان كل ساعة"
+        "text": "up to 2,000 per hour"
       },
       "keys_in_keyboard_number": {
         "name": "عدد أزرار لوحة المفاتيح",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "أقصر عدد أحرف للبحث",
         "hint": "للبحث العام",
-        "text": "يبدأ من ٤ احرف"
+        "text": "at least 4 characters"
       }
     }
   },
@@ -337,10 +337,10 @@
         "hint": "",
         "text": "الأقصى ٢٠٠ عنصر"
       },
-      "favirite_stickers": {
-        "name": "عدد الملصقات المفضلة",
+      "favorite_stickers": {
+        "name": "Favorite stickers number",
         "hint": "",
-        "text": "الأقصى ٥ عناصر"
+        "text": "up to 5 items"
       },
       "pack_size": {
         "name": "عدد الملصقات في الحزم",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "حجم الملصق",
         "hint": "",
-        "text": "حجم طرف واحد يساوي ٥١٢بيكسل و الآخر — ٥١٢بيكسل أو أقل; ولكن الملصقات المتحركة فقط ٥١٢×٥١٢"
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "مدة الحركة",

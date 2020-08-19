@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Número de canales y supergrupos",
         "hint": "puedes ser miembro de",
-        "text": "hasta 500 (incluyendo los de que posees)"
+        "text": "up to 500 (including ones you own)"
       },
       "gifs_number": {
         "name": "Número de GIF guardados",
@@ -68,12 +68,12 @@
         "text": "hasta 200 000"
       },
       "admins_number": {
-        "name": "Número de administradores",
+        "name": "Number of admins",
         "hint": "en grupos",
         "text": "hasta 50"
       },
       "bots_amount": {
-        "name": "Número de bots",
+        "name": "Number of bots",
         "hint": "en grupos",
         "text": "hasta 20"
       },
@@ -128,7 +128,7 @@
     "name": "Canales",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
+        "name": "Número de nombres de usuario públicos",
         "hint": "para una sola cuenta",
         "text": "hasta 10 (incluyendo grupos)"
       },
@@ -178,7 +178,7 @@
         "text": "al menos 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
+        "name": "Reserva de cambio de nombre de usuario",
         "hint": "(tiempo antes de que el nombre de usuario está disponible para todos, no sólo para el propietario original)",
         "text": "alrededor de 15 a 30 minutos"
       }
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Cantidad de carpetas",
         "hint": "",
-        "text": "hasta 10 carpetas"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Chats fijados en una carpeta",
         "hint": "",
-        "text": "hasta 100 chats"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Reenvío de mensajes",
         "hint": "",
-        "text": "hasta 2 000 por hora"
+        "text": "up to 2,000 per hour"
       },
       "keys_in_keyboard_number": {
         "name": "Número de botones del teclado",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Longitud mínima de la consulta",
         "hint": "para búsqueda global",
-        "text": "al menos 4 caracteres"
+        "text": "at least 4 characters"
       }
     }
   },
@@ -337,10 +337,10 @@
         "hint": "",
         "text": "hasta 200 packs"
       },
-      "favirite_stickers": {
-        "name": "Número de stickers favoritos",
+      "favorite_stickers": {
+        "name": "Favorite stickers number",
         "hint": "",
-        "text": "hasta 5 stickers"
+        "text": "up to 5 items"
       },
       "pack_size": {
         "name": "Número de stickers en un pack",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Tamaño de sticker",
         "hint": "",
-        "text": "one size equals to 512px, other one — 512px or less; strict 512x512 for animated"
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "Duración de la animación",
@@ -385,7 +385,7 @@
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Otros",
     "items": {
       "properties": {
         "name": "Propiedades del avatar de video",

@@ -1,485 +1,485 @@
 [
     {
-        "name": "الحسابات",
+        "name": "Accounts",
         "icon": "account_circle",
         "color": "110, 80, 200",
         "items": [
             {
-                "name": "اسم المستخدم",
-                "hint": "(مثال @username)",
-                "text": "٥ الى ٣٢ حرفاً",
+                "name": "Username",
+                "hint": "(e.g. @cameraman)",
+                "text": "5 to 32 characters",
                 "icon": "alternate_email"
             },
             {
-                "name": "النبذة",
+                "name": "Bio",
                 "hint": "",
-                "text": "الأقصى ٧٠ حرفاً",
+                "text": "up to 70 characters",
                 "icon": "description"
             },
             {
-                "name": "طول الاسم الأول",
+                "name": "First Name length",
                 "hint": "",
-                "text": "من ١ الى ٦٤ حرفاً",
+                "text": "from 1 to 64 characters",
                 "icon": "assignment_ind"
             },
             {
-                "name": "طول اسم العائلة",
+                "name": "Last Name length",
                 "hint": "",
-                "text": "من ٠ الى ٦٤ حرفاً",
+                "text": "from 0 to 64 characters",
                 "icon": "assignment"
             },
             {
-                "name": "مدة التدمير الذاتي",
-                "hint": "بعد تركك لحسابك",
-                "text": "١, ٣, ٦ و ١٢ شهرا (الافتراضي هو ٦)",
+                "name": "Self-destruction period",
+                "hint": "if no activity",
+                "text": "1, 3, 6 and 12 months (6 by default)",
                 "icon": "auto_delete"
             },
             {
-                "name": "قيود الازعاج",
+                "name": "Spam ban",
                 "hint": "",
-                "text": "٣ ايام و يتزايد",
+                "text": "3 days and more",
                 "icon": "block"
             },
             {
-                "name": "عدد القنوات و المجموعات",
-                "hint": "التي لك الحد الإنضمام لها",
-                "text": "الأقصى ٥٠٠ (بتضمين التي أنشأتها)",
+                "name": "Channels and supergroups number",
+                "hint": "you can be member of",
+                "text": "up to 500 (including one you own)",
                 "icon": "groups"
             },
             {
-                "name": "أقصى حفظ للصور المتحركة",
+                "name": "Saved GIFs number",
                 "hint": "",
-                "text": "٢٠٠",
+                "text": "up to 200",
                 "icon": "gif"
             },
             {
-                "name": "مدة مقطع الملف الشخصي",
+                "name": "Video-avatar duration",
                 "hint": "",
-                "text": "الأقصى ١٠ ثواني",
+                "text": "up to 10 seconds",
                 "icon": "slow_motion_video"
             },
             {
-                "name": "انشاء مجموعات و قنوات",
+                "name": "Group and channel creation",
                 "hint": "",
-                "text": "الأقصى ٥٠ في اليوم",
+                "text": "up to 50 in a day",
                 "icon": "add"
             },
             {
-                "name": "عدد الحسابات",
-                "hint": "(التيليجرام الرسمي)",
-                "text": "الأقصى ٣",
+                "name": "Accounts number",
+                "hint": "(official clients)",
+                "text": "up to 3",
                 "icon": "group_work"
             }
         ]
     },
     {
-        "name": "المحادثات و المجموعات",
+        "name": "Chats and groups",
         "icon": "forum",
         "color": "244, 64, 52",
         "items": [
             {
-                "name": "المشاركين",
-                "hint": "(يمكن زيادة الحدود)",
-                "text": "الأقصى ٢٠٠,٠٠٠",
+                "name": "Participants",
+                "hint": "(limit can be raised)",
+                "text": "up to 200,000",
                 "icon": "group_add"
             },
             {
-                "name": "عدد المشرفين",
-                "hint": "في مجموعة واحدة",
-                "text": "الأقصى ٥٠",
+                "name": "Admins number",
+                "hint": "in groups",
+                "text": "up to 50",
                 "icon": "security"
             },
             {
-                "name": "عدد البوتات",
-                "hint": "في مجموعة واحدة",
-                "text": "الأقصى ٢٠",
+                "name": "Bots number",
+                "hint": "in groups",
+                "text": "up to 20",
                 "icon": "settings"
             },
             {
-                "name": "التثبيت بالقائمة الأساسية",
+                "name": "Pinned chats in main list",
                 "hint": "",
-                "text": "الأقصى ٥ قنوات او مجموعات + ٥ محادثات سرية",
+                "text": "up to 5 chats or channels + 5 secret chats",
                 "icon": "push_pin"
             },
             {
-                "name": "اسم المجموعة و الوصف",
+                "name": "Group name and description",
                 "hint": "",
-                "text": "الأقصى ٢٥٥ حرفاً",
+                "text": "up to 255 characters",
                 "icon": "subject"
             },
             {
-                "name": "تعديل الرسائل",
+                "name": "Message editing",
                 "hint": "",
-                "text": "المدة القصوى يومان بعد ارسالها; ولكنها غير محدودة في الرسائل المحفوظة أو للمشرفين بصلاحيات تثبيت الرسائل",
+                "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights",
                 "icon": "edit"
             },
             {
-                "name": "عداد التدمير الذاتي للصور و المقاطع",
+                "name": "Photo and video self-destruction",
                 "hint": "",
-                "text": "من ١ الى ٦٠ ثانية",
+                "text": "1 to 60 seconds",
                 "icon": "shutter_speed"
             },
             {
-                "name": "آخر الأحداث",
-                "hint": "(الاشتراكات, الرسائل, الخ)",
-                "text": "آخر يومين",
+                "name": "Recent actions",
+                "hint": "(subscriptions, posts, etc.)",
+                "text": "last two days",
                 "icon": "history"
             },
             {
-                "name": "عدد الإشارات",
-                "hint": "في رسالة واحدة",
-                "text": "الأقصى ٥٠؛ وإلا لن تُرسل الاشعارات",
+                "name": "Mentions number",
+                "hint": "in a single message",
+                "text": "up to 50, else notifications won't be sent",
                 "icon": "alternate_email"
             },
             {
-                "name": "الرسائل المرئية",
-                "hint": "في المجموعة",
-                "text": "١،٠٠٠،٠٠٠ من أحدث الرسائل",
+                "name": "Visible messages number",
+                "hint": "in group",
+                "text": "1,000,000 last messages",
                 "icon": "visibility"
             },
             {
-                "name": "عدد الأعضاء لرؤية الإحصائيات",
+                "name": "Number of participants to see statistics",
                 "hint": "",
-                "text": "الأدنى ٥٠٠ عضو",
+                "text": "at least 500",
                 "icon": "poll"
             },
             {
-                "name": "مهلة حجز اسم المستخدم",
-                "hint": "(الوقت المحدد قبل اتاحة اسم المستخدم للجميع وليس فقط لمالكها)",
-                "text": "حوالي ١٥-٣٠ دقيقة",
+                "name": "Username change reservation",
+                "hint": "(time before username will be available for everyone, not just the original owner)",
+                "text": "about 15-30 minutes",
                 "icon": "timelapse"
             }
         ]
     },
     {
-        "name": "القنوات",
+        "name": "Channels",
         "icon": "campaign",
         "color": "96, 125, 139",
         "items": [
             {
-                "name": "عدد أسماء المستخدم العامة",
-                "hint": "ضمن حساب واحد",
-                "text": "الأقصى ١٠ (بتضمين المجموعات)",
+                "name": "Public usernames number",
+                "hint": "for a single account",
+                "text": "up to 10 (including groups)",
                 "icon": "alternate_email"
             },
             {
-                "name": "طول اسم المستخدم @username",
+                "name": "Length of @username",
                 "hint": "",
-                "text": "٥ الى ٣٢ حرفاً",
+                "text": "5 to 32 characters",
                 "icon": "text_rotation_none"
             },
             {
-                "name": "اسم القناة و الوصف",
+                "name": "Channel name and description",
                 "hint": "",
-                "text": "الأقصى ٢٥٥ حرفاً",
+                "text": "up to 255 characters",
                 "icon": "description"
             },
             {
-                "name": "تعديل المنشورات",
+                "name": "Posts editing",
                 "hint": "",
-                "text": "غير محدود",
+                "text": "unlimited",
                 "icon": "edit"
             },
             {
-                "name": "عدد مشتركي القناة",
+                "name": "Channel subscribers number",
                 "hint": "",
-                "text": "غير محدود",
+                "text": "unlimited",
                 "icon": "groups"
             },
             {
-                "name": "قائمة مشتركين المرئية",
-                "hint": "لمشرفي القنوات",
-                "text": "٢٠٠ شخصا",
+                "name": "Visible subscribers",
+                "hint": "for channel admin",
+                "text": "200 people",
                 "icon": "visibility"
             },
             {
-                "name": "حذف القناة",
+                "name": "Channel deletion",
                 "hint": "",
-                "text": "لا يمكن حذف القنوات التي تضم أكثر من ألف مشترك إلا بدعم تيليجرام",
+                "text": "channels with more than 1K subscribers can be deleted only with Telegram support",
                 "icon": "delete"
             },
             {
-                "name": "الولوج لقناة خاصة",
-                "hint": "بدون الاشتراك فيها",
-                "text": "المدة القصوى ٥ دقائق مرة كل يوم",
+                "name": "Private channel access",
+                "hint": "without subscription",
+                "text": "up to 5 minutes once a day",
                 "icon": "lock"
             },
             {
-                "name": "اضافة المستخدمين",
+                "name": "Inviting users",
                 "hint": "",
-                "text": "الأقصى ٢٠٠ مستخدماً",
+                "text": "up to 200 people",
                 "icon": "inbox"
             },
             {
-                "name": "عدد المشتركين لرؤية الإحصائيات",
+                "name": "Number of subscribers to see statistics",
                 "hint": "",
-                "text": "الأدنى ٥٠٠ مشترك",
+                "text": "at least 500",
                 "icon": "poll"
             },
             {
-                "name": "مهلة حجز اسم المستخدم",
-                "hint": "(الوقت المحدد قبل اتاحة اسم المستخدم للجميع وليس فقط لمالكها)",
-                "text": "حوالي ١٥-٣٠ دقيقة",
+                "name": "Username change reservation",
+                "hint": "(time before username will be available for everyone, not just the original owner)",
+                "text": "about 15-30 minutes",
                 "icon": "timelapse"
             }
         ]
     },
     {
-        "name": "الرسائل",
+        "name": "Messages",
         "icon": "message",
         "color": "0, 150, 136",
         "items": [
             {
-                "name": "طول الرسالة الواحدة",
+                "name": "One message length",
                 "hint": "",
-                "text": "الحد الأقصى ٤٠٩٦ حرفاً",
+                "text": "up to 4,096 characters",
                 "icon": "textsms"
             },
             {
-                "name": "وصف الوسائط",
+                "name": "Media captions",
                 "hint": "",
-                "text": "الأقصى ١٠٢٤ حرفاً",
+                "text": "up to 1,024 characters",
                 "icon": "loyalty"
             },
             {
-                "name": "حجم الملف",
+                "name": "File size limit",
                 "hint": "",
-                "text": "الحد الأقصى ٢جيجا",
+                "text": "up to 2.0 GB",
                 "icon": "cloud_upload"
             },
             {
-                "name": "مدة المقطع للملف الشخصي",
+                "name": "Video message duration",
                 "hint": "",
-                "text": "الأقصى دقيقة واحدة",
+                "text": "up to 1 minute",
                 "icon": "motion_photos_on"
             },
             {
-                "name": "الصور في رسالة واحدة",
-                "hint": "(البوم)",
-                "text": "الحد الأقصى ١٠ عناصر",
+                "name": "Images in single message",
+                "hint": "(album)",
+                "text": "up to 10 items",
                 "icon": "dashboard"
             },
             {
-                "name": "عدد الرسائل المجدولة",
+                "name": "Scheduled messages number",
                 "hint": "",
-                "text": "الأقصى ١٠٠ عناصر",
+                "text": "up to 100 items",
                 "icon": "update"
             },
             {
-                "name": "مدة الجدولة",
+                "name": "Schedule range",
                 "hint": "",
-                "text": "ما يصل لـ ٣٦٥ يوماً",
+                "text": "up to 365 days",
                 "icon": "date_range"
             }
         ]
     },
     {
-        "name": "المجلدات",
+        "name": "Folders",
         "icon": "folder",
         "color": "156, 39, 176",
         "items": [
             {
-                "name": "عدد المجلدات",
+                "name": "Folders amount",
                 "hint": "",
-                "text": "الأقصى ١٠ عناصر",
+                "text": "up to 10 items",
                 "icon": "create_new_folder"
             },
             {
-                "name": "محادثات المثبتة في مجلد",
+                "name": "Pinned chats in a folder",
                 "hint": "",
-                "text": "ما يصل إلى ١٠٠ عنصر",
+                "text": "up to 100 items",
                 "icon": "push_pin"
             }
         ]
     },
     {
-        "name": "الأشخاص القريبون",
+        "name": "People Nearby",
         "icon": "person_pin_circle",
         "color": "175, 180, 43",
         "items": [
             {
-                "name": "مدى الرؤية",
+                "name": "Visibility range",
                 "hint": "",
-                "text": "حوالي ١٢ كيلومتر",
+                "text": "about 12 kilometers",
                 "icon": "track_changes"
             },
             {
-                "name": "عدد المستخدمين المرئيين",
+                "name": "Visible users amount",
                 "hint": "",
-                "text": "الأقصى ١٠٠ شخص",
+                "text": "up to 100 people",
                 "icon": "groups"
             },
             {
-                "name": "عدد المجموعات المرئية",
+                "name": "Visible geochats number",
                 "hint": "",
-                "text": "الأقرب ١٠",
+                "text": "up to 10 closest",
                 "icon": "forum"
             }
         ]
     },
     {
-        "name": "البوتات",
+        "name": "Bots",
         "icon": "settings",
         "color": "76, 175, 80",
         "items": [
             {
-                "name": "عدد البوتات",
-                "hint": "(المنشئة من قبل @BotFather)",
-                "text": "الأقصى ٢٠ عنصراً",
+                "name": "Bots number",
+                "hint": "(created by @BotFather)",
+                "text": "up to 20 items",
                 "icon": "widgets"
             },
             {
-                "name": "طول اسم المستخدم",
-                "hint": "للبوتات",
-                "text": "من ٥ إلى ٣٢ حرفاً",
+                "name": "Length of @username",
+                "hint": "for bots",
+                "text": "5 to 32 characters",
                 "icon": "alternate_email"
             },
             {
-                "name": "عدد أحرف معلومات البوت",
+                "name": "Bot info length",
                 "hint": "(/setabouttext)",
-                "text": "الأقصى ١٢٠ حرفاً",
+                "text": "up to 120 characters",
                 "icon": "text_rotation_none"
             },
             {
-                "name": "عدد أحرف ما يقدمه هذا البوت",
+                "name": "Bot description length",
                 "hint": "",
-                "text": "الأقصى ٥١٢ حرفاً",
+                "text": "up to 512 characters",
                 "icon": "description"
             },
             {
-                "name": "حد رفع الملفات",
-                "hint": "(البوتات)",
-                "text": "الأقصى ٥٠ ميغابايت",
+                "name": "File upload limit",
+                "hint": "(BotAPI)",
+                "text": "up to 50 MB",
                 "icon": "cloud_upload"
             },
             {
-                "name": "حد تنزيل الملفات",
-                "hint": "(البوتات)",
-                "text": "الأقصى ٢٠ ميغابايت",
+                "name": "File download limit",
+                "hint": "(BotAPI)",
+                "text": "up to 20 MB",
                 "icon": "cloud_download"
             },
             {
-                "name": "تحويل الرسائل",
+                "name": "Message forwarding",
                 "hint": "",
-                "text": "الأقصى الفان كل ساعة",
+                "text": "up to 2 000 per hour",
                 "icon": "forward_to_inbox"
             },
             {
-                "name": "عدد أزرار لوحة المفاتيح",
+                "name": "Keyboard buttons number",
                 "hint": "",
-                "text": "الأقصى ١٠٠ مدخلات",
+                "text": "up to 100 entities",
                 "icon": "keyboard"
             },
             {
-                "name": "بيانات تنسيق الرسائل",
+                "name": "Message formatting data",
                 "hint": "",
-                "text": "الأقصى ١٠ كيلوبايت",
+                "text": "up to 10 KB",
                 "icon": "format_shapes"
             },
             {
-                "name": "تردد الرسائل",
-                "hint": "(يمكن زيادته بواسطة الدعم)",
-                "text": "الأقصى ٣٠ رسالة كل ثانية; ٢٠ كل دقيقة المحادثات العامة و القنوات",
+                "name": "Messages frequency",
+                "hint": "(can be raised by support)",
+                "text": "up to 30 messages per second; 20 per minute for public chats and channels",
                 "icon": "speed"
             }
         ]
     },
     {
-        "name": "بحث",
+        "name": "Search",
         "icon": "search",
         "color": "63, 81, 181",
         "items": [
             {
-                "name": "نتائج البحث العامة",
+                "name": "Global search results",
                 "hint": "",
-                "text": "الأقصى عشر نتائج; للأندرويد الأقصى ثلاث نتائج",
+                "text": "up to 10 items; up to 3 for Android",
                 "icon": "receipt_long"
             },
             {
-                "name": "أقصر عدد أحرف للبحث",
-                "hint": "للبحث العام",
-                "text": "يبدأ من ٤ احرف",
+                "name": "Minimal query length",
+                "hint": "for global search",
+                "text": "starting from 4 characters",
                 "icon": "text_rotation_none"
             }
         ]
     },
     {
-        "name": "الملصقات",
+        "name": "Stickers",
         "icon": "insert_emoticon",
         "color": "255, 152, 0",
         "items": [
             {
-                "name": "عدد الحزم المضافة",
+                "name": "Added packs number",
                 "hint": "",
-                "text": "الأقصى ٢٠٠ عنصر",
+                "text": "up to 200 items",
                 "icon": "queue"
             },
             {
-                "name": "عدد الملصقات المفضلة",
+                "name": "Favorite stickers number",
                 "hint": "",
-                "text": "الأقصى ٥ عناصر",
+                "text": "up to 5 items",
                 "icon": "star"
             },
             {
-                "name": "عدد الملصقات في الحزم",
+                "name": "Stickers in a pack number",
                 "hint": "",
-                "text": "الأقصى ١٢٠ الثابتة, و ٥٠ للمتحركة",
+                "text": "up to 120 for static, up to 50 for animated",
                 "icon": "collections"
             },
             {
-                "name": "حجم الملصق",
+                "name": "Sticker size",
                 "hint": "",
-                "text": "حجم طرف واحد يساوي ٥١٢بيكسل و الآخر — ٥١٢بيكسل أو أقل; ولكن الملصقات المتحركة فقط ٥١٢×٥١٢",
+                "text": "one size equals to 512px, other one — 512px or less; strict 512x512 for animated",
                 "icon": "crop_free"
             },
             {
-                "name": "مدة الحركة",
+                "name": "Animation duration",
                 "hint": "",
-                "text": "الأقصى لثلاث ثواني",
+                "text": "up to 3 seconds",
                 "icon": "timelapse"
             },
             {
-                "name": "حجم ملف الملصق",
+                "name": "Sticker file size",
                 "hint": "",
-                "text": "الأقصى الملصقات الثابتة ٥١٢ كيلوبايت, الملصقات المتحركة ٦٤ كيلوبايت",
+                "text": "up to 512 KB for static, up to 64 KB for animated",
                 "icon": "folder_open"
             },
             {
-                "name": "الإطار في الثانية",
+                "name": "FPS",
                 "hint": "",
-                "text": "اما ٣٠ او ٦٠",
+                "text": "either 30 or 60",
                 "icon": "speed"
             }
         ]
     },
     {
-        "name": "تيليجراف",
+        "name": "Telegraph",
         "icon": "article",
         "color": "3, 169, 244",
         "items": [
             {
-                "name": "عدد الحسابات",
-                "hint": "في بوت @telegraph",
-                "text": "الأقصى ٥ عناصر",
+                "name": "Accounts number",
+                "hint": "in @telegraph bot",
+                "text": "up to 5 items",
                 "icon": "how_to_reg"
             },
             {
-                "name": "حجم المقال",
+                "name": "Article size",
                 "hint": "",
-                "text": "الأقصى ٦٤ كيلوبايت",
+                "text": "up to 64 KiB",
                 "icon": "text_rotation_none"
             }
         ]
     },
     {
-        "name": "متنوع",
+        "name": "Miscellaneous",
         "icon": "miscellaneous_services",
         "color": "139, 195, 74",
         "items": [
             {
-                "name": "خصائص مقطع الشخصي",
+                "name": "Video avatar properties",
                 "hint": "",
-                "text": "٨٠٠×٨٠٠ بيكسل، حجم المقطع ٢ ميكابايت",
+                "text": "800x800px, up to 2 MB",
                 "icon": "slow_motion_video"
             }
         ]

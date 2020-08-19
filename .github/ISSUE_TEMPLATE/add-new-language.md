@@ -7,8 +7,8 @@ assignees: Sominemo
 
 ---
 
-## Language name <!-- e.g. Spanish ->
+## Language name <!-- e.g. Spanish -->
 
-## Native language name <!-- e.g. Español ->
+## Native language name <!-- e.g. Español -->
 
-## Is it RTL? <!-- e.g. Arabic is RTL, while Spanish is not ->
+## Is it RTL? <!-- e.g. Arabic is RTL, while Spanish is not -->

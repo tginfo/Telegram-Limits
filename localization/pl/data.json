@@ -1,371 +1,371 @@
 {
   "accounts": {
-    "name": "Accounts",
+    "name": "Konta",
     "items": {
       "username": {
-        "name": "Username",
-        "hint": "(e.g. @cameraman)",
-        "text": "5 to 32 characters"
+        "name": "Nazwa użytkownika",
+        "hint": "(np. @tpolska)",
+        "text": "5 do 32 znaków"
       },
       "bio": {
-        "name": "Bio",
+        "name": "Biografia",
         "hint": "",
-        "text": "up to 70 characters"
+        "text": "do 70 znaków"
       },
       "name_length": {
-        "name": "First Name length",
+        "name": "Długość imienia",
         "hint": "",
-        "text": "from 1 to 64 characters"
+        "text": "od 1 do 64 znaków"
       },
       "last_name_length": {
-        "name": "Last Name length",
+        "name": "Długość nazwiska",
         "hint": "",
-        "text": "from 0 to 64 characters"
+        "text": "od 0 do 64 znaków"
       },
       "self_destruction": {
-        "name": "Self-destruction period",
-        "hint": "if no activity",
-        "text": "1, 3, 6 and 12 months (6 by default)"
+        "name": "Okres samozniszczenia konta",
+        "hint": "w przypadku braku aktywności",
+        "text": "1, 3, 6 i 12 miesięcy (domyślnie 6)"
       },
       "spam_ban": {
-        "name": "Spam ban",
+        "name": "Blokada za SPAM",
         "hint": "",
-        "text": "3 days and more"
+        "text": "3 dni i więcej"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
-        "hint": "you can be member of",
-        "text": "up to 500 (including one you own)"
+        "name": "Liczba kanałów i supergrup",
+        "hint": ", do których możesz należeć",
+        "text": "do 500 (w tym stworzone przez ciebie)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "Liczba zapisanych GIF-ów",
         "hint": "",
-        "text": "up to 200"
+        "text": "do 200"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "Czas trwania awatara wideo",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "do 10 sekund"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "Tworzenie grup i kanałów",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "do 50 dziennie"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "Ilość kont",
+        "hint": "(oficjalni klienci)",
+        "text": "do 3"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "Czaty i grupy",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "name": "Liczba członków",
+        "hint": "(limit stale rośnie)",
+        "text": "do 200 000"
       },
       "admins_number": {
-        "name": "Admins number",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "Liczba Administratorów",
+        "hint": "w grupie",
+        "text": "do 50"
       },
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "Liczba botów",
+        "hint": "w grupie",
+        "text": "do 20"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "Przypięte czaty na głównej liście",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "do 5 czatów lub kanałów + 5 szyfrowanych czatów"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Nazwa i opis grupy",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "do 255 znaków"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Edycja wiadomości",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "w ciągu 48 godzin od wysłania; nieograniczona w Zapisane wiadomości i dla administratorów z prawami przypinania"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Samozniszczenie zdjęć i filmów",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 do 60 sekund"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "Ostatnie zdarzenia",
+        "hint": "(subskrypcje, posty itp.)",
+        "text": "ostatnie 2 dni"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "name": "Liczba wzmianek",
+        "hint": "w jednej wiadomości",
+        "text": "do 50, w przeciwnym razie nie będzie powiadomienia"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Liczba widocznych wiadomości",
+        "hint": "w grupie",
+        "text": "1 000 000 ostatnich wiadomości"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Liczba subskrybentów, aby zobaczyć statystyki",
         "hint": "",
-        "text": "at least 500"
+        "text": "co najmniej 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Rezerwacja @nazwy użytkownika po zmianie",
+        "hint": "(czas, w którym nazwa użytkownika jest dostępna tylko dla poprzedniego właściciela)",
+        "text": "około 15-30 minut"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Kanały",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "Liczba publicznych nazw użytkownika",
+        "hint": "na pojedyncze konto",
+        "text": "do 10 (w tym grupy)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "Długość @nazwy użytkownika",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 do 32 znaków"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Długość nazwy kanału i opisu",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "do 255 znaków"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Edycja postów",
         "hint": "",
-        "text": "unlimited"
+        "text": "bez limitu"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Liczba subskrybentów kanałów",
         "hint": "",
-        "text": "unlimited"
+        "text": "bez limitu"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Widoczni subskrybenci",
+        "hint": "dla administratorów kanału",
+        "text": "200 osób"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Usuwanie kanału",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "kanał, który ma więcej niż 1 tys. subskrybentów, można usunąć tylko poprzez obsługę Telegrama"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "Czytanie prywatnego kanału",
+        "hint": "bez subskrypcji",
+        "text": "do 5 minut raz dziennie"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Zapraszanie użytkowników",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "do 200 osób"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Liczba subskrybentów, aby zobaczyć statystyki",
         "hint": "",
-        "text": "at least 500"
+        "text": "co najmniej 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Rezerwacja @nazwy użytkownika po zmianie",
+        "hint": "(czas, w którym nazwa użytkownika jest dostępna tylko dla poprzedniego właściciela)",
+        "text": "około 15-30 minut"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Wiadomości",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Długość jednej wiadomości",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "do 4096 znaków"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Opis plików multimedialnych",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "do 1024 znaków"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Rozmiar wysłanych plików",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "do 2 GB"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Czas trwania wiadomości wideo",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "do 1 minuty"
       },
       "album_size": {
-        "name": "Images in single message",
+        "name": "Liczba zdjęć w jednej wiadomości",
         "hint": "(album)",
-        "text": "up to 10 items"
+        "text": "do 10 sztuk"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Liczba zaplanowanych wiadomości",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "do 100 sztuk"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Okres planowania wiadomości",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "do 365 dni"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Foldery",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Liczba folderów",
         "hint": "",
-        "text": "up to 10 items"
+        "text": "do 10 sztuk"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "Przypięte czaty w folderze",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "do 100 sztuk"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Ludzie w pobliżu",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Promień widoczności",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "około 12 kilometrów"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Liczba wyświetlonych użytkowników",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "do 100 osób"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Liczba wyświetlanych geoczatów",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "do 10 najbliższych"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "Boty",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "Liczba botów",
+        "hint": "(utworzonych przez @BotFather)",
+        "text": "do 20 sztuk"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "Długość @nazwy użytkownika",
+        "hint": "dla bota",
+        "text": "5 do 32 znaków"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Długość informacji o bocie",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "do 120 znaków"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Długość opisu bota",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "do 512 znaków"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Pliki wysłane przez bota",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "do 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Pliki pobierane przez bota",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "do 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "Możliwość przekazywania wiadomości",
         "hint": "",
-        "text": "up to 2 000 per hour"
+        "text": "do 2 000 na godzinę"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "Liczba przycisków",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "do 100 sztuk"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Dane formatowania wiadomości",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "do 10 KB"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by support)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "Częstotliwość wiadomości",
+        "hint": "(może zostać zwiększona przez wsparcie)",
+        "text": "do 30 wiadomości na sekundę; 20 wiadomości na minutę dla czatów i kanałów"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Wyszukiwanie",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Globalne wyniki wyszukiwania",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "do 10 elementów; do 3 na Androidzie"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "starting from 4 characters"
+        "name": "Minimalna długość zapytania",
+        "hint": "dla wyszukiwania globalnego",
+        "text": "od 4 znaków"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Naklejki",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Liczba dodanych pakietów naklejek",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "do 200 sztuk"
       },
       "favirite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Liczba ulubionych naklejek",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "do 5 sztuk"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "Liczba naklejek w zestawie",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "do 120 w przypadku statycznych, do 50 w przypadku animowanych"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Rozmiar naklejki",
         "hint": "",
-        "text": "one size equals to 512px, other one — 512px or less; strict 512x512 for animated"
+        "text": "512x512 px lub mniej; dokładnie 512x512 px dla animowanej"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Czas trwania animacji",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "do 3 sekund"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Rozmiar pliku naklejki",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "do 512 KB w przypadku statycznej, do 64 KB w przypadku animowanej"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 lub 60"
       }
     }
   },
@@ -373,24 +373,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Liczba kont",
+        "hint": "w bocie @telegraph",
+        "text": "do 5 sztuk"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Rozmiar artykułu",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "do 64 KB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Różne",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Właściwości awatara wideo ",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, do 2 MB"
       }
     }
   }

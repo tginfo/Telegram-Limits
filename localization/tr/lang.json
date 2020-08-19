@@ -1,14 +1,14 @@
 {
-    "title": "Telegram Sınırları — Telegram Info",
-    "description": "2020'de her zaman güncel Telegram sınırları. Mesaj uzunluğu, paketteki çıkartma sayısı, Bot API'de mesaj sıklığı, katılımcı sayısı, düzenleme, maksimum dosya boyutu ve daha fazlası hakkında sınırlar",
-    "description_short": "Her zaman güncel Telegram sınırları",
-    "study": "| Çalışma",
-    "big_title": "Telegram Sınırları",
-    "article_name": "Sınırlar neden var",
-    "article_p1": "Diğer tüm hizmetlerde olduğu gibi, Telegram da kullanıcıların Adil Kullanım Politikası'na uymasını ve hizmetin çalışmaya devam etmesini sağlamak için sınırları kullanır.",
-    "article_p2": "Bu tablo şu anda bilinen Telegram sınırlarını listeler ve güncel tutulmaktadır.",
-    "loading": "Yükleniyor...",
-    "homepage": "Anasayfa",
-    "language": "Dil",
-    "search": "Ara"
+    "title": "Telegram Limits — Telegram Info",
+    "description": "Always up-to-date Telegram limits in 2020. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
+    "description_short": "Always up-to-date Telegram limits",
+    "study": "| Study",
+    "big_title": "Telegram Limits",
+    "article_name": "Why limitations exist",
+    "article_p1": "Just like any other service, Telegram uses limits to ensure that users follow Fair Usage Policy and to keep the service running.",
+    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
+    "loading": "Loading...",
+    "homepage": "Homepage",
+    "language": "Language",
+    "search": "Search"
 }

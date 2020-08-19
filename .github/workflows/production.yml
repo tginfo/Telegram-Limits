@@ -1,6 +1,9 @@
 name: Upload to Production
 
-on: [push]
+on: 
+  push:
+    branches: 
+      - master
 
 jobs:
   build:

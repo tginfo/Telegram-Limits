@@ -49,7 +49,7 @@ foreach ($supported_langs_file_raw as $key => $value) {
         $del = explode("-", $key);
         if (isset($supported_langs_file_raw[$del[0]])) continue;
 
-        $supported_langs_file[$del[0]] = $del[0];
+        $supported_langs_file[$del[0]] = $key;
     }
 }
 

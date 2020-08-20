@@ -202,7 +202,7 @@ $markup = [
             <div class="data"><a href="https://tginfo.me/" data-lang="homepage"><?= __("homepage", UCOMP) ?></a> |
                 <a href="#" onclick="return langSwitch(this, event)" id="langswitchlabel">
                     <md-icon id="langicon" aria-hidden="true">language</md-icon>
-                    <?= strtoupper($lang) ?>
+                    <?= strtoupper(substr($lang, 0, 2)) ?>
                 </a>
             </div>
             <ul id="langlist">
@@ -212,7 +212,7 @@ $markup = [
                 ?>
                     <li class="lang-link<?= ($key === $lang ? " active-lang" : "") ?>">
                         <a href="/<?= $key ?>">
-                            <div class="lang-code"><?= strtoupper($key) ?></div><?= ($value[0]) ?>
+                            <div class="lang-code"><?= strtoupper(substr($key, 0, 2)) ?></div><?= ($value[0]) ?>
                         </a>
                     </li>
                 <?php

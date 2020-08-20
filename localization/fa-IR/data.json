@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "ممنوعیت هرزنامه",
         "hint": "",
-        "text": "3 days and more"
+        "text": "3 روز و یا بیشتر"
       },
       "channels_and_chats_number": {
         "name": "تعداد کانال ها و ابرگروه ها",

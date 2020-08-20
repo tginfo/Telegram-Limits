@@ -88,23 +88,23 @@
         "text": "bis zu 255 Zeichen"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Nachrichtenbearbeitung",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "bis 48 Stunden nach dem Senden; unbegrenzt in Gespeichertes und für Admins mit Anheften-Berechtigung"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Foto- und Video-Selbstzerstörung",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 bis 60 Sekunden"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "Letzte Aktionen",
+        "hint": "(Abonnements, Beiträge, etc.)",
+        "text": "letzte zwei Tage"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
+        "name": "Anzahl der Erwähnungen",
+        "hint": "in einer einzelnen Nachricht",
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {

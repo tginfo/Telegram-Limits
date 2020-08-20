@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Rozmiar naklejki",
         "hint": "",
-        "text": "jedna strona równa 512px, druga strona 512px lub mniej; dokładnie 512x512px dla animowanej"
+        "text": "jeden bok równy 512px, drugi bok 512px lub mniej; dokładnie 512x512px dla animowanej"
       },
       "animation_duration": {
         "name": "Czas trwania animacji",

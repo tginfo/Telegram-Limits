@@ -1,0 +1,397 @@
+{
+  "accounts": {
+    "name": "Hesaplar",
+    "items": {
+      "username": {
+        "name": "Kullanıcı Adı",
+        "hint": "(örn. @kameraman)",
+        "text": "5 ila 32 karakter"
+      },
+      "bio": {
+        "name": "Biyografi",
+        "hint": "",
+        "text": "70 karaktere kadar"
+      },
+      "name_length": {
+        "name": "Ad uzunluğu",
+        "hint": "",
+        "text": "1 ila 64 karakter"
+      },
+      "last_name_length": {
+        "name": "Soyad uzunluğu",
+        "hint": "",
+        "text": "0 ila 64 karakter"
+      },
+      "self_destruction": {
+        "name": "Kendini imha aralığı",
+        "hint": "(hareket yoksa)",
+        "text": "1, 3, 6 ve 12 ay (varsayılan 6)"
+      },
+      "spam_ban": {
+        "name": "Spam engeli",
+        "hint": "",
+        "text": "3 gün ve daha fazla"
+      },
+      "channels_and_chats_number": {
+        "name": "Kanal ve grup sayısı",
+        "hint": "üye olabileceğiniz",
+        "text": "up to 500 (including ones you own)"
+      },
+      "gifs_number": {
+        "name": "Kayıtlı GIF sayısı",
+        "hint": "",
+        "text": "200'e kadar"
+      },
+      "video_length": {
+        "name": "Video profil süresi",
+        "hint": "",
+        "text": "10 saniyeye kadar"
+      },
+      "groups_and_channels_creation": {
+        "name": "Grup ve kanal oluşturma",
+        "hint": "",
+        "text": "bir günde 50'ye kadar"
+      },
+      "accounts_number": {
+        "name": "Hesap sayısı",
+        "hint": "(resmi istemciler)",
+        "text": "3'e kadar"
+      }
+    }
+  },
+  "chats": {
+    "name": "Sohbetler ve gruplar",
+    "items": {
+      "participants_number": {
+        "name": "Katılımcılar",
+        "hint": "(sınır artabilir)",
+        "text": "200,000'e kadar"
+      },
+      "admins_number": {
+        "name": "Number of admins",
+        "hint": "gruplarda",
+        "text": "50'ye kadar"
+      },
+      "bots_amount": {
+        "name": "Number of bots",
+        "hint": "gruplarda",
+        "text": "20'ye kadar"
+      },
+      "pinned_number": {
+        "name": "Ana listede sabit sohbetler",
+        "hint": "",
+        "text": "5 sohbet veya kanal + 5 gizli sohbet"
+      },
+      "group_name": {
+        "name": "Grup adı ve açıklaması",
+        "hint": "",
+        "text": "255 karaktere kadar"
+      },
+      "editing": {
+        "name": "Mesaj düzenleme",
+        "hint": "",
+        "text": "Gönderdikten sonra 48 saat; Kayıtlı'da ve sabitleme izinleri olan yöneticiler için sınırsız"
+      },
+      "media_self_destruction": {
+        "name": "Fotoğraf ve video imhası",
+        "hint": "",
+        "text": "1 ila 60 saniye"
+      },
+      "recent_actions": {
+        "name": "Son hareketler",
+        "hint": "(abonelikler, paylaşımlar vb.)",
+        "text": "iki gün öncesi"
+      },
+      "mentions_amount": {
+        "name": "Etiketleme sayısı",
+        "hint": "tek mesajda",
+        "text": "50'ye kadar, geçerse bildirim gönderilmeyecek"
+      },
+      "visible_messages": {
+        "name": "Görünen mesaj sayısı",
+        "hint": "grupta",
+        "text": "1,000,000 son mesaj"
+      },
+      "participants_to_see_stats": {
+        "name": "İstatistikleri görmek için katılımcı sayısı",
+        "hint": "",
+        "text": "en az 500"
+      },
+      "username_reservation": {
+        "name": "Kullanıcı adı değişim rezervasyonu",
+        "hint": "(kullanıcı adının herkes için kullanılabilir olmadan önceki zaman, sadece orijinal sahibine değil)",
+        "text": "15-30 dakika civarı"
+      }
+    }
+  },
+  "channels": {
+    "name": "Kanallar",
+    "items": {
+      "public_usernames": {
+        "name": "Genel kullanıcı adı sayısı",
+        "hint": "tek hesapta",
+        "text": "10'a kadar (gruplar dahil)"
+      },
+      "username_length": {
+        "name": "@kullaniciadi uzunluğu",
+        "hint": "",
+        "text": "5 ila 32 karakter"
+      },
+      "channel_name": {
+        "name": "Kanal adı ve açıklaması",
+        "hint": "",
+        "text": "255 karaktere kadar"
+      },
+      "editing": {
+        "name": "Paylaşım düzenleme",
+        "hint": "",
+        "text": "sınırsız"
+      },
+      "subscribers": {
+        "name": "Kanal abone sayısı",
+        "hint": "",
+        "text": "sınırsız"
+      },
+      "visible_participants": {
+        "name": "Görünen aboneler",
+        "hint": "kanal yöneticisi için",
+        "text": "200 kişi"
+      },
+      "channel_deletion": {
+        "name": "Kanal silme",
+        "hint": "",
+        "text": "1,000+ aboneli kanallar sadece Telegram desteği ile silinebilir"
+      },
+      "private_channel_access": {
+        "name": "Gizli kanal erişimi",
+        "hint": "abonelik olmadan",
+        "text": "bir günde 5 dakikaya kadar"
+      },
+      "invintations": {
+        "name": "Kullanıcı davet etme",
+        "hint": "",
+        "text": "200 kişiye kadar"
+      },
+      "followers_to_see_stats": {
+        "name": "İstatistikleri görmek için abone sayısı",
+        "hint": "",
+        "text": "en az 500"
+      },
+      "username_reservation": {
+        "name": "Kullanıcı adı değişim rezervasyonu",
+        "hint": "(kullanıcı adının herkes için kullanılabilir olmadan önceki zaman, sadece orijinal sahibine değil)",
+        "text": "15-30 dakika civarı"
+      }
+    }
+  },
+  "messages": {
+    "name": "Mesajlar",
+    "items": {
+      "single_message_length": {
+        "name": "Tek mesaj uzunluğu",
+        "hint": "",
+        "text": "4,096 karaktere kadar"
+      },
+      "media_descriptions": {
+        "name": "Medya açıklaması",
+        "hint": "",
+        "text": "1,024 karaktere kadar"
+      },
+      "upload_size": {
+        "name": "Dosya boyut sınırı",
+        "hint": "",
+        "text": "2.0 GB'a kadar"
+      },
+      "video_message_duration": {
+        "name": "Video mesaj süresi",
+        "hint": "",
+        "text": "1 dakikaya kadar"
+      },
+      "album_size": {
+        "name": "Tek mesajda resimler",
+        "hint": "(albüm)",
+        "text": "10 öğeye kadar"
+      },
+      "delayed_messages": {
+        "name": "Zamanlanmış mesaj sayısı",
+        "hint": "",
+        "text": "100 öğeye kadar"
+      },
+      "delaying_messages": {
+        "name": "Zamanlama aralığı",
+        "hint": "",
+        "text": "365 güne kadar"
+      }
+    }
+  },
+  "folders": {
+    "name": "Klasörler",
+    "items": {
+      "folder_amount": {
+        "name": "Klasör miktarı",
+        "hint": "",
+        "text": "up to 10 folders"
+      },
+      "pinned_chats_in_folder": {
+        "name": "Bir klasördeki sabit sohbetler",
+        "hint": "",
+        "text": "up to 100 chats"
+      }
+    }
+  },
+  "people_nearby": {
+    "name": "Yakındaki Kişiler",
+    "items": {
+      "range": {
+        "name": "Görünürlük menzili",
+        "hint": "",
+        "text": "12 kilometre civarı"
+      },
+      "amount_of_people": {
+        "name": "Görünen kullanıcı miktarı",
+        "hint": "",
+        "text": "100 kişiye kadar"
+      },
+      "geochats_number": {
+        "name": "Görünen sohbet sayısı",
+        "hint": "",
+        "text": "en yakındaki 10 sohbet"
+      }
+    }
+  },
+  "bots": {
+    "name": "Botlar",
+    "items": {
+      "bots_amount": {
+        "name": "Bot sayısı",
+        "hint": "(@BotFather ile oluşturulan)",
+        "text": "20 öğeye kadar"
+      },
+      "username length": {
+        "name": "@kullaniciadi uzunluğu",
+        "hint": "botlar için",
+        "text": "5 ila 32 karakter"
+      },
+      "info_length": {
+        "name": "Bot bilgi uzunluğu",
+        "hint": "(/setabouttext)",
+        "text": "120 karaktere kadar"
+      },
+      "description_length": {
+        "name": "Bot açıklaması uzunluğu",
+        "hint": "",
+        "text": "512 karaktere kadar"
+      },
+      "upload_limit_botapi": {
+        "name": "Dosya yükleme sınırı",
+        "hint": "(BotAPI)",
+        "text": "50 MB'a kadar"
+      },
+      "download_limit_botapi": {
+        "name": "Dosya indirme sınırı",
+        "hint": "(BotAPI)",
+        "text": "20 MB'a kadar"
+      },
+      "forwarding": {
+        "name": "Mesaj iletme",
+        "hint": "",
+        "text": "up to 2,000 per hour"
+      },
+      "keys_in_keyboard_number": {
+        "name": "Klavye buton sayısı",
+        "hint": "",
+        "text": "100'e kadar"
+      },
+      "formatting_data": {
+        "name": "Mesaj biçimlendirme verisi",
+        "hint": "",
+        "text": "10 KB'a kadar"
+      },
+      "messaging_frequency": {
+        "name": "Mesaj sıklığı",
+        "hint": "(destekle arttırılabilir)",
+        "text": "saniyede 30 mesaja kadar; genel sohbet ve kanallar için dakikada 20"
+      }
+    }
+  },
+  "search": {
+    "name": "Arama",
+    "items": {
+      "global_search": {
+        "name": "Küresel arama sonuçları",
+        "hint": "",
+        "text": "10 öğeye kadar; Android için 3"
+      },
+      "global_search_min_query": {
+        "name": "Gerekli karakter uzunluğu",
+        "hint": "küresel arama için",
+        "text": "at least 4 characters"
+      }
+    }
+  },
+  "stickers": {
+    "name": "Çıkartmalar",
+    "items": {
+      "added_packs": {
+        "name": "Eklenen paket sayısı",
+        "hint": "",
+        "text": "200 öğeye kadar"
+      },
+      "favorite_stickers": {
+        "name": "Favori çıkartma sayısı",
+        "hint": "",
+        "text": "up to 5 items"
+      },
+      "pack_size": {
+        "name": "Tek paketteki çıkartma sayısı",
+        "hint": "",
+        "text": "statik için 120'e kadar, hareketli için 50"
+      },
+      "sticker_size": {
+        "name": "Çıkartma boyutu",
+        "hint": "",
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+      },
+      "animation_duration": {
+        "name": "Animasyon süresi",
+        "hint": "",
+        "text": "3 saniyeye kadar"
+      },
+      "file_size": {
+        "name": "Çıkartma dosya boyutu",
+        "hint": "",
+        "text": "statik için 512 KB'a kadar, hareketli için 64 KB"
+      },
+      "fps": {
+        "name": "FPS",
+        "hint": "",
+        "text": "30 veya 60"
+      }
+    }
+  },
+  "telegraph": {
+    "name": "Telegraph",
+    "items": {
+      "accounts_number": {
+        "name": "Hesap sayısı",
+        "hint": "@telegraph botta",
+        "text": "5 öğeye kadar"
+      },
+      "text_size": {
+        "name": "Makale boyutu",
+        "hint": "",
+        "text": "64 KiB'e kadar"
+      }
+    }
+  },
+  "miscellaneous": {
+    "name": "Çeşitli",
+    "items": {
+      "properties": {
+        "name": "Video profil özellikleri",
+        "hint": "",
+        "text": "800x800px, 2 MB'a kadar"
+      }
+    }
+  }
+}

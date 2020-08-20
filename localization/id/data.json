@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Jumlah channel dan supergrup",
         "hint": "yang dapat anda masuki",
-        "text": "up to 500 (including ones you own)"
+        "text": "hingga 500 (termasuk yang anda miliki sendiri)"
       },
       "gifs_number": {
         "name": "Jumlah GIF tersimpan",
@@ -340,7 +340,7 @@
       "favorite_stickers": {
         "name": "Jumlah stiker favorit",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "hingga 5 item"
       },
       "pack_size": {
         "name": "Jumlah stiker dalam satu paket",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Ukuran stiker",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "salah satunya harus sama dengan 512px, yang lainnya — 512px atau kurang; tepat 512x512 untuk animasi"
       },
       "animation_duration": {
         "name": "Durasi animasi",

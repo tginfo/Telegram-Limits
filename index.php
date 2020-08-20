@@ -190,8 +190,11 @@ $markup = [
             <div class="name">
                 <span class="bold">Telegram</span>
                 <span class="middle">Info</span>
-                <a href="https://github.com/tginfo/Telegram-Limits/" rel="noopener" target="_blank" class="giticon">
+                <a href="https://github.com/tginfo/Telegram-Limits/" rel="noopener" target="_blank" class="giticon footericon">
                     <img src="<?= BASE ?>/assets/images/git.svg" alt="GitHub">
+                </a>
+                <a title="Crowdin" target="_blank" href="https://crowdin.com/project/telegram-limits" class="footericon">
+                    <img src="https://badges.crowdin.net/telegram-limits/localized.svg">
                 </a>
             </div>
             <div class="data">

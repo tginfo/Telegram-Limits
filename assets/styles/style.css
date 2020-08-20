@@ -388,7 +388,7 @@ footer>.side>.name>.middle {
     position: relative;
 }
 
-.giticon img {
+.footericon img {
     height: 1em;
 }
 
@@ -448,6 +448,11 @@ li.lang-link:hover, li.lang-link.active-lang {
 li.lang-link .lang-code {
     opacity: .5;
     min-width: 2em;
+}
+
+.footericon {
+    margin: 0 .1em;
+    text-decoration: none;
 }
 
 @media(max-width: 1020px) {

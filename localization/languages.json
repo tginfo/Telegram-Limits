@@ -2,10 +2,11 @@
     "": "en",
     "en": ["English"],
     "ru": ["Русский"],
-    "tr": ["Türkçe"],
     "it": ["Italian"],
-    "id": ["Bahasa Indonesia"],
+    "es": ["Español"],
     "pl": ["Polski"],
+    "tr": ["Türkçe"],
+    "id": ["Bahasa Indonesia"],
     "ar": ["العربية", {"isRtl": true}],
     "uk": "ru",
     "be": "ru"

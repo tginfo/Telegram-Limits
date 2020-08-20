@@ -3,7 +3,7 @@
     "name": "Cuentas",
     "items": {
       "username": {
-        "name": "Nombre de usario",
+        "name": "Nombre de usuario",
         "hint": "(p. ej. @cameraman)",
         "text": "5 a 32 caracteres"
       },

@@ -1,12 +1,4 @@
-# Лимиты Telegram ([See in English](#telegram-limits))
-Данный проект описывает всевозможные лимиты и ограничения в Telegram и отображает на странице [limits.tginfo.me](https://limits.tginfo.me).
-
-## Как помочь проекту
-### Сообщить о проблеме или предложить идею
-- [Баг-трекер](https://github.com/tginfo/Telegram-Limits/issues/new)
-- [Обратная связь](https://t.me/infowritebot)
-
-# Telegram Limits
+# Telegram Limits [![Crowdin](https://badges.crowdin.net/telegram-limits/localized.svg)](https://crowdin.com/project/telegram-limits)
 This project describes Telegram limitations and displays them on [limits.tginfo.me/en](https://limits.tginfo.me/en)
 
 ## How to contribute

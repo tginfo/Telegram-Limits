@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "عدد القنوات و المجموعات",
         "hint": "التي لك الحد الإنضمام لها",
-        "text": "up to 500 (including ones you own)"
+        "text": "الأقصى ٥٠٠ (بتضمين التي أنشأتها)"
       },
       "gifs_number": {
         "name": "أقصى حفظ للصور المتحركة",
@@ -68,12 +68,12 @@
         "text": "الأقصى ٢٠٠,٠٠٠"
       },
       "admins_number": {
-        "name": "Number of admins",
+        "name": "عدد المشرفين",
         "hint": "في مجموعة واحدة",
         "text": "الأقصى ٥٠"
       },
       "bots_amount": {
-        "name": "Number of bots",
+        "name": "عدد البوتات",
         "hint": "في مجموعة واحدة",
         "text": "الأقصى ٢٠"
       },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "تحويل الرسائل",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "الأقصى الفان كل ساعة"
       },
       "keys_in_keyboard_number": {
         "name": "عدد أزرار لوحة المفاتيح",
@@ -338,9 +338,9 @@
         "text": "الأقصى ٢٠٠ عنصر"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "عدد الملصقات المفضلة",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "الأقصى ٥ عناصر"
       },
       "pack_size": {
         "name": "عدد الملصقات في الحزم",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "حجم الملصق",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "حجم طرف واحد يساوي ٥١٢بيكسل و الآخر — ٥١٢بيكسل أو أقل; ولكن الملصقات المتحركة فقط ٥١٢×٥١٢"
       },
       "animation_duration": {
         "name": "مدة الحركة",

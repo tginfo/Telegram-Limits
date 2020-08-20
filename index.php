@@ -2,14 +2,17 @@
 require "./core/i.php";
 
 setLang($_GET["hl"] ?? false);
-if ($lang !== $_GET["hl"]) {
+if (!isset($_GET["hl"]) || $lang !== $_GET["hl"]) {
+    $lang = (empty($lang) ?  $supported_langs[""] : $lang);
     header("Location: /$lang");
+    exit();
 }
 $structure = json_decode(file_get_contents(__DIR__ . "/data/structure.json"), true);
 $data = json_decode(file_get_contents(__DIR__ . "/localization/$lang/data.json"), true);
 
 if (!$data && $lang !== $supported_langs[""]) {
     header("Location: /{$supported_langs[""]}");
+    exit();
 }
 
 $main_qa = [];

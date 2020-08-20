@@ -40,7 +40,19 @@ function __($path = "", $opts = 0, $replacements = [])
     return ($opts & UCOMP ? htmlspecialchars($current) : $current);
 }
 
-$supported_langs_file = json_decode(file_get_contents(__DIR__ . "/../localization/languages.json"), true);
+$supported_langs_file_raw = json_decode(file_get_contents(__DIR__ . "/../localization/languages.json"), true);
+$supported_langs_file = [];
+
+foreach ($supported_langs_file_raw as $key => $value) {
+    $supported_langs_file[$key] = $value;
+    if (strpos($key, '-') !== false) {
+        $del = explode("-", $key);
+        if (isset($supported_langs_file_raw[$del[0]])) continue;
+
+        $supported_langs_file[$del[0]] = $del[0];
+    }
+}
+
 $supported_langs = [];
 foreach ($supported_langs_file as $key => $i) {
     $supported_langs[$key] = (is_array($i) ? true : $i);
@@ -57,27 +69,27 @@ function lang_replace($s, $o)
 function lang_analyze_headers()
 {
     global $supported_langs, $lang_vars;
-    $header = strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']);
+    $header = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
     $langs = explode(",", $header);
     $lang_vars = [];
-    $preffered = [array_keys($supported_langs)[0], 0.0];
+    $preffered = [array_keys($supported_langs)[0], -1.0];
     foreach ($langs as $v) {
         $a = explode(";", $v);
-        $a[0] = substr($a[0], 0, 2);
+        if (!isset($a[1])) $a[1] = "q=1.0";
         $a[1] = (float) str_replace("q=", "", $a[1]);
-        if ($a[1] == 0) $a[1] = 1;
         if ($a[1] !== 0) {
             $lang_vars[$a[0]] = $a[1];
+            $lang_vars[substr($a[0], 0, 2)] = $a[1] - 0.01;
+            if ($a[1] > $preffered[1] && in_array(substr($a[0], 0, 2), array_keys($supported_langs))) $preffered = [substr($a[0], 0, 2), $a[1] - 0.01];
             if ($a[1] > $preffered[1] && in_array($a[0], array_keys($supported_langs))) $preffered = $a;
         }
     }
     return $preffered[0];
 }
 
-
 function setLang($l = false)
 {
-    global $lang, $supported_langs, $supported_langs_file, $lang_lib, $isRtl;
+    global $lang, $supported_langs, $supported_langs_file, $lang_lib, $isRtl, $c;
 
     if ($l !== false && in_array($l, array_keys($supported_langs))) {
         if ($supported_langs[$l] === true) {

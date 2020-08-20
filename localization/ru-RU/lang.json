@@ -1,14 +1,14 @@
 {
-    "title": "Telegram Limits — Telegram Info",
-    "description": "Always up-to-date Telegram limits in 2020. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
-    "description_short": "Always up-to-date Telegram limits",
-    "study": "| Study",
-    "big_title": "Telegram Limits",
-    "article_name": "Why limitations exist",
-    "article_p1": "Just like any other service, Telegram uses limits to ensure that users follow Fair Usage Policy and to keep the service running.",
-    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
-    "loading": "Loading...",
-    "homepage": "Homepage",
-    "language": "Language",
-    "search": "Search"
+    "title": "Лимиты и Ограничения Telegram — Telegram Info",
+    "description": "Всегда актуальные лимиты Telegram в 2020. Ограничение на длину сообщения, количество стикеров в наборах, частота сообщений в Bot API, количество участников, сколько можно редактировать, максимальный размер файла и другое",
+    "description_short": "Всегда актуальные лимиты Telegram",
+    "study": "| Исследование",
+    "big_title": "Лимиты Telegram",
+    "article_name": "Почему существуют лимиты",
+    "article_p1": "Telegram, как и любой другой сервис, использует ограничения для соблюдения пользователями честности использования.",
+    "article_p2": "Эта таблица приводит известные на данный момент лимиты в Telegram и постоянно обновляется.",
+    "loading": "Загрузка...",
+    "homepage": "На главную",
+    "language": "Язык",
+    "search": "Поиск"
 }

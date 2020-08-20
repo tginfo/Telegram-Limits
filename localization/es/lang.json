@@ -1,11 +1,11 @@
 {
     "title": "Límites de Telegram — Información de Telegram",
     "description": "Límites siempre al día de Telegram en 2020. Limitaciones en longitud de mensajes, número de stickers en packs, frecuencia de mensajes en la API para bots, número de participantes, edición, tamaño máximo de archivo y más",
-    "description_short": "Límites de Telegram siempre actualizados",
+    "description_short": "Límites siempre al día para Telegram",
     "study": "| Estudio",
     "big_title": "Límites de Telegram",
     "article_name": "Por qué existen limitaciones",
-    "article_p1": "Al igual que cualquier otro servicio, Telegram utiliza límites para asegurar que los usuarios sigan la Política de Uso Justo y para mantener el servicio en funcionamiento.",
+    "article_p1": "Al igual que cualquier otro servicio, Telegram utiliza límites para asegurar que los usuarios sigan la Política de Uso Justo y mantener el servicio en funcionamiento.",
     "article_p2": "Esta tabla lista los límites de Telegram actualmente conocidos y se mantiene al día.",
     "loading": "Cargando...",
     "homepage": "Página principal",

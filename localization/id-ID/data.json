@@ -128,7 +128,7 @@
     "name": "Channel",
     "items": {
       "public_usernames": {
-        "name": "Jumlah publik usernames",
+        "name": "Jumlah username publik",
         "hint": "untuk satu akun",
         "text": "hingga 10 (termasuk grup)"
       },
@@ -373,7 +373,7 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Jumlah akum",
+        "name": "Jumlah akun",
         "hint": "di bot @telegraph",
         "text": "hingga 5 item"
       },
@@ -388,7 +388,7 @@
     "name": "Lainnya",
     "items": {
       "properties": {
-        "name": "properti video avatar",
+        "name": "Properti video avatar",
         "hint": "",
         "text": "800x800px, hingga 2 MB"
       }

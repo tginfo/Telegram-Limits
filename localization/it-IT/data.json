@@ -35,17 +35,17 @@
       "channels_and_chats_number": {
         "name": "Numero di supergruppi e canali",
         "hint": "di cui fai parte",
-        "text": "up to 500 (including ones you own)"
+        "text": "fino a 500 (inclusi quelli creati da te)"
       },
       "gifs_number": {
-        "name": "Numero di gif salvabili",
+        "name": "Numero di GIF salvabili",
         "hint": "",
         "text": "fino a 200"
       },
       "video_length": {
         "name": "Durata del video profilo",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "fino a 10 secondi"
       },
       "groups_and_channels_creation": {
         "name": "Creazione di gruppi e canali",
@@ -68,19 +68,19 @@
         "text": "fino a 200,000"
       },
       "admins_number": {
-        "name": "Number of admins",
+        "name": "Numero di amministratori",
         "hint": "nei gruppi",
         "text": "fino a 50"
       },
       "bots_amount": {
-        "name": "Number of bots",
+        "name": "Numero di bot",
         "hint": "nei gruppi",
         "text": "fino a 20"
       },
       "pinned_number": {
         "name": "Chat fissate nella lista principale",
         "hint": "",
-        "text": "Fino a 5 chat o canali + 5 chat segrete"
+        "text": "fino a 5 chat o canali + 5 chat segrete"
       },
       "group_name": {
         "name": "Nome e descrizione di un gruppo",
@@ -113,9 +113,9 @@
         "text": "ultimi 1,000,000 messaggi"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Numero di partecipanti per vedere le statistiche",
         "hint": "",
-        "text": "at least 500"
+        "text": "almeno 500"
       },
       "username_reservation": {
         "name": "Proprietà di un username",
@@ -173,9 +173,9 @@
         "text": "fino a 200 persone"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Numero di iscritti per vedere le statistiche",
         "hint": "",
-        "text": "at least 500"
+        "text": "almeno 500"
       },
       "username_reservation": {
         "name": "Proprietà di un username",
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Numero di cartelle",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "fino a 10 cartelle"
       },
       "pinned_chats_in_folder": {
         "name": "Chat fissate in una cartella",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "fino a 100 chat"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Inoltro di messaggi",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "fino a 2.000 all'ora"
       },
       "keys_in_keyboard_number": {
         "name": "Numero di bottoni inline",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Lunghezza minima di una query",
         "hint": "per la ricerca globale",
-        "text": "at least 4 characters"
+        "text": "almeno 4 caratteri"
       }
     }
   },
@@ -340,7 +340,7 @@
       "favorite_stickers": {
         "name": "Numero di sticker preferiti",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "fino a 5 elementi"
       },
       "pack_size": {
         "name": "Numero di sticker in un pacchetto",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Dimensioni di uno sticker",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "un lato uguale a 512px, l'altro lato 512px o meno; rigorosamente 512x512 per quelli animati"
       },
       "animation_duration": {
         "name": "Durata di uno sticker animato",

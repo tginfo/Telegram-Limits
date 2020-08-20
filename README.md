@@ -16,7 +16,11 @@ This project describes Telegram limitations and displays them on [limits.tginfo.
 
 ### Add new language
 - Join our mission on https://crowdin.com/project/telegram-limits
-- Open an [issue](https://github.com/tginfo/Telegram-Limits/issues/new/?template=add-new-language.md) if your language is not available on Crowdin yet
+
+### If your language is not on Crowdin yet:
+- Open a discussion on https://crowdin.com/project/telegram-limits/discussions
+- Specify your language name in English, native name and is your language RTL
+- We will add your language to the project
 - As soon as your project will be translated enough it will be available online 
 
 ## Translators

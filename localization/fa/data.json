@@ -1,371 +1,371 @@
 {
   "accounts": {
-    "name": "Accounts",
+    "name": "حساب ها",
     "items": {
       "username": {
-        "name": "Username",
-        "hint": "(e.g. @cameraman)",
-        "text": "5 to 32 characters"
+        "name": "نام کاربری",
+        "hint": "(مثال: testuser@)",
+        "text": "5 تا 32 کارکتر"
       },
       "bio": {
-        "name": "Bio",
+        "name": "درباره من",
         "hint": "",
-        "text": "up to 70 characters"
+        "text": "تا 70 کارکتر"
       },
       "name_length": {
-        "name": "First Name length",
+        "name": "طول اسم",
         "hint": "",
-        "text": "from 1 to 64 characters"
+        "text": "از 1 تا 64 کارکتر"
       },
       "last_name_length": {
-        "name": "Last Name length",
+        "name": "طول فامیل",
         "hint": "",
-        "text": "from 0 to 64 characters"
+        "text": "از 0 تا 64 کارکتر"
       },
       "self_destruction": {
-        "name": "Self-destruction period",
-        "hint": "if no activity",
-        "text": "1, 3, 6 and 12 months (6 by default)"
+        "name": "زمان نابودکننده",
+        "hint": "اگر هیچ فعالیتی نداشته باشید",
+        "text": "6،3،1 و 12 ماه (6 ماه به صورت پیش فرض)"
       },
       "spam_ban": {
-        "name": "Spam ban",
+        "name": "ممنوعیت هرزنامه",
         "hint": "",
         "text": "3 days and more"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
-        "hint": "you can be member of",
-        "text": "up to 500 (including ones you own)"
+        "name": "تعداد کانال ها و ابرگروه ها",
+        "hint": "شما میتوانید عضوِ",
+        "text": "تا 500 باشید(شامل آنهایی که خودتان مالک هستید)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "تعداد گیف های ذخیره شده",
         "hint": "",
-        "text": "up to 200"
+        "text": "تا 200 گیف"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "مدت زمان ویدئو آواتار",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "تا 10 ثانیه"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "ایجاد گروه و کانال",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "تا 50 تا در هر روز"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "تعداد حساب ها",
+        "hint": "( برنامه های رسمی)",
+        "text": "تا 3 حساب"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "چت ها و گروه ها",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "name": "شرکت کنندگان",
+        "hint": "(محدودیت می‌تواند افزایش پیدا کند)",
+        "text": "تا 200.000 نفر"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "تعداد مدیر ها",
+        "hint": "در گروه ها",
+        "text": "تا 50 نفر"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "تعداد ربات ها",
+        "hint": "در گروه ها",
+        "text": "تا 20 ربات"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "چت های سنجاق شده در لیست اصلی",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "تا 5 چت یا کانال + 5 گفتگوی محرمانه"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "نام گروه و توضیحات",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "تا 225 کارکتر"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "تصحيح کردن پیام",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "تا 48 ساعت بعد از ارسال؛ بدون محدودیت در پیام های ذخیره شده و مدیر ها با حق سنجاق کردن پیام"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "نابودکننده عکس و ویدئو",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "از1 تا 60 ثانیه"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "فعالیت های اخیر",
+        "hint": "(عضو شدن، پست ها، غیره.)",
+        "text": "دو روز گذشته"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "name": "تعداد اشاره ها(منشن)",
+        "hint": "در یک پیام واحد",
+        "text": "تا 50 منشن، اعلانات دیگر فرستاده نخواهند شد"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "تعداد پیام های قابل مشاهده",
+        "hint": "در گروه",
+        "text": "1.000.000 پیامِ آخر"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "تعداد شرکت کنندگان برای دیدن آمار",
         "hint": "",
-        "text": "at least 500"
+        "text": "حداقل 500 نفر"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "رزرو تغییر نام کاربری",
+        "hint": "( زمانی که قبل از اینکه نام کاربری برای همه در دسترس قرار بگیرد، نه فقط صاحب اصلی)",
+        "text": "تقریبا 15-30 دقیقه"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "کانال ها",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "تعداد نام هاي کاربری عمومی",
+        "hint": "برای یک حساب واحد",
+        "text": "تا 10 مورد(شامل گروه ها)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "طولِ username@",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 تا 32 کارکتر"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "نام گروه و توضیحات",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "تا 255 کارکتر"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "تصحيح کردن پست ها",
         "hint": "",
-        "text": "unlimited"
+        "text": "نامحدود"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "تعداد دنبال کنندگان کانال",
         "hint": "",
-        "text": "unlimited"
+        "text": "نامحدود"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "دنبال کنندگان قابل رؤیت",
+        "hint": "برای مدیر کانال",
+        "text": "200 نفر"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "حذف کانال",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "کانال هایی با بیش از 1K دنبال کننده می‌توانند بوسیله پشتیبانی تلگرام حذف شوند"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "دسترسی کانال های شخصی",
+        "hint": "بدون دنبال کردن",
+        "text": "تا 5 دقیقه در هر روز"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "دعوت کردن کاربران",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "تا 200 نفر"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "تعداد شرکت کنندگان برای دیدن آمار",
         "hint": "",
-        "text": "at least 500"
+        "text": "حداقل 500 نفر"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "رزرو تغییر نام کاربری",
+        "hint": "( زمانی که قبل از اینکه نام کاربری برای همه در دسترس قرار بگیرد، نه فقط صاحب اصلی)",
+        "text": "تقریبا 15-30 دقیقه"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "پیام‌ها",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "طولِ یک پیام",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "تا 4.096 کارکتر"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "زیرنویس رسانه",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "تا 1024 کارکتر"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "محدودیت حجم فایل",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "تا 2 گیگابایت"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "مدت زمان پیام ویدئویی",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "تا 1 دقیقه"
       },
       "album_size": {
-        "name": "Images in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "عکس ها در یک پیام واحد",
+        "hint": "(آلبوم)",
+        "text": "تا 10 مورد"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "تعداد پیام های زمان بندی شده",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "تا 100 مورد"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "محدوده زمان بندی کردن",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "تا 356 روز"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "پوشه ها",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "تعداد پوشه ها",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "تا 10 پوشه"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "چت های سنجاق شده در هر پوشه",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "تا 100 چت"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "افراد نزدیک",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "محدوده پدیدار شدن",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "تقریباً 12 کيلومتر"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "تعداد افراد قابل رؤیت",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "تا 100 نفر"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "تعداد چت های منطقه جغرافیایی قابل رؤیت",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "تا 10 چت نزدیکتر"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "ربات ها",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "تعداد ربات ها",
+        "hint": "(ساخته شده بوسیله BotFather@)",
+        "text": "تا 20 ربات"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "طولِ username@",
+        "hint": "برای ربات ها",
+        "text": "5 تا 32 کارکتر"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "طول اطلاعات ربات",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "تا 120 کارکتر"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "طولِ توضیحات ربات",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "تا 512 کارکتر"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
-        "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "name": "محدودیت ارسال فایل",
+        "hint": "(Apiربات)",
+        "text": "تا 50 مگابایت"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
-        "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "name": "محدودیت دریافت فایل",
+        "hint": "(Apiربات)",
+        "text": "تا 20 مگابایت"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "هدایت کردن پیام",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "تا 2.000 پیام در هر ساعت"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "تعداد دکمه های صفحه کلید",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "تا 100 دکمه"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "حجم داده های پیام",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "تا 10 کیلوبایت"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by support)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "تناوب پیام ها",
+        "hint": "(می‌تواند افزایش یابد بوسیله پشتیبانی)",
+        "text": "تا 30 پیام در هر ثانیه؛ 20 تا در هر دقیقه برای چت ها و کانال های عمومی"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "جستجو",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "نتایج جستجو جهانی",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "تا 10 مورد، تا 3 مورد برای اندروید"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "حداقل طول جستجو",
+        "hint": "برای جستجوی جهانی",
+        "text": "حداقل 4 کارکتر"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "استیکرها",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "تعداد بسته های اضافه شده",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "تا 200 بسته"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "تعداد استیکر های موردعلاقه",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "تا 5 مورد"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "تعداد استیکر ها در هر بسته",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "تا 120 تا برای استیکر های ایستا، تا 50 تا برای استیکر های متحرک"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "سایز استیکر",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "یک طرف تا 512px،طرف دیگر 512px یا کمتر، دقیقا 512*512 برای استیکر های متحرک"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "مدت زمان انیمیشن",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "تا 3 ثانیه"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "حجم فایل استیکر",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "تا 513 کیلوبایت برا ایستا، تا 64 کیلوبایت برای متحرک"
       },
       "fps": {
-        "name": "FPS",
+        "name": "فریم در ثانیه",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "هم 30 و هم 60"
       }
     }
   },
@@ -373,24 +373,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "تعداد حساب ها",
+        "hint": "در ربات telegraph@",
+        "text": "تا 5 مورد"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "حجم مقاله",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "تا 64 کیلوبیت"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "متفرقه",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "ویژگی های ویدئو پروفایل",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800px*800px، تا 2 مگابایت"
       }
     }
   }

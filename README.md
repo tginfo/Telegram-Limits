@@ -30,3 +30,4 @@ This project describes Telegram limitations and displays them on [limits.tginfo.
 - Polish: Sebek
 - Arabic: Disk3
 - Spanish: dangeredwolf
+- Persian: mbakhshiane

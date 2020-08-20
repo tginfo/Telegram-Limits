@@ -68,12 +68,12 @@
         "text": "hingga 200.000"
       },
       "admins_number": {
-        "name": "Number of admins",
+        "name": "Jumlah admin",
         "hint": "di grup",
         "text": "hingga 50"
       },
       "bots_amount": {
-        "name": "Number of bots",
+        "name": "Jumlah bot",
         "hint": "di grup",
         "text": "hingga 20"
       },
@@ -113,9 +113,9 @@
         "text": "1.000.000 pesan terakhir"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Jumlah partisipan untuk melihat statistik",
         "hint": "",
-        "text": "at least 500"
+        "text": "setidaknya 500"
       },
       "username_reservation": {
         "name": "Reservasi perubahan username",

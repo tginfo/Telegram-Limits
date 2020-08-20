@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Liczba kanałów i supergrup",
         "hint": ", do których możesz należeć",
-        "text": "do 500 (w tym stworzone przez ciebie)"
+        "text": "up to 500 (including ones you own)"
       },
       "gifs_number": {
         "name": "Liczba zapisanych GIF-ów",
@@ -68,12 +68,12 @@
         "text": "do 200 000"
       },
       "admins_number": {
-        "name": "Liczba Administratorów",
+        "name": "Number of admins",
         "hint": "w grupie",
         "text": "do 50"
       },
       "bots_amount": {
-        "name": "Liczba botów",
+        "name": "Number of bots",
         "hint": "w grupie",
         "text": "do 20"
       },
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Liczba folderów",
         "hint": "",
-        "text": "do 10 sztuk"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Przypięte czaty w folderze",
         "hint": "",
-        "text": "do 100 sztuk"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Możliwość przekazywania wiadomości",
         "hint": "",
-        "text": "do 2 000 na godzinę"
+        "text": "up to 2,000 per hour"
       },
       "keys_in_keyboard_number": {
         "name": "Liczba przycisków",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Minimalna długość zapytania",
         "hint": "dla wyszukiwania globalnego",
-        "text": "od 4 znaków"
+        "text": "at least 4 characters"
       }
     }
   },
@@ -340,7 +340,7 @@
       "favorite_stickers": {
         "name": "Liczba ulubionych naklejek",
         "hint": "",
-        "text": "do 5 sztuk"
+        "text": "up to 5 items"
       },
       "pack_size": {
         "name": "Liczba naklejek w zestawie",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Rozmiar naklejki",
         "hint": "",
-        "text": "512x512 px lub mniej; dokładnie 512x512 px dla animowanej"
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "Czas trwania animacji",

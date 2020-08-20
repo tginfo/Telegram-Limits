@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Kanal ve grup sayısı",
         "hint": "üye olabileceğiniz",
-        "text": "500 (sizinkiler dahil)"
+        "text": "up to 500 (including ones you own)"
       },
       "gifs_number": {
         "name": "Kayıtlı GIF sayısı",
@@ -68,12 +68,12 @@
         "text": "200,000'e kadar"
       },
       "admins_number": {
-        "name": "Yönetici sayısı",
+        "name": "Number of admins",
         "hint": "gruplarda",
         "text": "50'ye kadar"
       },
       "bots_amount": {
-        "name": "Bot sayısı",
+        "name": "Number of bots",
         "hint": "gruplarda",
         "text": "20'ye kadar"
       },
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Klasör miktarı",
         "hint": "",
-        "text": "10 öğeye kadar"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Bir klasördeki sabit sohbetler",
         "hint": "",
-        "text": "100 öğeye kadar"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Mesaj iletme",
         "hint": "",
-        "text": "saatte 2,000'e kadar"
+        "text": "up to 2,000 per hour"
       },
       "keys_in_keyboard_number": {
         "name": "Klavye buton sayısı",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Gerekli karakter uzunluğu",
         "hint": "küresel arama için",
-        "text": "4 karakter"
+        "text": "at least 4 characters"
       }
     }
   },
@@ -340,7 +340,7 @@
       "favorite_stickers": {
         "name": "Favori çıkartma sayısı",
         "hint": "",
-        "text": "5 öğeye kadar"
+        "text": "up to 5 items"
       },
       "pack_size": {
         "name": "Tek paketteki çıkartma sayısı",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Çıkartma boyutu",
         "hint": "",
-        "text": "bir taraf 512px'e eşit, diğer taraf — 512px veya daha az; hareketli için sabit 512x512"
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "Animasyon süresi",

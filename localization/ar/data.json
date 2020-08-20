@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "عدد المجلدات",
         "hint": "",
-        "text": "الأقصى ١٠ عناصر"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "محادثات المثبتة في مجلد",
         "hint": "",
-        "text": "ما يصل إلى ١٠٠ عنصر"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "أقصر عدد أحرف للبحث",
         "hint": "للبحث العام",
-        "text": "يبدأ من ٤ احرف"
+        "text": "at least 4 characters"
       }
     }
   },

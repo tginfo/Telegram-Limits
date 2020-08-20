@@ -25,3 +25,4 @@ This project describes Telegram limitations and displays them on [limits.tginfo.
 - Indonesian: mubassari
 - Polish: Sebek
 - Arabic: Disk3
+- Spanish: dangeredwolf

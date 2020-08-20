@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Channels and supergroups number",
         "hint": "you can be member of",
-        "text": "up to 500 (including one you own)"
+        "text": "up to 500 (including ones you own)"
       },
       "gifs_number": {
         "name": "Saved GIFs number",
@@ -68,12 +68,12 @@
         "text": "up to 200,000"
       },
       "admins_number": {
-        "name": "Admins number",
+        "name": "Number of admins",
         "hint": "in groups",
         "text": "up to 50"
       },
       "bots_amount": {
-        "name": "Bots number",
+        "name": "Number of bots",
         "hint": "in groups",
         "text": "up to 20"
       },
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Folders amount",
         "hint": "",
-        "text": "up to 10 items"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Pinned chats in a folder",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Message forwarding",
         "hint": "",
-        "text": "up to 2 000 per hour"
+        "text": "up to 2,000 per hour"
       },
       "keys_in_keyboard_number": {
         "name": "Keyboard buttons number",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Minimal query length",
         "hint": "for global search",
-        "text": "starting from 4 characters"
+        "text": "at least 4 characters"
       }
     }
   },
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Sticker size",
         "hint": "",
-        "text": "one size equals to 512px, other one — 512px or less; strict 512x512 for animated"
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "Animation duration",

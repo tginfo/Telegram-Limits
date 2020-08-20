@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Jumlah channel dan supergrup",
         "hint": "yang dapat anda masuki",
-        "text": "hingga 500 (termasuk yang anda miliki sendiri)"
+        "text": "up to 500 (including ones you own)"
       },
       "gifs_number": {
         "name": "Jumlah GIF tersimpan",
@@ -68,12 +68,12 @@
         "text": "hingga 200.000"
       },
       "admins_number": {
-        "name": "Jumlah admin",
+        "name": "Number of admins",
         "hint": "di grup",
         "text": "hingga 50"
       },
       "bots_amount": {
-        "name": "Jumlah bot",
+        "name": "Number of bots",
         "hint": "di grup",
         "text": "hingga 20"
       },
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Banyak folder",
         "hint": "",
-        "text": "hingga 10 item"
+        "text": "up to 10 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Pesan tersemat pada folder",
         "hint": "",
-        "text": "hingga 100 item"
+        "text": "up to 100 chats"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Pesan diteruskan",
         "hint": "",
-        "text": "hingga 2.000 per jam"
+        "text": "up to 2,000 per hour"
       },
       "keys_in_keyboard_number": {
         "name": "Jumlah tombol papan ketik",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Minimal panjang kueri",
         "hint": "untuk pencarian umun",
-        "text": "mulai dari 4 karakter"
+        "text": "at least 4 characters"
       }
     }
   },
@@ -340,7 +340,7 @@
       "favorite_stickers": {
         "name": "Jumlah stiker favorit",
         "hint": "",
-        "text": "hingga 5 item"
+        "text": "up to 5 items"
       },
       "pack_size": {
         "name": "Jumlah stiker dalam satu paket",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Ukuran stiker",
         "hint": "",
-        "text": "salah satunya harus sama dengan 512px, yang lainnya — 512px atau kurang; tepat 512x512 untuk animasi"
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "Durasi animasi",

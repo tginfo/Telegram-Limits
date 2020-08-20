@@ -338,7 +338,7 @@
         "text": "fino a 200 elementi"
       },
       "favorite_stickers": {
-        "name": "Numero di sticker preferiti",
+        "name": "Favorite stickers number",
         "hint": "",
         "text": "up to 5 items"
       },

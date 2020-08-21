@@ -105,142 +105,142 @@
       "mentions_amount": {
         "name": "Anzahl der Erwähnungen",
         "hint": "in einer einzelnen Nachricht",
-        "text": "up to 50, else notifications won't be sent"
+        "text": "bis zu 50, sonst werden keine Benachrichtigungen gesendet"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Anzahl sichtbarer Nachrichten",
+        "hint": "in Gruppe",
+        "text": "1.000.000 letzte Nachrichten"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Anzahl der Gruppenmitglieder zur Anzeige der Statistiken",
         "hint": "",
-        "text": "at least 500"
+        "text": "mindestens 500"
       },
       "username_reservation": {
         "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "hint": "(Zeit, bevor der Nutzername für jeden und nicht nur für den ursprünglichen Besitzer verfügbar ist)",
+        "text": "etwa 15 bis 30 Minuten"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Kanäle",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "Anzahl öffentlicher Nutzernamen",
+        "hint": "für ein einzelnes Konto",
+        "text": "bis zu 10 (einschließlich Gruppen)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "Länge des @username",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 bis 32 Zeichen"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Kanalname und -beschreibung",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "bis zu 255 Zeichen"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Beitragsbearbeitung",
         "hint": "",
-        "text": "unlimited"
+        "text": "unbegrenzt"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Anzahl der Kanalabonnenten",
         "hint": "",
-        "text": "unlimited"
+        "text": "unbegrenzt"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Sichtbare Abonnenten",
+        "hint": "für Kanaladmins",
+        "text": "200 Personen"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Kanallöschung",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "Kanäle mit mehr als 1.000 Abonnenten können nur mit dem Telegram-Support gelöscht werden"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "Zugriff auf private Kanäle",
+        "hint": "ohne Abonnement",
+        "text": "bis zu 5 Minuten einmal am Tag"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Nutzer einladen",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "bis zu 200 Leute"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Anzahl der Abonnenten zur Anzeige der Statistiken",
         "hint": "",
-        "text": "at least 500"
+        "text": "mindestens 500"
       },
       "username_reservation": {
         "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "hint": "(Zeit, bevor der Nutzername für jeden und nicht nur für den ursprünglichen Besitzer verfügbar ist)",
+        "text": "etwa 15 bis 30 Minuten"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Nachrichten",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Länge einer Nachricht",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "bis zu 4.096 Zeichen"
       },
       "media_descriptions": {
         "name": "Media captions",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "bis zu 1.024 Zeichen"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Maximale Dateigröße",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "bis zu 2,0 GB"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Länge der Videonachrichten",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "bis zu 1 Minute"
       },
       "album_size": {
-        "name": "Images in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "Bilder in einer einzelnen Nachricht",
+        "hint": "(Album)",
+        "text": "bis zu 10"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Anzahl geplanter Nachrichten",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "bis zu 100"
       },
       "delaying_messages": {
         "name": "Schedule range",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "bis zu 365 Tage"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Ordner",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Anzahl der Ordner",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "bis zu 10 Ordner"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "Angeheftete Chats in einem Ordner",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "bis zu 100 Chats"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Leute in der Nähe",
     "items": {
       "range": {
         "name": "Visibility range",

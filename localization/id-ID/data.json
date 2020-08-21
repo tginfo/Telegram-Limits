@@ -68,12 +68,12 @@
         "text": "hingga 200.000"
       },
       "admins_number": {
-        "name": "Number of admins",
+        "name": "Jumlah admin",
         "hint": "di grup",
         "text": "hingga 50"
       },
       "bots_amount": {
-        "name": "Number of bots",
+        "name": "Jumlah bot",
         "hint": "di grup",
         "text": "hingga 20"
       },
@@ -113,9 +113,9 @@
         "text": "1.000.000 pesan terakhir"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Jumlah partisipan untuk melihat statistik",
         "hint": "",
-        "text": "at least 500"
+        "text": "setidaknya 500"
       },
       "username_reservation": {
         "name": "Reservasi perubahan username",
@@ -128,7 +128,7 @@
     "name": "Channel",
     "items": {
       "public_usernames": {
-        "name": "Jumlah publik usernames",
+        "name": "Jumlah username publik",
         "hint": "untuk satu akun",
         "text": "hingga 10 (termasuk grup)"
       },
@@ -373,7 +373,7 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Jumlah akum",
+        "name": "Jumlah akun",
         "hint": "di bot @telegraph",
         "text": "hingga 5 item"
       },
@@ -388,7 +388,7 @@
     "name": "Lainnya",
     "items": {
       "properties": {
-        "name": "properti video avatar",
+        "name": "Properti video avatar",
         "hint": "",
         "text": "800x800px, hingga 2 MB"
       }

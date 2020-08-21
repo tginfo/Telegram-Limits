@@ -83,7 +83,7 @@
         "text": "hingga 5 obrolan atau channel + 5 pesan rahasia"
       },
       "group_name": {
-        "name": "Nama grup dan deskripsi",
+        "name": "Nama dan deskripsi grup",
         "hint": "",
         "text": "hingga 255 karakter"
       },
@@ -173,9 +173,9 @@
         "text": "hingga 200 orang"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Jumlah pelanggan untuk melihat statistik",
         "hint": "",
-        "text": "at least 500"
+        "text": "setidaknya 500"
       },
       "username_reservation": {
         "name": "Reservasi perubahan username",
@@ -230,12 +230,12 @@
       "folder_amount": {
         "name": "Banyak folder",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "hingga 10 folder"
       },
       "pinned_chats_in_folder": {
         "name": "Pesan tersemat pada folder",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "hingga 100 obrolan"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Pesan diteruskan",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "hingga 2.000 per jam"
       },
       "keys_in_keyboard_number": {
         "name": "Jumlah tombol papan ketik",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Minimal panjang kueri",
         "hint": "untuk pencarian umun",
-        "text": "at least 4 characters"
+        "text": "setidaknya 4 karakter"
       }
     }
   },

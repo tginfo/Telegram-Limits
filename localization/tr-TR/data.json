@@ -235,7 +235,7 @@
       "pinned_chats_in_folder": {
         "name": "Bir klasördeki sabit sohbetler",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "100 sohbete kadar"
       }
     }
   },
@@ -295,7 +295,7 @@
       "forwarding": {
         "name": "Mesaj iletme",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "saatte 2,000’e kadar"
       },
       "keys_in_keyboard_number": {
         "name": "Klavye buton sayısı",
@@ -325,7 +325,7 @@
       "global_search_min_query": {
         "name": "Gerekli karakter uzunluğu",
         "hint": "küresel arama için",
-        "text": "at least 4 characters"
+        "text": "en az 4 karakter"
       }
     }
   },
@@ -340,7 +340,7 @@
       "favorite_stickers": {
         "name": "Favori çıkartma sayısı",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "5 öğeye kadar"
       },
       "pack_size": {
         "name": "Tek paketteki çıkartma sayısı",
@@ -350,7 +350,7 @@
       "sticker_size": {
         "name": "Çıkartma boyutu",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "bir taraf 512px’e eşit, diğer taraf 512px ya da daha az; hareketli için tam 512x512"
       },
       "animation_duration": {
         "name": "Animasyon süresi",

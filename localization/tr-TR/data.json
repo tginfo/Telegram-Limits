@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Kanal ve grup sayısı",
         "hint": "üye olabileceğiniz",
-        "text": "up to 500 (including ones you own)"
+        "text": "500’e kadar (kendinizinkiler dahil)"
       },
       "gifs_number": {
         "name": "Kayıtlı GIF sayısı",
@@ -68,12 +68,12 @@
         "text": "200,000'e kadar"
       },
       "admins_number": {
-        "name": "Number of admins",
+        "name": "Yönetici sayısı",
         "hint": "gruplarda",
         "text": "50'ye kadar"
       },
       "bots_amount": {
-        "name": "Number of bots",
+        "name": "Bot sayısı",
         "hint": "gruplarda",
         "text": "20'ye kadar"
       },
@@ -230,7 +230,7 @@
       "folder_amount": {
         "name": "Klasör miktarı",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "10 klasöre kadar"
       },
       "pinned_chats_in_folder": {
         "name": "Bir klasördeki sabit sohbetler",

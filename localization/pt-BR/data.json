@@ -69,48 +69,48 @@
       },
       "admins_number": {
         "name": "Número de admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "hint": "em grupos",
+        "text": "até 50"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "Número de bots",
+        "hint": "em grupos",
+        "text": "até 20"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "Chats fixados na lista principal",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "até 5 chats ou canais + 5 chats secretos"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Nome do grupo e descrição",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "até 255 caracteres"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Editar mensagem",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "em 48 horas após o envio; ilimitado em Mensagens Salvas e para admins com permissão de fixar"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Autodestruição de fotos e vídeos",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 a 60 segundos"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "Ações recentes",
+        "hint": "(inscrições, mensagens, etc.)",
+        "text": "últimos dois dias"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
+        "name": "Número de menções",
+        "hint": "em uma única mensagem",
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Número de mensagens visíveis",
+        "hint": "em grupo",
+        "text": "1.000.000 últimas mensagens"
       },
       "participants_to_see_stats": {
         "name": "Number of participants to see statistics",
@@ -120,27 +120,27 @@
       "username_reservation": {
         "name": "Username change reservation",
         "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "text": "de 15-30 minutos"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Canais",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
+        "name": "Número de nomes de usuário públicos",
         "hint": "for a single account",
         "text": "up to 10 (including groups)"
       },
       "username_length": {
         "name": "Length of @username",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 a 32 caracteres"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Nome do canal e descrição",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "até 255 caracteres"
       },
       "editing": {
         "name": "Posts editing",
@@ -185,7 +185,7 @@
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Mensagens",
     "items": {
       "single_message_length": {
         "name": "One message length",

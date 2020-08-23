@@ -1,9 +1,9 @@
 {
   "accounts": {
-    "name": "Accounts",
+    "name": "Contas",
     "items": {
       "username": {
-        "name": "Username",
+        "name": "Nome de usuário",
         "hint": "(e.g. @cameraman)",
         "text": "5 to 32 characters"
       },

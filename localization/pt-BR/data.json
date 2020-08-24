@@ -99,18 +99,18 @@
       },
       "recent_actions": {
         "name": "Ações recentes",
-        "hint": "(inscrições, mensagens, etc.)",
+        "hint": "(entradas, mensagens, etc.)",
         "text": "últimos dois dias"
       },
       "mentions_amount": {
         "name": "Número de menções",
         "hint": "em uma única mensagem",
-        "text": "up to 50, else notifications won't be sent"
+        "text": "até 50, senão as notificações não serão enviadas"
       },
       "visible_messages": {
         "name": "Número de mensagens visíveis",
         "hint": "em grupo",
-        "text": "1.000.000 últimas mensagens"
+        "text": "1,000,000 last messages"
       },
       "participants_to_see_stats": {
         "name": "Number of participants to see statistics",

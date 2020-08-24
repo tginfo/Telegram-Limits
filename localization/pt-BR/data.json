@@ -99,7 +99,7 @@
       },
       "recent_actions": {
         "name": "Ações recentes",
-        "hint": "(entradas, mensagens, etc.)",
+        "hint": "(inscrições, mensagens, etc.)",
         "text": "últimos dois dias"
       },
       "mentions_amount": {
@@ -160,7 +160,7 @@
       "channel_deletion": {
         "name": "Exclusão de canal",
         "hint": "",
-        "text": "canais com mais de 1K de inscritos só podem ser excluídos com o suporte do Telegram"
+        "text": "canais com mais de 1K inscritos só podem ser excluídos com o suporte do Telegram"
       },
       "private_channel_access": {
         "name": "Acesso ao canal privado",
@@ -213,34 +213,34 @@
         "text": "até 10 itens"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Número de mensagens agendadas",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "até 100 itens"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Intervalo de agendamento",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "até 365 dias"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Pastas",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Quantidade de pastas",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "até 10 pastas"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "Chats fixados em uma pasta",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "até 100 chats"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Pessoas Próximas",
     "items": {
       "range": {
         "name": "Visibility range",

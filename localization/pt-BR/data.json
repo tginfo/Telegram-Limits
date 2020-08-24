@@ -24,11 +24,11 @@
       },
       "self_destruction": {
         "name": "Tempo de autodestruição",
-        "hint": "se inativa por",
+        "hint": "sem atividade",
         "text": "1, 3, 6 e 12 meses (6 por padrão)"
       },
       "spam_ban": {
-        "name": "Banimento",
+        "name": "Ban por spam",
         "hint": "",
         "text": "3 dias ou mais"
       },
@@ -64,7 +64,7 @@
     "items": {
       "participants_number": {
         "name": "Membros",
-        "hint": "(o limite pode aumentar)",
+        "hint": "(o limite pode ser aumentado)",
         "text": "até 200.000"
       },
       "admins_number": {
@@ -88,7 +88,7 @@
         "text": "até 255 caracteres"
       },
       "editing": {
-        "name": "Editar mensagem",
+        "name": "Edição de mensagens",
         "hint": "",
         "text": "em 48 horas após o envio; ilimitado em Mensagens Salvas e para admins com permissão de fixar"
       },
@@ -109,7 +109,7 @@
       },
       "visible_messages": {
         "name": "Número de mensagens visíveis",
-        "hint": "em grupo",
+        "hint": "em grupos",
         "text": "últimas 1.000.000 mensagens"
       },
       "participants_to_see_stats": {
@@ -143,7 +143,7 @@
         "text": "até 255 caracteres"
       },
       "editing": {
-        "name": "Editar posts",
+        "name": "Edição de posts",
         "hint": "",
         "text": "ilimitado"
       },
@@ -193,7 +193,7 @@
         "text": "até 4.096 caracteres"
       },
       "media_descriptions": {
-        "name": "Legenda de mídias",
+        "name": "Legendas de mídia",
         "hint": "",
         "text": "até 1.024 caracteres"
       },
@@ -243,19 +243,19 @@
     "name": "Pessoas Próximas",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Alcance de visibilidade",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "cerca de 12 quilômetros"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Quantidade de usuários visíveis",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "até 100 pessoas"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Número de grupos visíveis",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "até 10 mais próximos"
       }
     }
   },
@@ -263,69 +263,69 @@
     "name": "Bots",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "Número de bots",
+        "hint": "(criados pelo @BotFather)",
+        "text": "até 20 itens"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "Tamanho de @nome",
+        "hint": "para bots",
+        "text": "5 a 32 caracteres"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Tamanho da info do bot",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "até 120 caracteres"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Tamanho da descrição do bot",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "até 512 caracteres"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Limite de upload de arquivos",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "até 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Limite de download de arquivos",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "até 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "Encaminhamento de mensagens",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "até 2.000 por hora"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "Número de botões do teclado",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "até 100 botões"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Dados de formatação de mensagem",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "até 10 KB"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by support)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "Frequência de mensagens",
+        "hint": "(pode ser aumentado pelo suporte)",
+        "text": "até 30 mensagens por segundo; 20 por minuto para chats e canais públicos"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Busca",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Resultados da busca global",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "até 10 itens; até 3 no Android"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "Tamanho mínimo da busca",
+        "hint": "para a busca global",
+        "text": "ao menos 4 caracteres"
       }
     }
   },
@@ -333,39 +333,39 @@
     "name": "Stickers",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Número de pacotes adicionados",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "até 200 itens"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Número de stickers favoritos",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "até 5 itens"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "Número de stickers em um pacote",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "até 120 para estáticos, até 50 para animados"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Tamanho do sticker",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "um lado igual a 512px, o outro lado com 512px ou menos; exatamente 512x512 para animados"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Duração da animação",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "até 3 segundos"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Tamanho do arquivo de stickers",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "até 512 KB para estáticos, até 64 KB para animados"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 ou 60"
       }
     }
   },
@@ -373,24 +373,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Número de contas",
+        "hint": "no bot @telegraph",
+        "text": "até 5 itens"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Tamanho do artigo",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "até 64 KiB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Miscelânea",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Propriedades do vídeo de perfil",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, até 2 MB"
       }
     }
   }

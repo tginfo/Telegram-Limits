@@ -5,6 +5,7 @@
     "it-IT": ["Italian"],
     "es-ES": ["Español"],
     "pl-PL": ["Polski"],
+    "pt-BR": ["Português Brasileiro"],
     "tr-TR": ["Türkçe"],
     "id-ID": ["Bahasa Indonesia"],
     "ar-SA": ["العربية", {"isRtl": true}],

@@ -110,17 +110,17 @@
       "visible_messages": {
         "name": "Número de mensagens visíveis",
         "hint": "em grupo",
-        "text": "1,000,000 last messages"
+        "text": "últimas 1.000.000 mensagens"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Número de membros para ver as estatísticas",
         "hint": "",
-        "text": "at least 500"
+        "text": "ao menos 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "de 15-30 minutos"
+        "name": "Reserva de alteração de nome de usuário",
+        "hint": "(tempo antes do nome de usuário estar disponível para todos, não apenas para o dono original)",
+        "text": "cerca de 15-30 minutos"
       }
     }
   },
@@ -128,12 +128,12 @@
     "name": "Canais",
     "items": {
       "public_usernames": {
-        "name": "Número de nomes de usuário públicos",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "Número de nomes públicos",
+        "hint": "para uma única conta",
+        "text": "até 10 (incluindo os grupos)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "Tamanho de @nome",
         "hint": "",
         "text": "5 a 32 caracteres"
       },
@@ -143,44 +143,44 @@
         "text": "até 255 caracteres"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Editar posts",
         "hint": "",
-        "text": "unlimited"
+        "text": "ilimitado"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Número de inscritos do canal",
         "hint": "",
-        "text": "unlimited"
+        "text": "ilimitado"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Inscritos visíveis",
+        "hint": "para o admin do canal",
+        "text": "200 pessoas"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Exclusão de canal",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "canais com mais de 1K de inscritos só podem ser excluídos com o suporte do Telegram"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "Acesso ao canal privado",
+        "hint": "sem se inscrever",
+        "text": "até 5 minutos por dia"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Convidar usuários",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "até 200 pessoas"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Número de inscritos para ver as estatísticas",
         "hint": "",
-        "text": "at least 500"
+        "text": "ao menos 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Reserva de alteração de nome",
+        "hint": "(tempo antes do nome estar disponível para todos, não apenas para o dono original)",
+        "text": "cerca de 15-30 minutos"
       }
     }
   },
@@ -188,29 +188,29 @@
     "name": "Mensagens",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Tamanho de uma mensagem",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "até 4.096 caracteres"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Legenda de mídias",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "até 1.024 caracteres"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Limite de tamanho de arquivos",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "até 2,0 GB"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Duração da mensagem de vídeo",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "até 1 minuto"
       },
       "album_size": {
-        "name": "Images in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "Imagens em uma única mensagem",
+        "hint": "(álbum)",
+        "text": "até 10 itens"
       },
       "delayed_messages": {
         "name": "Scheduled messages number",

@@ -76,7 +76,7 @@ $markup = [
     <meta property="twitter:description" content="<?= __("description_short", UCOMP) ?>" data-lang="description_short">
     <meta property="twitter:image" content="<?= BASE ?>/assets/images/previews/<?= $lang ?>/twitter.png" data-lang="preview_twitter">
 
-    <link rel="alternate" href="<?= BASE ?>/<?= $supported_langs[""] ?>" hreflang="x-default" />
+    <link rel="alternate" href="<?= BASE ?>/<?= $lang ?>" hreflang="x-default" rel="canonical" />
     <?php
     foreach ($supported_langs as $key => $value) {
         if (strlen($key) == 0) continue;

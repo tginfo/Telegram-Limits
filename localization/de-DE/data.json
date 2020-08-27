@@ -245,17 +245,17 @@
       "range": {
         "name": "Visibility range",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "etwa 12 Kilometer"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Anzahl sichtbarer Nutzer",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "bis zu 100 Leute"
       },
       "geochats_number": {
         "name": "Visible geochats number",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "bis zu 10 nächste"
       }
     }
   },
@@ -263,79 +263,79 @@
     "name": "Bots",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "Anzahl der Bots",
+        "hint": "(erstellt über @BotFather)",
+        "text": "bis zu 20"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "Länge des @username",
+        "hint": "für Bots",
+        "text": "5 bis 32 Zeichen"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Länge der Botinfo",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "bis zu 120 Zeichen"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Länge der Bot-Beschreibung",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "bis zu 512 Zeichen"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Datei-Upload-Limit",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "bis zu 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Datei-Download-Limit",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "bis zu 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "Nachrichtenweiterleitung",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "bis zu 2.000 pro Stunde"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "Anzahl der Tastaturbuttons",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "bis zu 100"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Formatierungsdaten für Nachrichten",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "bis zu 10 KB"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by support)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "Nachrichtenfrequenz",
+        "hint": "(kann vom Support erhöht werden)",
+        "text": "bis zu 30 Nachrichten pro Sekunde; 20 pro Minute für öffentliche Chats und Kanäle"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Suche",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Globale Suchergebnisse",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "bis zu 10 Ergebnisse; bis zu 3 für Android"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "Minimale Suchbegriff-Länge",
+        "hint": "für globale Suche",
+        "text": "mindestens 4 Zeichen"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Sticker",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Anzahl hinzugefügter Stickerpacks",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "bis zu 200"
       },
       "favorite_stickers": {
         "name": "Favorite stickers number",

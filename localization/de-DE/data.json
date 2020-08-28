@@ -373,19 +373,19 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Anzahl der Accounts",
+        "hint": "im @telegraph Bot",
+        "text": "bis zu 5"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Größe des Artikels",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "bis zu 64 KB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Verschiedenes",
     "items": {
       "properties": {
         "name": "Video avatar properties",

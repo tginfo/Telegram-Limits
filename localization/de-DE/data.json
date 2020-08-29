@@ -243,7 +243,7 @@
     "name": "Leute in der Nähe",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Sichtbarer Bereich",
         "hint": "",
         "text": "etwa 12 Kilometer"
       },
@@ -338,34 +338,34 @@
         "text": "bis zu 200"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Anzahl favorisierter Sticker",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "bis zu 5"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "Anzahl der Sticker pro Pack",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "bis zu 120 für statische, bis zu 50 für animierte"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Stickergröße",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "eine Seite gleich 512px, die andere Seite 512px oder weniger; strikt 512x512 für animierte"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Dauer der Animation",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "bis zu 3 Sekunden"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Sticker-Dateigröße",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "bis zu 512 KB für statische, bis zu 64 KB für animierte"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "entweder 30 oder 60"
       }
     }
   },
@@ -390,7 +390,7 @@
       "properties": {
         "name": "Video avatar properties",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, bis zu 2 MB"
       }
     }
   }

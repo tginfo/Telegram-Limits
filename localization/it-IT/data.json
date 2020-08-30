@@ -307,6 +307,11 @@
         "hint": "",
         "text": "fino a 10 KB"
       },
+      "formatting_entities": {
+        "name": "Message formatting data",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
+      },
       "messaging_frequency": {
         "name": "Frequenza di invio messaggi",
         "hint": "(può essere estesa dal supporto)",

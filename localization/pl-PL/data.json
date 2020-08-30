@@ -208,7 +208,7 @@
         "text": "do 1 minuty"
       },
       "album_size": {
-        "name": "Liczba zdjęć w jednej wiadomości",
+        "name": "Images and videos in single message",
         "hint": "(album)",
         "text": "do 10 sztuk"
       },

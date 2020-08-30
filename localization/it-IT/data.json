@@ -208,7 +208,7 @@
         "text": "fino ad 1 minuto"
       },
       "album_size": {
-        "name": "Media in un singolo messaggio",
+        "name": "Images and videos in single message",
         "hint": "(album)",
         "text": "fino a 10 elementi"
       },

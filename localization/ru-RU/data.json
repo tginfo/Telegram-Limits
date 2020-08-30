@@ -308,9 +308,9 @@
         "text": "до 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "Форматированные сущности",
+        "hint": "(жирный, курсив и т.п.)",
+        "text": "до 100 элементов"
       },
       "messaging_frequency": {
         "name": "Частота сообщений",

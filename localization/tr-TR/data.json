@@ -307,6 +307,11 @@
         "hint": "",
         "text": "10 KB'a kadar"
       },
+      "formatting_entities": {
+        "name": "Message formatting data",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
+      },
       "messaging_frequency": {
         "name": "Mesaj sıklığı",
         "hint": "(destekle arttırılabilir)",

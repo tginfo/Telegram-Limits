@@ -308,9 +308,9 @@
         "text": "do 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "Formatowanie obiektów",
+        "hint": "(pogrubienie, kursywa itp.)",
+        "text": "do 100 elementów"
       },
       "messaging_frequency": {
         "name": "Częstotliwość wiadomości",

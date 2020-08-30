@@ -208,7 +208,7 @@
         "text": "até 1 minuto"
       },
       "album_size": {
-        "name": "Imagens em uma única mensagem",
+        "name": "Images and videos in single message",
         "hint": "(álbum)",
         "text": "até 10 itens"
       },
@@ -306,6 +306,11 @@
         "name": "Dados de formatação de mensagem",
         "hint": "",
         "text": "até 10 KB"
+      },
+      "formatting_entities": {
+        "name": "Formatting entities",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
       },
       "messaging_frequency": {
         "name": "Frequência de mensagens",

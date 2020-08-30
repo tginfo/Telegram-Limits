@@ -208,7 +208,7 @@
         "text": "دقيقة واحدة"
       },
       "album_size": {
-        "name": "الصور في رسالة واحدة",
+        "name": "Images and videos in single message",
         "hint": "(البومات)",
         "text": "الحد الأقصى ١٠ عناصر"
       },
@@ -306,6 +306,11 @@
         "name": "بيانات تنسيق الرسائل",
         "hint": "",
         "text": "الأقصى ١٠ كيلوبايت"
+      },
+      "formatting_entities": {
+        "name": "Formatting entities",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
       },
       "messaging_frequency": {
         "name": "تردد الرسائل",

@@ -118,7 +118,7 @@
         "text": "mindestens 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
+        "name": "Reservierung des Nutzernamens bei Änderung",
         "hint": "(Zeit, bevor der Nutzername für jeden und nicht nur für den ursprünglichen Besitzer verfügbar ist)",
         "text": "etwa 15 bis 30 Minuten"
       }
@@ -178,7 +178,7 @@
         "text": "mindestens 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
+        "name": "Reservierung des Nutzernamens bei Änderung",
         "hint": "(Zeit, bevor der Nutzername für jeden und nicht nur für den ursprünglichen Besitzer verfügbar ist)",
         "text": "etwa 15 bis 30 Minuten"
       }
@@ -193,7 +193,7 @@
         "text": "bis zu 4.096 Zeichen"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Medienbeschreibungen",
         "hint": "",
         "text": "bis zu 1.024 Zeichen"
       },
@@ -208,7 +208,7 @@
         "text": "bis zu 1 Minute"
       },
       "album_size": {
-        "name": "Bilder in einer einzelnen Nachricht",
+        "name": "Images and videos in single message",
         "hint": "(Album)",
         "text": "bis zu 10"
       },
@@ -218,7 +218,7 @@
         "text": "bis zu 100"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Zeitplan-Bereich",
         "hint": "",
         "text": "bis zu 365 Tage"
       }
@@ -243,19 +243,19 @@
     "name": "Leute in der Nähe",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Sichtbarer Bereich",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "etwa 12 Kilometer"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Anzahl sichtbarer Nutzer",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "bis zu 100 Leute"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Anzahl sichtbarer Geochats",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "bis zu 10 nächste"
       }
     }
   },
@@ -263,109 +263,114 @@
     "name": "Bots",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "Anzahl der Bots",
+        "hint": "(erstellt über @BotFather)",
+        "text": "bis zu 20"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "Länge des @username",
+        "hint": "für Bots",
+        "text": "5 bis 32 Zeichen"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Länge der Botinfo",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "bis zu 120 Zeichen"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Länge der Bot-Beschreibung",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "bis zu 512 Zeichen"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Datei-Upload-Limit",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "bis zu 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Datei-Download-Limit",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "bis zu 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "Nachrichtenweiterleitung",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "bis zu 2.000 pro Stunde"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "Anzahl der Tastaturbuttons",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "bis zu 100"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Formatierungsdaten für Nachrichten",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "bis zu 10 KB"
+      },
+      "formatting_entities": {
+        "name": "Formatting entities",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by support)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "Nachrichtenfrequenz",
+        "hint": "(kann vom Support erhöht werden)",
+        "text": "bis zu 30 Nachrichten pro Sekunde; 20 pro Minute für öffentliche Chats und Kanäle"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Suche",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Globale Suchergebnisse",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "bis zu 10 Ergebnisse; bis zu 3 für Android"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "Minimale Suchbegriff-Länge",
+        "hint": "für globale Suche",
+        "text": "mindestens 4 Zeichen"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Sticker",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Anzahl hinzugefügter Stickerpacks",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "bis zu 200"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Anzahl favorisierter Sticker",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "bis zu 5"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "Anzahl der Sticker pro Pack",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "bis zu 120 für statische, bis zu 50 für animierte"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Stickergröße",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "eine Seite gleich 512px, die andere Seite 512px oder weniger; strikt 512x512 für animierte"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Dauer der Animation",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "bis zu 3 Sekunden"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Sticker-Dateigröße",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "bis zu 512 KB für statische, bis zu 64 KB für animierte"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "entweder 30 oder 60"
       }
     }
   },
@@ -373,24 +378,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Anzahl der Accounts",
+        "hint": "im @telegraph Bot",
+        "text": "bis zu 5"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Größe des Artikels",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "bis zu 64 KB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Verschiedenes",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Profilvideo-Eigenschaften",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, bis zu 2 MB"
       }
     }
   }

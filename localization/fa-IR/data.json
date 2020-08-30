@@ -208,7 +208,7 @@
         "text": "تا 1 دقیقه"
       },
       "album_size": {
-        "name": "عکس ها در یک پیام واحد",
+        "name": "Images and videos in single message",
         "hint": "(آلبوم)",
         "text": "تا 10 مورد"
       },
@@ -306,6 +306,11 @@
         "name": "حجم داده های پیام",
         "hint": "",
         "text": "تا 10 کیلوبایت"
+      },
+      "formatting_entities": {
+        "name": "Formatting entities",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
       },
       "messaging_frequency": {
         "name": "تناوب پیام ها",

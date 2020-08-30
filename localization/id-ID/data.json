@@ -208,7 +208,7 @@
         "text": "hingga 1 menit"
       },
       "album_size": {
-        "name": "Gambar dalam satu pesan",
+        "name": "Images and videos in single message",
         "hint": "(album)",
         "text": "hingga 10 item"
       },
@@ -306,6 +306,11 @@
         "name": "Data pemformatan pesan",
         "hint": "",
         "text": "hingga 10 KB"
+      },
+      "formatting_entities": {
+        "name": "Formatting entities",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
       },
       "messaging_frequency": {
         "name": "Frekuensi pesan",

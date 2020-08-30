@@ -118,7 +118,7 @@
         "text": "mindestens 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
+        "name": "Reservierung des Nutzernamens bei Änderung",
         "hint": "(Zeit, bevor der Nutzername für jeden und nicht nur für den ursprünglichen Besitzer verfügbar ist)",
         "text": "etwa 15 bis 30 Minuten"
       }
@@ -178,7 +178,7 @@
         "text": "mindestens 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
+        "name": "Reservierung des Nutzernamens bei Änderung",
         "hint": "(Zeit, bevor der Nutzername für jeden und nicht nur für den ursprünglichen Besitzer verfügbar ist)",
         "text": "etwa 15 bis 30 Minuten"
       }
@@ -193,7 +193,7 @@
         "text": "bis zu 4.096 Zeichen"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Medienbeschreibungen",
         "hint": "",
         "text": "bis zu 1.024 Zeichen"
       },
@@ -218,7 +218,7 @@
         "text": "bis zu 100"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Zeitplan-Bereich",
         "hint": "",
         "text": "bis zu 365 Tage"
       }
@@ -253,7 +253,7 @@
         "text": "bis zu 100 Leute"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Anzahl sichtbarer Geochats",
         "hint": "",
         "text": "bis zu 10 nächste"
       }
@@ -388,7 +388,7 @@
     "name": "Verschiedenes",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Profilvideo-Eigenschaften",
         "hint": "",
         "text": "800x800px, bis zu 2 MB"
       }

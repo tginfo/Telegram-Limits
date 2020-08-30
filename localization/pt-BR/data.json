@@ -308,7 +308,7 @@
         "text": "até 10 KB"
       },
       "formatting_entities": {
-        "name": "Message formatting data",
+        "name": "Formatting entities",
         "hint": "(bold, cursive etc.)",
         "text": "up to 100 items"
       },

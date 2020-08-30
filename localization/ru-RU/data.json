@@ -208,7 +208,7 @@
         "text": "до 1 минуты"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "Фото и видео в одном сообщении",
         "hint": "(альбом)",
         "text": "до 10 штук"
       },
@@ -308,7 +308,7 @@
         "text": "до 10 KB"
       },
       "formatting_entities": {
-        "name": "Message formatting data",
+        "name": "Formatting entities",
         "hint": "(bold, cursive etc.)",
         "text": "up to 100 items"
       },

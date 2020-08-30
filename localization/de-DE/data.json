@@ -307,6 +307,11 @@
         "hint": "",
         "text": "bis zu 10 KB"
       },
+      "formatting_entities": {
+        "name": "Message formatting data",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
+      },
       "messaging_frequency": {
         "name": "Nachrichtenfrequenz",
         "hint": "(kann vom Support erhöht werden)",

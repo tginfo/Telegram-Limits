@@ -208,7 +208,7 @@
         "text": "1 dakikaya kadar"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "Tek mesajda resim ve videolar",
         "hint": "(albüm)",
         "text": "10 öğeye kadar"
       },
@@ -308,9 +308,9 @@
         "text": "10 KB'a kadar"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "Varlıkları biçimlendirme",
+        "hint": "(kalın, eğik vb.)",
+        "text": "100 öğeye kadar"
       },
       "messaging_frequency": {
         "name": "Mesaj sıklığı",

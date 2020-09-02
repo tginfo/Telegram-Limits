@@ -5,7 +5,7 @@
       "username": {
         "name": "اسم المستخدم",
         "hint": "(مثال: username@)",
-        "text": "٥ الى ٣٢ حرفاً"
+        "text": "من ٥ إلى ٣٢ حرفاً"
       },
       "bio": {
         "name": "النبذة",
@@ -15,12 +15,12 @@
       "name_length": {
         "name": "طول الاسم الأول",
         "hint": "",
-        "text": "من ١ الى ٦٤ حرفاً"
+        "text": "من ١ إلى ٦٤ حرفاً"
       },
       "last_name_length": {
         "name": "طول اسم العائلة",
         "hint": "",
-        "text": "من ٠ الى ٦٤ حرفاً"
+        "text": "من ٠ إلى ٦٤ حرفاً"
       },
       "self_destruction": {
         "name": "مدة التدمير الذاتي",
@@ -34,7 +34,7 @@
       },
       "channels_and_chats_number": {
         "name": "عدد القنوات و المجموعات",
-        "hint": "التي لك الحد الإنضمام لها",
+        "hint": "التي لك حد الانضمام لها",
         "text": "الأقصى ٥٠٠ (بتضمين التي أنشأتها)"
       },
       "gifs_number": {
@@ -95,7 +95,7 @@
       "media_self_destruction": {
         "name": "عداد التدمير الذاتي للصور و المقاطع",
         "hint": "",
-        "text": "من ١ الى ٦٠ ثانية"
+        "text": "من ١ إلى ٦٠ ثانية"
       },
       "recent_actions": {
         "name": "آخر الأحداث",
@@ -135,7 +135,7 @@
       "username_length": {
         "name": "طول اسم المستخدم username@",
         "hint": "",
-        "text": "٥ الى ٣٢ حرفاً"
+        "text": "من ٥ إلى ٣٢ حرفاً"
       },
       "channel_name": {
         "name": "اسم القناة و الوصف",
@@ -208,7 +208,7 @@
         "text": "دقيقة واحدة"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "عدد الصور و الفيديوهات في رسالة واحدة",
         "hint": "(البومات)",
         "text": "الحد الأقصى ١٠ عناصر"
       },
@@ -255,7 +255,7 @@
       "geochats_number": {
         "name": "عدد المجموعات المرئية",
         "hint": "",
-        "text": "أقرب عشرة"
+        "text": "الأقرب عشرة"
       }
     }
   },
@@ -308,8 +308,8 @@
         "text": "الأقصى ١٠ كيلوبايت"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
+        "name": "تنسيقات النصوص",
+        "hint": "(غامق، مائل إلخ.)",
         "text": "الأقصى ١٠٠ عنصر"
       },
       "messaging_frequency": {

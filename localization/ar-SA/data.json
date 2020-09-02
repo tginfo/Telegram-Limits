@@ -310,7 +310,7 @@
       "formatting_entities": {
         "name": "Formatting entities",
         "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "text": "الأقصى ١٠٠ عنصر"
       },
       "messaging_frequency": {
         "name": "تردد الرسائل",

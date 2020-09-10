@@ -3,24 +3,24 @@
     "name": "ගිණුම්",
     "items": {
       "username": {
-        "name": "Username",
-        "hint": "(e.g. @cameraman)",
-        "text": "5 to 32 characters"
+        "name": "පරිශීලක නාමය",
+        "hint": "(උදා. @cameraman)",
+        "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
       },
       "bio": {
-        "name": "Bio",
+        "name": "සටහන",
         "hint": "",
-        "text": "up to 70 characters"
+        "text": "අක්ෂර 70 ක් දක්වා"
       },
       "name_length": {
-        "name": "First Name length",
+        "name": "මුල් නමේ දිග",
         "hint": "",
-        "text": "from 1 to 64 characters"
+        "text": "අක්ෂර 1 සිට 64 ක් දක්වා"
       },
       "last_name_length": {
-        "name": "Last Name length",
+        "name": "අවසාන නමේ දිග",
         "hint": "",
-        "text": "from 0 to 64 characters"
+        "text": "අක්ෂර 0 සිට 64 ක් දක්වා"
       },
       "self_destruction": {
         "name": "Self-destruction period",
@@ -30,10 +30,10 @@
       "spam_ban": {
         "name": "Spam ban",
         "hint": "",
-        "text": "3 days or more"
+        "text": "දින 3 ක් හෝ වැඩි"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
+        "name": "නාලිකා හා සුපිරි සමූහ ගණන",
         "hint": "you can be member of",
         "text": "up to 500 (including ones you own)"
       },
@@ -43,14 +43,14 @@
         "text": "200 ක් දක්වා"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "පැතිකඩ වීඩියෝවක කාලසීමාව",
         "hint": "",
         "text": "තත්පර 10 ක් දක්වා"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "සමූහ හා නාලිකා නිර්මාණය",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "දිනක් තුළදී 50 ක් දක්වා"
       },
       "accounts_number": {
         "name": "ගිණුම් ගණන",
@@ -145,7 +145,7 @@
       "editing": {
         "name": "Posts editing",
         "hint": "",
-        "text": "unlimited"
+        "text": "අසීමිතයි"
       },
       "subscribers": {
         "name": "Channel subscribers number",
@@ -375,15 +375,15 @@
     }
   },
   "telegraph": {
-    "name": "Telegraph",
+    "name": "ටෙලිග්‍රාෆ්",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
+        "name": "ගිණුම් ගණන",
         "hint": "in @telegraph bot",
         "text": "up to 5 items"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "ලිපියක විශාලත්වය",
         "hint": "",
         "text": "up to 64 KiB"
       }

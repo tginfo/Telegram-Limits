@@ -1,6 +1,6 @@
 {
   "accounts": {
-    "name": "Accounts",
+    "name": "ගිණුම්",
     "items": {
       "username": {
         "name": "Username",
@@ -40,12 +40,12 @@
       "gifs_number": {
         "name": "Saved GIFs number",
         "hint": "",
-        "text": "up to 200"
+        "text": "200 ක් දක්වා"
       },
       "video_length": {
         "name": "Video-avatar duration",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "තත්පර 10 ක් දක්වා"
       },
       "groups_and_channels_creation": {
         "name": "Group and channel creation",
@@ -53,29 +53,29 @@
         "text": "up to 50 in a day"
       },
       "accounts_number": {
-        "name": "Accounts number",
+        "name": "ගිණුම් ගණන",
         "hint": "(official clients)",
-        "text": "up to 3"
+        "text": "3 ක් දක්වා"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "සංවාද හා සමූහ",
     "items": {
       "participants_number": {
         "name": "Participants",
         "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "text": "200,000 ක් දක්වා"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "පරිපාලකයින් ගණන",
+        "hint": "සමූහ තුළදී",
+        "text": "50 ක් දක්වා"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "රොබෝවන් ගණන",
+        "hint": "සමූහ තුළදී",
+        "text": "20 ක් දක්වා"
       },
       "pinned_number": {
         "name": "Pinned chats in main list",

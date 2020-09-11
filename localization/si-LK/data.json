@@ -88,7 +88,7 @@
         "text": "අක්ෂර 255 ක් දක්වා"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "පණිවිඩ සංස්කරණය",
         "hint": "",
         "text": "යවා පැය 48 ක් ඇතුළත; සුරැකි පණිවීඩ තුළදී සහ පණිවිඩ ඇමිණීමේ හිමිකම සහිත පරිපාලකයින් සඳහා සීමා නොමැත"
       },
@@ -113,9 +113,9 @@
         "text": "අවසන් පණිවිඩ 1,000,000"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය සාමාජිකයින් ගණන",
         "hint": "",
-        "text": "අවම වශයෙන් 500"
+        "text": "අවම වශයෙන් 500 ක්"
       },
       "username_reservation": {
         "name": "Username change reservation",
@@ -155,7 +155,7 @@
       "visible_participants": {
         "name": "Visible subscribers",
         "hint": "for channel admin",
-        "text": "200 people"
+        "text": "පුද්ගලයින් 200 ක්"
       },
       "channel_deletion": {
         "name": "Channel deletion",
@@ -173,9 +173,9 @@
         "text": "up to 200 people"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය ග්‍රාහකයින් ගණන",
         "hint": "",
-        "text": "at least 500"
+        "text": "අවම වශයෙන් 500 ක්"
       },
       "username_reservation": {
         "name": "Username change reservation",
@@ -248,19 +248,19 @@
         "text": "කිලෝමීටර 12 ක් පමණ"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "පෙන්වන පුද්ගලයින් ගණන",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "පුද්ගලයින් 100 ක් දක්වා"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "පෙන්වන ස්ථානීය සමූහ ගණන",
         "hint": "",
         "text": "ආසන්නම 10 ක් දක්වා"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "රොබෝවන්",
     "items": {
       "bots_amount": {
         "name": "Bots number",
@@ -368,7 +368,7 @@
         "text": "up to 512 KB for static, up to 64 KB for animated"
       },
       "fps": {
-        "name": "FPS",
+        "name": "තත්පරයකට රූපරාමු",
         "hint": "",
         "text": "30 හෝ 60"
       }
@@ -385,7 +385,7 @@
       "text_size": {
         "name": "ලිපියක විශාලත්වය",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "කිලෝ.බ 64 ක් දක්වා"
       }
     }
   },

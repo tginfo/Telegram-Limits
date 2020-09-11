@@ -90,7 +90,7 @@
       "editing": {
         "name": "Message editing",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "යවා පැය 48 ක් ඇතුළත; සුරැකි පණිවීඩ තුළදී සහ පණිවිඩ ඇමිණීමේ හිමිකම සහිත පරිපාලකයින් සඳහා සීමා නොමැත"
       },
       "media_self_destruction": {
         "name": "Photo and video self-destruction",
@@ -150,7 +150,7 @@
       "subscribers": {
         "name": "Channel subscribers number",
         "hint": "",
-        "text": "unlimited"
+        "text": "අසීමිතයි"
       },
       "visible_participants": {
         "name": "Visible subscribers",
@@ -185,37 +185,37 @@
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "පණිවිඩ",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "එක් පණිවිඩයක දිග",
         "hint": "",
         "text": "අක්ෂර 4,096 ක් දක්වා"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "ඡායාරූප සටහන",
         "hint": "",
         "text": "අක්ෂර 1,024 ක් දක්වා"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "ගොනුවක උපරිම විශාලත්වය",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "ගිගා.බ 2.0 ක් දක්වා"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "වීඩියෝ පණිවිඩයක දිග",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "විනාඩි 1 ක් දක්වා"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "එක් පණිවිඩයක් තුළ ඡායාරූප හා වීඩියෝ",
         "hint": "(album)",
         "text": "up to 10 items"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "කල්තැබූ පණිවිඩ ගණන",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "අයිතම 100 ක් දක්වා"
       },
       "delaying_messages": {
         "name": "Schedule range",
@@ -255,7 +255,7 @@
       "geochats_number": {
         "name": "Visible geochats number",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "ආසන්නම 10 ක් දක්වා"
       }
     }
   },
@@ -285,12 +285,12 @@
       "upload_limit_botapi": {
         "name": "File upload limit",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "මෙගා.බ 50 ක් දක්වා"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "ගොනු බාගතකිරීමේ සීමාව",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "මෙගා.බ 20 ක් දක්වා"
       },
       "forwarding": {
         "name": "Message forwarding",
@@ -305,7 +305,7 @@
       "formatting_data": {
         "name": "Message formatting data",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "කිලෝ.බ 10 ක් දක්වා"
       },
       "formatting_entities": {
         "name": "Formatting entities",
@@ -320,7 +320,7 @@
     }
   },
   "search": {
-    "name": "Search",
+    "name": "සෙවුම",
     "items": {
       "global_search": {
         "name": "Global search results",
@@ -338,22 +338,22 @@
     "name": "ස්ටිකර්",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "එක්කළ හැකි කට්ටල ගණන",
         "hint": "",
         "text": "අයිතම 200 ක් දක්වා"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "ප්‍රියතම ස්ටිකර් ගණන",
         "hint": "",
         "text": "up to 5 items"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "කට්ටලයක් තුළ ස්ටිකර් ගණන",
         "hint": "",
         "text": "up to 120 for static, up to 50 for animated"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "ස්ටිකරයක ප්‍රමාණය",
         "hint": "",
         "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
@@ -363,7 +363,7 @@
         "text": "තත්පර 3 ක් දක්වා"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "ස්ටිකර් ගොනුවක විශාලත්වය",
         "hint": "",
         "text": "up to 512 KB for static, up to 64 KB for animated"
       },
@@ -395,7 +395,7 @@
       "properties": {
         "name": "Video avatar properties",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, මෙගා.බ 2 ක් දක්වා"
       }
     }
   }

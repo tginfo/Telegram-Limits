@@ -95,7 +95,7 @@
       "media_self_destruction": {
         "name": "Photo and video self-destruction",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "තත්පර 1 සිට 60 ක් දක්වා"
       },
       "recent_actions": {
         "name": "Recent actions",
@@ -110,12 +110,12 @@
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "in group",
-        "text": "1,000,000 last messages"
+        "text": "අවසන් පණිවිඩ 1,000,000"
       },
       "participants_to_see_stats": {
         "name": "Number of participants to see statistics",
         "hint": "",
-        "text": "at least 500"
+        "text": "අවම වශයෙන් 500"
       },
       "username_reservation": {
         "name": "Username change reservation",
@@ -125,7 +125,7 @@
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "නාලිකා",
     "items": {
       "public_usernames": {
         "name": "Public usernames number",

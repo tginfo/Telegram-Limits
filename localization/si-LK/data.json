@@ -315,7 +315,7 @@
       "messaging_frequency": {
         "name": "Messages frequency",
         "hint": "(can be raised by support)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "text": "තත්පරයට පණිවිඩ 30 ක් දක්වා; පොදු සංවාද හා නාලිකා තුළදී විනාඩියට් 20 ක් දක්වා"
       }
     }
   },
@@ -350,12 +350,12 @@
       "pack_size": {
         "name": "කට්ටලයක් තුළ ස්ටිකර් ගණන",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "සාමාන්‍ය ස්ටිකර් 120 ක් දක්වා, චලන ස්ටිකර් සඳහා 50 ක් දක්වා"
       },
       "sticker_size": {
         "name": "ස්ටිකරයක ප්‍රමාණය",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "එක් පසක් 512px, අනෙක් පස 512px හෝ ඊට අඩු; චලන ස්ටිකර් නම් 512x512 විය යුතුයි"
       },
       "animation_duration": {
         "name": "Animation duration",

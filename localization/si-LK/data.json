@@ -25,7 +25,7 @@
       "self_destruction": {
         "name": "Self-destruction period",
         "hint": "if no activity",
-        "text": "1, 3, 6 and 12 months (6 by default)"
+        "text": "මාස 1, 3, 6, සහ 12 (පෙරනිමි සැකසුම 6 ක්)"
       },
       "spam_ban": {
         "name": "ස්පෑම් වාරණය",
@@ -80,10 +80,10 @@
       "pinned_number": {
         "name": "ප්‍රධාන ලැයිස්තුව තුළ ඇමුණූ සංවාද",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "නාලිකා හෝ සංවාද 5 ක් දක්වා + රහස් සංවාද 5 ක්"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "සමූහයේ නම හා විස්තරය",
         "hint": "",
         "text": "අක්ෂර 255 ක් දක්වා"
       },
@@ -93,14 +93,14 @@
         "text": "යවා පැය 48 ක් ඇතුළත; සුරැකි පණිවීඩ තුළදී සහ පණිවිඩ ඇමිණීමේ හිමිකම සහිත පරිපාලකයින් සඳහා සීමා නොමැත"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "ඡායාරූප හා වීඩියෝ ස්වයංක්‍රීයව-මැකීම",
         "hint": "",
         "text": "තත්පර 1 සිට 60 ක් දක්වා"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "මෑත ක්‍රියාමාර්ග",
+        "hint": "(ග්‍රාහකයින් එක්වීම්, පළකිරීම් ආදී)",
+        "text": "අවසන් දින 2"
       },
       "mentions_amount": {
         "name": "Mentions number",
@@ -130,10 +130,10 @@
       "public_usernames": {
         "name": "Public usernames number",
         "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "text": "10 ක් දක්වා (සමූහද ඇතුළුව)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "@username හි දිග",
         "hint": "",
         "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
       },
@@ -143,12 +143,12 @@
         "text": "අක්ෂර 255 ක් දක්වා"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "පළකිරීම් සංස්කරණය",
         "hint": "",
         "text": "අසීමිතයි"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "නාලිකාවක ග්‍රාහකයින් ගණන",
         "hint": "",
         "text": "අසීමිතයි"
       },
@@ -158,19 +158,19 @@
         "text": "පුද්ගලයින් 200 ක්"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "නාලිකා මැකීම",
         "hint": "",
         "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
       },
       "private_channel_access": {
         "name": "Private channel access",
         "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "text": "එක් දිනක් තුළ විනාඩි 5 ක් දක්වා"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "පුද්ගලයින්ට ඇරයුම් කිරීම",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "පුද්ගලයින් 200 ක් දක්වා"
       },
       "followers_to_see_stats": {
         "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය ග්‍රාහකයින් ගණන",
@@ -180,7 +180,7 @@
       "username_reservation": {
         "name": "Username change reservation",
         "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "text": "විනාඩි 15-30 පමණ"
       }
     }
   },
@@ -218,7 +218,7 @@
         "text": "අයිතම 100 ක් දක්වා"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "කල්තැබිය හැකි කාලසීමාව",
         "hint": "",
         "text": "දින 365 ක් දක්වා"
       }
@@ -233,7 +233,7 @@
         "text": "ෆෝල්ඩර 10 ක් දක්වා"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "ෆෝල්ඩරයක් තුළ ඇමුණූ සංවාද",
         "hint": "",
         "text": "සංවාද 100 ක් දක්වා"
       }
@@ -243,7 +243,7 @@
     "name": "යාබද පුද්ගලයින්",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "පෙන්වන පරාසය",
         "hint": "",
         "text": "කිලෝමීටර 12 ක් පමණ"
       },
@@ -263,9 +263,9 @@
     "name": "රොබෝවන්",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "රොබෝවන් ගණන",
+        "hint": "(@BotFather විසින් සෑදූ)",
+        "text": "20 ක් දක්වා"
       },
       "username length": {
         "name": "Length of @username",
@@ -293,7 +293,7 @@
         "text": "මෙගා.බ 20 ක් දක්වා"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "පණිවිඩ පිටතට යැවීම",
         "hint": "",
         "text": "පැයකට 2,000 ක් දක්වා"
       },
@@ -313,7 +313,7 @@
         "text": "up to 100 items"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
+        "name": "පණිවිඩ ප්‍රමාණය",
         "hint": "(can be raised by support)",
         "text": "තත්පරයට පණිවිඩ 30 ක් දක්වා; පොදු සංවාද හා නාලිකා තුළදී විනාඩියට් 20 ක් දක්වා"
       }
@@ -323,9 +323,9 @@
     "name": "සෙවුම",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "ගෝලීය සෙවුම් ප්‍රතිඵල",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "අයිතම 10 ක් දක්වා; ඇන්ඩ්‍රොයිඩ් තුළදී 3 ක් දක්වා"
       },
       "global_search_min_query": {
         "name": "Minimal query length",
@@ -393,7 +393,7 @@
     "name": "වෙනත්",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "පැතිකඩ වීඩියෝවක සැකසුම්",
         "hint": "",
         "text": "800x800px, මෙගා.බ 2 ක් දක්වා"
       }

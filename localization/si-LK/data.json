@@ -23,8 +23,8 @@
         "text": "අක්ෂර 0 සිට 64 ක් දක්වා"
       },
       "self_destruction": {
-        "name": "Self-destruction period",
-        "hint": "if no activity",
+        "name": "ස්වයංක්‍රීයව මැකීමේ කාලසීමාව",
+        "hint": "(අක්‍රියව සිටියොත්)",
         "text": "මාස 1, 3, 6, සහ 12 (පෙරනිමි සැකසුම 6 ක්)"
       },
       "spam_ban": {
@@ -34,7 +34,7 @@
       },
       "channels_and_chats_number": {
         "name": "නාලිකා හා සුපිරි සමූහ ගණන",
-        "hint": "you can be member of",
+        "hint": "(ඔබට සාමාජිකයෙක් විය හැකි)",
         "text": "500 ක් දක්වා (ඔබ හිමිකරු වන ඒවාද ඇතුළුව)"
       },
       "gifs_number": {
@@ -54,7 +54,7 @@
       },
       "accounts_number": {
         "name": "ගිණුම් ගණන",
-        "hint": "(official clients)",
+        "hint": "(නිල ටෙලිග්‍රෑම් යෙදුම්)",
         "text": "3 ක් දක්වා"
       }
     }
@@ -64,7 +64,7 @@
     "items": {
       "participants_number": {
         "name": "සාමාජිකයින්",
-        "hint": "(limit can be raised)",
+        "hint": "(සීමාව වැඩිකළ හැකියි)",
         "text": "200,000 ක් දක්වා"
       },
       "admins_number": {
@@ -103,13 +103,13 @@
         "text": "අවසන් දින 2"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "name": "සඳහන්කිරීම් ගණන",
+        "hint": "(එක් පණිවිඩයක් තුළ)",
+        "text": "50 ක් දක්වා, මෙය ඉක්මවූ විට දැනුම්දීම් ‍යැවීමක් නොවනු ඇත"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
+        "name": "පෙන්වන පණිවිඩ ගණන",
+        "hint": "(සමූහයක් තුළදී)",
         "text": "අවසන් පණිවිඩ 1,000,000"
       },
       "participants_to_see_stats": {
@@ -128,8 +128,8 @@
     "name": "නාලිකා",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
+        "name": "පොදු පරිශීලක නාමයන් ගණන",
+        "hint": "එක් ගිණුමක් සඳහා",
         "text": "10 ක් දක්වා (සමූහද ඇතුළුව)"
       },
       "username_length": {
@@ -153,18 +153,18 @@
         "text": "අසීමිතයි"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
+        "name": "පෙන්වන ග්‍රාහකයින් ගණන",
+        "hint": "(නාලිකා පරිපාලකයෙක්ට)",
         "text": "පුද්ගලයින් 200 ක්"
       },
       "channel_deletion": {
         "name": "නාලිකා මැකීම",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "1000 කට වැඩි ග්‍රාහකයින් සහිත නාලිකාවක් මැකිය හැක්කේ ටෙලිග්‍රෑම් සහාය හරහා පමණි"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
+        "name": "පුද්ගලික නාලිකා වෙත පිවිසීම",
+        "hint": "(එක්වීමෙන් තොරව)",
         "text": "එක් දිනක් තුළ විනාඩි 5 ක් දක්වා"
       },
       "invintations": {
@@ -209,8 +209,8 @@
       },
       "album_size": {
         "name": "එක් පණිවිඩයක් තුළ ඡායාරූප හා වීඩියෝ",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "hint": "(ඇල්බම්)",
+        "text": "අයිතම 10 ක් දක්වා"
       },
       "delayed_messages": {
         "name": "කල්තැබූ පණිවිඩ ගණන",
@@ -268,22 +268,22 @@
         "text": "20 ක් දක්වා"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
+        "name": "@username හි දිග",
+        "hint": "(රොබෝවන් සඳහා)",
         "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "රොබෝ තොරතුරු වල දිග",
         "hint": "(/setabouttext)",
         "text": "අක්ෂර 120 ක් දක්වා"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "රොබෝ විස්තරයේ දිග",
         "hint": "",
         "text": "අක්ෂර 512 ක් දක්වා"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "ගොනු උඩුගතකිරීමේ සීමාව",
         "hint": "(BotAPI)",
         "text": "මෙගා.බ 50 ක් දක්වා"
       },
@@ -298,9 +298,9 @@
         "text": "පැයකට 2,000 ක් දක්වා"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "යතුරුපුවරු බොත්තම් ගණන",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "අයිතම 100 ක් දක්වා"
       },
       "formatting_data": {
         "name": "Message formatting data",
@@ -310,7 +310,7 @@
       "formatting_entities": {
         "name": "Formatting entities",
         "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "text": "අයිතම 100 ක් දක්වා"
       },
       "messaging_frequency": {
         "name": "පණිවිඩ ප්‍රමාණය",
@@ -328,8 +328,8 @@
         "text": "අයිතම 10 ක් දක්වා; ඇන්ඩ්‍රොයිඩ් තුළදී 3 ක් දක්වා"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
+        "name": "සෙවුම් පදයක අවම දිග",
+        "hint": "(ගෝලීය සෙවුමකදී)",
         "text": "අවම වශයෙන් අක්ෂර 4 ක්"
       }
     }
@@ -345,7 +345,7 @@
       "favorite_stickers": {
         "name": "ප්‍රියතම ස්ටිකර් ගණන",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "අයිතම 5 ක් දක්වා"
       },
       "pack_size": {
         "name": "කට්ටලයක් තුළ ස්ටිකර් ගණන",
@@ -358,14 +358,14 @@
         "text": "එක් පසක් 512px, අනෙක් පස 512px හෝ ඊට අඩු; චලන ස්ටිකර් නම් 512x512 විය යුතුයි"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "සජීවීකරණ කාලසීමාව",
         "hint": "",
         "text": "තත්පර 3 ක් දක්වා"
       },
       "file_size": {
         "name": "ස්ටිකර් ගොනුවක විශාලත්වය",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "සාමාන්‍ය ස්ටිකර් සඳහා කිලෝ.බ 512 ක් දක්වා, චලන ස්ටිකර් සඳහා කිලෝ.බ 64 ක් දක්වා"
       },
       "fps": {
         "name": "තත්පරයකට රූපරාමු",
@@ -379,8 +379,8 @@
     "items": {
       "accounts_number": {
         "name": "ගිණුම් ගණන",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "hint": "(@telegraph රොබෝ තුළ)",
+        "text": "ගිණුම් 5 ක් දක්වා"
       },
       "text_size": {
         "name": "ලිපියක විශාලත්වය",

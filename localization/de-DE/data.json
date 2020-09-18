@@ -328,7 +328,7 @@
         "text": "0 to 100 commands"
       },
       "bot_command_name_length": {
-        "name": "Command length",
+        "name": "Kommandolänge",
         "hint": "(in BotFather)",
         "text": "from 1 to 32 characters"
       },

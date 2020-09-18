@@ -320,22 +320,22 @@
       "api_requests_frequency": {
         "name": "تردد طلبات API",
         "hint": "(يمكن زيادتها بمراسلة BotSupport)",
-        "text": "up to 30 requests per second"
+        "text": "الأقصى ٣٠ طلب في الثانية"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "عدد الأوامر",
+        "hint": "(في BotFather)",
+        "text": "من ٠ إلى ١٠٠ أمراً"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "طول الأمر",
+        "hint": "(في BotFather)",
+        "text": "من ١ إلى ٣٢ حرفاً"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "طول وصف الأمر",
+        "hint": "(في BotFather)",
+        "text": "من ٢ إلى ٢٥٦ حرفاً"
       }
     }
   },

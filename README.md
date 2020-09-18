@@ -25,3 +25,4 @@ This project describes Telegram limitations and displays them on [limits.tginfo.
 - Persian: mbakhshiane
 - Portuguese (Brazilian): tantofazisso
 - German: bederke
+- Sinhala: Thisu

@@ -314,28 +314,28 @@
       },
       "messaging_frequency": {
         "name": "Frekuensi pesan",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(dapat ditingkatkan melalui BotSupport)",
         "text": "hingga 30 pesan per detik; 20 per menit untuk obrolan channel publik"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "Frekuensi permintaan API",
+        "hint": "(dapat ditingkatkan melalui BotSupport)",
+        "text": "hingga 30 permintaan per detik"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Jumlah perintah",
+        "hint": "(di BotFather)",
+        "text": "0 sampai 100 perintah"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Panjang perintah",
+        "hint": "(di BotFather)",
+        "text": "dari 1 sampai 32 karakter"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "Panjang deskripsi perintah",
+        "hint": "(di BotFather)",
+        "text": "dari 2 sampai 256 karakter"
       }
     }
   },

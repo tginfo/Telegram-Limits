@@ -318,22 +318,22 @@
         "text": "do 30 wiadomości na sekundę; 20 wiadomości na minutę dla czatów i kanałów"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
+        "name": "Częstotliwość żądań API",
         "hint": "(może zostać zwiększona przez BotSupport)",
-        "text": "up to 30 requests per second"
+        "text": "do 30 żądań na sekundę"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
+        "name": "Ilość poleceń",
         "hint": "(w BotFather)",
         "text": "0 do 100 poleceń"
       },
       "bot_command_name_length": {
-        "name": "Command length",
+        "name": "Długość polecenia",
         "hint": "(w BotFather)",
         "text": "od 1 do 32 znaków"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "Długość opisu polecenia",
         "hint": "(w BotFather)",
         "text": "od 2 do 256 znaków"
       }

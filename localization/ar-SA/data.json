@@ -314,12 +314,12 @@
       },
       "messaging_frequency": {
         "name": "تردد الرسائل",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(يمكن زيادتها بمراسلة BotSupport)",
         "text": "الأقصى ٣٠ رسالة كل ثانية; ٢٠ كل دقيقة المحادثات العامة و القنوات"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
+        "name": "تردد طلبات API",
+        "hint": "(يمكن زيادتها بمراسلة BotSupport)",
         "text": "up to 30 requests per second"
       },
       "bot_commands_count": {

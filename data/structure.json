@@ -270,6 +270,22 @@
             {
                 "id": "messaging_frequency",
                 "icon": "speed"
+            },
+            {
+                "id": "api_requests_frequency",
+                "icon": "api"
+            },
+            {
+                "id": "bot_commands_count",
+                "icon": "receipt_long"
+            },
+            {
+                "id": "bot_command_name_length",
+                "icon": "local_offer"
+            },
+            {
+                "id": "bot_command_description_length",
+                "icon": "import_contacts"
             }
         ]
     },

@@ -314,7 +314,7 @@
       },
       "messaging_frequency": {
         "name": "Частота сообщений",
-        "hint": "(может быть увеличена поддержкой)",
+        "hint": "(can be raised by BotSupport)",
         "text": "до 30 сообщений в секунду; 20 сообщений в минуту для чатов и каналов"
       },
       "api_requests_frequency": {

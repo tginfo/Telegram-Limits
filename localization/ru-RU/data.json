@@ -318,24 +318,24 @@
         "text": "до 30 сообщений в секунду; 20 сообщений в минуту для чатов и каналов"
       },
       "api_requests_frequency": {
-        "name": "Частота запросов к API",
-        "hint": "(может быть увеличена поддержкой)",
-        "text": "до 30 запросов в секунду"
+        "name": "API requests frequency",
+        "hint": "(can be raised by BotSupport)",
+        "text": "up to 30 requests per second"
       },
       "bot_commands_count": {
-        "name": "Количество заданных команд бота",
-        "hint": "(в BotFather)",
-        "text": "от 0 до 100 команд"
+        "name": "Commands amount",
+        "hint": "(in BotFather)",
+        "text": "0 to 100 commands"
       },
       "bot_command_name_length": {
-        "name": "Длина команды",
-        "hint": "(в BotFather)",
-        "text": "от 1 до 32 символов"
+        "name": "Command length",
+        "hint": "(in BotFather)",
+        "text": "from 1 to 32 characters"
       },
       "bot_command_description_length": {
-        "name": "Длина описания команды",
-        "hint": "(в BotFather)",
-        "text": "от 2 до 256 символов"
+        "name": "Command description length",
+        "hint": "(in BotFather)",
+        "text": "from 2 to 256 characters"
       }
     }
   },

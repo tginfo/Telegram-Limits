@@ -314,13 +314,13 @@
       },
       "messaging_frequency": {
         "name": "تناوب پیام ها",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(با BotSupport قابل افزایش است)",
         "text": "تا 30 پیام در هر ثانیه؛ 20 تا در هر دقیقه برای چت ها و کانال های عمومی"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "تناوب درخواست های API",
+        "hint": "(با BotSupport قابل افزایش است)",
+        "text": "تا 30 درخواست در هر ثانیه"
       },
       "bot_commands_count": {
         "name": "Commands amount",

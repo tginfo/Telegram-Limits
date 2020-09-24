@@ -318,22 +318,22 @@
         "text": "saniyede 30 mesaja kadar; genel sohbet ve kanallar için dakikada 20"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
+        "name": "API isteklerinin sıklığı‌‌",
         "hint": "(BotSupport tarafından yükseltilebilir)",
-        "text": "up to 30 requests per second"
+        "text": "saniyede 30 isteğe kadar‌‌"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
+        "name": "Komut miktarı‌‌",
         "hint": "(BotFather'da)",
-        "text": "0 to 100 commands"
+        "text": "0 ila 100 komut"
       },
       "bot_command_name_length": {
-        "name": "Command length",
+        "name": "Komut uzunluğu‌‌",
         "hint": "(BotFather'da)",
         "text": "1 ila 32 karakter"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "Komut açıklama uzunluğu‌‌",
         "hint": "(BotFather'da)",
         "text": "2 ila 256 karakter"
       }

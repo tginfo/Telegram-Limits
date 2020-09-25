@@ -314,28 +314,28 @@
       },
       "messaging_frequency": {
         "name": "Mesaj sıklığı",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(BotSupport tarafından yükseltilebilir)",
         "text": "saniyede 30 mesaja kadar; genel sohbet ve kanallar için dakikada 20"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "API isteklerinin sıklığı‌‌",
+        "hint": "(BotSupport tarafından yükseltilebilir)",
+        "text": "saniyede 30 isteğe kadar‌‌"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Komut miktarı‌‌",
+        "hint": "(BotFather'da)",
+        "text": "0 ila 100 komut"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Komut uzunluğu‌‌",
+        "hint": "(BotFather'da)",
+        "text": "1 ila 32 karakter"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "Komut açıklama uzunluğu‌‌",
+        "hint": "(BotFather'da)",
+        "text": "2 ila 256 karakter"
       }
     }
   },

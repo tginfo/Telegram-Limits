@@ -315,7 +315,7 @@
       "messaging_frequency": {
         "name": "පණිවිඩ ප්‍රමාණය",
         "hint": "(can be raised by BotSupport)",
-        "text": "තත්පරයට පණිවිඩ 30 ක් දක්වා; පොදු සංවාද හා නාලිකා තුළදී විනාඩියට් 20 ක් දක්වා"
+        "text": "තත්පරයට පණිවිඩ 30 ක් දක්වා; පොදු සංවාද හා නාලිකා තුළදී විනාඩියට 20 ක් දක්වා"
       },
       "api_requests_frequency": {
         "name": "API requests frequency",

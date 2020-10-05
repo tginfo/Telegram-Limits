@@ -314,28 +314,28 @@
       },
       "messaging_frequency": {
         "name": "Nachrichtenfrequenz",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(kann vom Bot-Support erhöht werden)",
         "text": "bis zu 30 Nachrichten pro Sekunde; 20 pro Minute für öffentliche Chats und Kanäle"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "Häufigkeit der API-Anfragen",
+        "hint": "(kann vom Bot-Support erhöht werden)",
+        "text": "bis zu 30 Anfragen pro Sekunde"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Anzahl der Kommandos",
+        "hint": "(im BotFather)",
+        "text": "0 bis 100 Kommandos"
       },
       "bot_command_name_length": {
         "name": "Kommandolänge",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "hint": "(im BotFather)",
+        "text": "1 bis 32 Zeichen"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "Länge der Kommando-Beschreibung",
+        "hint": "(im BotFather)",
+        "text": "2 bis 256 Zeichen"
       }
     }
   },

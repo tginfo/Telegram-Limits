@@ -309,8 +309,8 @@
       },
       "formatting_entities": {
         "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "hint": "(grassetto, corsivo ecc.)",
+        "text": "fino a 100 elementi"
       },
       "messaging_frequency": {
         "name": "Frequenza di invio messaggi",
@@ -330,12 +330,12 @@
       "bot_command_name_length": {
         "name": "Command length",
         "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "text": "da 1 a 32 caratteri"
       },
       "bot_command_description_length": {
         "name": "Command description length",
         "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "text": "da 2 a 256 caratteri"
       }
     }
   },

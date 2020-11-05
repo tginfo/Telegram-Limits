@@ -208,7 +208,7 @@
         "text": "fino ad 1 minuto"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "Immagini e video in un singolo messaggio",
         "hint": "(album)",
         "text": "fino a 10 elementi"
       },
@@ -308,32 +308,32 @@
         "text": "fino a 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
+        "name": "Entità di formattazione",
         "hint": "(grassetto, corsivo ecc.)",
         "text": "fino a 100 elementi"
       },
       "messaging_frequency": {
         "name": "Frequenza di invio messaggi",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(estendibile da BotSupport)",
         "text": "fino a 30 messaggi al secondo; 20 al minuto in canali e gruppi pubblici"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "Frequenza richieste API",
+        "hint": "(estendibile da BotSupport)",
+        "text": "fino a 30 richieste per secondo"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
+        "name": "Quantità dei comandi",
         "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "text": "da 0 a 100 comandi"
       },
       "bot_command_name_length": {
-        "name": "Command length",
+        "name": "Lunghezza del comando",
         "hint": "(in BotFather)",
         "text": "da 1 a 32 caratteri"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "Lunghezza della descrizione del comando",
         "hint": "(in BotFather)",
         "text": "da 2 a 256 caratteri"
       }

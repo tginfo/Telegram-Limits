@@ -113,9 +113,9 @@
         "text": "ultimi 1,000,000 messaggi"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Numero dei messaggi fissati",
         "hint": "",
-        "text": "unlimited"
+        "text": "illimitato"
       },
       "participants_to_see_stats": {
         "name": "Numero di partecipanti per vedere le statistiche",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Numero di iscritti per vedere le statistiche",
         "hint": "",
-        "text": "at least 50"
+        "text": "almeno 50"
       },
       "username_reservation": {
         "name": "Proprietà di un username",

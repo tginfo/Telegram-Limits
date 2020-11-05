@@ -96,6 +96,10 @@
                 "icon": "visibility"
             },
             {
+                "id": "pinned_messages_number",
+                "icon": "push_pin"
+            },
+            {
                 "id": "participants_to_see_stats",
                 "icon": "poll"
             },

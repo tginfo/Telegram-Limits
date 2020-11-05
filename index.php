@@ -30,7 +30,7 @@ foreach ($data as $section) {
     foreach ($section["items"] as $item) {
         $main_qa[] = [
             "@type" => "Question",
-            "name" => $section["name"] . ": " . $item["name"] . (empty($item["hint"]) ? "" : " {$item["hint"]}"),
+            "name" => $section["name"] . ": " . $item["name"] . (!isset($item["hint"]) || empty($item["hint"]) ? "" : " {$item["hint"]}"),
             "acceptedAnswer" => [
                 "@type" => "Answer",
                 "text" => mb_ucfirst($item["text"], "utf8"),

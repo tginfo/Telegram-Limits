@@ -114,6 +114,7 @@
    },
    "pinned_messages_number": {
     "name": "Pinned messages number",
+    "hint": "",
     "text": "unlimited"
    },
    "participants_to_see_stats": {

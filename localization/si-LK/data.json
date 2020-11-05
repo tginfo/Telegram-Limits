@@ -112,6 +112,11 @@
         "hint": "(සමූහයක් තුළදී)",
         "text": "අවසන් පණිවිඩ 1,000,000"
       },
+      "pinned_messages_number": {
+        "name": "Pinned messages number",
+        "hint": "",
+        "text": "unlimited"
+      },
       "participants_to_see_stats": {
         "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය සාමාජිකයින් ගණන",
         "hint": "",
@@ -175,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය ග්‍රාහකයින් ගණන",
         "hint": "",
-        "text": "අවම වශයෙන් 500 ක්"
+        "text": "at least 50"
       },
       "username_reservation": {
         "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",

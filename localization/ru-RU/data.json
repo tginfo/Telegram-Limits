@@ -112,6 +112,11 @@
         "hint": "в группе",
         "text": "1 000 000 последних сообщений"
       },
+      "pinned_messages_number": {
+        "name": "Pinned messages number",
+        "hint": "",
+        "text": "unlimited"
+      },
       "participants_to_see_stats": {
         "name": "Количество подписчиков для открытия статистики",
         "hint": "",
@@ -175,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Количество подписчиков для открытия статистики",
         "hint": "",
-        "text": "500 и более"
+        "text": "at least 50"
       },
       "username_reservation": {
         "name": "Резервирование @username после смены",

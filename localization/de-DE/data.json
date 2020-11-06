@@ -113,9 +113,9 @@
         "text": "1.000.000 letzte Nachrichten"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Anzahl angehefteter Nachrichten",
         "hint": "",
-        "text": "unlimited"
+        "text": "unbegrenzt"
       },
       "participants_to_see_stats": {
         "name": "Anzahl der Gruppenmitglieder zur Anzeige der Statistiken",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Anzahl der Abonnenten zur Anzeige der Statistiken",
         "hint": "",
-        "text": "at least 50"
+        "text": "mindestens 50"
       },
       "username_reservation": {
         "name": "Reservierung des Nutzernamens bei Änderung",

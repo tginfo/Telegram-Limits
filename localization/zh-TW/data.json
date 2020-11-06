@@ -28,34 +28,34 @@
         "text": "1、3、6 與 12 個月（預設為 6 個月）"
       },
       "spam_ban": {
-        "name": "Spam ban",
+        "name": "違反防垃圾規則封鎖",
         "hint": "",
-        "text": "3 days or more"
+        "text": "3 天或以上"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
-        "hint": "you can be member of",
-        "text": "up to 500 (including ones you own)"
+        "name": "頻道與超級群組人數",
+        "hint": "頻道與群組數量",
+        "text": "500 個（包含自己建立的）"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "保存 GIF 數量",
         "hint": "",
-        "text": "up to 200"
+        "text": "200 個"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "動態頭貼長度",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "10 秒"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "建立群組與頻道數量",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "每天 50 個"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "登入帳號數量",
+        "hint": "（官方客戶端）",
+        "text": "3 個"
       }
     }
   },

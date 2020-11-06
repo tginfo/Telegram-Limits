@@ -1,6 +1,6 @@
 {
   "accounts": {
-    "name": "حساب ها",
+    "name": "حساب‌ها",
     "items": {
       "username": {
         "name": "نام کاربری",
@@ -54,31 +54,31 @@
       },
       "accounts_number": {
         "name": "تعداد حساب ها",
-        "hint": "( برنامه های رسمی)",
+        "hint": "(برنامه‌های رسمی)",
         "text": "تا 3 حساب"
       }
     }
   },
   "chats": {
-    "name": "چت ها و گروه ها",
+    "name": "گفتگو ها و گروه‌ها",
     "items": {
       "participants_number": {
-        "name": "شرکت کنندگان",
+        "name": "شرکت‌کنندگان",
         "hint": "(محدودیت می‌تواند افزایش پیدا کند)",
-        "text": "تا 200.000 نفر"
+        "text": "تا ۲۰۰,۰۰۰"
       },
       "admins_number": {
         "name": "تعداد مدیر ها",
-        "hint": "در گروه ها",
+        "hint": "در گروه‌ها",
         "text": "تا 50 نفر"
       },
       "bots_amount": {
-        "name": "تعداد ربات ها",
-        "hint": "در گروه ها",
+        "name": "تعداد ربات‌ها",
+        "hint": "در گروه‌ها",
         "text": "تا 20 ربات"
       },
       "pinned_number": {
-        "name": "چت های سنجاق شده در لیست اصلی",
+        "name": "گفتگو های سنجاق شده در لیست اصلی",
         "hint": "",
         "text": "تا 5 چت یا کانال + 5 گفتگوی محرمانه"
       },
@@ -113,9 +113,9 @@
         "text": "1.000.000 پیامِ آخر"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "تعداد پیام‌های سنجاق شده",
         "hint": "",
-        "text": "unlimited"
+        "text": "نامحدود"
       },
       "participants_to_see_stats": {
         "name": "تعداد شرکت کنندگان برای دیدن آمار",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "تعداد شرکت کنندگان برای دیدن آمار",
         "hint": "",
-        "text": "at least 50"
+        "text": "حداقل ۵۰"
       },
       "username_reservation": {
         "name": "رزرو تغییر نام کاربری",

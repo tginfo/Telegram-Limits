@@ -112,6 +112,11 @@
         "hint": "en grupos",
         "text": "últimos 1 000 000 mensajes"
       },
+      "pinned_messages_number": {
+        "name": "Pinned messages number",
+        "hint": "",
+        "text": "unlimited"
+      },
       "participants_to_see_stats": {
         "name": "Número de participantes para ver las estadísticas",
         "hint": "",
@@ -175,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Número de suscriptores para ver las estadísticas",
         "hint": "",
-        "text": "al menos 500"
+        "text": "at least 50"
       },
       "username_reservation": {
         "name": "Reserva de cambio de nombre de usuario",

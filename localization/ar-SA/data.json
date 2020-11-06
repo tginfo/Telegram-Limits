@@ -112,6 +112,11 @@
         "hint": "في المجموعات",
         "text": "١،٠٠٠،٠٠٠ من أحدث الرسائل"
       },
+      "pinned_messages_number": {
+        "name": "Pinned messages number",
+        "hint": "",
+        "text": "unlimited"
+      },
       "participants_to_see_stats": {
         "name": "عدد الأعضاء المطلوبة لرؤية الإحصائيات",
         "hint": "",
@@ -175,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "عدد المشتركين المطلوبة لرؤية الإحصائيات",
         "hint": "",
-        "text": "الأدنى ٥٠٠ مشترك"
+        "text": "at least 50"
       },
       "username_reservation": {
         "name": "مهلة حجز اسم المستخدم",

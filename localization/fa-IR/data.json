@@ -112,6 +112,11 @@
         "hint": "در گروه",
         "text": "1.000.000 پیامِ آخر"
       },
+      "pinned_messages_number": {
+        "name": "Pinned messages number",
+        "hint": "",
+        "text": "unlimited"
+      },
       "participants_to_see_stats": {
         "name": "تعداد شرکت کنندگان برای دیدن آمار",
         "hint": "",
@@ -175,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "تعداد شرکت کنندگان برای دیدن آمار",
         "hint": "",
-        "text": "حداقل 500 نفر"
+        "text": "at least 50"
       },
       "username_reservation": {
         "name": "رزرو تغییر نام کاربری",

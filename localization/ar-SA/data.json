@@ -113,9 +113,9 @@
         "text": "١،٠٠٠،٠٠٠ من أحدث الرسائل"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "حد الرسائل المثبتة",
         "hint": "",
-        "text": "unlimited"
+        "text": "غير محدود"
       },
       "participants_to_see_stats": {
         "name": "عدد الأعضاء المطلوبة لرؤية الإحصائيات",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "عدد المشتركين المطلوبة لرؤية الإحصائيات",
         "hint": "",
-        "text": "at least 50"
+        "text": "الأدنى ٥٠"
       },
       "username_reservation": {
         "name": "مهلة حجز اسم المستخدم",

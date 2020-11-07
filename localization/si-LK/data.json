@@ -113,9 +113,9 @@
         "text": "අවසන් පණිවිඩ 1,000,000"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "ඇමුණූ පණිවිඩ ගණන",
         "hint": "",
-        "text": "unlimited"
+        "text": "අසීමිතයි"
       },
       "participants_to_see_stats": {
         "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය සාමාජිකයින් ගණන",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය ග්‍රාහකයින් ගණන",
         "hint": "",
-        "text": "at least 50"
+        "text": "අවම වශයෙන් 50 ක්"
       },
       "username_reservation": {
         "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
@@ -319,28 +319,28 @@
       },
       "messaging_frequency": {
         "name": "පණිවිඩ ප්‍රමාණය",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(BotSupport හරහා වැඩිකළ හැකියි)",
         "text": "තත්පරයට පණිවිඩ 30 ක් දක්වා; පොදු සංවාද හා නාලිකා තුළදී විනාඩියට 20 ක් දක්වා"
       },
       "api_requests_frequency": {
         "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(BotSupport හරහා වැඩිකළ හැකියි)",
         "text": "up to 30 requests per second"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "විධාන ගණන",
+        "hint": "(BotFather තුළදී)",
+        "text": "විධාන 0 සිට 100 ක් දක්වා"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "විධානයක දිග",
+        "hint": "(BotFather තුළදී)",
+        "text": "අක්ෂර 1 සිට 32 ක් දක්වා"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "විධාන විස්තරයේ දිග",
+        "hint": "(BotFather තුළදී)",
+        "text": "අක්ෂර 2 සිට 256 ක් දක්වා"
       }
     }
   },

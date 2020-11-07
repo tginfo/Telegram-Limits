@@ -113,9 +113,9 @@
         "text": "1,000,000 son mesaj"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Sabit mesaj sayısı",
         "hint": "",
-        "text": "unlimited"
+        "text": "sınırsız"
       },
       "participants_to_see_stats": {
         "name": "İstatistikleri görmek için katılımcı sayısı",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "İstatistikleri görmek için abone sayısı",
         "hint": "",
-        "text": "at least 50"
+        "text": "en az 50"
       },
       "username_reservation": {
         "name": "Kullanıcı adı değişim rezervasyonu",

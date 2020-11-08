@@ -325,7 +325,7 @@
       "api_requests_frequency": {
         "name": "API requests frequency",
         "hint": "(BotSupport හරහා වැඩිකළ හැකියි)",
-        "text": "up to 30 requests per second"
+        "text": "තත්පරයට ඉල්ලීම් 30 ක් දක්වා"
       },
       "bot_commands_count": {
         "name": "විධාන ගණන",

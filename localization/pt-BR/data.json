@@ -113,9 +113,9 @@
         "text": "últimas 1.000.000 mensagens"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Número de mensagens fixadas",
         "hint": "",
-        "text": "unlimited"
+        "text": "ilimitado"
       },
       "participants_to_see_stats": {
         "name": "Número de membros para ver as estatísticas",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Número de inscritos para ver as estatísticas",
         "hint": "",
-        "text": "at least 50"
+        "text": "ao menos 50"
       },
       "username_reservation": {
         "name": "Reserva de alteração de nome",
@@ -213,7 +213,7 @@
         "text": "até 1 minuto"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "Imagens e vídeos em uma única mensagem",
         "hint": "(álbum)",
         "text": "até 10 itens"
       },
@@ -313,34 +313,34 @@
         "text": "até 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "Entidades de formatação",
+        "hint": "(negrito, cursivo, etc.)",
+        "text": "até 100 itens"
       },
       "messaging_frequency": {
         "name": "Frequência de mensagens",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(pode ser aumentado pelo BotSupport)",
         "text": "até 30 mensagens por segundo; 20 por minuto para chats e canais públicos"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "Frequência de requisições da API",
+        "hint": "(pode ser aumentado pelo BotSupport)",
+        "text": "até 30 requisições por segundo"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Quantidade de comandos",
+        "hint": "(no BotFather)",
+        "text": "0 a 100 comandos"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Comprimento do comando",
+        "hint": "(no BotFather)",
+        "text": "de 1 a 32 caracteres"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "Tamanho da descrição do comando",
+        "hint": "(no BotFather)",
+        "text": "de 2 a 256 caracteres"
       }
     }
   },

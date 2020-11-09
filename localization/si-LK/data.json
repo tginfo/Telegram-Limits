@@ -4,7 +4,7 @@
     "items": {
       "username": {
         "name": "පරිශීලක නාමය",
-        "hint": "(උදා. @cameraman)",
+        "hint": "(උදා. @thisu)",
         "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
       },
       "bio": {

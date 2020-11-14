@@ -115,7 +115,7 @@
       "pinned_messages_number": {
         "name": "Pinned messages number",
         "hint": "",
-        "text": "unlimited"
+        "text": "ilimitado"
       },
       "participants_to_see_stats": {
         "name": "Número de participantes para ver las estadísticas",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Número de suscriptores para ver las estadísticas",
         "hint": "",
-        "text": "at least 50"
+        "text": "al menos 50"
       },
       "username_reservation": {
         "name": "Reserva de cambio de nombre de usuario",
@@ -319,12 +319,12 @@
       },
       "messaging_frequency": {
         "name": "Frecuencia de mensajes",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(puede ser incrementado por Bot de Soporte)",
         "text": "hasta 30 mensajes por segundo; 20 por minuto para chats públicos y canales"
       },
       "api_requests_frequency": {
         "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(puede ser incrementado por Bot de Soporte)",
         "text": "up to 30 requests per second"
       },
       "bot_commands_count": {

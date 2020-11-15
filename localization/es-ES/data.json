@@ -113,9 +113,9 @@
         "text": "últimos 1 000 000 mensajes"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Número de mensajes fijados",
         "hint": "",
-        "text": "unlimited"
+        "text": "ilimitado"
       },
       "participants_to_see_stats": {
         "name": "Número de participantes para ver las estadísticas",
@@ -180,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Número de suscriptores para ver las estadísticas",
         "hint": "",
-        "text": "at least 50"
+        "text": "al menos 50"
       },
       "username_reservation": {
         "name": "Reserva de cambio de nombre de usuario",
@@ -319,28 +319,28 @@
       },
       "messaging_frequency": {
         "name": "Frecuencia de mensajes",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(puede ser incrementado por Bot de Soporte)",
         "text": "hasta 30 mensajes por segundo; 20 por minuto para chats públicos y canales"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "Frecuencia de solicitudes de API",
+        "hint": "(puede ser incrementado por Bot de Soporte)",
+        "text": "hasta 30 solicitudes por segundo"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Cantidad de comandos",
+        "hint": "(en BotFather)",
+        "text": "de 0 a 100 comandos"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Longitud del comando",
+        "hint": "(en BotFather)",
+        "text": "de 1 a 32 caracteres"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "Longitud de la descripción del comando",
+        "hint": "(en BotFather)",
+        "text": "de 2 a 256 caracteres"
       }
     }
   },

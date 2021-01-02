@@ -112,6 +112,11 @@
         "hint": "dalam grup",
         "text": "1.000.000 pesan terakhir"
       },
+      "pinned_messages_number": {
+        "name": "Jumlah pesan tersemat",
+        "hint": "",
+        "text": "tak terbatas"
+      },
       "participants_to_see_stats": {
         "name": "Jumlah partisipan untuk melihat statistik",
         "hint": "",
@@ -175,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Jumlah pelanggan untuk melihat statistik",
         "hint": "",
-        "text": "setidaknya 500"
+        "text": "setidaknya 50"
       },
       "username_reservation": {
         "name": "Reservasi perubahan username",

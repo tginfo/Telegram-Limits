@@ -112,6 +112,11 @@
         "hint": "w grupie",
         "text": "1 000 000 ostatnich wiadomości"
       },
+      "pinned_messages_number": {
+        "name": "Liczba przypiętych wiadomości",
+        "hint": "",
+        "text": "bez limitu"
+      },
       "participants_to_see_stats": {
         "name": "Liczba subskrybentów, aby zobaczyć statystyki",
         "hint": "",
@@ -175,7 +180,7 @@
       "followers_to_see_stats": {
         "name": "Liczba subskrybentów, aby zobaczyć statystyki",
         "hint": "",
-        "text": "co najmniej 500"
+        "text": "co najmniej 50"
       },
       "username_reservation": {
         "name": "Rezerwacja @nazwy użytkownika po zmianie",

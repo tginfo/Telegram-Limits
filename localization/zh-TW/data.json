@@ -129,7 +129,8 @@
       },
       "participants_for_group_stickers": {
         "name": "Group-promoted stickers",
-        "hint": "groups with 100+ participants"
+        "hint": "",
+        "text": "groups with 100+ participants"
       }
     }
   },

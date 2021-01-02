@@ -50,7 +50,7 @@
       "groups_and_channels_creation": {
         "name": "Створення груп та каналів",
         "hint": "",
-        "text": "до 50 за день"
+        "text": "до 50 за добу"
       },
       "accounts_number": {
         "name": "Кількість акаунтів",
@@ -105,32 +105,32 @@
       "mentions_amount": {
         "name": "Кількість згадувань",
         "hint": "в одному повідомленні",
-        "text": "up to 50, else notifications won't be sent"
+        "text": "до 50, інші повідомлення не будуть надіслані"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Кількість видимих повідомлень",
+        "hint": "в групі",
+        "text": "1,000,000 останніх повідомлень"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Кількість закріплених повідомлень",
         "hint": "",
-        "text": "unlimited"
+        "text": "необмежено"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Кількість підписників задля розблокування статистики",
         "hint": "",
-        "text": "at least 500"
+        "text": "щонайменше 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Бронювання @username після зміни",
+        "hint": "(час до того, як @username стане доступним для всіх, а не лише для початкового власника)",
+        "text": "близько 15-30 хвилин"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "Наліпки групи",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "групи з 100+ учасниками"
       }
     }
   },
@@ -293,12 +293,12 @@
         "text": "до 512 символів"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Ліміт відвантаження файлу",
         "hint": "(BotAPI)",
         "text": "до 50 Мб"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Ліміт завантаження файлу",
         "hint": "(BotAPI)",
         "text": "до 20 Мб"
       },
@@ -313,14 +313,14 @@
         "text": "до 100 елементів"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Дані форматування повідомлення",
         "hint": "",
         "text": "до 10 Кб"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "Форматування сутностей",
+        "hint": "(жирний, курсив тощо)",
+        "text": "до 100 елементів"
       },
       "messaging_frequency": {
         "name": "Частота повідомлень",
@@ -333,18 +333,18 @@
         "text": "до 30 запитів в секунду"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Кількість команд",
+        "hint": "(у BotFather)",
+        "text": "від 0 до 100 команд"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Довжина команди",
+        "hint": "(у BotFather)",
+        "text": "від 1 до 32 символів"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
+        "name": "Довжина опису команди",
+        "hint": "(у BotFather)",
         "text": "від 2 до 256 символів"
       }
     }

@@ -126,6 +126,10 @@
         "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
         "hint": "(පරිශීලක නාමයක් ඉවත්කිරීමේදී මෙම කාලයට පසුව එය ඕනෑම අයෙක්ට ලබාගත හැකිවනු ඇත)",
         "text": "විනාඩි 15-30 පමණ"
+      },
+      "participants_for_group_stickers": {
+        "name": "Group-promoted stickers",
+        "hint": "groups with 100+ participants"
       }
     }
   },

@@ -130,7 +130,7 @@
       "participants_for_group_stickers": {
         "name": "Стикеры группы",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "группы с не менее 100 участников"
       }
     }
   },

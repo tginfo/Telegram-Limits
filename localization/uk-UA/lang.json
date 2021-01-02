@@ -5,10 +5,10 @@
     "study": "| Дослідження",
     "big_title": "Обмеження Telegram",
     "article_name": "Чому існують обмеження",
-    "article_p1": "Just like any other service, Telegram uses limits to ensure that users follow Fair Usage Policy and to keep the service running.",
-    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
-    "loading": "Loading...",
-    "homepage": "Homepage",
-    "language": "Language",
-    "search": "Search"
+    "article_p1": "Так само, як і будь-який інший сервіс, Telegram використовує обмеження для того, щоб користувачі дотримувались політики чесного використання.",
+    "article_p2": "Ця таблиця перелічує нині відомі обмеження Telegram і підтримує її оновлення.",
+    "loading": "Завантаження...",
+    "homepage": "На головну",
+    "language": "Мова",
+    "search": "Пошук"
 }

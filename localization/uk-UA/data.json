@@ -135,90 +135,90 @@
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Канали",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "Кількість публічних імен",
+        "hint": "для одного акаунту",
+        "text": "до 10 (враховуючи групи)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "Довжина @username",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "від 5 до 32 символів"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Назва та опис каналу",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "до 255 символів"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Редагування постів",
         "hint": "",
-        "text": "unlimited"
+        "text": "необмежено"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Кількість підписників каналу",
         "hint": "",
-        "text": "unlimited"
+        "text": "необмежено"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Видимі підписники",
+        "hint": "для адміністратора каналу",
+        "text": "200 осіб"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Видалення каналу",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "канали з більш ніж 1К підписників можуть бути видалені тільки за допомогою підтримки Telegram"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "Доступ до приватного каналу",
+        "hint": "без підписки",
+        "text": "до 5 хвилин раз на добу"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Запрошення користувачів",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "до 200 осіб"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Кількість підписників задля розблокування статистики",
         "hint": "",
-        "text": "at least 50"
+        "text": "щонайменше 50"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Бронювання @username після зміни",
+        "hint": "(час до того, як @username стане доступним для всіх, а не лише для початкового власника)",
+        "text": "близько 15-30 хвилин"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Повідомлення",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Довжина одного повідомлення",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "до 4,096 символів"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Опис у медіа",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "до 1,024 символів"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Обмеження розміру файлу",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "до 2.0 Гб"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Тривалість відеоповідомлення",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "до 1 хвилини"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "Світлини та відео в одному повідомленні",
         "hint": "(альбом)",
         "text": "до 10 файлів"
       },
@@ -345,7 +345,7 @@
       "bot_command_description_length": {
         "name": "Command description length",
         "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "text": "від 2 до 256 символів"
       }
     }
   },
@@ -385,22 +385,22 @@
       "sticker_size": {
         "name": "Розмір наліпки",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "одна сторона дорівнює 512px, інша сторона ‒ 512px чи менше; строго 512х512 для анімованих"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Тривалість анімації",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "до 3 секунд"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Розмір файлу наліпки",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "до 512 Кб для статичних, до 64 Кб для анімованих"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 або 60"
       }
     }
   },
@@ -408,24 +408,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Кількість акаунтів",
+        "hint": "в боті @telegraph",
+        "text": "до 5 штук"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Розмір статті",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "до 64 KiB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Інше",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Властивості відеоаватару",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, до 2 Мб"
       }
     }
   }

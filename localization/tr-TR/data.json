@@ -126,6 +126,10 @@
         "name": "Kullanıcı adı değişim rezervasyonu",
         "hint": "(kullanıcı adının herkes için kullanılabilir olmadan önceki zaman, sadece orijinal sahibine değil)",
         "text": "15-30 dakika civarı"
+      },
+      "participants_for_group_stickers": {
+        "name": "Group-promoted stickers",
+        "hint": "groups with 100+ participants"
       }
     }
   },

@@ -128,8 +128,8 @@
         "text": "около 15-30 минут"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
-        "hint": "groups with 100+ participants"
+        "name": "Стикеры группы",
+        "hint": "группы с не менее 100 участников"
       }
     }
   },

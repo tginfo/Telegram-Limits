@@ -126,6 +126,10 @@
         "name": "Резервирование @username после смены",
         "hint": "(время, на которое имя пользователя доступно только для его бывшего владельца)",
         "text": "около 15-30 минут"
+      },
+      "participants_for_group_stickers": {
+        "name": "Group-promoted stickers",
+        "hint": "groups with 100+ participants"
       }
     }
   },

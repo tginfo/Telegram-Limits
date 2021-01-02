@@ -106,6 +106,10 @@
             {
                 "id": "username_reservation",
                 "icon": "timelapse"
+            },
+            {
+                "id": "participants_for_group_stickers",
+                "icon": "sticky_note_2"
             }
         ]
     },

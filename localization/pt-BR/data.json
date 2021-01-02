@@ -126,6 +126,10 @@
         "name": "Reserva de alteração de nome de usuário",
         "hint": "(tempo antes do nome de usuário estar disponível para todos, não apenas para o dono original)",
         "text": "cerca de 15-30 minutos"
+      },
+      "participants_for_group_stickers": {
+        "name": "Group-promoted stickers",
+        "hint": "groups with 100+ participants"
       }
     }
   },

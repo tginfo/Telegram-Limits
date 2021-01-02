@@ -126,6 +126,10 @@
         "name": "Reservasi perubahan username",
         "hint": "(waktu sebelum username akan tersedia untuk semua orang, bukan hanya pemilik asli)",
         "text": "sekitar 15-30 menit"
+      },
+      "participants_for_group_stickers": {
+        "name": "Group-promoted stickers",
+        "hint": "groups with 100+ participants"
       }
     }
   },

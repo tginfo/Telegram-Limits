@@ -2,6 +2,7 @@
     "": "en",
     "en": ["English"],
     "ru-RU": ["Русский"],
+    "uk-UA": ["Українська"],
     "it-IT": ["Italian"],
     "de-DE": ["Deutsch"],
     "es-ES": ["Español"],
@@ -12,6 +13,5 @@
     "ar-SA": ["العربية", {"isRtl": true}],
     "fa-IR": ["فارسی", {"isRtl": true}],
     "si-LK": ["සිංහල"],
-    "uk-UA": "ru",
     "be-BY": "ru"
 }

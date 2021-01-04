@@ -130,7 +130,7 @@
       "participants_for_group_stickers": {
         "name": "Group-promoted stickers",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "සාමාජිකයින් 100+ සහිත සමූහ"
       }
     }
   },
@@ -328,7 +328,7 @@
         "text": "තත්පරයට පණිවිඩ 30 ක් දක්වා; පොදු සංවාද හා නාලිකා තුළදී විනාඩියට 20 ක් දක්වා"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
+        "name": "API ඉල්ලීම් ප්‍රමාණය",
         "hint": "(BotSupport හරහා වැඩිකළ හැකියි)",
         "text": "තත්පරයට ඉල්ලීම් 30 ක් දක්වා"
       },

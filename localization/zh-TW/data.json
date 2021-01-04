@@ -60,37 +60,37 @@
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "對話與群組",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "name": "群組人數",
+        "hint": "（可提高限制）",
+        "text": "高達 200,000 人"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "管理員人數",
+        "hint": "在群組中",
+        "text": "高達 50 位"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "機器人數量",
+        "hint": "在群組中",
+        "text": "高達 20 個"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "主選單置頂對話清單",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "最多 5 個對話或頻道 + 5 個私密對話"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "群組名稱及描述",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "最多 255 個字元"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "編輯訊息",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "在訊息發出後 48 小時內；已儲存對話以及具有置頂權限的管理員不在此限"
       },
       "media_self_destruction": {
         "name": "Photo and video self-destruction",
@@ -155,7 +155,7 @@
       "editing": {
         "name": "Posts editing",
         "hint": "",
-        "text": "unlimited"
+        "text": "無限制"
       },
       "subscribers": {
         "name": "Channel subscribers number",

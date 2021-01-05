@@ -1,0 +1,14 @@
+{
+    "title": "המגבלות של טלגרם - Telegram Info",
+    "description": "Always up-to-date Telegram limits in 2020. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
+    "description_short": "Always up-to-date Telegram limits",
+    "study": "| Study",
+    "big_title": "המגבלות של טלגרם",
+    "article_name": "Why limitations exist",
+    "article_p1": "Just like any other service, Telegram uses limits to ensure that users follow Fair Usage Policy and to keep the service running.",
+    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
+    "loading": "טוען...",
+    "homepage": "דף הבית",
+    "language": "שפה",
+    "search": "Search"
+}

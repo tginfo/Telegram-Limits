@@ -318,8 +318,8 @@
         "text": "up to 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
+        "name": "ڕازاندنەوە بەردەستەکان",
+        "hint": "(تۆخ، نووسین بەسەر یەکەوە هتد)",
         "text": "تا 100 دانە"
       },
       "messaging_frequency": {
@@ -385,17 +385,17 @@
       "sticker_size": {
         "name": "قەبارەی لەزگە",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "لایەک 512 پیکسڵ بێت، لایەکەی تر 512 یان کەمتر؛ بۆ لەزگە جووڵاوەکانیش هەر 512 بە 512 پیکسڵ"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "ماوەی لەزگەی جووڵاو",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "تا 3 چرکە"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "قەبارەی فایلی لەزگە",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "تا 512 کیلۆبایت بۆ وەستاو، و 64 بۆ جووڵاو"
       },
       "fps": {
         "name": "ئێف پی ئێس",

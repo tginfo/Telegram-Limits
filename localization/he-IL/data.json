@@ -5,7 +5,7 @@
       "username": {
         "name": "שם משתמש",
         "hint": "(דוגמה @cameraman)",
-        "text": "5 to 32 characters"
+        "text": "מ 5 עד ל 32 תווים"
       },
       "bio": {
         "name": "תיאור המשתמש",
@@ -13,42 +13,42 @@
         "text": "מוגבל ל70 תווים"
       },
       "name_length": {
-        "name": "First Name length",
+        "name": "אורך השם הפרטי",
         "hint": "",
-        "text": "from 1 to 64 characters"
+        "text": "מ 1 עד ל 64 תווים"
       },
       "last_name_length": {
-        "name": "Last Name length",
+        "name": "אורך שם המשפחה",
         "hint": "",
-        "text": "from 0 to 64 characters"
+        "text": "מ 0 עד ל 64 תווים"
       },
       "self_destruction": {
-        "name": "Self-destruction period",
-        "hint": "if no activity",
-        "text": "1, 3, 6 and 12 months (6 by default)"
+        "name": "תקופת השמדה עצמית",
+        "hint": "אם אין פעילות בחשבון",
+        "text": "1, 3, 6 ו 12 חודשים (6 כברירת מחדל)"
       },
       "spam_ban": {
-        "name": "Spam ban",
+        "name": "הגבלת ספאם",
         "hint": "",
         "text": "3 ימים או יותר"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
-        "hint": "you can be member of",
-        "text": "up to 500 (including ones you own)"
+        "name": "מספר הערוצים והסופר קבוצות",
+        "hint": "אתה יכול להיות חבר ב",
+        "text": "עד 500 (כולל מה שאתה יצרת)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "מספר הגיפים השמורים",
         "hint": "",
         "text": "עד 200"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "אורך של וידאו בפרופיל",
         "hint": "",
         "text": "עד 10 שניות"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "יצירת ערוצים וקבוצות",
         "hint": "",
         "text": "עד 50 ביום"
       },
@@ -60,11 +60,11 @@
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "צ'אטים וקבוצות",
     "items": {
       "participants_number": {
         "name": "מספר החברים",
-        "hint": "(limit can be raised)",
+        "hint": "(ניתן להעלות את המגבלה)",
         "text": "עד 200,000"
       },
       "admins_number": {
@@ -78,59 +78,59 @@
         "text": "עד 20"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "מספר הצ'אטים הנעוצים ברשימה הראשית (לא תיקיות שיצרת)",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "עד 5 צ'אטים או ערוצים + 5 צ'אטים סודיים"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "שם ותיאור של קבוצה",
         "hint": "",
         "text": "עד 255 תווים"
       },
       "editing": {
         "name": "עריכת הודעות",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "עד 48 אחרי השליחה; לא מוגבל בהודעות השמורות ולמנהלים עם הרשאה לנעיצת הודעות"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "השמדה עצמית של תמונות וסרטונים",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 עד 60 שניות"
       },
       "recent_actions": {
         "name": "פעולות אחרונות",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "hint": "(מצטרפים, פוסטים, וכאלה.)",
+        "text": "מראה את הפעולות האחרונות של היומיים האחרונים"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "name": "מספר התיוגים",
+        "hint": "בהודעה אחת",
+        "text": "עד 50, אחרת ההודעה על התיוג לא תוצג"
       },
       "visible_messages": {
-        "name": "Visible messages number",
+        "name": "מספר ההודעות שאפשר לראות",
         "hint": "בקבוצות",
-        "text": "1,000,000 last messages"
+        "text": "1,000,000 ההודעות האחרונות"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "מספר ההודעות הנעוצות",
         "hint": "",
         "text": "ללא הגבלה"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "מספר החברים בשביל לראות סטטיסטיקה",
         "hint": "",
-        "text": "at least 500"
+        "text": "500 לפחות"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "זמן שינוי שם משתמש לקבוצות",
+        "hint": "(זמן לפני ששם המשתמש יהיה זמין לכולם, ולא רק לבעלים המקורי)",
+        "text": "15 עד 30 דקות"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "סטיקרים קבוצתיים",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "לקבוצות עם 100 או יותר חברים"
       }
     }
   },
@@ -138,44 +138,44 @@
     "name": "ערוצים",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "מספר שמות המשתמשים",
+        "hint": "לחשבון אחד",
+        "text": "עד 10 (כולל קבוצות)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "אורך של השם משתמש (@username)",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "מ 5 עד ל 32 תווים"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "שם ותיאור של ערוץ",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "עד 255 תווים"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "עריכת פוסטים",
         "hint": "",
         "text": "ללא הגבלה"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "מספר החברים בערוץ",
         "hint": "",
         "text": "ללא הגבלה"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "מספר הרשומים הגלויים",
+        "hint": "למנהלי ערוצים",
+        "text": "200 אנשים"
       },
       "channel_deletion": {
         "name": "מחיקת ערוצים",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "ערוצים עם יותר מ 1K יכול להימחק רק עם בקשה מהתמיכה של טלגרם"
       },
       "private_channel_access": {
         "name": "גישה לערוצים פרטיים",
         "hint": "מבלי להיות חבר בערוץ",
-        "text": "up to 5 minutes once a day"
+        "text": "עד ל5 דקות ביום"
       },
       "invintations": {
         "name": "הוספת משתמשים",
@@ -183,14 +183,14 @@
         "text": "עד ל 200 אנשים"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "מספר החברים בשביל לראות את הסטטיסטיקות",
         "hint": "",
-        "text": "at least 50"
+        "text": "50 לפחות"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "זמן שינוי שם משתמש לערוצים",
+        "hint": "(זמן לפני ששם המשתמש יהיה זמין לכולם, ולא רק לבעלים המקורי)",
+        "text": "15 עד 30 דקות"
       }
     }
   },
@@ -198,12 +198,12 @@
     "name": "הודעות",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "אורך הודעה אחת",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "עד 4,096 תווים"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "כתוביות על מדיה",
         "hint": "",
         "text": "עד 1,024 תווים"
       },
@@ -218,12 +218,12 @@
         "text": "עד 1 דקות"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "תמונות וסרטונים בהודעה אחת",
         "hint": "(אלבום)",
         "text": "עד 10"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "מספר ההודעות המתוזמנות",
         "hint": "",
         "text": "עד 100"
       },
@@ -250,22 +250,22 @@
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "האנשים הקרובים",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "טווח בשביל נראות למשתמשים אחרים",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "עד 12 קילומטרים"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "כמות האנשים שאפשר לראות",
         "hint": "",
         "text": "עד 100 אנשים"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "מספר הצ'אטים המקומיים שאפשר לראות",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "עד ל 10 הקרובים ביותר"
       }
     }
   },
@@ -293,17 +293,17 @@
         "text": "עד 512 תווים"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "מגבלה על העלאת קבצים",
         "hint": "(Bot Api)",
         "text": "עד 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "מגבלה על הורדת קבצים",
         "hint": "(Bot Api)",
         "text": "עד 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "העברת הודעות",
         "hint": "",
         "text": "עד ל 2,000 בשעה"
       },
@@ -313,24 +313,24 @@
         "text": "עד 100"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "גודל עיצוב הטקסט",
         "hint": "",
         "text": "עד 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
+        "name": "עיצוב הטקסט",
+        "hint": "(מודגש, מעוצב וכאלה.)",
         "text": "עד 100"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "תדירות ההודעות",
+        "hint": "(ניתן להעלות את המגבלה על ידי BotSupport)",
+        "text": "עד 30 הודעות לשנייה; 20 לדקה לצ'אטים ציבוריים וערוצים"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "תדירות הבקשות בBOT API",
+        "hint": "(ניתן להעלות את המגבלה על ידי BotSupport)",
+        "text": "עד ל 30 בקשות לשנייה"
       },
       "bot_commands_count": {
         "name": "כמות פקודות",
@@ -353,14 +353,14 @@
     "name": "חיפוש",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "תוצאות חיפוש גלובליות",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "עד 10 ערוצים וסופר קבוצות; עד 3 באנדרואיד"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
+        "name": "אורך שאילתה מינימלי",
         "hint": "לחיפוש כללי",
-        "text": "at least 4 characters"
+        "text": "4 תווים לפחות"
       }
     }
   },
@@ -368,24 +368,24 @@
     "name": "סטיקרים",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "מספר החבילות שאפשר להוסיף",
         "hint": "",
         "text": "עד 200"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "מספר הסטיקרים המועדפים",
         "hint": "",
         "text": "עד 5"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "סטיקרים בחבילה",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "עד ל 120 רגילים, ו 50 למונפשים"
       },
       "sticker_size": {
         "name": "גודל הסטיקר",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "צד אחד 512px, צד שני 512px או פחות; ורק 512x512 לסטיקרים מונפשים"
       },
       "animation_duration": {
         "name": "משך הזמן של האנימציה בסטיקר",
@@ -395,12 +395,12 @@
       "file_size": {
         "name": "גודל הקובץ של הסטיקר",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "עד ל 512 KB רגילים, ו 64 KB למונפשים"
       },
       "fps": {
         "name": "פריימים לשנייה",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 או 60"
       }
     }
   },
@@ -413,7 +413,7 @@
         "text": "עד 5"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "גודל הטקסט עבור מאמר",
         "hint": "",
         "text": "עד 64 KiB"
       }
@@ -423,9 +423,9 @@
     "name": "שונות",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "וידאו בפרופיל (במקום תמונה)",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, עד ל 2 MB"
       }
     }
   }

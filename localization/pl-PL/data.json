@@ -348,7 +348,7 @@
         "text": "od 2 do 256 znaków"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Bot / początkowa długość metadanych",
         "hint": "",
         "text": "do 64 znaków"
       }

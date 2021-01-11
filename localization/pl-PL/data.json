@@ -346,6 +346,11 @@
         "name": "Długość opisu polecenia",
         "hint": "(w BotFather)",
         "text": "od 2 do 256 znaków"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

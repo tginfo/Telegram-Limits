@@ -294,6 +294,10 @@
             {
                 "id": "bot_command_description_length",
                 "icon": "import_contacts"
+            },
+            {
+                "id": "start_payload_size",
+                "icon": "room_preferences"
             }
         ]
     },

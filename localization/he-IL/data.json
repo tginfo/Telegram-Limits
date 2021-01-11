@@ -346,6 +346,11 @@
         "name": "אורך התיאור של פקודה",
         "hint": "(ב BotFather)",
         "text": "מ 2 עד ל 256 תווים"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

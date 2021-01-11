@@ -123,9 +123,9 @@
         "text": "at least 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
+        "name": "使用者名稱保留時間",
         "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "text": "約 15 到 30 分鐘"
       },
       "participants_for_group_stickers": {
         "name": "Group-promoted stickers",

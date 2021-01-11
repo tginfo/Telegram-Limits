@@ -15,7 +15,7 @@
       "name_length": {
         "name": "אורך השם הפרטי",
         "hint": "",
-        "text": "from 1 to 64 characters"
+        "text": "מ 1 עד ל 64 תווים"
       },
       "last_name_length": {
         "name": "אורך שם המשפחה",
@@ -28,17 +28,17 @@
         "text": "1, 3, 6 ו 12 חודשים (6 כברירת מחדל)"
       },
       "spam_ban": {
-        "name": "Spam ban",
+        "name": "הגבלת ספאם",
         "hint": "",
         "text": "3 ימים או יותר"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
-        "hint": "you can be member of",
-        "text": "up to 500 (including ones you own)"
+        "name": "מספר הערוצים והסופר קבוצות",
+        "hint": "אתה יכול להיות חבר ב",
+        "text": "עד 500 (כולל מה שאתה יצרת)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "מספר הגיפים השמורים",
         "hint": "",
         "text": "עד 200"
       },
@@ -78,7 +78,7 @@
         "text": "עד 20"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "מספר הצ'אטים הנעוצים ברשימה הראשית (לא תיקיות שיצרת)",
         "hint": "",
         "text": "up to 5 chats or channels + 5 secret chats"
       },
@@ -95,12 +95,12 @@
       "media_self_destruction": {
         "name": "Photo and video self-destruction",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 עד 60 שניות"
       },
       "recent_actions": {
         "name": "פעולות אחרונות",
         "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "text": "מראה את הפעולות האחרונות של היומיים האחרונים"
       },
       "mentions_amount": {
         "name": "Mentions number",
@@ -113,14 +113,14 @@
         "text": "1,000,000 ההודעות האחרונות"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "מספר ההודעות הנעוצות",
         "hint": "",
         "text": "ללא הגבלה"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "מספר החברים בשביל לראות סטטיסטיקה",
         "hint": "",
-        "text": "at least 500"
+        "text": "500 לפחות"
       },
       "username_reservation": {
         "name": "Username change reservation",
@@ -128,9 +128,9 @@
         "text": "about 15-30 minutes"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "סטיקרים קבוצתיים",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "לקבוצות עם 100 או יותר חברים"
       }
     }
   },
@@ -139,7 +139,7 @@
     "items": {
       "public_usernames": {
         "name": "Public usernames number",
-        "hint": "for a single account",
+        "hint": "לחשבון אחד",
         "text": "up to 10 (including groups)"
       },
       "username_length": {
@@ -150,21 +150,21 @@
       "channel_name": {
         "name": "Channel name and description",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "עד 255 תווים"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "עריכת פוסטים",
         "hint": "",
         "text": "ללא הגבלה"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "מספר החברים בערוץ",
         "hint": "",
         "text": "ללא הגבלה"
       },
       "visible_participants": {
         "name": "Visible subscribers",
-        "hint": "for channel admin",
+        "hint": "למנהלי ערוצים",
         "text": "200 אנשים"
       },
       "channel_deletion": {
@@ -185,7 +185,7 @@
       "followers_to_see_stats": {
         "name": "Number of subscribers to see statistics",
         "hint": "",
-        "text": "at least 50"
+        "text": "50 לפחות"
       },
       "username_reservation": {
         "name": "Username change reservation",
@@ -198,9 +198,9 @@
     "name": "הודעות",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "אורך הודעה אחת",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "עד 4,096 תווים"
       },
       "media_descriptions": {
         "name": "Media captions",
@@ -303,7 +303,7 @@
         "text": "עד 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "העברת הודעות",
         "hint": "",
         "text": "עד ל 2,000 בשעה"
       },
@@ -353,9 +353,9 @@
     "name": "חיפוש",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "תוצאות חיפוש גלובליות",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "עד 10 ערוצים וסופר קבוצות; עד 3 באנדרואיד"
       },
       "global_search_min_query": {
         "name": "Minimal query length",
@@ -373,14 +373,14 @@
         "text": "עד 200"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "מספר הסטיקרים המועדפים",
         "hint": "",
         "text": "עד 5"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "סטיקרים בחבילה",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "עד ל 120 רגילים, ו 50 למונפשים"
       },
       "sticker_size": {
         "name": "גודל הסטיקר",

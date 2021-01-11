@@ -398,34 +398,34 @@
         "text": "up to 512 KB for static, up to 64 KB for animated"
       },
       "fps": {
-        "name": "FPS",
+        "name": "ئێف پی ئێس",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 یان 60"
       }
     }
   },
   "telegraph": {
-    "name": "Telegraph",
+    "name": "تەلەگراف",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "ژمارەی هەژمارەکان",
+        "hint": "لە بۆتی @telegraph",
+        "text": "تا 5 دانە"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "قەبارەی وتار",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "تا 64 کیلۆبایت"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "جۆراوجۆر",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "تایبەتمەندیی ئاڤاتاری ڤیدیۆ",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800 بە 800 پیکسڵ، تا 2 مێگابایت"
       }
     }
   }

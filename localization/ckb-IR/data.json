@@ -346,6 +346,11 @@
         "name": "درێژیی پێناسەی فەرمان",
         "hint": "(لە BotFather)",
         "text": "2 بۆ 256 پیت"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

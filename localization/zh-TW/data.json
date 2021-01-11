@@ -93,29 +93,29 @@
         "text": "在訊息發出後 48 小時內；已儲存對話以及具有置頂權限的管理員不在此限"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "媒體自動銷毀",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 到 60 秒"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "最近操作",
+        "hint": "（訂閱、貼文……等）",
+        "text": "最近兩天"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "name": "標註數量",
+        "hint": "一則訊息內",
+        "text": "最多 50 個，上限之後的使用者不會收到通知"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "可見訊息數量",
+        "hint": "群組內",
+        "text": "倒數 1,000,000 則訊息"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "釘選訊息數量",
         "hint": "",
-        "text": "unlimited"
+        "text": "無上限"
       },
       "participants_to_see_stats": {
         "name": "Number of participants to see statistics",

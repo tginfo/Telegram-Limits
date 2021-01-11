@@ -350,7 +350,7 @@
       "start_payload_size": {
         "name": "Bot /start payload length",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "do 64 znaków"
       }
     }
   },

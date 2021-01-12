@@ -348,9 +348,9 @@
         "text": "dari 2 sampai 256 karakter"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Panjang payload /start bot",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "hingga 64 karakter"
       }
     }
   },

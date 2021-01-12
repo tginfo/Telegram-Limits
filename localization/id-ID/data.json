@@ -346,6 +346,11 @@
         "name": "Panjang deskripsi perintah",
         "hint": "(di BotFather)",
         "text": "dari 2 sampai 256 karakter"
+      },
+      "start_payload_size": {
+        "name": "Panjang payload /start bot",
+        "hint": "",
+        "text": "hingga 64 karakter"
       }
     }
   },

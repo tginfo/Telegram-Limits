@@ -346,6 +346,11 @@
         "name": "طول توضیحات دستور",
         "hint": "(درBotFather)",
         "text": "از 2 تا 256 کارکتر"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

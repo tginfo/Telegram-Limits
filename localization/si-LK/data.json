@@ -346,6 +346,11 @@
         "name": "විධාන විස්තරයේ දිග",
         "hint": "(BotFather තුළදී)",
         "text": "අක්ෂර 2 සිට 256 ක් දක්වා"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

@@ -346,6 +346,11 @@
         "name": "Komut açıklama uzunluğu‌‌",
         "hint": "(BotFather'da)",
         "text": "2 ila 256 karakter"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

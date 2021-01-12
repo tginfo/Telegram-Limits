@@ -346,6 +346,11 @@
         "name": "Longitud de la descripción del comando",
         "hint": "(en BotFather)",
         "text": "de 2 a 256 caracteres"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

@@ -128,7 +128,7 @@
         "text": "15-30 dakika civarı"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "Grup tanıtımlı çıkartmalar",
         "hint": "",
         "text": "100+ katılımcılı gruplar"
       }
@@ -348,9 +348,9 @@
         "text": "2 ila 256 karakter"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Bot /start veri uzunluğu",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 karaktere kadar"
       }
     }
   },

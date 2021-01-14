@@ -348,7 +348,7 @@
         "text": "מ 2 עד ל 256 תווים"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "כמות המטען של הפקודה /start בdeep link",
         "hint": "",
         "text": "עד 64 תווים"
       }

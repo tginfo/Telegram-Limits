@@ -128,9 +128,9 @@
         "text": "etwa 15 bis 30 Minuten"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "Gruppensticker",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "Gruppen mit mindestens 100 Mitgliedern"
       }
     }
   },

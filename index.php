@@ -59,7 +59,7 @@ $markup = [
     <link rel="stylesheet" href="<?= BASE ?>/assets/styles/print.css" media="print">
     <!-- Primary Meta Tags -->
     <meta name="title" content="<?= __("title", UCOMP) ?>" data-lang="title">
-    <meta name="description" content="<?= __("description", UCOMP) ?>" data-lang="description">
+    <meta name="description" content="<?= __("description", UCOMP, ["year" => date("Y")]) ?>" data-lang="description">
 
 
     <!-- Open Graph / Facebook -->

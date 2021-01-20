@@ -1,6 +1,6 @@
 {
     "title": "ටෙලිග්‍රෑම් සීමාවන් — Telegram Info",
-    "description": "නිරතුරු යාවත්කාලීන 2020 වසරට අදාළ ටෙලිග්‍රෑම් සීමාවන්. පණිවිඩයේ දිග පිළිබඳ සීමාවන්, ස්ටිකර් කට්ටල තුළ ස්ටිකර් ගණන, Bot API හි පණිවිඩ ප්‍රමාණය, සාමාජිකයින් සංඛ්‍යාව, ගොනුවක උපරිම විශාලත්වය සහ තවත් දෑ",
+    "description": "Always up-to-date Telegram limits in {%year%}. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
     "description_short": "නිරතුරු යාවත්කාලීන ටෙලිග්‍රෑම් සීමාවන්",
     "study": "| අධ්‍යයනය",
     "big_title": "ටෙලිග්‍රෑම් සීමාවන්",

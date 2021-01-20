@@ -1,9 +1,9 @@
 {
-    "title": "Telegram Limits — Telegram Info",
+    "title": "سنوورەکانی تەلەگرام — Telegram Info",
     "description": "Always up-to-date Telegram limits in {%year%}. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
-    "description_short": "Always up-to-date Telegram limits",
+    "description_short": "هەموو کاتێک نوێترین سنوورەکانی تەلەگرام",
     "study": "| Study",
-    "big_title": "Telegram Limits",
+    "big_title": "Snûrekanî Telegram",
     "article_name": "بۆچی سنوور هەیە",
     "article_p1": "وەک هەر خزمەتگوزاریەکی دیکە، تەلەگرام سنوور بەکاردەهێنێت بۆ بەردەوامکردنی خزمەتگوزاریەکانیان و دڵنیابوونەوە لەوەی کە بەکارهێنەرانی پەیڕەوی سیاسەتی بەکارهێنانی لەبار دەکەن.",
     "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",

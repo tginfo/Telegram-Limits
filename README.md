@@ -3,7 +3,7 @@ This project describes Telegram limitations and displays them on [limits.tginfo.
 
 ## How to contribute
 ### Report problem or make a suggestion
-- [Bug Tracker](https://github.com/tginfo/Telegram-Limits/issues/new)
+- [Bug Tracker](https://github.com/tginfo/Telegram-Limits/issues/new/choose)
 - [Feedback](https://t.me/infowritebot) 
 
 ### Add new language

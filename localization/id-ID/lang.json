@@ -1,6 +1,6 @@
 {
     "title": "Batasan Telegram — Telegram Info",
-    "description": "Selalu perbarui batasan Telegram di 2020. Batasan pada panjang pesan, jumlah stiker dalam satu set, frekuensi pesan dalam Bot API, jumlah partisipan, perubahan, ukuran maksimal file dan sebagainya",
+    "description": "Selalu perbarui batasan Telegram di {%year%}. Batasan pada panjang pesan, jumlah stiker dalam satu set, frekuensi pesan dalam Bot API, jumlah partisipan, perubahan, ukuran maksimal file dan sebagainya",
     "description_short": "Selalu perbarui batasan Telegram",
     "study": "| Pelajari",
     "big_title": "Batasan Telegram",

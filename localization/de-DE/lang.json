@@ -1,6 +1,6 @@
 {
     "title": "Telegram-Limits — Telegram Info",
-    "description": "Jederzeit aktuelle Telegram-Limits im Jahr 2020. Begrenzung der Nachrichtenlänge, Anzahl der Sticker in Sets, Nachrichtenfrequenz in Bot API, Anzahl der Teilnehmer, Bearbeitung, maximale Dateigröße und mehr",
+    "description": "Jederzeit aktuelle Telegram-Limits im Jahr {%year%}. Begrenzung der Nachrichtenlänge, Anzahl der Sticker in Sets, Nachrichtenfrequenz in Bot API, Anzahl der Teilnehmer, Bearbeitung, maximale Dateigröße und mehr",
     "description_short": "Jederzeit aktuelle Telegram-Limits",
     "study": "| Studie",
     "big_title": "Telegram-Limits",

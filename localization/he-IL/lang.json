@@ -1,6 +1,6 @@
 {
     "title": "המגבלות של טלגרם - Telegram Info",
-    "description": "Always up-to-date Telegram limits in {%year%}. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
+    "description": "מגבלות טלגרם המעודכנות לשנת {%year%} המגבלות של אורך ההודעות, מספר הסטיקרים בחבילה, תדירות ההודעות בBot Api, מספר החברים בקבוצות, עריכת הודעות, הגודל המרבי של קבצים ועוד",
     "description_short": "מגבלות טלגרם המעודכנות",
     "study": "| מחקר",
     "big_title": "המגבלות של טלגרם",

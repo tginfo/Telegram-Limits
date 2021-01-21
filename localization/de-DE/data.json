@@ -348,9 +348,9 @@
         "text": "2 bis 256 Zeichen"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Länge des /start-Parameters für Bots",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "bis zu 64 Zeichen"
       }
     }
   },

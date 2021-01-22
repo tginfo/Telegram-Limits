@@ -55,7 +55,7 @@
       "accounts_number": {
         "name": "Accounts number",
         "hint": "(official clients)",
-        "text": "up to 3"
+        "text": "تا 3"
       }
     }
   },
@@ -65,82 +65,82 @@
       "participants_number": {
         "name": "Participants",
         "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "text": "تا 200,000"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "ژمارەی بەڕێوەبەران",
+        "hint": "لە گروپەکاندا",
+        "text": "تا 50"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "ژمارەی بۆتەکان",
+        "hint": "لە گروپەکاندا",
+        "text": "تا 20"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "وتووێژە هەڵواسراوەکان لە لیستەی سەرەکی",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "تا 5 وتووێژ و کەناڵ + 5 وتووێژی نهێنی"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "ناوی گروپ و دەربارە",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "تا 255 کاراکتەر"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "دەستکاریکردنی پەیام",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "دوای 48 کاتژمێر لە ناردنی؛ بێکۆتا لە پەیامە پاشەکەوتکراوەکان و بۆ ئەو بەڕێوەبەرانەی مافی هەڵواسینیان هەیە"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "نەمانی خۆکارانەی وێنە و ڤیدیۆ",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 تا 60 چرکە"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "چالاکییەکانی ئەم دواییانە",
+        "hint": "(بەشداریکردنەکان، پۆستەکان، هتد)",
+        "text": "دوو ڕۆژی پێشوو"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "name": "ژمارەی ئاماژەکردنەکان",
+        "hint": "لە یەک پەیامدا",
+        "text": "تا 50، ئەگەر زیاتر بێت ئاگادارکردنەوە ناچێت"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "ژمارەی پەیامە بینراوەکان",
+        "hint": "لە گروپەکاندا",
+        "text": "کۆتا 1,000,000 پەیام"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "ژمارەی پەیامە هەڵواسراوەکان",
         "hint": "",
-        "text": "unlimited"
+        "text": "بێکۆتا"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "ژمارەی بەشداربووان بۆ توانای بینینی ئامارەکان",
         "hint": "",
-        "text": "at least 500"
+        "text": "لایەنی کەم 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "حیجزی گۆڕینی ناوی بەکارهێنەر",
+        "hint": "(ئەو کاتەی دەیخایەنێت بۆ ئەوەی بۆ هەمووان دەرکەوێت، نەک تەنها خاوەنەکە)",
+        "text": "دەوروبەری 15-30 خولەک"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "دەستەی لەزگەی گروپ",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "ئەو گروپانەی 100 یان زیاتر بەشداربوویان هەیە"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "کەناڵەکان",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "ژمارەی ناوی بەکارهێنەری گشتی",
+        "hint": "بۆ یەک هەژمار",
+        "text": "تا 10 (بە گروپەکانیشەوە)"
       },
       "username_length": {
         "name": "Length of @username",
@@ -293,29 +293,29 @@
         "text": "up to 512 characters"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
-        "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "name": "سنووری بەرزکردنەوەی فایل",
+        "hint": "(Bot API)",
+        "text": "تا 50 مێگابایت"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
-        "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "name": "سنووری داگرتنی فایل",
+        "hint": "(Bot API)",
+        "text": "تا 20 مێگابایت"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "گواستنەوەی پەیام",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "تا 2,000 دانە لە کاتژمێرێکدا"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "ژمارەی دوگمەکانی کیبۆڕدێک",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "تا 100 دانە"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "زانیاریی ڕازاندنەوەی پەیام",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "تا 10 کیلۆبایت"
       },
       "formatting_entities": {
         "name": "ڕازاندنەوە بەردەستەکان",

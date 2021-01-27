@@ -13,6 +13,7 @@
     "he-IL": ["עברית", {"isRtl": true}],
     "ar-SA": ["العربية", {"isRtl": true}],
     "fa-IR": ["فارسی", {"isRtl": true}],
+    "ckb-IR": ["کوردیی ناوەندی", {"isRtl": true}],
     "si-LK": ["සිංහල"],
     "be-BY": "ru"
 }

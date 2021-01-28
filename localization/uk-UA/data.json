@@ -123,9 +123,9 @@
         "text": "щонайменше 500"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "Учасники голосового чату",
         "hint": "",
-        "text": "up to 1,000"
+        "text": "до 1 000 користувачів"
       },
       "username_reservation": {
         "name": "Бронювання @username після зміни",

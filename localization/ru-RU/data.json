@@ -123,9 +123,9 @@
         "text": "500 и более"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "Участники голосового чата",
         "hint": "",
-        "text": "up to 1,000"
+        "text": "до 1 000 пользователей"
       },
       "username_reservation": {
         "name": "Резервирование @username после смены",

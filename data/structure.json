@@ -104,6 +104,10 @@
                 "icon": "poll"
             },
             {
+                "id": "voice_chat_participants",
+                "icon": "graphic_eq"
+            },
+            {
                 "id": "username_reservation",
                 "icon": "timelapse"
             },

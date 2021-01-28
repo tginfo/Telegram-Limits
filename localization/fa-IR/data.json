@@ -122,6 +122,11 @@
         "hint": "",
         "text": "حداقل 500 نفر"
       },
+      "voice_chat_participants": {
+        "name": "Voice Chat participants",
+        "hint": "",
+        "text": "up to 1,000"
+      },
       "username_reservation": {
         "name": "رزرو تغییر نام کاربری",
         "hint": "( زمانی که قبل از اینکه نام کاربری برای همه در دسترس قرار بگیرد، نه فقط مالک اصلی)",

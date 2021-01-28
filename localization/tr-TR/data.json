@@ -123,9 +123,9 @@
         "text": "en az 500"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "Sesli Sohbet katılımcıları",
         "hint": "",
-        "text": "up to 1,000"
+        "text": "1,000'e kadar"
       },
       "username_reservation": {
         "name": "Kullanıcı adı değişim rezervasyonu",

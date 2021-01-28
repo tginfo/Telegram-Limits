@@ -122,6 +122,11 @@
         "hint": "",
         "text": "500 и более"
       },
+      "voice_chat_participants": {
+        "name": "Voice Chat participants",
+        "hint": "",
+        "text": "up to 1,000"
+      },
       "username_reservation": {
         "name": "Резервирование @username после смены",
         "hint": "(время, на которое имя пользователя доступно только для его бывшего владельца)",

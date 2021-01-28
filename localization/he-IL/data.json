@@ -122,6 +122,11 @@
         "hint": "",
         "text": "500 לפחות"
       },
+      "voice_chat_participants": {
+        "name": "Voice Chat participants",
+        "hint": "",
+        "text": "up to 1,000"
+      },
       "username_reservation": {
         "name": "זמן שינוי שם משתמש לקבוצות",
         "hint": "(זמן לפני ששם המשתמש יהיה זמין לכולם, ולא רק לבעלים המקורי)",

@@ -122,6 +122,11 @@
         "hint": "",
         "text": "අවම වශයෙන් 500 ක්"
       },
+      "voice_chat_participants": {
+        "name": "Voice Chat participants",
+        "hint": "",
+        "text": "up to 1,000"
+      },
       "username_reservation": {
         "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
         "hint": "(පරිශීලක නාමයක් ඉවත්කිරීමේදී මෙම කාලයට පසුව එය ඕනෑම අයෙක්ට ලබාගත හැකිවනු ඇත)",

@@ -122,6 +122,11 @@
         "hint": "",
         "text": "al menos 500"
       },
+      "voice_chat_participants": {
+        "name": "Voice Chat participants",
+        "hint": "",
+        "text": "up to 1,000"
+      },
       "username_reservation": {
         "name": "Reserva de cambio de nombre de usuario",
         "hint": "(tiempo antes de que el nombre de usuario está disponible para todos, no sólo para el propietario original)",

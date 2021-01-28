@@ -122,6 +122,11 @@
         "hint": "",
         "text": "setidaknya 500"
       },
+      "voice_chat_participants": {
+        "name": "Voice Chat participants",
+        "hint": "",
+        "text": "up to 1,000"
+      },
       "username_reservation": {
         "name": "Reservasi perubahan username",
         "hint": "(waktu sebelum username akan tersedia untuk semua orang, bukan hanya pemilik asli)",

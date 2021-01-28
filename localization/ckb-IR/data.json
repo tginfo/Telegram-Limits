@@ -122,6 +122,11 @@
         "hint": "",
         "text": "لایەنی کەم 500"
       },
+      "voice_chat_participants": {
+        "name": "Voice Chat participants",
+        "hint": "",
+        "text": "up to 1,000"
+      },
       "username_reservation": {
         "name": "حەجزکردنی گۆڕینی ناوی بەکارهێنەر",
         "hint": "(ئەو کاتەی دەیخایەنێت بۆ ئەوەی بۆ هەمووان دەرکەوێت، نەک تەنها خاوەنەکە)",

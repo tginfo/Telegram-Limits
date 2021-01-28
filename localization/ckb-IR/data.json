@@ -5,7 +5,7 @@
       "username": {
         "name": "ناوی بەکارهێنەر",
         "hint": "(بۆ نموونە: @cameraman)",
-        "text": "5 بۆ 32 پیت"
+        "text": "5 بۆ 32 کاراکتەر"
       },
       "bio": {
         "name": "ژیاننامە",
@@ -28,43 +28,43 @@
         "text": "1، 3، 6 و 12 مانگ (هەڵبژێردراو: 6)"
       },
       "spam_ban": {
-        "name": "قەدەغەکردن لەبەر سپام",
+        "name": "بلۆک کردن لەبەر سپام",
         "hint": "",
         "text": "3 ڕۆژ یان زیاتر"
       },
       "channels_and_chats_number": {
         "name": "ژمارەی کەناڵ و گروپەکان",
         "hint": "دەتوانیت ببیت بە ئەندامی",
-        "text": "up to 500 (including ones you own)"
+        "text": "تا 500 (بەوانەی خۆتەوە)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "ژمارەی گیفە پاشەکەوتکراوەکان",
         "hint": "",
-        "text": "up to 200"
+        "text": "تا 200"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "درێژیی وێنۆچکەی ڤیدیۆیی",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "تا 10 چرکە"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "دروستکردنی گروپ و کەناڵ",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "تا 50 ڕۆژانە"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
+        "name": "ژمارەی هەژمارەکان",
+        "hint": "(بەرنامە فەرمییەکان)",
         "text": "تا 3"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "وتووێژ و گروپەکان",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
+        "name": "بەشداربووان",
+        "hint": "(دەکرێت زیادبکرێت)",
         "text": "تا 200,000"
       },
       "admins_number": {
@@ -83,7 +83,7 @@
         "text": "تا 5 وتووێژ و کەناڵ + 5 وتووێژی نهێنی"
       },
       "group_name": {
-        "name": "ناوی گروپ و دەربارە",
+        "name": "ناوی گروپ و وەسفی گرووپ",
         "hint": "",
         "text": "تا 255 کاراکتەر"
       },
@@ -123,7 +123,7 @@
         "text": "لایەنی کەم 500"
       },
       "username_reservation": {
-        "name": "حیجزی گۆڕینی ناوی بەکارهێنەر",
+        "name": "حەجزکردنی گۆڕینی ناوی بەکارهێنەر",
         "hint": "(ئەو کاتەی دەیخایەنێت بۆ ئەوەی بۆ هەمووان دەرکەوێت، نەک تەنها خاوەنەکە)",
         "text": "دەوروبەری 15-30 خولەک"
       },
@@ -143,72 +143,72 @@
         "text": "تا 10 (بە گروپەکانیشەوە)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "درێژیی @username",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 بۆ 32 کاراکتەر"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "ناوی کەناڵ و دەربارە",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "تا 255 کاراکتەر"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "دەستکاریکردنی پۆستەکان",
         "hint": "",
-        "text": "unlimited"
+        "text": "بێسنوور"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "ژمارەی بەشداربووانی کەناڵ",
         "hint": "",
-        "text": "unlimited"
+        "text": "بێسنوور"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "بەشداربووە دیارەکان",
+        "hint": "بۆ بەڕێوەبەری کەناڵ",
+        "text": "200 كەس"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "سڕینەوەی کەناڵ",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "ئەو کەناڵانەی کە زیاتر لە 1 هەزار بەشداربوویان هەیە تەنها بە پشتگیریی تێلێگرام دەتوانرێت بسردرێتەوە"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "دەستگەیشتن بە کەناڵی تایبەت",
+        "hint": "بێ بەشداربوون",
+        "text": "تا 5 خولەک ڕۆژانە"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "بانگێشتکردنی بەکارهێنەران",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "تا 200 کەس"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "ژمارەی بەشداربووان بۆ توانای بینینی ئامارەکان",
         "hint": "",
-        "text": "at least 50"
+        "text": "لایەنی کەم 50"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "حیجزی گۆڕینی ناوی بەکارهێنەر",
+        "hint": "(ئەو کاتەی دەیخایەنێت بۆ ئەوەی بۆ هەمووان دەرکەوێت، نەک تەنها خاوەنەکە)",
+        "text": "دەوروبەری 15-30 خولەک"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "پەیامەکان",
     "items": {
       "single_message_length": {
         "name": "درێژیی یەک پەیام",
         "hint": "",
-        "text": "تا 4,096 پیت"
+        "text": "تا 4,096 کاراکتەر"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "ژێرنووسی ڕەنگاڵەکان",
         "hint": "",
-        "text": "تا 1,024 پیت"
+        "text": "تا 1,024 کاراکتەر"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "سنووری قەبارەی فایل",
         "hint": "",
         "text": "تا 2.0 گێگابایت"
       },
@@ -265,41 +265,41 @@
       "geochats_number": {
         "name": "ژمارەی وتووێژە جوگرافیە بینراوەکان",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "تا 10 دانەی نزیکترین"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "بۆتەکان",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "ژمارەی بۆتەکان",
+        "hint": "(دروستکراو لەلایەن @BotFather)",
+        "text": "تا 20 دانە"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "درێژیی @username",
+        "hint": "بۆ بۆتەکان",
+        "text": "5 بۆ 32 کاراکتەر"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "درێژیی زانیاریی بۆت",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "تا 120 کاراکتەر"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "درێژیی دەربارەی بۆت",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "تا 512 کاراکتەر"
       },
       "upload_limit_botapi": {
         "name": "سنووری بەرزکردنەوەی فایل",
-        "hint": "(Bot API)",
+        "hint": "(BotAPI)",
         "text": "تا 50 مێگابایت"
       },
       "download_limit_botapi": {
         "name": "سنووری داگرتنی فایل",
-        "hint": "(Bot API)",
+        "hint": "(BotAPI)",
         "text": "تا 20 مێگابایت"
       },
       "forwarding": {
@@ -340,17 +340,17 @@
       "bot_command_name_length": {
         "name": "درێژیی فەرمان",
         "hint": "(لە BotFather)",
-        "text": "1 بۆ 32 پیت"
+        "text": "1 بۆ 32 کاراکتەر"
       },
       "bot_command_description_length": {
         "name": "درێژیی پێناسەی فەرمان",
         "hint": "(لە BotFather)",
-        "text": "2 بۆ 256 پیت"
+        "text": "2 بۆ 256 کاراکتەر"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "درێژیی نووسینەکانی دوای /start لە بەستەرە قووڵەکان",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "تا 64 کاراکتەر"
       }
     }
   },
@@ -365,7 +365,7 @@
       "global_search_min_query": {
         "name": "کەمترین درێژیی داوا",
         "hint": "بۆ گەڕانی جیهانی",
-        "text": "لایەنی کەم 4 پیت"
+        "text": "لایەنی کەم 4 کاراکتەر"
       }
     }
   },
@@ -428,7 +428,7 @@
     "name": "جۆراوجۆر",
     "items": {
       "properties": {
-        "name": "تایبەتمەندیی ئاڤاتاری ڤیدیۆ",
+        "name": "تایبەتمەندیی وێنۆچکەی ڤیدیۆیی",
         "hint": "",
         "text": "800 بە 800 پیکسڵ، تا 2 مێگابایت"
       }

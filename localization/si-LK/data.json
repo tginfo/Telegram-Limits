@@ -123,9 +123,9 @@
         "text": "අවම වශයෙන් 500 ක්"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "කථන සංවාදයක සහභාගීන්",
         "hint": "",
-        "text": "up to 5,000"
+        "text": "5,000 ක් දක්වා"
       },
       "username_reservation": {
         "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",

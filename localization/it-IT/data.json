@@ -123,9 +123,9 @@
         "text": "almeno 500"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "Partecipanti alla Chat Vocale",
         "hint": "",
-        "text": "up to 1,000"
+        "text": "up to 5,000"
       },
       "username_reservation": {
         "name": "Proprietà di un username",

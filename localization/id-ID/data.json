@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Partisipan Pesan Suara",
         "hint": "",
-        "text": "hingga 1,000"
+        "text": "up to 5,000"
       },
       "username_reservation": {
         "name": "Reservasi perubahan username",

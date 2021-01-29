@@ -123,9 +123,9 @@
         "text": "500 לפחות"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "מספר המשתתפים בצ'אט קולי",
         "hint": "",
-        "text": "up to 1,000"
+        "text": "עד ל 1,000"
       },
       "username_reservation": {
         "name": "זמן שינוי שם משתמש לקבוצות",

@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Partecipanti alla Chat Vocale",
         "hint": "",
-        "text": "up to 5,000"
+        "text": "fino a 5.000"
       },
       "username_reservation": {
         "name": "Proprietà di un username",
@@ -355,7 +355,7 @@
       "start_payload_size": {
         "name": "Bot /start payload length",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "fino a 64 caratteri"
       }
     }
   },

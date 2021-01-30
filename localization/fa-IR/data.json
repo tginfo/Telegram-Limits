@@ -123,9 +123,9 @@
         "text": "حداقل 500 نفر"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "شرکت‌کنندگان گفتگوی صوتی",
         "hint": "",
-        "text": "up to 5,000"
+        "text": "تا 5,000 نفر"
       },
       "username_reservation": {
         "name": "رزرو تغییر نام کاربری",
@@ -133,9 +133,9 @@
         "text": "تقریبا 15-30 دقیقه"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "استیکر‌های مختص گروه",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "گروه با 100+ عضو"
       }
     }
   },

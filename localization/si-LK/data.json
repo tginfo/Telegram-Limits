@@ -157,6 +157,11 @@
         "hint": "",
         "text": "අක්ෂර 255 ක් දක්වා"
       },
+      "channel_admins": {
+        "name": "Channel admins number",
+        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "text": "up to 50 accounts"
+      },
       "editing": {
         "name": "පළකිරීම් සංස්කරණය",
         "hint": "",
@@ -356,6 +361,11 @@
         "name": "Bot /start payload length",
         "hint": "",
         "text": "up to 64 characters"
+      },
+      "bot_alert_length": {
+        "name": "Bot alert message length",
+        "hint": "",
+        "text": "up to 200 characters"
       }
     }
   },

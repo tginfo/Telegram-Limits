@@ -157,6 +157,11 @@
         "hint": "",
         "text": "до 255 символов"
       },
+      "channel_admins": {
+        "name": "Channel admins number",
+        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "text": "up to 50 accounts"
+      },
       "editing": {
         "name": "Редактирование постов",
         "hint": "",
@@ -356,6 +361,11 @@
         "name": "Длина метаданных для /start",
         "hint": "",
         "text": "до 64 символов"
+      },
+      "bot_alert_length": {
+        "name": "Bot alert message length",
+        "hint": "",
+        "text": "up to 200 characters"
       }
     }
   },

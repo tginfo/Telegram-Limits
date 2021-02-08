@@ -158,7 +158,7 @@
         "text": "до 255 символів"
       },
       "channel_admins": {
-        "name": "Channel admins number",
+        "name": "Кількість адміністраторів каналу",
         "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
         "text": "up to 50 accounts"
       },

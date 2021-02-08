@@ -157,6 +157,7 @@ $markup = [
                             <div class="card" role="rowgroup">
                                 <?php
                                 foreach ($section["items"] as $item) {
+                                    if (!isset($cur_section["items"][$item["id"]])) continue;
                                     $cur_item = $cur_section["items"][$item["id"]];
                                 ?>
 

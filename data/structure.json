@@ -135,6 +135,10 @@
                 "icon": "description"
             },
             {
+                "id": "channel_admins",
+                "icon": "security"
+            },
+            {
                 "id": "editing",
                 "icon": "edit"
             },
@@ -302,6 +306,10 @@
             {
                 "id": "start_payload_size",
                 "icon": "room_preferences"
+            },
+            {
+                "id": "bot_alert_length",
+                "icon": "announcement"
             }
         ]
     },

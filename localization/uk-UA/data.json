@@ -159,8 +159,8 @@
       },
       "channel_admins": {
         "name": "Кількість адміністраторів каналу",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "hint": "(включаючи ботів; додати бота до каналу можна лише зробивши його адміністратором)",
+        "text": "до 50 облікових записів"
       },
       "editing": {
         "name": "Редагування постів",
@@ -363,9 +363,9 @@
         "text": "до 64 символів"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "Довжина сповіщень бота",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "до 200 символів"
       }
     }
   },

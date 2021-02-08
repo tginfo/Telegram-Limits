@@ -159,7 +159,7 @@
       },
       "channel_admins": {
         "name": "ژمارەی سەرپەرشتیارەکانی کەناڵ",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "hint": "(بە بۆتەکان؛ دەتوانیت بۆتێک زیاد بکەیت بۆ کەناڵەکەت تەنها بە کردنی بە بەڕێوەبەر)",
         "text": "تا 50 هەژمار"
       },
       "editing": {
@@ -363,7 +363,7 @@
         "text": "تا 64 کاراکتەر"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "درێژی نامەی ئاگادارکردنەوەی بوت",
         "hint": "",
         "text": "تا 200 کارەکتەر"
       }

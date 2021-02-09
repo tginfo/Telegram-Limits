@@ -273,42 +273,42 @@
         "text": "до 100 особа"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Број видљивих група заснованих на локацији",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "до 10 најближих"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "Ботови",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "Број ботова",
+        "hint": "(направљени од стране @BotFather)",
+        "text": "до 20 ботова"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "Дужина од @username",
+        "hint": "за ботове",
+        "text": "од 5 до 32 карактера"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Дужина инфо о боту",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "до 120 карактера"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Дужина описа бота",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "до 512 карактера"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Величина учитаног фајла",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "до 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Величина преузетог фајла",
         "hint": "(BotAPI)",
         "text": "up to 20 MB"
       },

@@ -173,49 +173,49 @@
         "text": "неограничено"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Видљиви пратиоци",
+        "hint": "за админа канала",
+        "text": "200 особа"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Брисање канала",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "канали са више од 1000 претплатника могу бити избрисани само преко Telegram подршке"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "Приступ приватном каналу",
+        "hint": "без претплате",
+        "text": "до 5 минута у дану"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Позивање корисника",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "до 200 особа"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Број пратилаца да би се видела статистика",
         "hint": "",
-        "text": "at least 50"
+        "text": "барем 50"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Промена резервисаног корисничког имена",
+        "hint": "(време пре него што корисничко име постане доступно за све, не само за оригиналног власника)",
+        "text": "око 15-30 минута"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Поруке",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Дужина једне поруке",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "до 4096 карактера"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Опис медија",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "до 1024 карактера"
       },
       "upload_size": {
         "name": "Ограничење величине фајла",
@@ -334,23 +334,23 @@
       },
       "messaging_frequency": {
         "name": "Учесталост порука",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "hint": "(може бити достигнуто од BotSupport)",
+        "text": "до 30 порука у секунди; 20 по минуту за јавна ћаскања и канале"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "Учесталост API захтева",
+        "hint": "(може бити достигнуто преко BotSupport)",
+        "text": "до 30 захтева по секунди"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Број команди",
+        "hint": "(у BotFather)",
+        "text": "од 0 до 100 команди"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Дужина команде",
+        "hint": "(у BotFather)",
+        "text": "од 1 до 32 карактера"
       },
       "bot_command_description_length": {
         "name": "Command description length",

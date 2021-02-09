@@ -38,73 +38,73 @@
         "text": "до 500 (укључујући и оне које поседујете)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "Број сачуваних GIF-ова",
         "hint": "",
-        "text": "up to 200"
+        "text": "до 200"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "Трајање видео-аватара",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "до 10 секунди"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "Прављење група и канала",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "до 50 у дану"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "Број налога",
+        "hint": "(званични клијент)",
+        "text": "до 3"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "Ћаскања и групе",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "name": "Учесници",
+        "hint": "(ограничење може да се достигне)",
+        "text": "до 200.000"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "Број админа",
+        "hint": "у групама",
+        "text": "до 50"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "Број ботова",
+        "hint": "у групама",
+        "text": "до 20"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "Закачена ћаскања на главној листи",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "до пет ћаскања или канала + 5 тајних ћаскања"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Име групе и опис",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "до 255 карактера"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Уређивање поруке",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "у року од 48 сати од слања; неограничено у Сачуваним порукама и за админе са правом за закачивање порука"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Самоуништење фотографије и видеа",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 до 60 секунди"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "Недавне радње",
+        "hint": "(претплате, објаве, итд.)",
+        "text": "траје два дана"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
+        "name": "Спомињање чланова",
+        "hint": "у једној поруци",
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {
@@ -218,12 +218,12 @@
         "text": "up to 1,024 characters"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Ограничење величине фајла",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "до 2,0 GB"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Трајање видео поруке",
         "hint": "",
         "text": "up to 1 minute"
       },

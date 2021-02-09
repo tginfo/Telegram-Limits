@@ -160,7 +160,7 @@
       "channel_admins": {
         "name": "Channel admins number",
         "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "text": "fino a 50 account"
       },
       "editing": {
         "name": "Modifica dei post",
@@ -365,7 +365,7 @@
       "bot_alert_length": {
         "name": "Bot alert message length",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "fino a 200 caratteri"
       }
     }
   },

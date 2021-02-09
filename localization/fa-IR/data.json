@@ -158,9 +158,9 @@
         "text": "تا 255 کارکتر"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "تعداد مدیران کانال",
+        "hint": "(شامل ربات‌ها؛ شما می‌توانید با مدیر ساختن یک ربات آن را به کانال خود بیافزائید)",
+        "text": "تا ۵۰ حساب کاربری"
       },
       "editing": {
         "name": "تصحيح کردن پست ها",
@@ -358,14 +358,14 @@
         "text": "از 2 تا 256 کارکتر"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "طول متادیتای /start ربات",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "تا 64 کارکتر"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "طول پیام هشدار ربات",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "تا 200 کارکتر"
       }
     }
   },

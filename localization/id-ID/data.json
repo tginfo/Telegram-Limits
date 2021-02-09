@@ -379,7 +379,7 @@
       },
       "global_search_min_query": {
         "name": "Minimal panjang kueri",
-        "hint": "untuk pencarian umun",
+        "hint": "untuk pencarian umum",
         "text": "setidaknya 4 karakter"
       }
     }

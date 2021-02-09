@@ -358,7 +358,7 @@
         "text": "од 2 до 256 карактера"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Бот старт дужина параметара",
         "hint": "",
         "text": "до 64 карактера"
       },
@@ -378,49 +378,49 @@
         "text": "до 10 ставки; до 3 за Android"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "Минимална дужина речи",
+        "hint": "за глобалну претрагу",
+        "text": "најмање 4 карактера"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Стикери",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Број додатих пакета стикера",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "до 200 пакета"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Број омиљених стикера",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "до 5 стикера"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "Број стикера у пакету",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "до 120 за статичне, и до 50 за анимиране"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Величина стикера",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "једна страна да буде једнака 512px, друга страна 512 px или мање; строго 512x512 за анимиране"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Трајање анимације",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "до 3 секунде"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Величина фајла стикера",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "до 512 KB за статичне, до 64 KB за анимиране"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 или 60"
       }
     }
   },
@@ -428,24 +428,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Број налога",
+        "hint": "у @telegraph боту",
+        "text": "до пет налога"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Величина чланка",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "до 64 KiB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Разно",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Карактеристике видео-аватара",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, до 2 MB"
       }
     }
   }

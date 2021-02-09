@@ -353,29 +353,29 @@
         "text": "од 1 до 32 карактера"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "Дужина описа команде",
+        "hint": "(у BotFather)",
+        "text": "од 2 до 256 карактера"
       },
       "start_payload_size": {
         "name": "Bot /start payload length",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "до 64 карактера"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "Дужина поруке упозорења бота",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "до 200 карактера"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Претрага",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Резултати глобалне претраге",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "до 10 ставки; до 3 за Android"
       },
       "global_search_min_query": {
         "name": "Minimal query length",

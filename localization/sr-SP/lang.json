@@ -1,14 +1,14 @@
 {
-    "title": "Telegram границе — Telegram инфо",
-    "description": "Telegram границе је увек ажуран у {%year%}. Ограничења дужине поруке, број стикера у пакету, учесталост порука у Bot API, број учесника, уређивање, максимална величина фајла и много више",
-    "description_short": "Telegram границе је увек ажуран",
+    "title": "Telegram ограничења — Telegram инфо",
+    "description": "Telegram ограничења су увек ажурна {%year%}. Ограничења дужине поруке, број стикера у пакету, учесталост порука у Bot API, број учесника, уређивање, максимална величина фајла и много више",
+    "description_short": "Telegram ограничења су увек ажурна",
     "study": "Научи",
     "big_title": "Telegram границе",
     "article_name": "Зашто ограничења постоје",
     "article_p1": "Баш као и било који други сервис, Telegram користи ограничења да осигура да корисници поштују политику коришћења и да би се сервис одржавао.",
-    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
-    "loading": "Loading...",
-    "homepage": "Homepage",
-    "language": "Language",
-    "search": "Search"
+    "article_p2": "Ова табела приказује списак тренутно познатих Telegram ограничења и ажурна је.",
+    "loading": "Учитавање...",
+    "homepage": "Почетна страна",
+    "language": "Језик",
+    "search": "Претрага"
 }

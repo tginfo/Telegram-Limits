@@ -1,7 +1,7 @@
 {
     "title": "Telegram границе — Telegram инфо",
-    "description": "Always up-to-date Telegram limits in {%year%}. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
-    "description_short": "Always up-to-date Telegram limits",
+    "description": "Telegram границе је увек ажуран у {%year%}. Ограничења дужине поруке, број стикера у пакету, учесталост порука у Bot API, број учесника, уређивање, максимална величина фајла и много више",
+    "description_short": "Telegram границе је увек ажуран",
     "study": "| Study",
     "big_title": "Telegram Limits",
     "article_name": "Why limitations exist",

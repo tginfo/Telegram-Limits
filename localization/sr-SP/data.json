@@ -225,52 +225,52 @@
       "video_message_duration": {
         "name": "Трајање видео поруке",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "до 1 минута"
       },
       "album_size": {
-        "name": "Images and videos in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "Слике и видео-снимци у једној поруци",
+        "hint": "(албум)",
+        "text": "до 10 ставки"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Број заказаних порука",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "до 100 ставки"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Распон заказивања",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "до 365 дана"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Фолдери",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Број фолдера",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "до 10 фолдера"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "Закачена ћаскања у фолдеру",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "до 100 ћаскања"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Особе у близини",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Домет видљивости",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "око 12 километара"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Број видљивих корисника",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "до 100 особа"
       },
       "geochats_number": {
         "name": "Visible geochats number",

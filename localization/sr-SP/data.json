@@ -310,30 +310,30 @@
       "download_limit_botapi": {
         "name": "Величина преузетог фајла",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "до 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "Прослеђивање порука",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "до 2000 по сату"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "Број тастера на тастатури",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "до 100 ставки"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Подаци форматирања поруке",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "до 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "Форматирање текста",
+        "hint": "(подебљано, укошено итд.)",
+        "text": "до 100 ставки"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
+        "name": "Учесталост порука",
         "hint": "(can be raised by BotSupport)",
         "text": "up to 30 messages per second; 20 per minute for public chats and channels"
       },

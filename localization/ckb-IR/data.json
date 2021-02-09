@@ -158,9 +158,9 @@
         "text": "تا 255 نووسە"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "ژمارەی سەرپەرشتیارەکانی کەناڵ",
+        "hint": "(بە بۆتەکان؛ دەتوانیت بۆتێک زیاد بکەیت بۆ کەناڵەکەت تەنها بە کردنی بە بەڕێوەبەر)",
+        "text": "تا 50 هەژمار"
       },
       "editing": {
         "name": "دەستکاریکردنی پۆستەکان",
@@ -363,9 +363,9 @@
         "text": "تا 64 کاراکتەر"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "درێژی نامەی ئاگادارکردنەوەی بوت",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "تا 200 کارەکتەر"
       }
     }
   },

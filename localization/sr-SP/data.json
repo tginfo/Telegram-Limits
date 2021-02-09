@@ -105,72 +105,72 @@
       "mentions_amount": {
         "name": "Спомињање чланова",
         "hint": "у једној поруци",
-        "text": "up to 50, else notifications won't be sent"
+        "text": "до 50, у супротном нотификације неће да се пошаљу"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Број видљивих порука",
+        "hint": "у групи",
+        "text": "1.000.000 последњих порука"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Број закачених порука",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограничено"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Број учесника да би се видела статистика",
         "hint": "",
-        "text": "at least 500"
+        "text": "најмање 500"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "Учесници гласовног ћаскања",
         "hint": "",
-        "text": "up to 5,000"
+        "text": "до 5000"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Промена резервисаног корисничког имена",
+        "hint": "(време пре него што ће корисничко име бити доступно свима, не само оригиналном власнику)",
+        "text": "око 15-30 минута"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "Стикери групе",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "групе са 100+ учесника"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Канали",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "Број јавних корисничких имена",
+        "hint": "за један налог",
+        "text": "до 10 (укључујући групе)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "Дужина од @username",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "од 5 до 32 карактера"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Име и опис канала",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "до 255 карактера"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "Број админа канала",
+        "hint": "(укључујући ботове; можете да додате бота у ваш канал само тако што ћете да га поставите за админа)",
+        "text": "до 50 налога"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Уређивање поста",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограничено"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Број пратилаца канала",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограничено"
       },
       "visible_participants": {
         "name": "Visible subscribers",

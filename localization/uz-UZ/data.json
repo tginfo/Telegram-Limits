@@ -335,7 +335,7 @@
       "messaging_frequency": {
         "name": "Xabarlar chastotasi",
         "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "text": "soniyada 30 tagacha, ommaviy suhbat va kanallarda daqiqasiga 20 tagacha"
       },
       "api_requests_frequency": {
         "name": "API requests frequency",

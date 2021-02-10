@@ -33,7 +33,7 @@
         "text": "3 kun yoki ko'proq"
       },
       "channels_and_chats_number": {
-        "name": "Kanallar va super guruhlar soni",
+        "name": "Kanallar va superguruhlar soni",
         "hint": "siz a'zo bo'lishingiz mumkin",
         "text": "500 tagacha (shu jumladan o'zingizniki)"
       },
@@ -105,25 +105,25 @@
       "mentions_amount": {
         "name": "Eslatmalar soni",
         "hint": "Bir xabarda",
-        "text": "up to 50, else notifications won't be sent"
+        "text": "50 tagacha, aks holda bildirishnomalar yuborilmaydi"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Ko'rinadigan xabarlar soni",
+        "hint": "guruhlarda",
+        "text": "1,000,000 tagacha xabar"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Qadalgan xabarlar soni",
         "hint": "",
-        "text": "unlimited"
+        "text": "cheklanmagan"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Statistikani ko'radigan ishtirokchilar soni",
         "hint": "",
-        "text": "at least 500"
+        "text": "kamida 500"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "Ovozli chat ishtirokchilari",
         "hint": "",
         "text": "up to 5,000"
       },

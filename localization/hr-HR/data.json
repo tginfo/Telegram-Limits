@@ -90,21 +90,21 @@
       "editing": {
         "name": "Uređivanje poruka",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "do 48 sati nakon slanja; neograničeno u Spremljenim porukama i za admine s dopuštenjem za prikvačivanje poruka"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Nestajuće slike i videozapisi",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 do 60 sekundi"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "Nedavne radnje",
+        "hint": "(pretplate, objave, itd.)",
+        "text": "posljednja 2 dana"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
+        "name": "Broj spominjanja",
+        "hint": "u jednoj poruci",
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {
@@ -218,209 +218,209 @@
         "text": "up to 1,024 characters"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Veličina datoteke",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "do 2.0 GB"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Trajanje videoporuke",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "do 1 minute"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "Slika i videozapisa u jednoj poruci",
         "hint": "(album)",
-        "text": "up to 10 items"
+        "text": "do 10 stavaka"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Broj zakazanih poruka",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "do 100 poruka"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Razdoblje zakazanih poruka",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "do 365 dana"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Mape razgovora",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Broj mapa",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "do 10 mapa"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "Prikvačeni razgovori u mapi",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "do 100 razgovora"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Osobe u blizini",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Vidljivost",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "oko 12 kilometara"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Broj osoba koji je vidljiv",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "do 100 osoba"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Broj grupa na lokaciji",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "do 10 najbližih"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "Botovi",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "Broj botova",
+        "hint": "(napravljeni od @BotFather-a)",
+        "text": "do 20 botova"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "Duljina @korisničkog imena",
+        "hint": "za botove",
+        "text": "5 do 32 znaka"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Duljina informacija o botu",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "do 120 znakova"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Duljina opisa bota",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "do 512 znakova"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Ograničenje prijenosa datoteka",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "do 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Ograničenje preuzimanja datoteka",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "do 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "Prosljeđivanje poruka",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "do 2 000 po satu"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "Broj tipaka na tipkovnici",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "do 100 stavaka"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Podaci formatiranja poruke",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "do 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "Stavke formatiranja",
+        "hint": "(podebljano, kurziv, itd.)",
+        "text": "do 100 stavaka"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "Učestalost poruka",
+        "hint": "(može se povećati na zahtjev BotSupport-a)",
+        "text": "do 30 poruka u sekundi; 20 po minuti za javne grupe i kanale"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "Učestalost API zahtjeva",
+        "hint": "(može se povećati na zahtjev BotSupport-a)",
+        "text": "do 30 zahtjeva u sekundi"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Broj naredaba",
+        "hint": "(u BotFatheru-u)",
+        "text": "0 do 100 naredaba"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Duljina naredbe",
+        "hint": "(u BotFatheru-u)",
+        "text": "od 1 do 32 znaka"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "Duljina opisa naredbe",
+        "hint": "(u BotFatheru-u)",
+        "text": "od 2 do 256 znaka"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Maksimalna duljina teksta za pokretanje bota",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "do 64 znaka"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "Duljina upozoravajuće poruke bota",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "do 200 znakova"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Pretraživanje",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Rezultati globalnog pretraživanja",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "do 10 stavaka; do 3 za Android"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "Minimalna duljina upita",
+        "hint": "za globalno pretraživanje",
+        "text": "najmanje 4 znaka"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Naljepnice",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Broj dodanih paketa",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "do 200 paketa"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Broj naljepnica u favoritima",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "do 5 naljepnica"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "Broj naljepnica u paketu",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "do 100 za statične i do 50 za animirane"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Veličina naljepnice",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "jedna strana je jednaka 512px, a druga strana 512px ili manje, za animirane veličina mora biti točno 512x512"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Trajanje animacije",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "do 3 sekunde"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Veličina naljepnice",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "do 512 KB za statičnu i do 64 KB za animiranu"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "ili 30 ili 60"
       }
     }
   },
@@ -428,7 +428,7 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
+        "name": "Broj korisničkih računa",
         "hint": "in @telegraph bot",
         "text": "up to 5 items"
       },

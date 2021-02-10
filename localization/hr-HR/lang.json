@@ -3,7 +3,7 @@
     "description": "Telegram ograničenja su redovito ažurirana {%year%}. Ograničenje duljine poruke, broj naljepnica u paketu, učestalost poruka u Bot API-u, broj sudionika, ograničenje uređivanja, maksimalna veličina datoteke i još puno toga",
     "description_short": "Redovito ažurirana ograničenja Telegrama",
     "study": "| Upoznajte",
-    "big_title": "Telegram ograničenja",
+    "big_title": "Granice Telegrama",
     "article_name": "Zašto postoje ograničenja",
     "article_p1": "Kao i svaki drugi servis, Telegram je ograničio neke mogućnosti kako bi usluga bila fer prema svima i kako bi uopće mogla raditi.",
     "article_p2": "U ovoj su tablici navedena trenutno poznata ograničenja Telegrama i ona se redovito ažuriraju.",

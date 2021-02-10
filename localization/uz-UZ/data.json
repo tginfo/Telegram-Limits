@@ -1,6 +1,6 @@
 {
   "accounts": {
-    "name": "Hisob",
+    "name": "Hisob raqam",
     "items": {
       "username": {
         "name": "Foydalanuvchi nomi",
@@ -188,32 +188,32 @@
         "text": "Kuniga 5 daqiqagacha"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "A'zo qo'shish",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "200 tagacha"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Statistikani ko'rish uchun a'zolar soni",
         "hint": "",
-        "text": "at least 50"
+        "text": "kamiga 50"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "O'zgarishdan keyin @username zahirasi",
+        "hint": "(foydalanuvchi nomi faqat uning sobiq egasi uchun mavjud bo'lgan vaqt)",
+        "text": "tahminan 15-30 daqiqa"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Xabarlar",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Bitta xabar uzunligi",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "4,096 tagacha belgi"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Medialar uchun izoh",
         "hint": "",
         "text": "up to 1,024 characters"
       },

@@ -158,8 +158,8 @@
         "text": "fino a 255 caratteri"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "name": "Numero amministratori del canale",
+        "hint": "(inclusi i bot; puoi aggiungere un bot al tuo canale solo rendendolo un amministratore)",
         "text": "fino a 50 account"
       },
       "editing": {

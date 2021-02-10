@@ -105,117 +105,117 @@
       "mentions_amount": {
         "name": "Broj spominjanja",
         "hint": "u jednoj poruci",
-        "text": "up to 50, else notifications won't be sent"
+        "text": "do 50, ostala spominjanje neće biti poslana"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Broj vidljivih poruka",
+        "hint": "u grupi",
+        "text": "posljednjih 1 000 000 poruka"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Broj prikvačenih poruka",
         "hint": "",
-        "text": "unlimited"
+        "text": "neograničeno"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Broj članova za otvaranje statistike",
         "hint": "",
-        "text": "at least 500"
+        "text": "najmanje 500 članova"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "Broj sudionika u glasovnom razgovoru",
         "hint": "",
-        "text": "up to 5,000"
+        "text": "do 5 000"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Rezervacija korisničkog imena nakon promjene",
+        "hint": "(vrijeme koje je potrebno proći prije nego korisničko ime bude dostupno drugima)",
+        "text": "oko 15-30 minuta"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "Naljepnice grupe",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "grupe koje imaju najmanje 100 članova"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Kanali",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "Broj javnih korisničkih imena",
+        "hint": "za pojedinačni račun",
+        "text": "do 10 (uključujući i grupe)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "Duljina @korisničkog imena",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 do 32 znaka"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Ime kanala i opis",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "do 255 znakova"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "Broj administratora u kanalu",
+        "hint": "(uključujući botove; možete dodati botove u kanal kao administratore)",
+        "text": "do 50 računa"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Uređivanje objava",
         "hint": "",
-        "text": "unlimited"
+        "text": "neograničeno"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Broj pretplatnika na kanal",
         "hint": "",
-        "text": "unlimited"
+        "text": "neograničeno"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Vidljivi pretplatnici",
+        "hint": "za administratore kanala",
+        "text": "200 osoba"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Brisanje kanala",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "kanali s više od 1000 pretplatnika mobu biti izbrisan jedino preko Telegramove podrške"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "Pristup privatnim kanalima",
+        "hint": "bez da se pretplatite",
+        "text": "do 5 minuta dnevno"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Dodavanje korisnika",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "do 200 korisnika"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Broj pretplatnika za otvaranje statistike",
         "hint": "",
-        "text": "at least 50"
+        "text": "najmanje 50"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Rezervacija korisničkog imena nakon promjene",
+        "hint": "(vrijeme koje je potrebno proći prije nego korisničko ime bude dostupno drugima)",
+        "text": "oko 15-30 minuta"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Poruke",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Duljina jedne poruke",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "do 4 096 znakova"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Opis medija",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "do 1 024 znaka"
       },
       "upload_size": {
         "name": "Veličina datoteke",

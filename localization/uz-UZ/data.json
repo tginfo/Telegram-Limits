@@ -223,49 +223,49 @@
         "text": "2.0 GB gacha"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Video xabarning davomiyligi",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "1 daqiqagacha"
       },
       "album_size": {
-        "name": "Images and videos in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "Rasmlar va videolar bitta pleylistda",
+        "hint": "(albom)",
+        "text": "10 tagacha "
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Rejalashtirilgan xabarlarning davomiyligi",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "100 tagacha"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Jadval oralig'i",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "365 kungacha"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Jildlar",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Jildlar miqdori",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "10 tagacha"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "Jilddagi qadalgan xabarlar ",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "100 tagacha"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Yaqin atrofdagi odamlar",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Ko'rish oralig'i",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "Tahminan 12 kilometr"
       },
       "amount_of_people": {
         "name": "Visible users amount",

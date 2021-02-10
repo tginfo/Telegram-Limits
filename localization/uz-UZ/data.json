@@ -93,18 +93,18 @@
         "text": "yuborilganidan keyin 48 soat ichida; Saqlangan va cheklash huquqiga ega bo'lgan administratorlar uchun cheksiz"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Fotosurat va video o'z-o'zini yo'q qilish",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1dan 60 sekundgacha"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "So'nggi amallar",
+        "hint": "(obunalar, xabarlar, va boshqalar)",
+        "text": "oxirgi ikki kun"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
+        "name": "Eslatmalar soni",
+        "hint": "Bir xabarda",
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {
@@ -218,9 +218,9 @@
         "text": "up to 1,024 characters"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Fayl hajmi chegarasi",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "2.0 GB gacha"
       },
       "video_message_duration": {
         "name": "Video message duration",

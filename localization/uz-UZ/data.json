@@ -25,72 +25,72 @@
       "self_destruction": {
         "name": "O'zini yo'q qilish davri",
         "hint": "Faol bo'lmaganida",
-        "text": "1, 3, 6 and 12 months (6 by default)"
+        "text": "1, 3, 6 va 12 oy (sukut bo'yicha 6)"
       },
       "spam_ban": {
-        "name": "Spam ban",
+        "name": "Spam taqiq",
         "hint": "",
-        "text": "3 days or more"
+        "text": "3 kun yoki undan ko'proq"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
-        "hint": "you can be member of",
-        "text": "up to 500 (including ones you own)"
+        "name": "Kanallar va super guruhlar soni",
+        "hint": "siz a'zo bo'lishingiz mumkin",
+        "text": "500 tagacha (shu jumladan o'zingizniki)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "Saqlangan Giflar soni",
         "hint": "",
-        "text": "up to 200"
+        "text": "200 gacha"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "Video-avatar davomiyligi",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "10 daqiqagacha"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "Guruh va kanal yaratish",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "Kuniga 50 tagacha"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "Hisoblar soni",
+        "hint": "(rasmiy mijozlar)",
+        "text": "3 tagacha"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "Suhbatlar va guruhlar",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000"
+        "name": "Ishtirokchilar",
+        "hint": "chegara ko'tarilishi mumkin",
+        "text": "200,000 tagacha"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "Adminlar soni",
+        "hint": "Guruhlarda",
+        "text": "50 tagacha"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "Bot yaratishlar soni",
+        "hint": "Guruhlarda",
+        "text": "20 tagacha"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "Qadalgan xabarlardagi asosiy ro'yxat",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "5 tagacha  yoki + 5 ta maxfiy chat"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Guruh nomi va tavsifi",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "255 tagacha belgi"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Xabar tahrirlash",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "yuborilganidan keyin 48 soat ichida; Saqlangan va cheklash huquqiga ega bo'lgan administratorlar uchun cheksiz"
       },
       "media_self_destruction": {
         "name": "Photo and video self-destruction",

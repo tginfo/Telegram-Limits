@@ -1,7 +1,7 @@
 {
-    "title": "Telegram Limits — Telegram Info",
-    "description": "Always up-to-date Telegram limits in {%year%}. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
-    "description_short": "Always up-to-date Telegram limits",
+    "title": "Telegram cheklovlari - Telegram Info",
+    "description": "Har doim zamonaviy Telegram cheklovlari {% year%}. Xabar uzunligiga cheklovlar, to'plamdagi stikerlar soni, Bot API-da xabarlarning chastotasi, ishtirokchilar soni, tahrirlash cheklovlari, faylning maksimal hajmi va boshqalar.",
+    "description_short": "Telegram cheklovlari doimo yangilanib turadi",
     "study": "| Study",
     "big_title": "Telegram Limits",
     "article_name": "Why limitations exist",

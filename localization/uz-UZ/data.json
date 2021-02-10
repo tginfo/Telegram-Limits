@@ -125,47 +125,47 @@
       "voice_chat_participants": {
         "name": "Ovozli chat ishtirokchilari",
         "hint": "",
-        "text": "up to 5,000"
+        "text": "5,000 tagacha"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "O'zgartirilgandan keyin @username zahirasi",
+        "hint": "(foydalanuvchi nomi faqat uning sobiq egasi uchun mavjud bo'lgan vaqt) ",
+        "text": "tahminan 15-30 daqiqa"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "Guruh asosiy stikerlari",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "100+ ishtirokchi bo'lgan guruhlar"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Kanallar",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "Ommaviy havolalar soni",
+        "hint": "bitta hisob raqam uchun",
+        "text": "10 tagacha (guruhlar ham)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "@username uzunligi",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 dan 32 tagacha"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Kanal nomi va tavsifi",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "255 tagacha belgi"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "Kanal adminlar soni",
+        "hint": "(shu jumladan botlar; botni faqat administrator qilib kanalingizga qo'shishingiz mumkin)",
+        "text": "50 tagacha hisob raqamlar"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Xabar tahrirlash",
         "hint": "",
-        "text": "unlimited"
+        "text": "cheklanmagan"
       },
       "subscribers": {
         "name": "Channel subscribers number",

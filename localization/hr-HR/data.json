@@ -210,12 +210,12 @@
       "single_message_length": {
         "name": "Duljina jedne poruke",
         "hint": "",
-        "text": "do 4 096 znakova"
+        "text": "do 4096 znakova"
       },
       "media_descriptions": {
         "name": "Opis medija",
         "hint": "",
-        "text": "do 1 024 znaka"
+        "text": "do 1024 znaka"
       },
       "upload_size": {
         "name": "Veličina datoteke",

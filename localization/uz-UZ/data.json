@@ -168,24 +168,24 @@
         "text": "cheklanmagan"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Kanal a'zolari soni",
         "hint": "",
-        "text": "unlimited"
+        "text": "cheklanmagan"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Ko'rinadigan a'zolar",
+        "hint": "kanal administratorlari uchun",
+        "text": "200 ta odam"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "O'chirilgan kanal",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "1K dan ortiq obunachiga ega kanallarni faqat Telegram ko'magi yordamida o'chirish mumkin"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
-        "text": "up to 5 minutes once a day"
+        "name": "Shaxsiy kanallarni kuzatish",
+        "hint": "a'zo bo'lmasdan",
+        "text": "Kuniga 5 daqiqagacha"
       },
       "invintations": {
         "name": "Inviting users",

@@ -13,12 +13,12 @@
         "text": "do 70 znakova"
       },
       "name_length": {
-        "name": "Dužina imena",
+        "name": "Duljina imena",
         "hint": "",
         "text": "1 do 64 znaka"
       },
       "last_name_length": {
-        "name": "Dužina prezimena",
+        "name": "Duljina prezimena",
         "hint": "",
         "text": "0 do 64 znaka"
       },

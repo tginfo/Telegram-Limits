@@ -1,9 +1,9 @@
 {
   "accounts": {
-    "name": "Utenti",
+    "name": "Account",
     "items": {
       "username": {
-        "name": "Nome utente",
+        "name": "Username",
         "hint": "(es. @cameraman)",
         "text": "da 5 a 32 caratteri"
       },
@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Partecipanti",
         "hint": "(il limite può essere esteso)",
-        "text": "fino a 200,000"
+        "text": "fino a 200.000"
       },
       "admins_number": {
         "name": "Numero di amministratori",
@@ -90,10 +90,10 @@
       "editing": {
         "name": "Modifica dei messaggi",
         "hint": "",
-        "text": "entro 48 ore dall'invio del messaggio; durata illimitata nei messaggi salvati e per admin con il permesso di fissare messaggi"
+        "text": "entro 48 ore dall'invio del messaggio; durata illimitata nei messaggi salvati e per amministratori con il permesso di fissare messaggi"
       },
       "media_self_destruction": {
-        "name": "Autodistruzione di media",
+        "name": "Autodistruzione di foto e video",
         "hint": "",
         "text": "da 1 a 60 secondi"
       },
@@ -109,11 +109,11 @@
       },
       "visible_messages": {
         "name": "Numero visibile di messaggi",
-        "hint": "nei gruppi",
-        "text": "ultimi 1,000,000 messaggi"
+        "hint": "nel gruppo",
+        "text": "ultimi 1.000.000 messaggi"
       },
       "pinned_messages_number": {
-        "name": "Numero dei messaggi fissati",
+        "name": "Numero di messaggi fissati",
         "hint": "",
         "text": "illimitato"
       },
@@ -129,13 +129,13 @@
       },
       "username_reservation": {
         "name": "Proprietà di un username",
-        "hint": "(tempo prima che il nome utente sia disponibile per tutti, non solo per il proprietario originale)",
+        "hint": "(tempo prima che l'usernam sia disponibile per tutti, non solo per il proprietario originale)",
         "text": "circa 15-30 minuti"
       },
       "participants_for_group_stickers": {
         "name": "Sticker del gruppo",
         "hint": "",
-        "text": "gruppi da almeno 100 partecipanti"
+        "text": "gruppi conppiù di 100 partecipanti"
       }
     }
   },

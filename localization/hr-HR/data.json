@@ -43,7 +43,7 @@
         "text": "do 200"
       },
       "video_length": {
-        "name": "Trajanje video profila",
+        "name": "Trajanje videozapisa za profil",
         "hint": "",
         "text": "do 10 sekundi"
       },
@@ -429,23 +429,23 @@
     "items": {
       "accounts_number": {
         "name": "Broj korisničkih računa",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "hint": "u @telegraph bot-u",
+        "text": "do 5 računa"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Veličina članka",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "do 64 KB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Razno",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Postavke videozapisa za profil",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, do 2 MB"
       }
     }
   }

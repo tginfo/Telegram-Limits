@@ -363,7 +363,7 @@
         "text": "עד 64 תווים"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "מספר התווים המירבי בהודעה מוקפצת (popup)",
         "hint": "",
         "text": "עד 200 תווים"
       }

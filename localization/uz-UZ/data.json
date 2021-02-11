@@ -388,32 +388,32 @@
     "name": "Stikerlar",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Qo'shilgan stikerlar soni",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "200 tagacha "
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Tanlangan stikerlar soni",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "5 tagacha "
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "To'plamlar miqdori",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "120 ta oddiy, 50 ta animatsion"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Stiker o'lchami",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "bir tomoni 512px, ikinchi tomoni ham 512px yoki undan kam, qat'iy 512x512 o'lchamda"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Animatsiya davomiyligi",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "3 daqiqagacha"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Stiker hajmi",
         "hint": "",
         "text": "up to 512 KB for static, up to 64 KB for animated"
       },

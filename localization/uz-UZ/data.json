@@ -4,7 +4,7 @@
     "items": {
       "username": {
         "name": "Foydalanuvchi nomi",
-        "hint": "(foydalanuvchi nomi; misol @cameraman)",
+        "hint": "(foydalanuvchi nomi; masalan @cameraman)",
         "text": "5 dan 32 tagacha "
       },
       "bio": {
@@ -28,9 +28,9 @@
         "text": "1, 3, 6 va 12 oy (sukut qilish 6)"
       },
       "spam_ban": {
-        "name": "Spam bloklash",
+        "name": "Spam",
         "hint": "",
-        "text": "3 kun yoki ko'proq"
+        "text": "3 kun yoki undan ko'proq"
       },
       "channels_and_chats_number": {
         "name": "Kanallar va superguruhlar soni",
@@ -64,7 +64,7 @@
     "items": {
       "participants_number": {
         "name": "Ishtirokchilar",
-        "hint": "chegara ko'tarilishi mumkin",
+        "hint": "(Cheklov oshishi mumkin)",
         "text": "200,000 tagacha"
       },
       "admins_number": {
@@ -118,7 +118,7 @@
         "text": "cheklanmagan"
       },
       "participants_to_see_stats": {
-        "name": "Statistikani ko'radigan ishtirokchilar soni",
+        "name": "Statistikani ko'rish uchun eng kam a'zolar soni(guruh yoki kanalda eng kamida shuncha a'zo bo'lsagina siz statistikani ko'ra olasiz)",
         "hint": "",
         "text": "kamida 500"
       },
@@ -158,7 +158,7 @@
         "text": "255 tagacha belgi"
       },
       "channel_admins": {
-        "name": "Kanal adminlar soni",
+        "name": "Kanaldagi adminlar soni",
         "hint": "(shu jumladan botlar; botni faqat administrator qilib kanalingizga qo'shishingiz mumkin)",
         "text": "50 tagacha hisob raqamlar"
       },
@@ -195,7 +195,7 @@
       "followers_to_see_stats": {
         "name": "Statistikani ko'rish uchun a'zolar soni",
         "hint": "",
-        "text": "kamiga 50"
+        "text": "kamida 50"
       },
       "username_reservation": {
         "name": "O'zgarishdan keyin @username zahirasi",
@@ -293,7 +293,7 @@
         "text": "5 dan 32 tagacha belgi"
       },
       "info_length": {
-        "name": "Bot malumotlari uzunligi",
+        "name": "Bot ma'lumoti uzunligi",
         "hint": "(/setabouttext)",
         "text": "120 tagacha belgi"
       },
@@ -318,7 +318,7 @@
         "text": "Soatiga 2,000 gacha"
       },
       "keys_in_keyboard_number": {
-        "name": "Knopkalar soni",
+        "name": "Tugmachalar soni",
         "hint": "",
         "text": "100 tagacha"
       },
@@ -343,22 +343,22 @@
         "text": "Soniyada 30 ta so'rov"
       },
       "bot_commands_count": {
-        "name": "Kommandlar miqdori",
+        "name": "Buyruqlar soni",
         "hint": "(BotFatherda)",
-        "text": "0 dan 100 kommandgacha"
+        "text": "0 dan 100 gacha"
       },
       "bot_command_name_length": {
-        "name": "Kommand uzunligi",
-        "hint": "(BotFatherda)",
+        "name": "Buyruq uzunligi",
+        "hint": "(BotFather'da)",
         "text": "1 dan 32 tagacha belgi"
       },
       "bot_command_description_length": {
-        "name": "Kommand tavsifi uzunligi",
-        "hint": "(BotFatherda)",
+        "name": "Buyruq tavsifi uzunligi",
+        "hint": "(BotFather'da)",
         "text": "2 dan 256 tagacha belgi"
       },
       "start_payload_size": {
-        "name": "Bot / buyruqlari uzunligi",
+        "name": "Bot/buyruqlari uzunligi",
         "hint": "",
         "text": "64 tagacha belgi"
       },
@@ -420,7 +420,7 @@
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 yoki 60"
       }
     }
   },
@@ -428,24 +428,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Hisoblar soni",
+        "hint": "@telegraph botida",
+        "text": "5 tagacha belgi"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Matn hajmi",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "64 Kb gacha"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Turli-xil",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Video avatar xususiyatlari",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800 px, 2 MB gacha"
       }
     }
   }

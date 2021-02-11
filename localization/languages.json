@@ -10,6 +10,7 @@
     "hr-HR": ["Hrvatski"],
     "pt-BR": ["Português Brasileiro"],
     "tr-TR": ["Türkçe"],
+    "sr-SP": ["Srpski"],
     "id-ID": ["Bahasa Indonesia"],
     "he-IL": ["עברית", {"isRtl": true}],
     "ar-SA": ["العربية", {"isRtl": true}],

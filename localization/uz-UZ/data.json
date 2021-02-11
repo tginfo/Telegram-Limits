@@ -365,27 +365,27 @@
       "bot_alert_length": {
         "name": "Bot ogohlantirish xabarining uzunligi",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "200 tagacha belgi"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": " Qidiruv",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Global qidiruv natijalari",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "10 tagacha; Android uchun 3 tagacha"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "So'rovlarning minimal uzunligi",
+        "hint": "global qidiruv uchun",
+        "text": "kamida 4 ta belgi"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Stikerlar",
     "items": {
       "added_packs": {
         "name": "Added packs number",

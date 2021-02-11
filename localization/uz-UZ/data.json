@@ -358,12 +358,12 @@
         "text": "2 dan 256 tagacha belgi"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Bot / buyruqlari uzunligi",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 tagacha belgi"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "Bot ogohlantirish xabarining uzunligi",
         "hint": "",
         "text": "up to 200 characters"
       }

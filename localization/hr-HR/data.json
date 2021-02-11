@@ -63,7 +63,7 @@
     "name": "Razgovori i grupe",
     "items": {
       "participants_number": {
-        "name": "Sudionici",
+        "name": "Članovi",
         "hint": "(ograničenje se može povećati na zahtjev)",
         "text": "do 200 000"
       },

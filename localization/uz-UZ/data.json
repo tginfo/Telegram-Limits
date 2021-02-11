@@ -338,24 +338,24 @@
         "text": "soniyada 30 tagacha, ommaviy suhbat va kanallarda daqiqasiga 20 tagacha"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "API chastota haqida savol",
+        "hint": "(BotSupport tomonidan ko'tarilishi mumkin)",
+        "text": "Soniyada 30 ta so'rov"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Kommandlar miqdori",
+        "hint": "(BotFatherda)",
+        "text": "0 dan 100 kommandgacha"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Kommand uzunligi",
+        "hint": "(BotFatherda)",
+        "text": "1 dan 32 tagacha belgi"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "name": "Kommand tavsifi uzunligi",
+        "hint": "(BotFatherda)",
+        "text": "2 dan 256 tagacha belgi"
       },
       "start_payload_size": {
         "name": "Bot /start payload length",

@@ -54,7 +54,7 @@
       },
       "accounts_number": {
         "name": "Број налога",
-        "hint": "(званични клијент)",
+        "hint": "(званични клијенти)",
         "text": "до 3"
       }
     }
@@ -284,7 +284,7 @@
     "items": {
       "bots_amount": {
         "name": "Број ботова",
-        "hint": "(направљени од стране @BotFather)",
+        "hint": "(направљени од стране @BotFather-а)",
         "text": "до 20 ботова"
       },
       "username length": {
@@ -334,12 +334,12 @@
       },
       "messaging_frequency": {
         "name": "Учесталост порука",
-        "hint": "(може бити повећано преко BotSupport)",
+        "hint": "(може бити повећано преко BotSupport-а)",
         "text": "до 30 порука у секунди; 20 по минуту за јавне групе и канале"
       },
       "api_requests_frequency": {
         "name": "Учесталост API захтева",
-        "hint": "(може бити повећано преко BotSupport)",
+        "hint": "(може бити повећано преко BotSupport-а)",
         "text": "до 30 захтева по секунди"
       },
       "bot_commands_count": {

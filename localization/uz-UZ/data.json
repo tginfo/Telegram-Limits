@@ -398,19 +398,19 @@
         "text": "5 tagacha "
       },
       "pack_size": {
-        "name": "To'plamlar miqdori",
+        "name": "Stiker To'plamlar miqdori",
         "hint": "",
         "text": "120 ta oddiy, 50 ta animatsion"
       },
       "sticker_size": {
         "name": "Stiker o'lchami",
         "hint": "",
-        "text": "bir tomoni 512px, ikinchi tomoni ham 512px yoki undan kam, qat'iy 512x512 o'lchamda"
+        "text": "stiker uchun 512x512 px o'lchamda. Animatsion stikerlar uchun ham 512x512 px"
       },
       "animation_duration": {
         "name": "Animatsiya davomiyligi",
         "hint": "",
-        "text": "3 daqiqagacha"
+        "text": "3 soniyagacha"
       },
       "file_size": {
         "name": "Stiker hajmi",

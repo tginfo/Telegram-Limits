@@ -63,7 +63,7 @@
     "name": "Razgovori i grupe",
     "items": {
       "participants_number": {
-        "name": "Sudionici",
+        "name": "Članovi",
         "hint": "(ograničenje se može povećati na zahtjev)",
         "text": "do 200 000"
       },
@@ -230,7 +230,7 @@
       "album_size": {
         "name": "Slika i videozapisa u jednoj poruci",
         "hint": "(album)",
-        "text": "do 10 stavaka"
+        "text": "do 10 stavki"
       },
       "delayed_messages": {
         "name": "Broj zakazanih poruka",
@@ -320,7 +320,7 @@
       "keys_in_keyboard_number": {
         "name": "Broj tipaka na tipkovnici",
         "hint": "",
-        "text": "do 100 stavaka"
+        "text": "do 100 stavki"
       },
       "formatting_data": {
         "name": "Podaci formatiranja poruke",
@@ -330,7 +330,7 @@
       "formatting_entities": {
         "name": "Stavke formatiranja",
         "hint": "(podebljano, kurziv, itd.)",
-        "text": "do 100 stavaka"
+        "text": "do 100 stavki"
       },
       "messaging_frequency": {
         "name": "Učestalost poruka",
@@ -343,9 +343,9 @@
         "text": "do 30 zahtjeva u sekundi"
       },
       "bot_commands_count": {
-        "name": "Broj naredaba",
+        "name": "Broj naredbi",
         "hint": "(u BotFatheru-u)",
-        "text": "0 do 100 naredaba"
+        "text": "0 do 100 naredbi"
       },
       "bot_command_name_length": {
         "name": "Duljina naredbe",
@@ -375,7 +375,7 @@
       "global_search": {
         "name": "Rezultati globalnog pretraživanja",
         "hint": "",
-        "text": "do 10 stavaka; do 3 za Android"
+        "text": "do 10 stavki; do 3 za Android"
       },
       "global_search_min_query": {
         "name": "Minimalna duljina upita",

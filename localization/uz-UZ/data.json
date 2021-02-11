@@ -334,7 +334,7 @@
       },
       "messaging_frequency": {
         "name": "Xabarlar chastotasi",
-        "hint": "(can be raised by BotSupport)",
+        "hint": "(BotSupport tomonidan ko'tarilishi mumkin)",
         "text": "soniyada 30 tagacha, ommaviy suhbat va kanallarda daqiqasiga 20 tagacha"
       },
       "api_requests_frequency": {

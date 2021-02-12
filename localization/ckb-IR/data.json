@@ -5,12 +5,12 @@
       "username": {
         "name": "ناوی بەکارهێنەر",
         "hint": "(بۆ نموونە: @cameraman)",
-        "text": "5 بۆ 32 نووسە"
+        "text": "5 بۆ 32 کاراکتەر"
       },
       "bio": {
         "name": "ژیاننامە",
         "hint": "",
-        "text": "تا 70 نووسە ڕێگەپێدراوە"
+        "text": "تا 70 کاراکتەر ڕێپێدراوە"
       },
       "name_length": {
         "name": "درێژیی ناوی یەکەم",
@@ -288,7 +288,7 @@
         "text": "تا 20 دانە"
       },
       "username length": {
-        "name": "درێژی @username",
+        "name": "درێژیی @username",
         "hint": "بۆ بۆتەکان",
         "text": "5 بۆ 32 کاراکتەر"
       },
@@ -348,12 +348,12 @@
         "text": "0 بۆ 100 فەرمان"
       },
       "bot_command_name_length": {
-        "name": "درێژی فەرمان",
+        "name": "درێژیی فەرمان",
         "hint": "(لە BotFather)",
         "text": "1 بۆ 32 نووسە"
       },
       "bot_command_description_length": {
-        "name": "درێژی پێناسەی فەرمان",
+        "name": "درێژیی پێناسەی فەرمان",
         "hint": "(لە BotFather)",
         "text": "2 بۆ 256 کاراکتەر"
       },

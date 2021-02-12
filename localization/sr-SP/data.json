@@ -329,7 +329,7 @@
       },
       "formatting_entities": {
         "name": "Форматирање текста",
-        "hint": "(подебљано, укошено итд.)",
+        "hint": "(подебљано, курзив, итд.)",
         "text": "до 100 ставки"
       },
       "messaging_frequency": {
@@ -349,12 +349,12 @@
       },
       "bot_command_name_length": {
         "name": "Дужина наредбе",
-        "hint": "(у BotFather)",
+        "hint": "(у BotFather-у)",
         "text": "од 1 до 32 знака"
       },
       "bot_command_description_length": {
         "name": "Дужина описа наредбе",
-        "hint": "(у BotFather)",
+        "hint": "(у BotFather-у)",
         "text": "од 2 до 256 знакова"
       },
       "start_payload_size": {

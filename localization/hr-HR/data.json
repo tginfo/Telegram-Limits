@@ -180,7 +180,7 @@
       "channel_deletion": {
         "name": "Brisanje kanala",
         "hint": "",
-        "text": "kanali s više od 1000 pretplatnika mobu biti izbrisan jedino preko Telegramove podrške"
+        "text": "kanali s više od 1000 pretplatnika mogu biti izbrisani jedino preko Telegramove podrške"
       },
       "private_channel_access": {
         "name": "Pristup privatnim kanalima",

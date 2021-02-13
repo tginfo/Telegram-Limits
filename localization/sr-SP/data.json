@@ -100,12 +100,12 @@
       "recent_actions": {
         "name": "Недавне радње",
         "hint": "(праћења, објаве, итд.)",
-        "text": "траје два дана"
+        "text": "последња два дана"
       },
       "mentions_amount": {
         "name": "Спомињање чланова",
         "hint": "у једној поруци",
-        "text": "до 50, у супротном обавештења неће да се пошаљу"
+        "text": "до 50, у супротном обавештења неће бити послата"
       },
       "visible_messages": {
         "name": "Број видљивих порука",
@@ -260,7 +260,7 @@
     }
   },
   "people_nearby": {
-    "name": "Особе у близини",
+    "name": "Људи у близини",
     "items": {
       "range": {
         "name": "Домет видљивости",
@@ -284,7 +284,7 @@
     "items": {
       "bots_amount": {
         "name": "Број ботова",
-        "hint": "(направљени од стране @BotFather-а)",
+        "hint": "(које је направио @BotFather)",
         "text": "до 20 ботова"
       },
       "username length": {
@@ -329,7 +329,7 @@
       },
       "formatting_entities": {
         "name": "Форматирање текста",
-        "hint": "(подебљано, укошено итд.)",
+        "hint": "(подебљано, курзив, итд.)",
         "text": "до 100 ставки"
       },
       "messaging_frequency": {
@@ -349,12 +349,12 @@
       },
       "bot_command_name_length": {
         "name": "Дужина наредбе",
-        "hint": "(у BotFather)",
+        "hint": "(у BotFather-у)",
         "text": "од 1 до 32 знака"
       },
       "bot_command_description_length": {
         "name": "Дужина описа наредбе",
-        "hint": "(у BotFather)",
+        "hint": "(у BotFather-у)",
         "text": "од 2 до 256 знакова"
       },
       "start_payload_size": {

@@ -64,7 +64,7 @@
     "items": {
       "participants_number": {
         "name": "Чланови",
-        "hint": "(ограничење може да се достигне)",
+        "hint": "(ограничење може да се повећа)",
         "text": "до 200.000"
       },
       "admins_number": {
@@ -344,7 +344,7 @@
       },
       "bot_commands_count": {
         "name": "Број наредби",
-        "hint": "(у BotFather)",
+        "hint": "(у BotFather-у)",
         "text": "од 0 до 100 наредби"
       },
       "bot_command_name_length": {

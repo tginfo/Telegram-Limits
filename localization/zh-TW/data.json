@@ -298,19 +298,19 @@
         "text": "最多 120 個字元"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "機器人描述長度",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "最多 512 個字元"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
-        "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "name": "檔案上載限制",
+        "hint": "(機器人 API)",
+        "text": "最大 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
-        "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "name": "檔案下載限制",
+        "hint": "(機器人 API)",
+        "text": "最大 20 MB"
       },
       "forwarding": {
         "name": "Message forwarding",

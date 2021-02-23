@@ -313,9 +313,9 @@
         "text": "最大 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "信息轉發",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "每小時最多 2000 次"
       },
       "keys_in_keyboard_number": {
         "name": "Keyboard buttons number",

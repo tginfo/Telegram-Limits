@@ -158,9 +158,9 @@
         "text": "up to 255 characters"
       },
       "channel_admins": {
-        "name": "Channel admins number",
+        "name": "頻道管理員人數",
         "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "text": "最多 50 個賬户"
       },
       "editing": {
         "name": "Posts editing",
@@ -280,11 +280,11 @@
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "機器人",
     "items": {
       "bots_amount": {
         "name": "Bots number",
-        "hint": "(created by @BotFather)",
+        "hint": "(透過 @BotFather 創建)",
         "text": "up to 20 items"
       },
       "username length": {
@@ -293,9 +293,9 @@
         "text": "5 to 32 characters"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "機器人資訊長度",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "最多 120 個字元"
       },
       "description_length": {
         "name": "Bot description length",

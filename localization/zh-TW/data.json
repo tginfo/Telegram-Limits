@@ -118,9 +118,9 @@
         "text": "無上限"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "查看統計數據所需人數",
         "hint": "",
-        "text": "at least 500"
+        "text": "至少 500"
       },
       "voice_chat_participants": {
         "name": "Voice Chat participants",

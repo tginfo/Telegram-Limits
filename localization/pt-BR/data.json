@@ -133,9 +133,9 @@
         "text": "cerca de 15-30 minutos"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "Adesivos promovidos por grupo",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "grupos com 100+ participantes"
       }
     }
   },
@@ -158,8 +158,8 @@
         "text": "até 255 caracteres"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "name": "Número de administradores no canal",
+        "hint": "(incluindo bots; você pode adicionar um bot ao seu canal apenas tornando-o um administrador)",
         "text": "até 50 contas"
       },
       "editing": {

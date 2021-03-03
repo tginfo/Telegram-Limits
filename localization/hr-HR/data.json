@@ -34,7 +34,7 @@
       },
       "channels_and_chats_number": {
         "name": "Broj kanala i supergrupa",
-        "hint": "možete biti član",
+        "hint": "u kojima možete biti član",
         "text": "do 500 (uključujući i one koje su vaše)"
       },
       "gifs_number": {
@@ -64,7 +64,7 @@
     "items": {
       "participants_number": {
         "name": "Članovi",
-        "hint": "(ograničenje se može povećati na zahtjev)",
+        "hint": "(ograničenje se može povećati)",
         "text": "do 200 000"
       },
       "admins_number": {

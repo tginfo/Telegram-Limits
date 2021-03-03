@@ -118,9 +118,9 @@
         "text": "無上限"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "查看統計數據所需人數",
         "hint": "",
-        "text": "at least 500"
+        "text": "至少 500"
       },
       "voice_chat_participants": {
         "name": "Voice Chat participants",
@@ -158,9 +158,9 @@
         "text": "up to 255 characters"
       },
       "channel_admins": {
-        "name": "Channel admins number",
+        "name": "頻道管理員人數",
         "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "text": "最多 50 個賬户"
       },
       "editing": {
         "name": "Posts editing",
@@ -280,11 +280,11 @@
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "機器人",
     "items": {
       "bots_amount": {
         "name": "Bots number",
-        "hint": "(created by @BotFather)",
+        "hint": "(透過 @BotFather 創建)",
         "text": "up to 20 items"
       },
       "username length": {
@@ -293,29 +293,29 @@
         "text": "5 to 32 characters"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "機器人資訊長度",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "最多 120 個字元"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "機器人描述長度",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "最多 512 個字元"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
-        "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "name": "檔案上載限制",
+        "hint": "(機器人 API)",
+        "text": "最大 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
-        "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "name": "檔案下載限制",
+        "hint": "(機器人 API)",
+        "text": "最大 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "信息轉發",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "每小時最多 2000 次"
       },
       "keys_in_keyboard_number": {
         "name": "Keyboard buttons number",

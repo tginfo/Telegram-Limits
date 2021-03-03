@@ -1,6 +1,6 @@
 {
     "title": "Telegram 限制 - Telegram 資訊",
-    "description": "Always up-to-date Telegram limits in {%year%}. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
+    "description": "{%year%} 年持續更新的 Telegram 限制。有關訊息長度、貼圖包貼圖數量、機器人 API 訊息頻率、群組人數、編輯、最大檔案等限制。",
     "description_short": "Telegram 限制最新資訊",
     "study": "| 研究",
     "big_title": "Telegram 限制",

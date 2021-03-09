@@ -363,7 +363,7 @@
         "text": "bis zu 64 Zeichen"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "Länge einer Bot-Meldung",
         "hint": "",
         "text": "bis zu 200 Zeichen"
       }

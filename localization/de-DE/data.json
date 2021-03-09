@@ -159,7 +159,7 @@
       },
       "channel_admins": {
         "name": "Anzahl der Kanaladmins",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "hint": "(einschließlich Bots; du kannst einen Bot nur zu deinem Kanal hinzufügen, indem du ihn zum Admin machst)",
         "text": "bis zu 50 Accounts"
       },
       "editing": {

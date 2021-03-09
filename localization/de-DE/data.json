@@ -123,9 +123,9 @@
         "text": "mindestens 500"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "Sprachchat-Teilnehmer",
         "hint": "",
-        "text": "up to 5,000"
+        "text": "bis zu 5.000"
       },
       "username_reservation": {
         "name": "Reservierung des Nutzernamens bei Änderung",
@@ -158,9 +158,9 @@
         "text": "bis zu 255 Zeichen"
       },
       "channel_admins": {
-        "name": "Channel admins number",
+        "name": "Anzahl der Kanaladmins",
         "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "text": "bis zu 50 Accounts"
       },
       "editing": {
         "name": "Beitragsbearbeitung",
@@ -365,7 +365,7 @@
       "bot_alert_length": {
         "name": "Bot alert message length",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "bis zu 200 Zeichen"
       }
     }
   },

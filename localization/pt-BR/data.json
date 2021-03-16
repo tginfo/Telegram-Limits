@@ -159,32 +159,32 @@
       },
       "channel_admins": {
         "name": "Número de admins em canais",
-        "hint": "(incluindo bots; você pode adicionar um bot ao seu canal apenas tornando-o um administrador)",
+        "hint": "(incluindo bots; você só pode adicionar um bot ao seu canal como um administrador)",
         "text": "até 50 contas"
       },
       "editing": {
-        "name": "Edição de posts",
+        "name": "Edição de mensagens",
         "hint": "",
-        "text": "ilimitado"
+        "text": "ilimitada"
       },
       "subscribers": {
-        "name": "Número de inscritos do canal",
+        "name": "Número de inscritos em canais",
         "hint": "",
         "text": "ilimitado"
       },
       "visible_participants": {
         "name": "Inscritos visíveis",
-        "hint": "para o admin do canal",
+        "hint": "para admins do canal",
         "text": "200 pessoas"
       },
       "channel_deletion": {
         "name": "Exclusão de canal",
         "hint": "",
-        "text": "canais com mais de 1K inscritos só podem ser excluídos com o suporte do Telegram"
+        "text": "canais com mais de 1K de inscritos só podem ser excluídos com o suporte do Telegram"
       },
       "private_channel_access": {
-        "name": "Acesso ao canal privado",
-        "hint": "sem se inscrever",
+        "name": "Acesso a canais privados",
+        "hint": "sem entrar",
         "text": "até 5 minutos por dia"
       },
       "invintations": {
@@ -263,7 +263,7 @@
     "name": "Pessoas Próximas",
     "items": {
       "range": {
-        "name": "Alcance de visibilidade",
+        "name": "Raio de alcance",
         "hint": "",
         "text": "cerca de 12 quilômetros"
       },
@@ -293,7 +293,7 @@
         "text": "5 a 32 caracteres"
       },
       "info_length": {
-        "name": "Tamanho da info do bot",
+        "name": "Tamanho da info de bots",
         "hint": "(/setabouttext)",
         "text": "até 120 caracteres"
       },
@@ -303,7 +303,7 @@
         "text": "até 512 caracteres"
       },
       "upload_limit_botapi": {
-        "name": "Limite de upload de arquivos",
+        "name": "Limite de envio de arquivos",
         "hint": "(BotAPI)",
         "text": "até 50 MB"
       },
@@ -318,7 +318,7 @@
         "text": "até 2.000 por hora"
       },
       "keys_in_keyboard_number": {
-        "name": "Número de botões do teclado",
+        "name": "Número de botões do painel",
         "hint": "",
         "text": "até 100 botões"
       },
@@ -334,12 +334,12 @@
       },
       "messaging_frequency": {
         "name": "Frequência de mensagens",
-        "hint": "(pode ser aumentado pelo BotSupport)",
+        "hint": "(pode ser aumentada pelo BotSupport)",
         "text": "até 30 mensagens por segundo; 20 por minuto para chats e canais públicos"
       },
       "api_requests_frequency": {
-        "name": "Frequência de requisições da API",
-        "hint": "(pode ser aumentado pelo BotSupport)",
+        "name": "Frequência de requisições de API",
+        "hint": "(pode ser aumentada pelo BotSupport)",
         "text": "até 30 requisições por segundo"
       },
       "bot_commands_count": {
@@ -348,7 +348,7 @@
         "text": "0 a 100 comandos"
       },
       "bot_command_name_length": {
-        "name": "Comprimento do comando",
+        "name": "Tamanho do comando",
         "hint": "(no BotFather)",
         "text": "de 1 a 32 caracteres"
       },

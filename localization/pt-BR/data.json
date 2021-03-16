@@ -78,7 +78,7 @@
         "text": "até 20"
       },
       "pinned_number": {
-        "name": "Chats fixados na lista principal",
+        "name": "Chats fixados na tela inicial",
         "hint": "",
         "text": "até 5 chats ou canais + 5 chats secretos"
       },
@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Participantes do chat de voz",
         "hint": "",
-        "text": "até 5,000"
+        "text": "até 5.000"
       },
       "username_reservation": {
         "name": "Reserva de alteração de nome de usuário",
@@ -133,9 +133,9 @@
         "text": "cerca de 15-30 minutos"
       },
       "participants_for_group_stickers": {
-        "name": "Adesivos promovidos por grupo",
+        "name": "Stickers do grupo",
         "hint": "",
-        "text": "grupos com 100+ participantes"
+        "text": "grupos com +100 participantes"
       }
     }
   },
@@ -148,7 +148,7 @@
         "text": "até 10 (incluindo os grupos)"
       },
       "username_length": {
-        "name": "Tamanho de @nome",
+        "name": "Tamanho de @usuario",
         "hint": "",
         "text": "5 a 32 caracteres"
       },
@@ -158,7 +158,7 @@
         "text": "até 255 caracteres"
       },
       "channel_admins": {
-        "name": "Número de administradores no canal",
+        "name": "Número de admins em canais",
         "hint": "(incluindo bots; você pode adicionar um bot ao seu canal apenas tornando-o um administrador)",
         "text": "até 50 contas"
       },
@@ -288,7 +288,7 @@
         "text": "até 20 itens"
       },
       "username length": {
-        "name": "Tamanho de @nome",
+        "name": "Tamanho de @usuario",
         "hint": "para bots",
         "text": "5 a 32 caracteres"
       },
@@ -298,7 +298,7 @@
         "text": "até 120 caracteres"
       },
       "description_length": {
-        "name": "Tamanho da descrição do bot",
+        "name": "Tamanho da descrição de bots",
         "hint": "",
         "text": "até 512 caracteres"
       },
@@ -358,12 +358,12 @@
         "text": "de 2 a 256 caracteres"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Tamanho do payload /start de bots",
         "hint": "",
         "text": "até 64 caracteres"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "Tamanho da mensagem de alerta de bots",
         "hint": "",
         "text": "até 200 caracteres"
       }

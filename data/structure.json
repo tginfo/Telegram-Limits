@@ -313,7 +313,7 @@
             },
             {
                 "id": "username_resolve_limit",
-                "icon": "offline_bolt",
+                "icon": "offline_bolt"
             }
         ]
     },
@@ -367,7 +367,7 @@
             },
             {
                 "id": "stickerpack_name_length",
-                "icon": "text_rotation_none",
+                "icon": "text_rotation_none"
             }
         ]
     },

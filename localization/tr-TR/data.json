@@ -368,7 +368,7 @@
         "text": "200 karaktere kadar"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
+        "name": "Kullanıcı adı çözüm sınırı",
         "hint": "(hem botlar hem de kullanıcı hesapları için)",
         "text": "günlük 200 kullanıcı adına kadar"
       }

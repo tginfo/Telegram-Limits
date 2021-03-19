@@ -369,8 +369,8 @@
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "hint": "(hem botlar hem de kullanıcı hesapları için)",
+        "text": "günlük 200 kullanıcı adına kadar"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "30 veya 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Paket adı uzunluğu",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 karaktere kadar"
       }
     }
   },

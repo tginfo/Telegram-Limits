@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "מספר המשתתפים בצ'אט קולי",
         "hint": "",
-        "text": "עד ל 5,000"
+        "text": "unlimited"
       },
       "username_reservation": {
         "name": "זמן שינוי שם משתמש לקבוצות",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "עריכת פוסטים",
         "hint": "",
-        "text": "ללא הגבלה"
+        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated)"
       },
       "subscribers": {
         "name": "מספר החברים בערוץ",
@@ -366,6 +366,11 @@
         "name": "מספר התווים המירבי בהודעה מוקפצת (popup)",
         "hint": "",
         "text": "עד 200 תווים"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -421,6 +426,11 @@
         "name": "פריימים לשנייה",
         "hint": "",
         "text": "30 או 60"
+      },
+      "stickerpack_name_length": {
+        "name": "Pack name length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

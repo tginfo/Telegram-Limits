@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Sesli Sohbet katılımcıları",
         "hint": "",
-        "text": "unlimited"
+        "text": "sınırsız"
       },
       "username_reservation": {
         "name": "Kullanıcı adı değişim rezervasyonu",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "Paylaşım düzenleme",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "sınırsız (kanal bir tartışma grubuna bağlıysa, 2 haftadan eski gönderiler sohbette güncellenmez)"
       },
       "subscribers": {
         "name": "Kanal abone sayısı",

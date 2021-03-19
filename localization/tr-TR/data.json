@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Sesli Sohbet katılımcıları",
         "hint": "",
-        "text": "unlimited"
+        "text": "sınırsız"
       },
       "username_reservation": {
         "name": "Kullanıcı adı değişim rezervasyonu",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "Paylaşım düzenleme",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "sınırsız (kanal bir tartışma grubuna bağlıysa, 2 haftadan eski gönderiler sohbette güncellenmez)"
       },
       "subscribers": {
         "name": "Kanal abone sayısı",
@@ -368,9 +368,9 @@
         "text": "200 karaktere kadar"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Kullanıcı adı çözüm sınırı",
+        "hint": "(hem botlar hem de kullanıcı hesapları için)",
+        "text": "günlük 200 kullanıcı adına kadar"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "30 veya 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Paket adı uzunluğu",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 karaktere kadar"
       }
     }
   },

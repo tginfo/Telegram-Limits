@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "شرکت‌کنندگان گفتگوی صوتی",
         "hint": "",
-        "text": "unlimited"
+        "text": "نامحدود"
       },
       "username_reservation": {
         "name": "رزرو تغییر نام کاربری",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "تصحيح کردن پست ها",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "نامحدود (اگر کانال یک گروه گفتگو لینک شده داشته باشد، پست‌های قدیمی‌تر از ۲ هفته در گفتگو بروزرسانی نخواهند شد)"
       },
       "subscribers": {
         "name": "تعداد دنبال کنندگان کانال",
@@ -368,9 +368,9 @@
         "text": "تا 200 کارکتر"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "محدودیت حل کردن (Resolve) نام‌کاربری",
+        "hint": "(هم برای ربات‌ها و هم برای حساب‌های کاربری)",
+        "text": "روزانه تا ۲۰۰ نام کاربری"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "هم 30 و هم 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "طول نام بسته‌",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "تا 64 کارکتر"
       }
     }
   },

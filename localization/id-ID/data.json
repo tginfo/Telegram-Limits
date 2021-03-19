@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Partisipan Pesan Suara",
         "hint": "",
-        "text": "unlimited"
+        "text": "tak terbatas"
       },
       "username_reservation": {
         "name": "Reservasi perubahan username",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "Perubahan postingan",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "tak terbatas (jika channel miliki grup diskusi yang terhubung, postingan yang lebih lama dari 2 minggu tidak akan diperbarui di obrolan)"
       },
       "subscribers": {
         "name": "Jumlah pelanggan channel",
@@ -368,9 +368,9 @@
         "text": "hingga 200 karakter"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Batas menetapkan username",
+        "hint": "(untuk bot dan akun pengguna)",
+        "text": "hingga 200 username per hari"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "antara 30 atau 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Panjang nama paket",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "hingga 64 karakter"
       }
     }
   },

@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Учасники голосового чату",
         "hint": "",
-        "text": "unlimited"
+        "text": "необмежено"
       },
       "username_reservation": {
         "name": "Бронювання @username після зміни",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "Редагування постів",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated)"
+        "text": "необмежено (якщо до каналу прив'язано групу, записи старіше за 2 тижні не буде оновлено у чаті)"
       },
       "subscribers": {
         "name": "Кількість підписників каналу",
@@ -368,9 +368,9 @@
         "text": "до 200 символів"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Пошук користувачів за username",
+        "hint": "(для ботів і користувачів)",
+        "text": "до 200 імен користувачів щоденно"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "30 або 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Довжина назви набору",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "до 64 символів"
       }
     }
   },

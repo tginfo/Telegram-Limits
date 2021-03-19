@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Учесници гласовног ћаскања",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограничено"
       },
       "username_reservation": {
         "name": "Резервација промене корисничког имена",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "Уређивање објаве",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "неограничено (ако канал има повезану групу за дискусију, објаве старије од две недеље неће бити ажуриране у групи)"
       },
       "subscribers": {
         "name": "Број пратилаца канала",
@@ -369,8 +369,8 @@
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "hint": "(за ботове и корисничке налоге)",
+        "text": "до 200 корисничких имена дневно"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "30 или 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Дужина назива пакета",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "до 64 знака"
       }
     }
   },

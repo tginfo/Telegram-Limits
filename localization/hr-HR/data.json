@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Broj sudionika u glasovnom razgovoru",
         "hint": "",
-        "text": "unlimited"
+        "text": "neograničeno"
       },
       "username_reservation": {
         "name": "Rezervacija korisničkog imena nakon promjene",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "Uređivanje objava",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "neograničeno (ako je kanal povezan s grupom za komentiranje, tada objave starije od 2 tjedna neće biti ažurirane u razgovoru)"
       },
       "subscribers": {
         "name": "Broj pretplatnika na kanal",
@@ -368,9 +368,9 @@
         "text": "do 200 znakova"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Rješavanje korisničkog imena",
+        "hint": "(za botove i korisničke račune)",
+        "text": "do 200 korisničkih imena dnevno"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "ili 30 ili 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Duljina naziva paketa",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "do 64 znaka"
       }
     }
   },

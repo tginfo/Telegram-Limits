@@ -369,7 +369,7 @@
       },
       "username_resolve_limit": {
         "name": "Limit rozwiązywania nazwy użytkownika",
-        "hint": "(dla zarówno botów, jak i kont użytkowników)",
+        "hint": "(zarówno dla botów, jak i kont użytkowników)",
         "text": "do 200 nazw użytkowników dziennie"
       }
     }

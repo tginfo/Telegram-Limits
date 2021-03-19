@@ -310,6 +310,10 @@
             {
                 "id": "bot_alert_length",
                 "icon": "announcement"
+            },
+            {
+                "id": "username_resolve_limit",
+                "icon": "offline_bolt",
             }
         ]
     },
@@ -360,6 +364,10 @@
             {
                 "id": "fps",
                 "icon": "speed"
+            },
+            {
+                "id": "stickerpack_name_length",
+                "icon": "text_rotation_none",
             }
         ]
     },

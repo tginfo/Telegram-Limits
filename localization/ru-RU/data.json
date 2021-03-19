@@ -90,7 +90,7 @@
       "editing": {
         "name": "Редактирование сообщений",
         "hint": "",
-        "text": "в течение 48 часов после отправки; неограничено в Сохранённых и для администраторов с правами закрепления"
+        "text": "в течение 48 часов после отправки; неограниченно в Сохранённых и для администраторов с правами закрепления"
       },
       "media_self_destruction": {
         "name": "Самоуничтожение фото или видео",
@@ -115,7 +115,7 @@
       "pinned_messages_number": {
         "name": "Количество закреплённых сообщений",
         "hint": "",
-        "text": "неограничено"
+        "text": "неограниченно"
       },
       "participants_to_see_stats": {
         "name": "Количество участников для открытия статистики",
@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Участники голосового чата",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограниченно"
       },
       "username_reservation": {
         "name": "Резервирование @username после смены",
@@ -165,12 +165,12 @@
       "editing": {
         "name": "Редактирование постов",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated)"
+        "text": "неограниченно (если к каналу привязана группа, записи старее 2 недель не будут обновлены в чате)"
       },
       "subscribers": {
         "name": "Количество читателей канала",
         "hint": "",
-        "text": "неограничено"
+        "text": "неограниченно"
       },
       "visible_participants": {
         "name": "Видимые участники",
@@ -368,9 +368,9 @@
         "text": "до 200 символов"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Поиск пользователей по username",
+        "hint": "(для ботов и пользователей)",
+        "text": "до 200 username'ов ежедневно"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "30 или 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Длина имени пака",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "до 64 символов"
       }
     }
   },

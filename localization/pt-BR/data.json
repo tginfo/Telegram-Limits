@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "Participantes do chat de voz",
         "hint": "",
-        "text": "até 5.000"
+        "text": "unlimited"
       },
       "username_reservation": {
         "name": "Reserva de alteração de nome de usuário",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "Edição de mensagens",
         "hint": "",
-        "text": "ilimitada"
+        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
       },
       "subscribers": {
         "name": "Número de inscritos em canais",
@@ -366,6 +366,11 @@
         "name": "Tamanho da mensagem de alerta de bots",
         "hint": "",
         "text": "até 200 caracteres"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -421,6 +426,11 @@
         "name": "FPS",
         "hint": "",
         "text": "30 ou 60"
+      },
+      "stickerpack_name_length": {
+        "name": "Pack name length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "بەشداربووانی وتووێژی دەنگی",
         "hint": "",
-        "text": "تا 5,000"
+        "text": "unlimited"
       },
       "username_reservation": {
         "name": "پاشپارێزی گۆڕینی ناوی بەکارهێنەر",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "دەستکاریکردنی پۆستەکان",
         "hint": "",
-        "text": "بێسنوور"
+        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
       },
       "subscribers": {
         "name": "ژمارەی بەشداربووانی کەناڵ",
@@ -366,6 +366,11 @@
         "name": "درێژیی پەیامی وریاکەری بۆت",
         "hint": "",
         "text": "تا 200 کارەکتەر"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -421,6 +426,11 @@
         "name": "ئێف پی ئێس",
         "hint": "",
         "text": "30 یان 60"
+      },
+      "stickerpack_name_length": {
+        "name": "Pack name length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

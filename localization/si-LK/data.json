@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "කථන සංවාදයක සහභාගීන්",
         "hint": "",
-        "text": "5,000 ක් දක්වා"
+        "text": "unlimited"
       },
       "username_reservation": {
         "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "පළකිරීම් සංස්කරණය",
         "hint": "",
-        "text": "අසීමිතයි"
+        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
       },
       "subscribers": {
         "name": "නාලිකාවක ග්‍රාහකයින් ගණන",
@@ -366,6 +366,11 @@
         "name": "Bot alert message length",
         "hint": "",
         "text": "up to 200 characters"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -421,6 +426,11 @@
         "name": "තත්පරයකට රූපරාමු",
         "hint": "",
         "text": "30 හෝ 60"
+      },
+      "stickerpack_name_length": {
+        "name": "Pack name length",
+        "hint": "",
+        "text": "up to 64 characters"
       }
     }
   },

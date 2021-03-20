@@ -184,7 +184,7 @@
       },
       "private_channel_access": {
         "name": "Akses channel privat",
-        "hint": "tanpa pelanggan",
+        "hint": "tanpa berlangganan",
         "text": "hingga 5 sekali per hari"
       },
       "invintations": {

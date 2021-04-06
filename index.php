@@ -54,7 +54,6 @@ $markup = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?= BASE ?>/assets/styles/style.css">
     <link rel="stylesheet" href="<?= BASE ?>/assets/styles/dark.css" media="(prefers-color-scheme: dark)">
     <link rel="stylesheet" href="<?= BASE ?>/assets/styles/print.css" media="print">
     <!-- Primary Meta Tags -->
@@ -87,6 +86,11 @@ $markup = [
     ?>
 
     <title data-lang="title"><?= __("title", UCOMP) ?></title>
+    <style>
+        <?= file_get_contents("./assets/styles/style.css"); ?>
+    </style>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap"></noscript>
     <script>
         window.data =
             <?= json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_UNICODE) ?>
@@ -226,7 +230,6 @@ $markup = [
 
         </div>
     </footer>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <script src="<?= BASE ?>/assets/scripts/main.js"></script>
 </body>
 

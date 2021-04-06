@@ -54,8 +54,6 @@ $markup = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?= BASE ?>/assets/styles/dark.css" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="<?= BASE ?>/assets/styles/print.css" media="print">
     <!-- Primary Meta Tags -->
     <meta name="title" content="<?= __("title", UCOMP) ?>" data-lang="title">
     <meta name="description" content="<?= __("description", UCOMP, ["year" => date("Y")]) ?>" data-lang="description">
@@ -91,6 +89,8 @@ $markup = [
     </style>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@400;500&display=swap"></noscript>
+    <link rel="stylesheet" href="<?= BASE ?>/assets/styles/dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="<?= BASE ?>/assets/styles/print.css" media="print">
     <script>
         window.data =
             <?= json_encode($data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_UNICODE) ?>

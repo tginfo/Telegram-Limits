@@ -217,6 +217,9 @@ md-icon {
     white-space: nowrap;
     word-wrap: normal;
     -webkit-font-smoothing: antialiased;
+    width: 1em;
+    min-width: 1em;
+    max-width: 1em;
 }
 
 .searchbox {

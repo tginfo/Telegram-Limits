@@ -145,7 +145,7 @@ $markup = [
         <main>
             <div class="content">
                 <label class="searchbox" for="search">
-                    <md-icon aria-hidden="true">search</md-icon>
+                    <md-icon aria-hidden="true">&#xe8b6;</md-icon>
                     <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
                 </label>
                 <div id="results">
@@ -214,7 +214,7 @@ $markup = [
             </div>
             <div class="data"><a href="https://tginfo.me/" data-lang="homepage"><?= __("homepage", UCOMP) ?></a> |
                 <a href="#" onclick="return langSwitch(this, event)" id="langswitchlabel">
-                    <md-icon id="langicon" aria-hidden="true">language</md-icon>
+                    <md-icon id="langicon" aria-hidden="true">&#xe894;</md-icon>
                     <?= strtoupper(substr($lang, 0, 2)) ?>
                 </a>
             </div>

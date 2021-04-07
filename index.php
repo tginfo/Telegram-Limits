@@ -123,7 +123,11 @@ $markup = [
             <div class="title">
                 <div class="logo">
                     <a href="https://tginfo.me">
-                        <img src="<?= BASE ?>/assets/images/tginfo.png" alt="Telegram Info logo">
+                        <picture>
+                            <source srcset="<?= BASE ?>/assets/images/tginfo.webp" type="image/webp">
+                            <source srcset="<?= BASE ?>/assets/images/tginfo.jpg" type="image/jpeg"> 
+                            <img src="<?= BASE ?>/assets/images/tginfo.png" alt="Telegram Info logo">
+                        </picture>
                         <span class="bold">Telegram</span>
                         <span class="middle">Info</span>
                     </a>
@@ -189,7 +193,11 @@ $markup = [
     </div>
     <footer>
         <div class="logo">
-            <img src="<?= BASE ?>/assets/images/tginfologo.jpg" alt="Telegram Info logo">
+            <picture>
+                <source srcset="<?= BASE ?>/assets/images/tginfologo.webp" type="image/webp">
+                <source srcset="<?= BASE ?>/assets/images/tginfologo.jpg" type="image/jpeg"> 
+                <img src="<?= BASE ?>/assets/images/tginfologo.jpg" alt="Telegram Info logo">
+            </picture>
         </div>
         <div class="side">
             <div class="name">

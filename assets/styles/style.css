@@ -1,5 +1,5 @@
 @font-face {
-    font-family: material icons outlined;
+    font-family: 'Material Icons';
     font-style: normal;
     font-weight: 400;
     font-display: block;
@@ -202,7 +202,7 @@ main>.content {
 }
 
 md-icon {
-    font-family: material icons outlined;
+    font-family: 'Material Icons';
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;

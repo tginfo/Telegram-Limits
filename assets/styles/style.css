@@ -355,7 +355,7 @@ footer {
     position: relative;
 }
 
-footer>.logo>img {
+footer>.logo img {
     border-radius: 50%;
     width: 5em;
 }

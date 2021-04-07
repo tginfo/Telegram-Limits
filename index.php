@@ -15,6 +15,7 @@ if (!$data && $lang !== $supported_langs[""]) {
     exit();
 }
 
+/*
 $main_qa = [];
 
 $main_qa[] = [
@@ -45,6 +46,7 @@ $markup = [
     "name" => __("big_title"),
     "mainEntity" => $main_qa,
 ];
+*/
 
 
 ?>
@@ -103,12 +105,13 @@ $markup = [
     <script>
         <?= file_get_contents("./assets/scripts/screen.js") ?>
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38971936-4"></script>
     <script>window.dataLayer = window.dataLayer || [];function gtag() {dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-38971936-4', {'page_path': '/limits'});</script>
-    <script type="application/ld+json">
+    <?php
+    /*<script type="application/ld+json">
         <?= json_encode($markup); ?>
-    </script>
+    </script>*/
+    ?>
 </head>
 
 <body>

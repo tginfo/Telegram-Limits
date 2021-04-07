@@ -53,6 +53,9 @@ $markup = [
 
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://badges.crowdin.net" />
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary Meta Tags -->
     <meta name="title" content="<?= __("title", UCOMP) ?>" data-lang="title">
@@ -72,7 +75,9 @@ $markup = [
     <meta property="twitter:title" content="<?= __("title", UCOMP) ?>" data-lang="title">
     <meta property="twitter:description" content="<?= __("description_short", UCOMP) ?>" data-lang="description_short">
     <meta property="twitter:image" content="<?= BASE ?>/assets/images/previews/<?= $lang ?>/twitter.png" data-lang="preview_twitter">
-
+    
+    <link rel="preload" as="script" href="<?= BASE ?>/assets/scripts/main.js" />
+    
     <link rel="alternate" href="<?= BASE ?>/<?= $lang ?>" hreflang="x-default" rel="canonical" />
     <?php
     foreach ($supported_langs as $key => $value) {
@@ -100,18 +105,7 @@ $markup = [
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38971936-4"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-38971936-4', {
-            'page_path': '/limits'
-        });
-    </script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag() {dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-38971936-4', {'page_path': '/limits'});</script>
     <script type="application/ld+json">
         <?= json_encode($markup); ?>
     </script>

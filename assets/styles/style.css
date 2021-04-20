@@ -83,7 +83,7 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
-    font-family: montserrat, Roboto, segoe ui, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+    font-family: Roboto, segoe ui, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
     color: #fff;
     position: relative;
     font-size: 2.5vh;
@@ -148,7 +148,7 @@ header .header-box>.title>.logo>a {
 }
 
 header .header-box>.title>.logo .bold {
-    font-weight: 700;
+    font-weight: 500;
     margin-right: .25em;
 }
 
@@ -161,7 +161,7 @@ header .header-box>.title>.logo .name {
 }
 
 header .header-box>.title>.name {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 3em;
     line-height: 1;
     margin-bottom: .8em;
@@ -179,7 +179,7 @@ header .header-box>.explanator>.content {
 header .header-box>.explanator>.title {
     display: flex;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 header .header-box>.explanator>.content>p {

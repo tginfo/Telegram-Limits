@@ -151,6 +151,13 @@ $markup = [
                     <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
                 </label>
                 <div id="results">
+                    
+                    <script> 
+                        if ( document.querySelector("main>.content").clientWidth >= 1390 && !matchMedia("print").matches) {
+                        document.getElementById("results").style.opacity = 0;
+                        } 
+                    </script>
+                    
                     <?php
                     foreach ($structure as $section) {
                         $cur_section = $data[$section["id"]];
@@ -190,11 +197,6 @@ $markup = [
             </div>
         </main>
     </div>
-    <script> 
-        if ( document.querySelector("main>.content").clientWidth >= 1390 && !matchMedia("print").matches) {
-        document.getElementById("results").style.opacity = 0;
-        } 
-    </script>
     <footer>
         <div class="logo">
             <picture>

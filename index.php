@@ -191,7 +191,7 @@ $markup = [
         </main>
     </div>
     <script> 
-        if ( document.getElementById("content").clientWidth >= 1390 && !matchMedia("print").matches) {
+        if ( document.querySelector("main>.content").clientWidth >= 1390 && !matchMedia("print").matches) {
         document.getElementById("response").style.opacity = 0;
         } 
     </script>

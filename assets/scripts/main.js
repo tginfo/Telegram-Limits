@@ -1,6 +1,6 @@
 var isRtl = document.documentElement.getAttribute("dir") === "rtl";
 
-function position(init) {
+function position() {
     var res = document.getElementById("results");
         
     var max = 0;
@@ -26,8 +26,6 @@ function position(init) {
 
 
     if (fits <= 1 || matchMedia("print").matches) return;
-    
-    if (init === true) res.style.opacity = 0;
 
     var map = [];
     var margin = (res.clientWidth - ((wid + gap) * (fits + 1)));
@@ -83,7 +81,7 @@ function uc(s) {
     return s.toUpperCase().replace(/Ё/, "Е")
 }
 
-function run(init) {
+function run() {
     var s = uc(document.getElementById("search").value.trim());
 
 
@@ -150,4 +148,4 @@ function langSwitch(el) {
     return false
 }
 
-run(true);
+run();

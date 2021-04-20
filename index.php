@@ -190,6 +190,11 @@ $markup = [
             </div>
         </main>
     </div>
+    <script> 
+        if ( (Math.floor((document.getElementById("response").clientWidth + gap) / (wid + gap)) - 1) <= 1 && !matchMedia("print").matches) {
+        document.getElementById("response").style.opacity = 0;
+        } 
+    </script>
     <footer>
         <div class="logo">
             <picture>

@@ -192,7 +192,7 @@ $markup = [
     </div>
     <script> 
         if ( document.querySelector("main>.content").clientWidth >= 1390 && !matchMedia("print").matches) {
-        document.getElementById("response").style.opacity = 0;
+        document.getElementById("results").style.opacity = 0;
         } 
     </script>
     <footer>

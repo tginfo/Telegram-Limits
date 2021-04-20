@@ -102,11 +102,13 @@ $markup = [
         <?= file_get_contents("./assets/scripts/screen.js") ?>
     </script>
     <script >
+    window.requestIdleCallback =
+    window.requestIdleCallback || window.requestAnimationFrame || function(f) {setTimeout(f, 0)};
     window.addEventListener("load", function() {
         var s = document.createElement("script");
         s.src = "https://www.googletagmanager.com/gtag/js?id=UA-38971936-4";
         s.async = true;
-        document.head.appendChild(s);
+        setTimeout(requestIdleCallback(document.head.appendChild(s)), 3000);
     }, false);
     </script>
     <script>window.dataLayer = window.dataLayer || [];function gtag() {dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-38971936-4', {'page_path': '/limits'});</script>

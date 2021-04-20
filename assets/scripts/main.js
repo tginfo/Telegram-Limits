@@ -1,8 +1,11 @@
 var isRtl = document.documentElement.getAttribute("dir") === "rtl";
 
-function position() {
-    var max = 0;
+function position(init) {
     var res = document.getElementById("results");
+    
+    if (init === true) res.style.opacity = 0;
+        
+    var max = 0;
     var gap = parseInt(getComputedStyle(res).fontSize, 10);
     var wid = Math.max(450, ((res.clientWidth - gap) / 3) - gap);
     var fits = Math.floor((res.clientWidth + gap) / (wid + gap)) - 1;
@@ -65,6 +68,8 @@ function position() {
 
     res.style.height = max + gap + "px";
     res.style.marginTop = "2.5em";
+
+    setTimeout(function() {res.style.opacity = 1;}, 0);
 }
 
 var res = document.getElementById("results");
@@ -78,7 +83,7 @@ function uc(s) {
     return s.toUpperCase().replace(/Ё/, "Е")
 }
 
-function run() {
+function run(init) {
     var s = uc(document.getElementById("search").value.trim());
 
 
@@ -116,7 +121,7 @@ function run() {
         else res.appendChild(e);
     })
 
-    position();
+    position(init);
 }
 window.addEventListener("load", function () {
     position();
@@ -145,4 +150,4 @@ function langSwitch(el) {
     return false
 }
 
-run();
+run(true);

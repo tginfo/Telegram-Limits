@@ -235,7 +235,9 @@ $markup = [
 
         </div>
     </footer>
-    <script src="<?= BASE ?>/assets/scripts/main.js"></script>
+    <script>
+        <?= file_get_contents("./assets/scripts/main.js"); ?>
+    </script>
 </body>
 
 </html>

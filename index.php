@@ -101,7 +101,14 @@ $markup = [
     <script>
         <?= file_get_contents("./assets/scripts/screen.js") ?>
     </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-38971936-4"></script>
+    <script >
+    document.addEventListener("load", function() {
+        var s = document.createElement("script");
+        s.src = "https://www.googletagmanager.com/gtag/js?id=UA-38971936-4";
+        s.async = true;
+        document.head.appendChild(s);
+    }, false);
+    </script>
     <script>window.dataLayer = window.dataLayer || [];function gtag() {dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-38971936-4', {'page_path': '/limits'});</script>
     <?php
     /*<script type="application/ld+json">

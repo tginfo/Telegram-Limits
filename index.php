@@ -102,7 +102,7 @@ $markup = [
         <?= file_get_contents("./assets/scripts/screen.js") ?>
     </script>
     <script >
-    document.addEventListener("load", function() {
+    window.addEventListener("load", function() {
         var s = document.createElement("script");
         s.src = "https://www.googletagmanager.com/gtag/js?id=UA-38971936-4";
         s.async = true;

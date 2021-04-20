@@ -67,7 +67,7 @@ function position() {
     res.style.height = max + gap + "px";
     res.style.marginTop = "2.5em";
 
-    setTimeout(function() {res.classList.remove("hide");}, 0);
+    setTimeout(function() {document.querySelector("main>.content").classList.remove("hide");}, 0);
 }
 
 var res = document.getElementById("results");

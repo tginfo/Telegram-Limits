@@ -150,14 +150,14 @@ $markup = [
                     <md-icon aria-hidden="true">&#xe8b6;</md-icon>
                     <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
                 </label>
-                <div id="results">
-                    
+
                     <script> 
                         if ( document.querySelector("main>.content").clientWidth >= 1390 && !matchMedia("print").matches) {
-                        document.getElementById("results").style.opacity = 0;
+                        document.querySelector("main>.content").classList.add("hide");
                         } 
                     </script>
-                    
+
+                <div id="results">
                     <?php
                     foreach ($structure as $section) {
                         $cur_section = $data[$section["id"]];

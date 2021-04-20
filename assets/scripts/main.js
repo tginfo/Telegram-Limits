@@ -119,7 +119,7 @@ function run() {
         else res.appendChild(e);
     })
 
-    position(init);
+    position();
 }
 window.addEventListener("load", function () {
     position();

@@ -389,7 +389,7 @@ footer>.side>.name>.middle {
 
 #results {
     position: relative;
-    transition: opacity .1s;
+    transition: opacity .15s;
     opacity: 1;
 }
 

@@ -2,8 +2,6 @@ var isRtl = document.documentElement.getAttribute("dir") === "rtl";
 
 function position(init) {
     var res = document.getElementById("results");
-    
-    if (init === true) res.style.opacity = 0;
         
     var max = 0;
     var gap = parseInt(getComputedStyle(res).fontSize, 10);
@@ -28,6 +26,8 @@ function position(init) {
 
 
     if (fits <= 1 || matchMedia("print").matches) return;
+    
+    if (init === true) res.style.opacity = 0;
 
     var map = [];
     var margin = (res.clientWidth - ((wid + gap) * (fits + 1)));

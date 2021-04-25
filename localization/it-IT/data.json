@@ -368,9 +368,9 @@
         "text": "fino a 200 caratteri"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Limite di risoluzione nome utente",
+        "hint": "(per i bot e gli account utente)",
+        "text": "fino a 200 nomi utente giornalieri"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "sia 30 che 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Lunghezza nome del pacchetto",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "fino a 64 caratteri"
       }
     }
   },

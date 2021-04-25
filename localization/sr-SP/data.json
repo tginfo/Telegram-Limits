@@ -343,17 +343,17 @@
         "text": "до 30 захтева по секунди"
       },
       "bot_commands_count": {
-        "name": "Број наредби",
+        "name": "Број команди",
         "hint": "(у BotFather-у)",
-        "text": "од 0 до 100 наредби"
+        "text": "од 0 до 100 команди"
       },
       "bot_command_name_length": {
-        "name": "Дужина наредбе",
+        "name": "Дужина команде",
         "hint": "(у BotFather-у)",
         "text": "од 1 до 32 знака"
       },
       "bot_command_description_length": {
-        "name": "Дужина описа наредбе",
+        "name": "Дужина описа команде",
         "hint": "(у BotFather-у)",
         "text": "од 2 до 256 знакова"
       },

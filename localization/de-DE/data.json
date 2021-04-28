@@ -368,7 +368,7 @@
         "text": "bis zu 200 Zeichen"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
+        "name": "Nutzernamen-Auflösungslimit",
         "hint": "(für Bots und Nutzerkonten)",
         "text": "bis zu 200 Nutzernamen täglich"
       }

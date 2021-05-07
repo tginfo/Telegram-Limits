@@ -125,7 +125,7 @@
       "voice_chat_participants": {
         "name": "بەشداربووانی وتووێژی دەنگی",
         "hint": "",
-        "text": "unlimited"
+        "text": "بێ سنوور"
       },
       "username_reservation": {
         "name": "پاشپارێزی گۆڕینی ناوی بەکارهێنەر",
@@ -165,7 +165,7 @@
       "editing": {
         "name": "دەستکاریکردنی پۆستەکان",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "بێسنوور (ئەگەر کەناڵەکە گروپێکی گفتوگۆی لینککراوی هەیە، ئەو بابەتانەی کە لە 2 هەفتە زیاترە لە چاتنوێکردنەوە دا نوێ ناکرێتەوە)"
       },
       "subscribers": {
         "name": "ژمارەی بەشداربووانی کەناڵ",
@@ -368,9 +368,9 @@
         "text": "تا 200 کارەکتەر"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "ناوی بەکارهێنەر چارەسەر دەکات سنوور",
+        "hint": "(بۆ هەردوو بۆتەکان و هەژماری بەکارهێنەر)",
+        "text": "ڕۆژانە تا 200 ناوی بەکارهێنەر"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "30 یان 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "درێژی ناو",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "تا 64 پیت"
       }
     }
   },

@@ -368,9 +368,9 @@
         "text": "كحد أقصى 200 حرفًا"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "الحد الأقصى لمسح الأسم المستخدم",
+        "hint": "(لكل من البوتات والاسم المستخدم للحسابات)",
+        "text": "مايصل إلى 200 أسم مستخدم يوميًا"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "اما ٣٠ او ٦٠"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "طول أسم الحزمة",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "كحد أقصى 64 حرفًا"
       }
     }
   },

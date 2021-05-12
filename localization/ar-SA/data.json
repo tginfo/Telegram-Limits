@@ -3,79 +3,79 @@
     "name": "الحسابات",
     "items": {
       "username": {
-        "name": "اسم المستخدم",
-        "hint": "(مثال: username@)",
-        "text": "من ٥ إلى ٣٢ حرفاً"
+        "name": "أسم المستخدم",
+        "hint": "(مثال: @username)",
+        "text": "من 5 إلى 32 حرفًا"
       },
       "bio": {
         "name": "النبذة",
         "hint": "",
-        "text": "الأقصى ٧٠ حرفاً"
+        "text": "كحد أقصى 70 حرفًا"
       },
       "name_length": {
-        "name": "طول الاسم الأول",
+        "name": "طول الأسم الأول",
         "hint": "",
-        "text": "من ١ إلى ٦٤ حرفاً"
+        "text": "من 1 إلى 64 حرفًا"
       },
       "last_name_length": {
-        "name": "طول اسم العائلة",
+        "name": "طول الأسم الأخير",
         "hint": "",
-        "text": "من ٠ إلى ٦٤ حرفاً"
+        "text": "من 0 إلى 64 حرفًا"
       },
       "self_destruction": {
         "name": "مدة التدمير الذاتي",
-        "hint": "بعد تركك لحسابك",
-        "text": "١ ،٣،  ٦ و ١٢ شهرا (الافتراضي هو ٦)"
+        "hint": "إذا لم يكن حسابك نشطًا",
+        "text": "1، 3، 6 و12 شهرًا (الإفتراضي 6 أشهر)"
       },
       "spam_ban": {
-        "name": "قيود الازعاج",
+        "name": "حظر الإزعاج",
         "hint": "",
-        "text": "٣ ايام و يتزايد"
+        "text": "3 أيام وأكثر"
       },
       "channels_and_chats_number": {
-        "name": "عدد القنوات و المجموعات",
-        "hint": "التي لك حد الانضمام لها",
+        "name": "عدد القنوات و المجموعات الكبرى",
+        "hint": "التي لك حد الإنضمام إليها",
         "text": "الأقصى ٥٠٠ (بتضمين التي أنشأتها)"
       },
       "gifs_number": {
         "name": "أقصى حفظ للصور المتحركة",
         "hint": "",
-        "text": "٢٠٠"
+        "text": "كحد أقصى 200"
       },
       "video_length": {
         "name": "مدة مقطع الملف الشخصي",
         "hint": "",
-        "text": "    ١٠ ثواني"
+        "text": "كحد أقصى 10 ثواني"
       },
       "groups_and_channels_creation": {
-        "name": "انشاء مجموعات و قنوات",
+        "name": "إنشاء مجموعات وقنوات",
         "hint": "",
-        "text": "الأقصى ٥٠ في اليوم"
+        "text": "كحد أقصى 50 في اليوم"
       },
       "accounts_number": {
         "name": "عدد الحسابات",
-        "hint": "(التيليجرام الرسمي)",
-        "text": "٣ حسابات"
+        "hint": "(تيليجرام الرسمي)",
+        "text": "كحد أقصى 3 حسابات"
       }
     }
   },
   "chats": {
-    "name": "المحادثات و المجموعات",
+    "name": "المحادثات والمجموعات",
     "items": {
       "participants_number": {
         "name": "المشاركين",
-        "hint": "(يمكن زيادة الحدود)",
-        "text": "الأقصى ٢٠٠,٠٠٠"
+        "hint": "(يمكن رفع الحد المسموح به)",
+        "text": "كحد أقصى 200,000"
       },
       "admins_number": {
         "name": "عدد المشرفين",
         "hint": "في مجموعة واحدة",
-        "text": "الأقصى ٥٠ مشرفاً"
+        "text": "كحد أقصى 50 مشرف"
       },
       "bots_amount": {
         "name": "عدد البوتات",
         "hint": "في مجموعة واحدة",
-        "text": "الأقصى ٢٠"
+        "text": "كحد أقصى 20"
       },
       "pinned_number": {
         "name": "التثبيت بالقائمة الأساسية",
@@ -123,9 +123,9 @@
         "text": "الأدنى ٥٠٠ عضو"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "المشاركون في المحادثة الصوتيّة",
         "hint": "",
-        "text": "unlimited"
+        "text": "غير محدود"
       },
       "username_reservation": {
         "name": "مهلة حجز اسم المستخدم",
@@ -133,9 +133,9 @@
         "text": "حوالي ١٥-٣٠ دقيقة"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "تعيين حزمة ملصقات المجموعة",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "المجموعات التي تضم 100+ عضو"
       }
     }
   },
@@ -158,14 +158,14 @@
         "text": "الأقصى ٢٥٥ حرفاً"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "عدد مشرفين القناة",
+        "hint": "(بما في ذلك البوتات؛ يمكنك إضافة بوت لقناتك فقط كمشرف)",
+        "text": "كحد أقصى 50 حساب"
       },
       "editing": {
         "name": "تعديل المنشورات",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "غير محدود (إذا كانت القناة مرتبطة بمجموعة مناقشة، لن يتم تحديث المشاركات الأقدم من أسبوعين في الدردشة)"
       },
       "subscribers": {
         "name": "عدد مشتركي القناة",
@@ -350,7 +350,7 @@
       "bot_command_name_length": {
         "name": "طول الأمر",
         "hint": "(في BotFather)",
-        "text": "من ١ إلى ٣٢ حرفاً"
+        "text": "من 1 إلى 32 حرفًا"
       },
       "bot_command_description_length": {
         "name": "طول وصف الأمر",
@@ -358,19 +358,19 @@
         "text": "من ٢ إلى ٢٥٦ حرفاً"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "طول حمولة /start للبوت",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "كحد أقصى 70 حرفًا"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "طول رسالة تنبيه البوت",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "كحد أقصى 200 حرفًا"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "الحد الأقصى لمسح الأسم المستخدم",
+        "hint": "(لكل من البوتات والاسم المستخدم للحسابات)",
+        "text": "مايصل إلى 200 أسم مستخدم يوميًا"
       }
     }
   },
@@ -428,9 +428,9 @@
         "text": "اما ٣٠ او ٦٠"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "طول أسم الحزمة",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "كحد أقصى 64 حرفًا"
       }
     }
   },

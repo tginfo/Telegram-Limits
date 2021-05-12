@@ -133,9 +133,9 @@
         "text": "حوالي ١٥-٣٠ دقيقة"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "تعيين حزمة ملصقات المجموعة",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "المجموعات التي تضم 100+ عضو"
       }
     }
   },
@@ -158,9 +158,9 @@
         "text": "الأقصى ٢٥٥ حرفاً"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "عدد مشرفين القناة",
+        "hint": "(بما في ذلك البوتات؛ يمكنك إضافة بوت لقناتك فقط كمشرف)",
+        "text": "كحد أقصى 50 حساب"
       },
       "editing": {
         "name": "تعديل المنشورات",

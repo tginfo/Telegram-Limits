@@ -123,9 +123,9 @@
         "text": "الأدنى ٥٠٠ عضو"
       },
       "voice_chat_participants": {
-        "name": "Voice Chat participants",
+        "name": "المشاركون في المحادثة الصوتيّة",
         "hint": "",
-        "text": "unlimited"
+        "text": "غير محدود"
       },
       "username_reservation": {
         "name": "مهلة حجز اسم المستخدم",

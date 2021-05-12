@@ -360,12 +360,12 @@
       "start_payload_size": {
         "name": "طول حمولة /start للبوت",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "كحد أقصى 70 حرفًا"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "طول رسالة تنبيه البوت",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "كحد أقصى 200 حرفًا"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

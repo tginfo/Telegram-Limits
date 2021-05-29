@@ -1,462 +1,462 @@
 {
-  "accounts": {
-    "name": "Korisnički računi",
-    "items": {
-      "username": {
-        "name": "Korisničko ime",
-        "hint": "(npr. @snimatelj)",
-        "text": "5 do 32 znaka"
-      },
-      "bio": {
-        "name": "Opis",
-        "hint": "",
-        "text": "do 70 znakova"
-      },
-      "name_length": {
-        "name": "Duljina imena",
-        "hint": "",
-        "text": "1 do 64 znaka"
-      },
-      "last_name_length": {
-        "name": "Duljina prezimena",
-        "hint": "",
-        "text": "0 do 64 znaka"
-      },
-      "self_destruction": {
-        "name": "Period samouništenja",
-        "hint": "ako nije aktivan",
-        "text": "1, 3, 6 ili 12 mjeseci (zadano je 6)"
-      },
-      "spam_ban": {
-        "name": "Uklanjanje zbog zloupotrebe",
-        "hint": "",
-        "text": "3 dana ili više"
-      },
-      "channels_and_chats_number": {
-        "name": "Broj kanala i supergrupa",
-        "hint": "u kojima možete biti član",
-        "text": "do 500 (uključujući i one koje su vaše)"
-      },
-      "gifs_number": {
-        "name": "Broj spremljenih GIF-ova",
-        "hint": "",
-        "text": "do 200"
-      },
-      "video_length": {
-        "name": "Trajanje videozapisa za profil",
-        "hint": "",
-        "text": "do 10 sekundi"
-      },
-      "groups_and_channels_creation": {
-        "name": "Izrada novih grupa i kanala",
-        "hint": "",
-        "text": "do 50 u danu"
-      },
-      "accounts_number": {
-        "name": "Broj korisničkih računa",
-        "hint": "(službene aplikacije)",
-        "text": "do 3"
-      }
-    }
-  },
-  "chats": {
-    "name": "Razgovori i grupe",
-    "items": {
-      "participants_number": {
-        "name": "Članovi",
-        "hint": "(ograničenje se može povećati)",
-        "text": "do 200 000"
-      },
-      "admins_number": {
-        "name": "Broj administratora",
-        "hint": "u grupama",
-        "text": "do 50"
-      },
-      "bots_amount": {
-        "name": "Broj botova",
-        "hint": "u grupama",
-        "text": "do 20"
-      },
-      "pinned_number": {
-        "name": "Prikvačeni razgovori u glavnoj listi",
-        "hint": "",
-        "text": "do 5 razgovora ili kanala + 5 tajnih razgovora"
-      },
-      "group_name": {
-        "name": "Ime grupe i opis",
-        "hint": "",
-        "text": "do 255 znakova"
-      },
-      "editing": {
-        "name": "Uređivanje poruka",
-        "hint": "",
-        "text": "do 48 sati nakon slanja; neograničeno u Spremljenim porukama i za admine s dopuštenjem za prikvačivanje poruka"
-      },
-      "media_self_destruction": {
-        "name": "Nestajuće slike i videozapisi",
-        "hint": "",
-        "text": "1 do 60 sekundi"
-      },
-      "recent_actions": {
-        "name": "Nedavne radnje",
-        "hint": "(pretplate, objave, itd.)",
-        "text": "posljednja 2 dana"
-      },
-      "mentions_amount": {
-        "name": "Broj spominjanja",
-        "hint": "u jednoj poruci",
-        "text": "do 50, ostala spominjanje neće biti poslana"
-      },
-      "visible_messages": {
-        "name": "Broj vidljivih poruka",
-        "hint": "u grupi",
-        "text": "posljednjih 1 000 000 poruka"
-      },
-      "pinned_messages_number": {
-        "name": "Broj prikvačenih poruka",
-        "hint": "",
-        "text": "neograničeno"
-      },
-      "participants_to_see_stats": {
-        "name": "Broj članova za otvaranje statistike",
-        "hint": "",
-        "text": "najmanje 500 članova"
-      },
-      "voice_chat_participants": {
-        "name": "Broj sudionika u glasovnom razgovoru",
-        "hint": "",
-        "text": "neograničeno"
-      },
-      "username_reservation": {
-        "name": "Rezervacija korisničkog imena nakon promjene",
-        "hint": "(vrijeme koje je potrebno proći prije nego korisničko ime bude dostupno drugima)",
-        "text": "oko 15-30 minuta"
-      },
-      "participants_for_group_stickers": {
-        "name": "Naljepnice grupe",
-        "hint": "",
-        "text": "grupe koje imaju najmanje 100 članova"
-      }
-    }
-  },
-  "channels": {
-    "name": "Kanali",
-    "items": {
-      "public_usernames": {
-        "name": "Broj javnih korisničkih imena",
-        "hint": "za pojedinačni račun",
-        "text": "do 10 (uključujući i grupe)"
-      },
-      "username_length": {
-        "name": "Duljina @korisničkog imena",
-        "hint": "",
-        "text": "5 do 32 znaka"
-      },
-      "channel_name": {
-        "name": "Ime kanala i opis",
-        "hint": "",
-        "text": "do 255 znakova"
-      },
-      "channel_admins": {
-        "name": "Broj administratora u kanalu",
-        "hint": "(uključujući botove; možete dodati botove u kanal kao administratore)",
-        "text": "do 50 računa"
-      },
-      "editing": {
-        "name": "Uređivanje objava",
-        "hint": "",
-        "text": "neograničeno (ako je kanal povezan s grupom za komentiranje, tada objave starije od 2 tjedna neće biti ažurirane u razgovoru)"
-      },
-      "subscribers": {
-        "name": "Broj pretplatnika na kanal",
-        "hint": "",
-        "text": "neograničeno"
-      },
-      "visible_participants": {
-        "name": "Vidljivi pretplatnici",
-        "hint": "za administratore kanala",
-        "text": "200 osoba"
-      },
-      "channel_deletion": {
-        "name": "Brisanje kanala",
-        "hint": "",
-        "text": "kanali s više od 1000 pretplatnika mogu biti izbrisani jedino preko Telegramove podrške"
-      },
-      "private_channel_access": {
-        "name": "Pristup privatnim kanalima",
-        "hint": "bez da se pretplatite",
-        "text": "do 5 minuta dnevno"
-      },
-      "invintations": {
-        "name": "Dodavanje korisnika",
-        "hint": "",
-        "text": "do 200 korisnika"
-      },
-      "followers_to_see_stats": {
-        "name": "Broj pretplatnika za otvaranje statistike",
-        "hint": "",
-        "text": "najmanje 50"
-      },
-      "username_reservation": {
-        "name": "Rezervacija korisničkog imena nakon promjene",
-        "hint": "(vrijeme koje je potrebno proći prije nego korisničko ime bude dostupno drugima)",
-        "text": "oko 15-30 minuta"
-      }
-    }
-  },
-  "messages": {
-    "name": "Poruke",
-    "items": {
-      "single_message_length": {
-        "name": "Duljina jedne poruke",
-        "hint": "",
-        "text": "do 4096 znakova"
-      },
-      "media_descriptions": {
-        "name": "Opis medija",
-        "hint": "",
-        "text": "do 1024 znaka"
-      },
-      "upload_size": {
-        "name": "Veličina datoteke",
-        "hint": "",
-        "text": "do 2.0 GB"
-      },
-      "video_message_duration": {
-        "name": "Trajanje videoporuke",
-        "hint": "",
-        "text": "do 1 minute"
-      },
-      "album_size": {
-        "name": "Slika i videozapisa u jednoj poruci",
-        "hint": "(album)",
-        "text": "do 10 stavki"
-      },
-      "delayed_messages": {
-        "name": "Broj zakazanih poruka",
-        "hint": "",
-        "text": "do 100 poruka"
-      },
-      "delaying_messages": {
-        "name": "Razdoblje zakazanih poruka",
-        "hint": "",
-        "text": "do 365 dana"
-      }
-    }
-  },
-  "folders": {
-    "name": "Mape razgovora",
-    "items": {
-      "folder_amount": {
-        "name": "Broj mapa",
-        "hint": "",
-        "text": "do 10 mapa"
-      },
-      "pinned_chats_in_folder": {
-        "name": "Prikvačeni razgovori u mapi",
-        "hint": "",
-        "text": "do 100 razgovora"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Osobe u blizini",
-    "items": {
-      "range": {
-        "name": "Vidljivost",
-        "hint": "",
-        "text": "oko 12 kilometara"
-      },
-      "amount_of_people": {
-        "name": "Broj osoba koji je vidljiv",
-        "hint": "",
-        "text": "do 100 osoba"
-      },
-      "geochats_number": {
-        "name": "Broj grupa na lokaciji",
-        "hint": "",
-        "text": "do 10 najbližih"
-      }
-    }
-  },
-  "bots": {
-    "name": "Botovi",
-    "items": {
-      "bots_amount": {
-        "name": "Broj botova",
-        "hint": "(napravljeni od @BotFather-a)",
-        "text": "do 20 botova"
-      },
-      "username length": {
-        "name": "Duljina @korisničkog imena",
-        "hint": "za botove",
-        "text": "5 do 32 znaka"
-      },
-      "info_length": {
-        "name": "Duljina informacija o botu",
-        "hint": "(/setabouttext)",
-        "text": "do 120 znakova"
-      },
-      "description_length": {
-        "name": "Duljina opisa bota",
-        "hint": "",
-        "text": "do 512 znakova"
-      },
-      "upload_limit_botapi": {
-        "name": "Ograničenje prijenosa datoteka",
-        "hint": "(BotAPI)",
-        "text": "do 50 MB"
-      },
-      "download_limit_botapi": {
-        "name": "Ograničenje preuzimanja datoteka",
-        "hint": "(BotAPI)",
-        "text": "do 20 MB"
-      },
-      "forwarding": {
-        "name": "Prosljeđivanje poruka",
-        "hint": "",
-        "text": "do 2 000 po satu"
-      },
-      "keys_in_keyboard_number": {
-        "name": "Broj tipaka na tipkovnici",
-        "hint": "",
-        "text": "do 100 stavki"
-      },
-      "formatting_data": {
-        "name": "Podaci formatiranja poruke",
-        "hint": "",
-        "text": "do 10 KB"
-      },
-      "formatting_entities": {
-        "name": "Stavke formatiranja",
-        "hint": "(podebljano, kurziv, itd.)",
-        "text": "do 100 stavki"
-      },
-      "messaging_frequency": {
-        "name": "Učestalost poruka",
-        "hint": "(može se povećati na zahtjev BotSupport-a)",
-        "text": "do 30 poruka u sekundi; 20 po minuti za javne grupe i kanale"
-      },
-      "api_requests_frequency": {
-        "name": "Učestalost API zahtjeva",
-        "hint": "(može se povećati na zahtjev BotSupport-a)",
-        "text": "do 30 zahtjeva u sekundi"
-      },
-      "bot_commands_count": {
-        "name": "Broj naredbi",
-        "hint": "(u BotFatheru-u)",
-        "text": "0 do 100 naredbi"
-      },
-      "bot_command_name_length": {
-        "name": "Duljina naredbe",
-        "hint": "(u BotFatheru-u)",
-        "text": "od 1 do 32 znaka"
-      },
-      "bot_command_description_length": {
-        "name": "Duljina opisa naredbe",
-        "hint": "(u BotFatheru-u)",
-        "text": "od 2 do 256 znaka"
-      },
-      "start_payload_size": {
-        "name": "Maksimalna duljina teksta za pokretanje bota",
-        "hint": "",
-        "text": "do 64 znaka"
-      },
-      "bot_alert_length": {
-        "name": "Duljina upozoravajuće poruke bota",
-        "hint": "",
-        "text": "do 200 znakova"
-      },
-      "username_resolve_limit": {
-        "name": "Rješavanje korisničkog imena",
-        "hint": "(za botove i korisničke račune)",
-        "text": "do 200 korisničkih imena dnevno"
-      }
-    }
-  },
-  "search": {
-    "name": "Pretraživanje",
-    "items": {
-      "global_search": {
-        "name": "Rezultati globalnog pretraživanja",
-        "hint": "",
-        "text": "do 10 stavki; do 3 za Android"
-      },
-      "global_search_min_query": {
-        "name": "Minimalna duljina upita",
-        "hint": "za globalno pretraživanje",
-        "text": "najmanje 4 znaka"
-      }
-    }
-  },
-  "stickers": {
-    "name": "Naljepnice",
-    "items": {
-      "added_packs": {
-        "name": "Broj dodanih paketa",
-        "hint": "",
-        "text": "do 200 paketa"
-      },
-      "favorite_stickers": {
-        "name": "Broj naljepnica u favoritima",
-        "hint": "",
-        "text": "do 5 naljepnica"
-      },
-      "pack_size": {
-        "name": "Broj naljepnica u paketu",
-        "hint": "",
-        "text": "do 100 za statične i do 50 za animirane"
-      },
-      "sticker_size": {
-        "name": "Veličina naljepnice",
-        "hint": "",
-        "text": "jedna strana je jednaka 512px, a druga strana 512px ili manje, za animirane veličina mora biti točno 512x512"
-      },
-      "animation_duration": {
-        "name": "Trajanje animacije",
-        "hint": "",
-        "text": "do 3 sekunde"
-      },
-      "file_size": {
-        "name": "Veličina naljepnice",
-        "hint": "",
-        "text": "do 512 KB za statičnu i do 64 KB za animiranu"
-      },
-      "fps": {
-        "name": "FPS",
-        "hint": "",
-        "text": "ili 30 ili 60"
-      },
-      "stickerpack_name_length": {
-        "name": "Duljina naziva paketa",
-        "hint": "",
-        "text": "do 64 znaka"
-      }
-    }
-  },
-  "telegraph": {
-    "name": "Telegraph",
-    "items": {
-      "accounts_number": {
-        "name": "Broj korisničkih računa",
-        "hint": "u @telegraph bot-u",
-        "text": "do 5 računa"
-      },
-      "text_size": {
-        "name": "Veličina članka",
-        "hint": "",
-        "text": "do 64 KB"
-      }
-    }
-  },
-  "miscellaneous": {
-    "name": "Razno",
-    "items": {
-      "properties": {
-        "name": "Postavke videozapisa za profil",
-        "hint": "",
-        "text": "800x800px, do 2 MB"
-      }
-    }
+ "accounts": {
+  "name": "Korisnički računi",
+  "items": {
+   "username": {
+    "name": "Korisničko ime",
+    "hint": "(npr. @snimatelj)",
+    "text": "5 do 32 znaka"
+   },
+   "bio": {
+    "name": "Opis",
+    "hint": "",
+    "text": "do 70 znakova"
+   },
+   "name_length": {
+    "name": "Duljina imena",
+    "hint": "",
+    "text": "1 do 64 znaka"
+   },
+   "last_name_length": {
+    "name": "Duljina prezimena",
+    "hint": "",
+    "text": "0 do 64 znaka"
+   },
+   "self_destruction": {
+    "name": "Period samouništenja",
+    "hint": "ako nije aktivan",
+    "text": "1, 3, 6 ili 12 mjeseci (zadano je 6)"
+   },
+   "spam_ban": {
+    "name": "Uklanjanje zbog zloupotrebe",
+    "hint": "",
+    "text": "3 dana ili više"
+   },
+   "channels_and_chats_number": {
+    "name": "Broj kanala i supergrupa",
+    "hint": "u kojima možete biti član",
+    "text": "do 500 (uključujući i one koje su vaše)"
+   },
+   "gifs_number": {
+    "name": "Broj spremljenih GIF-ova",
+    "hint": "",
+    "text": "do 200"
+   },
+   "video_length": {
+    "name": "Trajanje videozapisa za profil",
+    "hint": "",
+    "text": "do 10 sekundi"
+   },
+   "groups_and_channels_creation": {
+    "name": "Izrada novih grupa i kanala",
+    "hint": "",
+    "text": "do 50 u danu"
+   },
+   "accounts_number": {
+    "name": "Broj korisničkih računa",
+    "hint": "(službene aplikacije)",
+    "text": "do 3"
+   }
   }
+ },
+ "chats": {
+  "name": "Razgovori i grupe",
+  "items": {
+   "participants_number": {
+    "name": "Članovi",
+    "hint": "(ograničenje se može povećati)",
+    "text": "do 200 000"
+   },
+   "admins_number": {
+    "name": "Broj administratora",
+    "hint": "u grupama",
+    "text": "do 50"
+   },
+   "bots_amount": {
+    "name": "Broj botova",
+    "hint": "u grupama",
+    "text": "do 20"
+   },
+   "pinned_number": {
+    "name": "Prikvačeni razgovori u glavnoj listi",
+    "hint": "",
+    "text": "do 5 razgovora ili kanala + 5 tajnih razgovora"
+   },
+   "group_name": {
+    "name": "Ime grupe i opis",
+    "hint": "",
+    "text": "do 255 znakova"
+   },
+   "editing": {
+    "name": "Uređivanje poruka",
+    "hint": "",
+    "text": "do 48 sati nakon slanja; neograničeno u Spremljenim porukama i za admine s dopuštenjem za prikvačivanje poruka"
+   },
+   "media_self_destruction": {
+    "name": "Nestajuće slike i videozapisi",
+    "hint": "",
+    "text": "1 do 60 sekundi"
+   },
+   "recent_actions": {
+    "name": "Nedavne radnje",
+    "hint": "(pretplate, objave, itd.)",
+    "text": "posljednja 2 dana"
+   },
+   "mentions_amount": {
+    "name": "Broj spominjanja",
+    "hint": "u jednoj poruci",
+    "text": "do 50, ostala spominjanje neće biti poslana"
+   },
+   "visible_messages": {
+    "name": "Broj vidljivih poruka",
+    "hint": "u grupi",
+    "text": "posljednjih 1 000 000 poruka"
+   },
+   "pinned_messages_number": {
+    "name": "Broj prikvačenih poruka",
+    "hint": "",
+    "text": "neograničeno"
+   },
+   "participants_to_see_stats": {
+    "name": "Broj članova za otvaranje statistike",
+    "hint": "",
+    "text": "najmanje 500 članova"
+   },
+   "voice_chat_participants": {
+    "name": "Broj sudionika u glasovnom razgovoru",
+    "hint": "",
+    "text": "neograničeno"
+   },
+   "username_reservation": {
+    "name": "Rezervacija korisničkog imena nakon promjene",
+    "hint": "(vrijeme koje je potrebno proći prije nego korisničko ime bude dostupno drugima)",
+    "text": "oko 15-30 minuta"
+   },
+   "participants_for_group_stickers": {
+    "name": "Naljepnice grupe",
+    "hint": "",
+    "text": "grupe koje imaju najmanje 100 članova"
+   }
+  }
+ },
+ "channels": {
+  "name": "Kanali",
+  "items": {
+   "public_usernames": {
+    "name": "Broj javnih korisničkih imena",
+    "hint": "za pojedinačni račun",
+    "text": "do 10 (uključujući i grupe)"
+   },
+   "username_length": {
+    "name": "Duljina @korisničkog imena",
+    "hint": "",
+    "text": "5 do 32 znaka"
+   },
+   "channel_name": {
+    "name": "Ime kanala i opis",
+    "hint": "",
+    "text": "do 255 znakova"
+   },
+   "channel_admins": {
+    "name": "Broj administratora u kanalu",
+    "hint": "(uključujući botove; možete dodati botove u kanal kao administratore)",
+    "text": "do 50 računa"
+   },
+   "editing": {
+    "name": "Uređivanje objava",
+    "hint": "",
+    "text": "neograničeno (ako je kanal povezan s grupom za komentiranje, tada objave starije od 2 tjedna neće biti ažurirane u razgovoru)"
+   },
+   "subscribers": {
+    "name": "Broj pretplatnika na kanal",
+    "hint": "",
+    "text": "neograničeno"
+   },
+   "visible_participants": {
+    "name": "Vidljivi pretplatnici",
+    "hint": "za administratore kanala",
+    "text": "200 osoba"
+   },
+   "channel_deletion": {
+    "name": "Brisanje kanala",
+    "hint": "",
+    "text": "kanali s više od 1000 pretplatnika mogu biti izbrisani jedino preko Telegramove podrške"
+   },
+   "private_channel_access": {
+    "name": "Pristup privatnim kanalima",
+    "hint": "bez da se pretplatite",
+    "text": "do 5 minuta dnevno"
+   },
+   "invintations": {
+    "name": "Dodavanje korisnika",
+    "hint": "",
+    "text": "do 200 korisnika"
+   },
+   "followers_to_see_stats": {
+    "name": "Broj pretplatnika za otvaranje statistike",
+    "hint": "",
+    "text": "najmanje 50"
+   },
+   "username_reservation": {
+    "name": "Rezervacija korisničkog imena nakon promjene",
+    "hint": "(vrijeme koje je potrebno proći prije nego korisničko ime bude dostupno drugima)",
+    "text": "oko 15-30 minuta"
+   }
+  }
+ },
+ "messages": {
+  "name": "Poruke",
+  "items": {
+   "single_message_length": {
+    "name": "Duljina jedne poruke",
+    "hint": "",
+    "text": "do 4096 znakova"
+   },
+   "media_descriptions": {
+    "name": "Opis medija",
+    "hint": "",
+    "text": "do 1024 znaka"
+   },
+   "upload_size": {
+    "name": "Veličina datoteke",
+    "hint": "",
+    "text": "do 2.0 GB"
+   },
+   "video_message_duration": {
+    "name": "Trajanje videoporuke",
+    "hint": "",
+    "text": "do 1 minute"
+   },
+   "album_size": {
+    "name": "Slika i videozapisa u jednoj poruci",
+    "hint": "(album)",
+    "text": "do 10 stavki"
+   },
+   "delayed_messages": {
+    "name": "Broj zakazanih poruka",
+    "hint": "",
+    "text": "do 100 poruka"
+   },
+   "delaying_messages": {
+    "name": "Razdoblje zakazanih poruka",
+    "hint": "",
+    "text": "do 365 dana"
+   }
+  }
+ },
+ "folders": {
+  "name": "Mape razgovora",
+  "items": {
+   "folder_amount": {
+    "name": "Broj mapa",
+    "hint": "",
+    "text": "do 10 mapa"
+   },
+   "pinned_chats_in_folder": {
+    "name": "Prikvačeni razgovori u mapi",
+    "hint": "",
+    "text": "do 100 razgovora"
+   }
+  }
+ },
+ "people_nearby": {
+  "name": "Osobe u blizini",
+  "items": {
+   "range": {
+    "name": "Vidljivost",
+    "hint": "",
+    "text": "oko 12 kilometara"
+   },
+   "amount_of_people": {
+    "name": "Broj osoba koji je vidljiv",
+    "hint": "",
+    "text": "do 100 osoba"
+   },
+   "geochats_number": {
+    "name": "Broj grupa na lokaciji",
+    "hint": "",
+    "text": "do 10 najbližih"
+   }
+  }
+ },
+ "bots": {
+  "name": "Botovi",
+  "items": {
+   "bots_amount": {
+    "name": "Broj botova",
+    "hint": "(napravljeni od @BotFather-a)",
+    "text": "do 20 botova"
+   },
+   "username length": {
+    "name": "Duljina @korisničkog imena",
+    "hint": "za botove",
+    "text": "5 do 32 znaka"
+   },
+   "info_length": {
+    "name": "Duljina informacija o botu",
+    "hint": "(/setabouttext)",
+    "text": "do 120 znakova"
+   },
+   "description_length": {
+    "name": "Duljina opisa bota",
+    "hint": "",
+    "text": "do 512 znakova"
+   },
+   "upload_limit_botapi": {
+    "name": "Ograničenje prijenosa datoteka",
+    "hint": "(BotAPI)",
+    "text": "do 50 MB"
+   },
+   "download_limit_botapi": {
+    "name": "Ograničenje preuzimanja datoteka",
+    "hint": "(BotAPI)",
+    "text": "do 20 MB"
+   },
+   "forwarding": {
+    "name": "Prosljeđivanje poruka",
+    "hint": "",
+    "text": "do 2 000 po satu"
+   },
+   "keys_in_keyboard_number": {
+    "name": "Broj tipaka na tipkovnici",
+    "hint": "",
+    "text": "do 100 stavki"
+   },
+   "formatting_data": {
+    "name": "Podaci formatiranja poruke",
+    "hint": "",
+    "text": "do 10 KB"
+   },
+   "formatting_entities": {
+    "name": "Stavke formatiranja",
+    "hint": "(podebljano, kurziv, itd.)",
+    "text": "do 100 stavki"
+   },
+   "messaging_frequency": {
+    "name": "Učestalost poruka",
+    "hint": "(može se povećati na zahtjev BotSupport-a)",
+    "text": "do 30 poruka u sekundi; 20 po minuti za javne grupe i kanale"
+   },
+   "api_requests_frequency": {
+    "name": "Učestalost API zahtjeva",
+    "hint": "(može se povećati na zahtjev BotSupport-a)",
+    "text": "do 30 zahtjeva u sekundi"
+   },
+   "bot_commands_count": {
+    "name": "Broj naredbi",
+    "hint": "(u BotFatheru-u)",
+    "text": "0 do 100 naredbi"
+   },
+   "bot_command_name_length": {
+    "name": "Duljina naredbe",
+    "hint": "(u BotFatheru-u)",
+    "text": "od 1 do 32 znaka"
+   },
+   "bot_command_description_length": {
+    "name": "Duljina opisa naredbe",
+    "hint": "(u BotFatheru-u)",
+    "text": "od 2 do 256 znaka"
+   },
+   "start_payload_size": {
+    "name": "Maksimalna duljina teksta za pokretanje bota",
+    "hint": "",
+    "text": "do 64 znaka"
+   },
+   "bot_alert_length": {
+    "name": "Duljina upozoravajuće poruke bota",
+    "hint": "",
+    "text": "do 200 znakova"
+   },
+   "username_resolve_limit": {
+    "name": "Rješavanje korisničkog imena",
+    "hint": "(za botove i korisničke račune)",
+    "text": "do 200 korisničkih imena dnevno"
+   }
+  }
+ },
+ "search": {
+  "name": "Pretraživanje",
+  "items": {
+   "global_search": {
+    "name": "Rezultati globalnog pretraživanja",
+    "hint": "",
+    "text": "do 10 stavki; do 3 za Android"
+   },
+   "global_search_min_query": {
+    "name": "Minimalna duljina upita",
+    "hint": "za globalno pretraživanje",
+    "text": "najmanje 4 znaka"
+   }
+  }
+ },
+ "stickers": {
+  "name": "Naljepnice",
+  "items": {
+   "added_packs": {
+    "name": "Broj dodanih paketa",
+    "hint": "",
+    "text": "do 200 paketa"
+   },
+   "favorite_stickers": {
+    "name": "Broj naljepnica u favoritima",
+    "hint": "",
+    "text": "do 5 naljepnica"
+   },
+   "pack_size": {
+    "name": "Broj naljepnica u paketu",
+    "hint": "",
+    "text": "do 100 za statične i do 50 za animirane"
+   },
+   "sticker_size": {
+    "name": "Veličina naljepnice",
+    "hint": "",
+    "text": "jedna strana je jednaka 512px, a druga strana 512px ili manje, za animirane veličina mora biti točno 512x512"
+   },
+   "animation_duration": {
+    "name": "Trajanje animacije",
+    "hint": "",
+    "text": "do 3 sekunde"
+   },
+   "file_size": {
+    "name": "Veličina naljepnice",
+    "hint": "",
+    "text": "do 512 KB za statičnu i do 64 KB za animiranu"
+   },
+   "fps": {
+    "name": "FPS",
+    "hint": "",
+    "text": "ili 30 ili 60"
+   },
+   "stickerpack_name_length": {
+    "name": "Duljina naziva paketa",
+    "hint": "",
+    "text": "do 64 znaka"
+   }
+  }
+ },
+ "telegraph": {
+  "name": "Telegraph",
+  "items": {
+   "accounts_number": {
+    "name": "Broj korisničkih računa",
+    "hint": "u @telegraph bot-u",
+    "text": "do 5 računa"
+   },
+   "text_size": {
+    "name": "Veličina članka",
+    "hint": "",
+    "text": "do 64 KB"
+   }
+  }
+ },
+ "miscellaneous": {
+  "name": "Razno",
+  "items": {
+   "properties": {
+    "name": "Postavke videozapisa za profil",
+    "hint": "",
+    "text": "800x800px, do 2 MB"
+   }
+  }
+ }
 }

@@ -1,462 +1,462 @@
 {
-  "accounts": {
-    "name": "Contas",
-    "items": {
-      "username": {
-        "name": "Nome de usuário",
-        "hint": "(p. ex. @cameraman)",
-        "text": "5 a 32 caracteres"
-      },
-      "bio": {
-        "name": "Bio",
-        "hint": "",
-        "text": "até 70 caracteres"
-      },
-      "name_length": {
-        "name": "Tamanho do nome",
-        "hint": "",
-        "text": "de 1 a 64 caracteres"
-      },
-      "last_name_length": {
-        "name": "Tamanho do sobrenome",
-        "hint": "",
-        "text": "de 0 a 64 caracteres"
-      },
-      "self_destruction": {
-        "name": "Tempo de autodestruição",
-        "hint": "sem atividade",
-        "text": "1, 3, 6 e 12 meses (6 por padrão)"
-      },
-      "spam_ban": {
-        "name": "Ban por spam",
-        "hint": "",
-        "text": "3 dias ou mais"
-      },
-      "channels_and_chats_number": {
-        "name": "Número de canais e supergrupos",
-        "hint": "você pode ser membro de",
-        "text": "até 500 (incluindo os que você é dono)"
-      },
-      "gifs_number": {
-        "name": "Número de GIFs salvos",
-        "hint": "",
-        "text": "até 200"
-      },
-      "video_length": {
-        "name": "Duração do vídeo de perfil",
-        "hint": "",
-        "text": "até 10 segundos"
-      },
-      "groups_and_channels_creation": {
-        "name": "Criação de grupos e canais",
-        "hint": "",
-        "text": "até 50 por dia"
-      },
-      "accounts_number": {
-        "name": "Número de contas",
-        "hint": "(clientes oficiais)",
-        "text": "até 3"
-      }
-    }
-  },
-  "chats": {
-    "name": "Chats e grupos",
-    "items": {
-      "participants_number": {
-        "name": "Membros",
-        "hint": "(o limite pode ser aumentado)",
-        "text": "até 200.000"
-      },
-      "admins_number": {
-        "name": "Número de admins",
-        "hint": "em grupos",
-        "text": "até 50"
-      },
-      "bots_amount": {
-        "name": "Número de bots",
-        "hint": "em grupos",
-        "text": "até 20"
-      },
-      "pinned_number": {
-        "name": "Chats fixados na tela inicial",
-        "hint": "",
-        "text": "até 5 chats ou canais + 5 chats secretos"
-      },
-      "group_name": {
-        "name": "Nome do grupo e descrição",
-        "hint": "",
-        "text": "até 255 caracteres"
-      },
-      "editing": {
-        "name": "Edição de mensagens",
-        "hint": "",
-        "text": "em 48 horas após o envio; ilimitado em Mensagens Salvas e para admins com permissão de fixar"
-      },
-      "media_self_destruction": {
-        "name": "Autodestruição de fotos e vídeos",
-        "hint": "",
-        "text": "1 a 60 segundos"
-      },
-      "recent_actions": {
-        "name": "Ações recentes",
-        "hint": "(inscrições, mensagens, etc.)",
-        "text": "últimos dois dias"
-      },
-      "mentions_amount": {
-        "name": "Número de menções",
-        "hint": "em uma única mensagem",
-        "text": "até 50, senão as notificações não serão enviadas"
-      },
-      "visible_messages": {
-        "name": "Número de mensagens visíveis",
-        "hint": "em grupos",
-        "text": "últimas 1.000.000 mensagens"
-      },
-      "pinned_messages_number": {
-        "name": "Número de mensagens fixadas",
-        "hint": "",
-        "text": "ilimitado"
-      },
-      "participants_to_see_stats": {
-        "name": "Número de membros para ver as estatísticas",
-        "hint": "",
-        "text": "ao menos 500"
-      },
-      "voice_chat_participants": {
-        "name": "Participantes do chat de voz",
-        "hint": "",
-        "text": "ilimitado"
-      },
-      "username_reservation": {
-        "name": "Reserva de alteração de nome de usuário",
-        "hint": "(tempo antes do nome de usuário estar disponível para todos, não apenas para o dono original)",
-        "text": "cerca de 15-30 minutos"
-      },
-      "participants_for_group_stickers": {
-        "name": "Stickers do grupo",
-        "hint": "",
-        "text": "grupos com +100 participantes"
-      }
-    }
-  },
-  "channels": {
-    "name": "Canais",
-    "items": {
-      "public_usernames": {
-        "name": "Número de nomes públicos",
-        "hint": "para uma única conta",
-        "text": "até 10 (incluindo os grupos)"
-      },
-      "username_length": {
-        "name": "Tamanho de @usuario",
-        "hint": "",
-        "text": "5 a 32 caracteres"
-      },
-      "channel_name": {
-        "name": "Nome do canal e descrição",
-        "hint": "",
-        "text": "até 255 caracteres"
-      },
-      "channel_admins": {
-        "name": "Número de admins em canais",
-        "hint": "(incluindo bots; você só pode adicionar um bot ao seu canal como um administrador)",
-        "text": "até 50 contas"
-      },
-      "editing": {
-        "name": "Edição de mensagens",
-        "hint": "",
-        "text": "ilimitado (se o canal tiver um grupo de discussão vinculado, as postagens com mais de 2 semanas não serão atualizadas no chat)"
-      },
-      "subscribers": {
-        "name": "Número de inscritos em canais",
-        "hint": "",
-        "text": "ilimitado"
-      },
-      "visible_participants": {
-        "name": "Inscritos visíveis",
-        "hint": "para admins do canal",
-        "text": "200 pessoas"
-      },
-      "channel_deletion": {
-        "name": "Exclusão de canal",
-        "hint": "",
-        "text": "canais com mais de 1K de inscritos só podem ser excluídos com o suporte do Telegram"
-      },
-      "private_channel_access": {
-        "name": "Acesso a canais privados",
-        "hint": "sem entrar",
-        "text": "até 5 minutos por dia"
-      },
-      "invintations": {
-        "name": "Convidar usuários",
-        "hint": "",
-        "text": "até 200 pessoas"
-      },
-      "followers_to_see_stats": {
-        "name": "Número de inscritos para ver as estatísticas",
-        "hint": "",
-        "text": "ao menos 50"
-      },
-      "username_reservation": {
-        "name": "Reserva de alteração de nome",
-        "hint": "(tempo antes do nome estar disponível para todos, não apenas para o dono original)",
-        "text": "cerca de 15-30 minutos"
-      }
-    }
-  },
-  "messages": {
-    "name": "Mensagens",
-    "items": {
-      "single_message_length": {
-        "name": "Tamanho de uma mensagem",
-        "hint": "",
-        "text": "até 4.096 caracteres"
-      },
-      "media_descriptions": {
-        "name": "Legendas de mídia",
-        "hint": "",
-        "text": "até 1.024 caracteres"
-      },
-      "upload_size": {
-        "name": "Limite de tamanho de arquivos",
-        "hint": "",
-        "text": "até 2,0 GB"
-      },
-      "video_message_duration": {
-        "name": "Duração da mensagem de vídeo",
-        "hint": "",
-        "text": "até 1 minuto"
-      },
-      "album_size": {
-        "name": "Imagens e vídeos em uma única mensagem",
-        "hint": "(álbum)",
-        "text": "até 10 itens"
-      },
-      "delayed_messages": {
-        "name": "Número de mensagens agendadas",
-        "hint": "",
-        "text": "até 100 itens"
-      },
-      "delaying_messages": {
-        "name": "Intervalo de agendamento",
-        "hint": "",
-        "text": "até 365 dias"
-      }
-    }
-  },
-  "folders": {
-    "name": "Pastas",
-    "items": {
-      "folder_amount": {
-        "name": "Quantidade de pastas",
-        "hint": "",
-        "text": "até 10 pastas"
-      },
-      "pinned_chats_in_folder": {
-        "name": "Chats fixados em uma pasta",
-        "hint": "",
-        "text": "até 100 chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Pessoas Próximas",
-    "items": {
-      "range": {
-        "name": "Raio de alcance",
-        "hint": "",
-        "text": "cerca de 12 quilômetros"
-      },
-      "amount_of_people": {
-        "name": "Quantidade de usuários visíveis",
-        "hint": "",
-        "text": "até 100 pessoas"
-      },
-      "geochats_number": {
-        "name": "Número de grupos visíveis",
-        "hint": "",
-        "text": "até 10 mais próximos"
-      }
-    }
-  },
-  "bots": {
-    "name": "Bots",
-    "items": {
-      "bots_amount": {
-        "name": "Número de bots",
-        "hint": "(criados pelo @BotFather)",
-        "text": "até 20 itens"
-      },
-      "username length": {
-        "name": "Tamanho de @usuario",
-        "hint": "para bots",
-        "text": "5 a 32 caracteres"
-      },
-      "info_length": {
-        "name": "Tamanho da info de bots",
-        "hint": "(/setabouttext)",
-        "text": "até 120 caracteres"
-      },
-      "description_length": {
-        "name": "Tamanho da descrição de bots",
-        "hint": "",
-        "text": "até 512 caracteres"
-      },
-      "upload_limit_botapi": {
-        "name": "Limite de envio de arquivos",
-        "hint": "(BotAPI)",
-        "text": "até 50 MB"
-      },
-      "download_limit_botapi": {
-        "name": "Limite de download de arquivos",
-        "hint": "(BotAPI)",
-        "text": "até 20 MB"
-      },
-      "forwarding": {
-        "name": "Encaminhamento de mensagens",
-        "hint": "",
-        "text": "até 2.000 por hora"
-      },
-      "keys_in_keyboard_number": {
-        "name": "Número de botões do painel",
-        "hint": "",
-        "text": "até 100 botões"
-      },
-      "formatting_data": {
-        "name": "Dados de formatação de mensagem",
-        "hint": "",
-        "text": "até 10 KB"
-      },
-      "formatting_entities": {
-        "name": "Entidades de formatação",
-        "hint": "(negrito, cursivo, etc.)",
-        "text": "até 100 itens"
-      },
-      "messaging_frequency": {
-        "name": "Frequência de mensagens",
-        "hint": "(pode ser aumentada pelo BotSupport)",
-        "text": "até 30 mensagens por segundo; 20 por minuto para chats e canais públicos"
-      },
-      "api_requests_frequency": {
-        "name": "Frequência de requisições de API",
-        "hint": "(pode ser aumentada pelo BotSupport)",
-        "text": "até 30 requisições por segundo"
-      },
-      "bot_commands_count": {
-        "name": "Quantidade de comandos",
-        "hint": "(no BotFather)",
-        "text": "0 a 100 comandos"
-      },
-      "bot_command_name_length": {
-        "name": "Tamanho do comando",
-        "hint": "(no BotFather)",
-        "text": "de 1 a 32 caracteres"
-      },
-      "bot_command_description_length": {
-        "name": "Tamanho da descrição do comando",
-        "hint": "(no BotFather)",
-        "text": "de 2 a 256 caracteres"
-      },
-      "start_payload_size": {
-        "name": "Tamanho do payload /start de bots",
-        "hint": "",
-        "text": "até 64 caracteres"
-      },
-      "bot_alert_length": {
-        "name": "Tamanho da mensagem de alerta de bots",
-        "hint": "",
-        "text": "até 200 caracteres"
-      },
-      "username_resolve_limit": {
-        "name": "Limite de resolução de nome de usuário",
-        "hint": "(para bots e contas de usuário)",
-        "text": "até 200 nomes de usuário por dia"
-      }
-    }
-  },
-  "search": {
-    "name": "Busca",
-    "items": {
-      "global_search": {
-        "name": "Resultados da busca global",
-        "hint": "",
-        "text": "até 10 itens; até 3 no Android"
-      },
-      "global_search_min_query": {
-        "name": "Tamanho mínimo da busca",
-        "hint": "para a busca global",
-        "text": "ao menos 4 caracteres"
-      }
-    }
-  },
-  "stickers": {
-    "name": "Stickers",
-    "items": {
-      "added_packs": {
-        "name": "Número de pacotes adicionados",
-        "hint": "",
-        "text": "até 200 itens"
-      },
-      "favorite_stickers": {
-        "name": "Número de stickers favoritos",
-        "hint": "",
-        "text": "até 5 itens"
-      },
-      "pack_size": {
-        "name": "Número de stickers em um pacote",
-        "hint": "",
-        "text": "até 120 para estáticos, até 50 para animados"
-      },
-      "sticker_size": {
-        "name": "Tamanho do sticker",
-        "hint": "",
-        "text": "um lado igual a 512px, o outro lado com 512px ou menos; exatamente 512x512 para animados"
-      },
-      "animation_duration": {
-        "name": "Duração da animação",
-        "hint": "",
-        "text": "até 3 segundos"
-      },
-      "file_size": {
-        "name": "Tamanho do arquivo de stickers",
-        "hint": "",
-        "text": "até 512 KB para estáticos, até 64 KB para animados"
-      },
-      "fps": {
-        "name": "FPS",
-        "hint": "",
-        "text": "30 ou 60"
-      },
-      "stickerpack_name_length": {
-        "name": "Comprimento do nome do pacote",
-        "hint": "",
-        "text": "até 64 caracteres"
-      }
-    }
-  },
-  "telegraph": {
-    "name": "Telegraph",
-    "items": {
-      "accounts_number": {
-        "name": "Número de contas",
-        "hint": "no bot @telegraph",
-        "text": "até 5 itens"
-      },
-      "text_size": {
-        "name": "Tamanho do artigo",
-        "hint": "",
-        "text": "até 64 KiB"
-      }
-    }
-  },
-  "miscellaneous": {
-    "name": "Miscelânea",
-    "items": {
-      "properties": {
-        "name": "Propriedades do vídeo de perfil",
-        "hint": "",
-        "text": "800x800px, até 2 MB"
-      }
-    }
+ "accounts": {
+  "name": "Contas",
+  "items": {
+   "username": {
+    "name": "Nome de usuário",
+    "hint": "(p. ex. @cameraman)",
+    "text": "5 a 32 caracteres"
+   },
+   "bio": {
+    "name": "Bio",
+    "hint": "",
+    "text": "até 70 caracteres"
+   },
+   "name_length": {
+    "name": "Tamanho do nome",
+    "hint": "",
+    "text": "de 1 a 64 caracteres"
+   },
+   "last_name_length": {
+    "name": "Tamanho do sobrenome",
+    "hint": "",
+    "text": "de 0 a 64 caracteres"
+   },
+   "self_destruction": {
+    "name": "Tempo de autodestruição",
+    "hint": "sem atividade",
+    "text": "1, 3, 6 e 12 meses (6 por padrão)"
+   },
+   "spam_ban": {
+    "name": "Ban por spam",
+    "hint": "",
+    "text": "3 dias ou mais"
+   },
+   "channels_and_chats_number": {
+    "name": "Número de canais e supergrupos",
+    "hint": "você pode ser membro de",
+    "text": "até 500 (incluindo os que você é dono)"
+   },
+   "gifs_number": {
+    "name": "Número de GIFs salvos",
+    "hint": "",
+    "text": "até 200"
+   },
+   "video_length": {
+    "name": "Duração do vídeo de perfil",
+    "hint": "",
+    "text": "até 10 segundos"
+   },
+   "groups_and_channels_creation": {
+    "name": "Criação de grupos e canais",
+    "hint": "",
+    "text": "até 50 por dia"
+   },
+   "accounts_number": {
+    "name": "Número de contas",
+    "hint": "(clientes oficiais)",
+    "text": "até 3"
+   }
   }
+ },
+ "chats": {
+  "name": "Chats e grupos",
+  "items": {
+   "participants_number": {
+    "name": "Membros",
+    "hint": "(o limite pode ser aumentado)",
+    "text": "até 200.000"
+   },
+   "admins_number": {
+    "name": "Número de admins",
+    "hint": "em grupos",
+    "text": "até 50"
+   },
+   "bots_amount": {
+    "name": "Número de bots",
+    "hint": "em grupos",
+    "text": "até 20"
+   },
+   "pinned_number": {
+    "name": "Chats fixados na tela inicial",
+    "hint": "",
+    "text": "até 5 chats ou canais + 5 chats secretos"
+   },
+   "group_name": {
+    "name": "Nome do grupo e descrição",
+    "hint": "",
+    "text": "até 255 caracteres"
+   },
+   "editing": {
+    "name": "Edição de mensagens",
+    "hint": "",
+    "text": "em 48 horas após o envio; ilimitado em Mensagens Salvas e para admins com permissão de fixar"
+   },
+   "media_self_destruction": {
+    "name": "Autodestruição de fotos e vídeos",
+    "hint": "",
+    "text": "1 a 60 segundos"
+   },
+   "recent_actions": {
+    "name": "Ações recentes",
+    "hint": "(inscrições, mensagens, etc.)",
+    "text": "últimos dois dias"
+   },
+   "mentions_amount": {
+    "name": "Número de menções",
+    "hint": "em uma única mensagem",
+    "text": "até 50, senão as notificações não serão enviadas"
+   },
+   "visible_messages": {
+    "name": "Número de mensagens visíveis",
+    "hint": "em grupos",
+    "text": "últimas 1.000.000 mensagens"
+   },
+   "pinned_messages_number": {
+    "name": "Número de mensagens fixadas",
+    "hint": "",
+    "text": "ilimitado"
+   },
+   "participants_to_see_stats": {
+    "name": "Número de membros para ver as estatísticas",
+    "hint": "",
+    "text": "ao menos 500"
+   },
+   "voice_chat_participants": {
+    "name": "Participantes do chat de voz",
+    "hint": "",
+    "text": "ilimitado"
+   },
+   "username_reservation": {
+    "name": "Reserva de alteração de nome de usuário",
+    "hint": "(tempo antes do nome de usuário estar disponível para todos, não apenas para o dono original)",
+    "text": "cerca de 15-30 minutos"
+   },
+   "participants_for_group_stickers": {
+    "name": "Stickers do grupo",
+    "hint": "",
+    "text": "grupos com +100 participantes"
+   }
+  }
+ },
+ "channels": {
+  "name": "Canais",
+  "items": {
+   "public_usernames": {
+    "name": "Número de nomes públicos",
+    "hint": "para uma única conta",
+    "text": "até 10 (incluindo os grupos)"
+   },
+   "username_length": {
+    "name": "Tamanho de @usuario",
+    "hint": "",
+    "text": "5 a 32 caracteres"
+   },
+   "channel_name": {
+    "name": "Nome do canal e descrição",
+    "hint": "",
+    "text": "até 255 caracteres"
+   },
+   "channel_admins": {
+    "name": "Número de admins em canais",
+    "hint": "(incluindo bots; você só pode adicionar um bot ao seu canal como um administrador)",
+    "text": "até 50 contas"
+   },
+   "editing": {
+    "name": "Edição de mensagens",
+    "hint": "",
+    "text": "ilimitado (se o canal tiver um grupo de discussão vinculado, as postagens com mais de 2 semanas não serão atualizadas no chat)"
+   },
+   "subscribers": {
+    "name": "Número de inscritos em canais",
+    "hint": "",
+    "text": "ilimitado"
+   },
+   "visible_participants": {
+    "name": "Inscritos visíveis",
+    "hint": "para admins do canal",
+    "text": "200 pessoas"
+   },
+   "channel_deletion": {
+    "name": "Exclusão de canal",
+    "hint": "",
+    "text": "canais com mais de 1K de inscritos só podem ser excluídos com o suporte do Telegram"
+   },
+   "private_channel_access": {
+    "name": "Acesso a canais privados",
+    "hint": "sem entrar",
+    "text": "até 5 minutos por dia"
+   },
+   "invintations": {
+    "name": "Convidar usuários",
+    "hint": "",
+    "text": "até 200 pessoas"
+   },
+   "followers_to_see_stats": {
+    "name": "Número de inscritos para ver as estatísticas",
+    "hint": "",
+    "text": "ao menos 50"
+   },
+   "username_reservation": {
+    "name": "Reserva de alteração de nome",
+    "hint": "(tempo antes do nome estar disponível para todos, não apenas para o dono original)",
+    "text": "cerca de 15-30 minutos"
+   }
+  }
+ },
+ "messages": {
+  "name": "Mensagens",
+  "items": {
+   "single_message_length": {
+    "name": "Tamanho de uma mensagem",
+    "hint": "",
+    "text": "até 4.096 caracteres"
+   },
+   "media_descriptions": {
+    "name": "Legendas de mídia",
+    "hint": "",
+    "text": "até 1.024 caracteres"
+   },
+   "upload_size": {
+    "name": "Limite de tamanho de arquivos",
+    "hint": "",
+    "text": "até 2,0 GB"
+   },
+   "video_message_duration": {
+    "name": "Duração da mensagem de vídeo",
+    "hint": "",
+    "text": "até 1 minuto"
+   },
+   "album_size": {
+    "name": "Imagens e vídeos em uma única mensagem",
+    "hint": "(álbum)",
+    "text": "até 10 itens"
+   },
+   "delayed_messages": {
+    "name": "Número de mensagens agendadas",
+    "hint": "",
+    "text": "até 100 itens"
+   },
+   "delaying_messages": {
+    "name": "Intervalo de agendamento",
+    "hint": "",
+    "text": "até 365 dias"
+   }
+  }
+ },
+ "folders": {
+  "name": "Pastas",
+  "items": {
+   "folder_amount": {
+    "name": "Quantidade de pastas",
+    "hint": "",
+    "text": "até 10 pastas"
+   },
+   "pinned_chats_in_folder": {
+    "name": "Chats fixados em uma pasta",
+    "hint": "",
+    "text": "até 100 chats"
+   }
+  }
+ },
+ "people_nearby": {
+  "name": "Pessoas Próximas",
+  "items": {
+   "range": {
+    "name": "Raio de alcance",
+    "hint": "",
+    "text": "cerca de 12 quilômetros"
+   },
+   "amount_of_people": {
+    "name": "Quantidade de usuários visíveis",
+    "hint": "",
+    "text": "até 100 pessoas"
+   },
+   "geochats_number": {
+    "name": "Número de grupos visíveis",
+    "hint": "",
+    "text": "até 10 mais próximos"
+   }
+  }
+ },
+ "bots": {
+  "name": "Bots",
+  "items": {
+   "bots_amount": {
+    "name": "Número de bots",
+    "hint": "(criados pelo @BotFather)",
+    "text": "até 20 itens"
+   },
+   "username length": {
+    "name": "Tamanho de @usuario",
+    "hint": "para bots",
+    "text": "5 a 32 caracteres"
+   },
+   "info_length": {
+    "name": "Tamanho da info de bots",
+    "hint": "(/setabouttext)",
+    "text": "até 120 caracteres"
+   },
+   "description_length": {
+    "name": "Tamanho da descrição de bots",
+    "hint": "",
+    "text": "até 512 caracteres"
+   },
+   "upload_limit_botapi": {
+    "name": "Limite de envio de arquivos",
+    "hint": "(BotAPI)",
+    "text": "até 50 MB"
+   },
+   "download_limit_botapi": {
+    "name": "Limite de download de arquivos",
+    "hint": "(BotAPI)",
+    "text": "até 20 MB"
+   },
+   "forwarding": {
+    "name": "Encaminhamento de mensagens",
+    "hint": "",
+    "text": "até 2.000 por hora"
+   },
+   "keys_in_keyboard_number": {
+    "name": "Número de botões do painel",
+    "hint": "",
+    "text": "até 100 botões"
+   },
+   "formatting_data": {
+    "name": "Dados de formatação de mensagem",
+    "hint": "",
+    "text": "até 10 KB"
+   },
+   "formatting_entities": {
+    "name": "Entidades de formatação",
+    "hint": "(negrito, cursivo, etc.)",
+    "text": "até 100 itens"
+   },
+   "messaging_frequency": {
+    "name": "Frequência de mensagens",
+    "hint": "(pode ser aumentada pelo BotSupport)",
+    "text": "até 30 mensagens por segundo; 20 por minuto para chats e canais públicos"
+   },
+   "api_requests_frequency": {
+    "name": "Frequência de requisições de API",
+    "hint": "(pode ser aumentada pelo BotSupport)",
+    "text": "até 30 requisições por segundo"
+   },
+   "bot_commands_count": {
+    "name": "Quantidade de comandos",
+    "hint": "(no BotFather)",
+    "text": "0 a 100 comandos"
+   },
+   "bot_command_name_length": {
+    "name": "Tamanho do comando",
+    "hint": "(no BotFather)",
+    "text": "de 1 a 32 caracteres"
+   },
+   "bot_command_description_length": {
+    "name": "Tamanho da descrição do comando",
+    "hint": "(no BotFather)",
+    "text": "de 2 a 256 caracteres"
+   },
+   "start_payload_size": {
+    "name": "Tamanho do payload /start de bots",
+    "hint": "",
+    "text": "até 64 caracteres"
+   },
+   "bot_alert_length": {
+    "name": "Tamanho da mensagem de alerta de bots",
+    "hint": "",
+    "text": "até 200 caracteres"
+   },
+   "username_resolve_limit": {
+    "name": "Limite de resolução de nome de usuário",
+    "hint": "(para bots e contas de usuário)",
+    "text": "até 200 nomes de usuário por dia"
+   }
+  }
+ },
+ "search": {
+  "name": "Busca",
+  "items": {
+   "global_search": {
+    "name": "Resultados da busca global",
+    "hint": "",
+    "text": "até 10 itens; até 3 no Android"
+   },
+   "global_search_min_query": {
+    "name": "Tamanho mínimo da busca",
+    "hint": "para a busca global",
+    "text": "ao menos 4 caracteres"
+   }
+  }
+ },
+ "stickers": {
+  "name": "Stickers",
+  "items": {
+   "added_packs": {
+    "name": "Número de pacotes adicionados",
+    "hint": "",
+    "text": "até 200 itens"
+   },
+   "favorite_stickers": {
+    "name": "Número de stickers favoritos",
+    "hint": "",
+    "text": "até 5 itens"
+   },
+   "pack_size": {
+    "name": "Número de stickers em um pacote",
+    "hint": "",
+    "text": "até 120 para estáticos, até 50 para animados"
+   },
+   "sticker_size": {
+    "name": "Tamanho do sticker",
+    "hint": "",
+    "text": "um lado igual a 512px, o outro lado com 512px ou menos; exatamente 512x512 para animados"
+   },
+   "animation_duration": {
+    "name": "Duração da animação",
+    "hint": "",
+    "text": "até 3 segundos"
+   },
+   "file_size": {
+    "name": "Tamanho do arquivo de stickers",
+    "hint": "",
+    "text": "até 512 KB para estáticos, até 64 KB para animados"
+   },
+   "fps": {
+    "name": "FPS",
+    "hint": "",
+    "text": "30 ou 60"
+   },
+   "stickerpack_name_length": {
+    "name": "Comprimento do nome do pacote",
+    "hint": "",
+    "text": "até 64 caracteres"
+   }
+  }
+ },
+ "telegraph": {
+  "name": "Telegraph",
+  "items": {
+   "accounts_number": {
+    "name": "Número de contas",
+    "hint": "no bot @telegraph",
+    "text": "até 5 itens"
+   },
+   "text_size": {
+    "name": "Tamanho do artigo",
+    "hint": "",
+    "text": "até 64 KiB"
+   }
+  }
+ },
+ "miscellaneous": {
+  "name": "Miscelânea",
+  "items": {
+   "properties": {
+    "name": "Propriedades do vídeo de perfil",
+    "hint": "",
+    "text": "800x800px, até 2 MB"
+   }
+  }
+ }
 }

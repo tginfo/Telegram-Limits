@@ -133,7 +133,7 @@
     "text": "alrededor de 15 a 30 minutos"
    },
    "participants_for_group_stickers": {
-    "name": "Group-promoted stickers",
+    "name": "Stickers del grupo",
     "hint": "",
     "text": "grupos con +100 participantes"
    }
@@ -369,8 +369,8 @@
    },
    "username_resolve_limit": {
     "name": "Username resolve limit",
-    "hint": "(for both bots and user accounts)",
-    "text": "up to 200 usernames daily"
+    "hint": "(para bots y cuentas de usuario)",
+    "text": "hasta 200 nombres de usuario diariamente"
    }
   }
  },

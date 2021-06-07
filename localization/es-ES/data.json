@@ -428,9 +428,9 @@
     "text": "30 o 60"
    },
    "stickerpack_name_length": {
-    "name": "Pack name length",
+    "name": "Longitud del nombre del pack",
     "hint": "",
-    "text": "up to 64 characters"
+    "text": "hasta 64 caracteres"
    }
   }
  },

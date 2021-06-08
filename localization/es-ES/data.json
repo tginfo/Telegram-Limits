@@ -123,9 +123,9 @@
     "text": "al menos 500"
    },
    "voice_chat_participants": {
-    "name": "Voice Chat participants",
+    "name": "Participantes del chat de voz",
     "hint": "",
-    "text": "unlimited"
+    "text": "ilimitado"
    },
    "username_reservation": {
     "name": "Reserva de cambio de nombre de usuario",
@@ -133,9 +133,9 @@
     "text": "alrededor de 15 a 30 minutos"
    },
    "participants_for_group_stickers": {
-    "name": "Group-promoted stickers",
+    "name": "Stickers del grupo",
     "hint": "",
-    "text": "groups with 100+ participants"
+    "text": "grupos con +100 participantes"
    }
   }
  },
@@ -158,14 +158,14 @@
     "text": "hasta 255 caracteres"
    },
    "channel_admins": {
-    "name": "Channel admins number",
-    "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-    "text": "up to 50 accounts"
+    "name": "Número de administradores en un canal",
+    "hint": "(incluidos los bots; puedes agregar un bot a tu canal solo si lo hace administrador)",
+    "text": "hasta 50 cuentas"
    },
    "editing": {
     "name": "Edición de posts",
     "hint": "",
-    "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+    "text": "ilimitado (si el canal tiene un grupo de discusión vinculado, los mensajes de más de 2 semanas no se actualizarán en el chat)"
    },
    "subscribers": {
     "name": "Número de suscriptores del canal",
@@ -360,17 +360,17 @@
    "start_payload_size": {
     "name": "Bot /start payload length",
     "hint": "",
-    "text": "up to 64 characters"
+    "text": "hasta 64 caracteres"
    },
    "bot_alert_length": {
-    "name": "Bot alert message length",
+    "name": "Longitud del mensaje de alerta del bot",
     "hint": "",
-    "text": "up to 200 characters"
+    "text": "hasta 200 caracteres"
    },
    "username_resolve_limit": {
     "name": "Username resolve limit",
-    "hint": "(for both bots and user accounts)",
-    "text": "up to 200 usernames daily"
+    "hint": "(para bots y cuentas de usuario)",
+    "text": "hasta 200 nombres de usuario diariamente"
    }
   }
  },
@@ -428,9 +428,9 @@
     "text": "30 o 60"
    },
    "stickerpack_name_length": {
-    "name": "Pack name length",
+    "name": "Longitud del nombre del pack",
     "hint": "",
-    "text": "up to 64 characters"
+    "text": "hasta 64 caracteres"
    }
   }
  },

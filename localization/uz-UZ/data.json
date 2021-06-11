@@ -125,7 +125,7 @@
    "voice_chat_participants": {
     "name": "Ovozli chat ishtirokchilari",
     "hint": "",
-    "text": "unlimited"
+    "text": "cheklanmagan"
    },
    "username_reservation": {
     "name": "O'zgartirilgandan keyin @username zahirasi",

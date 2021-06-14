@@ -45,7 +45,7 @@
    "video_length": {
     "name": "Video-avatar davomiyligi",
     "hint": "",
-    "text": "10 daqiqagacha"
+    "text": "10 soniyagacha"
    },
    "groups_and_channels_creation": {
     "name": "Guruh va kanal yaratish",
@@ -125,7 +125,7 @@
    "voice_chat_participants": {
     "name": "Ovozli chat ishtirokchilari",
     "hint": "",
-    "text": "unlimited"
+    "text": "cheklanmagan"
    },
    "username_reservation": {
     "name": "O'zgartirilgandan keyin @username zahirasi",
@@ -165,7 +165,7 @@
    "editing": {
     "name": "Xabar tahrirlash",
     "hint": "",
-    "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+    "text": "cheklanmagan (agar kanalga muhokama uchun guruh ulangan bo'lsa, 2 hafta muddatdan ortiqroq postlar chatda yangilanmaydi)"
    },
    "subscribers": {
     "name": "Kanal a'zolari soni",
@@ -368,9 +368,9 @@
     "text": "200 tagacha belgi"
    },
    "username_resolve_limit": {
-    "name": "Username resolve limit",
-    "hint": "(for both bots and user accounts)",
-    "text": "up to 200 usernames daily"
+    "name": "Foydalanuvchi nomining chegarasi",
+    "hint": "(Ikkala bot va foydalanuvchi akkauntlari uchun)",
+    "text": "kuniga 200 tagacha foydalanuvchi nomi"
    }
   }
  },
@@ -428,9 +428,9 @@
     "text": "30 yoki 60"
    },
    "stickerpack_name_length": {
-    "name": "Pack name length",
+    "name": "To'plam nomi uzunligi",
     "hint": "",
-    "text": "up to 64 characters"
+    "text": "64 tagacha belgi"
    }
   }
  },

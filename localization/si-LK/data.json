@@ -1,462 +1,487 @@
 {
- "accounts": {
-  "name": "ගිණුම්",
-  "items": {
-   "username": {
-    "name": "පරිශීලක නාමය",
-    "hint": "(උදා. @thisu)",
-    "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
-   },
-   "bio": {
-    "name": "සටහන",
-    "hint": "",
-    "text": "අක්ෂර 70 ක් දක්වා"
-   },
-   "name_length": {
-    "name": "මුල් නමේ දිග",
-    "hint": "",
-    "text": "අක්ෂර 1 සිට 64 ක් දක්වා"
-   },
-   "last_name_length": {
-    "name": "අවසාන නමේ දිග",
-    "hint": "",
-    "text": "අක්ෂර 0 සිට 64 ක් දක්වා"
-   },
-   "self_destruction": {
-    "name": "ස්වයංක්‍රීයව මැකීමේ කාලසීමාව",
-    "hint": "(අක්‍රියව සිටියොත්)",
-    "text": "මාස 1, 3, 6, සහ 12 (පෙරනිමි සැකසුම 6 ක්)"
-   },
-   "spam_ban": {
-    "name": "ස්පෑම් වාරණය",
-    "hint": "",
-    "text": "දින 3 ක් හෝ වැඩි"
-   },
-   "channels_and_chats_number": {
-    "name": "නාලිකා හා සුපිරි සමූහ ගණන",
-    "hint": "(ඔබට සාමාජිකයෙක් විය හැකි)",
-    "text": "500 ක් දක්වා (ඔබ හිමිකරු වන ඒවාද ඇතුළුව)"
-   },
-   "gifs_number": {
-    "name": "සුරැකි GIF ගණන",
-    "hint": "",
-    "text": "200 ක් දක්වා"
-   },
-   "video_length": {
-    "name": "පැතිකඩ වීඩියෝවක කාලසීමාව",
-    "hint": "",
-    "text": "තත්පර 10 ක් දක්වා"
-   },
-   "groups_and_channels_creation": {
-    "name": "සමූහ හා නාලිකා නිර්මාණය",
-    "hint": "",
-    "text": "දිනක් තුළදී 50 ක් දක්වා"
-   },
-   "accounts_number": {
-    "name": "ගිණුම් ගණන",
-    "hint": "(නිල ටෙලිග්‍රෑම් යෙදුම්)",
-    "text": "3 ක් දක්වා"
-   }
+  "accounts": {
+    "name": "ගිණුම්",
+    "items": {
+      "username": {
+        "name": "පරිශීලක නාමය",
+        "hint": "(උදා. @thisu)",
+        "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
+      },
+      "bio": {
+        "name": "සටහන",
+        "hint": "",
+        "text": "අක්ෂර 70 ක් දක්වා"
+      },
+      "name_length": {
+        "name": "මුල් නමේ දිග",
+        "hint": "",
+        "text": "අක්ෂර 1 සිට 64 ක් දක්වා"
+      },
+      "last_name_length": {
+        "name": "අවසාන නමේ දිග",
+        "hint": "",
+        "text": "අක්ෂර 0 සිට 64 ක් දක්වා"
+      },
+      "self_destruction": {
+        "name": "ස්වයංක්‍රීයව මැකීමේ කාලසීමාව",
+        "hint": "(අක්‍රියව සිටියොත්)",
+        "text": "මාස 1, 3, 6, සහ 12 (පෙරනිමි සැකසුම 6 ක්)"
+      },
+      "spam_ban": {
+        "name": "ස්පෑම් වාරණය",
+        "hint": "",
+        "text": "දින 3 ක් හෝ වැඩි"
+      },
+      "channels_and_chats_number": {
+        "name": "නාලිකා හා සුපිරි සමූහ ගණන",
+        "hint": "(ඔබට සාමාජිකයෙක් විය හැකි)",
+        "text": "500 ක් දක්වා (ඔබ හිමිකරු වන ඒවාද ඇතුළුව)"
+      },
+      "gifs_number": {
+        "name": "සුරැකි GIF ගණන",
+        "hint": "",
+        "text": "200 ක් දක්වා"
+      },
+      "video_length": {
+        "name": "පැතිකඩ වීඩියෝවක කාලසීමාව",
+        "hint": "",
+        "text": "තත්පර 10 ක් දක්වා"
+      },
+      "groups_and_channels_creation": {
+        "name": "සමූහ හා නාලිකා නිර්මාණය",
+        "hint": "",
+        "text": "දිනක් තුළදී 50 ක් දක්වා"
+      },
+      "accounts_number": {
+        "name": "ගිණුම් ගණන",
+        "hint": "(නිල ටෙලිග්‍රෑම් යෙදුම්)",
+        "text": "3 ක් දක්වා"
+      }
+    }
+  },
+  "chats": {
+    "name": "සංවාද හා සමූහ",
+    "items": {
+      "participants_number": {
+        "name": "සාමාජිකයින්",
+        "hint": "(සීමාව වැඩිකළ හැකියි)",
+        "text": "200,000 ක් දක්වා"
+      },
+      "admins_number": {
+        "name": "පරිපාලකයින් ගණන",
+        "hint": "සමූහ තුළදී",
+        "text": "50 ක් දක්වා"
+      },
+      "bots_amount": {
+        "name": "රොබෝවන් ගණන",
+        "hint": "සමූහ තුළදී",
+        "text": "20 ක් දක්වා"
+      },
+      "pinned_number": {
+        "name": "ප්‍රධාන ලැයිස්තුව තුළ ඇමුණූ සංවාද",
+        "hint": "",
+        "text": "නාලිකා හෝ සංවාද 5 ක් දක්වා + රහස් සංවාද 5 ක්"
+      },
+      "group_name": {
+        "name": "සමූහයේ නම හා විස්තරය",
+        "hint": "",
+        "text": "අක්ෂර 255 ක් දක්වා"
+      },
+      "editing": {
+        "name": "පණිවිඩ සංස්කරණය",
+        "hint": "",
+        "text": "යවා පැය 48 ක් ඇතුළත; සුරැකි පණිවීඩ තුළදී සහ පණිවිඩ ඇමිණීමේ හිමිකම සහිත පරිපාලකයින් සඳහා සීමා නොමැත"
+      },
+      "media_self_destruction": {
+        "name": "ඡායාරූප හා වීඩියෝ ස්වයංක්‍රීයව-මැකීම",
+        "hint": "",
+        "text": "තත්පර 1 සිට 60 ක් දක්වා"
+      },
+      "recent_actions": {
+        "name": "මෑත ක්‍රියාමාර්ග",
+        "hint": "(ග්‍රාහකයින් එක්වීම්, පළකිරීම් ආදී)",
+        "text": "අවසන් දින 2"
+      },
+      "mentions_amount": {
+        "name": "සඳහන්කිරීම් ගණන",
+        "hint": "(එක් පණිවිඩයක් තුළ)",
+        "text": "50 ක් දක්වා, මෙය ඉක්මවූ විට දැනුම්දීම් ‍යැවීමක් නොවනු ඇත"
+      },
+      "visible_messages": {
+        "name": "පෙන්වන පණිවිඩ ගණන",
+        "hint": "(සමූහයක් තුළදී)",
+        "text": "අවසන් පණිවිඩ 1,000,000"
+      },
+      "pinned_messages_number": {
+        "name": "ඇමුණූ පණිවිඩ ගණන",
+        "hint": "",
+        "text": "අසීමිතයි"
+      },
+      "participants_to_see_stats": {
+        "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය සාමාජිකයින් ගණන",
+        "hint": "",
+        "text": "අවම වශයෙන් 500 ක්"
+      },
+      "username_reservation": {
+        "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
+        "hint": "(පරිශීලක නාමයක් ඉවත්කිරීමේදී මෙම කාලයට පසුව එය ඕනෑම අයෙක්ට ලබාගත හැකිවනු ඇත)",
+        "text": "විනාඩි 15-30 පමණ"
+      },
+      "participants_for_group_stickers": {
+        "name": "සමූහයේ නමින් වූ ස්ටිකර් කට්ටල",
+        "hint": "",
+        "text": "සාමාජිකයින් 100+ සහිත සමූහ"
+      }
+    }
+  },
+  "voice_chats": {
+    "name": "Voice Chats",
+    "items": {
+      "voice_chat_participants": {
+        "name": "Participants",
+        "hint": "",
+        "text": "unlimited"
+      },
+      "voice_chat_video_features": {
+        "name": "Video features availability",
+        "hint": "(camera, screen casting)",
+        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+      },
+      "voice_chat_title_length": {
+        "name": "Title length",
+        "hint": "",
+        "text": "up to 64 characters"
+      },
+      "voice_chat_schedule": {
+        "name": "Scheduling range",
+        "hint": "",
+        "text": "up to 7 days"
+      }
+    }
+  },
+  "channels": {
+    "name": "නාලිකා",
+    "items": {
+      "public_usernames": {
+        "name": "පොදු පරිශීලක නාමයන් ගණන",
+        "hint": "එක් ගිණුමක් සඳහා",
+        "text": "10 ක් දක්වා (සමූහද ඇතුළුව)"
+      },
+      "username_length": {
+        "name": "@username හි දිග",
+        "hint": "",
+        "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
+      },
+      "channel_name": {
+        "name": "නාලිකාවේ නම හා විස්තරය",
+        "hint": "",
+        "text": "අක්ෂර 255 ක් දක්වා"
+      },
+      "channel_admins": {
+        "name": "පරිපාලකයින් ගණන",
+        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "text": "ගිණුම් 50ක් දක්වා"
+      },
+      "editing": {
+        "name": "පළකිරීම් සංස්කරණය",
+        "hint": "",
+        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+      },
+      "subscribers": {
+        "name": "නාලිකාවක ග්‍රාහකයින් ගණන",
+        "hint": "",
+        "text": "අසීමිතයි"
+      },
+      "visible_participants": {
+        "name": "පෙන්වන ග්‍රාහකයින් ගණන",
+        "hint": "(නාලිකා පරිපාලකයෙක්ට)",
+        "text": "පුද්ගලයින් 200 ක්"
+      },
+      "channel_deletion": {
+        "name": "නාලිකා මැකීම",
+        "hint": "",
+        "text": "1000 කට වැඩි ග්‍රාහකයින් සහිත නාලිකාවක් මැකිය හැක්කේ ටෙලිග්‍රෑම් සහාය හරහා පමණි"
+      },
+      "private_channel_access": {
+        "name": "පුද්ගලික නාලිකා වෙත පිවිසීම",
+        "hint": "(එක්වීමෙන් තොරව)",
+        "text": "එක් දිනක් තුළ විනාඩි 5 ක් දක්වා"
+      },
+      "invintations": {
+        "name": "පුද්ගලයින්ට ඇරයුම් කිරීම",
+        "hint": "",
+        "text": "පුද්ගලයින් 200 ක් දක්වා"
+      },
+      "followers_to_see_stats": {
+        "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය ග්‍රාහකයින් ගණන",
+        "hint": "",
+        "text": "අවම වශයෙන් 50 ක්"
+      },
+      "username_reservation": {
+        "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
+        "hint": "(පරිශීලක නාමයක් ඉවත්කිරීමේදී මෙම කාලයට පසුව එය ඕනෑම අයෙක්ට ලබාගත හැකිවනු ඇත)",
+        "text": "විනාඩි 15-30 පමණ"
+      }
+    }
+  },
+  "messages": {
+    "name": "පණිවිඩ",
+    "items": {
+      "single_message_length": {
+        "name": "එක් පණිවිඩයක දිග",
+        "hint": "",
+        "text": "අක්ෂර 4,096 ක් දක්වා"
+      },
+      "media_descriptions": {
+        "name": "ඡායාරූප සටහන",
+        "hint": "",
+        "text": "අක්ෂර 1,024 ක් දක්වා"
+      },
+      "upload_size": {
+        "name": "ගොනුවක උපරිම විශාලත්වය",
+        "hint": "",
+        "text": "ගිගා.බ 2.0 ක් දක්වා"
+      },
+      "video_message_duration": {
+        "name": "වීඩියෝ පණිවිඩයක දිග",
+        "hint": "",
+        "text": "විනාඩි 1 ක් දක්වා"
+      },
+      "album_size": {
+        "name": "එක් පණිවිඩයක් තුළ ඡායාරූප හා වීඩියෝ",
+        "hint": "(ඇල්බම්)",
+        "text": "අයිතම 10 ක් දක්වා"
+      },
+      "delayed_messages": {
+        "name": "කල්තැබූ පණිවිඩ ගණන",
+        "hint": "",
+        "text": "අයිතම 100 ක් දක්වා"
+      },
+      "delaying_messages": {
+        "name": "කල්තැබිය හැකි කාලසීමාව",
+        "hint": "",
+        "text": "දින 365 ක් දක්වා"
+      }
+    }
+  },
+  "folders": {
+    "name": "ෆෝල්ඩර",
+    "items": {
+      "folder_amount": {
+        "name": "ෆෝල්ඩර ගණන",
+        "hint": "",
+        "text": "ෆෝල්ඩර 10 ක් දක්වා"
+      },
+      "pinned_chats_in_folder": {
+        "name": "ෆෝල්ඩරයක් තුළ ඇමුණූ සංවාද",
+        "hint": "",
+        "text": "සංවාද 100 ක් දක්වා"
+      }
+    }
+  },
+  "people_nearby": {
+    "name": "යාබද පුද්ගලයින්",
+    "items": {
+      "range": {
+        "name": "පෙන්වන පරාසය",
+        "hint": "",
+        "text": "කිලෝමීටර 12 ක් පමණ"
+      },
+      "amount_of_people": {
+        "name": "පෙන්වන පුද්ගලයින් ගණන",
+        "hint": "",
+        "text": "පුද්ගලයින් 100 ක් දක්වා"
+      },
+      "geochats_number": {
+        "name": "පෙන්වන ස්ථානීය සමූහ ගණන",
+        "hint": "",
+        "text": "ආසන්නම 10 ක් දක්වා"
+      }
+    }
+  },
+  "bots": {
+    "name": "රොබෝවන්",
+    "items": {
+      "bots_amount": {
+        "name": "රොබෝවන් ගණන",
+        "hint": "(@BotFather විසින් සෑදූ)",
+        "text": "20 ක් දක්වා"
+      },
+      "username length": {
+        "name": "@username හි දිග",
+        "hint": "(රොබෝවන් සඳහා)",
+        "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
+      },
+      "info_length": {
+        "name": "රොබෝ තොරතුරු වල දිග",
+        "hint": "(/setabouttext)",
+        "text": "අක්ෂර 120 ක් දක්වා"
+      },
+      "description_length": {
+        "name": "රොබෝ විස්තරයේ දිග",
+        "hint": "",
+        "text": "අක්ෂර 512 ක් දක්වා"
+      },
+      "upload_limit_botapi": {
+        "name": "ගොනු උඩුගතකිරීමේ සීමාව",
+        "hint": "(BotAPI)",
+        "text": "මෙගා.බ 50 ක් දක්වා"
+      },
+      "download_limit_botapi": {
+        "name": "ගොනු බාගතකිරීමේ සීමාව",
+        "hint": "(BotAPI)",
+        "text": "මෙගා.බ 20 ක් දක්වා"
+      },
+      "forwarding": {
+        "name": "පණිවිඩ පිටතට යැවීම",
+        "hint": "",
+        "text": "පැයකට 2,000 ක් දක්වා"
+      },
+      "keys_in_keyboard_number": {
+        "name": "යතුරුපුවරු බොත්තම් ගණන",
+        "hint": "",
+        "text": "අයිතම 100 ක් දක්වා"
+      },
+      "formatting_data": {
+        "name": "පණිවිඩ හැඩසව් කිරීම් දත්ත",
+        "hint": "",
+        "text": "කිලෝ.බ 10 ක් දක්වා"
+      },
+      "formatting_entities": {
+        "name": "Formatting entities",
+        "hint": "(bold, cursive etc.)",
+        "text": "අයිතම 100 ක් දක්වා"
+      },
+      "messaging_frequency": {
+        "name": "පණිවිඩ ප්‍රමාණය",
+        "hint": "(BotSupport හරහා වැඩිකළ හැකියි)",
+        "text": "තත්පරයට පණිවිඩ 30 ක් දක්වා; පොදු සංවාද හා නාලිකා තුළදී විනාඩියට 20 ක් දක්වා"
+      },
+      "api_requests_frequency": {
+        "name": "API ඉල්ලීම් ප්‍රමාණය",
+        "hint": "(BotSupport හරහා වැඩිකළ හැකියි)",
+        "text": "තත්පරයට ඉල්ලීම් 30 ක් දක්වා"
+      },
+      "bot_commands_count": {
+        "name": "විධාන ගණන",
+        "hint": "(BotFather තුළදී)",
+        "text": "විධාන 0 සිට 100 ක් දක්වා"
+      },
+      "bot_command_name_length": {
+        "name": "විධානයක දිග",
+        "hint": "(BotFather තුළදී)",
+        "text": "අක්ෂර 1 සිට 32 ක් දක්වා"
+      },
+      "bot_command_description_length": {
+        "name": "විධාන විස්තරයේ දිග",
+        "hint": "(BotFather තුළදී)",
+        "text": "අක්ෂර 2 සිට 256 ක් දක්වා"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "අක්ෂර 64 ක් දක්වා"
+      },
+      "bot_alert_length": {
+        "name": "Bot alert message length",
+        "hint": "",
+        "text": "අක්ෂර 200 ක් දක්වා"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "දිනකට පරිශීලක නාම 200ක් දක්වා"
+      },
+      "inline_max_items": {
+        "name": "Inline results number",
+        "hint": "",
+        "text": "up to 50 items"
+      }
+    }
+  },
+  "search": {
+    "name": "සෙවුම",
+    "items": {
+      "global_search": {
+        "name": "ගෝලීය සෙවුම් ප්‍රතිඵල",
+        "hint": "",
+        "text": "අයිතම 10 ක් දක්වා; ඇන්ඩ්‍රොයිඩ් තුළදී 3 ක් දක්වා"
+      },
+      "global_search_min_query": {
+        "name": "සෙවුම් පදයක අවම දිග",
+        "hint": "(ගෝලීය සෙවුමකදී)",
+        "text": "අවම වශයෙන් අක්ෂර 4 ක්"
+      }
+    }
+  },
+  "stickers": {
+    "name": "ස්ටිකර්",
+    "items": {
+      "added_packs": {
+        "name": "එක්කළ හැකි කට්ටල ගණන",
+        "hint": "",
+        "text": "අයිතම 200 ක් දක්වා"
+      },
+      "favorite_stickers": {
+        "name": "ප්‍රියතම ස්ටිකර් ගණන",
+        "hint": "",
+        "text": "අයිතම 5 ක් දක්වා"
+      },
+      "pack_size": {
+        "name": "කට්ටලයක් තුළ ස්ටිකර් ගණන",
+        "hint": "",
+        "text": "සාමාන්‍ය ස්ටිකර් 120 ක් දක්වා, චලන ස්ටිකර් සඳහා 50 ක් දක්වා"
+      },
+      "sticker_size": {
+        "name": "ස්ටිකරයක ප්‍රමාණය",
+        "hint": "",
+        "text": "එක් පසක් 512px, අනෙක් පස 512px හෝ ඊට අඩු; චලන ස්ටිකර් නම් 512x512 විය යුතුයි"
+      },
+      "animation_duration": {
+        "name": "සජීවීකරණ කාලසීමාව",
+        "hint": "",
+        "text": "තත්පර 3 ක් දක්වා"
+      },
+      "file_size": {
+        "name": "ස්ටිකර් ගොනුවක විශාලත්වය",
+        "hint": "",
+        "text": "සාමාන්‍ය ස්ටිකර් සඳහා කිලෝ.බ 512 ක් දක්වා, චලන ස්ටිකර් සඳහා කිලෝ.බ 64 ක් දක්වා"
+      },
+      "fps": {
+        "name": "තත්පරයකට රූපරාමු",
+        "hint": "",
+        "text": "30 හෝ 60"
+      },
+      "stickerpack_name_length": {
+        "name": "කට්ටල නාමයේ දිග",
+        "hint": "",
+        "text": "අක්ෂර 64 ක් දක්වා"
+      }
+    }
+  },
+  "telegraph": {
+    "name": "ටෙලිග්‍රාෆ්",
+    "items": {
+      "accounts_number": {
+        "name": "ගිණුම් ගණන",
+        "hint": "(@telegraph රොබෝ තුළ)",
+        "text": "ගිණුම් 5 ක් දක්වා"
+      },
+      "text_size": {
+        "name": "ලිපියක විශාලත්වය",
+        "hint": "",
+        "text": "කිලෝ.බ 64 ක් දක්වා"
+      }
+    }
+  },
+  "miscellaneous": {
+    "name": "වෙනත්",
+    "items": {
+      "properties": {
+        "name": "පැතිකඩ වීඩියෝවක සැකසුම්",
+        "hint": "",
+        "text": "800x800px, මෙගා.බ 2 ක් දක්වා"
+      }
+    }
   }
- },
- "chats": {
-  "name": "සංවාද හා සමූහ",
-  "items": {
-   "participants_number": {
-    "name": "සාමාජිකයින්",
-    "hint": "(සීමාව වැඩිකළ හැකියි)",
-    "text": "200,000 ක් දක්වා"
-   },
-   "admins_number": {
-    "name": "පරිපාලකයින් ගණන",
-    "hint": "සමූහ තුළදී",
-    "text": "50 ක් දක්වා"
-   },
-   "bots_amount": {
-    "name": "රොබෝවන් ගණන",
-    "hint": "සමූහ තුළදී",
-    "text": "20 ක් දක්වා"
-   },
-   "pinned_number": {
-    "name": "ප්‍රධාන ලැයිස්තුව තුළ ඇමුණූ සංවාද",
-    "hint": "",
-    "text": "නාලිකා හෝ සංවාද 5 ක් දක්වා + රහස් සංවාද 5 ක්"
-   },
-   "group_name": {
-    "name": "සමූහයේ නම හා විස්තරය",
-    "hint": "",
-    "text": "අක්ෂර 255 ක් දක්වා"
-   },
-   "editing": {
-    "name": "පණිවිඩ සංස්කරණය",
-    "hint": "",
-    "text": "යවා පැය 48 ක් ඇතුළත; සුරැකි පණිවීඩ තුළදී සහ පණිවිඩ ඇමිණීමේ හිමිකම සහිත පරිපාලකයින් සඳහා සීමා නොමැත"
-   },
-   "media_self_destruction": {
-    "name": "ඡායාරූප හා වීඩියෝ ස්වයංක්‍රීයව-මැකීම",
-    "hint": "",
-    "text": "තත්පර 1 සිට 60 ක් දක්වා"
-   },
-   "recent_actions": {
-    "name": "මෑත ක්‍රියාමාර්ග",
-    "hint": "(ග්‍රාහකයින් එක්වීම්, පළකිරීම් ආදී)",
-    "text": "අවසන් දින 2"
-   },
-   "mentions_amount": {
-    "name": "සඳහන්කිරීම් ගණන",
-    "hint": "(එක් පණිවිඩයක් තුළ)",
-    "text": "50 ක් දක්වා, මෙය ඉක්මවූ විට දැනුම්දීම් ‍යැවීමක් නොවනු ඇත"
-   },
-   "visible_messages": {
-    "name": "පෙන්වන පණිවිඩ ගණන",
-    "hint": "(සමූහයක් තුළදී)",
-    "text": "අවසන් පණිවිඩ 1,000,000"
-   },
-   "pinned_messages_number": {
-    "name": "ඇමුණූ පණිවිඩ ගණන",
-    "hint": "",
-    "text": "අසීමිතයි"
-   },
-   "participants_to_see_stats": {
-    "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය සාමාජිකයින් ගණන",
-    "hint": "",
-    "text": "අවම වශයෙන් 500 ක්"
-   },
-   "voice_chat_participants": {
-    "name": "කථන සංවාදයක සහභාගීන්",
-    "hint": "",
-    "text": "අසීමිතයි"
-   },
-   "username_reservation": {
-    "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
-    "hint": "(පරිශීලක නාමයක් ඉවත්කිරීමේදී මෙම කාලයට පසුව එය ඕනෑම අයෙක්ට ලබාගත හැකිවනු ඇත)",
-    "text": "විනාඩි 15-30 පමණ"
-   },
-   "participants_for_group_stickers": {
-    "name": "සමූහයේ නමින් වූ ස්ටිකර් කට්ටල",
-    "hint": "",
-    "text": "සාමාජිකයින් 100+ සහිත සමූහ"
-   }
-  }
- },
- "channels": {
-  "name": "නාලිකා",
-  "items": {
-   "public_usernames": {
-    "name": "පොදු පරිශීලක නාමයන් ගණන",
-    "hint": "එක් ගිණුමක් සඳහා",
-    "text": "10 ක් දක්වා (සමූහද ඇතුළුව)"
-   },
-   "username_length": {
-    "name": "@username හි දිග",
-    "hint": "",
-    "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
-   },
-   "channel_name": {
-    "name": "නාලිකාවේ නම හා විස්තරය",
-    "hint": "",
-    "text": "අක්ෂර 255 ක් දක්වා"
-   },
-   "channel_admins": {
-    "name": "පරිපාලකයින් ගණන",
-    "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-    "text": "ගිණුම් 50ක් දක්වා"
-   },
-   "editing": {
-    "name": "පළකිරීම් සංස්කරණය",
-    "hint": "",
-    "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
-   },
-   "subscribers": {
-    "name": "නාලිකාවක ග්‍රාහකයින් ගණන",
-    "hint": "",
-    "text": "අසීමිතයි"
-   },
-   "visible_participants": {
-    "name": "පෙන්වන ග්‍රාහකයින් ගණන",
-    "hint": "(නාලිකා පරිපාලකයෙක්ට)",
-    "text": "පුද්ගලයින් 200 ක්"
-   },
-   "channel_deletion": {
-    "name": "නාලිකා මැකීම",
-    "hint": "",
-    "text": "1000 කට වැඩි ග්‍රාහකයින් සහිත නාලිකාවක් මැකිය හැක්කේ ටෙලිග්‍රෑම් සහාය හරහා පමණි"
-   },
-   "private_channel_access": {
-    "name": "පුද්ගලික නාලිකා වෙත පිවිසීම",
-    "hint": "(එක්වීමෙන් තොරව)",
-    "text": "එක් දිනක් තුළ විනාඩි 5 ක් දක්වා"
-   },
-   "invintations": {
-    "name": "පුද්ගලයින්ට ඇරයුම් කිරීම",
-    "hint": "",
-    "text": "පුද්ගලයින් 200 ක් දක්වා"
-   },
-   "followers_to_see_stats": {
-    "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය ග්‍රාහකයින් ගණන",
-    "hint": "",
-    "text": "අවම වශයෙන් 50 ක්"
-   },
-   "username_reservation": {
-    "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
-    "hint": "(පරිශීලක නාමයක් ඉවත්කිරීමේදී මෙම කාලයට පසුව එය ඕනෑම අයෙක්ට ලබාගත හැකිවනු ඇත)",
-    "text": "විනාඩි 15-30 පමණ"
-   }
-  }
- },
- "messages": {
-  "name": "පණිවිඩ",
-  "items": {
-   "single_message_length": {
-    "name": "එක් පණිවිඩයක දිග",
-    "hint": "",
-    "text": "අක්ෂර 4,096 ක් දක්වා"
-   },
-   "media_descriptions": {
-    "name": "ඡායාරූප සටහන",
-    "hint": "",
-    "text": "අක්ෂර 1,024 ක් දක්වා"
-   },
-   "upload_size": {
-    "name": "ගොනුවක උපරිම විශාලත්වය",
-    "hint": "",
-    "text": "ගිගා.බ 2.0 ක් දක්වා"
-   },
-   "video_message_duration": {
-    "name": "වීඩියෝ පණිවිඩයක දිග",
-    "hint": "",
-    "text": "විනාඩි 1 ක් දක්වා"
-   },
-   "album_size": {
-    "name": "එක් පණිවිඩයක් තුළ ඡායාරූප හා වීඩියෝ",
-    "hint": "(ඇල්බම්)",
-    "text": "අයිතම 10 ක් දක්වා"
-   },
-   "delayed_messages": {
-    "name": "කල්තැබූ පණිවිඩ ගණන",
-    "hint": "",
-    "text": "අයිතම 100 ක් දක්වා"
-   },
-   "delaying_messages": {
-    "name": "කල්තැබිය හැකි කාලසීමාව",
-    "hint": "",
-    "text": "දින 365 ක් දක්වා"
-   }
-  }
- },
- "folders": {
-  "name": "ෆෝල්ඩර",
-  "items": {
-   "folder_amount": {
-    "name": "ෆෝල්ඩර ගණන",
-    "hint": "",
-    "text": "ෆෝල්ඩර 10 ක් දක්වා"
-   },
-   "pinned_chats_in_folder": {
-    "name": "ෆෝල්ඩරයක් තුළ ඇමුණූ සංවාද",
-    "hint": "",
-    "text": "සංවාද 100 ක් දක්වා"
-   }
-  }
- },
- "people_nearby": {
-  "name": "යාබද පුද්ගලයින්",
-  "items": {
-   "range": {
-    "name": "පෙන්වන පරාසය",
-    "hint": "",
-    "text": "කිලෝමීටර 12 ක් පමණ"
-   },
-   "amount_of_people": {
-    "name": "පෙන්වන පුද්ගලයින් ගණන",
-    "hint": "",
-    "text": "පුද්ගලයින් 100 ක් දක්වා"
-   },
-   "geochats_number": {
-    "name": "පෙන්වන ස්ථානීය සමූහ ගණන",
-    "hint": "",
-    "text": "ආසන්නම 10 ක් දක්වා"
-   }
-  }
- },
- "bots": {
-  "name": "රොබෝවන්",
-  "items": {
-   "bots_amount": {
-    "name": "රොබෝවන් ගණන",
-    "hint": "(@BotFather විසින් සෑදූ)",
-    "text": "20 ක් දක්වා"
-   },
-   "username length": {
-    "name": "@username හි දිග",
-    "hint": "(රොබෝවන් සඳහා)",
-    "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
-   },
-   "info_length": {
-    "name": "රොබෝ තොරතුරු වල දිග",
-    "hint": "(/setabouttext)",
-    "text": "අක්ෂර 120 ක් දක්වා"
-   },
-   "description_length": {
-    "name": "රොබෝ විස්තරයේ දිග",
-    "hint": "",
-    "text": "අක්ෂර 512 ක් දක්වා"
-   },
-   "upload_limit_botapi": {
-    "name": "ගොනු උඩුගතකිරීමේ සීමාව",
-    "hint": "(BotAPI)",
-    "text": "මෙගා.බ 50 ක් දක්වා"
-   },
-   "download_limit_botapi": {
-    "name": "ගොනු බාගතකිරීමේ සීමාව",
-    "hint": "(BotAPI)",
-    "text": "මෙගා.බ 20 ක් දක්වා"
-   },
-   "forwarding": {
-    "name": "පණිවිඩ පිටතට යැවීම",
-    "hint": "",
-    "text": "පැයකට 2,000 ක් දක්වා"
-   },
-   "keys_in_keyboard_number": {
-    "name": "යතුරුපුවරු බොත්තම් ගණන",
-    "hint": "",
-    "text": "අයිතම 100 ක් දක්වා"
-   },
-   "formatting_data": {
-    "name": "පණිවිඩ හැඩසව් කිරීම් දත්ත",
-    "hint": "",
-    "text": "කිලෝ.බ 10 ක් දක්වා"
-   },
-   "formatting_entities": {
-    "name": "Formatting entities",
-    "hint": "(bold, cursive etc.)",
-    "text": "අයිතම 100 ක් දක්වා"
-   },
-   "messaging_frequency": {
-    "name": "පණිවිඩ ප්‍රමාණය",
-    "hint": "(BotSupport හරහා වැඩිකළ හැකියි)",
-    "text": "තත්පරයට පණිවිඩ 30 ක් දක්වා; පොදු සංවාද හා නාලිකා තුළදී විනාඩියට 20 ක් දක්වා"
-   },
-   "api_requests_frequency": {
-    "name": "API ඉල්ලීම් ප්‍රමාණය",
-    "hint": "(BotSupport හරහා වැඩිකළ හැකියි)",
-    "text": "තත්පරයට ඉල්ලීම් 30 ක් දක්වා"
-   },
-   "bot_commands_count": {
-    "name": "විධාන ගණන",
-    "hint": "(BotFather තුළදී)",
-    "text": "විධාන 0 සිට 100 ක් දක්වා"
-   },
-   "bot_command_name_length": {
-    "name": "විධානයක දිග",
-    "hint": "(BotFather තුළදී)",
-    "text": "අක්ෂර 1 සිට 32 ක් දක්වා"
-   },
-   "bot_command_description_length": {
-    "name": "විධාන විස්තරයේ දිග",
-    "hint": "(BotFather තුළදී)",
-    "text": "අක්ෂර 2 සිට 256 ක් දක්වා"
-   },
-   "start_payload_size": {
-    "name": "Bot /start payload length",
-    "hint": "",
-    "text": "අක්ෂර 64 ක් දක්වා"
-   },
-   "bot_alert_length": {
-    "name": "Bot alert message length",
-    "hint": "",
-    "text": "අක්ෂර 200 ක් දක්වා"
-   },
-   "username_resolve_limit": {
-    "name": "Username resolve limit",
-    "hint": "(for both bots and user accounts)",
-    "text": "දිනකට පරිශීලක නාම 200ක් දක්වා"
-   }
-  }
- },
- "search": {
-  "name": "සෙවුම",
-  "items": {
-   "global_search": {
-    "name": "ගෝලීය සෙවුම් ප්‍රතිඵල",
-    "hint": "",
-    "text": "අයිතම 10 ක් දක්වා; ඇන්ඩ්‍රොයිඩ් තුළදී 3 ක් දක්වා"
-   },
-   "global_search_min_query": {
-    "name": "සෙවුම් පදයක අවම දිග",
-    "hint": "(ගෝලීය සෙවුමකදී)",
-    "text": "අවම වශයෙන් අක්ෂර 4 ක්"
-   }
-  }
- },
- "stickers": {
-  "name": "ස්ටිකර්",
-  "items": {
-   "added_packs": {
-    "name": "එක්කළ හැකි කට්ටල ගණන",
-    "hint": "",
-    "text": "අයිතම 200 ක් දක්වා"
-   },
-   "favorite_stickers": {
-    "name": "ප්‍රියතම ස්ටිකර් ගණන",
-    "hint": "",
-    "text": "අයිතම 5 ක් දක්වා"
-   },
-   "pack_size": {
-    "name": "කට්ටලයක් තුළ ස්ටිකර් ගණන",
-    "hint": "",
-    "text": "සාමාන්‍ය ස්ටිකර් 120 ක් දක්වා, චලන ස්ටිකර් සඳහා 50 ක් දක්වා"
-   },
-   "sticker_size": {
-    "name": "ස්ටිකරයක ප්‍රමාණය",
-    "hint": "",
-    "text": "එක් පසක් 512px, අනෙක් පස 512px හෝ ඊට අඩු; චලන ස්ටිකර් නම් 512x512 විය යුතුයි"
-   },
-   "animation_duration": {
-    "name": "සජීවීකරණ කාලසීමාව",
-    "hint": "",
-    "text": "තත්පර 3 ක් දක්වා"
-   },
-   "file_size": {
-    "name": "ස්ටිකර් ගොනුවක විශාලත්වය",
-    "hint": "",
-    "text": "සාමාන්‍ය ස්ටිකර් සඳහා කිලෝ.බ 512 ක් දක්වා, චලන ස්ටිකර් සඳහා කිලෝ.බ 64 ක් දක්වා"
-   },
-   "fps": {
-    "name": "තත්පරයකට රූපරාමු",
-    "hint": "",
-    "text": "30 හෝ 60"
-   },
-   "stickerpack_name_length": {
-    "name": "කට්ටල නාමයේ දිග",
-    "hint": "",
-    "text": "අක්ෂර 64 ක් දක්වා"
-   }
-  }
- },
- "telegraph": {
-  "name": "ටෙලිග්‍රාෆ්",
-  "items": {
-   "accounts_number": {
-    "name": "ගිණුම් ගණන",
-    "hint": "(@telegraph රොබෝ තුළ)",
-    "text": "ගිණුම් 5 ක් දක්වා"
-   },
-   "text_size": {
-    "name": "ලිපියක විශාලත්වය",
-    "hint": "",
-    "text": "කිලෝ.බ 64 ක් දක්වා"
-   }
-  }
- },
- "miscellaneous": {
-  "name": "වෙනත්",
-  "items": {
-   "properties": {
-    "name": "පැතිකඩ වීඩියෝවක සැකසුම්",
-    "hint": "",
-    "text": "800x800px, මෙගා.බ 2 ක් දක්වා"
-   }
-  }
- }
 }

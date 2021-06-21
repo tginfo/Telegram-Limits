@@ -1,462 +1,487 @@
 {
- "accounts": {
-  "name": "Налози",
-  "items": {
-   "username": {
-    "name": "Корисничко име",
-    "hint": "(нпр. @cameraman)",
-    "text": "од 5 до 32 знака"
-   },
-   "bio": {
-    "name": "Биографија",
-    "hint": "",
-    "text": "до 70 знакова"
-   },
-   "name_length": {
-    "name": "Дужина имена",
-    "hint": "",
-    "text": "од 1 до 64 знака"
-   },
-   "last_name_length": {
-    "name": "Дужина презимена",
-    "hint": "",
-    "text": "од 0 до 64 знака"
-   },
-   "self_destruction": {
-    "name": "Рок за самоуништење",
-    "hint": "ако је неактиван",
-    "text": "1, 3, 6 и 12 месеци (6 подразумевано)"
-   },
-   "spam_ban": {
-    "name": "Забрана приступа због злоупотребе",
-    "hint": "",
-    "text": "3 дана или више"
-   },
-   "channels_and_chats_number": {
-    "name": "Број канала и супергрупа",
-    "hint": "којих можете бити члан",
-    "text": "до 500 (укључујући и оне које поседујете)"
-   },
-   "gifs_number": {
-    "name": "Број сачуваних GIF-ова",
-    "hint": "",
-    "text": "до 200"
-   },
-   "video_length": {
-    "name": "Трајање профилног видеа",
-    "hint": "",
-    "text": "до 10 секунди"
-   },
-   "groups_and_channels_creation": {
-    "name": "Прављење група и канала",
-    "hint": "",
-    "text": "до 50 дневно"
-   },
-   "accounts_number": {
-    "name": "Број налога",
-    "hint": "(званични клијенти)",
-    "text": "до 3"
-   }
+  "accounts": {
+    "name": "Налози",
+    "items": {
+      "username": {
+        "name": "Корисничко име",
+        "hint": "(нпр. @cameraman)",
+        "text": "од 5 до 32 знака"
+      },
+      "bio": {
+        "name": "Биографија",
+        "hint": "",
+        "text": "до 70 знакова"
+      },
+      "name_length": {
+        "name": "Дужина имена",
+        "hint": "",
+        "text": "од 1 до 64 знака"
+      },
+      "last_name_length": {
+        "name": "Дужина презимена",
+        "hint": "",
+        "text": "од 0 до 64 знака"
+      },
+      "self_destruction": {
+        "name": "Рок за самоуништење",
+        "hint": "ако је неактиван",
+        "text": "1, 3, 6 и 12 месеци (6 подразумевано)"
+      },
+      "spam_ban": {
+        "name": "Забрана приступа због злоупотребе",
+        "hint": "",
+        "text": "3 дана или више"
+      },
+      "channels_and_chats_number": {
+        "name": "Број канала и супергрупа",
+        "hint": "којих можете бити члан",
+        "text": "до 500 (укључујући и оне које поседујете)"
+      },
+      "gifs_number": {
+        "name": "Број сачуваних GIF-ова",
+        "hint": "",
+        "text": "до 200"
+      },
+      "video_length": {
+        "name": "Трајање профилног видеа",
+        "hint": "",
+        "text": "до 10 секунди"
+      },
+      "groups_and_channels_creation": {
+        "name": "Прављење група и канала",
+        "hint": "",
+        "text": "до 50 дневно"
+      },
+      "accounts_number": {
+        "name": "Број налога",
+        "hint": "(званични клијенти)",
+        "text": "до 3"
+      }
+    }
+  },
+  "chats": {
+    "name": "Ћаскања и групе",
+    "items": {
+      "participants_number": {
+        "name": "Чланови",
+        "hint": "(ограничење може да се повећа)",
+        "text": "до 200.000"
+      },
+      "admins_number": {
+        "name": "Број админа",
+        "hint": "у групама",
+        "text": "до 50"
+      },
+      "bots_amount": {
+        "name": "Број ботова",
+        "hint": "у групама",
+        "text": "до 20"
+      },
+      "pinned_number": {
+        "name": "Закачена ћаскања на главној листи",
+        "hint": "",
+        "text": "до пет ћаскања или канала + 5 тајних ћаскања"
+      },
+      "group_name": {
+        "name": "Назив групе и опис",
+        "hint": "",
+        "text": "до 255 знакова"
+      },
+      "editing": {
+        "name": "Уређивање поруке",
+        "hint": "",
+        "text": "у року од 48 сати од слања; неограничено у Сачуваним порукама и за админе са правом за качење порука"
+      },
+      "media_self_destruction": {
+        "name": "Самоуништење фотографије и видеа",
+        "hint": "",
+        "text": "1 до 60 секунди"
+      },
+      "recent_actions": {
+        "name": "Недавне радње",
+        "hint": "(праћења, објаве, итд.)",
+        "text": "последња два дана"
+      },
+      "mentions_amount": {
+        "name": "Спомињање чланова",
+        "hint": "у једној поруци",
+        "text": "до 50, у супротном обавештења неће бити послата"
+      },
+      "visible_messages": {
+        "name": "Број видљивих порука",
+        "hint": "у групи",
+        "text": "1.000.000 последњих порука"
+      },
+      "pinned_messages_number": {
+        "name": "Број закачених порука",
+        "hint": "",
+        "text": "неограничено"
+      },
+      "participants_to_see_stats": {
+        "name": "Број чланова потребан за приказ статистике",
+        "hint": "",
+        "text": "најмање 500"
+      },
+      "username_reservation": {
+        "name": "Резервација промене корисничког имена",
+        "hint": "(време пре него што ће корисничко име бити доступно свима, не само оригиналном власнику)",
+        "text": "око 15-30 минута"
+      },
+      "participants_for_group_stickers": {
+        "name": "Стикери групе",
+        "hint": "",
+        "text": "групе са 100+ чланова"
+      }
+    }
+  },
+  "voice_chats": {
+    "name": "Voice Chats",
+    "items": {
+      "voice_chat_participants": {
+        "name": "Participants",
+        "hint": "",
+        "text": "unlimited"
+      },
+      "voice_chat_video_features": {
+        "name": "Video features availability",
+        "hint": "(camera, screen casting)",
+        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+      },
+      "voice_chat_title_length": {
+        "name": "Title length",
+        "hint": "",
+        "text": "up to 64 characters"
+      },
+      "voice_chat_schedule": {
+        "name": "Scheduling range",
+        "hint": "",
+        "text": "up to 7 days"
+      }
+    }
+  },
+  "channels": {
+    "name": "Канали",
+    "items": {
+      "public_usernames": {
+        "name": "Број јавних корисничких имена",
+        "hint": "за један налог",
+        "text": "до 10 (укључујући групе)"
+      },
+      "username_length": {
+        "name": "Дужина @username",
+        "hint": "",
+        "text": "од 5 до 32 знака"
+      },
+      "channel_name": {
+        "name": "Назив и опис канала",
+        "hint": "",
+        "text": "до 255 знакова"
+      },
+      "channel_admins": {
+        "name": "Број админа канала",
+        "hint": "(укључујући ботове; можете да додате бота у ваш канал само тако што ћете да га поставите за админа)",
+        "text": "до 50 налога"
+      },
+      "editing": {
+        "name": "Уређивање објаве",
+        "hint": "",
+        "text": "неограничено (ако канал има повезану групу за дискусију, објаве старије од две недеље неће бити ажуриране у групи)"
+      },
+      "subscribers": {
+        "name": "Број пратилаца канала",
+        "hint": "",
+        "text": "неограничено"
+      },
+      "visible_participants": {
+        "name": "Видљиви пратиоци",
+        "hint": "за админа канала",
+        "text": "200 особа"
+      },
+      "channel_deletion": {
+        "name": "Брисање канала",
+        "hint": "",
+        "text": "канали са више од 1000 пратилаца могу бити избрисани само преко Telegram подршке"
+      },
+      "private_channel_access": {
+        "name": "Приступ приватном каналу",
+        "hint": "без праћења",
+        "text": "до 5 минута дневно"
+      },
+      "invintations": {
+        "name": "Додавање пратилаца",
+        "hint": "",
+        "text": "до 200 особа"
+      },
+      "followers_to_see_stats": {
+        "name": "Број пратилаца потребан за приказ статистике",
+        "hint": "",
+        "text": "најмање 50"
+      },
+      "username_reservation": {
+        "name": "Резервација промене корисничког имена",
+        "hint": "(време пре него што корисничко име постане доступно за све, не само за оригиналног власника)",
+        "text": "око 15-30 минута"
+      }
+    }
+  },
+  "messages": {
+    "name": "Поруке",
+    "items": {
+      "single_message_length": {
+        "name": "Дужина једне поруке",
+        "hint": "",
+        "text": "до 4096 знакова"
+      },
+      "media_descriptions": {
+        "name": "Опис медија",
+        "hint": "",
+        "text": "до 1024 знака"
+      },
+      "upload_size": {
+        "name": "Величина датотеке",
+        "hint": "",
+        "text": "до 2,0 GB"
+      },
+      "video_message_duration": {
+        "name": "Трајање видео-поруке",
+        "hint": "",
+        "text": "до 1 минута"
+      },
+      "album_size": {
+        "name": "Слике и видео-снимци у једној поруци",
+        "hint": "(албум)",
+        "text": "до 10 ставки"
+      },
+      "delayed_messages": {
+        "name": "Број заказаних порука",
+        "hint": "",
+        "text": "до 100 порука"
+      },
+      "delaying_messages": {
+        "name": "Распон заказивања",
+        "hint": "",
+        "text": "до 365 дана"
+      }
+    }
+  },
+  "folders": {
+    "name": "Фасцикле",
+    "items": {
+      "folder_amount": {
+        "name": "Број фасцикли",
+        "hint": "",
+        "text": "до 10 фасцикли"
+      },
+      "pinned_chats_in_folder": {
+        "name": "Закачена ћаскања у фасцикли",
+        "hint": "",
+        "text": "до 100 ћаскања"
+      }
+    }
+  },
+  "people_nearby": {
+    "name": "Људи у близини",
+    "items": {
+      "range": {
+        "name": "Домет видљивости",
+        "hint": "",
+        "text": "око 12 километара"
+      },
+      "amount_of_people": {
+        "name": "Број видљивих особа",
+        "hint": "",
+        "text": "до 100 особа"
+      },
+      "geochats_number": {
+        "name": "Број видљивих група заснованих на локацији",
+        "hint": "",
+        "text": "до 10 најближих"
+      }
+    }
+  },
+  "bots": {
+    "name": "Ботови",
+    "items": {
+      "bots_amount": {
+        "name": "Број ботова",
+        "hint": "(које је направио @BotFather)",
+        "text": "до 20 ботова"
+      },
+      "username length": {
+        "name": "Дужина @username",
+        "hint": "за ботове",
+        "text": "од 5 до 32 знака"
+      },
+      "info_length": {
+        "name": "Дужина информација о боту",
+        "hint": "(/setabouttext)",
+        "text": "до 120 знакова"
+      },
+      "description_length": {
+        "name": "Дужина описа бота",
+        "hint": "",
+        "text": "до 512 знакова"
+      },
+      "upload_limit_botapi": {
+        "name": "Величина учитане датотеке",
+        "hint": "(BotAPI)",
+        "text": "до 50 MB"
+      },
+      "download_limit_botapi": {
+        "name": "Величина преузете датотеке",
+        "hint": "(BotAPI)",
+        "text": "до 20 MB"
+      },
+      "forwarding": {
+        "name": "Прослеђивање порука",
+        "hint": "",
+        "text": "до 2000 по сату"
+      },
+      "keys_in_keyboard_number": {
+        "name": "Број приказаних дугмади",
+        "hint": "",
+        "text": "до 100 ставки"
+      },
+      "formatting_data": {
+        "name": "Подаци форматирања поруке",
+        "hint": "",
+        "text": "до 10 KB"
+      },
+      "formatting_entities": {
+        "name": "Форматирање текста",
+        "hint": "(подебљано, курзив, итд.)",
+        "text": "до 100 ставки"
+      },
+      "messaging_frequency": {
+        "name": "Учесталост порука",
+        "hint": "(може бити повећано преко BotSupport-а)",
+        "text": "до 30 порука у секунди; 20 по минуту за јавне групе и канале"
+      },
+      "api_requests_frequency": {
+        "name": "Учесталост API захтева",
+        "hint": "(може бити повећано преко BotSupport-а)",
+        "text": "до 30 захтева по секунди"
+      },
+      "bot_commands_count": {
+        "name": "Број команди",
+        "hint": "(у BotFather-у)",
+        "text": "од 0 до 100 команди"
+      },
+      "bot_command_name_length": {
+        "name": "Дужина команде",
+        "hint": "(у BotFather-у)",
+        "text": "од 1 до 32 знака"
+      },
+      "bot_command_description_length": {
+        "name": "Дужина описа команде",
+        "hint": "(у BotFather-у)",
+        "text": "од 2 до 256 знакова"
+      },
+      "start_payload_size": {
+        "name": "Максимална почетна дужина испорученог текста бота",
+        "hint": "",
+        "text": "до 64 знака"
+      },
+      "bot_alert_length": {
+        "name": "Дужина поруке упозорења бота",
+        "hint": "",
+        "text": "до 200 знакова"
+      },
+      "username_resolve_limit": {
+        "name": "Ограничење решења корисничког имена",
+        "hint": "(за ботове и корисничке налоге)",
+        "text": "до 200 корисничких имена дневно"
+      },
+      "inline_max_items": {
+        "name": "Inline results number",
+        "hint": "",
+        "text": "up to 50 items"
+      }
+    }
+  },
+  "search": {
+    "name": "Претрага",
+    "items": {
+      "global_search": {
+        "name": "Резултати глобалне претраге",
+        "hint": "",
+        "text": "до 10 ставки; до 3 за Android"
+      },
+      "global_search_min_query": {
+        "name": "Минимална дужина речи",
+        "hint": "за глобалну претрагу",
+        "text": "најмање 4 знака"
+      }
+    }
+  },
+  "stickers": {
+    "name": "Стикери",
+    "items": {
+      "added_packs": {
+        "name": "Број додатих пакета стикера",
+        "hint": "",
+        "text": "до 200 пакета"
+      },
+      "favorite_stickers": {
+        "name": "Број омиљених стикера",
+        "hint": "",
+        "text": "до 5 стикера"
+      },
+      "pack_size": {
+        "name": "Број стикера у пакету",
+        "hint": "",
+        "text": "до 120 за статичне, и до 50 за анимиране"
+      },
+      "sticker_size": {
+        "name": "Величина стикера",
+        "hint": "",
+        "text": "једна страна да буде једнака 512px, друга страна 512 px или мање; тачно 512x512 за анимиране"
+      },
+      "animation_duration": {
+        "name": "Трајање анимације",
+        "hint": "",
+        "text": "до 3 секунде"
+      },
+      "file_size": {
+        "name": "Величина стикера",
+        "hint": "",
+        "text": "до 512 KB за статичне, до 64 KB за анимиране"
+      },
+      "fps": {
+        "name": "FPS",
+        "hint": "",
+        "text": "30 или 60"
+      },
+      "stickerpack_name_length": {
+        "name": "Дужина назива пакета",
+        "hint": "",
+        "text": "до 64 знака"
+      }
+    }
+  },
+  "telegraph": {
+    "name": "Telegraph",
+    "items": {
+      "accounts_number": {
+        "name": "Број налога",
+        "hint": "у @telegraph боту",
+        "text": "до пет налога"
+      },
+      "text_size": {
+        "name": "Величина чланка",
+        "hint": "",
+        "text": "до 64 KiB"
+      }
+    }
+  },
+  "miscellaneous": {
+    "name": "Разно",
+    "items": {
+      "properties": {
+        "name": "Карактеристике профилног видеа",
+        "hint": "",
+        "text": "800x800px, до 2 MB"
+      }
+    }
   }
- },
- "chats": {
-  "name": "Ћаскања и групе",
-  "items": {
-   "participants_number": {
-    "name": "Чланови",
-    "hint": "(ограничење може да се повећа)",
-    "text": "до 200.000"
-   },
-   "admins_number": {
-    "name": "Број админа",
-    "hint": "у групама",
-    "text": "до 50"
-   },
-   "bots_amount": {
-    "name": "Број ботова",
-    "hint": "у групама",
-    "text": "до 20"
-   },
-   "pinned_number": {
-    "name": "Закачена ћаскања на главној листи",
-    "hint": "",
-    "text": "до пет ћаскања или канала + 5 тајних ћаскања"
-   },
-   "group_name": {
-    "name": "Назив групе и опис",
-    "hint": "",
-    "text": "до 255 знакова"
-   },
-   "editing": {
-    "name": "Уређивање поруке",
-    "hint": "",
-    "text": "у року од 48 сати од слања; неограничено у Сачуваним порукама и за админе са правом за качење порука"
-   },
-   "media_self_destruction": {
-    "name": "Самоуништење фотографије и видеа",
-    "hint": "",
-    "text": "1 до 60 секунди"
-   },
-   "recent_actions": {
-    "name": "Недавне радње",
-    "hint": "(праћења, објаве, итд.)",
-    "text": "последња два дана"
-   },
-   "mentions_amount": {
-    "name": "Спомињање чланова",
-    "hint": "у једној поруци",
-    "text": "до 50, у супротном обавештења неће бити послата"
-   },
-   "visible_messages": {
-    "name": "Број видљивих порука",
-    "hint": "у групи",
-    "text": "1.000.000 последњих порука"
-   },
-   "pinned_messages_number": {
-    "name": "Број закачених порука",
-    "hint": "",
-    "text": "неограничено"
-   },
-   "participants_to_see_stats": {
-    "name": "Број чланова потребан за приказ статистике",
-    "hint": "",
-    "text": "најмање 500"
-   },
-   "voice_chat_participants": {
-    "name": "Учесници гласовног ћаскања",
-    "hint": "",
-    "text": "неограничено"
-   },
-   "username_reservation": {
-    "name": "Резервација промене корисничког имена",
-    "hint": "(време пре него што ће корисничко име бити доступно свима, не само оригиналном власнику)",
-    "text": "око 15-30 минута"
-   },
-   "participants_for_group_stickers": {
-    "name": "Стикери групе",
-    "hint": "",
-    "text": "групе са 100+ чланова"
-   }
-  }
- },
- "channels": {
-  "name": "Канали",
-  "items": {
-   "public_usernames": {
-    "name": "Број јавних корисничких имена",
-    "hint": "за један налог",
-    "text": "до 10 (укључујући групе)"
-   },
-   "username_length": {
-    "name": "Дужина @username",
-    "hint": "",
-    "text": "од 5 до 32 знака"
-   },
-   "channel_name": {
-    "name": "Назив и опис канала",
-    "hint": "",
-    "text": "до 255 знакова"
-   },
-   "channel_admins": {
-    "name": "Број админа канала",
-    "hint": "(укључујући ботове; можете да додате бота у ваш канал само тако што ћете да га поставите за админа)",
-    "text": "до 50 налога"
-   },
-   "editing": {
-    "name": "Уређивање објаве",
-    "hint": "",
-    "text": "неограничено (ако канал има повезану групу за дискусију, објаве старије од две недеље неће бити ажуриране у групи)"
-   },
-   "subscribers": {
-    "name": "Број пратилаца канала",
-    "hint": "",
-    "text": "неограничено"
-   },
-   "visible_participants": {
-    "name": "Видљиви пратиоци",
-    "hint": "за админа канала",
-    "text": "200 особа"
-   },
-   "channel_deletion": {
-    "name": "Брисање канала",
-    "hint": "",
-    "text": "канали са више од 1000 пратилаца могу бити избрисани само преко Telegram подршке"
-   },
-   "private_channel_access": {
-    "name": "Приступ приватном каналу",
-    "hint": "без праћења",
-    "text": "до 5 минута дневно"
-   },
-   "invintations": {
-    "name": "Додавање пратилаца",
-    "hint": "",
-    "text": "до 200 особа"
-   },
-   "followers_to_see_stats": {
-    "name": "Број пратилаца потребан за приказ статистике",
-    "hint": "",
-    "text": "најмање 50"
-   },
-   "username_reservation": {
-    "name": "Резервација промене корисничког имена",
-    "hint": "(време пре него што корисничко име постане доступно за све, не само за оригиналног власника)",
-    "text": "око 15-30 минута"
-   }
-  }
- },
- "messages": {
-  "name": "Поруке",
-  "items": {
-   "single_message_length": {
-    "name": "Дужина једне поруке",
-    "hint": "",
-    "text": "до 4096 знакова"
-   },
-   "media_descriptions": {
-    "name": "Опис медија",
-    "hint": "",
-    "text": "до 1024 знака"
-   },
-   "upload_size": {
-    "name": "Величина датотеке",
-    "hint": "",
-    "text": "до 2,0 GB"
-   },
-   "video_message_duration": {
-    "name": "Трајање видео-поруке",
-    "hint": "",
-    "text": "до 1 минута"
-   },
-   "album_size": {
-    "name": "Слике и видео-снимци у једној поруци",
-    "hint": "(албум)",
-    "text": "до 10 ставки"
-   },
-   "delayed_messages": {
-    "name": "Број заказаних порука",
-    "hint": "",
-    "text": "до 100 порука"
-   },
-   "delaying_messages": {
-    "name": "Распон заказивања",
-    "hint": "",
-    "text": "до 365 дана"
-   }
-  }
- },
- "folders": {
-  "name": "Фасцикле",
-  "items": {
-   "folder_amount": {
-    "name": "Број фасцикли",
-    "hint": "",
-    "text": "до 10 фасцикли"
-   },
-   "pinned_chats_in_folder": {
-    "name": "Закачена ћаскања у фасцикли",
-    "hint": "",
-    "text": "до 100 ћаскања"
-   }
-  }
- },
- "people_nearby": {
-  "name": "Људи у близини",
-  "items": {
-   "range": {
-    "name": "Домет видљивости",
-    "hint": "",
-    "text": "око 12 километара"
-   },
-   "amount_of_people": {
-    "name": "Број видљивих особа",
-    "hint": "",
-    "text": "до 100 особа"
-   },
-   "geochats_number": {
-    "name": "Број видљивих група заснованих на локацији",
-    "hint": "",
-    "text": "до 10 најближих"
-   }
-  }
- },
- "bots": {
-  "name": "Ботови",
-  "items": {
-   "bots_amount": {
-    "name": "Број ботова",
-    "hint": "(које је направио @BotFather)",
-    "text": "до 20 ботова"
-   },
-   "username length": {
-    "name": "Дужина @username",
-    "hint": "за ботове",
-    "text": "од 5 до 32 знака"
-   },
-   "info_length": {
-    "name": "Дужина информација о боту",
-    "hint": "(/setabouttext)",
-    "text": "до 120 знакова"
-   },
-   "description_length": {
-    "name": "Дужина описа бота",
-    "hint": "",
-    "text": "до 512 знакова"
-   },
-   "upload_limit_botapi": {
-    "name": "Величина учитане датотеке",
-    "hint": "(BotAPI)",
-    "text": "до 50 MB"
-   },
-   "download_limit_botapi": {
-    "name": "Величина преузете датотеке",
-    "hint": "(BotAPI)",
-    "text": "до 20 MB"
-   },
-   "forwarding": {
-    "name": "Прослеђивање порука",
-    "hint": "",
-    "text": "до 2000 по сату"
-   },
-   "keys_in_keyboard_number": {
-    "name": "Број приказаних дугмади",
-    "hint": "",
-    "text": "до 100 ставки"
-   },
-   "formatting_data": {
-    "name": "Подаци форматирања поруке",
-    "hint": "",
-    "text": "до 10 KB"
-   },
-   "formatting_entities": {
-    "name": "Форматирање текста",
-    "hint": "(подебљано, курзив, итд.)",
-    "text": "до 100 ставки"
-   },
-   "messaging_frequency": {
-    "name": "Учесталост порука",
-    "hint": "(може бити повећано преко BotSupport-а)",
-    "text": "до 30 порука у секунди; 20 по минуту за јавне групе и канале"
-   },
-   "api_requests_frequency": {
-    "name": "Учесталост API захтева",
-    "hint": "(може бити повећано преко BotSupport-а)",
-    "text": "до 30 захтева по секунди"
-   },
-   "bot_commands_count": {
-    "name": "Број команди",
-    "hint": "(у BotFather-у)",
-    "text": "од 0 до 100 команди"
-   },
-   "bot_command_name_length": {
-    "name": "Дужина команде",
-    "hint": "(у BotFather-у)",
-    "text": "од 1 до 32 знака"
-   },
-   "bot_command_description_length": {
-    "name": "Дужина описа команде",
-    "hint": "(у BotFather-у)",
-    "text": "од 2 до 256 знакова"
-   },
-   "start_payload_size": {
-    "name": "Максимална почетна дужина испорученог текста бота",
-    "hint": "",
-    "text": "до 64 знака"
-   },
-   "bot_alert_length": {
-    "name": "Дужина поруке упозорења бота",
-    "hint": "",
-    "text": "до 200 знакова"
-   },
-   "username_resolve_limit": {
-    "name": "Ограничење решења корисничког имена",
-    "hint": "(за ботове и корисничке налоге)",
-    "text": "до 200 корисничких имена дневно"
-   }
-  }
- },
- "search": {
-  "name": "Претрага",
-  "items": {
-   "global_search": {
-    "name": "Резултати глобалне претраге",
-    "hint": "",
-    "text": "до 10 ставки; до 3 за Android"
-   },
-   "global_search_min_query": {
-    "name": "Минимална дужина речи",
-    "hint": "за глобалну претрагу",
-    "text": "најмање 4 знака"
-   }
-  }
- },
- "stickers": {
-  "name": "Стикери",
-  "items": {
-   "added_packs": {
-    "name": "Број додатих пакета стикера",
-    "hint": "",
-    "text": "до 200 пакета"
-   },
-   "favorite_stickers": {
-    "name": "Број омиљених стикера",
-    "hint": "",
-    "text": "до 5 стикера"
-   },
-   "pack_size": {
-    "name": "Број стикера у пакету",
-    "hint": "",
-    "text": "до 120 за статичне, и до 50 за анимиране"
-   },
-   "sticker_size": {
-    "name": "Величина стикера",
-    "hint": "",
-    "text": "једна страна да буде једнака 512px, друга страна 512 px или мање; тачно 512x512 за анимиране"
-   },
-   "animation_duration": {
-    "name": "Трајање анимације",
-    "hint": "",
-    "text": "до 3 секунде"
-   },
-   "file_size": {
-    "name": "Величина стикера",
-    "hint": "",
-    "text": "до 512 KB за статичне, до 64 KB за анимиране"
-   },
-   "fps": {
-    "name": "FPS",
-    "hint": "",
-    "text": "30 или 60"
-   },
-   "stickerpack_name_length": {
-    "name": "Дужина назива пакета",
-    "hint": "",
-    "text": "до 64 знака"
-   }
-  }
- },
- "telegraph": {
-  "name": "Telegraph",
-  "items": {
-   "accounts_number": {
-    "name": "Број налога",
-    "hint": "у @telegraph боту",
-    "text": "до пет налога"
-   },
-   "text_size": {
-    "name": "Величина чланка",
-    "hint": "",
-    "text": "до 64 KiB"
-   }
-  }
- },
- "miscellaneous": {
-  "name": "Разно",
-  "items": {
-   "properties": {
-    "name": "Карактеристике профилног видеа",
-    "hint": "",
-    "text": "800x800px, до 2 MB"
-   }
-  }
- }
 }

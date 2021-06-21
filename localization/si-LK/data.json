@@ -125,7 +125,7 @@
    "voice_chat_participants": {
     "name": "කථන සංවාදයක සහභාගීන්",
     "hint": "",
-    "text": "unlimited"
+    "text": "අසීමිතයි"
    },
    "username_reservation": {
     "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
@@ -133,7 +133,7 @@
     "text": "විනාඩි 15-30 පමණ"
    },
    "participants_for_group_stickers": {
-    "name": "Group-promoted stickers",
+    "name": "සමූහයේ නමින් වූ ස්ටිකර් කට්ටල",
     "hint": "",
     "text": "සාමාජිකයින් 100+ සහිත සමූහ"
    }
@@ -158,9 +158,9 @@
     "text": "අක්ෂර 255 ක් දක්වා"
    },
    "channel_admins": {
-    "name": "Channel admins number",
+    "name": "පරිපාලකයින් ගණන",
     "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-    "text": "up to 50 accounts"
+    "text": "ගිණුම් 50ක් දක්වා"
    },
    "editing": {
     "name": "පළකිරීම් සංස්කරණය",
@@ -323,7 +323,7 @@
     "text": "අයිතම 100 ක් දක්වා"
    },
    "formatting_data": {
-    "name": "Message formatting data",
+    "name": "පණිවිඩ හැඩසව් කිරීම් දත්ත",
     "hint": "",
     "text": "කිලෝ.බ 10 ක් දක්වා"
    },
@@ -360,17 +360,17 @@
    "start_payload_size": {
     "name": "Bot /start payload length",
     "hint": "",
-    "text": "up to 64 characters"
+    "text": "අක්ෂර 64 ක් දක්වා"
    },
    "bot_alert_length": {
     "name": "Bot alert message length",
     "hint": "",
-    "text": "up to 200 characters"
+    "text": "අක්ෂර 200 ක් දක්වා"
    },
    "username_resolve_limit": {
     "name": "Username resolve limit",
     "hint": "(for both bots and user accounts)",
-    "text": "up to 200 usernames daily"
+    "text": "දිනකට පරිශීලක නාම 200ක් දක්වා"
    }
   }
  },
@@ -428,9 +428,9 @@
     "text": "30 හෝ 60"
    },
    "stickerpack_name_length": {
-    "name": "Pack name length",
+    "name": "කට්ටල නාමයේ දිග",
     "hint": "",
-    "text": "up to 64 characters"
+    "text": "අක්ෂර 64 ක් දක්වා"
    }
   }
  },

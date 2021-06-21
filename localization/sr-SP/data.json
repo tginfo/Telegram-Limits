@@ -143,19 +143,19 @@
         "text": "неограничено"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
+        "name": "Доступност видео опција",
         "hint": "(камера, дељење екрана)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "text": "само првих 30 учесника могу да деле екран и учествују у групном видео позиву, за све остале ће бити доступно само гласовно ћаскање"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Дужина назива",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "до 64 знака"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Распон заказивања",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "до 7 дана"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "до 200 корисничких имена дневно"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Број инлајн резултата бота",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "до 50 ставки"
       }
     }
   },

@@ -397,6 +397,16 @@ footer>.side>.name>.middle {
     opacity: 0;
 }
 
+#results:empty:after {
+    content: '\ea76';
+    display: block;
+    text-align: center;
+    font-family: 'Material Icons';
+    margin: 15px;
+    font-size: 50px;
+    color: #afafaf;
+}
+
 .footericon img {
     height: 1em;
 }

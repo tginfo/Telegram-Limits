@@ -365,12 +365,12 @@
    "bot_alert_length": {
     "name": "Bot alert message length",
     "hint": "",
-    "text": "up to 200 characters"
+    "text": "අක්ෂර 200 ක් දක්වා"
    },
    "username_resolve_limit": {
     "name": "Username resolve limit",
     "hint": "(for both bots and user accounts)",
-    "text": "up to 200 usernames daily"
+    "text": "දිනකට පරිශීලක නාම 200ක් දක්වා"
    }
   }
  },

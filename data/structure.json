@@ -104,16 +104,35 @@
                 "icon": "poll"
             },
             {
-                "id": "voice_chat_participants",
-                "icon": "graphic_eq"
-            },
-            {
                 "id": "username_reservation",
                 "icon": "timelapse"
             },
             {
                 "id": "participants_for_group_stickers",
                 "icon": "sticky_note_2"
+            }
+        ]
+    },
+    {
+        "id": "voice_chats",
+        "icon": "perm_phone_msg",
+        "color": "255, 152, 0",
+        "items": [
+            {
+                "id": "voice_chat_participants",
+                "icon": "graphic_eq"
+            },
+            {
+                "id": "voice_chat_video_features",
+                "icon": "voice_chat"
+            },
+            {
+                "id": "voice_chat_title_length",
+                "icon": "text_format"
+            },
+            {
+                "id": "voice_chat_schedule",
+                "icon": "more_time"
             }
         ]
     },
@@ -314,6 +333,10 @@
             {
                 "id": "username_resolve_limit",
                 "icon": "offline_bolt"
+            },
+            {
+                "id": "inline_max_items",
+                "icon": "receipt"
             }
         ]
     },

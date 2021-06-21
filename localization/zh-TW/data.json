@@ -1,462 +1,487 @@
 {
- "accounts": {
-  "name": "帳號",
-  "items": {
-   "username": {
-    "name": "使用者名稱",
-    "hint": "(例：@cameraman)",
-    "text": "5 到 32 個字元"
-   },
-   "bio": {
-    "name": "自我介紹",
-    "hint": "",
-    "text": "最多 70 個字元"
-   },
-   "name_length": {
-    "name": "名字長度",
-    "hint": "",
-    "text": "1 到 64 字元"
-   },
-   "last_name_length": {
-    "name": "姓氏長度",
-    "hint": "",
-    "text": "0 到 64 個字元"
-   },
-   "self_destruction": {
-    "name": "自動刪除帳號時間",
-    "hint": "如在設定時間沒有活動",
-    "text": "1、3、6 與 12 個月（預設為 6 個月）"
-   },
-   "spam_ban": {
-    "name": "違反防垃圾規則封鎖",
-    "hint": "",
-    "text": "3 天或以上"
-   },
-   "channels_and_chats_number": {
-    "name": "頻道與超級群組人數",
-    "hint": "頻道與群組數量",
-    "text": "500 個（包含自己建立的）"
-   },
-   "gifs_number": {
-    "name": "保存 GIF 數量",
-    "hint": "",
-    "text": "200 個"
-   },
-   "video_length": {
-    "name": "動態頭貼長度",
-    "hint": "",
-    "text": "10 秒"
-   },
-   "groups_and_channels_creation": {
-    "name": "建立群組與頻道數量",
-    "hint": "",
-    "text": "每天 50 個"
-   },
-   "accounts_number": {
-    "name": "登入帳號數量",
-    "hint": "（官方客戶端）",
-    "text": "3 個"
-   }
+  "accounts": {
+    "name": "帳號",
+    "items": {
+      "username": {
+        "name": "使用者名稱",
+        "hint": "(例：@cameraman)",
+        "text": "5 到 32 個字元"
+      },
+      "bio": {
+        "name": "自我介紹",
+        "hint": "",
+        "text": "最多 70 個字元"
+      },
+      "name_length": {
+        "name": "名字長度",
+        "hint": "",
+        "text": "1 到 64 字元"
+      },
+      "last_name_length": {
+        "name": "姓氏長度",
+        "hint": "",
+        "text": "0 到 64 個字元"
+      },
+      "self_destruction": {
+        "name": "自動刪除帳號時間",
+        "hint": "如在設定時間沒有活動",
+        "text": "1、3、6 與 12 個月（預設為 6 個月）"
+      },
+      "spam_ban": {
+        "name": "違反防垃圾規則封鎖",
+        "hint": "",
+        "text": "3 天或以上"
+      },
+      "channels_and_chats_number": {
+        "name": "頻道與超級群組人數",
+        "hint": "頻道與群組數量",
+        "text": "500 個（包含自己建立的）"
+      },
+      "gifs_number": {
+        "name": "保存 GIF 數量",
+        "hint": "",
+        "text": "200 個"
+      },
+      "video_length": {
+        "name": "動態頭貼長度",
+        "hint": "",
+        "text": "10 秒"
+      },
+      "groups_and_channels_creation": {
+        "name": "建立群組與頻道數量",
+        "hint": "",
+        "text": "每天 50 個"
+      },
+      "accounts_number": {
+        "name": "登入帳號數量",
+        "hint": "（官方客戶端）",
+        "text": "3 個"
+      }
+    }
+  },
+  "chats": {
+    "name": "對話與群組",
+    "items": {
+      "participants_number": {
+        "name": "群組人數",
+        "hint": "（可提高限制）",
+        "text": "高達 200,000 人"
+      },
+      "admins_number": {
+        "name": "管理員人數",
+        "hint": "在群組中",
+        "text": "高達 50 位"
+      },
+      "bots_amount": {
+        "name": "機器人數量",
+        "hint": "在群組中",
+        "text": "高達 20 個"
+      },
+      "pinned_number": {
+        "name": "主選單置頂對話清單",
+        "hint": "",
+        "text": "最多 5 個對話或頻道 + 5 個私密對話"
+      },
+      "group_name": {
+        "name": "群組名稱及描述",
+        "hint": "",
+        "text": "最多 255 個字元"
+      },
+      "editing": {
+        "name": "編輯訊息",
+        "hint": "",
+        "text": "在訊息發出後 48 小時內；已儲存對話以及具有置頂權限的管理員不在此限"
+      },
+      "media_self_destruction": {
+        "name": "媒體自動銷毀",
+        "hint": "",
+        "text": "1 到 60 秒"
+      },
+      "recent_actions": {
+        "name": "最近操作",
+        "hint": "（訂閱、貼文……等）",
+        "text": "最近兩天"
+      },
+      "mentions_amount": {
+        "name": "標註數量",
+        "hint": "一則訊息內",
+        "text": "最多 50 個，上限之後的使用者不會收到通知"
+      },
+      "visible_messages": {
+        "name": "可見訊息數量",
+        "hint": "群組內",
+        "text": "倒數 1,000,000 則訊息"
+      },
+      "pinned_messages_number": {
+        "name": "釘選訊息數量",
+        "hint": "",
+        "text": "無上限"
+      },
+      "participants_to_see_stats": {
+        "name": "查看統計數據所需人數",
+        "hint": "",
+        "text": "至少 500"
+      },
+      "username_reservation": {
+        "name": "使用者名稱保留時間",
+        "hint": "(time before username will be available for everyone, not just the original owner)",
+        "text": "約 15 到 30 分鐘"
+      },
+      "participants_for_group_stickers": {
+        "name": "Group-promoted stickers",
+        "hint": "",
+        "text": "groups with 100+ participants"
+      }
+    }
+  },
+  "voice_chats": {
+    "name": "Voice Chats",
+    "items": {
+      "voice_chat_participants": {
+        "name": "Participants",
+        "hint": "",
+        "text": "unlimited"
+      },
+      "voice_chat_video_features": {
+        "name": "Video features availability",
+        "hint": "(camera, screen casting)",
+        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+      },
+      "voice_chat_title_length": {
+        "name": "Title length",
+        "hint": "",
+        "text": "up to 64 characters"
+      },
+      "voice_chat_schedule": {
+        "name": "Scheduling range",
+        "hint": "",
+        "text": "up to 7 days"
+      }
+    }
+  },
+  "channels": {
+    "name": "Channels",
+    "items": {
+      "public_usernames": {
+        "name": "Public usernames number",
+        "hint": "for a single account",
+        "text": "up to 10 (including groups)"
+      },
+      "username_length": {
+        "name": "Length of @username",
+        "hint": "",
+        "text": "5 to 32 characters"
+      },
+      "channel_name": {
+        "name": "Channel name and description",
+        "hint": "",
+        "text": "up to 255 characters"
+      },
+      "channel_admins": {
+        "name": "頻道管理員人數",
+        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "text": "最多 50 個賬户"
+      },
+      "editing": {
+        "name": "Posts editing",
+        "hint": "",
+        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+      },
+      "subscribers": {
+        "name": "Channel subscribers number",
+        "hint": "",
+        "text": "unlimited"
+      },
+      "visible_participants": {
+        "name": "Visible subscribers",
+        "hint": "for channel admin",
+        "text": "200 people"
+      },
+      "channel_deletion": {
+        "name": "Channel deletion",
+        "hint": "",
+        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+      },
+      "private_channel_access": {
+        "name": "Private channel access",
+        "hint": "without subscription",
+        "text": "up to 5 minutes once a day"
+      },
+      "invintations": {
+        "name": "Inviting users",
+        "hint": "",
+        "text": "up to 200 people"
+      },
+      "followers_to_see_stats": {
+        "name": "Number of subscribers to see statistics",
+        "hint": "",
+        "text": "at least 50"
+      },
+      "username_reservation": {
+        "name": "Username change reservation",
+        "hint": "(time before username will be available for everyone, not just the original owner)",
+        "text": "about 15-30 minutes"
+      }
+    }
+  },
+  "messages": {
+    "name": "Messages",
+    "items": {
+      "single_message_length": {
+        "name": "One message length",
+        "hint": "",
+        "text": "up to 4,096 characters"
+      },
+      "media_descriptions": {
+        "name": "Media captions",
+        "hint": "",
+        "text": "up to 1,024 characters"
+      },
+      "upload_size": {
+        "name": "File size limit",
+        "hint": "",
+        "text": "up to 2.0 GB"
+      },
+      "video_message_duration": {
+        "name": "Video message duration",
+        "hint": "",
+        "text": "up to 1 minute"
+      },
+      "album_size": {
+        "name": "Images and videos in single message",
+        "hint": "(album)",
+        "text": "up to 10 items"
+      },
+      "delayed_messages": {
+        "name": "Scheduled messages number",
+        "hint": "",
+        "text": "up to 100 items"
+      },
+      "delaying_messages": {
+        "name": "Schedule range",
+        "hint": "",
+        "text": "up to 365 days"
+      }
+    }
+  },
+  "folders": {
+    "name": "Folders",
+    "items": {
+      "folder_amount": {
+        "name": "Folders amount",
+        "hint": "",
+        "text": "up to 10 folders"
+      },
+      "pinned_chats_in_folder": {
+        "name": "Pinned chats in a folder",
+        "hint": "",
+        "text": "up to 100 chats"
+      }
+    }
+  },
+  "people_nearby": {
+    "name": "People Nearby",
+    "items": {
+      "range": {
+        "name": "Visibility range",
+        "hint": "",
+        "text": "about 12 kilometers"
+      },
+      "amount_of_people": {
+        "name": "Visible users amount",
+        "hint": "",
+        "text": "up to 100 people"
+      },
+      "geochats_number": {
+        "name": "Visible geochats number",
+        "hint": "",
+        "text": "up to 10 closest"
+      }
+    }
+  },
+  "bots": {
+    "name": "機器人",
+    "items": {
+      "bots_amount": {
+        "name": "Bots number",
+        "hint": "(透過 @BotFather 創建)",
+        "text": "up to 20 items"
+      },
+      "username length": {
+        "name": "Length of @username",
+        "hint": "for bots",
+        "text": "5 to 32 characters"
+      },
+      "info_length": {
+        "name": "機器人資訊長度",
+        "hint": "(/setabouttext)",
+        "text": "最多 120 個字元"
+      },
+      "description_length": {
+        "name": "機器人描述長度",
+        "hint": "",
+        "text": "最多 512 個字元"
+      },
+      "upload_limit_botapi": {
+        "name": "檔案上載限制",
+        "hint": "(機器人 API)",
+        "text": "最大 50 MB"
+      },
+      "download_limit_botapi": {
+        "name": "檔案下載限制",
+        "hint": "(機器人 API)",
+        "text": "最大 20 MB"
+      },
+      "forwarding": {
+        "name": "信息轉發",
+        "hint": "",
+        "text": "每小時最多 2000 次"
+      },
+      "keys_in_keyboard_number": {
+        "name": "Keyboard buttons number",
+        "hint": "",
+        "text": "up to 100 entities"
+      },
+      "formatting_data": {
+        "name": "Message formatting data",
+        "hint": "",
+        "text": "up to 10 KB"
+      },
+      "formatting_entities": {
+        "name": "Formatting entities",
+        "hint": "(bold, cursive etc.)",
+        "text": "up to 100 items"
+      },
+      "messaging_frequency": {
+        "name": "Messages frequency",
+        "hint": "(can be raised by BotSupport)",
+        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+      },
+      "api_requests_frequency": {
+        "name": "API requests frequency",
+        "hint": "(can be raised by BotSupport)",
+        "text": "up to 30 requests per second"
+      },
+      "bot_commands_count": {
+        "name": "Commands amount",
+        "hint": "(in BotFather)",
+        "text": "0 to 100 commands"
+      },
+      "bot_command_name_length": {
+        "name": "Command length",
+        "hint": "(in BotFather)",
+        "text": "from 1 to 32 characters"
+      },
+      "bot_command_description_length": {
+        "name": "Command description length",
+        "hint": "(in BotFather)",
+        "text": "from 2 to 256 characters"
+      },
+      "start_payload_size": {
+        "name": "Bot /start payload length",
+        "hint": "",
+        "text": "up to 64 characters"
+      },
+      "bot_alert_length": {
+        "name": "Bot alert message length",
+        "hint": "",
+        "text": "up to 200 characters"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
+      },
+      "inline_max_items": {
+        "name": "Inline results number",
+        "hint": "",
+        "text": "up to 50 items"
+      }
+    }
+  },
+  "search": {
+    "name": "Search",
+    "items": {
+      "global_search": {
+        "name": "Global search results",
+        "hint": "",
+        "text": "up to 10 items; up to 3 for Android"
+      },
+      "global_search_min_query": {
+        "name": "Minimal query length",
+        "hint": "for global search",
+        "text": "at least 4 characters"
+      }
+    }
+  },
+  "stickers": {
+    "name": "Stickers",
+    "items": {
+      "added_packs": {
+        "name": "Added packs number",
+        "hint": "",
+        "text": "up to 200 items"
+      },
+      "favorite_stickers": {
+        "name": "Favorite stickers number",
+        "hint": "",
+        "text": "up to 5 items"
+      },
+      "pack_size": {
+        "name": "Stickers in a pack number",
+        "hint": "",
+        "text": "up to 120 for static, up to 50 for animated"
+      },
+      "sticker_size": {
+        "name": "Sticker size",
+        "hint": "",
+        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+      },
+      "animation_duration": {
+        "name": "Animation duration",
+        "hint": "",
+        "text": "up to 3 seconds"
+      },
+      "file_size": {
+        "name": "Sticker file size",
+        "hint": "",
+        "text": "up to 512 KB for static, up to 64 KB for animated"
+      },
+      "fps": {
+        "name": "FPS",
+        "hint": "",
+        "text": "either 30 or 60"
+      },
+      "stickerpack_name_length": {
+        "name": "Pack name length",
+        "hint": "",
+        "text": "up to 64 characters"
+      }
+    }
+  },
+  "telegraph": {
+    "name": "Telegraph",
+    "items": {
+      "accounts_number": {
+        "name": "Accounts number",
+        "hint": "in @telegraph bot",
+        "text": "up to 5 items"
+      },
+      "text_size": {
+        "name": "Article size",
+        "hint": "",
+        "text": "up to 64 KiB"
+      }
+    }
+  },
+  "miscellaneous": {
+    "name": "Miscellaneous",
+    "items": {
+      "properties": {
+        "name": "Video avatar properties",
+        "hint": "",
+        "text": "800x800px, up to 2 MB"
+      }
+    }
   }
- },
- "chats": {
-  "name": "對話與群組",
-  "items": {
-   "participants_number": {
-    "name": "群組人數",
-    "hint": "（可提高限制）",
-    "text": "高達 200,000 人"
-   },
-   "admins_number": {
-    "name": "管理員人數",
-    "hint": "在群組中",
-    "text": "高達 50 位"
-   },
-   "bots_amount": {
-    "name": "機器人數量",
-    "hint": "在群組中",
-    "text": "高達 20 個"
-   },
-   "pinned_number": {
-    "name": "主選單置頂對話清單",
-    "hint": "",
-    "text": "最多 5 個對話或頻道 + 5 個私密對話"
-   },
-   "group_name": {
-    "name": "群組名稱及描述",
-    "hint": "",
-    "text": "最多 255 個字元"
-   },
-   "editing": {
-    "name": "編輯訊息",
-    "hint": "",
-    "text": "在訊息發出後 48 小時內；已儲存對話以及具有置頂權限的管理員不在此限"
-   },
-   "media_self_destruction": {
-    "name": "媒體自動銷毀",
-    "hint": "",
-    "text": "1 到 60 秒"
-   },
-   "recent_actions": {
-    "name": "最近操作",
-    "hint": "（訂閱、貼文……等）",
-    "text": "最近兩天"
-   },
-   "mentions_amount": {
-    "name": "標註數量",
-    "hint": "一則訊息內",
-    "text": "最多 50 個，上限之後的使用者不會收到通知"
-   },
-   "visible_messages": {
-    "name": "可見訊息數量",
-    "hint": "群組內",
-    "text": "倒數 1,000,000 則訊息"
-   },
-   "pinned_messages_number": {
-    "name": "釘選訊息數量",
-    "hint": "",
-    "text": "無上限"
-   },
-   "participants_to_see_stats": {
-    "name": "查看統計數據所需人數",
-    "hint": "",
-    "text": "至少 500"
-   },
-   "voice_chat_participants": {
-    "name": "Voice Chat participants",
-    "hint": "",
-    "text": "unlimited"
-   },
-   "username_reservation": {
-    "name": "使用者名稱保留時間",
-    "hint": "(time before username will be available for everyone, not just the original owner)",
-    "text": "約 15 到 30 分鐘"
-   },
-   "participants_for_group_stickers": {
-    "name": "Group-promoted stickers",
-    "hint": "",
-    "text": "groups with 100+ participants"
-   }
-  }
- },
- "channels": {
-  "name": "Channels",
-  "items": {
-   "public_usernames": {
-    "name": "Public usernames number",
-    "hint": "for a single account",
-    "text": "up to 10 (including groups)"
-   },
-   "username_length": {
-    "name": "Length of @username",
-    "hint": "",
-    "text": "5 to 32 characters"
-   },
-   "channel_name": {
-    "name": "Channel name and description",
-    "hint": "",
-    "text": "up to 255 characters"
-   },
-   "channel_admins": {
-    "name": "頻道管理員人數",
-    "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-    "text": "最多 50 個賬户"
-   },
-   "editing": {
-    "name": "Posts editing",
-    "hint": "",
-    "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
-   },
-   "subscribers": {
-    "name": "Channel subscribers number",
-    "hint": "",
-    "text": "unlimited"
-   },
-   "visible_participants": {
-    "name": "Visible subscribers",
-    "hint": "for channel admin",
-    "text": "200 people"
-   },
-   "channel_deletion": {
-    "name": "Channel deletion",
-    "hint": "",
-    "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
-   },
-   "private_channel_access": {
-    "name": "Private channel access",
-    "hint": "without subscription",
-    "text": "up to 5 minutes once a day"
-   },
-   "invintations": {
-    "name": "Inviting users",
-    "hint": "",
-    "text": "up to 200 people"
-   },
-   "followers_to_see_stats": {
-    "name": "Number of subscribers to see statistics",
-    "hint": "",
-    "text": "at least 50"
-   },
-   "username_reservation": {
-    "name": "Username change reservation",
-    "hint": "(time before username will be available for everyone, not just the original owner)",
-    "text": "about 15-30 minutes"
-   }
-  }
- },
- "messages": {
-  "name": "Messages",
-  "items": {
-   "single_message_length": {
-    "name": "One message length",
-    "hint": "",
-    "text": "up to 4,096 characters"
-   },
-   "media_descriptions": {
-    "name": "Media captions",
-    "hint": "",
-    "text": "up to 1,024 characters"
-   },
-   "upload_size": {
-    "name": "File size limit",
-    "hint": "",
-    "text": "up to 2.0 GB"
-   },
-   "video_message_duration": {
-    "name": "Video message duration",
-    "hint": "",
-    "text": "up to 1 minute"
-   },
-   "album_size": {
-    "name": "Images and videos in single message",
-    "hint": "(album)",
-    "text": "up to 10 items"
-   },
-   "delayed_messages": {
-    "name": "Scheduled messages number",
-    "hint": "",
-    "text": "up to 100 items"
-   },
-   "delaying_messages": {
-    "name": "Schedule range",
-    "hint": "",
-    "text": "up to 365 days"
-   }
-  }
- },
- "folders": {
-  "name": "Folders",
-  "items": {
-   "folder_amount": {
-    "name": "Folders amount",
-    "hint": "",
-    "text": "up to 10 folders"
-   },
-   "pinned_chats_in_folder": {
-    "name": "Pinned chats in a folder",
-    "hint": "",
-    "text": "up to 100 chats"
-   }
-  }
- },
- "people_nearby": {
-  "name": "People Nearby",
-  "items": {
-   "range": {
-    "name": "Visibility range",
-    "hint": "",
-    "text": "about 12 kilometers"
-   },
-   "amount_of_people": {
-    "name": "Visible users amount",
-    "hint": "",
-    "text": "up to 100 people"
-   },
-   "geochats_number": {
-    "name": "Visible geochats number",
-    "hint": "",
-    "text": "up to 10 closest"
-   }
-  }
- },
- "bots": {
-  "name": "機器人",
-  "items": {
-   "bots_amount": {
-    "name": "Bots number",
-    "hint": "(透過 @BotFather 創建)",
-    "text": "up to 20 items"
-   },
-   "username length": {
-    "name": "Length of @username",
-    "hint": "for bots",
-    "text": "5 to 32 characters"
-   },
-   "info_length": {
-    "name": "機器人資訊長度",
-    "hint": "(/setabouttext)",
-    "text": "最多 120 個字元"
-   },
-   "description_length": {
-    "name": "機器人描述長度",
-    "hint": "",
-    "text": "最多 512 個字元"
-   },
-   "upload_limit_botapi": {
-    "name": "檔案上載限制",
-    "hint": "(機器人 API)",
-    "text": "最大 50 MB"
-   },
-   "download_limit_botapi": {
-    "name": "檔案下載限制",
-    "hint": "(機器人 API)",
-    "text": "最大 20 MB"
-   },
-   "forwarding": {
-    "name": "信息轉發",
-    "hint": "",
-    "text": "每小時最多 2000 次"
-   },
-   "keys_in_keyboard_number": {
-    "name": "Keyboard buttons number",
-    "hint": "",
-    "text": "up to 100 entities"
-   },
-   "formatting_data": {
-    "name": "Message formatting data",
-    "hint": "",
-    "text": "up to 10 KB"
-   },
-   "formatting_entities": {
-    "name": "Formatting entities",
-    "hint": "(bold, cursive etc.)",
-    "text": "up to 100 items"
-   },
-   "messaging_frequency": {
-    "name": "Messages frequency",
-    "hint": "(can be raised by BotSupport)",
-    "text": "up to 30 messages per second; 20 per minute for public chats and channels"
-   },
-   "api_requests_frequency": {
-    "name": "API requests frequency",
-    "hint": "(can be raised by BotSupport)",
-    "text": "up to 30 requests per second"
-   },
-   "bot_commands_count": {
-    "name": "Commands amount",
-    "hint": "(in BotFather)",
-    "text": "0 to 100 commands"
-   },
-   "bot_command_name_length": {
-    "name": "Command length",
-    "hint": "(in BotFather)",
-    "text": "from 1 to 32 characters"
-   },
-   "bot_command_description_length": {
-    "name": "Command description length",
-    "hint": "(in BotFather)",
-    "text": "from 2 to 256 characters"
-   },
-   "start_payload_size": {
-    "name": "Bot /start payload length",
-    "hint": "",
-    "text": "up to 64 characters"
-   },
-   "bot_alert_length": {
-    "name": "Bot alert message length",
-    "hint": "",
-    "text": "up to 200 characters"
-   },
-   "username_resolve_limit": {
-    "name": "Username resolve limit",
-    "hint": "(for both bots and user accounts)",
-    "text": "up to 200 usernames daily"
-   }
-  }
- },
- "search": {
-  "name": "Search",
-  "items": {
-   "global_search": {
-    "name": "Global search results",
-    "hint": "",
-    "text": "up to 10 items; up to 3 for Android"
-   },
-   "global_search_min_query": {
-    "name": "Minimal query length",
-    "hint": "for global search",
-    "text": "at least 4 characters"
-   }
-  }
- },
- "stickers": {
-  "name": "Stickers",
-  "items": {
-   "added_packs": {
-    "name": "Added packs number",
-    "hint": "",
-    "text": "up to 200 items"
-   },
-   "favorite_stickers": {
-    "name": "Favorite stickers number",
-    "hint": "",
-    "text": "up to 5 items"
-   },
-   "pack_size": {
-    "name": "Stickers in a pack number",
-    "hint": "",
-    "text": "up to 120 for static, up to 50 for animated"
-   },
-   "sticker_size": {
-    "name": "Sticker size",
-    "hint": "",
-    "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
-   },
-   "animation_duration": {
-    "name": "Animation duration",
-    "hint": "",
-    "text": "up to 3 seconds"
-   },
-   "file_size": {
-    "name": "Sticker file size",
-    "hint": "",
-    "text": "up to 512 KB for static, up to 64 KB for animated"
-   },
-   "fps": {
-    "name": "FPS",
-    "hint": "",
-    "text": "either 30 or 60"
-   },
-   "stickerpack_name_length": {
-    "name": "Pack name length",
-    "hint": "",
-    "text": "up to 64 characters"
-   }
-  }
- },
- "telegraph": {
-  "name": "Telegraph",
-  "items": {
-   "accounts_number": {
-    "name": "Accounts number",
-    "hint": "in @telegraph bot",
-    "text": "up to 5 items"
-   },
-   "text_size": {
-    "name": "Article size",
-    "hint": "",
-    "text": "up to 64 KiB"
-   }
-  }
- },
- "miscellaneous": {
-  "name": "Miscellaneous",
-  "items": {
-   "properties": {
-    "name": "Video avatar properties",
-    "hint": "",
-    "text": "800x800px, up to 2 MB"
-   }
-  }
- }
 }

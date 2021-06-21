@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Голосові чати",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Учасники",
         "hint": "",
-        "text": "unlimited"
+        "text": "необмежено"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "Доступність відеофункцій",
+        "hint": "(камера, виведення екрану)",
+        "text": "тільки 30 перших учасників можуть надсилати і бачити відео один одного, всі пізніші зможуть лише слухати"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Довжина заголовка",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "до 64 символів"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Діапазон планування",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "до 7 днів"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "до 200 імен користувачів щоденно"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Кількість inline-результатів",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "до 50 елементів"
       }
     }
   },

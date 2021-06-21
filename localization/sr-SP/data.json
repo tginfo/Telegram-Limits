@@ -135,16 +135,16 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Гласовна ћаскања",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Учесници",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограничено"
       },
       "voice_chat_video_features": {
         "name": "Video features availability",
-        "hint": "(camera, screen casting)",
+        "hint": "(камера, дељење екрана)",
         "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
       },
       "voice_chat_title_length": {

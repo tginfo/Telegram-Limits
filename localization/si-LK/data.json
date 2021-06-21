@@ -125,7 +125,7 @@
    "voice_chat_participants": {
     "name": "කථන සංවාදයක සහභාගීන්",
     "hint": "",
-    "text": "unlimited"
+    "text": "අසීමිතයි"
    },
    "username_reservation": {
     "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",
@@ -160,7 +160,7 @@
    "channel_admins": {
     "name": "Channel admins number",
     "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-    "text": "up to 50 accounts"
+    "text": "ගිණුම් 50ක් දක්වා"
    },
    "editing": {
     "name": "පළකිරීම් සංස්කරණය",
@@ -360,7 +360,7 @@
    "start_payload_size": {
     "name": "Bot /start payload length",
     "hint": "",
-    "text": "up to 64 characters"
+    "text": "අක්ෂර 64 ක් දක්වා"
    },
    "bot_alert_length": {
     "name": "Bot alert message length",
@@ -430,7 +430,7 @@
    "stickerpack_name_length": {
     "name": "Pack name length",
     "hint": "",
-    "text": "up to 64 characters"
+    "text": "අක්ෂර 64 ක් දක්වා"
    }
   }
  },

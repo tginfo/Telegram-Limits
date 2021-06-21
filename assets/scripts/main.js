@@ -64,8 +64,13 @@ function position() {
         });
 
 
-    res.style.height = max + gap + "px";
-    res.style.marginTop = "2.5em";
+    if (res.childNodes.length > 0) {
+        res.style.height = max + gap + "px";
+        res.style.marginTop = "2.5em";
+    } else {
+        res.style.height = "";
+        res.style.marginTop = "";
+    }
 
     setTimeout(function() {document.querySelector("main>.content").classList.remove("hide");}, 0);
 }

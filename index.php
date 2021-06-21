@@ -160,6 +160,7 @@ $markup = [
                 <div id="results">
                     <?php
                     foreach ($structure as $section) {
+                        if (!isset($data[$section["id"]])) continue;
                         $cur_section = $data[$section["id"]];
                     ?>
 

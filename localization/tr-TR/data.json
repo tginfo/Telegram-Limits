@@ -93,7 +93,7 @@
     "text": "Gönderdikten sonra 48 saat; Kayıtlı'da ve sabitleme izinleri olan yöneticiler için sınırsız"
    },
    "media_self_destruction": {
-    "name": "Fotoğraf ve video imhası",
+    "name": "Kendini yok eden fotoğraf ve video",
     "hint": "",
     "text": "1 ila 60 saniye"
    },
@@ -185,7 +185,7 @@
    "private_channel_access": {
     "name": "Gizli kanal erişimi",
     "hint": "abonelik olmadan",
-    "text": "bir günde 5 dakikaya kadar"
+    "text": "günde 5 dakikaya kadar"
    },
    "invintations": {
     "name": "Kullanıcı davet etme",
@@ -263,9 +263,9 @@
   "name": "Yakındaki Kişiler",
   "items": {
    "range": {
-    "name": "Görünürlük menzili",
+    "name": "Görünürlük aralığı",
     "hint": "",
-    "text": "12 kilometre civarı"
+    "text": "yaklaşık 12 kilometre"
    },
    "amount_of_people": {
     "name": "Görünen kullanıcı miktarı",
@@ -275,7 +275,7 @@
    "geochats_number": {
     "name": "Görünen sohbet sayısı",
     "hint": "",
-    "text": "en yakındaki 10 sohbet"
+    "text": "en yakındaki 10 sohbete kadar"
    }
   }
  },
@@ -405,7 +405,7 @@
    "pack_size": {
     "name": "Tek paketteki çıkartma sayısı",
     "hint": "",
-    "text": "statik için 120'e kadar, hareketli için 50"
+    "text": "hareketsiz için 120, hareketli için 50'ye kadar"
    },
    "sticker_size": {
     "name": "Çıkartma boyutu",

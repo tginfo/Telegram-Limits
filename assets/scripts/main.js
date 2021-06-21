@@ -85,6 +85,7 @@ function run() {
     var s = uc(document.getElementById("search").value.trim());
 
 
+    res.innerText = '';
     list.forEach(function (e, ind) {
         var se = 0;
         var seA = 0;

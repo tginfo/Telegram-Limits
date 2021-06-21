@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Голосовые чаты",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Участники",
         "hint": "",
-        "text": "unlimited"
+        "text": "неограничено"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "Доступность видео-функций",
+        "hint": "(камера, демонстрация экрана)",
+        "text": "только 30 первых участников могут транслировать и смотреть видео друг друга, более поздние участники могут только слушать"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Длина заголовка",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "до 64 символов"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Диапазон планирования",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "до 7 дней"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "до 200 username'ов ежедневно"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Количество inline-результатов",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "до 50 элементов"
       }
     }
   },

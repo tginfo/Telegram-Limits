@@ -144,18 +144,18 @@
       },
       "voice_chat_video_features": {
         "name": "Ketersediaan fitur video",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "hint": "(kamera, berbagi layar)",
+        "text": "hanya 30 partisipan pertama yang dapat saling berbagi dan melihat video satu sama lain, sisanya akan menjadi hanya obrolan suara saja"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Panjang judul",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "hingga 64 karakter"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Bentang penjadwalan",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "hingga 7 hari"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "hingga 200 username per hari"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Jumlah hasil inline",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "hingga 50 item"
       }
     }
   },

@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "محادثة صوتية",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "المشاركين",
         "hint": "",
-        "text": "unlimited"
+        "text": "غير محدود"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "توفر ميزات الفيديو",
+        "hint": "(الكاميرا، مشاركة الشاشة)",
+        "text": "أول 30 شخصًا فقط يمكنهم مشاركة الفيديو ورؤيته، كل البقية سيكونون في محادثة صوتية فقط"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "طول العنوان",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "يصل إلى 64 حرفًا"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "المدة للجدولة",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "تصل إلى 7 أيام"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "مايصل إلى 200 أسم مستخدم يوميًا"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "عدد نتائج الوضع الضمني",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "ما يصل إلى 50 عنصر"
       }
     }
   },

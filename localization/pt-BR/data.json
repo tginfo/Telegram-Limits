@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Bate-papo por voz",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Membros",
         "hint": "",
-        "text": "unlimited"
+        "text": "ilimitado"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "Disponibilidade de recursos de vídeo",
+        "hint": "(câmera, transmissão de tela)",
+        "text": "apenas 30 primeiros participantes podem transmitir e ver vídeos uns dos outros, todos os posteriores estarão em um bate-papo apenas de voz"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Comprimento de título",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "até 64 caracteres"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Intervalo de agendamento",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "até 7 dias"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "até 200 nomes de usuário por dia"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Número de resultados online",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "até 50 itens"
       }
     }
   },

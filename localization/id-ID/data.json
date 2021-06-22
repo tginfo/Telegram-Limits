@@ -135,15 +135,15 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Obrolan Suara",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Partisipan",
         "hint": "",
-        "text": "unlimited"
+        "text": "tak terbatas"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
+        "name": "Ketersediaan fitur video",
         "hint": "(camera, screen casting)",
         "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
       },

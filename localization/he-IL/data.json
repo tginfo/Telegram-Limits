@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "צ'אטים קוליים",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "משתתפים",
         "hint": "",
-        "text": "unlimited"
+        "text": "ללא הגבלה"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "אפשרות לשיחת וידאו",
+        "hint": "(מצלמה, שיתוף מסך)",
+        "text": "רק ל30 הראשונים, לשאר זה יהיה צ'אט קולי רגיל ללא וידאו"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "אורך הכותרת",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "עד 64 תווים"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "טווח הזמנים לתזמון",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "עד ל 7 ימים"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "עד 200 שמות משתמשים ביום"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "מספר התוצאות מבוט במצב אינליין",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "עד 50 פריטים"
       }
     }
   },

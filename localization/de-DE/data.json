@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Sprachchat",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Teilnehmer",
         "hint": "",
-        "text": "unlimited"
+        "text": "unbegrenzt"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "Verfügbarkeit der Videofunktionen",
+        "hint": "(Kamera, Bildschirmübertragung)",
+        "text": "nur die ersten 30 Teilnehmer können Videos übertragen und sehen, für alle weiteren ist es ein reiner Sprachchat"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Länge des Titels",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "bis zu 64 Zeichen"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Zeitplan-Bereich",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "bis zu 7 Tage"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "bis zu 200 Nutzernamen täglich"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Anzahl der Inline-Ergebnisse",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "bis zu 50"
       }
     }
   },

@@ -135,12 +135,12 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Chats de voz",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Participantes",
         "hint": "",
-        "text": "unlimited"
+        "text": "ilimitado"
       },
       "voice_chat_video_features": {
         "name": "Video features availability",

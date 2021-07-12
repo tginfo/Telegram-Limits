@@ -143,9 +143,9 @@
         "text": "ilimitado"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "Disponibilidad de funciones de vídeo",
+        "hint": "(cámara, pantalla compartida)",
+        "text": "sólo los primeros 30 participantes pueden transmitir y ver vídeo entre ellos, todos los demás estarán en un chat de solo voz"
       },
       "voice_chat_title_length": {
         "name": "Title length",

@@ -43,7 +43,7 @@
         "text": "hasta 200"
       },
       "video_length": {
-        "name": "Duración del avatar de video",
+        "name": "Duración del vídeo de perfil",
         "hint": "",
         "text": "hasta 10 segundos"
       },
@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Participantes",
         "hint": "(puede aumentar el límite)",
-        "text": "hasta 200 000"
+        "text": "hasta 200,000"
       },
       "admins_number": {
         "name": "Número de administradores",

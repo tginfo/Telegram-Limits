@@ -148,14 +148,14 @@
         "text": "sólo los primeros 30 participantes pueden transmitir y ver vídeo entre ellos, todos los demás estarán en un chat de solo voz"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Longitud del título",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "hasta 64 caracteres"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Rango de programación",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "hasta 7 días"
       }
     }
   },
@@ -378,7 +378,7 @@
         "text": "de 2 a 256 caracteres"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Longitud de los metadatos en /start",
         "hint": "",
         "text": "hasta 64 caracteres"
       },
@@ -393,9 +393,9 @@
         "text": "hasta 200 nombres de usuario diariamente"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Número de resultados inline",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "hasta 50 elementos"
       }
     }
   },

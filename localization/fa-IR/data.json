@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "گفتگوی صوتی",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "شرکت کنندگان",
         "hint": "",
-        "text": "unlimited"
+        "text": "نامحدود"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "ویژگی های ویدئو در دسترس است",
+        "hint": "(دوربین، ضبط صفحه)",
+        "text": "فقط 30 شرکت کننده اول میتوانند ویدئو قرار دهند و یا ویدئو های دیگران را مشاهده کنند، سایر افراد فقط در گفتگوی صوتی خواهند بود"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "طول عنوان",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "حداکثر 64 کاراکتر"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "محدوده زمانبندی",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "تا 7 روز"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "روزانه تا ۲۰۰ نام کاربری"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "شماره نتایج درون خطی",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "تا 50 مورد"
       }
     }
   },

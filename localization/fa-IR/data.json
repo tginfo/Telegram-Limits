@@ -153,7 +153,7 @@
         "text": "حداکثر 64 کاراکتر"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "محدوده زمانبندی",
         "hint": "",
         "text": "تا 7 روز"
       }

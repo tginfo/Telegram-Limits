@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Chat Vocali",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Partecipanti",
         "hint": "",
-        "text": "unlimited"
+        "text": "illimitati"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "Disponibilità delle funzionalità video",
+        "hint": "(fotocamera, condivisione schermo)",
+        "text": "solo i primi 30 partecipanti possono condividere lo schermo e vedere i video l'uno dell'altro, tutti quelli che entrano più tardi saranno in una semplice chat vocale"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Lunghezza del titolo",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "fino a 64 caratteri"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Intervallo di programmazione",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "fino a 7 giorni"
       }
     }
   },
@@ -185,7 +185,7 @@
       "editing": {
         "name": "Modifica dei post",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "illimitato (se il canale ha un gruppo di discussione collegato, i post più vecchi di 2 settimane non saranno aggiornati nella chat)"
       },
       "subscribers": {
         "name": "Numero di iscritti",
@@ -378,12 +378,12 @@
         "text": "da 2 a 256 caratteri"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "Lunghezza metadati comando /start dei bot",
         "hint": "",
         "text": "fino a 64 caratteri"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "Lunghezza del messaggio di avviso del bot",
         "hint": "",
         "text": "fino a 200 caratteri"
       },
@@ -393,9 +393,9 @@
         "text": "fino a 200 nomi utente giornalieri"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Numero di risultati su un'unica riga",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "fino a 50 elementi"
       }
     }
   },

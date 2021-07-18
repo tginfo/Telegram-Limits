@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "پەیوەندییە دەنگییەکان",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "بەشداربووان",
         "hint": "",
-        "text": "unlimited"
+        "text": "بێسنوور"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "بەردەستبوونی تایبەتمەندیی ڤیدیۆ",
+        "hint": "(کامێرا، هاوبەشکردنی شاشە)",
+        "text": "تەنها 30 بەشداربووی دیکە دەتوانن ڤیدیۆی یەکدی ببینن، ئەوانی دیکە تەنها دەتوانن قسەبکەن و گوێبگرن"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "درێژیی ناونیشان",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "تا 64 کاراکتەر"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "ماوەی بەرنامەبۆداڕشتن",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "تا 7 ڕۆژ"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "ڕۆژانە تا 200 ناوی بەکارهێنەر"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "ژمارەی ئەنجامەکانی ئینڵاین",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "تا 50 دانە"
       }
     }
   },

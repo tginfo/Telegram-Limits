@@ -235,7 +235,7 @@
       "media_descriptions": {
         "name": "Medialar uchun izoh",
         "hint": "",
-        "text": "1,024 tagacha belgi"
+        "text": "1,024 tagacha belgi "
       },
       "upload_size": {
         "name": "Fayl hajmi chegarasi",
@@ -393,9 +393,9 @@
         "text": "kuniga 200 tagacha foydalanuvchi nomi"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Inline natijalar soni",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "50 tagacha "
       }
     }
   },

@@ -135,12 +135,12 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Ovozli chat",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Ishtirokchilar",
         "hint": "",
-        "text": "unlimited"
+        "text": "cheklanmagan"
       },
       "voice_chat_video_features": {
         "name": "Video features availability",

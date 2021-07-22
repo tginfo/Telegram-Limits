@@ -143,19 +143,19 @@
         "text": "cheklanmagan"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "Video xususiyatlari",
+        "hint": "(kamera, ekranga chiqarish)",
+        "text": "faqat 30 nafar birinchi ishtirokchilar bir-birlarining videolarini tomosha qilishlari va ko'rishlari mumkin, keyingilari esa faqat ovozli suhbatda qatnashishadi"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Sarlavha uzunligi",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 tagacha belgi"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Rejalashtirish oralig'i",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "7 kungacha"
       }
     }
   },

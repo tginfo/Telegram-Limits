@@ -110,6 +110,10 @@
             {
                 "id": "participants_for_group_stickers",
                 "icon": "sticky_note_2"
+            },
+            {
+                "id": "chat_title_length",
+                "icon": "text_format"
             }
         ]
     },

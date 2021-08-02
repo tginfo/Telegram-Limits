@@ -131,6 +131,11 @@
         "name": "Group-promoted stickers",
         "hint": "",
         "text": "groups with 100+ participants"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "upto 128 characters"
       }
     }
   },

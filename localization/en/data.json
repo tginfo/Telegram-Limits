@@ -145,7 +145,7 @@
       "voice_chat_video_features": {
         "name": "Video features availability",
         "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "text": "up to 30 participants can broadcast, up to 1000 participants can watch, and an unlimited number of participants can listen"
       },
       "voice_chat_title_length": {
         "name": "Title length",

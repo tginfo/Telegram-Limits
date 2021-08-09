@@ -388,8 +388,8 @@
         "text": "jusqu'à 200 caractères"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
+        "name": "Limite de résolution des noms d'utilisateurs",
+        "hint": "(pour les robots et les comptes d'utilisateur)",
         "text": "jusqu'à 200 noms d'utilisateurs par jour"
       },
       "inline_max_items": {

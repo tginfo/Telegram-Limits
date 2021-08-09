@@ -90,47 +90,47 @@
       "editing": {
         "name": "Édition du message",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "48 heures après l'envoie et illimité pour les messages Enregistrés et pour les administrateurs avec droits d'épingler"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Auto-destruction des photos et vidéos",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 à 60 secondes"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "Actions récentes",
+        "hint": "(abonnements, messages, etc.)",
+        "text": "les deux derniers jours"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "name": "Nombre de mentions",
+        "hint": "en un seul message",
+        "text": "jusqu'à 50 personnes, sinon les notifications ne seront pas envoyées"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "Nombre de messages visibles",
+        "hint": "en groupe",
+        "text": "les derniers 1 000 000 de messages"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "Nombre de messages épinglés",
         "hint": "",
-        "text": "unlimited"
+        "text": "illimité"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "Nombre de participants pour voir les statistiques",
         "hint": "",
-        "text": "at least 500"
+        "text": "au moins 500 personnes"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "Réservation de changement de nom d'utilisateur",
+        "hint": "(délai avant que le nom d'utilisateur ne soit disponible pour tout le monde, pas seulement pour le propriétaire d'origine)",
+        "text": "environ 15-30 minutes"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "Autocollants promus par le groupe",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "groupes avec plus de 100 participants"
       }
     }
   },
@@ -248,29 +248,29 @@
         "text": "up to 1 minute"
       },
       "album_size": {
-        "name": "Images and videos in single message",
+        "name": "Images et vidéos en un seul message",
         "hint": "(album)",
-        "text": "up to 10 items"
+        "text": "jusqu'à 10 éléments"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Nombre de messages planifiés",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "jusqu'à 100 éléments"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Plage de planification",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "jusqu’à 365 jours"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Dossiers",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Nombre de dossiers",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "jusqu'à 10 dossiers"
       },
       "pinned_chats_in_folder": {
         "name": "Pinned chats in a folder",

@@ -393,7 +393,7 @@
         "text": "günlük 200 kullanıcı adına kadar"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Satır içi sonuç sayısı",
         "hint": "",
         "text": "50 öğeye kadar"
       }

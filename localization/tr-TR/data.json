@@ -145,10 +145,10 @@
       "voice_chat_video_features": {
         "name": "Görüntülü görüşme seçeneği",
         "hint": "(kamera, ekran paylaşımı)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "text": "sadece ilk 30 katılımcı görüntü paylaşabilir ve izleyebilir, diğer katılımcılar sadece sesli olarak katılabilir"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Başlık Uzunluğu",
         "hint": "",
         "text": "64 karaktere kadar"
       },

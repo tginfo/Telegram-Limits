@@ -141,6 +141,11 @@
         "name": "Chat title length",
         "hint": "",
         "text": "up to 128 characters"
+      },
+      "broadcast_group_access": {
+        "name": "Converting a supergroup to broadcast group",
+        "hint": "",
+        "text": "for chats with 199,000+ members"
       }
     }
   },

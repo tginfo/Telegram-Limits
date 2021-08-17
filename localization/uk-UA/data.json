@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Довжина опису команди",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "мінімально: 2 символи в BotFather, 3 символи в Bot API; максимум: 256 символів в обох"
       },
       "start_payload_size": {
         "name": "Довжина метаданих для /start",

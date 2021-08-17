@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "מספר החברים",
         "hint": "(ניתן להעלות את המגבלה)",
-        "text": "עד 200,000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "מספר המנהלים",
@@ -131,6 +131,16 @@
         "name": "סטיקרים קבוצתיים",
         "hint": "",
         "text": "לקבוצות עם 100 או יותר חברים"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "צ'אטים קוליים",
     "items": {
       "voice_chat_participants": {
-        "name": "משתתפים",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "ללא הגבלה"
       },
-      "voice_chat_video_features": {
-        "name": "אפשרות לשיחת וידאו",
-        "hint": "(מצלמה, שיתוף מסך)",
-        "text": "רק ל30 הראשונים, לשאר זה יהיה צ'אט קולי רגיל ללא וידאו"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "אורך הכותרת",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "עד 64 תווים"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "טווח הזמנים לתזמון",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "עד ל 7 ימים"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "ערוצים עם יותר מאלף עוקבים יכולים להימחק רק על ידי בקשה מהתמיכה של טלגרם"
       },
       "private_channel_access": {
-        "name": "גישה לערוצים פרטיים",
-        "hint": "מבלי להיות חבר בערוץ",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "עד ל5 דקות ביום"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "אורך התיאור של פקודה",
-        "hint": "(ב BotFather)",
-        "text": "מ 2 עד ל 256 תווים"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "כמות המטען של הפקודה /start ב- deep link",

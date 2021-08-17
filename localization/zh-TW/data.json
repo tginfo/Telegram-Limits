@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "群組人數",
         "hint": "（可提高限制）",
-        "text": "高達 200,000 人"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "管理員人數",
@@ -131,6 +131,16 @@
         "name": "Group-promoted stickers",
         "hint": "",
         "text": "groups with 100+ participants"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "Voice Chats",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "unlimited"
       },
-      "voice_chat_video_features": {
-        "name": "Video features availability",
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
         "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "Title length",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
       },
       "private_channel_access": {
-        "name": "Private channel access",
-        "hint": "without subscription",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "up to 5 minutes once a day"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "Command description length",
-        "hint": "(in BotFather)",
-        "text": "from 2 to 256 characters"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "Bot /start payload length",

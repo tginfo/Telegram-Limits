@@ -135,27 +135,27 @@
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Sesli Sohbetler",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Katılımcılar",
         "hint": "",
-        "text": "unlimited"
+        "text": "sınırsız"
       },
       "voice_chat_video_features": {
-        "name": "Video features availability",
-        "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "name": "Görüntülü görüşme seçeneği",
+        "hint": "(kamera, ekran paylaşımı)",
+        "text": "sadece ilk 30 katılımcı görüntü paylaşabilir ve izleyebilir, diğer katılımcılar sadece sesli olarak katılabilir"
       },
       "voice_chat_title_length": {
-        "name": "Title length",
+        "name": "Başlık Uzunluğu",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 karaktere kadar"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Zamanlama aralığı",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "7 güne kadar"
       }
     }
   },
@@ -393,9 +393,9 @@
         "text": "günlük 200 kullanıcı adına kadar"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Satır içi sonuç sayısı",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "50 öğeye kadar"
       }
     }
   },

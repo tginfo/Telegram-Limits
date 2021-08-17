@@ -163,9 +163,9 @@
         "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Delayed messages",
+        "name": "Scheduled chats",
         "hint": "",
-        "text": "up to 100 messages scheduled up to 7 days ahead"
+        "text": "up to 7 days ahead"
       }
     }
   },

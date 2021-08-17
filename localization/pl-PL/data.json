@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Liczba członków",
         "hint": "(limit stale rośnie)",
-        "text": "do 200 000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "Liczba administratorów",
@@ -131,6 +131,16 @@
         "name": "Naklejki promujące grupę",
         "hint": "",
         "text": "grupy z ponad 100 uczestnikami"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "Czaty głosowe",
     "items": {
       "voice_chat_participants": {
-        "name": "Uczestnicy",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "nielimitowani"
       },
-      "voice_chat_video_features": {
-        "name": "Dostępność funkcji wideo",
-        "hint": "(kamera, udostępnianie ekranu)",
-        "text": "tylko 30 pierwszych uczestników może przesyłać i oglądać wideo innych, wszyscy następni będą tylko na czacie głosowym"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "Długość tytułu",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "do 64 znaków"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Zakres planowania",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "do 7 dni"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "kanał, który ma więcej niż 1 tys. subskrybentów, można usunąć tylko poprzez obsługę Telegrama"
       },
       "private_channel_access": {
-        "name": "Czytanie prywatnego kanału",
-        "hint": "bez subskrypcji",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "do 5 minut raz dziennie"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "Długość opisu polecenia",
-        "hint": "(w BotFather)",
-        "text": "od 2 do 256 znaków"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "Bot / początkowa długość metadanych",

@@ -118,6 +118,10 @@
             {
                 "id": "chat_title_length",
                 "icon": "text_format"
+            },
+            {
+                "id": "broadcast_group_access",
+                "icon": "lock_open"
             }
         ]
     },

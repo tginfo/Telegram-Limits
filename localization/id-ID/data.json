@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Partisipan",
         "hint": "(batasan dapat ditingkatkan)",
-        "text": "hingga 200.000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "Jumlah admin",
@@ -131,6 +131,16 @@
         "name": "Stiker grup",
         "hint": "",
         "text": "grup dengan 100+ partisipan"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "Obrolan Suara",
     "items": {
       "voice_chat_participants": {
-        "name": "Partisipan",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "tak terbatas"
       },
-      "voice_chat_video_features": {
-        "name": "Ketersediaan fitur video",
-        "hint": "(kamera, berbagi layar)",
-        "text": "hanya 30 partisipan pertama yang dapat saling berbagi dan melihat video satu sama lain, sisanya akan menjadi hanya obrolan suara saja"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "Panjang judul",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "hingga 64 karakter"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Bentang penjadwalan",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "hingga 7 hari"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "channels dengan lebih dari 1K hanya dapat dihapus melalui bantuan Telegram"
       },
       "private_channel_access": {
-        "name": "Akses channel privat",
-        "hint": "tanpa berlangganan",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "hingga 5 sekali per hari"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "Panjang deskripsi perintah",
-        "hint": "(di BotFather)",
-        "text": "dari 2 sampai 256 karakter"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "Panjang payload /start bot",

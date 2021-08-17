@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Panjang deskripsi perintah",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "minimum: 2 simbol pada BotFather, 3 simbol pada Bot API; maksimum: 256 karakter pada keduanya"
       },
       "start_payload_size": {
         "name": "Panjang payload /start bot",

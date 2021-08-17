@@ -140,7 +140,7 @@
       "chat_title_length": {
         "name": "Chat title length",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "fino a 128 caratteri"
       },
       "broadcast_group_access": {
         "name": "Converting a supergroup to broadcast group",

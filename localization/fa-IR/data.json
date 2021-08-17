@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "شرکت‌کنندگان",
         "hint": "(محدودیت می‌تواند افزایش پیدا کند)",
-        "text": "تا ۲۰۰,۰۰۰"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "تعداد مدیران",
@@ -131,6 +131,16 @@
         "name": "استیکر‌های مختص گروه",
         "hint": "",
         "text": "گروه با 100+ عضو"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "گفتگوی صوتی",
     "items": {
       "voice_chat_participants": {
-        "name": "شرکت کنندگان",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "نامحدود"
       },
-      "voice_chat_video_features": {
-        "name": "ویژگی های ویدئو در دسترس است",
-        "hint": "(دوربین، ضبط صفحه)",
-        "text": "فقط 30 شرکت کننده اول میتوانند ویدئو قرار دهند و یا ویدئو های دیگران را مشاهده کنند، سایر افراد فقط در گفتگوی صوتی خواهند بود"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "طول عنوان",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "حداکثر 64 کاراکتر"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "محدوده زمانبندی",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "تا 7 روز"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "کانال‌هایی با بیش از 1K دنبال کننده فقط می‌توانند بوسیله پشتیبانی تلگرام حذف شوند"
       },
       "private_channel_access": {
-        "name": "دسترسی کانال های شخصی",
-        "hint": "بدون دنبال کردن",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "تا 5 دقیقه در هر روز"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "طول توضیحات دستور",
-        "hint": "(درBotFather)",
-        "text": "از 2 تا 256 کارکتر"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "طول متادیتای /start ربات",

@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "සාමාජිකයින්",
         "hint": "(සීමාව වැඩිකළ හැකියි)",
-        "text": "200,000 ක් දක්වා"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "පරිපාලකයින් ගණන",
@@ -131,6 +131,21 @@
         "name": "සමූහයේ නමින් වූ ස්ටිකර් කට්ටල",
         "hint": "",
         "text": "සාමාජිකයින් 100+ සහිත සමූහ"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
+      },
+      "broadcast_group_access": {
+        "name": "Converting a supergroup to broadcast group",
+        "hint": "",
+        "text": "for chats with 199,000+ members"
       }
     }
   },
@@ -138,24 +153,24 @@
     "name": "Voice Chats",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "unlimited"
       },
-      "voice_chat_video_features": {
-        "name": "Video features availability",
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
         "hint": "(camera, screen casting)",
-        "text": "only 30 first participants can cast and see videos of each other, all the later ones will be in a voice-only chat"
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "Title length",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Scheduling range",
+        "name": "Scheduled chats",
         "hint": "",
-        "text": "up to 7 days"
+        "text": "up to 7 days ahead"
       }
     }
   },
@@ -203,8 +218,8 @@
         "text": "1000 කට වැඩි ග්‍රාහකයින් සහිත නාලිකාවක් මැකිය හැක්කේ ටෙලිග්‍රෑම් සහාය හරහා පමණි"
       },
       "private_channel_access": {
-        "name": "පුද්ගලික නාලිකා වෙත පිවිසීම",
-        "hint": "(එක්වීමෙන් තොරව)",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "එක් දිනක් තුළ විනාඩි 5 ක් දක්වා"
       },
       "invintations": {
@@ -374,8 +389,8 @@
       },
       "bot_command_description_length": {
         "name": "විධාන විස්තරයේ දිග",
-        "hint": "(BotFather තුළදී)",
-        "text": "අක්ෂර 2 සිට 256 ක් දක්වා"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "Bot /start payload length",

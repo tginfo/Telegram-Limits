@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Partecipanti",
         "hint": "(il limite può essere esteso)",
-        "text": "fino a 200.000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "Numero di amministratori",
@@ -131,6 +131,21 @@
         "name": "Sticker del gruppo",
         "hint": "",
         "text": "gruppi conppiù di 100 partecipanti"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
+      },
+      "broadcast_group_access": {
+        "name": "Converting a supergroup to broadcast group",
+        "hint": "",
+        "text": "for chats with 199,000+ members"
       }
     }
   },
@@ -138,24 +153,24 @@
     "name": "Chat Vocali",
     "items": {
       "voice_chat_participants": {
-        "name": "Partecipanti",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "illimitati"
       },
-      "voice_chat_video_features": {
-        "name": "Disponibilità delle funzionalità video",
-        "hint": "(fotocamera, condivisione schermo)",
-        "text": "solo i primi 30 partecipanti possono condividere lo schermo e vedere i video l'uno dell'altro, tutti quelli che entrano più tardi saranno in una semplice chat vocale"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "Lunghezza del titolo",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "fino a 64 caratteri"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Intervallo di programmazione",
+        "name": "Scheduled chats",
         "hint": "",
-        "text": "fino a 7 giorni"
+        "text": "up to 7 days ahead"
       }
     }
   },
@@ -203,8 +218,8 @@
         "text": "i canali con più di 1000 iscritti possono essere eliminati solamente contattando il supporto Telegram"
       },
       "private_channel_access": {
-        "name": "Anteprima di un canale privato",
-        "hint": "senza essere iscritti",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "fino a 5 minuti al giorno"
       },
       "invintations": {
@@ -374,8 +389,8 @@
       },
       "bot_command_description_length": {
         "name": "Lunghezza della descrizione del comando",
-        "hint": "(in BotFather)",
-        "text": "da 2 a 256 caratteri"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "Lunghezza metadati comando /start dei bot",

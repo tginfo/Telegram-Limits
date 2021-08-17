@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Participantes",
         "hint": "(puede aumentar el límite)",
-        "text": "hasta 200,000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "Número de administradores",
@@ -131,6 +131,16 @@
         "name": "Stickers del grupo",
         "hint": "",
         "text": "grupos con +100 participantes"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "Chats de voz",
     "items": {
       "voice_chat_participants": {
-        "name": "Participantes",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "ilimitado"
       },
-      "voice_chat_video_features": {
-        "name": "Disponibilidad de funciones de vídeo",
-        "hint": "(cámara, pantalla compartida)",
-        "text": "sólo los primeros 30 participantes pueden transmitir y ver vídeo entre ellos, todos los demás estarán en un chat de solo voz"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "Longitud del título",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "hasta 64 caracteres"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Rango de programación",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "hasta 7 días"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "canales con más de 1K suscriptores sólo se pueden eliminar con soporte de Telegram"
       },
       "private_channel_access": {
-        "name": "Acceso al canal privado",
-        "hint": "sin suscripción",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "hasta 5 minutos, una vez al día"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "Longitud de la descripción del comando",
-        "hint": "(en BotFather)",
-        "text": "de 2 a 256 caracteres"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "Longitud de los metadatos en /start",

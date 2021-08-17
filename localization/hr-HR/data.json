@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Članovi",
         "hint": "(ograničenje se može povećati)",
-        "text": "do 200 000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "Broj administratora",
@@ -131,6 +131,16 @@
         "name": "Naljepnice grupe",
         "hint": "",
         "text": "grupe koje imaju najmanje 100 članova"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "Glasovni razgovori",
     "items": {
       "voice_chat_participants": {
-        "name": "Sudionici",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "neograničeno"
       },
-      "voice_chat_video_features": {
-        "name": "Dostupnost video značajki",
-        "hint": "(kamera, dijeljenje zaslona)",
-        "text": "prvih 30 sudionika može dijeliti i vidjeti video, a svi ostali mogu biti jedino u glasovnom razgovoru"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "Duljina naziva",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "do 64 znaka"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Razdoblje zakazivanja",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "do 7 dana"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "kanali s više od 1000 pretplatnika mogu biti izbrisani jedino preko Telegramove podrške"
       },
       "private_channel_access": {
-        "name": "Pristup privatnim kanalima",
-        "hint": "bez da se pretplatite",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "do 5 minuta dnevno"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "Duljina opisa naredbe",
-        "hint": "(u BotFatheru-u)",
-        "text": "od 2 do 256 znaka"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "Maksimalna duljina teksta za pokretanje bota",

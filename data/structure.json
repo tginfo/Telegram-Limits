@@ -110,6 +110,14 @@
             {
                 "id": "participants_for_group_stickers",
                 "icon": "sticky_note_2"
+            },
+            {
+                "id": "chat_role_length",
+                "icon": "local_offer"
+            },
+            {
+                "id": "chat_title_length",
+                "icon": "text_format"
             }
         ]
     },
@@ -123,8 +131,12 @@
                 "icon": "graphic_eq"
             },
             {
-                "id": "voice_chat_video_features",
+                "id": "video_chat_broadcast",
                 "icon": "voice_chat"
+            },
+            {
+                "id": "video_chat_viewers",
+                "icon": "visibility"
             },
             {
                 "id": "voice_chat_title_length",

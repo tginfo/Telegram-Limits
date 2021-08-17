@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Учасники",
         "hint": "(ліміт може збільшитися)",
-        "text": "до 200,000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "Кількість адміністраторів",
@@ -131,6 +131,16 @@
         "name": "Наліпки групи",
         "hint": "",
         "text": "групи з 100+ учасниками"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "Голосові чати",
     "items": {
       "voice_chat_participants": {
-        "name": "Учасники",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "необмежено"
       },
-      "voice_chat_video_features": {
-        "name": "Доступність відеофункцій",
-        "hint": "(камера, виведення екрану)",
-        "text": "тільки 30 перших учасників можуть надсилати і бачити відео один одного, всі пізніші зможуть лише слухати"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "Довжина заголовка",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "до 64 символів"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "Діапазон планування",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "до 7 днів"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "канали з більш ніж 1К підписників можуть бути видалені тільки за допомогою підтримки Telegram"
       },
       "private_channel_access": {
-        "name": "Доступ до приватного каналу",
-        "hint": "без підписки",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "до 5 хвилин раз на добу"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "Довжина опису команди",
-        "hint": "(у BotFather)",
-        "text": "від 2 до 256 символів"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "Довжина метаданих для /start",

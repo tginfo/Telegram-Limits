@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "بەشداربووان",
         "hint": "(دەکرێت زیادبکرێت)",
-        "text": "تا 200,000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "ژمارەی بەڕێوەبەران",
@@ -131,6 +131,16 @@
         "name": "دەستەی لەزگەی گروپ",
         "hint": "",
         "text": "ئەو گروپانەی لە 100 بەشداربوو زیاتریان هەیە"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "پەیوەندییە دەنگییەکان",
     "items": {
       "voice_chat_participants": {
-        "name": "بەشداربووان",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "بێسنوور"
       },
-      "voice_chat_video_features": {
-        "name": "بەردەستبوونی تایبەتمەندیی ڤیدیۆ",
-        "hint": "(کامێرا، هاوبەشکردنی شاشە)",
-        "text": "تەنها 30 بەشداربووی دیکە دەتوانن ڤیدیۆی یەکدی ببینن، ئەوانی دیکە تەنها دەتوانن قسەبکەن و گوێبگرن"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "درێژیی ناونیشان",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "تا 64 کاراکتەر"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "ماوەی بەرنامەبۆداڕشتن",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "تا 7 ڕۆژ"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "ئەو کەناڵانەی کە زیاتر لە 1 هەزار بەشداربوویان هەیە تەنها بە پشتگیریی تێلێگرام دەتوانرێت بسردرێتەوە"
       },
       "private_channel_access": {
-        "name": "دەستگەیشتن بە کەناڵی تایبەت",
-        "hint": "بێ بەشداربوون",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "تا 5 خولەک ڕۆژانە"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "درێژیی پێناسەی فەرمان",
-        "hint": "(لە BotFather)",
-        "text": "2 بۆ 256 کاراکتەر"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "درێژی نووسینەکانی دوای /start لە بەستەرە قووڵەکان",

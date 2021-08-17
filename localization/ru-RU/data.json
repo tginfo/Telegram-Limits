@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Число участников",
         "hint": "(лимит постоянно увеличивается)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "до 200 000, неограниченно в группах для трансляций"
       },
       "admins_number": {
         "name": "Количество администраторов",
@@ -133,19 +133,19 @@
         "text": "группы с не менее 100 участников"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "Длина метки администратора",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "до 16 символов"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "Длина названия чата",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "до 128 символов"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "Преобразование супергруппы в группу для трансляций",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "для чатов с 199 000 и более участников"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "Голосовые чаты",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "Слушатели голосового чата",
         "hint": "",
         "text": "неограничено"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "Трансляция видео",
+        "hint": "(камера, демонстрация экрана)",
+        "text": "до 30 вещающих пользователей одновременно"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "Зрители видео-трансляции",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "до 1 000 участников одновременно"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Запланированные чаты",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "до 7 дней"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "канал с более чем 1К подписчиков может быть удалён только через поддержку Telegram"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Просмотр закрытых каналов без вступления",
+        "hint": "(для каналов с более чем 200 подписчиками)",
         "text": "до 5 минут раз в сутки"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Длина описания команды",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "минимально: 2 символа в BotFather, 3 символа в Bot API; максимум 256 символов в обоих"
       },
       "start_payload_size": {
         "name": "Длина метаданных для /start",

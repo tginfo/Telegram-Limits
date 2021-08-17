@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Partisipan",
         "hint": "(batasan dapat ditingkatkan)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "hingga 200.000 tapi tak terhingga di Grup Siaran"
       },
       "admins_number": {
         "name": "Jumlah admin",
@@ -133,7 +133,7 @@
         "text": "grup dengan 100+ partisipan"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "Panjang gelar Admin",
         "hint": "",
         "text": "up to 16 characters"
       },

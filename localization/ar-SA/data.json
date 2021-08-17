@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "المشاركين",
         "hint": "(يمكن رفع الحد المسموح به)",
-        "text": "كحد أقصى 200,000"
+        "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
         "name": "عدد المشرفين",
@@ -131,6 +131,16 @@
         "name": "تعيين حزمة ملصقات المجموعة",
         "hint": "",
         "text": "المجموعات التي تضم 100+ عضو"
+      },
+      "chat_role_length": {
+        "name": "Admin role length",
+        "hint": "",
+        "text": "up to 16 characters"
+      },
+      "chat_title_length": {
+        "name": "Chat title length",
+        "hint": "",
+        "text": "up to 128 characters"
       }
     }
   },
@@ -138,24 +148,24 @@
     "name": "محادثة صوتية",
     "items": {
       "voice_chat_participants": {
-        "name": "المشاركين",
+        "name": "Audio Chat listeners",
         "hint": "",
         "text": "غير محدود"
       },
-      "voice_chat_video_features": {
-        "name": "توفر ميزات الفيديو",
-        "hint": "(الكاميرا، مشاركة الشاشة)",
-        "text": "أول 30 شخصًا فقط يمكنهم مشاركة الفيديو ورؤيته، كل البقية سيكونون في محادثة صوتية فقط"
+      "video_chat_broadcast": {
+        "name": "Broadcasting video",
+        "hint": "(camera, screen casting)",
+        "text": "up to 30 broadcasting users simultaneously"
       },
-      "voice_chat_title_length": {
-        "name": "طول العنوان",
+      "video_chat_viewers": {
+        "name": "Video broadcast viewers",
         "hint": "",
-        "text": "يصل إلى 64 حرفًا"
+        "text": "up to 1,000 participants at the same time"
       },
       "voice_chat_schedule": {
-        "name": "المدة للجدولة",
+        "name": "Delayed messages",
         "hint": "",
-        "text": "تصل إلى 7 أيام"
+        "text": "up to 100 messages scheduled up to 7 days ahead"
       }
     }
   },
@@ -203,8 +213,8 @@
         "text": "لا يمكن حذف القنوات التي تضم أكثر من ألف مشترك إلا بدعم تيليجرام"
       },
       "private_channel_access": {
-        "name": "الولوج لقناة خاص",
-        "hint": "دون الاشتراك فيها",
+        "name": "Viewing private channels without joining",
+        "hint": "(for channels with 200+ subscribers)",
         "text": "المدة القصوى ٥ دقائق مرة كل يوم"
       },
       "invintations": {
@@ -374,8 +384,8 @@
       },
       "bot_command_description_length": {
         "name": "طول وصف الأمر",
-        "hint": "(في BotFather)",
-        "text": "من ٢ إلى ٢٥٦ حرفاً"
+        "hint": "",
+        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
         "name": "طول حمولة /start للبوت",

@@ -135,17 +135,17 @@
       "chat_role_length": {
         "name": "Panjang gelar Admin",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "hingga 16 karakter"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "Panjang judul Obrolan",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "hingga 128 karakter"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "Ubah supergrup ke grup siaran",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "untuk obrolan dengan 199.000+ member"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "Obrolan Suara",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "Pendengar Obrolan suara",
         "hint": "",
         "text": "tak terbatas"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "Siaran video",
+        "hint": "(kamera, berbagi layar)",
+        "text": "hingga 30 siaran pengguna secara bersamaan"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "Penonton siaran video",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "hingga 1.000 partisipan secara bersamaan"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Penjadwalan obrolan",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "hingga 7 hari ke depan"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "channels dengan lebih dari 1K hanya dapat dihapus melalui bantuan Telegram"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Melihat channel privat tanpa bergabung",
+        "hint": "(untuk channel dengan 200+ pelanggan)",
         "text": "hingga 5 sekali per hari"
       },
       "invintations": {

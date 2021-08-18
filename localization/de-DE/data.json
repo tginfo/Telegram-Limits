@@ -135,12 +135,12 @@
       "chat_role_length": {
         "name": "Admin role length",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "bis zu 16 Zeichen"
       },
       "chat_title_length": {
         "name": "Chat title length",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "bis zu 128 Zeichen"
       },
       "broadcast_group_access": {
         "name": "Converting a supergroup to broadcast group",

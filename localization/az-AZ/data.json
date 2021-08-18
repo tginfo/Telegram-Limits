@@ -3,24 +3,24 @@
     "name": "Hesablar",
     "items": {
       "username": {
-        "name": "İstifadəçinin username-ı",
-        "hint": "(məsələ: @Sadykhzadeh)",
-        "text": "5-dən 32-ə gədər hərf"
+        "name": "İstifadəçi adı",
+        "hint": "(məsələn: @kameraman)",
+        "text": "5-32 arası simvol"
       },
       "bio": {
-        "name": "Təsvir",
+        "name": "Bioqrafiya",
         "hint": "",
-        "text": "70-ə gədər hərf"
+        "text": "70 simvola qədər"
       },
       "name_length": {
-        "name": "Adın uzunluğu",
+        "name": "Ad uzunluğu",
         "hint": "",
-        "text": "1-dən 64-ə gədər hərf"
+        "text": "1-64 arasl simvol"
       },
       "last_name_length": {
-        "name": "Soyadın uzunluğu",
+        "name": "Soyad uzunluğu",
         "hint": "",
-        "text": "0-dən 64-ə gədər hərf"
+        "text": "0-64 arası simvol"
       },
       "self_destruction": {
         "name": "Hesab özünü silməyə dövrü",

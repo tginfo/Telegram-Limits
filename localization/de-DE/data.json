@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Mitglieder",
         "hint": "(Limit kann erhöht werden)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "bis zu 200.000, in Broadcast-Gruppen unbegrenzt"
       },
       "admins_number": {
         "name": "Anzahl der Admins",
@@ -133,19 +133,19 @@
         "text": "Gruppen mit mindestens 100 Mitgliedern"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "Länge der Adminrolle",
         "hint": "",
         "text": "bis zu 16 Zeichen"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "Länge des Chattitels",
         "hint": "",
         "text": "bis zu 128 Zeichen"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "Konvertierung einer Supergruppe in eine Broadcast-Gruppe",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "für Chats mit 199.000+ Mitgliedern"
       }
     }
   },

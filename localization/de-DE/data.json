@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Mitglieder",
         "hint": "(Limit kann erhöht werden)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "bis zu 200.000, in Broadcast-Gruppen unbegrenzt"
       },
       "admins_number": {
         "name": "Anzahl der Admins",
@@ -133,19 +133,19 @@
         "text": "Gruppen mit mindestens 100 Mitgliedern"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "Länge der Adminrolle",
         "hint": "",
         "text": "bis zu 16 Zeichen"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "Länge des Chattitels",
         "hint": "",
         "text": "bis zu 128 Zeichen"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "Konvertierung einer Supergruppe in eine Broadcast-Gruppe",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "für Chats mit 199.000+ Mitgliedern"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "Sprachchat",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "Sprachchat-Zuhörer",
         "hint": "",
         "text": "unbegrenzt"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "Videoübertragung",
+        "hint": "(Kamera, Bildschirm)",
+        "text": "bis zu 30 übertragende Nutzer gleichzeitig"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "Zuschauer einer Videoübertragung",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "bis zu 1.000 Teilnehmer gleichzeitig"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Geplante Sprachchats",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "bis zu 7 Tage im Voraus"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "Kanäle mit mehr als 1.000 Abonnenten können nur mit dem Telegram-Support gelöscht werden"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Private Kanäle ohne Beitritt ansehen",
+        "hint": "(für Kanäle mit 200+ Abonnenten)",
         "text": "bis zu 5 Minuten einmal am Tag"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Länge der Kommando-Beschreibung",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "mindestens: 2 Zeichen in BotFather, 3 Zeichen in der Bot API; höchstens: 256 Zeichen bei beiden"
       },
       "start_payload_size": {
         "name": "Länge des /start-Parameters für Bots",

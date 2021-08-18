@@ -3,108 +3,108 @@
     "name": "Hesablar",
     "items": {
       "username": {
-        "name": "İstifadəçinin username-ı",
-        "hint": "(məsələ: @Sadykhzadeh)",
-        "text": "5-dən 32-ə gədər hərf"
+        "name": "İstifadəçi adı",
+        "hint": "(məsələn: @kameraman)",
+        "text": "5-32 arası simvol"
       },
       "bio": {
-        "name": "Təsvir",
+        "name": "Bioqrafiya",
         "hint": "",
-        "text": "70-ə gədər hərf"
+        "text": "70 simvola qədər"
       },
       "name_length": {
-        "name": "Adın uzunluğu",
+        "name": "Ad uzunluğu",
         "hint": "",
-        "text": "1-dən 64-ə gədər hərf"
+        "text": "1-64 arasl simvol"
       },
       "last_name_length": {
-        "name": "Soyadın uzunluğu",
+        "name": "Soyad uzunluğu",
         "hint": "",
-        "text": "0-dən 64-ə gədər hərf"
+        "text": "0-64 arası simvol"
       },
       "self_destruction": {
-        "name": "Hesab özünü silməyə dövrü",
-        "hint": "əgər aktiv deyilsiz",
-        "text": "1, 3, 6 və ya 12 ay"
+        "name": "Özünü yox edən dövr",
+        "hint": "fəaliyyət yoxdursa",
+        "text": "1, 3, 6 və ya 12 ay (ilkin olaraq 6)"
       },
       "spam_ban": {
-        "name": "Spam banı",
+        "name": "Spam əngəli",
         "hint": "",
-        "text": "3 gün və çox"
+        "text": "3 gün və daha çox"
       },
       "channels_and_chats_number": {
-        "name": "Kannaların və supergrupların sayı",
-        "hint": "siz iştirak edə bilərsiniz",
-        "text": "500-dan"
+        "name": "Kanal və super qrup sayı",
+        "hint": "üzv ola bilərsiniz",
+        "text": "500-ə qədər (özünüzünkülər daxil olmaqla)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "Saxlanılmış GIF sayı",
         "hint": "",
-        "text": "up to 200"
+        "text": "200-ə qədər"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "Video avatar müddəti",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "10 saniyəyə qədər"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "Qrup və kanal yaratma",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "gündə 50-ə qədər"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "Hesab sayı",
+        "hint": "(rəsmi müştərilər)",
+        "text": "3-ə qədər"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "Söhbətlər və qruplar",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "name": "İştirakçılar",
+        "hint": "(limit artırıla bilər)",
+        "text": "200,000-ə qədər, ancaq Yayım qruplarında limitsiz"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "Admin sayı",
+        "hint": "qruplarda",
+        "text": "50-ə qədər"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "Bot sayı",
+        "hint": "qruplarda",
+        "text": "20-ə qədər"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "Əsas siyahıda sancaqlanmış söhbətlər",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "5 söhbət və ya kanala qədər + 5 gizli söhbət"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Qrup adı və açıqlaması",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "255 simvola qədər"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Mesaja düzəliş",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "Göndərdikdən 48 saat sonra; Saxlanılmışlarda və sancaqlama hüquqları olan adminlər üçün limitsiz"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "Özünü məhv edən foto və video",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1-60 saniyə"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "Son fəaliyyətlər",
+        "hint": "(abunəlik, göndəriş və s.)",
+        "text": "son iki gün"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
+        "name": "Ad çəkmə sayı",
+        "hint": "tək mesajda",
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {

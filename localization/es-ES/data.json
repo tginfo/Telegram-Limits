@@ -160,17 +160,17 @@
       "video_chat_broadcast": {
         "name": "Transmitir vídeo",
         "hint": "(cámara, pantalla compartida)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "text": "hasta 30 usuarios transmitiendo simultáneamente"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "Espectadores de la transmisión de vídeo",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "hasta 1,000 participantes al mismo tiempo"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Chats programados",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "hasta 7 días de antelación"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "canales con más de 1K suscriptores sólo se pueden eliminar con soporte de Telegram"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Ver canales privados sin unirse",
+        "hint": "(para canales con más de 200 suscriptores)",
         "text": "hasta 5 minutos, una vez al día"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Longitud de la descripción del comando",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "mínimo: 2 símbolos en BotFather, 3 símbolos en API de bots; máximo: 256 caracteres en ambos"
       },
       "start_payload_size": {
         "name": "Longitud de los metadatos en /start",

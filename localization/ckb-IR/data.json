@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "درێژیی پێناسەی فەرمان",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "کەمترین: 2 سیمبۆل لە BotFather، 3 سیمبۆل لە Bot API؛ زۆرترین: 256 کاراکتەر لە هەردووکیان"
       },
       "start_payload_size": {
         "name": "درێژی نووسینەکانی دوای /start لە بەستەرە قووڵەکان",

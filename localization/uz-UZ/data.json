@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Ishtirokchilar",
         "hint": "(Cheklov oshishi mumkin)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "200,000 tagacha, lekin Translyatsiya guruhlarida cheksiz"
       },
       "admins_number": {
         "name": "Adminlar soni",
@@ -133,19 +133,19 @@
         "text": "100+ ishtirokchi bo'lgan guruhlar"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "Admin nomining uzunligi",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "16 tagacha belgi"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "Chat nomi uzunligi",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "128 tagacha belgi"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "Super guruhni Translyatsiya guruhiga aylantirish",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "199,000 tadan yuqori a'zolar"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "Ovozli chat",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "Ovozli chat qatnashuvchilari",
         "hint": "",
         "text": "cheklanmagan"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "Video translyatsiya",
+        "hint": "(kamera, ekranga chiqarish)",
+        "text": "bir vaqtning o'zida 30 ta translyatsiya a'zosi"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "Video translyatsiya kuzatuvchilari",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "bir vaqtning o'zida 1,000 tagacha foydalanuvchilar"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Rejalashtirilgan suhbatlar",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "7 kungacha"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "1K dan ortiq obunachiga ega kanallarni faqat Telegram ko'magi yordamida o'chirish mumkin"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Yopiq kanallarni a'zo bo'lmasdan kirib ko'rish",
+        "hint": "(200 dan ortiq a'zo bo'lgan kanallar uchun)",
         "text": "Kuniga 5 daqiqagacha"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Buyruq tavsifi uzunligi",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "minimal: BotFatherda 2 ta belgi, Bot API da 3 ta belgi; maksimal: ikkalasida ham 256 ta belgi"
       },
       "start_payload_size": {
         "name": "Bot/buyruqlari uzunligi",

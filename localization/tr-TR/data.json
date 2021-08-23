@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Katılımcılar",
         "hint": "(sınır artabilir)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "200,000'e kadar fakat Yayın Gruplarında sınırsız"
       },
       "admins_number": {
         "name": "Yönetici sayısı",
@@ -133,19 +133,19 @@
         "text": "100+ katılımcılı gruplar"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "Yönetici başlığı uzunluğu",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "16 karaktere kadar"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "Sohbet başlık uzunluğu",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "128 karaktere kadar"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "Bir süpergrubu yayın grubuna dönüştürme",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "199,000'den fazla üyeye sahip sohbetler için"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "Sesli Sohbetler",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "Sesli Sohbet dinleyicileri",
         "hint": "",
         "text": "sınırsız"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "Görüntü paylaşma",
+        "hint": "(kamera, ekran paylaşımı)",
+        "text": "aynı anda 30'a kadar görüntü paylaşımı"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "Görüntü paylaşımını izleyenler",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "aynı anda 1,000 katılımcıya kadar"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Zamanlanmış sohbetler",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "7 gün sonrasına kadar"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "1,000+ aboneli kanallar sadece Telegram desteği ile silinebilir"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Gizli kanalları katılmadan görüntüleme",
+        "hint": "(200'den fazla aboneye sahip kanallar için)",
         "text": "günde 5 dakikaya kadar"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Komut açıklama uzunluğu‌‌",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "minimum: Botfather'da 2 sembol, Bot API'nda 3 sembol; maksimum: her ikisinde de 256 karakter"
       },
       "start_payload_size": {
         "name": "Bot /start veri uzunluğu",

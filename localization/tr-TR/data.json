@@ -145,7 +145,7 @@
       "broadcast_group_access": {
         "name": "Bir süpergrubu yayın grubuna dönüştürme",
         "hint": "",
-        "text": "199,000+ üyeye sahip sohbetler için"
+        "text": "199,000'den fazla üyeye sahip sohbetler için"
       }
     }
   },
@@ -165,12 +165,12 @@
       "video_chat_viewers": {
         "name": "Görüntü paylaşımını izleyenler",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "aynı anda 1,000 katılımcıya kadar"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Zamanlanmış sohbetler",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "7 gün sonrasına kadar"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "1,000+ aboneli kanallar sadece Telegram desteği ile silinebilir"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Gizli kanalları katılmadan görüntüleme",
+        "hint": "(200'den fazla aboneye sahip kanallar için)",
         "text": "günde 5 dakikaya kadar"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Komut açıklama uzunluğu‌‌",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "minimum: Botfather'da 2 sembol, Bot API'nda 3 sembol; maksimum: her ikisinde de 256 karakter"
       },
       "start_payload_size": {
         "name": "Bot /start veri uzunluğu",

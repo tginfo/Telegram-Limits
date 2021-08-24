@@ -373,29 +373,29 @@
         "text": "saniyədə 30 mesaja qədər; ictimai söhbətlər və kanallar üçün dəqiqədə 20 mesaja qədər"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "API üçün sorğuların tezliyi",
+        "hint": "(BotSupport vasitəsilə qaldırıla bilər)",
+        "text": "saniyədə 30-a qədər"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "Komandaların sayı",
+        "hint": "(BotFather-də)",
+        "text": "100 komanda qədər"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Komandanın uzunluğu",
+        "hint": "(BotFather-də)",
+        "text": "1-32 arası simvol"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "Komandanın təsvir uzunluğu",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "Ən azı: BotFather-də 2 simvol, BotAPI-də 3 simvol; Ən yuxarı: 256 simvol hər ikisi"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "/start üçün metadata uzunluğu",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 simvola qədər"
       },
       "bot_alert_length": {
         "name": "Bot alert message length",

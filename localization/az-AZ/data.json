@@ -479,23 +479,23 @@
     "items": {
       "accounts_number": {
         "name": "Hesab sayı",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "hint": "@telegraph botda",
+        "text": "5-ə qədər"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Mətn ölçüsü",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "64 KiB qədər"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "Digər",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "Video avatarın xüsusiyyətləri",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, 2 MB qədər"
       }
     }
   }

@@ -105,11 +105,11 @@
       "mentions_amount": {
         "name": "Ad çəkmə sayı",
         "hint": "tək mesajda",
-        "text": "up to 50, else notifications won't be sent"
+        "text": "50-ə qədər, əks halda bildiriş göndərilməyəcək"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
+        "name": "Görünən mesajların sayı",
+        "hint": "qrupda",
         "text": "1,000,000 last messages"
       },
       "pinned_messages_number": {

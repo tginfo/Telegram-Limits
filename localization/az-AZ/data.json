@@ -90,7 +90,7 @@
       "editing": {
         "name": "Mesaja düzəliş",
         "hint": "",
-        "text": "Göndərdikdən 48 saat sonra; Saxlanılmışlarda və sancaqlama hüquqları olan adminlər üçün limitsiz"
+        "text": "göndərdikdən 48 saat sonra; saxlanılmışlarda və sancaqlama hüquqları olan adminlər üçün limitsiz"
       },
       "media_self_destruction": {
         "name": "Özünü məhv edən foto və video",
@@ -219,43 +219,43 @@
       },
       "private_channel_access": {
         "name": "Abunə olmadan bağlı kanalları baxmaq",
-        "hint": "(for channels with 200+ subscribers)",
-        "text": "up to 5 minutes once a day"
+        "hint": "(200-dən çox abunəçi ilə kanalları üçün)",
+        "text": "gündə 5 dəqiqəyə qədər bir dəfə"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Dəvət edilən istifadəçilər",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "200 nəfərə qədər"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "Statistikaya baxmaq üçün abunəçilərin sayı",
         "hint": "",
-        "text": "at least 50"
+        "text": "ən azı 50"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "İstifadəçi adı dəyişmək vaxtı",
+        "hint": "(Istifadəçi adı yalnız sahib üçün yox, hər kəs üçün mövcud olacaq vaxtı)",
+        "text": "təxminən 15-30 dəqiqə"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Mesajlar",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Bir mesaj uzunluğu",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "4,096 simvola qədər"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "Media faylları üçün təsvir",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "1,024 simvola qədər"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "Fayl ölçünün məhdudiyyəti",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "2.0 GB qədər"
       },
       "video_message_duration": {
         "name": "Video message duration",
@@ -398,57 +398,57 @@
         "text": "64 simvola qədər"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "Bot xəbərdarlıq uzunluğu",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "200 simvola qədər"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "İstifadəçilərin istifadəçi adı ilə axtarış",
+        "hint": "(bot və sadə hesablar üçün)",
+        "text": "gündəlik 200 istifadəçi adları qədər"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "İnline-nəticələrin sayı",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "50-ə qədər"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Axtarış",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "Qlobal axtarış nəticələri",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "10-a qədər; Android üçün 3-ə qədər"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "Minimum sorğu uzunluğu",
+        "hint": "qlobal axtarış üçün",
+        "text": "ən az 4 işarə"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Stikerlər",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "Əlavə stikerpakların sayı",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "200-ə qədər"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "Sevimli stikerlərin sayı",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "5-ə qədər"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "Dəstdə olan stikerlərin sayı",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "statik üçün 120 qədər, animasiya olan üçün 50 qədər"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Stiker ölçüsü",
         "hint": "",
         "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },

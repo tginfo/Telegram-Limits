@@ -123,7 +123,7 @@
         "text": "ən azı 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
+        "name": "İstifadəçi adı dəyişmək vaxtı",
         "hint": "(Istifadəçi adı yalnız sahib üçün yox, hər kəs üçün mövcud olacaq vaxtı)",
         "text": "təxminən 15-30 dəqiqə"
       },
@@ -145,80 +145,80 @@
       "broadcast_group_access": {
         "name": "Superqrupun yayım qrupuna çevrilməsi",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "199.000-dən çox iştirakçı ilə sohbetler üçün"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Səsli Söhbətlər",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "Dinləyici auditoriyası",
         "hint": "",
-        "text": "unlimited"
+        "text": "limitsiz"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "Video yayımı",
+        "hint": "(kamera, ekran yayımı)",
+        "text": "eyni zamanda 30 yayım istifadəçilər qədər"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "Video yayımın tamaşaçılar",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "eyni zamanda 1000-ə qədər"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Planlaşdırılan sohbetler",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "7 günə qədər"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "Kanallar",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "İctimai istifadəçi adlarının sayı",
+        "hint": "bir hesab üçün",
+        "text": "10-a qədər (qruplar daxil olmaqla)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "İstifadəçi adının uzunluğu",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5-32 arası simvol"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Kanalın adı və təsviri",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "255 simvola qədər"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "Kanal administratorların sayı",
+        "hint": "(botlara daxil olmaqla; yalnız administrator kimi kanalınıza bot əlavə edə bilərsiniz)",
+        "text": "50 hesablara qədər"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Düzəliş etmək",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "limitsiz (kanalda əlaqəli müzakirə qrupu varsa, 2 həftədən daha yaşlı mesajlar söhbətdə yenilənməyəcəkdir)"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "Kanal abunəçilərinin sayı",
         "hint": "",
-        "text": "unlimited"
+        "text": "limitsiz"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "Görünən abunəçilər",
+        "hint": "kanal administratoru üçün",
+        "text": "200 nəfər"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Kanalın silinməsi",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "1 mindən çox abunəçi olan kanallar Yalnız Telegram dəstəyi ilə silinə bilər"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
+        "name": "Abunə olmadan bağlı kanalları baxmaq",
         "hint": "(for channels with 200+ subscribers)",
         "text": "up to 5 minutes once a day"
       },
@@ -340,37 +340,37 @@
       "upload_limit_botapi": {
         "name": "File upload limit",
         "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "text": "50 MB qədər"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Fayl yükləmək məhdudiyyəti",
         "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "text": "20 MB qədər"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "Mesajların yönləndirilməyi",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "saatda 2000-ə qədər"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "Düymələrinin sayı",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "100-ə qədər"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "Mesajların formatlaşdırılma məlumatları",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "10 KB qədər"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "Mesajların format olunması",
+        "hint": "(bold, italik və s.)",
+        "text": "100-ə qədər"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "Mesajların tezliyi",
+        "hint": "(BotSupport vasitəsilə qaldırıla bilər)",
+        "text": "saniyədə 30 mesaja qədər; ictimai söhbətlər və kanallar üçün dəqiqədə 20 mesaja qədər"
       },
       "api_requests_frequency": {
         "name": "API requests frequency",

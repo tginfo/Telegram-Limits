@@ -18,7 +18,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
                 foreach ($supported_langs_file as $key_i => $value) {
                 if ($key === $key_i) continue;
             ?>
-                <xhtml:link rel="alternate" hreflang="<?= (empty($key) ? "x-default" : $key) ?>" href="<?= BASE ?>/<?= $key_i ?>" />
+                <xhtml:link rel="alternate" hreflang="<?= (empty($key_i) ? "x-default" : $key_i) ?>" href="<?= BASE ?>/<?= $key_i ?>" />
             <?php
                 }
             ?>

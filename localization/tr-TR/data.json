@@ -160,7 +160,7 @@
       "video_chat_broadcast": {
         "name": "Görüntü paylaşma",
         "hint": "(kamera, ekran paylaşımı)",
-        "text": "aynı anda 30'a kadar görüntü paylaşımı"
+        "text": "aynı anda görüntü paylaşımı yapan 30 katılımcıya kadar"
       },
       "video_chat_viewers": {
         "name": "Görüntü paylaşımını izleyenler",

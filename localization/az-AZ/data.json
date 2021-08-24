@@ -258,87 +258,87 @@
         "text": "2.0 GB qədər"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Video mesaj müddəti",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "1 dəqiqəyə qədər"
       },
       "album_size": {
-        "name": "Images and videos in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "Bir mesajda şəkillər və videolar",
+        "hint": "(albom)",
+        "text": "10-a qədər"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "Planlaşdırılmış mesajların sayı",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "100-ə qədər"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "Mesaj planlaşdırması",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "365 günə qədər"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Qovluqlar",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Qovluqların sayı",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "10-a qədər"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "Qovluq sabit sohbetler",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "100 sohbetler qədər"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Yaxında olan insanlar",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Görünürlük radiusu",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "təxminən 12 kilometr"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Görünən istifadəçilərin sayı",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "100 nəfərə qədər"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Görünən mesajların sayı",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "yaxın 10-a qədər"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "Botlar",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "Botların sayı",
+        "hint": "(@BotFather vasitəsilə yaradılmışdır)",
+        "text": "20-a qədər"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "İstifadəçi adının uzunluğu",
+        "hint": "bot üçün",
+        "text": "5-32 arası simvol"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Bot haqqında məlumat uzunluğu",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "120 simvola qədər"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Botun təsvir uzunluğu",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "512 simvola qədər"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Bot tərəfindən göndərilən fayllar",
         "hint": "(BotAPI)",
         "text": "50 MB qədər"
       },
@@ -450,27 +450,27 @@
       "sticker_size": {
         "name": "Stiker ölçüsü",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "tərəflərdən biri 512px, digəri isə 512px və az; animasiya üçün ciddi 512x512"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "Animasiya müddəti",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "3 saniyəyə qədər"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Stiker fayl ölçüsü",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "statik üçün 512 KB, animasiya üçün 64 KB qədər"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 və ya 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Paket adının uzunluğu",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 simvola qədər"
       }
     }
   },
@@ -478,7 +478,7 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
+        "name": "Hesab sayı",
         "hint": "in @telegraph bot",
         "text": "up to 5 items"
       },

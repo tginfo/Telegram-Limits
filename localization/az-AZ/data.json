@@ -4,7 +4,7 @@
     "items": {
       "username": {
         "name": "İstifadəçi adı",
-        "hint": "(məsələn: @kameraman)",
+        "hint": "(məsələn: @cameraman)",
         "text": "5-32 arası simvol"
       },
       "bio": {
@@ -425,7 +425,7 @@
       "global_search_min_query": {
         "name": "Minimum sorğu uzunluğu",
         "hint": "qlobal axtarış üçün",
-        "text": "ən az 4 işarə"
+        "text": "ən azı 4 işarə"
       }
     }
   },

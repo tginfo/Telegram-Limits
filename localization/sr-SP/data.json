@@ -168,9 +168,9 @@
         "text": "до 1000 учесника истовремено"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Заказана гласовна ћаскања",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "до 7 дана унапред"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "канали са више од 1000 пратилаца могу бити избрисани само преко Telegram подршке"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Преглед приватних канала без придруживања",
+        "hint": "(за канале који имају 200+ пратилаца)",
         "text": "до 5 минута дневно"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Дужина описа команде",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "минимум: 2 знака у BotFather-у, 3 знака у Bot API--ју; максимум: 256 знакова укупно"
       },
       "start_payload_size": {
         "name": "Максимална почетна дужина испорученог текста бота",

@@ -63,12 +63,12 @@
     "name": "Chats e grupos",
     "items": {
       "participants_number": {
-        "name": "Membros",
-        "hint": "(o limite pode ser aumentado)",
+        "name": "Participantes",
+        "hint": "(o limite pode aumentar)",
         "text": "até 200000, mas ilimitado em grupos de transmissão"
       },
       "admins_number": {
-        "name": "Número de admins",
+        "name": "Número de administradores",
         "hint": "em grupos",
         "text": "até 50"
       },

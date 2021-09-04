@@ -403,29 +403,29 @@
         "text": "200 simvola qədər"
       },
       "username_resolve_limit": {
-        "name": "İstifadəçilərin istifadəçi adı ilə axtarış",
-        "hint": "(bot və sadə hesablar üçün)",
-        "text": "gündəlik 200 istifadəçi adları qədər"
+        "name": "İstifadəçi adı həll limiti",
+        "hint": "(həm botlar, həm də istifadəçi hesabları üçün)",
+        "text": "gündəlik 200 istifadəçi adına qədər"
       },
       "inline_max_items": {
-        "name": "İnline-nəticələrin sayı",
+        "name": "Sətir içi nəticə sayı",
         "hint": "",
-        "text": "50-ə qədər"
+        "text": "50 elementə qədər"
       }
     }
   },
   "search": {
-    "name": "Axtarış",
+    "name": "Axtar",
     "items": {
       "global_search": {
         "name": "Qlobal axtarış nəticələri",
         "hint": "",
-        "text": "10-a qədər; Android üçün 3-ə qədər"
+        "text": "10 elementə qədər; Android üçün 3-ə qədər"
       },
       "global_search_min_query": {
-        "name": "Minimum sorğu uzunluğu",
+        "name": "Minimal sorğu uzunluğu",
         "hint": "qlobal axtarış üçün",
-        "text": "ən azı 4 işarə"
+        "text": "ən azı 4 simvol"
       }
     }
   },
@@ -433,24 +433,24 @@
     "name": "Stikerlər",
     "items": {
       "added_packs": {
-        "name": "Əlavə stikerpakların sayı",
+        "name": "Əlavə edilən paket sayı",
         "hint": "",
-        "text": "200-ə qədər"
+        "text": "200 elementə qədər"
       },
       "favorite_stickers": {
-        "name": "Sevimli stikerlərin sayı",
+        "name": "Sevimli stiker sayı",
         "hint": "",
-        "text": "5-ə qədər"
+        "text": "5 elementə qədər"
       },
       "pack_size": {
-        "name": "Dəstdə olan stikerlərin sayı",
+        "name": "Paketdəki stiker sayı",
         "hint": "",
-        "text": "statik üçün 120 qədər, animasiya olan üçün 50 qədər"
+        "text": "statik üçün 120-ə qədər, animasiyalı üçün 50-ə qədər"
       },
       "sticker_size": {
-        "name": "Stiker ölçüsü",
+        "name": "Stiker həcmi",
         "hint": "",
-        "text": "tərəflərdən biri 512px, digəri isə 512px və az; animasiya üçün ciddi 512x512"
+        "text": "bir tərəf 512 px-ə bərabər, digər tərəf 512 px və ya daha az; animasiyalı üçün tam 512x512"
       },
       "animation_duration": {
         "name": "Animasiya müddəti",
@@ -458,9 +458,9 @@
         "text": "3 saniyəyə qədər"
       },
       "file_size": {
-        "name": "Stiker fayl ölçüsü",
+        "name": "Stiker fayl həcmi",
         "hint": "",
-        "text": "statik üçün 512 KB, animasiya üçün 64 KB qədər"
+        "text": "statik üçün 512 KB-a qədər, animasiyalı üçün 64 KB-a qədər"
       },
       "fps": {
         "name": "FPS",
@@ -479,23 +479,23 @@
     "items": {
       "accounts_number": {
         "name": "Hesab sayı",
-        "hint": "@telegraph botda",
-        "text": "5-ə qədər"
+        "hint": "@telegraph botunda",
+        "text": "5 elementə qədər"
       },
       "text_size": {
-        "name": "Mətn ölçüsü",
+        "name": "Məqalə həcmi",
         "hint": "",
-        "text": "64 KiB qədər"
+        "text": "64 KiB-ə qədər"
       }
     }
   },
   "miscellaneous": {
-    "name": "Digər",
+    "name": "Müxtəlif",
     "items": {
       "properties": {
-        "name": "Video avatarın xüsusiyyətləri",
+        "name": "Video avatar xüsusiyyətləri",
         "hint": "",
-        "text": "800x800px, 2 MB qədər"
+        "text": "800x800px, 2 MB-a qədər"
       }
     }
   }

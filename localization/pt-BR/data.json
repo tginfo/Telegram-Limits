@@ -78,7 +78,7 @@
         "text": "até 20"
       },
       "pinned_number": {
-        "name": "Chats fixados na tela inicial",
+        "name": "Chats fixados na lista principal",
         "hint": "",
         "text": "até 5 chats ou canais + 5 chats secretos"
       },
@@ -88,7 +88,7 @@
         "text": "até 255 caracteres"
       },
       "editing": {
-        "name": "Edição de mensagens",
+        "name": "Editar mensagem",
         "hint": "",
         "text": "em 48 horas após o envio; ilimitado em Mensagens Salvas e para admins com permissão de fixar"
       },
@@ -105,7 +105,7 @@
       "mentions_amount": {
         "name": "Número de menções",
         "hint": "em uma única mensagem",
-        "text": "até 50, senão as notificações não serão enviadas"
+        "text": "até 50, senão as notificações não se enviarão"
       },
       "visible_messages": {
         "name": "Número de mensagens visíveis",

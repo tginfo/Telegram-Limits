@@ -130,10 +130,10 @@
       "participants_for_group_stickers": {
         "name": "Qrup tanıtımlı stikerlər",
         "hint": "",
-        "text": "100-dən çox iştirakçıları olan qruplar"
+        "text": "100+ iştirakçı sayı olan qruplar"
       },
       "chat_role_length": {
-        "name": "Admin rolun uzunluğu",
+        "name": "Admin rolu uzunluğu",
         "hint": "",
         "text": "16 simvola qədər"
       },
@@ -143,9 +143,9 @@
         "text": "128 simvola qədər"
       },
       "broadcast_group_access": {
-        "name": "Superqrupun yayım qrupuna çevrilməsi",
+        "name": "Super qrupunu yayım qrupuna çevirmə",
         "hint": "",
-        "text": "199.000-dən çox iştirakçı ilə sohbetler üçün"
+        "text": "199,000+ üzvü olan söhbətlər üçün"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "Səsli Söhbətlər",
     "items": {
       "voice_chat_participants": {
-        "name": "Dinləyici auditoriyası",
+        "name": "Səsli söhbət dinləyiciləri",
         "hint": "",
         "text": "limitsiz"
       },
       "video_chat_broadcast": {
-        "name": "Video yayımı",
+        "name": "Görüntü yayımı",
         "hint": "(kamera, ekran yayımı)",
-        "text": "eyni zamanda 30 yayım istifadəçilər qədər"
+        "text": "eyni anda yayım edən 30 istifadəçiyə qədər"
       },
       "video_chat_viewers": {
-        "name": "Video yayımın tamaşaçılar",
+        "name": "Video yayıma baxanlar",
         "hint": "",
-        "text": "eyni zamanda 1000-ə qədər"
+        "text": "eyni anda 1,000-ə qədər iştirakçı"
       },
       "voice_chat_schedule": {
-        "name": "Planlaşdırılan sohbetler",
+        "name": "Planlaşdırılan söhbətlər",
         "hint": "",
-        "text": "7 günə qədər"
+        "text": "7 gün sonraya qədər"
       }
     }
   },
@@ -178,63 +178,63 @@
     "name": "Kanallar",
     "items": {
       "public_usernames": {
-        "name": "İctimai istifadəçi adlarının sayı",
+        "name": "İctimai istifadəçi adı sayı",
         "hint": "bir hesab üçün",
         "text": "10-a qədər (qruplar daxil olmaqla)"
       },
       "username_length": {
-        "name": "İstifadəçi adının uzunluğu",
+        "name": "@istifadəçiadı uzunluğu",
         "hint": "",
         "text": "5-32 arası simvol"
       },
       "channel_name": {
-        "name": "Kanalın adı və təsviri",
+        "name": "Kanal adı və açıqlaması",
         "hint": "",
         "text": "255 simvola qədər"
       },
       "channel_admins": {
-        "name": "Kanal administratorların sayı",
-        "hint": "(botlara daxil olmaqla; yalnız administrator kimi kanalınıza bot əlavə edə bilərsiniz)",
-        "text": "50 hesablara qədər"
+        "name": "Kanaldakı admin sayı",
+        "hint": "(botlara daxildir; sadəcə admin edərək kanalınıza bot əlavə edə bilərsiniz)",
+        "text": "50 hesaba qədər"
       },
       "editing": {
-        "name": "Düzəliş etmək",
+        "name": "Göndərişə düzəliş",
         "hint": "",
-        "text": "limitsiz (kanalda əlaqəli müzakirə qrupu varsa, 2 həftədən daha yaşlı mesajlar söhbətdə yenilənməyəcəkdir)"
+        "text": "limitsiz (kanalda əlaqə yaradılmış müzakirə qrupu varsa, 2 həftədən daha köhnə gğndərişlər söhbətdə yenilənməyəcək)"
       },
       "subscribers": {
-        "name": "Kanal abunəçilərinin sayı",
+        "name": "Kanalın abunəçi sayı",
         "hint": "",
         "text": "limitsiz"
       },
       "visible_participants": {
         "name": "Görünən abunəçilər",
-        "hint": "kanal administratoru üçün",
+        "hint": "kanal admini üçün",
         "text": "200 nəfər"
       },
       "channel_deletion": {
-        "name": "Kanalın silinməsi",
+        "name": "Kanal silmə",
         "hint": "",
-        "text": "1 mindən çox abunəçi olan kanallar Yalnız Telegram dəstəyi ilə silinə bilər"
+        "text": "1,000+ abunəçisi olan kanallar, yalnız Telegram dəstəyi ilə silinə bilər"
       },
       "private_channel_access": {
-        "name": "Abunə olmadan bağlı kanalları baxmaq",
-        "hint": "(200-dən çox abunəçi ilə kanalları üçün)",
-        "text": "gündə 5 dəqiqəyə qədər bir dəfə"
+        "name": "Gizli kanallara qoşulmadan baxma",
+        "hint": "(200+ abunəçisi olan kanallar üçün)",
+        "text": "gündə 5 dəqiqəyə qədər"
       },
       "invintations": {
-        "name": "Dəvət edilən istifadəçilər",
+        "name": "İstifadəçi dəvət etmə",
         "hint": "",
         "text": "200 nəfərə qədər"
       },
       "followers_to_see_stats": {
-        "name": "Statistikaya baxmaq üçün abunəçilərin sayı",
+        "name": "Statistikalara baxmaq üçün abunəçi sayı",
         "hint": "",
         "text": "ən azı 50"
       },
       "username_reservation": {
-        "name": "İstifadəçi adı dəyişmək vaxtı",
-        "hint": "(Istifadəçi adı yalnız sahib üçün yox, hər kəs üçün mövcud olacaq vaxtı)",
+        "name": "İstifadəçi adı dəyişmə rezervasiyası",
+        "hint": "(istifadəçi adının yalnız orijinal sahibinə yox, hər kəs üçün mövcud olacağından əvvəlki müddət)",
         "text": "təxminən 15-30 dəqiqə"
       }
     }
@@ -243,22 +243,22 @@
     "name": "Mesajlar",
     "items": {
       "single_message_length": {
-        "name": "Bir mesaj uzunluğu",
+        "name": "Bir mesajın uzunluğu",
         "hint": "",
         "text": "4,096 simvola qədər"
       },
       "media_descriptions": {
-        "name": "Media faylları üçün təsvir",
+        "name": "Media açıqlaması",
         "hint": "",
         "text": "1,024 simvola qədər"
       },
       "upload_size": {
-        "name": "Fayl ölçünün məhdudiyyəti",
+        "name": "Fayl həcm limiti",
         "hint": "",
-        "text": "2.0 GB qədər"
+        "text": "2.0 GB-a qədər"
       },
       "video_message_duration": {
-        "name": "Video mesaj müddəti",
+        "name": "Video mesajın müddəti",
         "hint": "",
         "text": "1 dəqiqəyə qədər"
       },
@@ -268,12 +268,12 @@
         "text": "10-a qədər"
       },
       "delayed_messages": {
-        "name": "Planlaşdırılmış mesajların sayı",
+        "name": "Planlaşdırılmış mesaj sayı",
         "hint": "",
-        "text": "100-ə qədər"
+        "text": "100 elementə qədər"
       },
       "delaying_messages": {
-        "name": "Mesaj planlaşdırması",
+        "name": "Planlaşdırma aralığı",
         "hint": "",
         "text": "365 günə qədər"
       }
@@ -283,14 +283,14 @@
     "name": "Qovluqlar",
     "items": {
       "folder_amount": {
-        "name": "Qovluqların sayı",
+        "name": "Qovluq miqdarı",
         "hint": "",
         "text": "10-a qədər"
       },
       "pinned_chats_in_folder": {
-        "name": "Qovluq sabit sohbetler",
+        "name": "Qovluqda sancaqlanmış söhbətlər",
         "hint": "",
-        "text": "100 sohbetler qədər"
+        "text": "100 söhbətə qədər"
       }
     }
   },

@@ -34,8 +34,8 @@
       },
       "channels_and_chats_number": {
         "name": "Número de canais e supergrupos",
-        "hint": "você pode ser membro de",
-        "text": "até 500 (incluindo os que você é dono)"
+        "hint": "em que você pode juntar-se",
+        "text": "até 500 (além dos que você criou)"
       },
       "gifs_number": {
         "name": "Número de GIFs salvos",

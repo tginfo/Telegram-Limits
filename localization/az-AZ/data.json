@@ -90,7 +90,7 @@
       "editing": {
         "name": "Mesaja düzəliş",
         "hint": "",
-        "text": "göndərdikdən 48 saat sonra; saxlanılmışlarda və sancaqlama hüquqları olan adminlər üçün limitsiz"
+        "text": "Göndərdikdən 48 saat sonra; Saxlanılmışlarda və sancaqlama hüquqları olan adminlər üçün limitsiz"
       },
       "media_self_destruction": {
         "name": "Özünü məhv edən foto və video",
@@ -108,27 +108,27 @@
         "text": "50-ə qədər, əks halda bildiriş göndərilməyəcək"
       },
       "visible_messages": {
-        "name": "Görünən mesajların sayı",
+        "name": "Görünən mesaj sayı",
         "hint": "qrupda",
-        "text": "1,000,000 son mesajlar"
+        "text": "1,000,000 son mesaj"
       },
       "pinned_messages_number": {
-        "name": "Görünən mesajların sayı",
+        "name": "Sancaqlanmış mesaj sayı",
         "hint": "",
         "text": "limitsiz"
       },
       "participants_to_see_stats": {
-        "name": "Statistikaya baxmaq üçün iştirakçıların sayı",
+        "name": "Statistikaya baxmaq üçün iştirakçı sayı",
         "hint": "",
         "text": "ən azı 500"
       },
       "username_reservation": {
-        "name": "İstifadəçi adı dəyişmək vaxtı",
-        "hint": "(Istifadəçi adı yalnız sahib üçün yox, hər kəs üçün mövcud olacaq vaxtı)",
+        "name": "İstifadəçi adı dəyişmə rezervasiyası",
+        "hint": "(istifadəçi adının yalnız orijinal sahibinə yox, hər kəs üçün mövcud olacağından əvvəlki müddət)",
         "text": "təxminən 15-30 dəqiqə"
       },
       "participants_for_group_stickers": {
-        "name": "Qrup stiketləri",
+        "name": "Qrup tanıtımlı stikerlər",
         "hint": "",
         "text": "100-dən çox iştirakçıları olan qruplar"
       },

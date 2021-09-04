@@ -4,7 +4,7 @@
     "items": {
       "username": {
         "name": "Nome de usuário",
-        "hint": "(p. ex. @cameraman)",
+        "hint": "(ex. @cameraman)",
         "text": "5 a 32 caracteres"
       },
       "bio": {
@@ -13,12 +13,12 @@
         "text": "até 70 caracteres"
       },
       "name_length": {
-        "name": "Tamanho do nome",
+        "name": "Tamanho do Nome",
         "hint": "",
         "text": "de 1 a 64 caracteres"
       },
       "last_name_length": {
-        "name": "Tamanho do sobrenome",
+        "name": "Tamanho do Sobrenome",
         "hint": "",
         "text": "de 0 a 64 caracteres"
       },

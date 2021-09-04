@@ -295,22 +295,22 @@
     }
   },
   "people_nearby": {
-    "name": "Yaxında olan insanlar",
+    "name": "Yaxınlıqdakı insanlar",
     "items": {
       "range": {
-        "name": "Görünürlük radiusu",
+        "name": "Görünmə aralığı",
         "hint": "",
         "text": "təxminən 12 kilometr"
       },
       "amount_of_people": {
-        "name": "Görünən istifadəçilərin sayı",
+        "name": "Görünən istifadəçi sayı",
         "hint": "",
         "text": "100 nəfərə qədər"
       },
       "geochats_number": {
-        "name": "Görünən mesajların sayı",
+        "name": "Görünən coğrafi söhbət sayı",
         "hint": "",
-        "text": "yaxın 10-a qədər"
+        "text": "ən yaxın 10 söhbətə qədər"
       }
     }
   },
@@ -318,87 +318,87 @@
     "name": "Botlar",
     "items": {
       "bots_amount": {
-        "name": "Botların sayı",
-        "hint": "(@BotFather vasitəsilə yaradılmışdır)",
-        "text": "20-a qədər"
+        "name": "Bot sayı",
+        "hint": "(@BotFather tərəfindən yaradıldı)",
+        "text": "20 elementə qədər"
       },
       "username length": {
-        "name": "İstifadəçi adının uzunluğu",
-        "hint": "bot üçün",
+        "name": "@istifadəçiadı uzunluğu",
+        "hint": "botlar üçün",
         "text": "5-32 arası simvol"
       },
       "info_length": {
-        "name": "Bot haqqında məlumat uzunluğu",
+        "name": "Bot məlumat uzunluğu",
         "hint": "(/setabouttext)",
         "text": "120 simvola qədər"
       },
       "description_length": {
-        "name": "Botun təsvir uzunluğu",
+        "name": "Bot açıqlama uzunluğu",
         "hint": "",
         "text": "512 simvola qədər"
       },
       "upload_limit_botapi": {
-        "name": "Bot tərəfindən göndərilən fayllar",
+        "name": "Fayl yükləmə limiti",
         "hint": "(BotAPI)",
-        "text": "50 MB qədər"
+        "text": "50 MB-a qədər"
       },
       "download_limit_botapi": {
-        "name": "Fayl yükləmək məhdudiyyəti",
+        "name": "Fay endirmə limiti",
         "hint": "(BotAPI)",
-        "text": "20 MB qədər"
+        "text": "20 MB-a qədər"
       },
       "forwarding": {
-        "name": "Mesajların yönləndirilməyi",
+        "name": "Mesaj yönləndirmə",
         "hint": "",
         "text": "saatda 2000-ə qədər"
       },
       "keys_in_keyboard_number": {
-        "name": "Düymələrinin sayı",
+        "name": "Klaviaturadakı düymə sayı",
         "hint": "",
         "text": "100-ə qədər"
       },
       "formatting_data": {
-        "name": "Mesajların formatlaşdırılma məlumatları",
+        "name": "Mesaj format etmə verilənləri",
         "hint": "",
-        "text": "10 KB qədər"
+        "text": "10 KB-a qədər"
       },
       "formatting_entities": {
-        "name": "Mesajların format olunması",
-        "hint": "(bold, italik və s.)",
+        "name": "Varlıqları format etmə",
+        "hint": "(qalın, meyilli və s.)",
         "text": "100-ə qədər"
       },
       "messaging_frequency": {
-        "name": "Mesajların tezliyi",
-        "hint": "(BotSupport vasitəsilə qaldırıla bilər)",
+        "name": "Mesaj tezliyi",
+        "hint": "(BotSupport tərəfindən artırıla bilər)",
         "text": "saniyədə 30 mesaja qədər; ictimai söhbətlər və kanallar üçün dəqiqədə 20 mesaja qədər"
       },
       "api_requests_frequency": {
-        "name": "API üçün sorğuların tezliyi",
-        "hint": "(BotSupport vasitəsilə qaldırıla bilər)",
-        "text": "saniyədə 30-a qədər"
+        "name": "API tələblərinin tezliyi",
+        "hint": "(BotSupport tərəfindən artırıla bilər)",
+        "text": "saniyədə 30 tələbə qədər"
       },
       "bot_commands_count": {
-        "name": "Komandaların sayı",
+        "name": "Əmr sayı",
         "hint": "(BotFather-də)",
-        "text": "100 komanda qədər"
+        "text": "0-100 əmr"
       },
       "bot_command_name_length": {
-        "name": "Komandanın uzunluğu",
+        "name": "Əmr uzunluğu",
         "hint": "(BotFather-də)",
         "text": "1-32 arası simvol"
       },
       "bot_command_description_length": {
-        "name": "Komandanın təsvir uzunluğu",
+        "name": "Əmr açıqlama uzunluğu",
         "hint": "",
-        "text": "Ən azı: BotFather-də 2 simvol, BotAPI-də 3 simvol; Ən yuxarı: 256 simvol hər ikisi"
+        "text": "minimum: BotFather-də 2 simvol, BotAPI-də 3 simvol; maksimum: hər ikisində 256 simvol"
       },
       "start_payload_size": {
-        "name": "/start üçün metadata uzunluğu",
+        "name": "Bot /start yüklə payload uzunluğu",
         "hint": "",
         "text": "64 simvola qədər"
       },
       "bot_alert_length": {
-        "name": "Bot xəbərdarlıq uzunluğu",
+        "name": "Bot xəbərdarlıq mesajının uzunluğu",
         "hint": "",
         "text": "200 simvola qədər"
       },

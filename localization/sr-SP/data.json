@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "Чланови",
         "hint": "(ограничење може да се повећа)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "до 200.000, неограничено у групама за емитовање"
       },
       "admins_number": {
         "name": "Број админа",
@@ -133,19 +133,19 @@
         "text": "групе са 100+ чланова"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "Дужина назива админа",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "до 16 знакова"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "Дужина назива групе",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "до 128 знакова"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "Претварање супергрупе у групу за емитовање",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "за групе преко 199.000 чланова"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "Гласовна ћаскања",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "Слушаоци гласовног ћаскања",
         "hint": "",
         "text": "неограничено"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "Емитовање видеа",
+        "hint": "(камера, дељење екрана)",
+        "text": "до 30 корисника који истовремено емитују"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "Гледаоци видео-емитовања",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "до 1000 учесника истовремено"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "Заказана гласовна ћаскања",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "до 7 дана унапред"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "канали са више од 1000 пратилаца могу бити избрисани само преко Telegram подршке"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "Преглед приватних канала без придруживања",
+        "hint": "(за канале који имају 200+ пратилаца)",
         "text": "до 5 минута дневно"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "Дужина описа команде",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "минимум: 2 знака у BotFather-у, 3 знака у Bot API--ју; максимум: 256 знакова укупно"
       },
       "start_payload_size": {
         "name": "Максимална почетна дужина испорученог текста бота",

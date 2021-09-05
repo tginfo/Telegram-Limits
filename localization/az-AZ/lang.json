@@ -1,14 +1,14 @@
 {
-    "title": "Telegram Limits — Teleqram Məhdudiyyətləri",
-    "description": "{%year%} ildə Telegramın limitləri. Mesajın uzunluğuna limiləri, dəstlərdə stikerlərin sayı, bot API-da mesajların tezliyi, iştirakçıların sayı, redaktə edilməsi, maksimum fayl ölçüsü və daha çox",
-    "description_short": "Teleqramın aktual limitləri",
-    "study": "| Tədqiqat",
+    "title": "Telegram Limits — Telegram Məlumatı",
+    "description": "{%year%} ilində hər zaman yenilənmiş Telegram limitləri. Mesaj uzunluğu, dəstlərdəki stiker sayı, Bot API-dəki mesaj tezliyi, iştirakçı sayı, düzəliş, maksimum fayl həcmi və daha çoxu ilə bağlı məhdudiyyətlər",
+    "description_short": "Hər zaman yenilənmiş Telegram limitləri",
+    "study": "| Çalışma",
     "big_title": "Telegram Limitləri",
     "article_name": "Niyə limitlər var",
-    "article_p1": "Hər hansı digər xidmət kimi, Telegram istifadəçilər vicdanlı istifadə siyasəti edin və xidmət əməliyyat dəstək təmin etmək üçün məhdudiyyətlər istifadə edir.",
-    "article_p2": "Bu cədvəl teleqramların hazırda məlum olan limitlərini siyahıya alır və yenilənir.",
+    "article_p1": "Digər bütün xidmətlər kimi, Telegram da, istifadəçilərin Ədalətli İstifadə Siyasətinə uymasını və xidmətin işləməsini təmin etmək üçün limitlər istifadə edir.",
+    "article_p2": "Bu cədvəl, hal-hazırda bilinən Telegram limitlərini siyahılayır və yenilənmiş saxlayır.",
     "loading": "Yüklənir...",
     "homepage": "Əsas səhifə",
     "language": "Dil",
-    "search": "Axtarış"
+    "search": "Axtar"
 }

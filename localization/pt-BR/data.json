@@ -3,8 +3,8 @@
     "name": "Contas",
     "items": {
       "username": {
-        "name": "Nome de usuário",
-        "hint": "(p. ex. @cameraman)",
+        "name": "Nome de Usuário",
+        "hint": "(ex. @cameraman)",
         "text": "5 a 32 caracteres"
       },
       "bio": {
@@ -13,18 +13,18 @@
         "text": "até 70 caracteres"
       },
       "name_length": {
-        "name": "Tamanho do nome",
+        "name": "Tamanho do Nome",
         "hint": "",
         "text": "de 1 a 64 caracteres"
       },
       "last_name_length": {
-        "name": "Tamanho do sobrenome",
+        "name": "Tamanho do Sobrenome",
         "hint": "",
         "text": "de 0 a 64 caracteres"
       },
       "self_destruction": {
         "name": "Tempo de autodestruição",
-        "hint": "sem atividade",
+        "hint": "se inativo",
         "text": "1, 3, 6 e 12 meses (6 por padrão)"
       },
       "spam_ban": {
@@ -34,8 +34,8 @@
       },
       "channels_and_chats_number": {
         "name": "Número de canais e supergrupos",
-        "hint": "você pode ser membro de",
-        "text": "até 500 (incluindo os que você é dono)"
+        "hint": "em que você pode juntar-se",
+        "text": "até 500 (além dos que você criou)"
       },
       "gifs_number": {
         "name": "Número de GIFs salvos",
@@ -63,12 +63,12 @@
     "name": "Chats e grupos",
     "items": {
       "participants_number": {
-        "name": "Membros",
-        "hint": "(o limite pode ser aumentado)",
+        "name": "Participantes",
+        "hint": "(o limite pode aumentar)",
         "text": "até 200000, mas ilimitado em grupos de transmissão"
       },
       "admins_number": {
-        "name": "Número de admins",
+        "name": "Número de administradores",
         "hint": "em grupos",
         "text": "até 50"
       },
@@ -78,7 +78,7 @@
         "text": "até 20"
       },
       "pinned_number": {
-        "name": "Chats fixados na tela inicial",
+        "name": "Chats fixados na lista principal",
         "hint": "",
         "text": "até 5 chats ou canais + 5 chats secretos"
       },
@@ -88,7 +88,7 @@
         "text": "até 255 caracteres"
       },
       "editing": {
-        "name": "Edição de mensagens",
+        "name": "Editar mensagem",
         "hint": "",
         "text": "em 48 horas após o envio; ilimitado em Mensagens Salvas e para admins com permissão de fixar"
       },
@@ -105,7 +105,7 @@
       "mentions_amount": {
         "name": "Número de menções",
         "hint": "em uma única mensagem",
-        "text": "até 50, senão as notificações não serão enviadas"
+        "text": "até 50, senão as notificações não se enviarão"
       },
       "visible_messages": {
         "name": "Número de mensagens visíveis",
@@ -118,14 +118,14 @@
         "text": "ilimitado"
       },
       "participants_to_see_stats": {
-        "name": "Número de membros para ver as estatísticas",
+        "name": "Número de participantes para ver as estatísticas",
         "hint": "",
         "text": "ao menos 500"
       },
       "username_reservation": {
-        "name": "Reserva de alteração de nome de usuário",
-        "hint": "(tempo antes do nome de usuário estar disponível para todos, não apenas para o dono original)",
-        "text": "cerca de 15-30 minutos"
+        "name": "Reserva de mudança de nome de usuário",
+        "hint": "(tempo antes do nome de usuário estar disponível a todos, não só ao dono original)",
+        "text": "entre 15-30 minutos"
       },
       "participants_for_group_stickers": {
         "name": "Stickers do grupo",

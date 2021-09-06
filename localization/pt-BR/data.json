@@ -13,12 +13,12 @@
         "text": "até 70 caracteres"
       },
       "name_length": {
-        "name": "Tamanho do Nome",
+        "name": "Tamanho do nome",
         "hint": "",
         "text": "de 1 a 64 caracteres"
       },
       "last_name_length": {
-        "name": "Tamanho do Sobrenome",
+        "name": "Tamanho do sobrenome",
         "hint": "",
         "text": "de 0 a 64 caracteres"
       },
@@ -133,7 +133,7 @@
         "text": "grupos com +100 participantes"
       },
       "chat_role_length": {
-        "name": "Tamanho do cargo de administrar",
+        "name": "Tamanho do cargo de administrador",
         "hint": "",
         "text": "até 16 caracteres"
       },
@@ -183,7 +183,7 @@
         "text": "até 10 (incluindo os grupos)"
       },
       "username_length": {
-        "name": "Tamanho de @usuario",
+        "name": "Tamanho do @nome",
         "hint": "",
         "text": "5 a 32 caracteres"
       },
@@ -323,7 +323,7 @@
         "text": "até 20 itens"
       },
       "username length": {
-        "name": "Tamanho de @usuario",
+        "name": "Tamanho do @nome",
         "hint": "para bots",
         "text": "5 a 32 caracteres"
       },
@@ -468,7 +468,7 @@
         "text": "30 ou 60"
       },
       "stickerpack_name_length": {
-        "name": "Comprimento do nome do pacote",
+        "name": "Tamanho do nome do pacote",
         "hint": "",
         "text": "até 64 caracteres"
       }

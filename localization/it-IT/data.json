@@ -99,13 +99,13 @@
       },
       "recent_actions": {
         "name": "Azioni recenti",
-        "hint": "(utenti nuovi, bannati, ecc.)",
-        "text": "ultime 48 ore"
+        "hint": "(iscrizioni, post, ecc.)",
+        "text": "ultimi due giorni"
       },
       "mentions_amount": {
-        "name": "Menzioni massime",
+        "name": "Numero di menzioni",
         "hint": "in un singolo messaggio",
-        "text": "fino a 50, per le altre non verrà inviata la notifica ai menzionati"
+        "text": "fino a 50, altre notifiche non saranno inviate"
       },
       "visible_messages": {
         "name": "Numero visibile di messaggi",

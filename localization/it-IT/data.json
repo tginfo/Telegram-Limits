@@ -28,13 +28,13 @@
         "text": "1, 3, 6 e 12 mesi (preimpostato a 6)"
       },
       "spam_ban": {
-        "name": "Limitazione",
+        "name": "Divieto di spam",
         "hint": "",
         "text": "Da 3 giorni in poi"
       },
       "channels_and_chats_number": {
         "name": "Numero di supergruppi e canali",
-        "hint": "di cui fai parte",
+        "hint": "puoi far parte di",
         "text": "fino a 500 (inclusi quelli creati da te)"
       },
       "gifs_number": {

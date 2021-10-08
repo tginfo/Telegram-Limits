@@ -168,32 +168,32 @@
         "text": "ஒரே நேரத்தில் 1,000 பங்கேற்பாளர்கள் வரை"
       },
       "voice_chat_schedule": {
-        "name": "நேரம் குறிக்கப்பட்ட அரட்டைகள்",
+        "name": "அரட்டைகளுக்கு நேரம் குறித்தல்",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "7 நாட்களுக்கு முன்னால்"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "பதிவுத்தடங்கள்",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "பொது பயனர்பெயர் எண்ணிக்கை",
+        "hint": "ஒரு கணக்கிற்கு",
+        "text": "10 வரை (குழுக்கள் உட்பட)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "@பயனர்பெயரின் நீளம்",
         "hint": "",
         "text": "5 முதல் 32 எழுத்துக்கள்"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "பதிவுத்தடத்தின் பெயர் மற்றும் விளக்கம்",
         "hint": "",
         "text": "255 எழுத்துக்கள் வரை"
       },
       "channel_admins": {
-        "name": "Channel admins number",
+        "name": "பதிவுத்தட நிர்வாகிகளின் எண்ணிக்கை",
         "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
         "text": "up to 50 accounts"
       },

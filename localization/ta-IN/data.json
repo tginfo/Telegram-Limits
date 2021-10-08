@@ -228,44 +228,44 @@
         "text": "200 பேர் வரை"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "புள்ளிவிவரங்களைக் காட்ட தேவையான நேயர்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "at least 50"
+        "text": "குறைந்தது 50"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "பயனர்பெயர் மாற்ற முன்பதிவு",
+        "hint": "(அசல் உரிமையாளருக்கு மட்டுமின்றி, அனைவருக்கும் பயனர்பெயர் கிடைக்கும் முன்)",
+        "text": "சுமார் 15-30 நிமிடங்கள்"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "தகவல்கள்",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "ஒரு தகவலின் நீளம்",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "4,096 எழுத்துக்கள் வரை"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "ஒலியொளிக் குறிப்பு",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "1,024 எழுத்துக்கள் வரை"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "கோப்பு அளவின் வரம்பு",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "2.0 ஜிபி வரை"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "காணொளித் தகவலின் கால வரையறை",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "1 நிமிடம் வரை"
       },
       "album_size": {
-        "name": "Images and videos in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "ஒரே தகவலில் படங்கள் மற்றும் வீடியோக்கள்",
+        "hint": "(படத்தொகுப்பு)",
+        "text": "10 உருப்படிகள் வரை"
       },
       "delayed_messages": {
         "name": "Scheduled messages number",

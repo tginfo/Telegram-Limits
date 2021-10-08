@@ -268,79 +268,79 @@
         "text": "10 உருப்படிகள் வரை"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "நேரம் குறித்த தகவல்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "100 உருப்படிகள் வரை"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "நேரம் குறித்தலின் வரம்பு",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "365 நாட்கள் வரை"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "கோப்புறைகள்",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "கோப்புறைகளின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "10 கோப்புறைகள் வரை"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "கோப்புறையில் செருகப்பட்ட அரட்டைகள்",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "100 அரட்டைகள் வரை"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "அருகிலுள்ளவர்கள்",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "தெரிவுநிலை வரம்பு",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "சுமார் 12 கிலோமீட்டர்"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "காணக்கூடிய பயனர்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "100 பேர் வரை"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "புலப்படும் இடம்சார்ந்த அரட்டைகளின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "நெருங்கிய 10 வரை"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "கூளிகள்",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "கூளிகளின் எண்ணிக்கை",
+        "hint": "(@BotFather ஆல் உருவாக்கப்பட்டது)",
+        "text": "20 உருப்படிகள் வரை"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "@பயனர்பெயரின் நீளம்",
+        "hint": "கூளிகளுக்கு",
+        "text": "5 முதல் 32 எழுத்துக்கள்"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "கூளி விவரத்தின் நீளம்",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "120 எழுத்துக்கள் வரை"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "கூளி விளக்கத்தின் நீளம்",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "512 எழுத்துக்கள் வரை"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
-        "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "name": "கோப்பு பதிவேற்றல் வரம்பு",
+        "hint": "(கூளிAPI)",
+        "text": "50 எம்பி வரை"
       },
       "download_limit_botapi": {
         "name": "File download limit",

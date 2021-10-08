@@ -210,22 +210,22 @@
       "visible_participants": {
         "name": "தெரியக்கூடிய நேயர்கள்",
         "hint": "பதிவுத்தட நிர்வாகிக்கு",
-        "text": "200 people"
+        "text": "200 நபர்கள்"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "பதிவுத்தட அழிப்பு",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "ஆயிரத்திற்கும் மேற்பட்ட நேயர்களைக் கொண்ட பதிவுத்தடங்களை டெலிகிராம் ஆதரவுடன் மட்டுமே அழிக்க முடியும்"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
-        "text": "up to 5 minutes once a day"
+        "name": "சேராமல் தனியார் பதிவுத்தடங்களைப் பார்ப்பது",
+        "hint": "(200+ நேயர்களைக் கொண்ட பதிவுத்தடங்களுக்கு)",
+        "text": "ஒரு நாளைக்கு 5 நிமிடங்கள் வரை"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "பயனர்களை வரச்செய்தல்",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "200 பேர் வரை"
       },
       "followers_to_see_stats": {
         "name": "Number of subscribers to see statistics",

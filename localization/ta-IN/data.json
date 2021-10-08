@@ -118,14 +118,14 @@
         "text": "வரம்பற்றது"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "புள்ளிவிவரங்களைக் காண தேவைப்படும் பங்கேற்பாளர்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "at least 500"
+        "text": "குறைந்தது 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "பயனர்பெயர் மாற்ற முன்பதிவு",
+        "hint": "(அசல் உரிமையாளருக்கு மட்டுமின்றி, அனைவருக்கும் பயனர்பெயர் கிடைக்கும் முன்)",
+        "text": "சுமார் 15-30 நிமிடங்கள்"
       },
       "participants_for_group_stickers": {
         "name": "Group-promoted stickers",

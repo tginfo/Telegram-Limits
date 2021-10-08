@@ -105,17 +105,17 @@
       "mentions_amount": {
         "name": "குறிப்பிடல்களின் எண்ணிக்கை",
         "hint": "ஒரே தகவலில்",
-        "text": "up to 50, else notifications won't be sent"
+        "text": "50 வரை, மற்ற அறிவிப்புகள் அனுப்பப்படாது"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "காணக்கூடிய தகவல்களின் எண்ணிக்கை",
+        "hint": "குழுக்களில்",
+        "text": "கடைசி 10,00,000 தகவல்கள்"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "செருகப்பட்ட தகவல்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "unlimited"
+        "text": "வரம்பற்றது"
       },
       "participants_to_see_stats": {
         "name": "Number of participants to see statistics",

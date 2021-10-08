@@ -128,47 +128,47 @@
         "text": "சுமார் 15-30 நிமிடங்கள்"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "குழு பரிந்துரைக்கும் ஒட்டுபடங்கள்",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "100+ பங்கேற்பாளர்கள் கொண்ட குழுக்கள்"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "நிர்வாகி பதவிப் பெயரின்யின் நீளம்",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "16 எழுத்துக்கள் வரை"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "அரட்டை தலைப்பின் நீளம்",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "128 எழுத்துக்கள் வரை"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "ஒரு சிறப்புக் குழுவை ஒளிபரப்புக் குழுவாக மாற்றுதல்",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "1,99,000+ உறுப்பினர்கள் உள்ள அரட்டை"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "குரலரட்டை",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "குரலரட்டை கவனிப்பவர்கள்",
         "hint": "",
-        "text": "unlimited"
+        "text": "வரம்பற்றது"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "காணொளி ஒளிபரப்பு",
+        "hint": "(படக்கருவி, திரை வார்ப்பு)",
+        "text": "ஒரே நேரத்தில் 30 ஒளிபரப்பு பயனர்கள் வரை"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "காணொளி ஒளிபரப்பு பார்வையாளர்கள்",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "ஒரே நேரத்தில் 1,000 பங்கேற்பாளர்கள் வரை"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "நேரம் குறிக்கப்பட்ட அரட்டைகள்",
         "hint": "",
         "text": "up to 7 days ahead"
       }
@@ -185,12 +185,12 @@
       "username_length": {
         "name": "Length of @username",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 முதல் 32 எழுத்துக்கள்"
       },
       "channel_name": {
         "name": "Channel name and description",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "255 எழுத்துக்கள் வரை"
       },
       "channel_admins": {
         "name": "Channel admins number",

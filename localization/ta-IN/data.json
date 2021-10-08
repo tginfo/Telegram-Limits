@@ -54,51 +54,51 @@
       },
       "accounts_number": {
         "name": "கணக்குகளின் எண்ணிக்கை",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "hint": "(அதிகாரப்பூர்வ செயலிகள்)",
+        "text": "3 வரை"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "அரட்டை மற்றும் குழுக்கள்",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "name": "பங்கேற்பாளர்கள்",
+        "hint": "(வரம்பை உயர்த்த முடியும்)",
+        "text": "2,00,000 வரை ஆனால் ஒளிபரப்புக் குழுக்களில் வரம்பற்றது"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "நிர்வாகிகளின் எண்ணிக்கை",
+        "hint": "குழுக்களில்",
+        "text": "50 வரை"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "கூளிகளின் எண்ணிக்கை",
+        "hint": "குழுக்களில்",
+        "text": "20 வரை"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "முக்கியப் பட்டியலில் செருகப்பட்ட அரட்டைகள்",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "5 அரட்டை அல்லது பதிவுத்தடங்கள் + 5 கமுக்க அரட்டைகள்"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "குழுவின் பெயர் மற்றும் விளக்கம்",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "255 எழுத்துக்கள் வரை"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "தகவல் திருத்தம்",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "அனுப்பிய 48 மணி நேரத்திற்குள்; சேமிக்கப்பட்டவையில் மற்றும் செருக உரிமையுள்ள நிர்வாகிகளுக்கு வரம்பற்றது"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "படம் மற்றும் காணொளி சுய-அழிவு",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 முதல் 60 வினாடிகள்"
       },
       "recent_actions": {
-        "name": "Recent actions",
+        "name": "அண்மைச் செயல்கள்",
         "hint": "(subscriptions, posts, etc.)",
         "text": "last two days"
       },

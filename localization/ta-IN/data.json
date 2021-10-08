@@ -99,12 +99,12 @@
       },
       "recent_actions": {
         "name": "அண்மைச் செயல்கள்",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "hint": "(நேயராவது, பதிவுகள், முதலியன)",
+        "text": "கடந்த இரண்டு நாட்கள்"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
+        "name": "குறிப்பிடல்களின் எண்ணிக்கை",
+        "hint": "ஒரே தகவலில்",
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {

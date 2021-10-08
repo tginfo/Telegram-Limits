@@ -343,39 +343,39 @@
         "text": "50 எம்பி வரை"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
-        "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "name": "கோப்பின் பதிவிறக்க வரம்பு",
+        "hint": "(கூளிAPI)",
+        "text": "20 எம்பி வரை"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "தகவல் பரிந்தனுப்பல்",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "ஒரு மணி நேரத்திற்கு 2,000 வரை"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "விசைப்பலகை பொத்தான்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "100 உருப்படிகள் வரை"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "தகவல் வடிவமைப்பு தரவு",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "10 கேபி வரை"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "வடிவமைத்தல் வகை",
+        "hint": "(பட்டை, சாய்ந்த போன்றவை)",
+        "text": "100 உருப்படிகள் வரை"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "அடுத்தடுத்த தகவல்கள்",
+        "hint": "(கூளி ஆதரவால் எழுப்ப முடியும்)",
+        "text": "வினாடிக்கு 30 தகவல்கள் வரை; பொது அரட்டைகள் மற்றும் பதிவுத்தடங்களுக்கு நிமிடத்திற்கு 20"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "அடுத்தடுத்த API வினவல்கள்",
+        "hint": "(கூளி ஆதரவால் எழுப்ப முடியும்)",
+        "text": "வினாடிக்கு 30 வினவல்கள் வரை"
       },
       "bot_commands_count": {
         "name": "Commands amount",

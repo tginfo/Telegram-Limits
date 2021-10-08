@@ -38,22 +38,22 @@
         "text": "500 வரை (உங்களுக்குச் சொந்தமானவை உட்பட)"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "அசைபட சேமிப்பு எண்ணிக்கை",
         "hint": "",
-        "text": "up to 200"
+        "text": "200 வரை"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "சுயக்குறிப்புக் காணொளி கால வரையறை",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "10 வினாடிகள் வரை"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "குழு மற்றும் பதிவுத்தட உருவாக்கம்",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "ஒரு நாளில் 50 வரை"
       },
       "accounts_number": {
-        "name": "Accounts number",
+        "name": "கணக்குகளின் எண்ணிக்கை",
         "hint": "(official clients)",
         "text": "up to 3"
       }

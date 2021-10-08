@@ -420,35 +420,35 @@
       "global_search": {
         "name": "உலகளாவிய தேடல் முடிவுகள்",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "10 உருப்படிகள் வரை; அண்ட்ராய்டில் 3 வரை"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "குறைந்தபட்ச வினவல் நீளம்",
+        "hint": "உலகளாவிய தேடலுக்கு",
+        "text": "குறைந்தபட்சம் 4 எழுதுங்கள்"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "ஒட்டுபடங்கள்",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "சேர்க்கப்பட்ட பொதிகளின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "200 உருப்படிகள் வரை"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "பிடித்த ஒட்டுபடங்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "5 உருப்படிகள் வரை"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "ஒரு பொதியிலுள்ள ஒட்டுபடங்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "நிலையானது 120 வரை, அசைவூட்டம் உள்ளது 50 வரை"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "ஒட்டுபட அளவு",
         "hint": "",
         "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },

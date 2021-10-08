@@ -378,47 +378,47 @@
         "text": "வினாடிக்கு 30 வினவல்கள் வரை"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "கட்டளைகளின் எண்ணிக்கை",
+        "hint": "(BotFather-இல்)",
+        "text": "0 முதல் 100 கட்டளைகள்"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "கட்டளை நீளம்",
+        "hint": "(BotFather-இல்)",
+        "text": "1 முதல் 32 எழுத்துக்கள்"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "கட்டளை விளக்கத்தின் நீளம்",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "குறைந்தபட்சம்: BotFather-இல் 2 எழுத்துகள், கூளி API-இல் 3 எழுத்துகள்; அதிகபட்சம்: இரண்டிலும் 256 எழுத்துகள்"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "கூளி /துவக்க அனுப்பலின் நீளம்",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 எழுத்துக்கள் வரை"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "கூளியின் எச்சரிக்கை தகவல் நீளம்",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "200 எழுத்துக்கள் வரை"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "பயனர்பெயர் தீர்வு வரம்பு",
+        "hint": "(கூளிகள் மற்றும் பயனர் கணக்குகள் இரண்டிற்கும்)",
+        "text": "தினமும் 200 பயனர்பெயர்கள் வரை"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "உள்ளக தேடல் முடிவு எண்ணிக்கை",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "50 உருப்படிகள் வரை"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "தேடல்",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "உலகளாவிய தேடல் முடிவுகள்",
         "hint": "",
         "text": "up to 10 items; up to 3 for Android"
       },

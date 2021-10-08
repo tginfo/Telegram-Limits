@@ -340,12 +340,12 @@
       "upload_limit_botapi": {
         "name": "கோப்பு பதிவேற்றல் வரம்பு",
         "hint": "(கூளிAPI)",
-        "text": "50 எம்பி வரை"
+        "text": "50 MB வரை"
       },
       "download_limit_botapi": {
         "name": "கோப்பின் பதிவிறக்க வரம்பு",
         "hint": "(கூளிAPI)",
-        "text": "20 எம்பி வரை"
+        "text": "20 MB வரை"
       },
       "forwarding": {
         "name": "தகவல் பரிந்தனுப்பல்",
@@ -468,34 +468,34 @@
         "text": "30 அல்லது 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "பொதியின் பெயர் நீளம்",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "64 எழுத்துக்கள் வரை"
       }
     }
   },
   "telegraph": {
-    "name": "Telegraph",
+    "name": "டெலிகிராப்",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "கணக்குகளின் எண்ணிக்கை",
+        "hint": "@டெலிகிராப் கூளியில்",
+        "text": "5 உருப்படிகள் வரை"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "கட்டுரையின் அளவு",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "64 KiB வரை"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "மற்றவை",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "சுயக்குறிப்புக் காணொளி பண்புகள்",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, 2 MB வரை"
       }
     }
   }

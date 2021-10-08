@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "المشاركين",
         "hint": "(يمكن رفع الحد المسموح به)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "ما يصل إلى 200000 ولكن غير محدود في مجموعات البث"
       },
       "admins_number": {
         "name": "عدد المشرفين",
@@ -133,19 +133,19 @@
         "text": "المجموعات التي تضم 100+ عضو"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "طول دور المسؤول",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "ما يصل إلى 16 حرفًا"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "طول عنوان الدردشة",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "ما يصل إلى 128 حرفًا"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "تحويل مجموعة كبيرة إلى مجموعة بث",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "للدردشة مع 199,000+ عضو"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "محادثة صوتية",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "مستمعو الدردشة الصوتية",
         "hint": "",
         "text": "غير محدود"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "بث الفيديو",
+        "hint": "(الكاميرا، مشاركة الشاشة)",
+        "text": "ما يصل إلى 30 مستخدمًا يبث في وقت واحد"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "مشاهدي بث الفيديو",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "ما يصل إلى 1000 مشارك في نفس الوقت"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "الدردشات المجدولة",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "ما يصل إلى 7 أيام"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "لا يمكن حذف القنوات التي تضم أكثر من ألف مشترك إلا بدعم تيليجرام"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "مشاهدة القنوات الخاصة دون الانضمام",
+        "hint": "(بالنسبة للقنوات التي تضم 200+ مشتركين)",
         "text": "المدة القصوى ٥ دقائق مرة كل يوم"
       },
       "invintations": {

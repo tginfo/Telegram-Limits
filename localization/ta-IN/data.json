@@ -194,22 +194,22 @@
       },
       "channel_admins": {
         "name": "பதிவுத்தட நிர்வாகிகளின் எண்ணிக்கை",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "hint": "(கூளிகள் உட்பட; கூளியை ஒரு நிர்வாகியாக மாற்றுவதன் மூலம் மட்டுமே அதை உங்கள் பதிவுத்தடத்தில் சேர்க்க முடியும்)",
+        "text": "50 கணக்குகள் வரை"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "பதிவிட்டதின் திருத்தம்",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "வரம்பற்றது (பதிவுத்தடத்தில் ஒரு விவாதக் குழு இணைக்கப்பட்டிருந்தால், 2 வாரங்களுக்கும் மேலான பதிவுகள் அரட்டையில் திருத்தப்படாது)"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "பதிவுத்தட நேயர்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "unlimited"
+        "text": "வரம்பற்றது"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
+        "name": "தெரியக்கூடிய நேயர்கள்",
+        "hint": "பதிவுத்தட நிர்வாகிக்கு",
         "text": "200 people"
       },
       "channel_deletion": {

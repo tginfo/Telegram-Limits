@@ -450,22 +450,22 @@
       "sticker_size": {
         "name": "ஒட்டுபட அளவு",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "ஒரு பக்கம் 512 புள்ளிகளும், மற்றொரு பக்கம் 512 புள்ளிகள் அல்லது அதற்கும் குறைவானது; அசைவூட்டத்திற்கு கண்டிப்பாக 512x512 வேண்டும்"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "அசைவூட்ட கால வரையறை",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "3 வினாடிகள் வரை"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "ஒட்டுபடக் கோப்பின் அளவு",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "நிலையானது 512 கேபி வரை, அசைவூட்டம் உள்ளது 64 கேபி வரை"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 அல்லது 60"
       },
       "stickerpack_name_length": {
         "name": "Pack name length",

@@ -1,14 +1,14 @@
 {
-    "title": "Telegram Limits — Telegram Info",
-    "description": "Always up-to-date Telegram limits in {%year%}. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
-    "description_short": "Always up-to-date Telegram limits",
-    "study": "| Study",
-    "big_title": "Telegram Limits",
-    "article_name": "Why limitations exist",
-    "article_p1": "Just like any other service, Telegram uses limits to ensure that users follow Fair Usage Policy and to keep the service running.",
-    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
-    "loading": "Loading...",
-    "homepage": "Homepage",
-    "language": "Language",
-    "search": "Search"
+    "title": "Telegram 的限制",
+    "description": "為你提供 {%year%} 年最新嘅 Telegram 限制資訊！由訊息長度、貼圖數量上限，去到群組人數上限、編輯時限、檔案大小上限等等，都可以喺度搵到！",
+    "description_short": "為你提供最新嘅 Telegram 限制資訊",
+    "study": "| 研究項目",
+    "big_title": "Telegram 的限制",
+    "article_name": "點解？",
+    "article_p1": "有如其他網上服務一樣，Telegram 利用特定限制來確保服務的質素以及穩定性，並喺公平使用原則底下為大家提供免費嘅服務。",
+    "article_p2": "以下內容係目前已知嘅 Telegram 使用限制；而我地將會持續更新，緊貼 Telegram 最新嘅開發進度！",
+    "loading": "幫緊你幫緊你...",
+    "homepage": "首頁",
+    "language": "語言",
+    "search": "搜尋"
 }

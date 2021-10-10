@@ -340,51 +340,51 @@
       "upload_limit_botapi": {
         "name": "檔案上傳限制",
         "hint": "（只適用於 Bot API 傳輸協定）",
-        "text": "最大約 50 MB （大概為 48 MiB）"
+        "text": "最大約 50 MB"
       },
       "download_limit_botapi": {
         "name": "檔案下載限制",
         "hint": "（只適用於 Bot API 傳輸協定）",
-        "text": "最大約 20MB （大概為 19 MiB）"
+        "text": "最大約 20MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "每小時訊息轉發量",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "最多 2,000 條"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "功能按鈕數量",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "最多 100 粒"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "格式化文字大小",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "最大約 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "可以格式化的字詞數量",
+        "hint": "（例如粗體、斜體、超連結等等）",
+        "text": "最多 100 個"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "訊息發送間距",
+        "hint": "（可以由 @BotSupport 酌情提升）",
+        "text": "每秒 30 個訊息（大型群組以及頻道的話，則為每分鐘 20 個訊息）"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "API 使用頻率",
+        "hint": "（可以由 @BotSupport 酌情提升）",
+        "text": "每秒 30 個動作"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
+        "name": "可以顯示嘅指令數量",
+        "hint": "（只計算在 @BotFather 內設定的數目）",
         "text": "0 to 100 commands"
       },
       "bot_command_name_length": {
         "name": "Command length",
-        "hint": "(in BotFather)",
+        "hint": "（只計算在 @BotFather 內設定的指令）",
         "text": "from 1 to 32 characters"
       },
       "bot_command_description_length": {

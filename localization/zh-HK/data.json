@@ -138,7 +138,7 @@
         "text": "最多 16 個字"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "標題長度",
         "hint": "",
         "text": "最多 128 個字"
       },
@@ -458,19 +458,19 @@
         "text": "最多 3 秒"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "貼圖檔案大小",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "靜態貼圖最多 512 KB，動態貼圖最多 64 KB"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "必須為 30 或 60 格（建議使用 60fps）"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "貼圖包名稱",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "最多 64 個字"
       }
     }
   },
@@ -478,24 +478,24 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "可以同時管理的帳戶數目",
+        "hint": "（在 @telegraph bot 裡面的設定）",
+        "text": "最多 5 個"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "文章大小",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "最大約 64 KiB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "其他限制",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "動態大頭貼",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "必須為 800 x 800 px，檔案必須小於 2 MB"
       }
     }
   }

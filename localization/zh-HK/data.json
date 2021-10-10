@@ -78,32 +78,32 @@
         "text": "最多 20 個"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "可以在首頁置頂的對話數量",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "最多 5 個對話及頻道，以及 5 個加密對話"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "群組名稱及簡介",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "最多 255 個字"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "訊息編輯時限",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "一般為 48 小時（被置頂的訊息或擁有置頂權限嘅管理員，則不受此限）"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "限時圖片及影片",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 至 60 秒"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "最近操作",
+        "hint": "（包括加入或退出嘅成員、訊息編輯、權限變動等）",
+        "text": "過去 48 小時"
       },
       "mentions_amount": {
-        "name": "Mentions number",
+        "name": "一個訊息內可以提及的使用者數目",
         "hint": "in a single message",
         "text": "up to 50, else notifications won't be sent"
       },

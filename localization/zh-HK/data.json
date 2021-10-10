@@ -159,43 +159,43 @@
       },
       "video_chat_broadcast": {
         "name": "同時直播影像的成員數目",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "hint": "（包括相機鏡頭、螢幕分享，每個影像計算為一個分享數目）",
+        "text": "最多 30 條影像同時直播"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "直播影像觀看人數",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "最多 1000 人同時收睇"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "預定訊息",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "最多提早 7 日"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "頻道",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "可以開立的頻道數目",
+        "hint": "（以單一使用者帳戶計算）",
+        "text": "最多 10 個（包括群組對話）"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "頻道的「@使用者名稱」長度",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 至 32 個英數字符（符號只限底線）"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "頻道名稱和簡介",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "最多 255 個字"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "頻道管理員數目",
+        "hint": "（包括 Bot 的數量）",
+        "text": "最多 50 個"
       },
       "editing": {
         "name": "Posts editing",

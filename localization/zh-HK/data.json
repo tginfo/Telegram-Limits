@@ -104,61 +104,61 @@
       },
       "mentions_amount": {
         "name": "一個訊息內可以提及的使用者數目",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "hint": "（不論對話有否被靜音，被提及的使用者都會收到通知）",
+        "text": "最多 50 人（再多就全部人都唔會收到通知）"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "可以讀取嘅群組訊息數量",
+        "hint": "（不論時間遠近，只計算訊息數量）",
+        "text": "最新嘅 100 萬條訊息"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "可以置頂嘅訊息數量",
         "hint": "",
-        "text": "unlimited"
+        "text": "無數量上限"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "查看群組統計資訊嘅門檻",
         "hint": "",
-        "text": "at least 500"
+        "text": "最少 500 個成員"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "使用者名稱保留時長",
+        "hint": "（改名之後可以保留幾耐，先會釋放俾其他人登記使用）",
+        "text": "大約 15 至 30 分鐘"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "設定群組貼圖包嘅門檻",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "最少 100 個成員"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "管理員身份名稱",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "最多 16 個字"
       },
       "chat_title_length": {
         "name": "Chat title length",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "最多 128 個字"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "將大型群組轉換為廣播群組的門檻",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "最少 199,000 個成員"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "語音通話",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "收聽成員數量",
         "hint": "",
-        "text": "unlimited"
+        "text": "無數量上限"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
+        "name": "同時直播影像的成員數目",
         "hint": "(camera, screen casting)",
         "text": "up to 30 broadcasting users simultaneously"
       },

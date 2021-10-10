@@ -4,7 +4,7 @@
     "items": {
       "username": {
         "name": "පරිශීලක නාමය",
-        "hint": "(උදා. @thisu)",
+        "hint": "(උදා. @තිසර)",
         "text": "අක්ෂර 5 සිට 32 ක් දක්වා"
       },
       "bio": {
@@ -63,7 +63,7 @@
     "name": "සංවාද හා සමූහ",
     "items": {
       "participants_number": {
-        "name": "සාමාජිකයින්",
+        "name": "සහභාගීවන්නන්",
         "hint": "(සීමාව වැඩිකළ හැකියි)",
         "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
@@ -135,12 +135,12 @@
       "chat_role_length": {
         "name": "Admin role length",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "අකුරු 16 ක් දක්වා"
       },
       "chat_title_length": {
         "name": "Chat title length",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "අකුරු 128 ක් දක්වා"
       },
       "broadcast_group_access": {
         "name": "Converting a supergroup to broadcast group",
@@ -155,7 +155,7 @@
       "voice_chat_participants": {
         "name": "Audio Chat listeners",
         "hint": "",
-        "text": "unlimited"
+        "text": "අසීමිත"
       },
       "video_chat_broadcast": {
         "name": "Broadcasting video",
@@ -404,7 +404,7 @@
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
+        "hint": "(පරිශීලක ගිණුම් සහ ස්වයංක්‍රමලේඛ සඳහා)",
         "text": "දිනකට පරිශීලක නාම 200ක් දක්වා"
       },
       "inline_max_items": {

@@ -300,17 +300,17 @@
       "range": {
         "name": "掃瞄範圍",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "大約 12 公里（以旺角朗豪坊為中心，距離大約由中文大學去到榕樹灣碼頭）"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "可以見到嘅使用者數目",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "最多 100 個"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "可以見到嘅鄰里群組",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "最近嗰 10 個"
       }
     }
   },
@@ -318,34 +318,34 @@
     "name": "Bots",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "可以建立嘅 Bot 數目",
+        "hint": "（以單一使用者帳戶計算）",
+        "text": "最多 20 隻"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "Bot 的「@使用者名稱」長度",
+        "hint": " ",
+        "text": "5 至 32 個英數字符（符號只限底線）"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "自我簡介",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "最多 120 個字"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Bot 嘅描述",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "最多 512 個字"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
-        "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "name": "檔案上傳限制",
+        "hint": "（只適用於 Bot API 傳輸協定）",
+        "text": "最大約 50 MB （大概為 48 MiB）"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
-        "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "name": "檔案下載限制",
+        "hint": "（只適用於 Bot API 傳輸協定）",
+        "text": "最大約 20MB （大概為 19 MiB）"
       },
       "forwarding": {
         "name": "Message forwarding",

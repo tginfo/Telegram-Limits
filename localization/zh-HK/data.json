@@ -1,19 +1,19 @@
 {
   "accounts": {
-    "name": "Accounts",
+    "name": "個人帳戶",
     "items": {
       "username": {
-        "name": "Username",
-        "hint": "(e.g. @cameraman)",
-        "text": "5 to 32 characters"
+        "name": "使用者名稱",
+        "hint": "(例如： @hkersaddoil)",
+        "text": "5 至 32 個英數字符（符號只限底線）"
       },
       "bio": {
-        "name": "Bio",
+        "name": "個人簡介",
         "hint": "",
-        "text": "up to 70 characters"
+        "text": "最多 70 個字"
       },
       "name_length": {
-        "name": "First Name length",
+        "name": "使用者本名",
         "hint": "",
         "text": "from 1 to 64 characters"
       },

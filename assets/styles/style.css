@@ -165,6 +165,7 @@ header .header-box>.title>.name {
     font-size: 3em;
     line-height: 1;
     margin-bottom: .8em;
+    word-break: break-word;
 }
 
 header .header-box>.explanator {

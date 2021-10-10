@@ -198,73 +198,73 @@
         "text": "最多 50 個"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "訊息編輯時限",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "無限制（但如果頻道有連結到一個群組對話，則超過兩星期的訊息在編輯後，不會被同步更新）"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "頻道訂閱人數",
         "hint": "",
-        "text": "unlimited"
+        "text": "無數量上限"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "頻道訂閱成員清單",
+        "hint": "（只限俾管理員睇）",
+        "text": "最多只可以睇到 200 人"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "刪除頻道的門檻",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "多於 1000 個訂閱人數的頻道，只能夠由 Telegram 刪除"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
-        "text": "up to 5 minutes once a day"
+        "name": "在不加入非公開頻道的情況下閱讀內容",
+        "hint": "（門檻為頻道需要有最少 200 個訂閱人數）",
+        "text": "每日只可以睇 5 分鐘"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "邀請數目",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "最多 200 人"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "查看頻道統計資訊嘅門檻",
         "hint": "",
-        "text": "at least 50"
+        "text": "最少 50 個訂閱人數"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "頻道「@使用者名稱」嘅保留時長",
+        "hint": "（改名之後可以保留幾耐，先會釋放俾其他人登記使用）",
+        "text": "大約 15 至 30 分鐘"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "訊息",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "字數上限",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "最多 4,096 個字"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "附件描述",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "最多 1,024 個字"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "檔案大小",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "最大約 1.95 GiB （即 2000 MiB）"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "視像訊息長度",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "最多 60 秒"
       },
       "album_size": {
-        "name": "Images and videos in single message",
-        "hint": "(album)",
+        "name": "每個訊息可以容納嘅圖片及影片",
+        "hint": "（需要以相簿形式寄出）",
         "text": "up to 10 items"
       },
       "delayed_messages": {

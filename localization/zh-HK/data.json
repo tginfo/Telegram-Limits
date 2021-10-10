@@ -379,83 +379,83 @@
       },
       "bot_commands_count": {
         "name": "可以顯示嘅指令數量",
-        "hint": "（只計算在 @BotFather 內設定的數目）",
-        "text": "0 to 100 commands"
+        "hint": "（只計算在 @BotFather 內設定的指令）",
+        "text": "0 至 100 個指令"
       },
       "bot_command_name_length": {
-        "name": "Command length",
+        "name": "指令字數",
         "hint": "（只計算在 @BotFather 內設定的指令）",
-        "text": "from 1 to 32 characters"
+        "text": "1 至 32 個字符"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "指令嘅描述",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "@BotFather：最少兩個字符 / Bot API：最少三個字符 （最多 256 個字符）"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "「/start」指令的額外資料",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "最多 64 個字符"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "彈出式訊息字數",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "最多 200 個字"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "「@使用者名稱」的解析上限",
+        "hint": "（例如其他 Bot、使用者帳戶等等）",
+        "text": "每日最多 200 個"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "指令動作嘅提示數目",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "最多 50 個"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "搜尋",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "全域搜尋結果",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "最多 10 項結果（Android 應用程式只能顯示 3 個結果）"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "關鍵字長度",
+        "hint": "（只限全域搜尋）",
+        "text": "最少 4 個字"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "貼圖",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "可以訂閱嘅貼圖包數目",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "最多 200 包"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "我的最愛貼圖包",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "最多 5 包"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "每個貼圖包嘅貼圖數目",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "靜態貼圖最多 120 張，動態貼圖最多 50 張"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "貼圖尺寸",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "靜態貼圖最少一條邊長 512 px，動態貼圖必須為 512 x 512 px"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "動態貼圖影格",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "最多 3 秒"
       },
       "file_size": {
         "name": "Sticker file size",

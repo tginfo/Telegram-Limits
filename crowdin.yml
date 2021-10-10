@@ -1,5 +1,3 @@
 files:
   - source: /localization/en/*.json
     translation: /localization/%locale%/%original_file_name%
-  - source: /assets/images/previews/en/*.png
-    translation: /assets/images/previews/%locale%/%original_file_name%

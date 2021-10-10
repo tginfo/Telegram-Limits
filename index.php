@@ -66,14 +66,14 @@ $markup = [
     <meta property="og:url" content="<?= $_SERVER['REQUEST_URI'] ?>">
     <meta property="og:title" content="<?= __("title", UCOMP) ?>" data-lang="title">
     <meta property="og:description" content="<?= __("description_short", UCOMP) ?>" data-lang="description_short">
-    <meta property="og:image" content="<?= BASE ?>/assets/images/previews/<?= $lang ?>/preview.png" data-lang="preview">
+    <meta property="og:image" content="<?= BASE ?>/assets/images/previews/en/preview.png" data-lang="preview">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="<?= $_SERVER['REQUEST_URI'] ?>">
     <meta property="twitter:title" content="<?= __("title", UCOMP) ?>" data-lang="title">
     <meta property="twitter:description" content="<?= __("description_short", UCOMP) ?>" data-lang="description_short">
-    <meta property="twitter:image" content="<?= BASE ?>/assets/images/previews/<?= $lang ?>/twitter.png" data-lang="preview_twitter">
+    <meta property="twitter:image" content="<?= BASE ?>/assets/images/previews/en/twitter.png" data-lang="preview_twitter">
     
     <link rel="canonical" href="<?= BASE ?>/<?= $lang ?>" />
     <link rel="alternate" href="<?= BASE ?>/" hreflang="x-default" />

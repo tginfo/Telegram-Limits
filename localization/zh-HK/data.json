@@ -265,40 +265,40 @@
       "album_size": {
         "name": "每個訊息可以容納嘅圖片及影片",
         "hint": "（需要以相簿形式寄出）",
-        "text": "up to 10 items"
+        "text": "最多 10 個"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "可以預定嘅訊息數量",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "最多 100 個"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "預定時長",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "最多 365 日"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "資料夾",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "資料夾數量",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "最多 10 個"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "可以置頂的對話數量",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "最多 100 個"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "附近嘅人",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "掃瞄範圍",
         "hint": "",
         "text": "about 12 kilometers"
       },

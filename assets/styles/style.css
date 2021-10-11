@@ -181,6 +181,11 @@ header .header-box>.explanator>.title {
     display: flex;
     font-size: 2em;
     font-weight: 500;
+    flex: 1 0;
+}
+
+header .header-box>.explanator>.content {
+    flex: 3 0;
 }
 
 header .header-box>.explanator>.content>p {

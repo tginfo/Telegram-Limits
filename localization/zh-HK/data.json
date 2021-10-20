@@ -4,7 +4,7 @@
     "items": {
       "username": {
         "name": "使用者名稱",
-        "hint": "(例如： @hkersaddoil)",
+        "hint": "（例如：@hkersaddoil）",
         "text": "5 至 32 個英數字符（符號只限底線）"
       },
       "bio": {

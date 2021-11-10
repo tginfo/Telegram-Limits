@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "طول وصف الأمر",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "الحد الأدنى: رمزان في BotFather، 3 رموز في Bot API؛ الحد الأقصى: 256 حرفًا في كليهما"
       },
       "start_payload_size": {
         "name": "طول حمولة /start للبوت",

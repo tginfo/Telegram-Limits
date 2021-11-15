@@ -65,7 +65,7 @@
       "participants_number": {
         "name": "شرکت‌کنندگان",
         "hint": "(محدودیت می‌تواند افزایش پیدا کند)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "تا ۲۰۰۰۰۰؛ اما در گروه‌های پخش نامحدود"
       },
       "admins_number": {
         "name": "تعداد مدیران",
@@ -133,19 +133,19 @@
         "text": "گروه با 100+ عضو"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "طول نقش مدیر",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "تا ۱۶ نویسه"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "طول عنوان گفتگو",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "تا ۱۲۸ کارکتر"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "تبدیل یک ابرگروه به گروه پخش",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "برای گفتگوهای +۱۹۹۰۰۰ کاربره"
       }
     }
   },
@@ -153,24 +153,24 @@
     "name": "گفتگوی صوتی",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "شنوندگان گفتگو صوتی",
         "hint": "",
         "text": "نامحدود"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "پخش همگانی ویدئو",
+        "hint": "(دوربین، نمایش صفحه)",
+        "text": "تا ۳۰ کاربر پخش‌کننده بصورت همزمان"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "مشاهده‌کنندگان پخش همگانی ویدئو",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "تا ۱۰۰۰ شرکت‌کننده بصورت همزمان"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "گفتگوهای زمان‌بندی‌شده",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "تا ۷ روز پس از آن"
       }
     }
   },
@@ -218,8 +218,8 @@
         "text": "کانال‌هایی با بیش از 1K دنبال کننده فقط می‌توانند بوسیله پشتیبانی تلگرام حذف شوند"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
+        "name": "مشاهده‌ کانال‌های خصوصی بدون پیوستن به آنان",
+        "hint": "(برای کانال‌های با +۲۰۰ مخاطب)",
         "text": "تا 5 دقیقه در هر روز"
       },
       "invintations": {
@@ -390,7 +390,7 @@
       "bot_command_description_length": {
         "name": "طول توضیحات دستور",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "حداقل: ۲ کارکتر در BotFather، ۳ کارکتر در Bot API؛ حداکثر: ۲۵۶ کارکتر در هر دو"
       },
       "start_payload_size": {
         "name": "طول متادیتای /start ربات",

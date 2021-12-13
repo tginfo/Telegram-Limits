@@ -37,6 +37,11 @@
         "hint": "நீங்கள் உறுப்பினராக இருக்க முடிவது",
         "text": "500 வரை (உங்களுக்குச் சொந்தமானவை உட்பட)"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "அசைபட சேமிப்பு எண்ணிக்கை",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "ஒரு சிறப்புக் குழுவை ஒளிபரப்புக் குழுவாக மாற்றுதல்",
         "hint": "",
         "text": "1,99,000+ உறுப்பினர்கள் உள்ள அரட்டையில்"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "குரலரட்டை",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "குரலரட்டை கவனிப்பவர்கள்",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "காணொளி ஒளிபரப்பு பார்வையாளர்கள்",
         "hint": "",
-        "text": "ஒரே நேரத்தில் 1,000 பங்கேற்பாளர்கள் வரை"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "அரட்டைகளுக்கு நேரம் குறித்தல்",
@@ -256,6 +271,11 @@
         "name": "கோப்பு அளவின் வரம்பு",
         "hint": "",
         "text": "2.0 ஜிபி வரை"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "காணொளித் தகவலின் கால வரையறை",
@@ -471,6 +491,11 @@
         "name": "பொதியின் பெயர் நீளம்",
         "hint": "",
         "text": "64 எழுத்துகள் வரை"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

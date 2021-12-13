@@ -37,6 +37,11 @@
         "hint": "頻道與群組數量",
         "text": "500 個（包含自己建立的）"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "保存 GIF 數量",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "Converting a supergroup to broadcast group",
         "hint": "",
         "text": "for chats with 199,000+ members"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice Chats",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "Audio Chat listeners",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Video broadcast viewers",
         "hint": "",
-        "text": "up to 1,000 participants at the same time"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "Scheduled chats",
@@ -256,6 +271,11 @@
         "name": "File size limit",
         "hint": "",
         "text": "up to 2.0 GB"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "Video message duration",
@@ -471,6 +491,11 @@
         "name": "Pack name length",
         "hint": "",
         "text": "up to 64 characters"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

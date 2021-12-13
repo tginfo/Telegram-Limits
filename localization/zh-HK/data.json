@@ -37,6 +37,11 @@
         "hint": "（即 channel 以及連同 Bot 在內，超過 49 人的群組）",
         "text": "最多 500 個（包括你管理、創立嘅 channel 及大型群組）"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "可以儲存的 GIF 圖數目",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "將大型群組轉換為廣播群組的門檻",
         "hint": "",
         "text": "最少 199,000 個成員"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "語音通話",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "收聽成員數量",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "直播影像觀看人數",
         "hint": "",
-        "text": "最多 1000 人同時收睇"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "預定訊息",
@@ -256,6 +271,11 @@
         "name": "檔案大小",
         "hint": "",
         "text": "最大約 1.95 GiB （即 2000 MiB）"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "視像訊息長度",
@@ -471,6 +491,11 @@
         "name": "貼圖包名稱",
         "hint": "",
         "text": "最多 64 個字"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

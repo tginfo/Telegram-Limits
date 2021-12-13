@@ -38,9 +38,9 @@
         "text": "do 500 (w tym stworzone przez ciebie)"
       },
       "geochats_number": {
-        "name": "Liczba geoczatów",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Liczba geoczatów,",
+        "hint": "w których możesz być członkiem",
+        "text": "do 5 (w tym te stworzone przez Ciebie)"
       },
       "gifs_number": {
         "name": "Liczba zapisanych GIF-ów",
@@ -273,9 +273,9 @@
         "text": "do 2 GB"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Długość nazwy pliku",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "do 60 znaków, pozostałe zostaną usunięte"
       },
       "video_message_duration": {
         "name": "Czas trwania wiadomości wideo",
@@ -493,9 +493,9 @@
         "text": "do 64 znaków"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "Długość adresu URL /addstickers dla pakietu naklejek",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "do 62 znaków"
       }
     }
   },

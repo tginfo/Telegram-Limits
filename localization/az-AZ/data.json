@@ -38,9 +38,9 @@
         "text": "500-ə qədər (özünüzünkülər daxil olmaqla)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Geosöhbətlərin sayı",
+        "hint": "üzv ola bilərsiniz",
+        "text": "5-ə qədər (özünü daxil olmaqla)"
       },
       "gifs_number": {
         "name": "Saxlanılmış GIF sayı",
@@ -165,7 +165,7 @@
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Səs & Video söhbətlər",
     "items": {
       "voice_chat_participants": {
         "name": "Səsli söhbət dinləyiciləri",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Video yayıma baxanlar",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "rəsmi olaraq bəyan edilib ki, o, məhdudiyyətsizdir, praktikada axın təxminən 2000 eyni vaxtda tamaşaçılarda qeyri-sabit olur"
       },
       "voice_chat_schedule": {
         "name": "Planlaşdırılan söhbətlər",
@@ -273,9 +273,9 @@
         "text": "2.0 GB-a qədər"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Fayl adı uzunluğu",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "60 simvol qədər, artıq sünnət olunacaq"
       },
       "video_message_duration": {
         "name": "Video mesajın müddəti",
@@ -493,9 +493,9 @@
         "text": "64 simvola qədər"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "/addstickers stickerpack uzunluğu",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "62 simvola qədər"
       }
     }
   },

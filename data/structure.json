@@ -33,6 +33,10 @@
                 "icon": "groups"
             },
             {
+                "id": "geochats_number",
+                "icon": "person_pin_circle"
+            },
+            {
                 "id": "gifs_number",
                 "icon": "gif"
             },
@@ -122,6 +126,14 @@
             {
                 "id": "broadcast_group_access",
                 "icon": "lock_open"
+            },
+            {
+                "id": "read_receipts_lifetime",
+                "icon": "mark_chat_read"
+            },
+            {
+                "id": "read_receipts_availability",
+                "icon": "schedule_send"
             }
         ]
     },
@@ -223,6 +235,10 @@
             {
                 "id": "upload_size",
                 "icon": "cloud_upload"
+            },
+            {
+                "id": "file_name_length",
+                "icon": "source"
             },
             {
                 "id": "video_message_duration",
@@ -407,6 +423,10 @@
             {
                 "id": "stickerpack_name_length",
                 "icon": "text_rotation_none"
+            },
+            {
+                "id": "stickerpack_url_length",
+                "icon": "link"
             }
         ]
     },

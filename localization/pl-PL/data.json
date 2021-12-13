@@ -37,6 +37,11 @@
         "hint": ", do których możesz należeć",
         "text": "do 500 (w tym stworzone przez ciebie)"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "Liczba zapisanych GIF-ów",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "Konwertowanie supergrupy do grupy rozgłoszeniowej",
         "hint": "",
         "text": "dla czatów z ponad 199 000 członków"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "Czaty głosowe",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "Słuchacze czatu audio",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Widzowie transmisji wideo",
         "hint": "",
-        "text": "do 1000 uczestników jednocześnie"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "Zaplanowane czaty",
@@ -256,6 +271,11 @@
         "name": "Rozmiar wysłanych plików",
         "hint": "",
         "text": "do 2 GB"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "Czas trwania wiadomości wideo",
@@ -471,6 +491,11 @@
         "name": "Długość nazwy pakietu",
         "hint": "",
         "text": "do 64 znaków"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

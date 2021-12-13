@@ -37,6 +37,11 @@
         "hint": "siz a'zo bo'lishingiz mumkin",
         "text": "500 tagacha (shu jumladan o'zingizniki)"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "Saqlangan Giflar soni",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "Super guruhni Translyatsiya guruhiga aylantirish",
         "hint": "",
         "text": "199,000 tadan yuqori a'zolar"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "Ovozli chat",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "Ovozli chat qatnashuvchilari",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Video translyatsiya kuzatuvchilari",
         "hint": "",
-        "text": "bir vaqtning o'zida 1,000 tagacha foydalanuvchilar"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "Rejalashtirilgan suhbatlar",
@@ -256,6 +271,11 @@
         "name": "Fayl hajmi chegarasi",
         "hint": "",
         "text": "2.0 GB gacha"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "Video xabarning davomiyligi",
@@ -471,6 +491,11 @@
         "name": "To'plam nomi uzunligi",
         "hint": "",
         "text": "64 tagacha belgi"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

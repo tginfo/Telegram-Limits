@@ -37,6 +37,11 @@
         "hint": "أقصى حد للانضمام",
         "text": "الأقصى ٥٠٠ (بتضمين التي أنشأتها)"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "أقصى حفظ للصور المتحركة",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "تحويل مجموعة كبيرة إلى مجموعة بث",
         "hint": "",
         "text": "للدردشة مع 199,000+ عضو"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "محادثة صوتية",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "مستمعو الدردشة الصوتية",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "مشاهدي بث الفيديو",
         "hint": "",
-        "text": "ما يصل إلى 1000 مشارك في نفس الوقت"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "الدردشات المجدولة",
@@ -256,6 +271,11 @@
         "name": "حجم الملف",
         "hint": "",
         "text": "الحد الأقصى ٢ جيجابايت"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "مدة مقطع الملف الشخصي",
@@ -471,6 +491,11 @@
         "name": "طول أسم الحزمة",
         "hint": "",
         "text": "كحد أقصى 64 حرفًا"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

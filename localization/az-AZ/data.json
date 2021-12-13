@@ -37,6 +37,11 @@
         "hint": "üzv ola bilərsiniz",
         "text": "500-ə qədər (özünüzünkülər daxil olmaqla)"
       },
+      "geochats_number": {
+        "name": "Geosöhbətlərin sayı",
+        "hint": "üzv ola bilərsiniz",
+        "text": "5-ə qədər (özünü daxil olmaqla)"
+      },
       "gifs_number": {
         "name": "Saxlanılmış GIF sayı",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "Super qrupunu yayım qrupuna çevirmə",
         "hint": "",
         "text": "199,000+ üzvü olan söhbətlər üçün"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "Səsli Söhbətlər",
+    "name": "Səs & Video söhbətlər",
     "items": {
       "voice_chat_participants": {
         "name": "Səsli söhbət dinləyiciləri",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Video yayıma baxanlar",
         "hint": "",
-        "text": "eyni anda 1,000-ə qədər iştirakçı"
+        "text": "rəsmi olaraq bəyan edilib ki, o, məhdudiyyətsizdir, praktikada axın təxminən 2000 eyni vaxtda tamaşaçılarda qeyri-sabit olur"
       },
       "voice_chat_schedule": {
         "name": "Planlaşdırılan söhbətlər",
@@ -256,6 +271,11 @@
         "name": "Fayl həcm limiti",
         "hint": "",
         "text": "2.0 GB-a qədər"
+      },
+      "file_name_length": {
+        "name": "Fayl adı uzunluğu",
+        "hint": "",
+        "text": "60 simvol qədər, artıq sünnət olunacaq"
       },
       "video_message_duration": {
         "name": "Video mesajın müddəti",
@@ -471,6 +491,11 @@
         "name": "Paket adının uzunluğu",
         "hint": "",
         "text": "64 simvola qədər"
+      },
+      "stickerpack_url_length": {
+        "name": "/addstickers stickerpack uzunluğu",
+        "hint": "",
+        "text": "62 simvola qədər"
       }
     }
   },

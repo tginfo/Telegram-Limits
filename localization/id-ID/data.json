@@ -37,6 +37,11 @@
         "hint": "yang dapat anda masuki",
         "text": "hingga 500 (termasuk yang anda miliki sendiri)"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "Jumlah GIF tersimpan",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "Ubah supergrup ke grup siaran",
         "hint": "",
         "text": "untuk obrolan dengan 199.000+ member"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "Obrolan Suara",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "Pendengar Obrolan suara",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Penonton siaran video",
         "hint": "",
-        "text": "hingga 1.000 partisipan secara bersamaan"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "Penjadwalan obrolan",
@@ -256,6 +271,11 @@
         "name": "Batas ukuran file",
         "hint": "",
         "text": "hingga 2.0 GB"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "Durasi pesan video",
@@ -471,6 +491,11 @@
         "name": "Panjang nama paket",
         "hint": "",
         "text": "hingga 64 karakter"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

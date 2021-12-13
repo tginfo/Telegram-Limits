@@ -37,6 +37,11 @@
         "hint": "којих можете бити члан",
         "text": "до 500 (укључујући и оне које поседујете)"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "Број сачуваних GIF-ова",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "Претварање супергрупе у групу за емитовање",
         "hint": "",
         "text": "за групе преко 199.000 чланова"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "Гласовна ћаскања",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "Слушаоци гласовног ћаскања",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Гледаоци видео-емитовања",
         "hint": "",
-        "text": "до 1000 учесника истовремено"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "Заказана гласовна ћаскања",
@@ -256,6 +271,11 @@
         "name": "Величина датотеке",
         "hint": "",
         "text": "до 2,0 GB"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "Трајање видео-поруке",
@@ -471,6 +491,11 @@
         "name": "Дужина назива пакета",
         "hint": "",
         "text": "до 64 знака"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

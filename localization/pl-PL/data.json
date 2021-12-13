@@ -38,7 +38,7 @@
         "text": "do 500 (w tym stworzone przez ciebie)"
       },
       "geochats_number": {
-        "name": "Geochats number",
+        "name": "Liczba geoczatów",
         "hint": "you can be member of",
         "text": "up to 5 (including ones you own)"
       },
@@ -153,19 +153,19 @@
         "text": "dla czatów z ponad 199 000 członków"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Widoczność potwierdzenia odczytu",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "dla czatów z maksymalnie 100 członkami; lista użytkowników jest dostępna tylko dla użytkownika, który wysłał wiadomość"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Czas widoczności potwierdzenia odczytu",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "do 7 dni od wysłania wiadomości"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Czaty głosowe i wideo",
     "items": {
       "voice_chat_participants": {
         "name": "Słuchacze czatu audio",

@@ -133,7 +133,7 @@
             },
             {
                 "id": "read_receipts_availability",
-                "icon": "schedule_send"
+                "icon": "date_range"
             }
         ]
     },

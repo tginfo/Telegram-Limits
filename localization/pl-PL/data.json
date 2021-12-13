@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Widzowie transmisji wideo",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "oficjalnie ilość jest nieograniczona, ale w praktyce transmisja staje się niestabilna przy około 2000 jednoczesnych widzów"
       },
       "voice_chat_schedule": {
         "name": "Zaplanowane czaty",

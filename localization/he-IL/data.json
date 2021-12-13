@@ -37,6 +37,11 @@
         "hint": "אתה יכול להיות חבר ב",
         "text": "עד 500 (כולל מה שאתה יצרת)"
       },
+      "geochats_number": {
+        "name": "Geochats number",
+        "hint": "you can be member of",
+        "text": "up to 5 (including ones you own)"
+      },
       "gifs_number": {
         "name": "מספר הגיפים השמורים",
         "hint": "",
@@ -146,11 +151,21 @@
         "name": "המרת סופר קבוצה (supergroup) לקבוצת שידור (broadcast group)",
         "hint": "",
         "text": "לקבוצות עם 199,000 חברים או יותר"
+      },
+      "read_receipts_availability": {
+        "name": "Read receipts availability",
+        "hint": "",
+        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+      },
+      "read_receipts_lifetime": {
+        "name": "Read receipts lifetime",
+        "hint": "",
+        "text": "up to 7 days since message was sent"
       }
     }
   },
   "voice_chats": {
-    "name": "צ'אטים קוליים",
+    "name": "Voice & Video Chats",
     "items": {
       "voice_chat_participants": {
         "name": "מאזינים בצ'אט קולי",
@@ -165,7 +180,7 @@
       "video_chat_viewers": {
         "name": "צופים בשיחות קבוצתיות",
         "hint": "",
-        "text": "עד ל 1,000 משתתפים באותו זמן"
+        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
       },
       "voice_chat_schedule": {
         "name": "שיחות קבוצתיות מתוזמנות",
@@ -256,6 +271,11 @@
         "name": "מגבלת הגודל של הקבצים",
         "hint": "",
         "text": "עד 2.0 GB"
+      },
+      "file_name_length": {
+        "name": "File name length",
+        "hint": "",
+        "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
         "name": "מסך הזמן של הודעת וידאו",
@@ -471,6 +491,11 @@
         "name": "אורך שם חבילת מדבקות",
         "hint": "",
         "text": "עד 64 תווים"
+      },
+      "stickerpack_url_length": {
+        "name": "Pack /addstickers url length",
+        "hint": "",
+        "text": "up to 62 characters"
       }
     }
   },

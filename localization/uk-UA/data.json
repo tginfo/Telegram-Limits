@@ -153,19 +153,19 @@
         "text": "для чатів де більше 199 000 учасників"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Доступність звіту про прочитання",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "для чатів з 100 учасниками або менше, список користувачів доступний тільки для користувача, який надіслав повідомлення"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Тривалість доступності звіту про прочитання",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "до 7 днів з моменту надсилання повідомлення"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Голосові та відео чати",
     "items": {
       "voice_chat_participants": {
         "name": "Слухачі голосового чату",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Глядачі відеотрансляцій",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "офіційно заявлена відсутність обмежень, на практиці, трансляція стає нестабільною приблизно на 2 000 одночасних глядачів"
       },
       "voice_chat_schedule": {
         "name": "Заплановані чати",
@@ -273,9 +273,9 @@
         "text": "до 2.0 Гб"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Довжина імені файлу",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "до 60 символів, зайві будуть обрізані"
       },
       "video_message_duration": {
         "name": "Тривалість відеоповідомлення",
@@ -493,9 +493,9 @@
         "text": "до 64 символів"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "Fдреса /addstickers на набір стікерів",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "до 62 символів"
       }
     }
   },

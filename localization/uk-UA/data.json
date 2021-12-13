@@ -38,9 +38,9 @@
         "text": "до 500 (враховуючи ваші)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Кількість геочатів",
+        "hint": "в котрих можна бути членом",
+        "text": "до 5 (у тому числі ті, якими ви володієте)"
       },
       "gifs_number": {
         "name": "Кількість збережених GIF",

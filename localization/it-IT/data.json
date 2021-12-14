@@ -38,9 +38,9 @@
         "text": "fino a 500 (inclusi quelli creati da te)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Numero delle geochat",
+        "hint": "puoi far parte di",
+        "text": "fino a 5 (inclusi quelli che possiedi)"
       },
       "gifs_number": {
         "name": "Numero di GIF salvabili",

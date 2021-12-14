@@ -158,14 +158,14 @@
         "text": "para chats con 100 miembros o menos, la lista de usuarios sólo está disponible para el usuario que envió el mensaje"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Leer recibos de por vida",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "hasta 7 días desde que se envió el mensaje"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Chats de voz y video",
     "items": {
       "voice_chat_participants": {
         "name": "Oyentes de chat de voz",

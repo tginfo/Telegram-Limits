@@ -38,9 +38,9 @@
         "text": "hingga 500 (termasuk yang anda miliki sendiri)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Jumlah obrolan sekitar",
+        "hint": "yang dapat anda masuki",
+        "text": "hingga 5 (termasuk yang anda miliki sendiri)"
       },
       "gifs_number": {
         "name": "Jumlah GIF tersimpan",
@@ -153,19 +153,19 @@
         "text": "untuk obrolan dengan 199.000+ member"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Ketersediaan tanda dibaca",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "untuk obrolan dengan 100 anggota atau kurang, daftar pengguna hanya tersedia untuk pengirim pesan saja"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Masa waktu tanda dibaca",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "hingga 7 hari sejak pesan dikirim"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Obrolan Suara & Video",
     "items": {
       "voice_chat_participants": {
         "name": "Pendengar Obrolan suara",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Penonton siaran video",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "secara resmi diatur tidak terhingga, dalam penerapannya, siaran menjadi tidak stabil saat mencapai sekitar 2.000 penonton"
       },
       "voice_chat_schedule": {
         "name": "Penjadwalan obrolan",
@@ -273,9 +273,9 @@
         "text": "hingga 2.0 GB"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Panjang nama berkas",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "hingga 60 karakter, lebih dari itu akan dipotong"
       },
       "video_message_duration": {
         "name": "Durasi pesan video",
@@ -493,9 +493,9 @@
         "text": "hingga 64 karakter"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "Panjang tautan paket /addstickers",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "hingga 62 karakter"
       }
     }
   },

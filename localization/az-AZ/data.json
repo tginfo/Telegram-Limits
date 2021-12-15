@@ -153,14 +153,14 @@
         "text": "199,000+ üzvü olan söhbətlər üçün"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Oxundu bildirişi əlçatımlılığı",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "100 və ya daha az üzvlü söhbətlər üçün istifadəçi siyahısı, yalnız mesajı göndərən istifadəçi tərəfindən əlçatandır"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Bildirişləri oxuma ömrü",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "mesaj göndərildikdən sonra 7 günə qədər"
       }
     }
   },

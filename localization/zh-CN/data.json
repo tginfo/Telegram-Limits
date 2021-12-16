@@ -413,7 +413,7 @@
         "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "/start 命令 (Deep link) 的元数据长度",
         "hint": "",
         "text": "up to 64 characters"
       },

@@ -168,29 +168,29 @@
     "name": "语音 & 视频聊天相关",
     "items": {
       "voice_chat_participants": {
-        "name": "语音聊天参与者",
+        "name": "语音聊天听众数",
         "hint": "",
         "text": "不限数量"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "广播视频",
+        "hint": "（通过摄像头 / 屏幕共享）",
+        "text": "最多 30 人（同时）"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "视频聊天的观众数",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "官方声称为“不限”；实际测试中，观众达到约 2,000 时，直播流可能会变得不稳定。"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "可提前预定的时长",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "最多提前 7 天"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "频道相关",
     "items": {
       "public_usernames": {
         "name": "Public usernames number",

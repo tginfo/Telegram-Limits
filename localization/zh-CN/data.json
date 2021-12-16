@@ -5,67 +5,67 @@
       "username": {
         "name": "用户名",
         "hint": "（例：@cameraman）",
-        "text": "5 to 32 characters"
+        "text": "5 ~ 32 个字符"
       },
       "bio": {
-        "name": "Bio",
+        "name": "个人简介",
         "hint": "",
-        "text": "up to 70 characters"
+        "text": "最多 70 个字符"
       },
       "name_length": {
-        "name": "First Name length",
+        "name": "名字长度",
         "hint": "",
-        "text": "from 1 to 64 characters"
+        "text": "1 ~ 64 个字符"
       },
       "last_name_length": {
-        "name": "Last Name length",
+        "name": "姓氏长度",
         "hint": "",
-        "text": "from 0 to 64 characters"
+        "text": "0 ~ 64 个字符"
       },
       "self_destruction": {
-        "name": "Self-destruction period",
-        "hint": "if no activity",
-        "text": "1, 3, 6 and 12 months (6 by default)"
+        "name": "账户自动销毁时限",
+        "hint": "（长时间无登录活动）",
+        "text": "1、3、6 或 12 个月 (默认 6 个月)"
       },
       "spam_ban": {
-        "name": "Spam ban",
+        "name": "恶意灌水封禁时长",
         "hint": "",
-        "text": "3 days or more"
+        "text": "3 天或以上"
       },
       "channels_and_chats_number": {
-        "name": "Channels and supergroups number",
-        "hint": "you can be member of",
-        "text": "up to 500 (including ones you own)"
+        "name": "频道和超级群组数量",
+        "hint": "你可以加入的",
+        "text": "最多 500（包括您创建的）"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "当地群组数量",
+        "hint": "你可以加入的",
+        "text": "最多 5 个（包括你创建的）"
       },
       "gifs_number": {
-        "name": "Saved GIFs number",
+        "name": "保存在 GIF 库的 GIF 数量",
         "hint": "",
-        "text": "up to 200"
+        "text": "最多 200"
       },
       "video_length": {
-        "name": "Video-avatar duration",
+        "name": "视频头像时长",
         "hint": "",
-        "text": "up to 10 seconds"
+        "text": "最长 10 秒"
       },
       "groups_and_channels_creation": {
-        "name": "Group and channel creation",
+        "name": "创建频道和群组",
         "hint": "",
-        "text": "up to 50 in a day"
+        "text": "一天最多 50 个"
       },
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "(official clients)",
-        "text": "up to 3"
+        "name": "同时登录的账号数",
+        "hint": "（官方客户端）",
+        "text": "最多 3 个"
       }
     }
   },
   "chats": {
-    "name": "Chats and groups",
+    "name": "群组相关",
     "items": {
       "participants_number": {
         "name": "Participants",

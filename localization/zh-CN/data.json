@@ -1,6 +1,6 @@
 {
   "accounts": {
-    "name": "帐号",
+    "name": "个人账号相关",
     "items": {
       "username": {
         "name": "用户名",
@@ -68,43 +68,43 @@
     "name": "群组相关",
     "items": {
       "participants_number": {
-        "name": "Participants",
-        "hint": "(limit can be raised)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "name": "群成员",
+        "hint": "(可以提升限制)",
+        "text": "最多 20 万；广播群组中无限制"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
-        "text": "up to 50"
+        "name": "管理员数量",
+        "hint": "群组中的",
+        "text": "最多 50 个"
       },
       "bots_amount": {
-        "name": "Number of bots",
-        "hint": "in groups",
-        "text": "up to 20"
+        "name": "机器人数量",
+        "hint": "群组中的",
+        "text": "最多 20 个"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "客户端主页面的置顶群聊数",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats"
+        "text": "最多 5 个群聊 / 频道 + 5 个私密聊天"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "群组名称和简介",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "最多 255 个字符"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "编辑消息",
         "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+        "text": "发送后 48 小时内；收藏夹中不受限制，拥有置顶权限的群管理员不受限制"
       },
       "media_self_destruction": {
         "name": "Photo and video self-destruction",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 ~ 60 秒"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
+        "name": "群组的最近操作",
+        "hint": "（新订阅者、消息更改等）",
         "text": "last two days"
       },
       "mentions_amount": {

@@ -193,39 +193,39 @@
     "name": "频道相关",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "可拥有的公开频道 / 群组个数",
+        "hint": "单个用户",
+        "text": "最多 10 个（包括群组）"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "用户名长度",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 ~ 32 个字符"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "频道名称和简介",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "最多 255 个字符"
       },
       "channel_admins": {
-        "name": "Channel admins number",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "name": "频道管理员数",
+        "hint": "(包括机器人；您可以通过将机器人设置为管理员将机器人添加到您的频道)",
+        "text": "最多 50 个"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "推文可编辑次数",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "不限（如果频道有讨论组，发送超过 2 周的推文不会在讨论组中更新）"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "频道订阅者数",
         "hint": "",
-        "text": "unlimited"
+        "text": "不限"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "在列表中可见的订阅者",
+        "hint": "（仅管理员可见）",
+        "text": "200 人"
       },
       "channel_deletion": {
         "name": "Channel deletion",

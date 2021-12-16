@@ -109,68 +109,68 @@
       },
       "mentions_amount": {
         "name": "可以 @ 的成员个数",
-        "hint": "in a single message",
-        "text": "up to 50, else notifications won't be sent"
+        "hint": "单条消息中",
+        "text": "最多 50 个，否则不会发送被 @ 通知"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "in group",
-        "text": "1,000,000 last messages"
+        "name": "可见的消息数",
+        "hint": "在群组中",
+        "text": "最新的 100 万条消息"
       },
       "pinned_messages_number": {
-        "name": "Pinned messages number",
+        "name": "可置顶的消息数",
         "hint": "",
-        "text": "unlimited"
+        "text": "不限"
       },
       "participants_to_see_stats": {
-        "name": "Number of participants to see statistics",
+        "name": "使“统计数据”可用的频道订阅者 / 群聊成员数",
         "hint": "",
-        "text": "at least 500"
+        "text": "至少 500"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "更改用户名生效时长",
+        "hint": "（更改多长时间后对所有人可见）",
+        "text": "15 ~ 30 分钟"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "群组贴纸",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "拥有大于 100 名成员的群组"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "群管理头衔长度",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "最多 16 个字符"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "频道 / 群聊标题长度",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "最多 128 个字符"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "超级群组可转为广播群组",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "拥有超过 199,000 位成员的群组"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "“哪些成员已读”数据可见性",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "少于 100 人的群聊可用；只有对应消息的发送者可见"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "“哪些成员已读”数据可见性",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "消息发送后 7 天内"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "语音 & 视频聊天相关",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "语音聊天参与者",
         "hint": "",
-        "text": "unlimited"
+        "text": "不限数量"
       },
       "video_chat_broadcast": {
         "name": "Broadcasting video",

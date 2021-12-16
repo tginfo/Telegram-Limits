@@ -98,17 +98,17 @@
         "text": "发送后 48 小时内；收藏夹中不受限制，拥有置顶权限的群管理员不受限制"
       },
       "media_self_destruction": {
-        "name": "Photo and video self-destruction",
+        "name": "媒体自毁时限",
         "hint": "",
         "text": "1 ~ 60 秒"
       },
       "recent_actions": {
         "name": "群组的最近操作",
         "hint": "（新订阅者、消息更改等）",
-        "text": "last two days"
+        "text": "最近两天"
       },
       "mentions_amount": {
-        "name": "Mentions number",
+        "name": "可以 @ 的成员个数",
         "hint": "in a single message",
         "text": "up to 50, else notifications won't be sent"
       },

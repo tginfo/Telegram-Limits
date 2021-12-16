@@ -410,52 +410,52 @@
       "bot_command_description_length": {
         "name": "指令描述长度",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "Bot Father 中最少 2 字符，Bot API 中最少 3 字符；最多 256 字符"
       },
       "start_payload_size": {
-        "name": "/start 命令 (Deep link) 的元数据长度",
+        "name": "/start 命令 (Deep linking) 的元数据长度",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "最多 64 个字符"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "弹窗提示文本（响应回调时）",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "最多 200 个字符"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "用户名解析限制",
+        "hint": "(机器人和用户都适用)",
+        "text": "每天最多 200 个用户名"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "内联查询结果数",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "最多 50 项"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "搜索相关",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "全局搜索结果",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "展示 10 项（安卓客户端中 3 项）"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "搜索内容字数",
+        "hint": "（全局搜索）",
+        "text": "至少 4 个字符"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "贴纸相关",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "可添加的贴纸包个数",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "最多 200 个"
       },
       "favorite_stickers": {
         "name": "Favorite stickers number",

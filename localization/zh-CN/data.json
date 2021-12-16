@@ -458,69 +458,69 @@
         "text": "最多 200 个"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "收藏贴纸数",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "最多 5 个"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "单个贴纸包中的贴纸数",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "静态 120 张 / 动态 50 张"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "贴纸比例",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "单侧 512px，另一侧 ≤ 512px；动态贴纸必须为 512×512"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "动态贴纸持续时长",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "最长 3 秒"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "贴纸文件大小",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "静态最大 512 KB，动画最大 64 KB"
       },
       "fps": {
-        "name": "FPS",
+        "name": "帧速率 (FPS)",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 或 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "贴纸包名称",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "最多 64 个字符"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "/addstickers 贴纸包链接",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "最多 62 个字符"
       }
     }
   },
   "telegraph": {
-    "name": "Telegraph",
+    "name": "Telegraph 相关",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "账号数",
+        "hint": "@telegraph 机器人中",
+        "text": "最多 5 个"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "文章大小",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "最大 64 KiB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "其它",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "视频头像属性",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px，最大 2 MB"
       }
     }
   }

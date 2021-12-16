@@ -128,7 +128,7 @@
         "text": "至少 500"
       },
       "username_reservation": {
-        "name": "更改用户名生效时长",
+        "name": "更改 username 后生效时长",
         "hint": "（更改多长时间后对所有人可见）",
         "text": "15 ~ 30 分钟"
       },
@@ -228,187 +228,187 @@
         "text": "200 人"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "删除频道",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "拥有超过 1K 订阅者的频道只能通过 Telegram 支持删除频道"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
-        "text": "up to 5 minutes once a day"
+        "name": "不加入的情况下查看私密频道",
+        "hint": "（订阅者 > 200 的频道）",
+        "text": "每天不超过 5 分钟"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "邀请用户加入频道",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "最多 200 人"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "“统计数据”可见的订阅者数阈值",
         "hint": "",
-        "text": "at least 50"
+        "text": "至少 50 位订阅者"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "更改 username 生效时长",
+        "hint": "（更改多长时间后对所有人可见）",
+        "text": "15 ~ 30 分钟"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "消息相关",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "单条消息长度",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "最多 4,096 个字符"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "媒体的描述",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "最多 1,024 个字符"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "单文件大小限制",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "最大 2 GB"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "文件名长度限制",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "最多 60 个字符，多出的将被裁切"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "视频消息的时长限制",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "最长 1 分钟"
       },
       "album_size": {
-        "name": "Images and videos in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "单条消息中的图片和视频",
+        "hint": "（或专辑）",
+        "text": "最多 10 个"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "计划信息数量",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "最多 100 个"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "可计划的日程范围",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "最长 365 天"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "聊天文件夹相关",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "文件夹数量",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "最多 10 个文件夹"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "单个文件夹中可置顶的聊天数",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "最多 100 个"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "附近的人",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "可见范围",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "约 12 公里以内"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "可见用户数量",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "最多 100 人"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "可见的当地群组数量",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "最多 10 个附近的群组"
       }
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "机器人相关",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "name": "单账户可拥有的机器人数量",
+        "hint": "（由 @BotFather 创建的）",
+        "text": "最多 20 个"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "用户名长度",
+        "hint": "机器人的",
+        "text": "5 ~ 32 个字符"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "机器人关于信息（What can this bot do?）长度",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "最多 120 个字符"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "机器人简介长度",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "最多 512 个字符"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
-        "hint": "(BotAPI)",
-        "text": "up to 50 MB"
+        "name": "上传文件大小限制",
+        "hint": "(Bot API)",
+        "text": "最大 50 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
-        "hint": "(BotAPI)",
-        "text": "up to 20 MB"
+        "name": "下载文件大小限制",
+        "hint": "(Bot API)",
+        "text": "最大 20 MB"
       },
       "forwarding": {
-        "name": "Message forwarding",
+        "name": "转发消息",
         "hint": "",
-        "text": "up to 2,000 per hour"
+        "text": "最快每小时 2000 条"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "键盘按钮数",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "最多 100 个实体"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "消息格式化数据",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "最大 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "格式化的实体",
+        "hint": "（加粗、斜体...）",
+        "text": "最多 100 个"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "发送消息频率",
+        "hint": "(可由 Bot Support 提升)",
+        "text": "每秒最多 30 条消息；公开群聊和频道中每分钟最多 20 条消息"
       },
       "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+        "name": "API 请求频率",
+        "hint": "(可由 Bot Support 提升)",
+        "text": "每秒最多 30 个请求"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "指令数量",
+        "hint": "(Bot Father)",
+        "text": "0 ~ 100 个命令"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "指令长度",
+        "hint": "(Bot Father)",
+        "text": "1 ~ 32 个字符"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "指令描述长度",
         "hint": "",
         "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
       },

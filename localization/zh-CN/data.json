@@ -1,10 +1,10 @@
 {
   "accounts": {
-    "name": "Accounts",
+    "name": "帐号",
     "items": {
       "username": {
-        "name": "Username",
-        "hint": "(e.g. @cameraman)",
+        "name": "用户名",
+        "hint": "（例：@cameraman）",
         "text": "5 to 32 characters"
       },
       "bio": {

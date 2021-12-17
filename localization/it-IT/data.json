@@ -153,19 +153,19 @@
         "text": "per le chat con oltre 199.000 membri"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Disponibilità delle conferme di lettura",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "per le chat con 100 membri o meno, la lista degli utenti è disponibile solo per chi ha inviato il messaggio"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Durata delle conferme di lettura",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "fino a 7 giorni dall'invio del messaggio"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Chat vocali e video",
     "items": {
       "voice_chat_participants": {
         "name": "Ascoltatori della Chat Audio",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Visualizzatori del broadcast video",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "ufficialmente sono illimitati, in pratica il video diventa instabile con circa 2.000 spettatori simultanei"
       },
       "voice_chat_schedule": {
         "name": "Chat pianificate",
@@ -273,9 +273,9 @@
         "text": "fino a 2.0 GB"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Lunghezza del nome del file",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "fino a 60 caratteri, i successivi saranno rimossi"
       },
       "video_message_duration": {
         "name": "Durata di un video-messaggio",
@@ -493,9 +493,9 @@
         "text": "fino a 64 caratteri"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "Lunghezza url /addsticker del pacchetto",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "fino a 62 caratteri"
       }
     }
   },

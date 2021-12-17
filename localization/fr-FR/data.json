@@ -8,7 +8,7 @@
         "text": "5 à 32 caractères"
       },
       "bio": {
-        "name": "Biographie",
+        "name": "Bio",
         "hint": "",
         "text": "jusqu'à 70 caractères"
       },
@@ -23,7 +23,7 @@
         "text": "de 0 à 64 caractères"
       },
       "self_destruction": {
-        "name": "Délais d'autodestruction",
+        "name": "Autodestruction du compte",
         "hint": "si aucune activité",
         "text": "1, 3, 6 et 12 mois (6 par défaut)"
       },
@@ -40,7 +40,7 @@
       "geochats_number": {
         "name": "Nombre d'échanges locaux (géolocalisés)",
         "hint": "dont vous pouvez être membre",
-        "text": "jusqu'à 5 (incluant ceux vous possédez)"
+        "text": "jusqu'à 5 (incluant ceux que vous possédez)"
       },
       "gifs_number": {
         "name": "Nombre de GIFs enregistrables",
@@ -65,12 +65,12 @@
     }
   },
   "chats": {
-    "name": "Discussions et groupes",
+    "name": "Échanges et groupes",
     "items": {
       "participants_number": {
-        "name": "Participants",
+        "name": "Membres",
         "hint": "(la limite peut être augmentée)",
-        "text": "jusqu'à 200 000, mais illimité dans les groupes de diffusion"
+        "text": "jusqu'à 200 000 mais illimité dans les groupes de diffusion"
       },
       "admins_number": {
         "name": "Nombre d'administrateurs",
@@ -83,12 +83,12 @@
         "text": "jusqu'à 20"
       },
       "pinned_number": {
-        "name": "Discussions épinglées dans la liste principale",
+        "name": "Échanges épinglés dans la liste principale",
         "hint": "",
-        "text": "jusqu'à 5 discussions ou canaux + 5 discussions secrètes"
+        "text": "jusqu'à 5 échanges ou canaux + 5 conversations secrètes"
       },
       "group_name": {
-        "name": "Nom et description du groupe",
+        "name": "Nom et description d'un groupe",
         "hint": "",
         "text": "jusqu'à 255 caractères"
       },
@@ -123,9 +123,9 @@
         "text": "illimité"
       },
       "participants_to_see_stats": {
-        "name": "Nombre de participants pour voir les statistiques",
+        "name": "Nombre de membres pour voir les statistiques",
         "hint": "",
-        "text": "au moins 500 personnes"
+        "text": "au moins 500"
       },
       "username_reservation": {
         "name": "Réservation de changement de nom d'utilisateur",
@@ -133,9 +133,9 @@
         "text": "environ 15-30 minutes"
       },
       "participants_for_group_stickers": {
-        "name": "Autocollants promus par le groupe",
+        "name": "Autocollants de groupe mis en avant",
         "hint": "",
-        "text": "groupes avec plus de 100 participants"
+        "text": "groupes avec plus de 100 membres"
       },
       "chat_role_length": {
         "name": "Longueur du rôle administrateur",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Spectateurs d'une diffusion vidéo",
         "hint": "",
-        "text": "officiellement c'est illimité mais dans la pratique, le flux devient instable vers 2000 spectateurs simultanés"
+        "text": "officiellement illimité mais, dans la pratique le flux devient instable vers 2000 spectateurs simultanés"
       },
       "voice_chat_schedule": {
         "name": "Programmation de salons",

@@ -129,7 +129,7 @@
       },
       "username_reservation": {
         "name": "Réservation de changement de nom d'utilisateur",
-        "hint": "(délai avant que le nom d'utilisateur ne soit disponible pour tout le monde, pas seulement pour le propriétaire d'origine)",
+        "hint": "(délai avant que le nom d'utilisateur ne soit disponible pour tout le monde, plus seulement pour le propriétaire d'origine)",
         "text": "de 15 à 30 minutes"
       },
       "participants_for_group_stickers": {
@@ -443,8 +443,8 @@
         "text": "jusqu'à 10 éléments; jusqu'à 3 sur Android"
       },
       "global_search_min_query": {
-        "name": "Longueur minimale pour faire une recherche",
-        "hint": "recherche globale",
+        "name": "Longueur de requête minimale",
+        "hint": "pour la recherche globale",
         "text": "au moins 4 caractères"
       }
     }

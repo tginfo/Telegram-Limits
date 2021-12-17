@@ -23,7 +23,7 @@
         "text": "de 0 à 64 caractères"
       },
       "self_destruction": {
-        "name": "Période d'autodestruction",
+        "name": "Délais d'autodestruction",
         "hint": "si aucune activité",
         "text": "1, 3, 6 et 12 mois (6 par défaut)"
       },
@@ -34,13 +34,13 @@
       },
       "channels_and_chats_number": {
         "name": "Nombre de canaux et supergroupes",
-        "hint": "vous pouvez être membre de",
-        "text": "jusqu'à 500 (incluant ceux vous possédez)"
+        "hint": "dont pouvez être membre",
+        "text": "jusqu'à 500 (incluant ceux que vous possédez)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Nombre d'échanges locaux (géolocalisés)",
+        "hint": "dont vous pouvez être membre",
+        "text": "jusqu'à 5 (incluant ceux vous possédez)"
       },
       "gifs_number": {
         "name": "Nombre de GIFs enregistrables",
@@ -98,7 +98,7 @@
         "text": "48 heures après l'envoi et illimité pour les messages Enregistrés et pour les administrateurs avec droits d'épingler"
       },
       "media_self_destruction": {
-        "name": "Auto-déstruction des photos et vidéos",
+        "name": "Autodestruction des photos et vidéos",
         "hint": "",
         "text": "1 à 60 secondes"
       },
@@ -143,7 +143,7 @@
         "text": "jusqu'à 16 caractères"
       },
       "chat_title_length": {
-        "name": "Longueur du titre de discussion",
+        "name": "Taille du titre d'un échange",
         "hint": "",
         "text": "jusqu'à 128 caractères"
       },
@@ -153,22 +153,22 @@
         "text": "pour les discussions avec plus de 199 000 membres"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Voir les accusés de réceptions",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "dans les échanges de 100 membres ou moins, la liste des utilisateurs ayant lus n'est disponible que pour l'utilisateur qui a envoyé le message"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Durée de vie des accusés de réceptions",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "jusqu'à 7 jours après l'envoi du message"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Échanges vocales et vidéos",
     "items": {
       "voice_chat_participants": {
-        "name": "Participants discussion audio",
+        "name": "Auditeurs salon audio",
         "hint": "",
         "text": "illimité"
       },
@@ -178,12 +178,12 @@
         "text": "jusqu'à 30 diffusions d'utilisateurs simultanément"
       },
       "video_chat_viewers": {
-        "name": "Spectateurs de vidéo diffusé",
+        "name": "Spectateurs d'une diffusion vidéo",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "officiellement c'est illimité mais dans la pratique, le flux devient instable vers 2000 spectateurs simultanés"
       },
       "voice_chat_schedule": {
-        "name": "Salons planifiées",
+        "name": "Programmation de salons",
         "hint": "",
         "text": "jusqu'à 7 jours"
       }
@@ -193,7 +193,7 @@
     "name": "Canaux",
     "items": {
       "public_usernames": {
-        "name": "Nombres de nom d'utilisateurs publics",
+        "name": "Noms d'utilisateurs publics",
         "hint": "pour un seul compte",
         "text": "jusqu'à 10 (groupes inclus)"
       },
@@ -273,9 +273,9 @@
         "text": "jusqu'à 2.0 Go"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Longueur du nom d'un fichier",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "jusqu'à 60 caractères, les autres seront supprimés"
       },
       "video_message_duration": {
         "name": "Durée d'un message vidéo",
@@ -288,7 +288,7 @@
         "text": "jusqu'à 10 éléments"
       },
       "delayed_messages": {
-        "name": "Nombre de messages planifiés",
+        "name": "Nombre de messages planifiables",
         "hint": "",
         "text": "jusqu'à 100 éléments"
       },
@@ -368,7 +368,7 @@
         "text": "jusqu'à 20 MB"
       },
       "forwarding": {
-        "name": "Message transféré",
+        "name": "Transfère de message",
         "hint": "",
         "text": "jusqu'à 2 000 par heure"
       },
@@ -428,7 +428,7 @@
         "text": "jusqu'à 200 noms d'utilisateurs par jour"
       },
       "inline_max_items": {
-        "name": "Numéro de résultats en ligne",
+        "name": "Nombre de résultats intégrés (inline)",
         "hint": "",
         "text": "jusqu'à 50 éléments"
       }
@@ -440,7 +440,7 @@
       "global_search": {
         "name": "Résultats de la recherche globale",
         "hint": "",
-        "text": "jusqu'à 10 éléments; jusqu'à 3 pour Android"
+        "text": "jusqu'à 10 éléments; jusqu'à 3 sur Android"
       },
       "global_search_min_query": {
         "name": "Longueur minimale pour faire une recherche",
@@ -493,9 +493,9 @@
         "text": "jusqu'à 64 caractères"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "Pack /addstickers longueur d'url",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "jusqu'à 62 caractères"
       }
     }
   },

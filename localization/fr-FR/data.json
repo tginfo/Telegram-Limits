@@ -8,7 +8,7 @@
         "text": "5 à 32 caractères"
       },
       "bio": {
-        "name": "Biographie",
+        "name": "Bio",
         "hint": "",
         "text": "jusqu'à 70 caractères"
       },
@@ -23,7 +23,7 @@
         "text": "de 0 à 64 caractères"
       },
       "self_destruction": {
-        "name": "Délais d'autodestruction",
+        "name": "Autodestruction du compte",
         "hint": "si aucune activité",
         "text": "1, 3, 6 et 12 mois (6 par défaut)"
       },
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Spectateurs d'une diffusion vidéo",
         "hint": "",
-        "text": "officiellement c'est illimité mais dans la pratique, le flux devient instable vers 2000 spectateurs simultanés"
+        "text": "officiellement illimité mais, dans la pratique le flux devient instable vers 2000 spectateurs simultanés"
       },
       "voice_chat_schedule": {
         "name": "Programmation de salons",

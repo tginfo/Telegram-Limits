@@ -34,7 +34,7 @@
       },
       "channels_and_chats_number": {
         "name": "Nombre de canaux et supergroupes",
-        "hint": "vous pouvez être membre de",
+        "hint": "dont pouvez être membre",
         "text": "jusqu'à 500 (incluant ceux vous possédez)"
       },
       "geochats_number": {
@@ -143,7 +143,7 @@
         "text": "jusqu'à 16 caractères"
       },
       "chat_title_length": {
-        "name": "Longueur du titre de discussion",
+        "name": "Taille du titre d'un échange",
         "hint": "",
         "text": "jusqu'à 128 caractères"
       },
@@ -178,12 +178,12 @@
         "text": "jusqu'à 30 diffusions d'utilisateurs simultanément"
       },
       "video_chat_viewers": {
-        "name": "Spectateurs de vidéo diffusé",
+        "name": "Spectateurs d'une diffusion vidéo",
         "hint": "",
-        "text": "officiellement il est déclaré illimité mais dans la pratique, le flux devient instable vers 2000 spectateurs simultanés"
+        "text": "officiellement c'est illimité mais dans la pratique, le flux devient instable vers 2000 spectateurs simultanés"
       },
       "voice_chat_schedule": {
-        "name": "Salons planifiées",
+        "name": "Programmation de salons",
         "hint": "",
         "text": "jusqu'à 7 jours"
       }
@@ -193,7 +193,7 @@
     "name": "Canaux",
     "items": {
       "public_usernames": {
-        "name": "Nombres de nom d'utilisateurs publics",
+        "name": "Noms d'utilisateurs publics",
         "hint": "pour un seul compte",
         "text": "jusqu'à 10 (groupes inclus)"
       },

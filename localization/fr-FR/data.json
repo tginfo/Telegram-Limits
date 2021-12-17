@@ -128,7 +128,7 @@
         "text": "au moins 500"
       },
       "username_reservation": {
-        "name": "Réservation de changement de nom d'utilisateur",
+        "name": "Réservation si changement de nom d'utilisateur",
         "hint": "(délai avant que le nom d'utilisateur ne soit disponible pour tout le monde, plus seulement pour le propriétaire d'origine)",
         "text": "de 15 à 30 minutes"
       },

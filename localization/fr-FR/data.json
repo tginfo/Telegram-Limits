@@ -68,9 +68,9 @@
     "name": "Discussions et groupes",
     "items": {
       "participants_number": {
-        "name": "Participants",
+        "name": "Membres",
         "hint": "(la limite peut être augmentée)",
-        "text": "jusqu'à 200 000, mais illimité dans les groupes de diffusion"
+        "text": "jusqu'à 200 000 et illimité dans les groupes de diffusion"
       },
       "admins_number": {
         "name": "Nombre d'administrateurs",
@@ -123,9 +123,9 @@
         "text": "illimité"
       },
       "participants_to_see_stats": {
-        "name": "Nombre de participants pour voir les statistiques",
+        "name": "Nombre de membres pour voir les statistiques",
         "hint": "",
-        "text": "au moins 500 personnes"
+        "text": "au moins 500"
       },
       "username_reservation": {
         "name": "Réservation de changement de nom d'utilisateur",
@@ -133,9 +133,9 @@
         "text": "environ 15-30 minutes"
       },
       "participants_for_group_stickers": {
-        "name": "Autocollants promus par le groupe",
+        "name": "Autocollants de groupe mis en avant",
         "hint": "",
-        "text": "groupes avec plus de 100 participants"
+        "text": "groupes avec plus de 100 membres"
       },
       "chat_role_length": {
         "name": "Longueur du rôle administrateur",

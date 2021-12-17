@@ -38,7 +38,7 @@
         "text": "500’e kadar (kendinizinkiler dahil)"
       },
       "geochats_number": {
-        "name": "Geochats number",
+        "name": "Konuma dayalı sohbet sayısı",
         "hint": "you can be member of",
         "text": "up to 5 (including ones you own)"
       },

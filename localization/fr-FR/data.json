@@ -93,9 +93,9 @@
         "text": "jusqu'à 255 caractères"
       },
       "editing": {
-        "name": "Édition du message",
+        "name": "Édition de message",
         "hint": "",
-        "text": "48 heures après l'envoi et illimité pour les messages Enregistrés et pour les administrateurs avec droits d'épingler"
+        "text": "48 heures après l'envoi et illimité pour les messages Enregistrés et pour les administrateurs avec la permission d'épingler"
       },
       "media_self_destruction": {
         "name": "Autodestruction des photos et vidéos",
@@ -114,7 +114,7 @@
       },
       "visible_messages": {
         "name": "Nombre de messages visibles",
-        "hint": "dans les groupe",
+        "hint": "en groupe",
         "text": "les 1 000 000 derniers messages"
       },
       "pinned_messages_number": {
@@ -238,19 +238,19 @@
         "text": "jusqu'à 5 minutes par jour"
       },
       "invintations": {
-        "name": "Invitation d'utilisateurs",
+        "name": "Inviter des utilisateurs",
         "hint": "",
         "text": "jusqu'à 200 personnes"
       },
       "followers_to_see_stats": {
         "name": "Nombre d'abonnés pour voir les statistiques",
         "hint": "",
-        "text": "au moins 50 personnes"
+        "text": "au moins 50"
       },
       "username_reservation": {
-        "name": "Réservation de changement de nom d'utilisateur",
-        "hint": "(délai avant que le nom d'utilisateur ne soit disponible pour tout le monde, pas seulement pour le propriétaire d'origine)",
-        "text": "environ 15-30 minutes"
+        "name": "Réservation changement de nom d'utilisateur",
+        "hint": "(délai avant que le nom d'utilisateur soit disponible pour tout le monde, plus seulement pour le propriétaire d'origine)",
+        "text": "de 15 à 30 minutes"
       }
     }
   },
@@ -260,20 +260,20 @@
       "single_message_length": {
         "name": "Longueur d'un message",
         "hint": "",
-        "text": "jusqu'à 4,096 caractères"
+        "text": "jusqu'à 4 096 caractères"
       },
       "media_descriptions": {
-        "name": "Légende des médias",
+        "name": "Légendes des médias",
         "hint": "",
-        "text": "jusqu'à 1,024 caractères"
+        "text": "jusqu'à 1 024 caractères"
       },
       "upload_size": {
-        "name": "Taille maximale du fichier",
+        "name": "Limite de taille de fichier",
         "hint": "",
-        "text": "jusqu'à 2.0 Go"
+        "text": "jusqu'à 2 Go"
       },
       "file_name_length": {
-        "name": "Longueur du nom d'un fichier",
+        "name": "Longueur du nom de fichier",
         "hint": "",
         "text": "jusqu'à 60 caractères, les autres seront supprimés"
       },
@@ -308,9 +308,9 @@
         "text": "jusqu'à 10 dossiers"
       },
       "pinned_chats_in_folder": {
-        "name": "Discussions épinglées dans un dossier",
+        "name": "Échanges épinglés dans un dossier",
         "hint": "",
-        "text": "jusqu'à 100 discussions"
+        "text": "jusqu'à 100 échanges"
       }
     }
   },
@@ -330,7 +330,7 @@
       "geochats_number": {
         "name": "Nombre de groupes locaux visibles (géolocalisation)",
         "hint": "",
-        "text": "les 10 plus proche"
+        "text": "les 10 plus proches"
       }
     }
   },
@@ -340,7 +340,7 @@
       "bots_amount": {
         "name": "Nombre de bots",
         "hint": "(créé avec @BotFather)",
-        "text": "jusqu'à 20 éléments"
+        "text": "jusqu'à 20"
       },
       "username length": {
         "name": "Longueur du @username",
@@ -468,9 +468,9 @@
         "text": "jusqu'à 120 pour les statique, jusqu'à 50 pour les animés"
       },
       "sticker_size": {
-        "name": "Taille des autocollants",
+        "name": "Taille de l'autocollant",
         "hint": "",
-        "text": "un côté égal à 512px, l'autre côté 512px ou moins; strictement 512x512 pour autocollants animés"
+        "text": "un côté égal à 512px, l'autre côté 512px ou moins; exactement 512x512 pour les animés"
       },
       "animation_duration": {
         "name": "Durée d'animation",
@@ -478,7 +478,7 @@
         "text": "jusqu’à 3 secondes"
       },
       "file_size": {
-        "name": "Taille du fichier des autocollants",
+        "name": "Taille du fichier de l'autocollant",
         "hint": "",
         "text": "jusqu'à 512 KB pour les statique, jusqu'à 64 KB pour les animés"
       },
@@ -510,7 +510,7 @@
       "text_size": {
         "name": "Taille des articles",
         "hint": "",
-        "text": "jusqu'à 64 KiB"
+        "text": "jusqu'à 64 Ko"
       }
     }
   },
@@ -520,7 +520,7 @@
       "properties": {
         "name": "Propriétés de l'avatar vidéo",
         "hint": "",
-        "text": "800x800px, jusqu'à 2 MB"
+        "text": "800x800px, jusqu'à 2 Mo"
       }
     }
   }

@@ -493,9 +493,9 @@
         "text": "64 tagacha belgi"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "/addstickers stiker to'plami uzunligi",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "62 tagacha belgi"
       }
     }
   },

@@ -210,12 +210,12 @@
       "channel_admins": {
         "name": "Nombre d'administrateurs dans un canal",
         "hint": "(y compris les bots; vous pouvez en ajouter à votre canal uniquement en les rendant administrateur)",
-        "text": "jusqu'à 50 comptes"
+        "text": "jusqu'à 50"
       },
       "editing": {
-        "name": "Édition des messages",
+        "name": "Édition des publications",
         "hint": "",
-        "text": "illimité (si le canal a un groupe de discussion lié, les messages âgés de plus de 2 semaines ne seront pas mis à jour dans la discussion)"
+        "text": "illimité (si le canal a un groupe de discussion lié, les messages de plus de 2 semaines ne seront pas mis à jour dans le groupe)"
       },
       "subscribers": {
         "name": "Nombre d'abonnées à un canal",
@@ -223,14 +223,14 @@
         "text": "illimité"
       },
       "visible_participants": {
-        "name": "Visibilités des abonnés",
+        "name": "Abonnés visibles",
         "hint": "pour l'administrateur du canal",
         "text": "200 personnes"
       },
       "channel_deletion": {
         "name": "Suppression de canal",
         "hint": "",
-        "text": "les canaux avec plus de 1K d'abonnés ne peuvent être supprimés qu'en passant par le support Telegram"
+        "text": "les canaux avec plus de 1 000 abonnés peuvent être supprimés qu'en passant par le support Telegram"
       },
       "private_channel_access": {
         "name": "Affichage des canaux privés sans rejoindre",
@@ -360,15 +360,15 @@
       "upload_limit_botapi": {
         "name": "Taille limite d'envoi pour un fichier",
         "hint": "(BotAPI)",
-        "text": "jusqu'à 50 MB"
+        "text": "jusqu'à 50 Mo"
       },
       "download_limit_botapi": {
         "name": "Limite de téléchargement de fichier",
         "hint": "(BotAPI)",
-        "text": "jusqu'à 20 MB"
+        "text": "jusqu'à 20 Mo"
       },
       "forwarding": {
-        "name": "Transfère de message",
+        "name": "Transfère de messages",
         "hint": "",
         "text": "jusqu'à 2 000 par heure"
       },
@@ -378,24 +378,24 @@
         "text": "jusqu'à 100 éléments"
       },
       "formatting_data": {
-        "name": "Données de formatage du message",
+        "name": "Données de formatage de message",
         "hint": "",
-        "text": "jusqu'à 10 KB"
+        "text": "jusqu'à 10 Ko"
       },
       "formatting_entities": {
         "name": "Formatage des entités",
-        "hint": "(gras, italique, etc.)",
+        "hint": "(gras, italique, etc...)",
         "text": "jusqu'à 100 éléments"
       },
       "messaging_frequency": {
         "name": "Fréquence des messages",
-        "hint": "(peut être augmenté par BotSupport)",
-        "text": "jusqu'à 30 messages par seconde; 20 par minute pour les discussions publiques et les canaux"
+        "hint": "(peut être augmentée par BotSupport)",
+        "text": "jusqu'à 30 messages par seconde; 20 par minute pour les échanges publics et les canaux"
       },
       "api_requests_frequency": {
         "name": "Fréquence des requêtes API",
-        "hint": "(peut être augmenté par BotSupport)",
-        "text": "jusqu'à 30 demandes par seconde"
+        "hint": "(peut être augmentée par BotSupport)",
+        "text": "jusqu'à 30 requêtes par seconde"
       },
       "bot_commands_count": {
         "name": "Nombre de commandes",
@@ -408,9 +408,9 @@
         "text": "de 1 à 32 caractères"
       },
       "bot_command_description_length": {
-        "name": "Longueur de la description de la commande",
+        "name": "Longueur de la description d'une commande",
         "hint": "",
-        "text": "minimum : 2 symboles avec BotFather, 3 symboles avec l'API Bot ; maximum : 256 caractères dans les deux"
+        "text": "minimum : 2 symboles avec BotFather, 3 symboles avec l'API Bot; maximum : 256 caractères pour les deux"
       },
       "start_payload_size": {
         "name": "Longueur du message de démarrage (/start)",
@@ -424,7 +424,7 @@
       },
       "username_resolve_limit": {
         "name": "Limite de résolution des noms d'utilisateurs",
-        "hint": "(pour les robots et les comptes d'utilisateur)",
+        "hint": "(pour les bots et les comptes utilisateurs)",
         "text": "jusqu'à 200 noms d'utilisateurs par jour"
       },
       "inline_max_items": {
@@ -435,7 +435,7 @@
     }
   },
   "search": {
-    "name": "Rechercher",
+    "name": "Recherche",
     "items": {
       "global_search": {
         "name": "Résultats de la recherche globale",

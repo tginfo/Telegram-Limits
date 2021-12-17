@@ -413,7 +413,7 @@
         "text": "minimum : 2 symboles avec BotFather, 3 symboles avec l'API Bot; maximum : 256 caractères pour les deux"
       },
       "start_payload_size": {
-        "name": "Longueur du message de démarrage (/start)",
+        "name": "Longueur des arguments /start",
         "hint": "",
         "text": "jusqu'à 64 caractères"
       },

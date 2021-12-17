@@ -40,7 +40,7 @@
       "geochats_number": {
         "name": "Nombre d'échanges locaux (géolocalisés)",
         "hint": "dont vous pouvez être membre",
-        "text": "jusqu'à 5 (incluant ceux vous possédez)"
+        "text": "jusqu'à 5 (incluant ceux que vous possédez)"
       },
       "gifs_number": {
         "name": "Nombre de GIFs enregistrables",
@@ -65,12 +65,12 @@
     }
   },
   "chats": {
-    "name": "Discussions et groupes",
+    "name": "Échanges et groupes",
     "items": {
       "participants_number": {
         "name": "Membres",
         "hint": "(la limite peut être augmentée)",
-        "text": "jusqu'à 200 000 et illimité dans les groupes de diffusion"
+        "text": "jusqu'à 200 000 mais illimité dans les groupes de diffusion"
       },
       "admins_number": {
         "name": "Nombre d'administrateurs",
@@ -83,12 +83,12 @@
         "text": "jusqu'à 20"
       },
       "pinned_number": {
-        "name": "Discussions épinglées dans la liste principale",
+        "name": "Échanges épinglés dans la liste principale",
         "hint": "",
-        "text": "jusqu'à 5 discussions ou canaux + 5 discussions secrètes"
+        "text": "jusqu'à 5 échanges ou canaux + 5 conversations secrètes"
       },
       "group_name": {
-        "name": "Nom et description du groupe",
+        "name": "Nom et description d'un groupe",
         "hint": "",
         "text": "jusqu'à 255 caractères"
       },

@@ -130,7 +130,7 @@
       "username_reservation": {
         "name": "Réservation de changement de nom d'utilisateur",
         "hint": "(délai avant que le nom d'utilisateur ne soit disponible pour tout le monde, pas seulement pour le propriétaire d'origine)",
-        "text": "environ 15-30 minutes"
+        "text": "de 15 à 30 minutes"
       },
       "participants_for_group_stickers": {
         "name": "Autocollants de groupe mis en avant",
@@ -138,7 +138,7 @@
         "text": "groupes avec plus de 100 membres"
       },
       "chat_role_length": {
-        "name": "Longueur du rôle administrateur",
+        "name": "Longueur du titre administrateur",
         "hint": "",
         "text": "jusqu'à 16 caractères"
       },
@@ -148,9 +148,9 @@
         "text": "jusqu'à 128 caractères"
       },
       "broadcast_group_access": {
-        "name": "Conversion d'un supergroupe en groupe de diffusion",
+        "name": "Convertir un supergroupe en groupe de diffusion",
         "hint": "",
-        "text": "pour les discussions avec plus de 199 000 membres"
+        "text": "pour les échanges avec plus de 199 000 membres"
       },
       "read_receipts_availability": {
         "name": "Voir les accusés de réceptions",
@@ -158,7 +158,7 @@
         "text": "dans les échanges de 100 membres ou moins, la liste des utilisateurs ayant lus n'est disponible que pour l'utilisateur qui a envoyé le message"
       },
       "read_receipts_lifetime": {
-        "name": "Durée de vie des accusés de réceptions",
+        "name": "Durée de vie des accusés de lecture",
         "hint": "",
         "text": "jusqu'à 7 jours après l'envoi du message"
       }
@@ -175,7 +175,7 @@
       "video_chat_broadcast": {
         "name": "Diffusion vidéo",
         "hint": "(caméra, partage d'écran)",
-        "text": "jusqu'à 30 diffusions d'utilisateurs simultanément"
+        "text": "jusqu'à 30 diffusions simultanément"
       },
       "video_chat_viewers": {
         "name": "Spectateurs d'une diffusion vidéo",
@@ -183,7 +183,7 @@
         "text": "officiellement illimité mais, dans la pratique le flux devient instable vers 2000 spectateurs simultanés"
       },
       "voice_chat_schedule": {
-        "name": "Programmation de salons",
+        "name": "Planification de salons",
         "hint": "",
         "text": "jusqu'à 7 jours"
       }
@@ -203,13 +203,13 @@
         "text": "5 à 32 caractères"
       },
       "channel_name": {
-        "name": "Nom et description d'un canal",
+        "name": "Nom et description de canal",
         "hint": "",
         "text": "jusqu'à 255 caractères"
       },
       "channel_admins": {
         "name": "Nombre d'administrateurs dans un canal",
-        "hint": "(y compris les bots; vous pouvez ajouter un bot à votre canal uniquement en en faisant un administrateur)",
+        "hint": "(y compris les bots; vous pouvez en ajouter à votre canal uniquement en les rendant administrateur)",
         "text": "jusqu'à 50 comptes"
       },
       "editing": {

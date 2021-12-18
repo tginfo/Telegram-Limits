@@ -465,7 +465,7 @@
       "pack_size": {
         "name": "Numero di sticker in un pacchetto",
         "hint": "",
-        "text": "fino a 120 per , up to 50 for animated"
+        "text": "fino a 120 per sticker statici, fino a 50 per quelli animati"
       },
       "sticker_size": {
         "name": "Dimensioni di uno sticker",

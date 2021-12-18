@@ -38,9 +38,9 @@
         "text": "500’e kadar (kendinizinkiler dahil)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Konuma dayalı sohbet sayısı",
+        "hint": "üye olabileceğiniz grup sayısı",
+        "text": "5’e kadar (kendinizinkiler dahil)"
       },
       "gifs_number": {
         "name": "Kayıtlı GIF sayısı",
@@ -153,19 +153,19 @@
         "text": "199,000'den fazla üyeye sahip sohbetler için"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Okundu bilgisi kullanılabilirliği",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "100 veya daha az üyeli gruplarda, yalnızca mesajı gönderen kullanıcı için kullanılabilir"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Okundu bilgisi süresi",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "mesaj gönderildikten 7 gün sonrasına kadar"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Sesli & Görüntülü Sohbetler",
     "items": {
       "voice_chat_participants": {
         "name": "Sesli Sohbet dinleyicileri",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Görüntü paylaşımını izleyenler",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "resmi olarak sınırsız olduğu belirtiliyor fakat pratikte görüntü paylaşımı yaklaşık 2.000 eşzamanlı izleyicide kararsız hale geliyor"
       },
       "voice_chat_schedule": {
         "name": "Zamanlanmış sohbetler",
@@ -273,9 +273,9 @@
         "text": "2.0 GB'a kadar"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Dosya adı uzunluğu",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "60 karaktere kadar, gerisi kesilir"
       },
       "video_message_duration": {
         "name": "Video mesaj süresi",
@@ -493,9 +493,9 @@
         "text": "64 karaktere kadar"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "Paket /addstickers bağlantı uzunluğu",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "62 karaktere kadar"
       }
     }
   },

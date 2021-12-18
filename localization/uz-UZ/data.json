@@ -38,9 +38,9 @@
         "text": "500 tagacha (shu jumladan o'zingizniki)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Geochatlat soni",
+        "hint": "siz a'zo bo'lishingiz mumkin",
+        "text": "5 tagacha (shu jumladan o'zingizniki)"
       },
       "gifs_number": {
         "name": "Saqlangan Giflar soni",
@@ -153,19 +153,19 @@
         "text": "199,000 tadan yuqori a'zolar"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Chatda o'qish ruhsatnomasi",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "100 yoki undan kam a'zolar bilan suhbatlar uchun foydalanuvchilar ro'yxati faqat xabarni yuborgan foydalanuvchi uchun mavjud"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Chatda o'qish ruhsatnomasi vaqti",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "xabar yuborilgan kundan boshlab 7 kungacha"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Ovozli va Video chatlar",
     "items": {
       "voice_chat_participants": {
         "name": "Ovozli chat qatnashuvchilari",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Video translyatsiya kuzatuvchilari",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "Rasmiy ravishda cheksiz deb aytilgan, amalda oqim bir vaqtning o'zida 2000 ga yaqin tomoshabinlarda beqaror bo'lib qoladi."
       },
       "voice_chat_schedule": {
         "name": "Rejalashtirilgan suhbatlar",
@@ -273,9 +273,9 @@
         "text": "2.0 GB gacha"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Fayl nomi uzunligi",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "60 ta belgigacha, qolganlari qisqartiriladi"
       },
       "video_message_duration": {
         "name": "Video xabarning davomiyligi",
@@ -493,9 +493,9 @@
         "text": "64 tagacha belgi"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "/addstickers stiker to'plami uzunligi",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "62 tagacha belgi"
       }
     }
   },

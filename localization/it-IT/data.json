@@ -129,13 +129,13 @@
       },
       "username_reservation": {
         "name": "Proprietà di un username",
-        "hint": "(tempo prima che l'usernam sia disponibile per tutti, non solo per il proprietario originale)",
+        "hint": "(tempo prima che l'username sia disponibile per tutti, non solo per il proprietario originale)",
         "text": "circa 15-30 minuti"
       },
       "participants_for_group_stickers": {
         "name": "Sticker del gruppo",
         "hint": "",
-        "text": "gruppi conppiù di 100 partecipanti"
+        "text": "gruppi da almeno 100 partecipanti"
       },
       "chat_role_length": {
         "name": "Lunghezza del ruolo da admin",

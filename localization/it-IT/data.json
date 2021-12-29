@@ -20,7 +20,7 @@
       "last_name_length": {
         "name": "Lunghezza del cognome",
         "hint": "",
-        "text": "da 1 a 64 caratteri"
+        "text": "da 0 a 64 caratteri"
       },
       "self_destruction": {
         "name": "Autodistruzione dell'account",
@@ -34,7 +34,7 @@
       },
       "channels_and_chats_number": {
         "name": "Numero di supergruppi e canali",
-        "hint": "puoi far parte di",
+        "hint": "di cui puoi far parte",
         "text": "fino a 500 (inclusi quelli creati da te)"
       },
       "geochats_number": {
@@ -129,13 +129,13 @@
       },
       "username_reservation": {
         "name": "Proprietà di un username",
-        "hint": "(tempo prima che l'usernam sia disponibile per tutti, non solo per il proprietario originale)",
+        "hint": "(tempo prima che l'username sia disponibile per tutti, non solo per il proprietario originale)",
         "text": "circa 15-30 minuti"
       },
       "participants_for_group_stickers": {
         "name": "Sticker del gruppo",
         "hint": "",
-        "text": "gruppi conppiù di 100 partecipanti"
+        "text": "gruppi da almeno 100 partecipanti"
       },
       "chat_role_length": {
         "name": "Lunghezza del ruolo da admin",

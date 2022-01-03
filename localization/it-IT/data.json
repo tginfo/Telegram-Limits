@@ -39,7 +39,7 @@
       },
       "geochats_number": {
         "name": "Numero delle geochat",
-        "hint": "puoi far parte di",
+        "hint": "di cui puoi far parte",
         "text": "fino a 5 (inclusi quelli che possiedi)"
       },
       "gifs_number": {

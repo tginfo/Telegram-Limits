@@ -478,7 +478,7 @@
         "text": "fino a 3 secondi"
       },
       "file_size": {
-        "name": "Peso di uno sticker",
+        "name": "Grandezza di uno sticker",
         "hint": "",
         "text": "fino a 512 KB per sticker statici, fino a 64 KB per quelli animati"
       },

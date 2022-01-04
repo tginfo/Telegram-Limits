@@ -19,7 +19,6 @@ jobs:
           token: "${{ github.token }}"
           target_url: https://limits.tginfo.me
           ref: "${{ github.event.after }}"
-          auto_merge: "false"
-          inititial_status: pending
+          initial_status: pending
           environment: production
           description: "Release publication"

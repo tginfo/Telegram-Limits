@@ -28,7 +28,7 @@
         "text": "1, 3, 6 e 12 mesi (preimpostato a 6)"
       },
       "spam_ban": {
-        "name": "Divieto di spam",
+        "name": "Limitazione per spam",
         "hint": "",
         "text": "Da 3 giorni in poi"
       },
@@ -39,7 +39,7 @@
       },
       "geochats_number": {
         "name": "Numero delle geochat",
-        "hint": "puoi far parte di",
+        "hint": "di cui puoi far parte",
         "text": "fino a 5 (inclusi quelli che possiedi)"
       },
       "gifs_number": {
@@ -143,7 +143,7 @@
         "text": "fino a 16 caratteri"
       },
       "chat_title_length": {
-        "name": "Lunghezza del titolo della chat",
+        "name": "Lunghezza del nome della chat",
         "hint": "",
         "text": "fino a 128 caratteri"
       },
@@ -358,7 +358,7 @@
         "text": "fino a 512 caratteri"
       },
       "upload_limit_botapi": {
-        "name": "Limite del peso di un file",
+        "name": "Limite di grandezza per file",
         "hint": "(BotAPI)",
         "text": "fino a 50 MB"
       },
@@ -378,7 +378,7 @@
         "text": "fino a 100 entità"
       },
       "formatting_data": {
-        "name": "Peso della formattazione di un messaggio",
+        "name": "Grandezza della formattazione di un messaggio",
         "hint": "",
         "text": "fino a 10 KB"
       },
@@ -478,7 +478,7 @@
         "text": "fino a 3 secondi"
       },
       "file_size": {
-        "name": "Peso di uno sticker",
+        "name": "Grandezza di uno sticker",
         "hint": "",
         "text": "fino a 512 KB per sticker statici, fino a 64 KB per quelli animati"
       },
@@ -508,7 +508,7 @@
         "text": "fino a 5 profili"
       },
       "text_size": {
-        "name": "Peso di un articolo",
+        "name": "Dimensione di un articolo",
         "hint": "",
         "text": "fino a 64 KiB"
       }

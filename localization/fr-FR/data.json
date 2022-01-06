@@ -143,7 +143,7 @@
         "text": "jusqu'à 16 caractères"
       },
       "chat_title_length": {
-        "name": "Taille du titre d'un échange",
+        "name": "Longueur du titre d'un échange",
         "hint": "",
         "text": "jusqu'à 128 caractères"
       },

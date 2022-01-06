@@ -13,12 +13,12 @@
         "text": "jusqu'à 70 caractères"
       },
       "name_length": {
-        "name": "Longueur du prénom",
+        "name": "Longueur d'un prénom",
         "hint": "",
         "text": "de 1 à 64 caractères"
       },
       "last_name_length": {
-        "name": "Longueur du nom",
+        "name": "Longueur d'un nom",
         "hint": "",
         "text": "de 0 à 64 caractères"
       },
@@ -138,12 +138,12 @@
         "text": "groupes avec plus de 100 membres"
       },
       "chat_role_length": {
-        "name": "Longueur du titre administrateur",
+        "name": "Longueur d'un titre administrateur",
         "hint": "",
         "text": "jusqu'à 16 caractères"
       },
       "chat_title_length": {
-        "name": "Taille du titre d'un échange",
+        "name": "Longueur du titre d'un échange",
         "hint": "",
         "text": "jusqu'à 128 caractères"
       },
@@ -153,7 +153,7 @@
         "text": "pour les échanges avec plus de 199 000 membres"
       },
       "read_receipts_availability": {
-        "name": "Voir les accusés de réceptions",
+        "name": "Visibilité des accusés de lecture",
         "hint": "",
         "text": "dans les échanges de 100 membres ou moins, la liste des utilisateurs ayant lus n'est disponible que pour l'utilisateur qui a envoyé le message"
       },
@@ -168,7 +168,7 @@
     "name": "Échanges vocales et vidéos",
     "items": {
       "voice_chat_participants": {
-        "name": "Auditeurs salon audio",
+        "name": "Auditeurs d'un salon audio",
         "hint": "",
         "text": "illimité"
       },
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Spectateurs d'une diffusion vidéo",
         "hint": "",
-        "text": "officiellement illimité mais, dans la pratique le flux devient instable vers 2000 spectateurs simultanés"
+        "text": "officiellement illimité mais dans la pratique le flux devient instable vers 2000 spectateurs simultanés"
       },
       "voice_chat_schedule": {
         "name": "Planification de salons",
@@ -198,12 +198,12 @@
         "text": "jusqu'à 10 (groupes inclus)"
       },
       "username_length": {
-        "name": "Longueur du @username",
+        "name": "Longueur d'un @username",
         "hint": "",
         "text": "5 à 32 caractères"
       },
       "channel_name": {
-        "name": "Nom et description de canal",
+        "name": "Nom et description d'un canal",
         "hint": "",
         "text": "jusqu'à 255 caractères"
       },
@@ -215,7 +215,7 @@
       "editing": {
         "name": "Édition des publications",
         "hint": "",
-        "text": "illimité (si le canal a un groupe de discussion lié, les messages de plus de 2 semaines ne seront pas mis à jour dans le groupe)"
+        "text": "illimité (si un canal possède un groupe de discussion, les messages de plus de 2 semaines ne seront pas édités dans le groupe)"
       },
       "subscribers": {
         "name": "Nombre d'abonnées à un canal",
@@ -228,7 +228,7 @@
         "text": "200 personnes"
       },
       "channel_deletion": {
-        "name": "Suppression de canal",
+        "name": "Suppression d'un canal",
         "hint": "",
         "text": "les canaux avec plus de 1 000 abonnés peuvent être supprimés qu'en passant par le support Telegram"
       },
@@ -263,17 +263,17 @@
         "text": "jusqu'à 4 096 caractères"
       },
       "media_descriptions": {
-        "name": "Légendes des médias",
+        "name": "Légendes de médias",
         "hint": "",
         "text": "jusqu'à 1 024 caractères"
       },
       "upload_size": {
-        "name": "Limite de taille de fichier",
+        "name": "Taille maximale d'un fichier",
         "hint": "",
         "text": "jusqu'à 2 Go"
       },
       "file_name_length": {
-        "name": "Longueur du nom de fichier",
+        "name": "Longueur d'un nom de fichier",
         "hint": "",
         "text": "jusqu'à 60 caractères, les autres seront supprimés"
       },
@@ -343,17 +343,17 @@
         "text": "jusqu'à 20"
       },
       "username length": {
-        "name": "Longueur du @username",
+        "name": "Longueur d'un @username",
         "hint": "pour les bots",
         "text": "5 à 32 caractères"
       },
       "info_length": {
-        "name": "Longueur des infos du bot",
+        "name": "Longueur des infos d'un bot",
         "hint": "(/setabouttext)",
         "text": "jusqu'à 120 caractères"
       },
       "description_length": {
-        "name": "Longueur de la description",
+        "name": "Longueur de description d'un bot",
         "hint": "",
         "text": "jusqu'à 512 caractères"
       },
@@ -408,7 +408,7 @@
         "text": "de 1 à 32 caractères"
       },
       "bot_command_description_length": {
-        "name": "Longueur de la description d'une commande",
+        "name": "Longueur de description d'une commande",
         "hint": "",
         "text": "minimum : 2 symboles avec BotFather, 3 symboles avec l'API Bot; maximum : 256 caractères pour les deux"
       },
@@ -418,7 +418,7 @@
         "text": "jusqu'à 64 caractères"
       },
       "bot_alert_length": {
-        "name": "Longueur des messages d'alertes du bot",
+        "name": "Longueur des messages d'alertes d'un bot",
         "hint": "",
         "text": "jusqu'à 200 caractères"
       },
@@ -488,7 +488,7 @@
         "text": "30 ou 60"
       },
       "stickerpack_name_length": {
-        "name": "Longueur du nom du pack",
+        "name": "Longueur d'un nom de pack",
         "hint": "",
         "text": "jusqu'à 64 caractères"
       },

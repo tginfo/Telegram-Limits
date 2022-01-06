@@ -263,12 +263,12 @@
         "text": "jusqu'à 4 096 caractères"
       },
       "media_descriptions": {
-        "name": "Légendes des médias",
+        "name": "Légendes de médias",
         "hint": "",
         "text": "jusqu'à 1 024 caractères"
       },
       "upload_size": {
-        "name": "Limite de taille de fichier",
+        "name": "Taille maximale d'un fichier",
         "hint": "",
         "text": "jusqu'à 2 Go"
       },
@@ -353,7 +353,7 @@
         "text": "jusqu'à 120 caractères"
       },
       "description_length": {
-        "name": "Longueur de la description",
+        "name": "Longueur de description d'un bot",
         "hint": "",
         "text": "jusqu'à 512 caractères"
       },
@@ -408,7 +408,7 @@
         "text": "de 1 à 32 caractères"
       },
       "bot_command_description_length": {
-        "name": "Longueur de la description d'une commande",
+        "name": "Longueur de description d'une commande",
         "hint": "",
         "text": "minimum : 2 symboles avec BotFather, 3 symboles avec l'API Bot; maximum : 256 caractères pour les deux"
       },

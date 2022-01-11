@@ -40,7 +40,7 @@
       "geochats_number": {
         "name": "Број група заснованих на локацији",
         "hint": "којих можете бити члан",
-        "text": "up to 5 (including ones you own)"
+        "text": "до 5 (укључујући и оне чији сте власник)"
       },
       "gifs_number": {
         "name": "Број сачуваних GIF-ова",
@@ -153,19 +153,19 @@
         "text": "за групе преко 199.000 чланова"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Доступност о томе ко је прочитао поруку",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "за групе са 100 чланова или мање, листа корисника који су прегледали поруку се приказује ссмо кориснику који је послао поруку"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Доступност информације о томе ко је прегледао поруку",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "до 7 дана од момента слања поруке"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Гласовна и видео ћаскања",
     "items": {
       "voice_chat_participants": {
         "name": "Слушаоци гласовног ћаскања",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Гледаоци видео-емитовања",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "званично је изјављено да је неограничено, у пракси, стримовање постаје нестабилно на око 2000 истовремених гледалаца"
       },
       "voice_chat_schedule": {
         "name": "Заказана гласовна ћаскања",
@@ -273,9 +273,9 @@
         "text": "до 2,0 GB"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Дужина назива датотеке",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "до 60 знакова, остатак ће бити исечен"
       },
       "video_message_duration": {
         "name": "Трајање видео-поруке",
@@ -493,9 +493,9 @@
         "text": "до 64 знака"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "Пакет стикера /addstickers url дужина",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "до 62 знака"
       }
     }
   },

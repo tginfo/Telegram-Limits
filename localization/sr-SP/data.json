@@ -38,8 +38,8 @@
         "text": "до 500 (укључујући и оне које поседујете)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
+        "name": "Број група заснованих на локацији",
+        "hint": "којих можете бити члан",
         "text": "up to 5 (including ones you own)"
       },
       "gifs_number": {

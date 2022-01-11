@@ -493,7 +493,7 @@
         "text": "до 64 знака"
       },
       "stickerpack_url_length": {
-        "name": "Пакет стикера /addstickers url дужина",
+        "name": "Пакет /addstickers url дужина",
         "hint": "",
         "text": "до 62 знака"
       }

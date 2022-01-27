@@ -38,9 +38,9 @@
         "text": "تا 500 (بەوانەی خۆتەوە)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "ژمارەی وتووێژە جوگرافییەکان",
+        "hint": "کە دەتوانیت ببیت بە ئەندامیان",
+        "text": "تا 5 (بەوانەی خۆتەوە)"
       },
       "gifs_number": {
         "name": "ژمارەی گیفە پاشەکەوتکراوەکان",
@@ -153,7 +153,7 @@
         "text": "بۆ ئەو گروپانەی کە 199,000 ئەندام زیاتریان هەیە"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "دەرکەوتنی ئەو کەسانەی پەیامێکیان خوێندووەتەوە",
         "hint": "",
         "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
       },
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "بینەرانی ڤیدیۆ",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "تەلەگرام وتوویەتی سنووری نییە، بەڵام بە کرداری، جێگیر نامێنێت کاتێک زیاتر لە 2,000 بینەر دەبێت"
       },
       "voice_chat_schedule": {
         "name": "پەیامی بەرنامەبۆداڕێژراو",
@@ -215,7 +215,7 @@
       "editing": {
         "name": "دەستکاریکردنی پۆستەکان",
         "hint": "",
-        "text": "بێسنوور (ئەگەر کەناڵەکە گروپێکی گفتوگۆی لینککراوی هەیە، ئەو بابەتانەی کە لە 2 هەفتە زیاترە لە چاتنوێکردنەوە دا نوێ ناکرێتەوە)"
+        "text": "بێسنوور (پۆستی کۆنتر لە 2 هەفتە نوێ نابێتەوە لەناو گروپی گفتوگۆی کەناڵەکە، ئەگەر هەیبێت)"
       },
       "subscribers": {
         "name": "ژمارەی بەشداربووانی کەناڵ",

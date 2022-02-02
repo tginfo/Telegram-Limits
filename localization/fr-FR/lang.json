@@ -1,9 +1,9 @@
 {
     "title": "Telegram Limits - Telegram Info",
-    "description": "Limitations Telegram est toujours à jour en {%year%}. Limite de la longueur des messages, du nombre d'autocollants dans les packs, de la fréquence des messages dans l'API Bot, du nombre de membres, de l'édition, de la taille maximale de fichier, etc...",
+    "description": "Telegram limits est toujours à jour en {%year%}. Longueur maximum des messages, nombre d'autocollants dans un pack, fréquence des messages pour l'API Bot, nombre de membres, édition, taille maximale des fichiers et bien plus",
     "description_short": "Telegram limits est continuellement mis à jour",
     "study": "| Études",
-    "big_title": "Limitations Telegram",
+    "big_title": "Telegram Limits",
     "article_name": "Pourquoi des limitations existent",
     "article_p1": "Telegram, comme tout autre service, utilise des restrictions pour garantir que les utilisateurs maintiennent une utilisation équitable.",
     "article_p2": "Ce tableau répertorie les limites actuellement connues dans Telegram et est constamment mis à jour.",

@@ -53,7 +53,7 @@
         "text": "jusqu’à 10 secondes"
       },
       "groups_and_channels_creation": {
-        "name": "Création de groupes et de canaux",
+        "name": "Création de groupes et canaux",
         "hint": "",
         "text": "jusqu'à 50 par jour"
       },
@@ -263,7 +263,7 @@
         "text": "jusqu'à 4 096 caractères"
       },
       "media_descriptions": {
-        "name": "Légendes de médias",
+        "name": "Légende des médias",
         "hint": "",
         "text": "jusqu'à 1 024 caractères"
       },

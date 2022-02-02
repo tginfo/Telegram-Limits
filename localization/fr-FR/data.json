@@ -48,7 +48,7 @@
         "text": "jusqu'à 200"
       },
       "video_length": {
-        "name": "Durée de l'avatar vidéo",
+        "name": "Durée d'un avatar vidéo",
         "hint": "",
         "text": "jusqu’à 10 secondes"
       },
@@ -93,7 +93,7 @@
         "text": "jusqu'à 255 caractères"
       },
       "editing": {
-        "name": "Édition de message",
+        "name": "Édition d'un message",
         "hint": "",
         "text": "48 heures après l'envoi et illimité pour les messages Enregistrés et pour les administrateurs avec la permission d'épingler"
       },

@@ -48,12 +48,12 @@
         "text": "jusqu'à 200"
       },
       "video_length": {
-        "name": "Durée de l'avatar vidéo",
+        "name": "Durée d'un avatar vidéo",
         "hint": "",
         "text": "jusqu’à 10 secondes"
       },
       "groups_and_channels_creation": {
-        "name": "Création de groupes et de canaux",
+        "name": "Création de groupes et canaux",
         "hint": "",
         "text": "jusqu'à 50 par jour"
       },
@@ -93,7 +93,7 @@
         "text": "jusqu'à 255 caractères"
       },
       "editing": {
-        "name": "Édition de message",
+        "name": "Édition d'un message",
         "hint": "",
         "text": "48 heures après l'envoi et illimité pour les messages Enregistrés et pour les administrateurs avec la permission d'épingler"
       },
@@ -263,7 +263,7 @@
         "text": "jusqu'à 4 096 caractères"
       },
       "media_descriptions": {
-        "name": "Légendes de médias",
+        "name": "Légende des médias",
         "hint": "",
         "text": "jusqu'à 1 024 caractères"
       },

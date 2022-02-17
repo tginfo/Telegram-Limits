@@ -440,7 +440,7 @@
       "global_search": {
         "name": "Global search results",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "up to 10 items"
       },
       "global_search_min_query": {
         "name": "Minimal query length",

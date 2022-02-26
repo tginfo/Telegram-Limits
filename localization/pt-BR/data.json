@@ -38,9 +38,9 @@
         "text": "até 500 (além dos que você criou)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "Numero de chat de localização",
+        "hint": "em que você pode juntar-se",
+        "text": "até 5 (além dos que você criou)"
       },
       "gifs_number": {
         "name": "Número de GIFs salvos",
@@ -153,19 +153,19 @@
         "text": "para chats com mais de 199.000 membros"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "Disponibilidade de confirmações de leitura",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "para bate-papos com 100 membros ou menos, a lista de usuários está disponível apenas para o usuário que enviou a mensagem"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "Ler todas as confirmações",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "até 7 dias desde o envio da mensagem"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Chats de voz e vídeo",
     "items": {
       "voice_chat_participants": {
         "name": "Ouvintes de chat de áudio",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Visualizadores de vídeo",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "oficialmente declara que é ilimitado, na prática, o fluxo se torna instável em cerca de 2.000 espectadores simultâneos"
       },
       "voice_chat_schedule": {
         "name": "Chats agendados",
@@ -273,9 +273,9 @@
         "text": "até 2,0 GB"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Comprimento do nome do arquivo",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "até 60 caracteres, outros serão cortados"
       },
       "video_message_duration": {
         "name": "Duração da mensagem de vídeo",
@@ -493,9 +493,9 @@
         "text": "até 64 caracteres"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "Comprimento do URL do pacote/addstickers",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "até 62 caracteres"
       }
     }
   },

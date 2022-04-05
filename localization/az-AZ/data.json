@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Fayl yükləmə limiti",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "50 MB-a qədər"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Fay endirmə limiti",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "20 MB-a qədər"
       },
-      "forwarding": {
-        "name": "Mesaj yönləndirmə",
-        "hint": "",
-        "text": "saatda 2000-ə qədər"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Klaviaturadakı düymə sayı",
@@ -387,15 +392,20 @@
         "hint": "(qalın, meyilli və s.)",
         "text": "100-ə qədər"
       },
-      "messaging_frequency": {
-        "name": "Mesaj tezliyi",
-        "hint": "(BotSupport tərəfindən artırıla bilər)",
-        "text": "saniyədə 30 mesaja qədər; ictimai söhbətlər və kanallar üçün dəqiqədə 20 mesaja qədər"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "API tələblərinin tezliyi",
-        "hint": "(BotSupport tərəfindən artırıla bilər)",
-        "text": "saniyədə 30 tələbə qədər"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Əmr sayı",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "Əmr açıqlama uzunluğu",
         "hint": "",
-        "text": "minimum: BotFather-də 2 simvol, BotAPI-də 3 simvol; maksimum: hər ikisində 256 simvol"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "Bot /start yüklə payload uzunluğu",
-        "hint": "",
-        "text": "64 simvola qədər"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "Bot xəbərdarlıq mesajının uzunluğu",
         "hint": "",
         "text": "200 simvola qədər"
       },
-      "username_resolve_limit": {
-        "name": "İstifadəçi adı həll limiti",
-        "hint": "(həm botlar, həm də istifadəçi hesabları üçün)",
-        "text": "gündəlik 200 istifadəçi adına qədər"
-      },
       "inline_max_items": {
         "name": "Sətir içi nəticə sayı",
         "hint": "",
-        "text": "50 elementə qədər"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "Video avatar xüsusiyyətləri",
         "hint": "",
         "text": "800x800px, 2 MB-a qədər"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Ліміт вивантаження файлу",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "до 50 Мб"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Ліміт завантаження файлу",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "до 20 Мб"
       },
-      "forwarding": {
-        "name": "Пересилання повідомлень",
-        "hint": "",
-        "text": "до 2,000 за годину"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Кількість кнопок клавіатури",
@@ -387,15 +392,20 @@
         "hint": "(жирний, курсив тощо)",
         "text": "до 100 елементів"
       },
-      "messaging_frequency": {
-        "name": "Частота повідомлень",
-        "hint": "(може бути збільшено через BotSupport)",
-        "text": "до 30 повідомлень в секунду; 20 повідомлень у хвилину для публічних чатів та каналів"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "Частота запитів до API",
-        "hint": "(може бути збільшено через BotSupport)",
-        "text": "до 30 запитів в секунду"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Кількість команд",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "Довжина опису команди",
         "hint": "",
-        "text": "мінімально: 2 символи в BotFather, 3 символи в Bot API; максимум: 256 символів в обох"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "Довжина метаданих для /start",
-        "hint": "",
-        "text": "до 64 символів"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "Довжина сповіщень бота",
         "hint": "",
         "text": "до 200 символів"
       },
-      "username_resolve_limit": {
-        "name": "Пошук користувачів за username",
-        "hint": "(для ботів і користувачів)",
-        "text": "до 200 імен користувачів щоденно"
-      },
       "inline_max_items": {
         "name": "Кількість inline-результатів",
         "hint": "",
-        "text": "до 50 елементів"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "Властивості відеоаватару",
         "hint": "",
         "text": "800x800px, до 2 Мб"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

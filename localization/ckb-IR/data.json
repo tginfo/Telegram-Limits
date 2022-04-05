@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "سنووری بەرزکردنەوەی پەڕگه",
-        "hint": "without local Bot API server",
+        "hint": "بەبێ ڕاژەی Bot APIـی ناوخۆیی",
         "text": "تا 50 مێگابایت"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "سنووری بەرزکردنەوەی پەڕگه",
+        "hint": "بە ڕاژەی Bot APIـی ناوخۆیی",
+        "text": "تا 2000 مێگابایت"
       },
       "download_limit_botapi": {
         "name": "سنووری داگرتنی پەڕگە",
-        "hint": "without local Bot API server",
+        "hint": "بەبێ ڕاژەی Bot APIـی ناوخۆیی",
         "text": "تا 20 مێگابایت"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "سنووری داگرتنی پەڕگە",
+        "hint": "بە ڕاژەی Bot APIـی ناوخۆیی",
+        "text": "تا 2000 مێگابایت"
       },
       "keys_in_keyboard_number": {
         "name": "ژمارەی دوگمەکانی تەختەکلیل",
@@ -393,19 +393,19 @@
         "text": "تا 100 دانە"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
+        "name": "فراوانیی پەخشکردنی پەیام",
         "hint": "only applies when actively sending notifications to otherwise inactive chats",
         "text": "up to 30 messages per second across chats"
       },
       "messaging_frequency": {
         "name": "Message sending frequency",
-        "hint": "in any chat",
+        "hint": "لە هەر وتووێژێک",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
         "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "hint": "لە گروپەکان",
+        "text": "تا 20 پەیام لە چرکەیەکدا لە هەر وتووێژێک"
       },
       "bot_commands_count": {
         "name": "ژمارەی فەرمانەکان",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "درێژیی پێناسەی فەرمان",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "تا 256 نووسە، دەبێت بەتاڵ نەبێت کاتێک بە Bot API دادەنرێت"
       },
       "start_payload_size": {
         "name": "درێژی نووسینەکانی دوای /start لە بەستەرە قووڵەکان",
         "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "text": "تا 64 بایت"
       },
       "bot_alert_length": {
         "name": "درێژیی پەیامی وریاکەری بۆت",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "ژمارەی ئەنجامەکانی ئینڵاین",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "تا 50 دانە لە هەر پەڕەیەکدا"
       }
     }
   },

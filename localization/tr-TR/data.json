@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Dosya yükleme sınırı",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "50 MB'a kadar"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Dosya indirme sınırı",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "20 MB'a kadar"
       },
-      "forwarding": {
-        "name": "Mesaj iletme",
-        "hint": "",
-        "text": "saatte 2,000’e kadar"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Klavye buton sayısı",
@@ -387,15 +392,20 @@
         "hint": "(kalın, eğik vb.)",
         "text": "100 öğeye kadar"
       },
-      "messaging_frequency": {
-        "name": "Mesaj sıklığı",
-        "hint": "(BotSupport tarafından yükseltilebilir)",
-        "text": "saniyede 30 mesaja kadar; genel sohbet ve kanallar için dakikada 20"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "API isteklerinin sıklığı‌‌",
-        "hint": "(BotSupport tarafından yükseltilebilir)",
-        "text": "saniyede 30 isteğe kadar‌‌"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Komut miktarı‌‌",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "Komut açıklama uzunluğu‌‌",
         "hint": "",
-        "text": "minimum: Botfather'da 2 sembol, Bot API'nda 3 sembol; maksimum: her ikisinde de 256 karakter"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "Bot /start veri uzunluğu",
-        "hint": "",
-        "text": "64 karaktere kadar"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "Bot uyarı mesajı uzunluğu",
         "hint": "",
         "text": "200 karaktere kadar"
       },
-      "username_resolve_limit": {
-        "name": "Kullanıcı adı çözüm sınırı",
-        "hint": "(hem botlar hem de kullanıcı hesapları için)",
-        "text": "günlük 200 kullanıcı adına kadar"
-      },
       "inline_max_items": {
         "name": "Satır içi sonuç sayısı",
         "hint": "",
-        "text": "50 öğeye kadar"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "Video profil özellikleri",
         "hint": "",
         "text": "800x800px, 2 MB'a kadar"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

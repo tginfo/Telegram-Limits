@@ -363,19 +363,19 @@
         "text": "hingga 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
+        "name": "Batas unggahan file",
         "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "text": "hingga 2000 MB"
       },
       "download_limit_botapi": {
-        "name": "batas unduhan file",
+        "name": "Batas unduhan file",
         "hint": "without local Bot API server",
         "text": "hingga 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
+        "name": "Batas unduhan file",
         "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "text": "hingga 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Jumlah tombol papan ketik",
@@ -393,19 +393,19 @@
         "text": "hingga 100 item"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Frekuensi pesan siaran",
+        "hint": "hanya berlaku ketika secara aktif mengirim pemberitahuan ke obrolan yang tidak aktif",
+        "text": "hingga 30 pesan per detik di seluruh obrolan"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
+        "name": "Frekuensi pengiriman pesan",
+        "hint": "di obrolan mana pun",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Frekuensi pengiriman pesan",
+        "hint": "di obrolan grup",
+        "text": "hingga 20 pesan per detik di obrolan yang sama"
       },
       "bot_commands_count": {
         "name": "Jumlah perintah",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Panjang deskripsi perintah",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "hingga 256 karakter, harus tidak kosong saat diatur lewat Bot API"
       },
       "start_payload_size": {
         "name": "Panjang payload /start bot",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "digunakan pada penautan dalam",
+        "text": "hingga 64 bita"
       },
       "bot_alert_length": {
         "name": "Panjang pesan peringatan bot",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Jumlah hasil inline",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "hingga 50 item per laman"
       }
     }
   },

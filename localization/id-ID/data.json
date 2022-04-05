@@ -364,17 +364,17 @@
       },
       "upload_limit_botapi_local": {
         "name": "Batas unggahan file",
-        "hint": "with local Bot API server",
+        "hint": "dengan server Bot API lokal",
         "text": "hingga 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Batas unduhan file",
-        "hint": "without local Bot API server",
+        "hint": "tanpa server Bot API lokal",
         "text": "hingga 20 MB"
       },
       "download_limit_botapi_local": {
         "name": "Batas unduhan file",
-        "hint": "with local Bot API server",
+        "hint": "dengan server Bot API lokal",
         "text": "hingga 2000 MB"
       },
       "keys_in_keyboard_number": {
@@ -400,7 +400,7 @@
       "messaging_frequency": {
         "name": "Frekuensi pengiriman pesan",
         "hint": "di obrolan mana pun",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "text": "hingga sekitar satu pesan per detik, kecuali mungkin rentetan singkat"
       },
       "messaging_frequency_groups": {
         "name": "Frekuensi pengiriman pesan",

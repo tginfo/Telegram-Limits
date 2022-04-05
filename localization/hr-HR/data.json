@@ -363,7 +363,7 @@
         "text": "do 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
+        "name": "Ograničenje prijenosa datoteka",
         "hint": "with local Bot API server",
         "text": "up to 2000 MB"
       },
@@ -373,7 +373,7 @@
         "text": "do 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
+        "name": "Ograničenje preuzimanja datoteka",
         "hint": "with local Bot API server",
         "text": "up to 2000 MB"
       },

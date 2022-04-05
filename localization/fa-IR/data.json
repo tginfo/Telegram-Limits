@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "محدودیت ارسال فایل",
-        "hint": "(Apiربات)",
+        "hint": "without local Bot API server",
         "text": "تا 50 مگابایت"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "محدودیت دریافت فایل",
-        "hint": "(Apiربات)",
+        "hint": "without local Bot API server",
         "text": "تا 20 مگابایت"
       },
-      "forwarding": {
-        "name": "هدایت کردن پیام",
-        "hint": "",
-        "text": "تا 2.000 پیام در هر ساعت"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "تعداد دکمه های صفحه کلید",
@@ -387,15 +392,20 @@
         "hint": "(پررنگ، شکسته و غیره.)",
         "text": "تا 100 مورد"
       },
-      "messaging_frequency": {
-        "name": "تناوب پیام ها",
-        "hint": "(با BotSupport قابل افزایش است)",
-        "text": "تا 30 پیام در هر ثانیه؛ 20 تا در هر دقیقه برای چت ها و کانال های عمومی"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "تناوب درخواست های API",
-        "hint": "(با BotSupport قابل افزایش است)",
-        "text": "تا 30 درخواست در هر ثانیه"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "میزان دستورات",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "طول توضیحات دستور",
         "hint": "",
-        "text": "حداقل: ۲ کارکتر در BotFather، ۳ کارکتر در Bot API؛ حداکثر: ۲۵۶ کارکتر در هر دو"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "طول متادیتای /start ربات",
-        "hint": "",
-        "text": "تا 64 کارکتر"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "طول پیام هشدار ربات",
         "hint": "",
         "text": "تا 200 کارکتر"
       },
-      "username_resolve_limit": {
-        "name": "محدودیت حل کردن (Resolve) نام‌کاربری",
-        "hint": "(هم برای ربات‌ها و هم برای حساب‌های کاربری)",
-        "text": "روزانه تا ۲۰۰ نام کاربری"
-      },
       "inline_max_items": {
         "name": "شماره نتایج درون خطی",
         "hint": "",
-        "text": "تا 50 مورد"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "ویژگی های ویدیو پروفایل",
         "hint": "",
         "text": "800px*800px، تا 2 مگابایت"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

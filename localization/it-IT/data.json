@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Limite di grandezza per file",
-        "hint": "without local Bot API server",
+        "hint": "senza il server API Bot locale",
         "text": "fino a 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Limite caricamento file",
+        "hint": "senza il server API Bot locale",
+        "text": "fino a 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Limite di download di un file",
-        "hint": "without local Bot API server",
+        "hint": "senza il server API Bot locale",
         "text": "fino a 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Limite di download di un file",
+        "hint": "senza il server API Bot locale",
+        "text": "fino a 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Numero di bottoni inline",
@@ -393,18 +393,18 @@
         "text": "fino a 100 elementi"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Frequenza di trasmissione messaggi",
+        "hint": "si applica solo quando si inviano notifiche a chat altrimenti inattive",
+        "text": "fino a 30 messaggi al secondo tra le chat"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
+        "name": "Frequenza di invio messaggi",
+        "hint": "in qualsiasi chat",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
+        "name": "Frequenza di invio messaggi",
+        "hint": "nelle chat di gruppo",
         "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {

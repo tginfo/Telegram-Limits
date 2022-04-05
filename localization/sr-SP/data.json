@@ -359,7 +359,7 @@
       },
       "upload_limit_botapi": {
         "name": "Величина учитане датотеке",
-        "hint": "without local Bot API server",
+        "hint": "без локалног Bot API сервера",
         "text": "до 50 MB"
       },
       "upload_limit_botapi_local": {

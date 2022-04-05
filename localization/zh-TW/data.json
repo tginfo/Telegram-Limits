@@ -38,9 +38,9 @@
         "text": "500 個（包含自己建立的）"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "地區群組數量",
+        "hint": "你可以加入的數量",
+        "text": "5 個（包含自己建立的）"
       },
       "gifs_number": {
         "name": "保存 GIF 數量",
@@ -133,9 +133,9 @@
         "text": "約 15 到 30 分鐘"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "群組貼圖包設定門檻",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "最少 100 個成員"
       },
       "chat_role_length": {
         "name": "管理員頭銜長度",
@@ -155,26 +155,26 @@
       "read_receipts_availability": {
         "name": "查看已讀成員",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "成員須為 100 名成員以內，僅訊息發送者可見"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "可檢視已讀成員的時間",
         "hint": "",
         "text": "自訊息發送後七天"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "語音與視訊",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "收聽成員數量",
         "hint": "",
-        "text": "unlimited"
+        "text": "無上限"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
+        "name": "直播數量",
+        "hint": "（包括相機鏡頭、螢幕分享，每個影像分開計算）",
         "text": "up to 30 broadcasting users simultaneously"
       },
       "video_chat_viewers": {
@@ -428,29 +428,29 @@
         "text": "up to 64 bytes"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "彈出訊息字數",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "最多 200 個字元"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "行內指令結果數量",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "每頁最多顯示 50 項"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "搜尋",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "全域搜尋結果",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "最多 10 項結果（Android 應用程式只能顯示 3 個結果）"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "關鍵字長度",
+        "hint": "全域搜尋",
+        "text": "至少 4 個字元"
       }
     }
   },
@@ -483,24 +483,24 @@
         "text": "最多 3 秒"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "貼圖檔案大小",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "靜態貼圖最多 512 KB，動態貼圖最多 64 KB"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "須為 30 或 60 格（建議使用 60fps）"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "貼圖包名稱",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "最多 64 個字元"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "/addstickers 貼圖包連結",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "最多 62 個字元"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "必須為 800 x 800 px，檔案必須小於 2 MB"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "使用者名稱解析限制",
+        "hint": "（適用於機器人與使用者）",
+        "text": "一天最多 200 個使用者名稱"
       }
     }
   }

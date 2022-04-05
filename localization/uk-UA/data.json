@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Ліміт вивантаження файлу",
-        "hint": "without local Bot API server",
+        "hint": "без локального API бота",
         "text": "до 50 Мб"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Ліміт вивантаження файлу",
+        "hint": "з локальним API бота",
+        "text": "до 2000 Мб"
       },
       "download_limit_botapi": {
         "name": "Ліміт завантаження файлу",
-        "hint": "without local Bot API server",
+        "hint": "без локального сервера API бота",
         "text": "до 20 Мб"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Ліміт завантаження файлу",
+        "hint": "з локальним API сервером бота",
+        "text": "до 2000 Мб"
       },
       "keys_in_keyboard_number": {
         "name": "Кількість кнопок клавіатури",
@@ -398,8 +398,8 @@
         "text": "up to 30 messages per second across chats"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
+        "name": "Частота надсилання повідомлень",
+        "hint": "у будь-якому чаті",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {

@@ -395,7 +395,7 @@
       "messaging_frequency_broadcast": {
         "name": "訊息發送間距",
         "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "text": "所有聊天室加起來不超過 30 則訊息"
       },
       "messaging_frequency": {
         "name": "訊息傳送間距",

@@ -174,63 +174,63 @@
       },
       "video_chat_broadcast": {
         "name": "直播數量",
-        "hint": "（包括相機鏡頭、螢幕分享，每個影像分開計算）",
-        "text": "up to 30 broadcasting users simultaneously"
+        "hint": "（透過鏡頭、螢幕分享）",
+        "text": "最多同時直播 30 個"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "直播觀看人數",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "官方聲稱為無限，但大約超過 2,000 人時直播可能會變得不穩定"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "排程訊息",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "最多提早 7 日"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "頻道",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "可以開立的頻道數目",
+        "hint": "（單一使用者）",
+        "text": "最多 10 個（包括群組）"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "使用者名稱長度",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 到 32 個字元"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "頻道名稱和簡介",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "最多 255 個字元"
       },
       "channel_admins": {
         "name": "頻道管理員人數",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "hint": "（包含機器人）",
         "text": "最多 50 個賬户"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "訊息編輯時限",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "無限制（但若頻道有連結到群組，超過兩星期的訊息在編輯後，不會被同步更新）"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "頻道訂閱人數",
         "hint": "",
-        "text": "unlimited"
+        "text": "無限制"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "頻道訂閱成員清單",
+        "hint": "（僅管理員可見）",
+        "text": "200 人"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "頻道刪除門檻",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "超過 1000 個者的頻道，只能夠由 Telegram 刪除"
       },
       "private_channel_access": {
         "name": "在不加入非公開頻道的情況下閱讀內容",
@@ -344,7 +344,7 @@
       },
       "username length": {
         "name": "（以單一使用者計算）",
-        "hint": "for bots",
+        "hint": "（機器人）",
         "text": "5 到 32 個字元"
       },
       "info_length": {
@@ -359,22 +359,22 @@
       },
       "upload_limit_botapi": {
         "name": "檔案上載限制",
-        "hint": "without local Bot API server",
+        "hint": "（只適用於 Bot API 傳輸協定）",
         "text": "最大 50 MB"
       },
       "upload_limit_botapi_local": {
         "name": "檔案上傳限制",
-        "hint": "with local Bot API server",
+        "hint": "（使用自架 Bot API）",
         "text": "最大 2000 MB"
       },
       "download_limit_botapi": {
         "name": "檔案下載限制",
-        "hint": "without local Bot API server",
+        "hint": "（只適用於 Bot API 傳輸協定）",
         "text": "最大 20 MB"
       },
       "download_limit_botapi_local": {
         "name": "檔案下載限制",
-        "hint": "with local Bot API server",
+        "hint": "（使用自架 Bot API）",
         "text": "最大 2000 MB"
       },
       "keys_in_keyboard_number": {
@@ -393,22 +393,22 @@
         "text": "最多 100 個項目"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
+        "name": "訊息發送間距",
         "hint": "only applies when actively sending notifications to otherwise inactive chats",
         "text": "up to 30 messages per second across chats"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
+        "name": "訊息傳送間距",
+        "hint": "（在任何聊天室中）",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "訊息傳送間距",
+        "hint": "（群組）",
+        "text": "同個聊天室中最多 20 則訊息"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
+        "name": "可以顯示的指令數量",
         "hint": "（在 @BotFather 中所設定的指令）",
         "text": "0 至 100 個指令"
       },
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "指令說明長度",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "最多 256 個字元，使用 Bot API 傳送時不得為空"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
+        "name": "「/start」指令的額外資料",
         "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "text": "最多 64 bytes"
       },
       "bot_alert_length": {
         "name": "彈出訊息字數",

@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Pliki wysłane przez bota",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "do 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Pliki pobierane przez bota",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "do 20 MB"
       },
-      "forwarding": {
-        "name": "Możliwość przekazywania wiadomości",
-        "hint": "",
-        "text": "do 2000 na godzinę"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Liczba przycisków",
@@ -387,15 +392,20 @@
         "hint": "(pogrubienie, kursywa itp.)",
         "text": "do 100 elementów"
       },
-      "messaging_frequency": {
-        "name": "Częstotliwość wiadomości",
-        "hint": "(może zostać zwiększona przez BotSupport)",
-        "text": "do 30 wiadomości na sekundę; 20 wiadomości na minutę dla czatów i kanałów"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "Częstotliwość żądań API",
-        "hint": "(może zostać zwiększona przez BotSupport)",
-        "text": "do 30 żądań na sekundę"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Ilość poleceń",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "Długość opisu polecenia",
         "hint": "",
-        "text": "minimum: 2 symbole w BotFather, 3 symbole w Bot API; maksimum: 256 znaków w obu"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "Bot / początkowa długość metadanych",
-        "hint": "",
-        "text": "do 64 znaków"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "Długość komunikatu ostrzegawczego bota",
         "hint": "",
         "text": "do 200 znaków"
       },
-      "username_resolve_limit": {
-        "name": "Limit rozwiązywania nazwy użytkownika",
-        "hint": "(zarówno dla botów, jak i kont użytkowników)",
-        "text": "do 200 nazw użytkowników dziennie"
-      },
       "inline_max_items": {
         "name": "Ilość wyników inline",
         "hint": "",
-        "text": "do 50 pozycji"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "Właściwości awatara wideo ",
         "hint": "",
         "text": "800x800px, do 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

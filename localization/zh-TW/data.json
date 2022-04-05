@@ -138,19 +138,19 @@
         "text": "groups with 100+ participants"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "管理員頭銜長度",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "最多 16 個字元"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "標題長度",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "最多 128 個字元"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "將超級群組轉換為廣播群組的門檻",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "至少 199,000 個成員"
       },
       "read_receipts_availability": {
         "name": "Read receipts availability",

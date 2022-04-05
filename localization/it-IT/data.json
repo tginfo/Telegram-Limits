@@ -400,12 +400,12 @@
       "messaging_frequency": {
         "name": "Frequenza di invio messaggi",
         "hint": "in qualsiasi chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "text": "fino a circa un messaggio al secondo, tranne forse brevi scatti"
       },
       "messaging_frequency_groups": {
         "name": "Frequenza di invio messaggi",
         "hint": "nelle chat di gruppo",
-        "text": "up to 20 messages per second in the same chat"
+        "text": "fino a 20 messaggi al secondo nella stessa chat"
       },
       "bot_commands_count": {
         "name": "Quantità dei comandi",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Lunghezza della descrizione del comando",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "fino a 256 caratteri, non dev'esser vuoto quando impostato tramite API del Bot"
       },
       "start_payload_size": {
         "name": "Lunghezza metadati comando /start dei bot",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "usato nel collegamento profondo",
+        "text": "fino a 64 byte"
       },
       "bot_alert_length": {
         "name": "Lunghezza del messaggio di avviso del bot",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Numero di risultati su un'unica riga",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "fino a 50 elementi per pagina"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px, fino a 2 MB"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Limite di risoluzione del nome utente",
+        "hint": "(sia per i bot che per i profili utente)",
+        "text": "fino a 200 nomu utente al giorno"
       }
     }
   }

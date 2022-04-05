@@ -394,16 +394,16 @@
       },
       "messaging_frequency_broadcast": {
         "name": "فراوانیی پەخشکردنی پەیام",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "hint": "تەنیا کاتێک چالاکانە ئاگادارکردنەوە دەنێردرێت بۆ وتووێژە ناچالاکەکان",
+        "text": "تا 30 پەیام لە چرکەیەکدا لە هەموو وتووێژەکان"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
+        "name": "فراوانیی ناردنی پەیام",
         "hint": "لە هەر وتووێژێک",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "text": "تا یەک پەیام لە چرکەیەکدا، بەبێ لەناکاوەکان"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
+        "name": "فراوانیی ناردنی پەیام",
         "hint": "لە گروپەکان",
         "text": "تا 20 پەیام لە چرکەیەکدا لە هەر وتووێژێک"
       },
@@ -424,7 +424,7 @@
       },
       "start_payload_size": {
         "name": "درێژی نووسینەکانی دوای /start لە بەستەرە قووڵەکان",
-        "hint": "used in deep linking",
+        "hint": "لە بەستەرە قووڵەکاندا بەکار دەهێنرێت",
         "text": "تا 64 بایت"
       },
       "bot_alert_length": {
@@ -528,9 +528,9 @@
         "text": "800 بە 800 پیکسڵ، تا 2 مێگابایت"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "دۆزینەوەی ناوی بەکارهێنەر",
+        "hint": "(بۆ هەردوو بۆت و هەژماری بەکارهێنەر)",
+        "text": "تا 200 ناوی بەکارهێنەر ڕۆژانە"
       }
     }
   }

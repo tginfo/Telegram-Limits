@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Ograničenje prijenosa datoteka",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "do 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Ograničenje preuzimanja datoteka",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "do 20 MB"
       },
-      "forwarding": {
-        "name": "Prosljeđivanje poruka",
-        "hint": "",
-        "text": "do 2 000 po satu"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Broj tipaka na tipkovnici",
@@ -387,15 +392,20 @@
         "hint": "(podebljano, kurziv, itd.)",
         "text": "do 100 stavki"
       },
-      "messaging_frequency": {
-        "name": "Učestalost poruka",
-        "hint": "(može se povećati na zahtjev BotSupport-a)",
-        "text": "do 30 poruka u sekundi; 20 po minuti za javne grupe i kanale"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "Učestalost API zahtjeva",
-        "hint": "(može se povećati na zahtjev BotSupport-a)",
-        "text": "do 30 zahtjeva u sekundi"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Broj naredbi",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "Duljina opisa naredbe",
         "hint": "",
-        "text": "najmanje: 2 znaka u BotFather-u, 3 znaka u Bot API-u; maksimalno: 256 znakova za obadvoje"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "Maksimalna duljina teksta za pokretanje bota",
-        "hint": "",
-        "text": "do 64 znaka"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "Duljina upozoravajuće poruke bota",
         "hint": "",
         "text": "do 200 znakova"
       },
-      "username_resolve_limit": {
-        "name": "Rješavanje korisničkog imena",
-        "hint": "(za botove i korisničke račune)",
-        "text": "do 200 korisničkih imena dnevno"
-      },
       "inline_max_items": {
         "name": "Broj ugrađenih rezultata",
         "hint": "",
-        "text": "do 50 stavki"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "Postavke videozapisa za profil",
         "hint": "",
         "text": "800x800px, do 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

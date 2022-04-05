@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Batas unggahan file",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "hingga 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "batas unduhan file",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "hingga 20 MB"
       },
-      "forwarding": {
-        "name": "Pesan diteruskan",
-        "hint": "",
-        "text": "hingga 2.000 per jam"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Jumlah tombol papan ketik",
@@ -387,15 +392,20 @@
         "hint": "(tebal, kursif dll.)",
         "text": "hingga 100 item"
       },
-      "messaging_frequency": {
-        "name": "Frekuensi pesan",
-        "hint": "(dapat ditingkatkan melalui BotSupport)",
-        "text": "hingga 30 pesan per detik; 20 per menit untuk obrolan channel publik"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "Frekuensi permintaan API",
-        "hint": "(dapat ditingkatkan melalui BotSupport)",
-        "text": "hingga 30 permintaan per detik"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Jumlah perintah",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "Panjang deskripsi perintah",
         "hint": "",
-        "text": "minimum: 2 simbol pada BotFather, 3 simbol pada Bot API; maksimum: 256 karakter pada keduanya"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "Panjang payload /start bot",
-        "hint": "",
-        "text": "hingga 64 karakter"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "Panjang pesan peringatan bot",
         "hint": "",
         "text": "hingga 200 karakter"
       },
-      "username_resolve_limit": {
-        "name": "Batas menetapkan username",
-        "hint": "(untuk bot dan akun pengguna)",
-        "text": "hingga 200 username per hari"
-      },
       "inline_max_items": {
         "name": "Jumlah hasil inline",
         "hint": "",
-        "text": "hingga 50 item"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "Properti video avatar",
         "hint": "",
         "text": "800x800px, hingga 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

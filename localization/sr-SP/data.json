@@ -399,13 +399,13 @@
       },
       "messaging_frequency": {
         "name": "Учесталост слања порука",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "hint": "у било ком ћаскању",
+        "text": "до једне поруке у секунди, осим можда у кратким налетима"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Учесталост слања порука",
+        "hint": "у групама",
+        "text": "до 20 порука у секунди у истој групи"
       },
       "bot_commands_count": {
         "name": "Број команди",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Дужина описа команде",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "до 256 знакова, да не буду празни кад се шаљу преко Bot API-ја"
       },
       "start_payload_size": {
         "name": "Максимална почетна дужина испорученог текста бота",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "коришћени у дубоком линковању",
+        "text": "до 64 бајта"
       },
       "bot_alert_length": {
         "name": "Дужина поруке упозорења бота",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Број инлајн резултата бота",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "до 50 ставки по страници"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px, до 2 MB"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Решење корисничког имена",
+        "hint": "(за ботове и корисничке налоге)",
+        "text": "до 200 корисничких имена дневно"
       }
     }
   }

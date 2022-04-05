@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "檔案上傳限制",
-        "hint": "（只適用於 Bot API 傳輸協定）",
+        "hint": "without local Bot API server",
         "text": "最大約 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "檔案下載限制",
-        "hint": "（只適用於 Bot API 傳輸協定）",
+        "hint": "without local Bot API server",
         "text": "最大約 20MB"
       },
-      "forwarding": {
-        "name": "每小時訊息轉發量",
-        "hint": "",
-        "text": "最多 2,000 條"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "功能按鈕數量",
@@ -387,15 +392,20 @@
         "hint": "（例如粗體、斜體、超連結等等）",
         "text": "最多 100 個"
       },
-      "messaging_frequency": {
-        "name": "訊息發送間距",
-        "hint": "（可以由 @BotSupport 酌情提升）",
-        "text": "每秒 30 個訊息（大型群組以及頻道的話，則為每分鐘 20 個訊息）"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "API 使用頻率",
-        "hint": "（可以由 @BotSupport 酌情提升）",
-        "text": "每秒 30 個動作"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "可以顯示嘅指令數量",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "指令嘅描述",
         "hint": "",
-        "text": "@BotFather：最少兩個字符 / Bot API：最少三個字符 （最多 256 個字符）"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "「/start」指令的額外資料",
-        "hint": "",
-        "text": "最多 64 個字符"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "彈出式訊息字數",
         "hint": "",
         "text": "最多 200 個字"
       },
-      "username_resolve_limit": {
-        "name": "「@使用者名稱」的解析上限",
-        "hint": "（例如其他 Bot、使用者帳戶等等）",
-        "text": "每日最多 200 個"
-      },
       "inline_max_items": {
         "name": "指令動作嘅提示數目",
         "hint": "",
-        "text": "最多 50 個"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "動態大頭貼",
         "hint": "",
         "text": "必須為 800 x 800 px，檔案必須小於 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

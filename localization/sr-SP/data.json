@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Величина учитане датотеке",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "до 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Величина преузете датотеке",
-        "hint": "(BotAPI)",
+        "hint": "without local Bot API server",
         "text": "до 20 MB"
       },
-      "forwarding": {
-        "name": "Прослеђивање порука",
-        "hint": "",
-        "text": "до 2000 по сату"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Број приказаних дугмади",
@@ -387,15 +392,20 @@
         "hint": "(подебљано, курзив, итд.)",
         "text": "до 100 ставки"
       },
-      "messaging_frequency": {
-        "name": "Учесталост порука",
-        "hint": "(може бити повећано преко BotSupport-а)",
-        "text": "до 30 порука у секунди; 20 по минуту за јавне групе и канале"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "Учесталост API захтева",
-        "hint": "(може бити повећано преко BotSupport-а)",
-        "text": "до 30 захтева по секунди"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Број команди",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "Дужина описа команде",
         "hint": "",
-        "text": "минимум: 2 знака у BotFather-у, 3 знака у Bot API--ју; максимум: 256 знакова укупно"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "Максимална почетна дужина испорученог текста бота",
-        "hint": "",
-        "text": "до 64 знака"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "Дужина поруке упозорења бота",
         "hint": "",
         "text": "до 200 знакова"
       },
-      "username_resolve_limit": {
-        "name": "Ограничење решења корисничког имена",
-        "hint": "(за ботове и корисничке налоге)",
-        "text": "до 200 корисничких имена дневно"
-      },
       "inline_max_items": {
         "name": "Број инлајн резултата бота",
         "hint": "",
-        "text": "до 50 ставки"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "Карактеристике профилног видеа",
         "hint": "",
         "text": "800x800px, до 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

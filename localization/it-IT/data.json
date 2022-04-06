@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Limite di grandezza per file",
-        "hint": "(BotAPI)",
+        "hint": "senza il server API Bot locale",
         "text": "fino a 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "Limite caricamento file",
+        "hint": "senza il server API Bot locale",
+        "text": "fino a 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Limite di download di un file",
-        "hint": "(BotAPI)",
+        "hint": "senza il server API Bot locale",
         "text": "fino a 20 MB"
       },
-      "forwarding": {
-        "name": "Inoltro di messaggi",
-        "hint": "",
-        "text": "fino a 2.000 all'ora"
+      "download_limit_botapi_local": {
+        "name": "Limite di download di un file",
+        "hint": "senza il server API Bot locale",
+        "text": "fino a 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Numero di bottoni inline",
@@ -387,15 +392,20 @@
         "hint": "(grassetto, corsivo ecc.)",
         "text": "fino a 100 elementi"
       },
+      "messaging_frequency_broadcast": {
+        "name": "Frequenza di trasmissione messaggi",
+        "hint": "si applica solo quando si inviano notifiche a chat altrimenti inattive",
+        "text": "fino a 30 messaggi al secondo tra le chat"
+      },
       "messaging_frequency": {
         "name": "Frequenza di invio messaggi",
-        "hint": "(estendibile da BotSupport)",
-        "text": "fino a 30 messaggi al secondo; 20 al minuto in canali e gruppi pubblici"
+        "hint": "in qualsiasi chat",
+        "text": "fino a circa un messaggio al secondo, tranne forse brevi scatti"
       },
-      "api_requests_frequency": {
-        "name": "Frequenza richieste API",
-        "hint": "(estendibile da BotSupport)",
-        "text": "fino a 30 richieste per secondo"
+      "messaging_frequency_groups": {
+        "name": "Frequenza di invio messaggi",
+        "hint": "nelle chat di gruppo",
+        "text": "fino a 20 messaggi al secondo nella stessa chat"
       },
       "bot_commands_count": {
         "name": "Quantità dei comandi",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "Lunghezza della descrizione del comando",
         "hint": "",
-        "text": "minimo: 2 simboli in BotFather, 3 simboli nell'API del Bot; massimo: 256 caratteri in entrambi"
+        "text": "fino a 256 caratteri, non dev'esser vuoto quando impostato tramite API del Bot"
       },
       "start_payload_size": {
         "name": "Lunghezza metadati comando /start dei bot",
-        "hint": "",
-        "text": "fino a 64 caratteri"
+        "hint": "usato nel collegamento profondo",
+        "text": "fino a 64 byte"
       },
       "bot_alert_length": {
         "name": "Lunghezza del messaggio di avviso del bot",
         "hint": "",
         "text": "fino a 200 caratteri"
       },
-      "username_resolve_limit": {
-        "name": "Limite di risoluzione nome utente",
-        "hint": "(per i bot e gli account utente)",
-        "text": "fino a 200 nomi utente giornalieri"
-      },
       "inline_max_items": {
         "name": "Numero di risultati su un'unica riga",
         "hint": "",
-        "text": "fino a 50 elementi"
+        "text": "fino a 50 elementi per pagina"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "Dettagli sui video profilo",
         "hint": "",
         "text": "800x800px, fino a 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "Limite di risoluzione del nome utente",
+        "hint": "(sia per i bot che per i profili utente)",
+        "text": "fino a 200 nomu utente al giorno"
       }
     }
   }

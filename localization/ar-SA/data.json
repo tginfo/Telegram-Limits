@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "حد رفع الملفات",
-        "hint": "(البوتات)",
+        "hint": "without local Bot API server",
         "text": "الأقصى ٥٠ ميغابايت"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "حد تنزيل الملفات",
-        "hint": "(البوتات)",
+        "hint": "without local Bot API server",
         "text": "الأقصى ٢٠ ميغابايت"
       },
-      "forwarding": {
-        "name": "تحويل الرسائل",
-        "hint": "",
-        "text": "الأقصى ٢٠٠٠ كل ساعة"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "عدد أزرار لوحة المفاتيح",
@@ -387,15 +392,20 @@
         "hint": "(غامق، مائل إلخ.)",
         "text": "الأقصى ١٠٠ عنصر"
       },
-      "messaging_frequency": {
-        "name": "تردد الرسائل",
-        "hint": "(يمكن زيادتها بمراسلة BotSupport)",
-        "text": "الأقصى ٣٠ رسالة كل ثانية; ٢٠ كل دقيقة المحادثات العامة و القنوات"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "تردد طلبات API",
-        "hint": "(يمكن زيادتها بمراسلة BotSupport)",
-        "text": "الأقصى ٣٠ طلب في الثانية"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "عدد الأوامر",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "طول وصف الأمر",
         "hint": "",
-        "text": "الحد الأدنى: رمزان في BotFather، 3 رموز في Bot API؛ الحد الأقصى: 256 حرفًا في كليهما"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "طول حمولة /start للبوت",
-        "hint": "",
-        "text": "كحد أقصى 70 حرفًا"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "طول رسالة تنبيه البوت",
         "hint": "",
         "text": "كحد أقصى 200 حرفًا"
       },
-      "username_resolve_limit": {
-        "name": "الحد الأقصى لمسح الأسم المستخدم",
-        "hint": "(لكل من البوتات والاسم المستخدم للحسابات)",
-        "text": "مايصل إلى 200 أسم مستخدم يوميًا"
-      },
       "inline_max_items": {
         "name": "عدد نتائج الوضع الضمني",
         "hint": "",
-        "text": "ما يصل إلى 50 عنصر"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "خصائص مقطع الشخصي",
         "hint": "",
         "text": "٨٠٠×٨٠٠ بيكسل، حجم المقطع ٢ ميكابايت"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "מגבלה על העלאת קבצים",
-        "hint": "(Bot Api)",
+        "hint": "without local Bot API server",
         "text": "עד 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "מגבלה על הורדת קבצים",
-        "hint": "(Bot Api)",
+        "hint": "without local Bot API server",
         "text": "עד 20 MB"
       },
-      "forwarding": {
-        "name": "העברת הודעות",
-        "hint": "",
-        "text": "עד ל 2,000 בשעה"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "מספר הכפתורים במקלדת",
@@ -387,15 +392,20 @@
         "hint": "(מודגש, מעוצב וכאלה.)",
         "text": "עד 100"
       },
-      "messaging_frequency": {
-        "name": "תדירות ההודעות",
-        "hint": "(ניתן להעלות את המגבלה על ידי BotSupport)",
-        "text": "עד 30 הודעות לשנייה; 20 לדקה לצ'אטים ציבוריים וערוצים"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "תדירות הבקשות ב- BOT API",
-        "hint": "(ניתן להעלות את המגבלה על ידי BotSupport)",
-        "text": "עד ל 30 בקשות לשנייה"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "כמות פקודות",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "אורך התיאור של פקודה",
         "hint": "",
-        "text": "מינימום: 2 תווים ב BotFather, 3 תווים בBot API; מקסימום: 256 תווים"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "כמות המטען של הפקודה /start ב- deep link",
-        "hint": "",
-        "text": "עד 64 תווים"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "מספר התווים המרבי בהודעת אזהרה (popup)",
         "hint": "",
         "text": "עד 200 תווים"
       },
-      "username_resolve_limit": {
-        "name": "מגבלת זיהוי שמות משתמשים",
-        "hint": "(לחשבונות משתמשים ובוטים)",
-        "text": "עד 200 שמות משתמשים ביום"
-      },
       "inline_max_items": {
         "name": "מספר התוצאות להצגה במצב אינליין",
         "hint": "",
-        "text": "עד 50 פריטים"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "וידאו בפרופיל (במקום תמונה)",
         "hint": "",
         "text": "800x800px, עד ל 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

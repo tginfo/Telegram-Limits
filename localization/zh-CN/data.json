@@ -359,18 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "上传文件大小限制",
-        "hint": "(Bot API)",
+        "hint": "without local Bot API server",
         "text": "最大 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "File upload limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "download_limit_botapi": {
         "name": "下载文件大小限制",
-        "hint": "(Bot API)",
+        "hint": "without local Bot API server",
         "text": "最大 20 MB"
       },
-      "forwarding": {
-        "name": "转发消息",
-        "hint": "",
-        "text": "最快每小时 2000 条"
+      "download_limit_botapi_local": {
+        "name": "File download limit",
+        "hint": "with local Bot API server",
+        "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "键盘按钮数",
@@ -387,15 +392,20 @@
         "hint": "（加粗、斜体...）",
         "text": "最多 100 个"
       },
-      "messaging_frequency": {
-        "name": "发送消息频率",
-        "hint": "(可由 Bot Support 提升)",
-        "text": "每秒最多 30 条消息；公开群聊和频道中每分钟最多 20 条消息"
+      "messaging_frequency_broadcast": {
+        "name": "Message broadcasting frequency",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "up to 30 messages per second across chats"
       },
-      "api_requests_frequency": {
-        "name": "API 请求频率",
-        "hint": "(可由 Bot Support 提升)",
-        "text": "每秒最多 30 个请求"
+      "messaging_frequency": {
+        "name": "Message sending frequency",
+        "hint": "in any chat",
+        "text": "up to roughly one message per second, except maybe short bursts"
+      },
+      "messaging_frequency_groups": {
+        "name": "Message sending frequency",
+        "hint": "in group chats",
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "指令数量",
@@ -410,27 +420,22 @@
       "bot_command_description_length": {
         "name": "指令描述长度",
         "hint": "",
-        "text": "Bot Father 中最少 2 字符，Bot API 中最少 3 字符；最多 256 字符"
+        "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "/start 命令 (Deep linking) 的元数据长度",
-        "hint": "",
-        "text": "最多 64 个字符"
+        "hint": "used in deep linking",
+        "text": "up to 64 bytes"
       },
       "bot_alert_length": {
         "name": "弹窗提示文本（响应回调时）",
         "hint": "",
         "text": "最多 200 个字符"
       },
-      "username_resolve_limit": {
-        "name": "用户名解析限制",
-        "hint": "(机器人和用户都适用)",
-        "text": "每天最多 200 个用户名"
-      },
       "inline_max_items": {
         "name": "内联查询结果数",
         "hint": "",
-        "text": "最多 50 项"
+        "text": "up to 50 items per page"
       }
     }
   },
@@ -521,6 +526,11 @@
         "name": "视频头像属性",
         "hint": "",
         "text": "800x800px，最大 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

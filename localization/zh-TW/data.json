@@ -38,9 +38,9 @@
         "text": "500 個（包含自己建立的）"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "name": "地區群組數量",
+        "hint": "你可以加入的數量",
+        "text": "5 個（包含自己建立的）"
       },
       "gifs_number": {
         "name": "保存 GIF 數量",
@@ -70,7 +70,7 @@
       "participants_number": {
         "name": "群組人數",
         "hint": "（可提高限制）",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
+        "text": "超級群組最多 20 萬人，但廣播群組則無人數上限"
       },
       "admins_number": {
         "name": "管理員人數",
@@ -123,214 +123,214 @@
         "text": "無上限"
       },
       "participants_to_see_stats": {
-        "name": "查看統計數據所需人數",
+        "name": "查看統計資料所需人數",
         "hint": "",
         "text": "至少 500"
       },
       "username_reservation": {
         "name": "使用者名稱保留時間",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
+        "hint": "（修改後過多久能被其他人使用）",
         "text": "約 15 到 30 分鐘"
       },
       "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
+        "name": "群組貼圖包設定門檻",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "最少 100 個成員"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "管理員頭銜長度",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "最多 16 個字元"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "標題長度",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "最多 128 個字元"
       },
       "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
+        "name": "將超級群組轉換為廣播群組的門檻",
         "hint": "",
-        "text": "for chats with 199,000+ members"
+        "text": "至少 199,000 個成員"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "查看已讀成員",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "成員須為 100 名成員以內，僅訊息發送者可見"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "可檢視已讀成員的時間",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "自訊息發送後七天"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "語音與視訊",
     "items": {
       "voice_chat_participants": {
-        "name": "Audio Chat listeners",
+        "name": "收聽成員數量",
         "hint": "",
-        "text": "unlimited"
+        "text": "無上限"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
+        "name": "直播數量",
+        "hint": "（透過鏡頭、螢幕分享）",
+        "text": "最多同時直播 30 個"
       },
       "video_chat_viewers": {
-        "name": "Video broadcast viewers",
+        "name": "直播觀看人數",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "官方聲稱為無限，但大約超過 2,000 人時直播可能會變得不穩定"
       },
       "voice_chat_schedule": {
-        "name": "Scheduled chats",
+        "name": "排程訊息",
         "hint": "",
-        "text": "up to 7 days ahead"
+        "text": "最多提早 7 日"
       }
     }
   },
   "channels": {
-    "name": "Channels",
+    "name": "頻道",
     "items": {
       "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "name": "可以開立的頻道數目",
+        "hint": "（單一使用者）",
+        "text": "最多 10 個（包括群組）"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "使用者名稱長度",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 到 32 個字元"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "頻道名稱和簡介",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "最多 255 個字元"
       },
       "channel_admins": {
         "name": "頻道管理員人數",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+        "hint": "（包含機器人）",
         "text": "最多 50 個賬户"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "訊息編輯時限",
         "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+        "text": "無限制（但若頻道有連結到群組，超過兩星期的訊息在編輯後，不會被同步更新）"
       },
       "subscribers": {
-        "name": "Channel subscribers number",
+        "name": "頻道訂閱人數",
         "hint": "",
-        "text": "unlimited"
+        "text": "無限制"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "name": "頻道訂閱成員清單",
+        "hint": "（僅管理員可見）",
+        "text": "200 人"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "頻道刪除門檻",
         "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+        "text": "超過 1000 個者的頻道，只能夠由 Telegram 刪除"
       },
       "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
-        "text": "up to 5 minutes once a day"
+        "name": "在不加入非公開頻道的情況下閱讀內容",
+        "hint": "（頻道最少需有 200 個訂閱者）",
+        "text": "一天最多五分鐘"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "邀請使用者",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "最多 200 人"
       },
       "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
+        "name": "查看統計資料所需人數",
         "hint": "",
-        "text": "at least 50"
+        "text": "至少 50 人"
       },
       "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "name": "使用者名稱保留時間",
+        "hint": "（修改後過多久能被其他人使用）",
+        "text": "約 15 到 30 分鐘"
       }
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "訊息",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "單一訊息長度",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "最多 4,096 個字元"
       },
       "media_descriptions": {
-        "name": "Media captions",
+        "name": "媒體描述",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "最多 1,024 個字元"
       },
       "upload_size": {
-        "name": "File size limit",
+        "name": "檔案大小限制",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "最大 2.0 GB"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "檔案名稱長度",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "最多 60 個字元，多出的會被刪除掉"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "影片訊息長度",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "最長 1 分鐘"
       },
       "album_size": {
-        "name": "Images and videos in single message",
-        "hint": "(album)",
-        "text": "up to 10 items"
+        "name": "單一訊息中的媒體數量",
+        "hint": "（相簿）",
+        "text": "最多 10 個項目"
       },
       "delayed_messages": {
-        "name": "Scheduled messages number",
+        "name": "排程訊息數量",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "最多 100 則訊息"
       },
       "delaying_messages": {
-        "name": "Schedule range",
+        "name": "排程範圍",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "最多 365 天"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "資料夾",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "資料夾數量",
         "hint": "",
-        "text": "up to 10 folders"
+        "text": "最多 10 個"
       },
       "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
+        "name": "可以置頂的對話數量",
         "hint": "",
-        "text": "up to 100 chats"
+        "text": "最多 100 個"
       }
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "附近的人",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "可見範圍",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "大約 12 公里"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "可見使用者數量",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "最多 100 人"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "可見地區群組數量",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "最多 10 個"
       }
     }
   },
@@ -338,14 +338,14 @@
     "name": "機器人",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
+        "name": "機器人數量",
         "hint": "(透過 @BotFather 創建)",
-        "text": "up to 20 items"
+        "text": "最多 20 個"
       },
       "username length": {
-        "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "name": "（以單一使用者計算）",
+        "hint": "（機器人）",
+        "text": "5 到 32 個字元"
       },
       "info_length": {
         "name": "機器人資訊長度",
@@ -359,143 +359,148 @@
       },
       "upload_limit_botapi": {
         "name": "檔案上載限制",
-        "hint": "(機器人 API)",
+        "hint": "（只適用於 Bot API 傳輸協定）",
         "text": "最大 50 MB"
+      },
+      "upload_limit_botapi_local": {
+        "name": "檔案上傳限制",
+        "hint": "（使用自架 Bot API）",
+        "text": "最大 2000 MB"
       },
       "download_limit_botapi": {
         "name": "檔案下載限制",
-        "hint": "(機器人 API)",
+        "hint": "（只適用於 Bot API 傳輸協定）",
         "text": "最大 20 MB"
       },
-      "forwarding": {
-        "name": "信息轉發",
-        "hint": "",
-        "text": "每小時最多 2000 次"
+      "download_limit_botapi_local": {
+        "name": "檔案下載限制",
+        "hint": "（使用自架 Bot API）",
+        "text": "最大 2000 MB"
       },
       "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
+        "name": "功能按鈕數量",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "最多 100 個項目"
       },
       "formatting_data": {
-        "name": "Message formatting data",
+        "name": "格式化文字大小",
         "hint": "",
-        "text": "up to 10 KB"
+        "text": "最大 10 KB"
       },
       "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "name": "可以格式化的字詞數量",
+        "hint": "（例如粗體、斜體、超連結等等）",
+        "text": "最多 100 個項目"
+      },
+      "messaging_frequency_broadcast": {
+        "name": "訊息發送間距",
+        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "text": "所有聊天室加起來不超過 30 則訊息"
       },
       "messaging_frequency": {
-        "name": "Messages frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 messages per second; 20 per minute for public chats and channels"
+        "name": "訊息傳送間距",
+        "hint": "（在任何聊天室中）",
+        "text": "up to roughly one message per second, except maybe short bursts"
       },
-      "api_requests_frequency": {
-        "name": "API requests frequency",
-        "hint": "(can be raised by BotSupport)",
-        "text": "up to 30 requests per second"
+      "messaging_frequency_groups": {
+        "name": "訊息傳送間距",
+        "hint": "（群組）",
+        "text": "同個聊天室中最多 20 則訊息"
       },
       "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "name": "可以顯示的指令數量",
+        "hint": "（在 @BotFather 中所設定的指令）",
+        "text": "0 至 100 個指令"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "指令字數",
+        "hint": "（在 @BotFather 中所設定的指令）",
+        "text": "1 到 32 字元"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "指令說明長度",
         "hint": "",
-        "text": "minimum: 2 symbols in BotFather, 3 symbols in Bot API; maximum: 256 characters in both"
+        "text": "最多 256 個字元，使用 Bot API 傳送時不得為空"
       },
       "start_payload_size": {
-        "name": "Bot /start payload length",
-        "hint": "",
-        "text": "up to 64 characters"
+        "name": "「/start」指令的額外資料",
+        "hint": "used in deep linking",
+        "text": "最多 64 bytes"
       },
       "bot_alert_length": {
-        "name": "Bot alert message length",
+        "name": "彈出訊息字數",
         "hint": "",
-        "text": "up to 200 characters"
-      },
-      "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "text": "最多 200 個字元"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "行內指令結果數量",
         "hint": "",
-        "text": "up to 50 items"
+        "text": "每頁最多顯示 50 項"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "搜尋",
     "items": {
       "global_search": {
-        "name": "Global search results",
+        "name": "全域搜尋結果",
         "hint": "",
-        "text": "up to 10 items; up to 3 for Android"
+        "text": "最多 10 項結果（Android 應用程式只能顯示 3 個結果）"
       },
       "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "at least 4 characters"
+        "name": "關鍵字長度",
+        "hint": "全域搜尋",
+        "text": "至少 4 個字元"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "貼圖",
     "items": {
       "added_packs": {
-        "name": "Added packs number",
+        "name": "貼圖包數量上限",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "最多 200 個項目"
       },
       "favorite_stickers": {
-        "name": "Favorite stickers number",
+        "name": "最愛貼圖",
         "hint": "",
-        "text": "up to 5 items"
+        "text": "最多 5 個項目"
       },
       "pack_size": {
-        "name": "Stickers in a pack number",
+        "name": "貼圖包中的貼圖數量",
         "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
+        "text": "靜態最多 120 張，動態最多 50 張"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "貼圖尺寸",
         "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+        "text": "皆需小於或等於 512px，其中一邊須為 512px。動態貼圖需為 512x512px"
       },
       "animation_duration": {
-        "name": "Animation duration",
+        "name": "動畫長度",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "最多 3 秒"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "貼圖檔案大小",
         "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
+        "text": "靜態貼圖最多 512 KB，動態貼圖最多 64 KB"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "須為 30 或 60 格（建議使用 60fps）"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "貼圖包名稱",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "最多 64 個字元"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "/addstickers 貼圖包連結",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "最多 62 個字元"
       }
     }
   },
@@ -503,24 +508,29 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "可以同時管理的帳號數量",
+        "hint": "（在 @telegraph 機器人裡面的設定）",
+        "text": "最多 5 個項目"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "文章大小",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "最大 64 KB"
       }
     }
   },
   "miscellaneous": {
-    "name": "Miscellaneous",
+    "name": "其他",
     "items": {
       "properties": {
-        "name": "Video avatar properties",
+        "name": "動態大頭貼",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "必須為 800 x 800 px，檔案必須小於 2 MB"
+      },
+      "username_resolve_limit": {
+        "name": "使用者名稱解析限制",
+        "hint": "（適用於機器人與使用者）",
+        "text": "一天最多 200 個使用者名稱"
       }
     }
   }

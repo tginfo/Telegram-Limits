@@ -319,12 +319,16 @@
                 "icon": "cloud_upload"
             },
             {
+                "id": "upload_limit_botapi_local",
+                "icon": "upload"
+            },
+            {
                 "id": "download_limit_botapi",
                 "icon": "cloud_download"
             },
             {
-                "id": "forwarding",
-                "icon": "forward_to_inbox"
+                "id": "download_limit_botapi_local",
+                "icon": "download"
             },
             {
                 "id": "keys_in_keyboard_number",
@@ -335,7 +339,7 @@
                 "icon": "format_shapes"
             },
             {
-                "id": "messaging_frequency",
+                "id": "messaging_frequency_groups",
                 "icon": "speed"
             },
             {
@@ -361,10 +365,6 @@
             {
                 "id": "bot_alert_length",
                 "icon": "announcement"
-            },
-            {
-                "id": "username_resolve_limit",
-                "icon": "offline_bolt"
             },
             {
                 "id": "inline_max_items",
@@ -453,6 +453,10 @@
             {
                 "id": "properties",
                 "icon": "slow_motion_video"
+            },
+            {
+                "id": "username_resolve_limit",
+                "icon": "offline_bolt"
             }
         ]
     }

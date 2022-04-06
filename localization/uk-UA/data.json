@@ -359,22 +359,22 @@
       },
       "upload_limit_botapi": {
         "name": "Ліміт вивантаження файлу",
-        "hint": "без локального API бота",
+        "hint": "без локального Bot API сервера",
         "text": "до 50 Мб"
       },
       "upload_limit_botapi_local": {
-        "name": "Ліміт вивантаження файлу",
-        "hint": "з локальним API бота",
+        "name": "Ліміт на вивантаження файлів",
+        "hint": "з локальним Bot API сервером",
         "text": "до 2000 Мб"
       },
       "download_limit_botapi": {
         "name": "Ліміт завантаження файлу",
-        "hint": "без локального сервера API бота",
+        "hint": "без локального Bot API сервера",
         "text": "до 20 Мб"
       },
       "download_limit_botapi_local": {
-        "name": "Ліміт завантаження файлу",
-        "hint": "з локальним API сервером бота",
+        "name": "Ліміт на завантаження файлів",
+        "hint": "з локальним Bot API сервером",
         "text": "до 2000 Мб"
       },
       "keys_in_keyboard_number": {
@@ -393,19 +393,19 @@
         "text": "до 100 елементів"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Частота масованого розсилання повідомлень",
+        "hint": "застосовується тільки за активного посилання повідомлень до раніше неактивних чатів",
+        "text": "до 30 повідомлень в секунду, один ліміт на всі чати"
       },
       "messaging_frequency": {
         "name": "Частота надсилання повідомлень",
         "hint": "у будь-якому чаті",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "text": "приблизно одне повідомлення в секунду, не враховуючи можливих коротких сплесків"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Частота звичайного надсилання повідомлень",
+        "hint": "у групових чатах",
+        "text": "до 20 повідомлень в секунду в одному чаті"
       },
       "bot_commands_count": {
         "name": "Кількість команд",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Довжина опису команди",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "до 256 символів, має бути не порожнім, якщо встановлюється через Bot API"
       },
       "start_payload_size": {
         "name": "Довжина метаданих для /start",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "використовується для deep linking",
+        "text": "до 64 байт"
       },
       "bot_alert_length": {
         "name": "Довжина сповіщень бота",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Кількість inline-результатів",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "до 50 елементів на сторінку"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px, до 2 Мб"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Пошук користувачів за username",
+        "hint": "(для ботів і користувачів)",
+        "text": "до 200 імен користувачів щоденно"
       }
     }
   }

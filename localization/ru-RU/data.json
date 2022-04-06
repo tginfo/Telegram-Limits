@@ -359,22 +359,22 @@
       },
       "upload_limit_botapi": {
         "name": "Файлы отправляемые ботом",
-        "hint": "without local Bot API server",
+        "hint": "без локального сервера Bot API",
         "text": "до 50 МБ"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Лимит выгрузки файлов",
+        "hint": "с локальным сервером API Bot",
+        "text": "до 2000 МБ"
       },
       "download_limit_botapi": {
         "name": "Файлы принимаемые ботом",
-        "hint": "without local Bot API server",
+        "hint": "без локального сервера Bot API",
         "text": "до 20 МБ"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
+        "name": "Лимит загрузки файлов",
+        "hint": "с локальным сервером Bot API",
         "text": "up to 2000 MB"
       },
       "keys_in_keyboard_number": {

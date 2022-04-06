@@ -364,7 +364,7 @@
       },
       "upload_limit_botapi_local": {
         "name": "Лимит выгрузки файлов",
-        "hint": "с локальным сервером API Bot",
+        "hint": "с локальным сервером Bot API",
         "text": "до 2000 МБ"
       },
       "download_limit_botapi": {
@@ -375,7 +375,7 @@
       "download_limit_botapi_local": {
         "name": "Лимит загрузки файлов",
         "hint": "с локальным сервером Bot API",
-        "text": "up to 2000 MB"
+        "text": "до 2000 МБ"
       },
       "keys_in_keyboard_number": {
         "name": "Количество кнопок",
@@ -393,19 +393,19 @@
         "text": "до 100 элементов"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Частота массовой рассылки сообщений",
+        "hint": "применяется только во время активной рассылки сообщений в ранее неактивные чаты",
+        "text": "до 30 сообщений в секунду, один лимит на все чаты"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "name": "Частота обычной отправки сообщений",
+        "hint": "в любом чате",
+        "text": "до примерно одного сообщения в секунду, за исключением коротких всплесков"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Частота обычной отправки сообщений",
+        "hint": "в групповых чатах",
+        "text": "до 20 сообщений в секунду в одном чате"
       },
       "bot_commands_count": {
         "name": "Количество команд",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Длина описания команды",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "до 256 символов, должно быть не пустым, если установлено через Bot API"
       },
       "start_payload_size": {
         "name": "Длина метаданных для /start",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "используется для deep linking",
+        "text": "до 64 байт"
       },
       "bot_alert_length": {
         "name": "Длина предупреждения бота",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Количество inline-результатов",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "до 50 элементов на страницу"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px, до 2 MB"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Поиск пользователей по username",
+        "hint": "(для ботов и пользователей)",
+        "text": "до 200 username'ов ежедневно"
       }
     }
   }

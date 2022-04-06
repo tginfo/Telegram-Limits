@@ -424,8 +424,8 @@
       },
       "start_payload_size": {
         "name": "Bot / początkowa długość metadanych",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "stosowane w głębokim linkowaniu",
+        "text": "do 64 bajtów"
       },
       "bot_alert_length": {
         "name": "Długość komunikatu ostrzegawczego bota",

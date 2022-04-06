@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Pliki wysłane przez bota",
-        "hint": "without local Bot API server",
+        "hint": "bez lokalnego serwera API bota",
         "text": "do 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Limit wysyłanego pliku",
+        "hint": "z lokalnym serwerem Bot API",
+        "text": "do 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Pliki pobierane przez bota",
-        "hint": "without local Bot API server",
+        "hint": "bez lokalnego serwera Bot API",
         "text": "do 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Limit pobieranego pliku",
+        "hint": "bez lokalnego serwera Bot API",
+        "text": "do 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Liczba przycisków",
@@ -398,14 +398,14 @@
         "text": "up to 30 messages per second across chats"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
+        "name": "Częstotliwość wysyłania wiadomości",
         "hint": "in any chat",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
         "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "hint": "w czatach grupowych",
+        "text": "do 20 wiadomości na sekundę na tym samym czacie"
       },
       "bot_commands_count": {
         "name": "Ilość poleceń",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Długość opisu polecenia",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "do 256 znaków, nie może być puste, gdy jest ustawione przez Bot API"
       },
       "start_payload_size": {
         "name": "Bot / początkowa długość metadanych",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "stosowane w głębokim linkowaniu",
+        "text": "do 64 bajtów"
       },
       "bot_alert_length": {
         "name": "Długość komunikatu ostrzegawczego bota",

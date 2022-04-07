@@ -395,17 +395,17 @@
       "messaging_frequency_broadcast": {
         "name": "Frecuencia de difusión de mensajes",
         "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "text": "hasta 30 mensajes por segundo en chats"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "name": "Frecuencia de envío de mensajes",
+        "hint": "en cualquier chat",
+        "text": "hasta aproximadamente un mensaje por segundo, excepto quizás pequeñas ráfagas"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Frecuencia de envío de mensajes",
+        "hint": "en chats de grupo",
+        "text": "hasta 20 mensajes por segundo en el mismo chat"
       },
       "bot_commands_count": {
         "name": "Cantidad de comandos",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Longitud de la descripción del comando",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "hasta 256 caracteres, no debe estar vacío cuando se establece a través de la API de Bot"
       },
       "start_payload_size": {
         "name": "Longitud de los metadatos en /start",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "usado en vinculación profunda",
+        "text": "hasta 64 bytes"
       },
       "bot_alert_length": {
         "name": "Longitud del mensaje de alerta del bot",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Número de resultados inline",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "hasta 50 elementos por página"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px, hasta 2 MB"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Límite de resolución de nombre de usuario",
+        "hint": "(para bots y cuentas de usuario)",
+        "text": "hasta 200 nombres de usuario diariamente"
       }
     }
   }

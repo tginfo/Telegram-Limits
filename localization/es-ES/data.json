@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Límite de carga de archivos",
-        "hint": "without local Bot API server",
+        "hint": "sin servidor local de API de Bot",
         "text": "hasta 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Límite de carga de archivos",
+        "hint": "con el servidor local de API de Bot",
+        "text": "hasta 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Límite de descarga de archivos",
-        "hint": "without local Bot API server",
+        "hint": "sin servidor local de API de Bot",
         "text": "hasta 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Límite de descarga de archivos",
+        "hint": "con el servidor local de API de Bot",
+        "text": "hasta 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Número de botones del teclado",
@@ -393,7 +393,7 @@
         "text": "hasta 100 elementos"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
+        "name": "Frecuencia de difusión de mensajes",
         "hint": "only applies when actively sending notifications to otherwise inactive chats",
         "text": "up to 30 messages per second across chats"
       },

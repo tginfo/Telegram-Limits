@@ -393,17 +393,17 @@
         "text": "do 100 elementów"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Częstotliwość nadawania wiadomości",
+        "hint": "dotyczy tylko aktywnego wysyłania powiadomień do innych nieaktywnych czatów",
+        "text": "do 30 wiadomości na sekundę na czatach"
       },
       "messaging_frequency": {
         "name": "Częstotliwość wysyłania wiadomości",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "hint": "na dowolnym czacie",
+        "text": "do około jednej wiadomości na sekundę, może z wyjątkiem krótkich serii"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
+        "name": "Częstotliwość wysyłania wiadomości",
         "hint": "w czatach grupowych",
         "text": "do 20 wiadomości na sekundę na tym samym czacie"
       },
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Ilość wyników inline",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "do 50 elementów na stronę"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px, do 2 MB"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Limit rozwiązywania nazw użytkowników",
+        "hint": "(zarówno dla botów, jak i kont użytkowników)",
+        "text": "do 200 nazw użytkowników dziennie"
       }
     }
   }

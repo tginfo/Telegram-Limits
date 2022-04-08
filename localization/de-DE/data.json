@@ -48,7 +48,7 @@
         "text": "bis zu 200"
       },
       "video_length": {
-        "name": "Länge des Videoavatars",
+        "name": "Länge des Videoprofilbild",
         "hint": "",
         "text": "bis zu 10 Sekunden"
       },
@@ -374,8 +374,8 @@
       },
       "download_limit_botapi_local": {
         "name": "Datei Download Limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "hint": "Mit lokalen Bot API Server",
+        "text": "bis zu 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Anzahl der Tastaturbuttons",
@@ -393,19 +393,19 @@
         "text": "bis zu 100"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Nachrichten Sendefrequenz",
+        "hint": "Gilt nur, wenn aktiv Benachrichtigungen an ansonsten inaktive Chats gesendet werden",
+        "text": "bis zu 30 Nachrichten pro Sekunde über alle Chats"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "name": "Nachrichten Sendefrequenz",
+        "hint": "in jedem Chat",
+        "text": "bis zu ungefähr einer Nachricht pro Sekunde, außer vielleicht kurzen Phasen"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Nachrichten Sendefrequenz",
+        "hint": "in Gruppenchats",
+        "text": "bis zu 20 Nachrichten pro Sekunde in einem Chat"
       },
       "bot_commands_count": {
         "name": "Anzahl der Kommandos",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Länge der Kommando-Beschreibung",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "bis zu 256 Zeichen, dürfen nicht leer sein, wenn über die Bot API gesetzt wird"
       },
       "start_payload_size": {
         "name": "Länge des /start-Parameters für Bots",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "verwendet in deep linking",
+        "text": "bis zu 64 Bytes"
       },
       "bot_alert_length": {
         "name": "Länge einer Bot-Meldung",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Anzahl der Inline-Ergebnisse",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "bis zu 50 Elemente pro Seite"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px, bis zu 2 MB"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Nutzernamen-Auflösungslimit",
+        "hint": "(für Bots und Nutzerkonten)",
+        "text": "täglich bis zu 200 Nutzernamen"
       }
     }
   }

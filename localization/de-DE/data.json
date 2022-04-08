@@ -359,21 +359,21 @@
       },
       "upload_limit_botapi": {
         "name": "Datei-Upload-Limit",
-        "hint": "without local Bot API server",
+        "hint": "Ohne lokalen Bot API Server",
         "text": "bis zu 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Datei Upload Limit",
+        "hint": "Mit lokalen Bot API Server",
+        "text": "bis zu 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Datei-Download-Limit",
-        "hint": "without local Bot API server",
+        "hint": "Ohne lokalen Bot API Server",
         "text": "bis zu 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
+        "name": "Datei Download Limit",
         "hint": "with local Bot API server",
         "text": "up to 2000 MB"
       },

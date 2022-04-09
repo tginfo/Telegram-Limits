@@ -394,18 +394,18 @@
       },
       "messaging_frequency_broadcast": {
         "name": "消息广播速率",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "hint": "仅适用于主动发送通知到不活跃的聊天",
+        "text": "对话中每秒最多 30 条消息"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "name": "消息发送速率",
+        "hint": "任意对话中",
+        "text": "每秒最多约 1 条消息（短时间连发的情况可能不包括在内）"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "消息发送速率",
+        "hint": "在群组种",
+        "text": "同对话中每秒最多 20 条消息"
       },
       "bot_commands_count": {
         "name": "指令数量",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "指令描述长度",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "最多 256 个字符；在通过 Bot API 设置时不可为空"
       },
       "start_payload_size": {
         "name": "/start 命令 (Deep linking) 的元数据长度",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "在深层链接种",
+        "text": "最多 64 字节"
       },
       "bot_alert_length": {
         "name": "弹窗提示文本（响应回调时）",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "内联查询结果数",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "每页最多 50 条"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px，最大 2 MB"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "用户名解析限制",
+        "hint": "(适用于机器人和用户)",
+        "text": "每日最多 200 个"
       }
     }
   }

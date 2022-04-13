@@ -83,7 +83,7 @@
         "text": "jusqu'à 20"
       },
       "pinned_number": {
-        "name": "Échanges épinglés dans la liste principale",
+        "name": "Échanges épinglables dans la liste principale",
         "hint": "",
         "text": "jusqu'à 5 échanges ou canaux + 5 conversations secrètes"
       },
@@ -98,7 +98,7 @@
         "text": "48 heures après l'envoi et illimité pour les messages Enregistrés et pour les administrateurs avec la permission d'épingler"
       },
       "media_self_destruction": {
-        "name": "Autodestruction des photos et vidéos",
+        "name": "Photo et vidéo autodestructrice",
         "hint": "",
         "text": "1 à 60 secondes"
       },
@@ -343,7 +343,7 @@
         "text": "jusqu'à 20"
       },
       "username length": {
-        "name": "Longueur d'un @username",
+        "name": "Longueur du @username",
         "hint": "pour les bots",
         "text": "5 à 32 caractères"
       },
@@ -353,7 +353,7 @@
         "text": "jusqu'à 120 caractères"
       },
       "description_length": {
-        "name": "Longueur de description d'un bot",
+        "name": "Longueur de la description d'un bot",
         "hint": "",
         "text": "jusqu'à 512 caractères"
       },
@@ -448,7 +448,7 @@
         "text": "jusqu'à 10 éléments; jusqu'à 3 sur Android"
       },
       "global_search_min_query": {
-        "name": "Longueur de requête minimale",
+        "name": "Longueur minimal d'une requête",
         "hint": "pour la recherche globale",
         "text": "au moins 4 caractères"
       }
@@ -493,12 +493,12 @@
         "text": "30 ou 60"
       },
       "stickerpack_name_length": {
-        "name": "Longueur d'un nom de pack",
+        "name": "Longueur du nom d'un pack",
         "hint": "",
         "text": "jusqu'à 64 caractères"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers longueur d'url",
+        "name": "Longueur d'url d'un pack /addstickers",
         "hint": "",
         "text": "jusqu'à 62 caractères"
       }

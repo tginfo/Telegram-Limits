@@ -98,7 +98,7 @@
         "text": "48 heures après l'envoi et illimité pour les messages Enregistrés et pour les administrateurs avec la permission d'épingler"
       },
       "media_self_destruction": {
-        "name": "Photo et vidéo autodestructrice",
+        "name": "Photo et vidéo auto-destructrice",
         "hint": "",
         "text": "1 à 60 secondes"
       },
@@ -193,7 +193,7 @@
     "name": "Canaux",
     "items": {
       "public_usernames": {
-        "name": "Noms d'utilisateurs publics",
+        "name": "Nombre de noms d'utilisateur publics",
         "hint": "pour un seul compte",
         "text": "jusqu'à 10 (groupes inclus)"
       },
@@ -373,7 +373,7 @@
         "text": "jusqu'à 20 Mo"
       },
       "download_limit_botapi_local": {
-        "name": "Taille maximum d'un fichier téléchargé",
+        "name": "Taille d'un fichier téléchargé",
         "hint": "avec serveur local de l'API Bot",
         "text": "jusqu'à 2000 Mo"
       },

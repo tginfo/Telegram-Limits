@@ -358,17 +358,17 @@
         "text": "jusqu'à 512 caractères"
       },
       "upload_limit_botapi": {
-        "name": "Taille limite d'envoi pour un fichier",
+        "name": "Taille d'un fichier envoyé",
         "hint": "sans serveur local de l'API Bot",
         "text": "jusqu'à 50 Mo"
       },
       "upload_limit_botapi_local": {
-        "name": "Taille maximum d'un fichier envoyé",
+        "name": "Taille d'un fichier envoyé",
         "hint": "avec serveur local de l'API Bot",
         "text": "jusqu'à 2000 Mo"
       },
       "download_limit_botapi": {
-        "name": "Taille maximum d'un fichier téléchargé",
+        "name": "Taille d'un fichier téléchargé",
         "hint": "sans serveur local de l'API Bot",
         "text": "jusqu'à 20 Mo"
       },
@@ -400,7 +400,7 @@
       "messaging_frequency": {
         "name": "Fréquence d'envoi de message",
         "hint": "dans n'importe quel échange",
-        "text": "jusqu'à environ un message par seconde"
+        "text": "jusqu'à peu près un message par seconde"
       },
       "messaging_frequency_groups": {
         "name": "Fréquence d'envoi de message",

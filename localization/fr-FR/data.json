@@ -13,12 +13,12 @@
         "text": "jusqu'à 70 caractères"
       },
       "name_length": {
-        "name": "Longueur d'un prénom",
+        "name": "Longueur du prénom",
         "hint": "",
         "text": "de 1 à 64 caractères"
       },
       "last_name_length": {
-        "name": "Longueur d'un nom",
+        "name": "Longueur du nom",
         "hint": "",
         "text": "de 0 à 64 caractères"
       },
@@ -83,7 +83,7 @@
         "text": "jusqu'à 20"
       },
       "pinned_number": {
-        "name": "Échanges épinglés dans la liste principale",
+        "name": "Échanges épinglables dans la liste principale",
         "hint": "",
         "text": "jusqu'à 5 échanges ou canaux + 5 conversations secrètes"
       },
@@ -98,7 +98,7 @@
         "text": "48 heures après l'envoi et illimité pour les messages Enregistrés et pour les administrateurs avec la permission d'épingler"
       },
       "media_self_destruction": {
-        "name": "Autodestruction des photos et vidéos",
+        "name": "Photo et vidéo auto-destructrice",
         "hint": "",
         "text": "1 à 60 secondes"
       },
@@ -193,12 +193,12 @@
     "name": "Canaux",
     "items": {
       "public_usernames": {
-        "name": "Noms d'utilisateurs publics",
+        "name": "Nombre de noms d'utilisateur publics",
         "hint": "pour un seul compte",
         "text": "jusqu'à 10 (groupes inclus)"
       },
       "username_length": {
-        "name": "Longueur d'un @username",
+        "name": "Longueur du @username",
         "hint": "",
         "text": "5 à 32 caractères"
       },
@@ -343,7 +343,7 @@
         "text": "jusqu'à 20"
       },
       "username length": {
-        "name": "Longueur d'un @username",
+        "name": "Longueur du @username",
         "hint": "pour les bots",
         "text": "5 à 32 caractères"
       },
@@ -353,29 +353,29 @@
         "text": "jusqu'à 120 caractères"
       },
       "description_length": {
-        "name": "Longueur de description d'un bot",
+        "name": "Longueur de la description d'un bot",
         "hint": "",
         "text": "jusqu'à 512 caractères"
       },
       "upload_limit_botapi": {
-        "name": "Taille limite d'envoi pour un fichier",
-        "hint": "without local Bot API server",
+        "name": "Taille d'un fichier envoyé",
+        "hint": "sans serveur local de l'API Bot",
         "text": "jusqu'à 50 Mo"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Taille d'un fichier envoyé",
+        "hint": "avec serveur local de l'API Bot",
+        "text": "jusqu'à 2000 Mo"
       },
       "download_limit_botapi": {
-        "name": "Limite de téléchargement de fichier",
-        "hint": "without local Bot API server",
+        "name": "Taille d'un fichier téléchargé",
+        "hint": "sans serveur local de l'API Bot",
         "text": "jusqu'à 20 Mo"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Taille d'un fichier téléchargé",
+        "hint": "avec serveur local de l'API Bot",
+        "text": "jusqu'à 2000 Mo"
       },
       "keys_in_keyboard_number": {
         "name": "Nombre de boutons",
@@ -395,17 +395,17 @@
       "messaging_frequency_broadcast": {
         "name": "Message broadcasting frequency",
         "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "text": "jusqu'à 30 messages par seconde à travers les échanges"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "name": "Fréquence d'envoi de message",
+        "hint": "dans n'importe quel échange",
+        "text": "jusqu'à peu près un message par seconde"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Fréquence d'envoi de message",
+        "hint": "dans un groupe",
+        "text": "jusqu'à 20 messages par seconde dans le même échange"
       },
       "bot_commands_count": {
         "name": "Nombre de commandes",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Longueur de description d'une commande",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "jusqu'à 256 caractères, ne doit pas être vide lorsqu'il est défini via l'API Bot"
       },
       "start_payload_size": {
         "name": "Longueur des arguments /start",
         "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "text": "jusqu'à 64 octets"
       },
       "bot_alert_length": {
         "name": "Longueur des messages d'alertes d'un bot",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Nombre de résultats intégrés (inline)",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "jusqu'à 50 éléments par page"
       }
     }
   },
@@ -448,7 +448,7 @@
         "text": "jusqu'à 10 éléments; jusqu'à 3 sur Android"
       },
       "global_search_min_query": {
-        "name": "Longueur de requête minimale",
+        "name": "Longueur minimal d'une requête",
         "hint": "pour la recherche globale",
         "text": "au moins 4 caractères"
       }
@@ -493,12 +493,12 @@
         "text": "30 ou 60"
       },
       "stickerpack_name_length": {
-        "name": "Longueur d'un nom de pack",
+        "name": "Longueur du nom d'un pack",
         "hint": "",
         "text": "jusqu'à 64 caractères"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers longueur d'url",
+        "name": "Longueur d'url d'un pack /addstickers",
         "hint": "",
         "text": "jusqu'à 62 caractères"
       }
@@ -528,9 +528,9 @@
         "text": "800x800px, jusqu'à 2 Mo"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Limite de résolution du nom d'utilisateur",
+        "hint": "(pour les bots et les comptes utilisateurs)",
+        "text": "jusqu'à 200 noms d'utilisateurs par jour"
       }
     }
   }

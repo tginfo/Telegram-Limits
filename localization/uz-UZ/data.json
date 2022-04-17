@@ -404,8 +404,8 @@
       },
       "messaging_frequency_groups": {
         "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "hint": "guruhlarda",
+        "text": "bir chatda soniyasiga 20 tagacha xabar"
       },
       "bot_commands_count": {
         "name": "Buyruqlar soni",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Buyruq tavsifi uzunligi",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "256 tagacha belgi, Bot API orqali o'rnatilganda bo'sh bo'lmasligi kerak"
       },
       "start_payload_size": {
         "name": "Bot/buyruqlari uzunligi",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "deep link'da qo‘llaniladi",
+        "text": "64 tagacha belgi"
       },
       "bot_alert_length": {
         "name": "Bot ogohlantirish xabarining uzunligi",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Inline natijalar soni",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "har bir sahifaga 50 tagacha element"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800 px, 2 MB gacha"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Foydalanuvchi nomini oʻzgartirish chegarasi",
+        "hint": "(botlar va foydalanuvchi hisoblari uchun)",
+        "text": "kuniga 200 tagacha foydalanuvchi nomi"
       }
     }
   }

@@ -359,7 +359,7 @@
       },
       "upload_limit_botapi": {
         "name": "Fayllarni yuklash chegarasi",
-        "hint": "without local Bot API server",
+        "hint": "local Bot APi serverisiz",
         "text": "50 MB gacha"
       },
       "upload_limit_botapi_local": {

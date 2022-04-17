@@ -393,8 +393,8 @@
         "text": "jusqu'à 100 éléments"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "name": "Fréquence de diffusion de message",
+        "hint": "s'applique uniquement lors d'un envoi avec les notifications actives dans des échanges où elles sont normalement inactives",
         "text": "jusqu'à 30 messages par seconde à travers les échanges"
       },
       "messaging_frequency": {
@@ -423,8 +423,8 @@
         "text": "jusqu'à 256 caractères, ne doit pas être vide lorsqu'il est défini via l'API Bot"
       },
       "start_payload_size": {
-        "name": "Longueur des arguments /start",
-        "hint": "used in deep linking",
+        "name": "Longueur des métadonnées de la commande /start d'un bot",
+        "hint": "utilisé dans les liens avancés",
         "text": "jusqu'à 64 octets"
       },
       "bot_alert_length": {

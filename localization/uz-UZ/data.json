@@ -403,7 +403,7 @@
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
+        "name": "Xabarlarni uzatish chastotasi",
         "hint": "guruhlarda",
         "text": "bir chatda soniyasiga 20 tagacha xabar"
       },

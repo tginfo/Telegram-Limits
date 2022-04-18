@@ -404,7 +404,7 @@
       },
       "messaging_frequency_groups": {
         "name": "Fréquence d'envoi de message",
-        "hint": "dans un groupe",
+        "hint": "dans les groupes",
         "text": "jusqu'à 20 messages par seconde dans le même échange"
       },
       "bot_commands_count": {

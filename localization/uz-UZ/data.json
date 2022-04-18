@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Fayllarni yuklash chegarasi",
-        "hint": "without local Bot API server",
+        "hint": "local Bot APi serverisiz",
         "text": "50 MB gacha"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Fayllarni telegramga yuklash chegarasi",
+        "hint": "local Bot API serveri bilan",
+        "text": "2000 MB gacha"
       },
       "download_limit_botapi": {
         "name": "Fayllarni yuklab olish chegarasi",
-        "hint": "without local Bot API server",
+        "hint": "local Bot API serverisiz",
         "text": "20 MB gacha"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Fayllarni yuklab olish chegarasi",
+        "hint": "local Bot API serveri bilan",
+        "text": "2000 MB gacha"
       },
       "keys_in_keyboard_number": {
         "name": "Tugmachalar soni",
@@ -393,19 +393,19 @@
         "text": "100 tagacha"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Xabarlarni uzatish chastotasi",
+        "hint": "faqat boshqa nofaol chatlarga bildirishnomalar yuborilganda amal qiladi",
+        "text": "chatlarda soniyasiga 30 tagacha xabar"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
+        "name": "Xabarlarni uzatish chastotasi",
+        "hint": "har qanday chatda",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Xabarlarni uzatish chastotasi",
+        "hint": "guruhlarda",
+        "text": "bir chatda soniyasiga 20 tagacha xabar"
       },
       "bot_commands_count": {
         "name": "Buyruqlar soni",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Buyruq tavsifi uzunligi",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "256 tagacha belgi, Bot API orqali o'rnatilganda bo'sh bo'lmasligi kerak"
       },
       "start_payload_size": {
         "name": "Bot/buyruqlari uzunligi",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "deep link'da qo‘llaniladi",
+        "text": "64 tagacha belgi"
       },
       "bot_alert_length": {
         "name": "Bot ogohlantirish xabarining uzunligi",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Inline natijalar soni",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "har bir sahifaga 50 tagacha element"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800 px, 2 MB gacha"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Foydalanuvchi nomini oʻzgartirish chegarasi",
+        "hint": "(botlar va foydalanuvchi hisoblari uchun)",
+        "text": "kuniga 200 tagacha foydalanuvchi nomi"
       }
     }
   }

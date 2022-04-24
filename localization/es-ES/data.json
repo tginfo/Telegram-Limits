@@ -394,7 +394,7 @@
       },
       "messaging_frequency_broadcast": {
         "name": "Frecuencia de difusión de mensajes",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "hint": "solo se aplica cuando se envían notificaciones de forma activa a chat que de otro modo estarían inactivos",
         "text": "hasta 30 mensajes por segundo en chats"
       },
       "messaging_frequency": {

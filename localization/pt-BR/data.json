@@ -393,18 +393,18 @@
         "text": "até 100 itens"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
+        "name": "Frequência de transmissão da mensagem",
+        "hint": "só se aplica quando envia notificações para conversas inativas de outra forma",
         "text": "até 30 mensagens por segundo nos chats"
       },
       "messaging_frequency": {
         "name": "Frequência do envio de mensagem",
         "hint": "em qualquer chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "text": "até cerca de uma mensagem por segundo, exceto talvez explosões curtas"
       },
       "messaging_frequency_groups": {
         "name": "Frequência do envio de mensagem",
-        "hint": "in group chats",
+        "hint": "em chats de grupo",
         "text": "até 20 mensagens por segundo no mesmo chat"
       },
       "bot_commands_count": {
@@ -420,11 +420,11 @@
       "bot_command_description_length": {
         "name": "Tamanho da descrição do comando",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "até 256 caracteres, não pode ser vazio quando definido via API do Bot"
       },
       "start_payload_size": {
         "name": "Tamanho do payload /start de bots",
-        "hint": "used in deep linking",
+        "hint": "usado na vinculação profunda",
         "text": "até 64 bytes"
       },
       "bot_alert_length": {

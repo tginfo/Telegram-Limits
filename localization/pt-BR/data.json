@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Legendas de mídia",
         "hint": "",
-        "text": "até 1.024 caracteres"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "Limite de tamanho de arquivos",

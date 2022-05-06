@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Описание к медиафайлам",
         "hint": "",
-        "text": "до 1 024 символов"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "Объём отправляемых файлов",

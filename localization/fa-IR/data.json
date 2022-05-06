@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "زیرنویس رسانه",
         "hint": "",
-        "text": "تا 1024 کارکتر"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "محدودیت حجم فایل",

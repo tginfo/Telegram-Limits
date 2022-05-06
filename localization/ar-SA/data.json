@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "وصف الوسائط",
         "hint": "",
-        "text": "الأقصى ١٠٢٤ حروف"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "حجم الملف",

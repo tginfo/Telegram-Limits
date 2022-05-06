@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Didascalia dei media",
         "hint": "",
-        "text": "fino a 1,024 caratteri"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "Dimensioni di un file",

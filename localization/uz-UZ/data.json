@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Medialar uchun izoh",
         "hint": "",
-        "text": "1,024 tagacha belgi "
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "Fayl hajmi chegarasi",

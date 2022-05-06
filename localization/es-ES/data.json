@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Leyendas del medio",
         "hint": "",
-        "text": "hasta 1024 caracteres"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "Límite de tamaño del archivo",

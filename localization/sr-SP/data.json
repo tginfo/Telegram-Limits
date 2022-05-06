@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Опис медија",
         "hint": "",
-        "text": "до 1024 знака"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "Величина датотеке",

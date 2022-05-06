@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "ஒலியொளிக் குறிப்பு",
         "hint": "",
-        "text": "1,024 எழுத்துகள் வரை"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "கோப்பு அளவின் வரம்பு",

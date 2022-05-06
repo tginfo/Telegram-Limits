@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "כתוביות על מדיה",
         "hint": "",
-        "text": "עד 1,024 תווים"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "מגבלת הגודל של הקבצים",

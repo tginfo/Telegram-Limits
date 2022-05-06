@@ -15,7 +15,7 @@
       "name_length": {
         "name": "Ad uzunluğu",
         "hint": "",
-        "text": "1-64 arası simvol"
+        "text": "1-64 arasl simvol"
       },
       "last_name_length": {
         "name": "Soyad uzunluğu",
@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Media açıqlaması",
         "hint": "",
-        "text": "1,024 simvola qədər"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "Fayl həcm limiti",

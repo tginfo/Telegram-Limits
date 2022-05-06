@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "ඡායාරූප සටහන",
         "hint": "",
-        "text": "අක්ෂර 1,024 ක් දක්වා"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "ගොනුවක උපරිම විශාලත්වය",

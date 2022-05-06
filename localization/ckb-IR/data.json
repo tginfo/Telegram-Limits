@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "ژێرنووسی ڕەنگاڵەکان",
         "hint": "",
-        "text": "تا 1,024 نووسە"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "سنووری قەبارەی پەڕگە",

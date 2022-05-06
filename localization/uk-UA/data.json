@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Опис у медіа",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "до 4 096 символів"
       },
       "upload_size": {
         "name": "Обмеження розміру файлу",

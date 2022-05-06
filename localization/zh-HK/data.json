@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "附件描述",
         "hint": "",
-        "text": "最多 1,024 個字"
+        "text": "up to 4,096 characters"
       },
       "upload_size": {
         "name": "檔案大小",

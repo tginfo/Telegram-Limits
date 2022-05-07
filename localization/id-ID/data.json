@@ -359,7 +359,7 @@
       },
       "upload_limit_botapi": {
         "name": "Batas unggahan file",
-        "hint": "without local Bot API server",
+        "hint": "tanpa server Bot API lokal",
         "text": "hingga 50 MB"
       },
       "upload_limit_botapi_local": {

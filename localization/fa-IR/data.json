@@ -40,7 +40,7 @@
       "geochats_number": {
         "name": "Geochats number",
         "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "text": "تا 5 گروه و کانال(شامل آنهایی که خودتان مالک هستید)"
       },
       "gifs_number": {
         "name": "تعداد گیف های ذخیره شده",
@@ -155,17 +155,17 @@
       "read_receipts_availability": {
         "name": "Read receipts availability",
         "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+        "text": "برای گفتگوهای با ١٠٠ عضو یا کمتر، لیست کاربران فقط برای فرستنده پیام قابل دسترسی است"
       },
       "read_receipts_lifetime": {
         "name": "Read receipts lifetime",
         "hint": "",
-        "text": "up to 7 days since message was sent"
+        "text": "از زمان فرستادن پیام تا ٧ روز"
       }
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "گفتگوی صوتی و تصویری",
     "items": {
       "voice_chat_participants": {
         "name": "شنوندگان گفتگو صوتی",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "مشاهده‌کنندگان پخش همگانی ویدئو",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "به صورتی رسمی عنوان شده است که نامحدود است، اما در عمل وقتی پخش زنده به ٢٠٠٠ بیننده برسد، ناپایدار خواهد شد"
       },
       "voice_chat_schedule": {
         "name": "گفتگوهای زمان‌بندی‌شده",
@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "زیرنویس رسانه",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "تا ۴٠٩۶ کرکتر"
       },
       "upload_size": {
         "name": "محدودیت حجم فایل",
@@ -273,7 +273,7 @@
         "text": "تا 2 گیگابایت"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "طول اسم",
         "hint": "",
         "text": "up to 60 characters, others will be trimmed out"
       },
@@ -363,9 +363,9 @@
         "text": "تا 50 مگابایت"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
+        "name": "محدودیت ارسال فایل",
         "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "text": "تا ٢٠٠٠ مگابایت"
       },
       "download_limit_botapi": {
         "name": "محدودیت دریافت فایل",
@@ -373,9 +373,9 @@
         "text": "تا 20 مگابایت"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
+        "name": "محدودیت دریافت فایل",
         "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "text": "تا ٢٠٠٠ مگابایت"
       },
       "keys_in_keyboard_number": {
         "name": "تعداد دکمه های صفحه کلید",

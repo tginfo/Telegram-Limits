@@ -399,12 +399,12 @@
       },
       "messaging_frequency": {
         "name": "Message sending frequency",
-        "hint": "in any chat",
+        "hint": "در تمام گفتگوها",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
         "name": "Message sending frequency",
-        "hint": "in group chats",
+        "hint": "در گفتگوهای گروهی",
         "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
@@ -425,7 +425,7 @@
       "start_payload_size": {
         "name": "طول متادیتای /start ربات",
         "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "text": "تا ۶۴ بایت"
       },
       "bot_alert_length": {
         "name": "طول پیام هشدار ربات",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "شماره نتایج درون خطی",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "تا ۵۰ مورد در هر صفحه"
       }
     }
   },
@@ -500,7 +500,7 @@
       "stickerpack_url_length": {
         "name": "Pack /addstickers url length",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "تا ۶٢ کارکتر"
       }
     }
   },
@@ -529,8 +529,8 @@
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "hint": "(برای ربات‌ها و حساب‌های کاربری)",
+        "text": "روزانه تا ۲۰۰ نام کاربری"
       }
     }
   }

@@ -359,22 +359,22 @@
       },
       "upload_limit_botapi": {
         "name": "Datei-Upload-Limit",
-        "hint": "Ohne lokalen Bot API Server",
+        "hint": "ohne lokalem Bot API Server",
         "text": "bis zu 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "Datei Upload Limit",
-        "hint": "Mit lokalen Bot API Server",
+        "name": "Datei-Upload-Limit",
+        "hint": "mit lokalem Bot API Server",
         "text": "bis zu 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Datei-Download-Limit",
-        "hint": "Ohne lokalen Bot API Server",
+        "hint": "ohne lokalem Bot API Server",
         "text": "bis zu 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "Datei Download Limit",
-        "hint": "Mit lokalen Bot API Server",
+        "name": "Datei-Download-Limit",
+        "hint": "mit lokalem Bot API Server",
         "text": "bis zu 2000 MB"
       },
       "keys_in_keyboard_number": {
@@ -393,7 +393,7 @@
         "text": "bis zu 100"
       },
       "messaging_frequency_broadcast": {
-        "name": "Nachrichten Sendefrequenz",
+        "name": "Nachrichten-Sendefrequenz",
         "hint": "Gilt nur, wenn aktiv Benachrichtigungen an ansonsten inaktive Chats gesendet werden",
         "text": "bis zu 30 Nachrichten pro Sekunde über alle Chats"
       },

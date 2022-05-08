@@ -400,7 +400,7 @@
       "messaging_frequency": {
         "name": "Xabarlarni uzatish chastotasi",
         "hint": "har qanday chatda",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "text": "sekundiga taxminan bir xabargacha, qisqa xabarlar bundan mustasno"
       },
       "messaging_frequency_groups": {
         "name": "Xabarlarni uzatish chastotasi",

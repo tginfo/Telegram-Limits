@@ -153,19 +153,19 @@
         "text": "für Chats mit 199.000+ Mitgliedern"
       },
       "read_receipts_availability": {
-        "name": "Verfügbarkeit von Belegen",
+        "name": "Verfügbarkeit von Lesebestätigungen",
         "hint": "",
-        "text": "für Chats mit mindestens 100 Mitgliedern ist die Liste der Benutzer nur für den Benutzer verfügbar, der die Nachricht gesendet hat"
+        "text": "für Chats mit mindestens 100 Mitgliedern, die Liste der Nutzer ist nur für den Nutzer verfügbar, der die Nachricht gesendet hat"
       },
       "read_receipts_lifetime": {
-        "name": "Belege lebenslang lesen",
+        "name": "Anzeigedauer von Lesebestätigungen",
         "hint": "",
         "text": "bis zu 7 Tage seit dem Senden der Nachricht"
       }
     }
   },
   "voice_chats": {
-    "name": "Sprach- und Video-Chats",
+    "name": "Sprach- und Videochats",
     "items": {
       "voice_chat_participants": {
         "name": "Sprachchat-Zuhörer",
@@ -180,7 +180,7 @@
       "video_chat_viewers": {
         "name": "Zuschauer einer Videoübertragung",
         "hint": "",
-        "text": "offiziell ist unbegrenzt, in der Praxis wird der Stream bei etwa 2.000 gleichzeitigen Zuschauern instabil"
+        "text": "offiziell unbegrenzt, in der Praxis wird der Stream bei etwa 2.000 gleichzeitigen Zuschauern instabil"
       },
       "voice_chat_schedule": {
         "name": "Geplante Sprachchats",
@@ -398,12 +398,12 @@
         "text": "bis zu 30 Nachrichten pro Sekunde über alle Chats"
       },
       "messaging_frequency": {
-        "name": "Nachrichten Sendefrequenz",
+        "name": "Nachrichten-Sendefrequenz",
         "hint": "in jedem Chat",
         "text": "bis zu ungefähr einer Nachricht pro Sekunde, außer vielleicht kurzen Phasen"
       },
       "messaging_frequency_groups": {
-        "name": "Nachrichten Sendefrequenz",
+        "name": "Nachrichten-Sendefrequenz",
         "hint": "in Gruppenchats",
         "text": "bis zu 20 Nachrichten pro Sekunde in einem Chat"
       },
@@ -420,11 +420,11 @@
       "bot_command_description_length": {
         "name": "Länge der Kommando-Beschreibung",
         "hint": "",
-        "text": "bis zu 256 Zeichen, dürfen nicht leer sein, wenn über die Bot API gesetzt wird"
+        "text": "bis zu 256 Zeichen, darf nicht leer sein, wenn über die Bot API definiert"
       },
       "start_payload_size": {
         "name": "Länge des /start-Parameters für Bots",
-        "hint": "verwendet in deep linking",
+        "hint": "für Deeplinking",
         "text": "bis zu 64 Bytes"
       },
       "bot_alert_length": {
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Anzahl der Inline-Ergebnisse",
         "hint": "",
-        "text": "bis zu 50 Elemente pro Seite"
+        "text": "bis zu 50 pro Seite"
       }
     }
   },

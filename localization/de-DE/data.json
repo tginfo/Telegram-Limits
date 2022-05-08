@@ -394,7 +394,7 @@
       },
       "messaging_frequency_broadcast": {
         "name": "Nachrichten-Sendefrequenz",
-        "hint": "Gilt nur, wenn aktiv Benachrichtigungen an ansonsten inaktive Chats gesendet werden",
+        "hint": "gilt nur, wenn aktiv Benachrichtigungen an ansonsten inaktive Chats gesendet werden",
         "text": "bis zu 30 Nachrichten pro Sekunde über alle Chats"
       },
       "messaging_frequency": {

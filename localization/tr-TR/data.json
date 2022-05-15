@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Medya açıklaması",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "4.096 karaktere kadar"
       },
       "upload_size": {
         "name": "Dosya boyut sınırı",
@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Dosya yükleme sınırı",
-        "hint": "without local Bot API server",
+        "hint": "yerel Bot API sunucusu olmadan",
         "text": "50 MB'a kadar"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Dosya yükleme sınırı",
+        "hint": "yerel Bot API sunucusu ile",
+        "text": "2000 MB'a kadar"
       },
       "download_limit_botapi": {
         "name": "Dosya indirme sınırı",
-        "hint": "without local Bot API server",
+        "hint": "yerel Bot API sunucusu olmadan",
         "text": "20 MB'a kadar"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Dosya indirme sınırı",
+        "hint": "yerel Bot API sunucusu ile",
+        "text": "2000 MB'a kadar"
       },
       "keys_in_keyboard_number": {
         "name": "Klavye buton sayısı",
@@ -393,13 +393,13 @@
         "text": "100 öğeye kadar"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Mesaj yayınlama sıklığı",
+        "hint": "yalnızca etkin olmayan sohbetlere etkin olarak bildirim gönderirken geçerlidir",
+        "text": "sohbetler arasında saniyede 30 mesaja kadar"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
+        "name": "Mesaj gönderme sıklığı",
+        "hint": "herhangi bir sohbette",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {

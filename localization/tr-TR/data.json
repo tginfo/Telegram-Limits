@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Medya açıklaması",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "4.096 karaktere kadar"
       },
       "upload_size": {
         "name": "Dosya boyut sınırı",
@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Dosya yükleme sınırı",
-        "hint": "without local Bot API server",
+        "hint": "yerel Bot API sunucusu olmadan",
         "text": "50 MB'a kadar"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Dosya yükleme sınırı",
+        "hint": "yerel Bot API sunucusu ile",
+        "text": "2000 MB'a kadar"
       },
       "download_limit_botapi": {
         "name": "Dosya indirme sınırı",
-        "hint": "without local Bot API server",
+        "hint": "yerel Bot API sunucusu olmadan",
         "text": "20 MB'a kadar"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "Dosya indirme sınırı",
+        "hint": "yerel Bot API sunucusu ile",
+        "text": "2000 MB'a kadar"
       },
       "keys_in_keyboard_number": {
         "name": "Klavye buton sayısı",
@@ -393,19 +393,19 @@
         "text": "100 öğeye kadar"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Mesaj yayınlama sıklığı",
+        "hint": "yalnızca etkin olmayan sohbetlere etkin olarak bildirim gönderirken geçerlidir",
+        "text": "sohbetler arasında saniyede 30 mesaja kadar"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "name": "Mesaj gönderme sıklığı",
+        "hint": "herhangi bir sohbette",
+        "text": "belki kısa süreli yoğun göndermeler hariç, saniyede kabaca bir mesaja kadar"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Mesaj gönderme sıklığı",
+        "hint": "grup sohbetlerinde",
+        "text": "aynı sohbette saniyede 20 mesaja kadar"
       },
       "bot_commands_count": {
         "name": "Komut miktarı‌‌",
@@ -420,12 +420,12 @@
       "bot_command_description_length": {
         "name": "Komut açıklama uzunluğu‌‌",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "256 karaktere kadar, bot API üzerinden ayarlandığında boş olmamalıdır"
       },
       "start_payload_size": {
         "name": "Bot /start veri uzunluğu",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "uygulama bağlantılarında kullanılan",
+        "text": "64 byte'a kadar"
       },
       "bot_alert_length": {
         "name": "Bot uyarı mesajı uzunluğu",
@@ -435,7 +435,7 @@
       "inline_max_items": {
         "name": "Satır içi sonuç sayısı",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "sayfa başına 50 öğeye kadar"
       }
     }
   },
@@ -528,9 +528,9 @@
         "text": "800x800px, 2 MB'a kadar"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Kullanıcı adı çözüm sınırı",
+        "hint": "(hem botlar hem de kullanıcı hesapları için)",
+        "text": "günlük 200 kullanıcı adına kadar"
       }
     }
   }

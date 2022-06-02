@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "附件描述",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "up to 1,024 characters"
       },
       "upload_size": {
         "name": "檔案大小",
         "hint": "",
-        "text": "最大約 1.95 GiB （即 2000 MiB）"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "File name length",

@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "ඡායාරූප සටහන",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "up to 1,024 characters"
       },
       "upload_size": {
         "name": "ගොනුවක උපරිම විශාලත්වය",
         "hint": "",
-        "text": "ගිගා.බ 2.0 ක් දක්වා"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "File name length",

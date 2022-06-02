@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "Media açıqlaması",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "up to 1,024 characters"
       },
       "upload_size": {
         "name": "Fayl həcm limiti",
         "hint": "",
-        "text": "2.0 GB-a qədər"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "Fayl adı uzunluğu",

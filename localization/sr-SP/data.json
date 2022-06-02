@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "Опис медија",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "up to 1,024 characters"
       },
       "upload_size": {
         "name": "Величина датотеке",
         "hint": "",
-        "text": "до 2,0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "Дужина назива датотеке",

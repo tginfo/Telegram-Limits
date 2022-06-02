@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "ஒலியொளிக் குறிப்பு",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "up to 1,024 characters"
       },
       "upload_size": {
         "name": "கோப்பு அளவின் வரம்பு",
         "hint": "",
-        "text": "2.0 ஜிபி வரை"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "File name length",

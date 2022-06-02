@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "محدودیت حجم فایل",
         "hint": "",
-        "text": "تا 2 گیگابایت"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "طول اسم",

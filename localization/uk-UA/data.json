@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Спам-бан",
         "hint": "",
-        "text": "3 дні або більше"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Кількість каналів та супергруп",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Результати глобального пошуку",
         "hint": "",
-        "text": "до 10 елементів; до 3 для Android"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "Мінімальна довжина запиту",

@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Blokada za SPAM",
         "hint": "",
-        "text": "3 dni lub więcej"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Liczba kanałów i supergrup",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Globalne wyniki wyszukiwania",
         "hint": "",
-        "text": "do 10 elementów; do 3 na Androidzie"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "Minimalna długość zapytania",

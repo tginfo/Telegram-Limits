@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Забрана приступа због злоупотребе",
         "hint": "",
-        "text": "3 дана или више"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Број канала и супергрупа",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Резултати глобалне претраге",
         "hint": "",
-        "text": "до 10 ставки; до 3 за Android"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "Минимална дужина речи",

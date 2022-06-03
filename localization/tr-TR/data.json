@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Spam engeli",
         "hint": "",
-        "text": "3 gün ve daha fazla"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Kanal ve grup sayısı",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Küresel arama sonuçları",
         "hint": "",
-        "text": "10 öğeye kadar; Android için 3"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "Gerekli karakter uzunluğu",

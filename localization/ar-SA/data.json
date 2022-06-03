@@ -383,8 +383,8 @@
         "text": "الأقصى ١٠٠ مدخلات"
       },
       "formatting_data": {
-        "name": "بيانات تنسيق الرسائل",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "الأقصى ١٠ كيلوبايت"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "خصائص مقطع الشخصي",
         "hint": "",
         "text": "٨٠٠×٨٠٠ بيكسل، حجم المقطع ٢ ميكابايت"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

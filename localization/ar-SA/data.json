@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "حظر الإزعاج",
         "hint": "",
-        "text": "3 أيام وأكثر"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "عدد القنوات و المجموعات الكبرى",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "نتائج البحث العامة",
         "hint": "",
-        "text": "الأقصى عشر نتائج; للأندرويد الأقصى ثلاث نتائج"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "أقصر عدد أحرف للبحث",

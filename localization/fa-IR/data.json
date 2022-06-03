@@ -383,8 +383,8 @@
         "text": "تا 100 دکمه"
       },
       "formatting_data": {
-        "name": "داده‌های قالب بندی پیام",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "تا 10 کیلوبایت"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "ویژگی های ویدیو پروفایل",
         "hint": "",
         "text": "800px*800px، تا 2 مگابایت"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

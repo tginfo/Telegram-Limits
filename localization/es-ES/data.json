@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Límite de tamaño del archivo",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "hasta 2,000 MB (un poco menos de 2 GB reales)"
       },
       "file_name_length": {
         "name": "Longitud del nombre de archivo",

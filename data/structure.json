@@ -455,6 +455,10 @@
                 "icon": "slow_motion_video"
             },
             {
+                "id": "photo_resolution",
+                "icon": "settings_overscan"
+            },
+            {
                 "id": "username_resolve_limit",
                 "icon": "offline_bolt"
             }

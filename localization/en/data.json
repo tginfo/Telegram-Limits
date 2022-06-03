@@ -527,6 +527,11 @@
         "hint": "",
         "text": "800x800px, up to 2 MB"
       },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+      },
       "username_resolve_limit": {
         "name": "Username resolve limit",
         "hint": "(for both bots and user accounts)",

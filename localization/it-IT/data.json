@@ -383,8 +383,8 @@
         "text": "fino a 100 entità"
       },
       "formatting_data": {
-        "name": "Grandezza della formattazione di un messaggio",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "fino a 10 KB"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "Dettagli sui video profilo",
         "hint": "",
         "text": "800x800px, fino a 2 MB"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Limite di risoluzione del nome utente",

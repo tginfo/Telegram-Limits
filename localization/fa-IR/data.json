@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "ممنوعیت هرزنامه",
         "hint": "",
-        "text": "3 روز و یا بیشتر"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "تعداد کانال‌ها و ابرگروه‌ها",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "نتایج جستجو جهانی",
         "hint": "",
-        "text": "تا 10 مورد، تا 3 مورد برای اندروید"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "حداقل طول جستجو",

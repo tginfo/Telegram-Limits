@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Pemblokiran Spam",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "dari 1 hari hingga selamanya"
       },
       "channels_and_chats_number": {
         "name": "Jumlah channel dan supergrup",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Batas ukuran file",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "hingga 2.000 MiB (sedikit kurang dari 2 GB yang sebenarnya)"
       },
       "file_name_length": {
         "name": "Panjang nama berkas",
@@ -383,8 +383,8 @@
         "text": "hingga 100 entitas"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "Data markup pesan",
+        "hint": "mis. tombol inline",
         "text": "hingga 10 KB"
       },
       "formatting_entities": {
@@ -528,8 +528,8 @@
         "text": "800x800px, hingga 2 MB"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
+        "name": "Resolusi foto",
+        "hint": "saat dikirim dengan kompresi",
         "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {

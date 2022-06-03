@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Pemblokiran Spam",
         "hint": "",
-        "text": "3 hari atau lebih"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Jumlah channel dan supergrup",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Hasil pencarian umum",
         "hint": "",
-        "text": "hingga 10 item; hingga 3 untuk Android"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "Minimal panjang kueri",

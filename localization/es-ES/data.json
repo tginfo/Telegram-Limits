@@ -383,8 +383,8 @@
         "text": "hasta 100 teclas"
       },
       "formatting_data": {
-        "name": "Datos de formato de mensaje",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "hasta 10 KB"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "Propiedades del avatar de video",
         "hint": "",
         "text": "800x800px, hasta 2 MB"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Límite de resolución de nombre de usuario",

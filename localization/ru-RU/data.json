@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Спам-бан",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "от 1 дня до навсегда"
       },
       "channels_and_chats_number": {
         "name": "Количество каналов и супергрупп",

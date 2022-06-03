@@ -383,8 +383,8 @@
         "text": "100-ə qədər"
       },
       "formatting_data": {
-        "name": "Mesaj format etmə verilənləri",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "10 KB-a qədər"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "Video avatar xüsusiyyətləri",
         "hint": "",
         "text": "800x800px, 2 MB-a qədər"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

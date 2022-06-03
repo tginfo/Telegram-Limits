@@ -383,8 +383,8 @@
         "text": "100 உருப்படிகள் வரை"
       },
       "formatting_data": {
-        "name": "தகவல் வடிவமைப்பு தரவு",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "10 கேபி வரை"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "சுயக்குறிப்புக் காணொளி பண்புகள்",
         "hint": "",
         "text": "800x800px, 2 MB வரை"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

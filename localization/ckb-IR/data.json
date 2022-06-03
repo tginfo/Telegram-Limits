@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "قەدەغەکردن لەبەر سپام",
         "hint": "",
-        "text": "3 ڕۆژ یان زیاتر"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "ژمارەی کەناڵ و گروپەکان",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "ئەنجامی گەڕانی جیهانی",
         "hint": "",
-        "text": "تا 10 دانە؛ تا 3 بۆ ئاندرۆید"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "کەمترین درێژیی داوا",

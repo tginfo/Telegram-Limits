@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "違反防垃圾規則封鎖",
         "hint": "",
-        "text": "3 天或以上"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "頻道與超級群組人數",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "全域搜尋結果",
         "hint": "",
-        "text": "最多 10 項結果（Android 應用程式只能顯示 3 個結果）"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "關鍵字長度",

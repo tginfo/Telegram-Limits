@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Media captions",
         "hint": "",
-        "text": "up to 4,096 characters"
+        "text": "up to 1,024 characters"
       },
       "upload_size": {
         "name": "File size limit",

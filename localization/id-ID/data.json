@@ -383,8 +383,8 @@
         "text": "hingga 100 entitas"
       },
       "formatting_data": {
-        "name": "Data pemformatan pesan",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "hingga 10 KB"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "Properti video avatar",
         "hint": "",
         "text": "800x800px, hingga 2 MB"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Batas menetapkan username",

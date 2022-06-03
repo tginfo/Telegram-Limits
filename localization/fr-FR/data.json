@@ -383,8 +383,8 @@
         "text": "jusqu'à 100 éléments"
       },
       "formatting_data": {
-        "name": "Données de formatage de message",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "jusqu'à 10 Ko"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "Propriétés de l'avatar vidéo",
         "hint": "",
         "text": "800x800px, jusqu'à 2 Mo"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Limite de résolution du nom d'utilisateur",

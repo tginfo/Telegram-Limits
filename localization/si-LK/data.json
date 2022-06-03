@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "ගොනුවක උපරිම විශාලත්වය",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "File name length",

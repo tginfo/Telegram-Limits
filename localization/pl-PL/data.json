@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Rozmiar wysłanych plików",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "up to 2.0 GB"
       },
       "file_name_length": {
         "name": "Długość nazwy pliku",

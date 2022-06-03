@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Спам-бан",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "від 1 дня до назавжди"
       },
       "channels_and_chats_number": {
         "name": "Кількість каналів та супергруп",
@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "Опис у медіа",
         "hint": "",
-        "text": "до 4 096 символів"
+        "text": "до 1 024 символів"
       },
       "upload_size": {
         "name": "Обмеження розміру файлу",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "до 2 000 МіБ (трохи менше справжніх 2 ГБ)"
       },
       "file_name_length": {
         "name": "Довжина імені файлу",
@@ -383,8 +383,8 @@
         "text": "до 100 елементів"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "Markup-дані повідомлення",
+        "hint": "наприклад, inline-кнопки",
         "text": "до 10 Кб"
       },
       "formatting_entities": {
@@ -528,9 +528,9 @@
         "text": "800x800px, до 2 Мб"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "name": "Роздільна здатність фото",
+        "hint": "при надсиланні зі стисканням",
+        "text": "кожна сторона має бути меншою чи дорівнювати 1280px, інакше фото буде зменшено таким чином, щоб більша сторона дорівнювала 1280px"
       },
       "username_resolve_limit": {
         "name": "Пошук користувачів за username",

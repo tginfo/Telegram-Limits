@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Spam",
         "hint": "",
-        "text": "3 kun yoki undan ko'proq"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Kanallar va superguruhlar soni",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Global qidiruv natijalari",
         "hint": "",
-        "text": "10 tagacha; Android uchun 3 tagacha"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "So'rovlarning minimal uzunligi",

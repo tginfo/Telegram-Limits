@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "濫發訊息封鎖時間",
         "hint": "",
-        "text": "一般為 3 日（再次干犯者會自動疊加封鎖日數）"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "可以加入的頻道及大型群組數目",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "全域搜尋結果",
         "hint": "",
-        "text": "最多 10 項結果（Android 應用程式只能顯示 3 個結果）"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "關鍵字長度",

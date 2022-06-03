@@ -383,8 +383,8 @@
         "text": "100 tagacha"
       },
       "formatting_data": {
-        "name": "Xabarni formatlash ma'lumotlari",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "10 KB gacha"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "Video avatar xususiyatlari",
         "hint": "",
         "text": "800x800 px, 2 MB gacha"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Foydalanuvchi nomini oʻzgartirish chegarasi",

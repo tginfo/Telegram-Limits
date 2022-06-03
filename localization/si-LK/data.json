@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "ස්පෑම් වාරණය",
         "hint": "",
-        "text": "දින 3 ක් හෝ වැඩි"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "නාලිකා හා සුපිරි සමූහ ගණන",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "ගෝලීය සෙවුම් ප්‍රතිඵල",
         "hint": "",
-        "text": "අයිතම 10 ක් දක්වා; ඇන්ඩ්‍රොයිඩ් තුළදී 3 ක් දක්වා"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "සෙවුම් පදයක අවම දිග",

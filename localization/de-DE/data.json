@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Spam-Bann",
         "hint": "",
-        "text": "3 Tage oder länger"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Anzahl der Kanäle und Supergruppen",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Maximale Dateigröße",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "Dateinamenlänge",
@@ -383,8 +383,8 @@
         "text": "bis zu 100"
       },
       "formatting_data": {
-        "name": "Formatierungsdaten für Nachrichten",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "bis zu 10 KB"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Globale Suchergebnisse",
         "hint": "",
-        "text": "bis zu 10 Ergebnisse; bis zu 3 für Android"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "Minimale Suchbegriff-Länge",
@@ -526,6 +526,11 @@
         "name": "Profilvideo-Eigenschaften",
         "hint": "",
         "text": "800x800px, bis zu 2 MB"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Nutzernamen-Auflösungslimit",

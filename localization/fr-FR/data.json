@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Bannissement pour spam",
         "hint": "",
-        "text": "3 jours ou plus"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Nombre de canaux et supergroupes",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Taille maximale d'un fichier",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "Longueur d'un nom de fichier",
@@ -383,8 +383,8 @@
         "text": "jusqu'à 100 éléments"
       },
       "formatting_data": {
-        "name": "Données de formatage de message",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "jusqu'à 10 Ko"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Résultats de la recherche globale",
         "hint": "",
-        "text": "jusqu'à 10 éléments; jusqu'à 3 sur Android"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "Longueur minimal d'une requête",
@@ -526,6 +526,11 @@
         "name": "Propriétés de l'avatar vidéo",
         "hint": "",
         "text": "800x800px, jusqu'à 2 Mo"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Limite de résolution du nom d'utilisateur",

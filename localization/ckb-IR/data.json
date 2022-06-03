@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "قەدەغەکردن لەبەر سپام",
         "hint": "",
-        "text": "3 ڕۆژ یان زیاتر"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "ژمارەی کەناڵ و گروپەکان",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "سنووری قەبارەی پەڕگە",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "درێژیی ناوی فایل",
@@ -383,8 +383,8 @@
         "text": "تا 100 دانە"
       },
       "formatting_data": {
-        "name": "زانیاریی ڕازاندنەوەی پەیام",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "تا 10 کیلۆبایت"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "ئەنجامی گەڕانی جیهانی",
         "hint": "",
-        "text": "تا 10 دانە؛ تا 3 بۆ ئاندرۆید"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "کەمترین درێژیی داوا",
@@ -526,6 +526,11 @@
         "name": "تایبەتمەندیی وێنۆچکەی ڤیدیۆیی",
         "hint": "",
         "text": "800 بە 800 پیکسڵ، تا 2 مێگابایت"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "دۆزینەوەی ناوی بەکارهێنەر",

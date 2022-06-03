@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "הגבלת ספאם",
         "hint": "",
-        "text": "3 ימים או יותר"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "מספר הערוצים והסופר קבוצות",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "מגבלת הגודל של הקבצים",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "File name length",
@@ -383,8 +383,8 @@
         "text": "עד 100"
       },
       "formatting_data": {
-        "name": "גודל עיצוב הטקסט",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "עד 10 KB"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "תוצאות חיפוש גלובליות",
         "hint": "",
-        "text": "עד 10 ערוצים וסופר קבוצות; עד 3 באנדרואיד"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "אורך שאילתה מינימלי",
@@ -526,6 +526,11 @@
         "name": "וידאו בפרופיל (במקום תמונה)",
         "hint": "",
         "text": "800x800px, עד ל 2 MB"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

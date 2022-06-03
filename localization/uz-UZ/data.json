@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Spam",
         "hint": "",
-        "text": "3 kun yoki undan ko'proq"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "Kanallar va superguruhlar soni",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Fayl hajmi chegarasi",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "Fayl nomi uzunligi",
@@ -383,8 +383,8 @@
         "text": "100 tagacha"
       },
       "formatting_data": {
-        "name": "Xabarni formatlash ma'lumotlari",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "10 KB gacha"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "Global qidiruv natijalari",
         "hint": "",
-        "text": "10 tagacha; Android uchun 3 tagacha"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "So'rovlarning minimal uzunligi",
@@ -526,6 +526,11 @@
         "name": "Video avatar xususiyatlari",
         "hint": "",
         "text": "800x800 px, 2 MB gacha"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Foydalanuvchi nomini oʻzgartirish chegarasi",

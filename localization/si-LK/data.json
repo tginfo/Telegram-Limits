@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "ස්පෑම් වාරණය",
         "hint": "",
-        "text": "දින 3 ක් හෝ වැඩි"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "නාලිකා හා සුපිරි සමූහ ගණන",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "ගොනුවක උපරිම විශාලත්වය",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "File name length",
@@ -383,8 +383,8 @@
         "text": "අයිතම 100 ක් දක්වා"
       },
       "formatting_data": {
-        "name": "පණිවිඩ හැඩසව් කිරීම් දත්ත",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "කිලෝ.බ 10 ක් දක්වා"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "ගෝලීය සෙවුම් ප්‍රතිඵල",
         "hint": "",
-        "text": "අයිතම 10 ක් දක්වා; ඇන්ඩ්‍රොයිඩ් තුළදී 3 ක් දක්වා"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "සෙවුම් පදයක අවම දිග",
@@ -526,6 +526,11 @@
         "name": "පැතිකඩ වීඩියෝවක සැකසුම්",
         "hint": "",
         "text": "800x800px, මෙගා.බ 2 ක් දක්වා"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "濫發訊息封鎖時間",
         "hint": "",
-        "text": "一般為 3 日（再次干犯者會自動疊加封鎖日數）"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "可以加入的頻道及大型群組數目",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "檔案大小",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "File name length",
@@ -383,8 +383,8 @@
         "text": "最多 100 粒"
       },
       "formatting_data": {
-        "name": "格式化文字大小",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "最大約 10 KB"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "全域搜尋結果",
         "hint": "",
-        "text": "最多 10 項結果（Android 應用程式只能顯示 3 個結果）"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "關鍵字長度",
@@ -526,6 +526,11 @@
         "name": "動態大頭貼",
         "hint": "",
         "text": "必須為 800 x 800 px，檔案必須小於 2 MB"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

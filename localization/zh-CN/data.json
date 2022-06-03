@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "恶意灌水封禁时长",
         "hint": "",
-        "text": "3 天或以上"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "频道和超级群组数量",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "单文件大小限制",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "文件名长度限制",
@@ -383,8 +383,8 @@
         "text": "最多 100 个实体"
       },
       "formatting_data": {
-        "name": "消息格式化数据",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "最大 10 KB"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "全局搜索结果",
         "hint": "",
-        "text": "展示 10 项（安卓客户端中 3 项）"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "搜索内容字数",
@@ -526,6 +526,11 @@
         "name": "视频头像属性",
         "hint": "",
         "text": "800x800px，最大 2 MB"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "用户名解析限制",

@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "வீண் செயல் தடை",
         "hint": "",
-        "text": "3 நாட்கள் அல்லது அதற்கு மேல்"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "பதிவுத்தடங்கள் மற்றும் சிறப்புக்குழுக்களின் எண்ணிக்கை",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "கோப்பு அளவின் வரம்பு",
         "hint": "",
-        "text": "up to 2.0 GB"
+        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
       },
       "file_name_length": {
         "name": "File name length",
@@ -383,8 +383,8 @@
         "text": "100 உருப்படிகள் வரை"
       },
       "formatting_data": {
-        "name": "தகவல் வடிவமைப்பு தரவு",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "10 கேபி வரை"
       },
       "formatting_entities": {
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "உலகளாவிய தேடல் முடிவுகள்",
         "hint": "",
-        "text": "10 உருப்படிகள் வரை; அண்ட்ராய்டில் 3 வரை"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "குறைந்தபட்ச வினவல் நீளம்",
@@ -526,6 +526,11 @@
         "name": "சுயக்குறிப்புக் காணொளி பண்புகள்",
         "hint": "",
         "text": "800x800px, 2 MB வரை"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

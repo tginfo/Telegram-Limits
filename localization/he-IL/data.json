@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "הגבלת ספאם",
         "hint": "",
-        "text": "3 ימים או יותר"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "מספר הערוצים והסופר קבוצות",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "תוצאות חיפוש גלובליות",
         "hint": "",
-        "text": "עד 10 ערוצים וסופר קבוצות; עד 3 באנדרואיד"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "אורך שאילתה מינימלי",

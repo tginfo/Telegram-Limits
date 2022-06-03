@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "恶意灌水封禁时长",
         "hint": "",
-        "text": "3 天或以上"
+        "text": "from 1 day up to forever"
       },
       "channels_and_chats_number": {
         "name": "频道和超级群组数量",
@@ -445,7 +445,7 @@
       "global_search": {
         "name": "全局搜索结果",
         "hint": "",
-        "text": "展示 10 项（安卓客户端中 3 项）"
+        "text": ""
       },
       "global_search_min_query": {
         "name": "搜索内容字数",

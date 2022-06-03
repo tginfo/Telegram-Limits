@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Величина датотеке",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "до 2000 MiB (мало мање од стварних 2 GB)"
       },
       "file_name_length": {
         "name": "Дужина назива датотеке",

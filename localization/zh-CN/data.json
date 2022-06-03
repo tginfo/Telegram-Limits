@@ -383,8 +383,8 @@
         "text": "最多 100 个实体"
       },
       "formatting_data": {
-        "name": "消息格式化数据",
-        "hint": "",
+        "name": "Message markup data",
+        "hint": "e.g. inline buttons",
         "text": "最大 10 KB"
       },
       "formatting_entities": {
@@ -526,6 +526,11 @@
         "name": "视频头像属性",
         "hint": "",
         "text": "800x800px，最大 2 MB"
+      },
+      "photo_resolution": {
+        "name": "Photo resolution",
+        "hint": "when sent with compression",
+        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {
         "name": "用户名解析限制",

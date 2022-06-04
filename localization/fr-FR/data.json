@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Bannissement pour spam",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "de 1 jour à définitivevement"
       },
       "channels_and_chats_number": {
         "name": "Nombre de canaux et supergroupes",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Taille maximale d'un fichier",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "jusqu'à 2 000 Mo (un peu moins que les 2 Go réels)"
       },
       "file_name_length": {
         "name": "Longueur d'un nom de fichier",
@@ -383,8 +383,8 @@
         "text": "jusqu'à 100 éléments"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "Données de balisage du message",
+        "hint": "par exemple les boutons intégrés (inline)",
         "text": "jusqu'à 10 Ko"
       },
       "formatting_entities": {
@@ -528,9 +528,9 @@
         "text": "800x800px, jusqu'à 2 Mo"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "name": "Résolution photo",
+        "hint": "lorsqu'elle est envoyée compressée",
+        "text": "chaque côté doit être inférieur ou égal à 1280px, sinon elle sera réduit de sorte que le plus grand côté corresponde à 1280px"
       },
       "username_resolve_limit": {
         "name": "Limite de résolution du nom d'utilisateur",

@@ -530,7 +530,7 @@
       "photo_resolution": {
         "name": "Resolusi foto",
         "hint": "saat dikirim dengan kompresi",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "text": "setiap sisinya harus kurang dari atau sama dengan 1280px, selain itu akan diperkecil sehingga sisi terbesarnya akan menjadi 1280px"
       },
       "username_resolve_limit": {
         "name": "Batas menetapkan username",

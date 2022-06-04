@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Opis plików multimedialnych",
         "hint": "",
-        "text": "do 1024 znaków"
+        "text": "do 4096 znaków"
       },
       "upload_size": {
         "name": "Rozmiar wysłanych plików",

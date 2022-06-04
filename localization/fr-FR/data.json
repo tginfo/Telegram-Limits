@@ -488,7 +488,7 @@
         "text": "jusqu'à 512 KB pour les statique, jusqu'à 64 KB pour les animés"
       },
       "fps": {
-        "name": "IPS",
+        "name": "IPS / FPS",
         "hint": "",
         "text": "30 ou 60"
       },

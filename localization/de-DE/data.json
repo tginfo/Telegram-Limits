@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Medienbeschreibungen",
         "hint": "",
-        "text": "bis zu 4.096 Zeichen"
+        "text": "bis zu 1.024 Zeichen"
       },
       "upload_size": {
         "name": "Maximale Dateigröße",

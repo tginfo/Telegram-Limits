@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Keterangan Media",
         "hint": "",
-        "text": "hingga 4.096 karakter"
+        "text": "hingga 1.024 karakter"
       },
       "upload_size": {
         "name": "Batas ukuran file",

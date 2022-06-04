@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Uklanjanje zbog zloupotrebe",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "od 1 dana do zauvijek"
       },
       "channels_and_chats_number": {
         "name": "Broj kanala i supergrupa",
@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "Opis medija",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "do 1024 znaka"
       },
       "upload_size": {
         "name": "Veličina datoteke",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "do 2000 MB (nešto manje od stvarnih 2 GB)"
       },
       "file_name_length": {
         "name": "Duljina imena",
@@ -359,23 +359,23 @@
       },
       "upload_limit_botapi": {
         "name": "Ograničenje prijenosa datoteka",
-        "hint": "without local Bot API server",
+        "hint": "bez lokalnog Bot API poslužitelja",
         "text": "do 50 MB"
       },
       "upload_limit_botapi_local": {
         "name": "Ograničenje prijenosa datoteka",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "hint": "s lokalnim Bot API poslužiteljom",
+        "text": "do 2000 MB"
       },
       "download_limit_botapi": {
         "name": "Ograničenje preuzimanja datoteka",
-        "hint": "without local Bot API server",
+        "hint": "bez lokalnog Bot API poslužitelja",
         "text": "do 20 MB"
       },
       "download_limit_botapi_local": {
         "name": "Ograničenje preuzimanja datoteka",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "hint": "s lokalnim Bot API poslužiteljom",
+        "text": "do 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Broj tipaka na tipkovnici",

@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Dosya boyut sınırı",
         "hint": "",
-        "text": "2000 MB'a kadar (2GB'tan biraz az)"
+        "text": "2000 MiB'a kadar (2GB'tan biraz az)"
       },
       "file_name_length": {
         "name": "Dosya adı uzunluğu",

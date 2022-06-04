@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "媒体的描述",
         "hint": "",
-        "text": "最多 4096 个字符"
+        "text": "最多 1024 个字符"
       },
       "upload_size": {
         "name": "单文件大小限制",

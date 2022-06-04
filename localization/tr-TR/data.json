@@ -265,7 +265,7 @@
       "media_descriptions": {
         "name": "Medya açıklaması",
         "hint": "",
-        "text": "4.096 karaktere kadar"
+        "text": "1.024 karaktere kadar"
       },
       "upload_size": {
         "name": "Dosya boyut sınırı",

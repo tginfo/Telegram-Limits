@@ -529,8 +529,8 @@
       },
       "photo_resolution": {
         "name": "Rozdzielczość zdjęcia",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "hint": "kiedy wysłane z kompresją",
+        "text": "każdy bok powinien być mniejszy lub równy 1280px, w przeciwnym razie zostanie zmniejszony tak, że największy bok będzie miał 1280px"
       },
       "username_resolve_limit": {
         "name": "Limit rozwiązywania nazw użytkowników",

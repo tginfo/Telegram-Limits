@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Blokada za SPAM",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "od 1 dnia do na zawsze"
       },
       "channels_and_chats_number": {
         "name": "Liczba kanałów i supergrup",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Rozmiar wysłanych plików",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "do 2 000 MB (nieco mniej niż rzeczywiste 2 GB)"
       },
       "file_name_length": {
         "name": "Długość nazwy pliku",
@@ -383,8 +383,8 @@
         "text": "do 100 sztuk"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "Dane znacznika wiadomości",
+        "hint": "np. przyciski inline",
         "text": "do 10 KB"
       },
       "formatting_entities": {
@@ -528,7 +528,7 @@
         "text": "800x800px, do 2 MB"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
+        "name": "Rozdzielczość zdjęcia",
         "hint": "when sent with compression",
         "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },

@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Ban por spam",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "de 1 dia até sempre"
       },
       "channels_and_chats_number": {
         "name": "Número de canais e supergrupos",
@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "Legendas de mídia",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "até 1.024 caracteres"
       },
       "upload_size": {
         "name": "Limite de tamanho de arquivos",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "até 2.000 MiB (ligeiramente menor que 2 GB)"
       },
       "file_name_length": {
         "name": "Comprimento do nome do arquivo",
@@ -383,7 +383,7 @@
         "text": "até 100 botões"
       },
       "formatting_data": {
-        "name": "Message markup data",
+        "name": "Dados de marcação de mensagem",
         "hint": "e.g. inline buttons",
         "text": "até 10 KB"
       },
@@ -528,9 +528,9 @@
         "text": "800x800px, até 2 MB"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "name": "Resolução da foto",
+        "hint": "quando enviado com compressão",
+        "text": "cada lado deve ser menor ou igual a 1280px, caso contrário, ele será redimensionado para baixo, então o lado maior será 1280px"
       },
       "username_resolve_limit": {
         "name": "Limite de resolução de nome de usuário",

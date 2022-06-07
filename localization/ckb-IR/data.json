@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "قەدەغەکردن لەبەر سپام",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "لە یەک ڕۆژەوە بۆ هەتاهەتایە"
       },
       "channels_and_chats_number": {
         "name": "ژمارەی کەناڵ و گروپەکان",
@@ -265,12 +265,12 @@
       "media_descriptions": {
         "name": "ژێرنووسی ڕەنگاڵەکان",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "تا 1,024 نووسە"
       },
       "upload_size": {
         "name": "سنووری قەبارەی پەڕگە",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "تا 2,000 مێبیبایت (کەمێک کەمتر لە 2 گێگابایت)"
       },
       "file_name_length": {
         "name": "درێژیی ناوی فایل",
@@ -384,7 +384,7 @@
       },
       "formatting_data": {
         "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "hint": "بۆ نموونە دوگمەی ئینڵاین",
         "text": "تا 10 کیلۆبایت"
       },
       "formatting_entities": {
@@ -528,9 +528,9 @@
         "text": "800 بە 800 پیکسڵ، تا 2 مێگابایت"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "name": "قەبارەی وێنە",
+        "hint": "کاتێک بە بچووککردنەوەوە دەنێردرێت",
+        "text": "هەر لایەک دەبێت 1280 پیکسڵ یان کەمتر بێت، ئەگەر واش نەبێت بچووک دەکرێتەوە بۆ ئەوەی گەورەترین لای ببێت بە 1280"
       },
       "username_resolve_limit": {
         "name": "دۆزینەوەی ناوی بەکارهێنەر",

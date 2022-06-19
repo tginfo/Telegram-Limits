@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Bannissement pour spam",
         "hint": "",
-        "text": "de 1 jour à définitivevement"
+        "text": "de 1 jour jusqu'à définitivevement"
       },
       "channels_and_chats_number": {
         "name": "Nombre de canaux et supergroupes",

@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Spam",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "1 kundan boshlab doimiygacha"
       },
       "channels_and_chats_number": {
         "name": "Kanallar va superguruhlar soni",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Fayl hajmi chegarasi",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "2000 MB gacha (haqiqiy 2 GB dan bir oz kamroq)"
       },
       "file_name_length": {
         "name": "Fayl nomi uzunligi",
@@ -384,7 +384,7 @@
       },
       "formatting_data": {
         "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "hint": "masalan. inline tugmalar",
         "text": "10 KB gacha"
       },
       "formatting_entities": {

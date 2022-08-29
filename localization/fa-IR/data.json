@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "ممنوعیت هرزنامه",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "از یک روز تا برای همیشه"
       },
       "channels_and_chats_number": {
         "name": "تعداد کانال‌ها و ابرگروه‌ها",

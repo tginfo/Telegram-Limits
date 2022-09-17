@@ -38,8 +38,8 @@
         "text": "تا 500 گروه و کانال(شامل آنهایی که خودتان مالک هستید)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
+        "name": "تعداد گروه‌های محلی",
+        "hint": "که شما میتوانید عضو باشید",
         "text": "تا 5 گروه و کانال(شامل آنهایی که خودتان مالک هستید)"
       },
       "gifs_number": {
@@ -153,12 +153,12 @@
         "text": "برای گفتگوهای +۱۹۹۰۰۰ کاربره"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "دردسترس بودن رسیدها",
         "hint": "",
         "text": "برای گفتگوهای با ١٠٠ عضو یا کمتر، لیست کاربران فقط برای فرستنده پیام قابل دسترسی است"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "طول‌عمر رسیدها",
         "hint": "",
         "text": "از زمان فرستادن پیام تا ٧ روز"
       }
@@ -270,12 +270,12 @@
       "upload_size": {
         "name": "محدودیت حجم فایل",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "تا 2000 مگابایت (کمی کمتر از 2 گیگابایت واقعی)"
       },
       "file_name_length": {
         "name": "طول اسم",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "تا 60 کاراکتر، بقیه کاراکترها کوتاه خواهند شد"
       },
       "video_message_duration": {
         "name": "مدت زمان پیام ویدیویی",
@@ -383,8 +383,8 @@
         "text": "تا 100 دکمه"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "داده پیام‌های markup",
+        "hint": "مانند دکمه‌های اینلاین",
         "text": "تا 10 کیلوبایت"
       },
       "formatting_entities": {
@@ -395,7 +395,7 @@
       "messaging_frequency_broadcast": {
         "name": "Message broadcasting frequency",
         "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "text": "حداکثر 30 پیام در ثانیه در تمام گفتگوها"
       },
       "messaging_frequency": {
         "name": "Message sending frequency",
@@ -530,7 +530,7 @@
       "photo_resolution": {
         "name": "Photo resolution",
         "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "text": "هردو ضلع باید 1280 پیکسل یا کمتر باشد، در غیر اینصورت تصویر کوچک می‌شود تا بزرگ‌ترین ضلع 1280 پیکسل شود"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",

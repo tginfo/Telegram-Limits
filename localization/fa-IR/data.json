@@ -38,8 +38,8 @@
         "text": "تا 500 گروه و کانال(شامل آنهایی که خودتان مالک هستید)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
+        "name": "تعداد گروه‌های محلی",
+        "hint": "که شما میتوانید عضو باشید",
         "text": "تا 5 گروه و کانال(شامل آنهایی که خودتان مالک هستید)"
       },
       "gifs_number": {
@@ -153,12 +153,12 @@
         "text": "برای گفتگوهای +۱۹۹۰۰۰ کاربره"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "دردسترس بودن رسیدها",
         "hint": "",
         "text": "برای گفتگوهای با ١٠٠ عضو یا کمتر، لیست کاربران فقط برای فرستنده پیام قابل دسترسی است"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "عمر رسیدها",
         "hint": "",
         "text": "از زمان فرستادن پیام تا ٧ روز"
       }
@@ -270,12 +270,12 @@
       "upload_size": {
         "name": "محدودیت حجم فایل",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "تا 2000 مگابایت (کمی کمتر از 2 گیگابایت واقعی)"
       },
       "file_name_length": {
         "name": "طول اسم",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "تا 60 کاراکتر، بقیه کاراکترها کوتاه خواهند شد"
       },
       "video_message_duration": {
         "name": "مدت زمان پیام ویدیویی",
@@ -383,8 +383,8 @@
         "text": "تا 100 دکمه"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "داده پیام‌های markup",
+        "hint": "مانند دکمه‌های اینلاین",
         "text": "تا 10 کیلوبایت"
       },
       "formatting_entities": {
@@ -394,18 +394,18 @@
       },
       "messaging_frequency_broadcast": {
         "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "hint": "فقط هنگام ارسال اعلان‌های فعال به گفتگوهای غیر فعال اعمال می‌شود",
+        "text": "حداکثر 30 پیام در ثانیه در تمام گفتگوها"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
+        "name": "تناوب ارسال پیام",
         "hint": "در تمام گفتگوها",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
+        "name": "تناوب ارسال پیام",
         "hint": "در گفتگوهای گروهی",
-        "text": "up to 20 messages per second in the same chat"
+        "text": "حداکثر 20 پیام در ثانیه در همان گفتگو"
       },
       "bot_commands_count": {
         "name": "میزان دستورات",
@@ -420,11 +420,11 @@
       "bot_command_description_length": {
         "name": "طول توضیحات دستور",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "تا 256 کاراکتر. هنگام استفاده از Bot API نمی‌تواند خالی باشد."
       },
       "start_payload_size": {
         "name": "طول متادیتای /start ربات",
-        "hint": "used in deep linking",
+        "hint": "قابل استفاده در پیوند عمیق",
         "text": "تا ۶۴ بایت"
       },
       "bot_alert_length": {
@@ -498,7 +498,7 @@
         "text": "تا 64 کارکتر"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "طول لینک بسته استیکر (‎/addstickers)",
         "hint": "",
         "text": "تا ۶٢ کارکتر"
       }
@@ -528,12 +528,12 @@
         "text": "800px*800px، تا 2 مگابایت"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "name": "وضوح تصویر",
+        "hint": "هنگام ارسال با فشرده‌سازی",
+        "text": "هردو ضلع باید 1280 پیکسل یا کمتر باشد، در غیر اینصورت تصویر کوچک می‌شود تا بزرگ‌ترین ضلع 1280 پیکسل شود"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
+        "name": "محدودیت گرفتن نام‌کاربری",
         "hint": "(برای ربات‌ها و حساب‌های کاربری)",
         "text": "روزانه تا ۲۰۰ نام کاربری"
       }

@@ -4,7 +4,7 @@
     "items": {
       "username": {
         "name": "Kullanıcı Adı",
-        "hint": "(örn. @kameraman)",
+        "hint": "(örn. @cameraman)",
         "text": "5 ila 32 karakter"
       },
       "bio": {
@@ -103,7 +103,7 @@
         "text": "1 ila 60 saniye"
       },
       "recent_actions": {
-        "name": "Son hareketler",
+        "name": "Son eylemler",
         "hint": "(abonelikler, paylaşımlar vb.)",
         "text": "iki gün öncesi"
       },

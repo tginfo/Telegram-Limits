@@ -51,6 +51,10 @@
             {
                 "id": "accounts_number",
                 "icon": "group_work"
+            },
+            {
+                "id": "visible_messages",
+                "icon": "visibility"
             }
         ]
     },

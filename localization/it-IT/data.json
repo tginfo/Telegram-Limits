@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "Limitazione per spam",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "da 1 giorno a sempre"
       },
       "channels_and_chats_number": {
         "name": "Numero di supergruppi e canali",
@@ -270,7 +270,7 @@
       "upload_size": {
         "name": "Dimensioni di un file",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "fino a 2.000 MiB (poco meno di 2 GB reali)"
       },
       "file_name_length": {
         "name": "Lunghezza del nome del file",
@@ -528,8 +528,8 @@
         "text": "800x800px, fino a 2 MB"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
+        "name": "Risoluzione foto",
+        "hint": "quando inviato con compressione",
         "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       },
       "username_resolve_limit": {

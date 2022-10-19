@@ -61,6 +61,11 @@
         "name": "同时登录的账号数",
         "hint": "（官方客户端）",
         "text": "最多 3 个"
+      },
+      "visible_messages": {
+        "name": "Visible messages number",
+        "hint": "(shared limit between private chats, bots and legacy groups)",
+        "text": "~1,000,000 visible messages"
       }
     }
   },

@@ -63,9 +63,9 @@
         "text": "до 3 профилей"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "name": "Количество видимых сообщений",
+        "hint": "(общий лимит между личными чатами, ботами и обычными группами)",
+        "text": "~1 000 000 видимых сообщений"
       }
     }
   },

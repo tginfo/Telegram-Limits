@@ -61,6 +61,11 @@
         "name": "Broj korisničkih računa",
         "hint": "(službene aplikacije)",
         "text": "do 3"
+      },
+      "visible_messages": {
+        "name": "Visible messages number",
+        "hint": "(shared limit between private chats, bots and legacy groups)",
+        "text": "~1,000,000 visible messages"
       }
     }
   },

@@ -61,6 +61,11 @@
         "name": "கணக்குகளின் எண்ணிக்கை",
         "hint": "(அதிகாரப்பூர்வ செயலிகள்)",
         "text": "3 வரை"
+      },
+      "visible_messages": {
+        "name": "Visible messages number",
+        "hint": "(shared limit between private chats, bots and legacy groups)",
+        "text": "~1,000,000 visible messages"
       }
     }
   },

@@ -61,6 +61,11 @@
         "name": "登入帳號數量",
         "hint": "（官方客戶端）",
         "text": "3 個"
+      },
+      "visible_messages": {
+        "name": "Visible messages number",
+        "hint": "(shared limit between private chats, bots and legacy groups)",
+        "text": "~1,000,000 visible messages"
       }
     }
   },

@@ -63,9 +63,9 @@
         "text": "até 3"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "name": "Número de mensagens visíveis",
+        "hint": "(limite compartilhado entre conversas privadas, bots e grupos legados)",
+        "text": "~1.000.000 mensagens visíveis"
       }
     }
   },

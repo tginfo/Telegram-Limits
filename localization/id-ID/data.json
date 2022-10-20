@@ -61,6 +61,11 @@
         "name": "Jumlah akun",
         "hint": "(klien resmi)",
         "text": "hingga 3"
+      },
+      "visible_messages": {
+        "name": "Jumlah pesan terlihat",
+        "hint": "(batas bersama antara obrolan pribadi, bot, dan grup lawas)",
+        "text": "~1.000.000 pesan terlihat"
       }
     }
   },

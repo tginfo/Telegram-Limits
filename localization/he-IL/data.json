@@ -61,6 +61,11 @@
         "name": "מספר החשבונות",
         "hint": "(באפליקצייה הרשמית)",
         "text": "עד 3"
+      },
+      "visible_messages": {
+        "name": "Visible messages number",
+        "hint": "(shared limit between private chats, bots and legacy groups)",
+        "text": "~1,000,000 visible messages"
       }
     }
   },

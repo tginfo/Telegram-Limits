@@ -61,6 +61,11 @@
         "name": "Ilość kont",
         "hint": "(oficjalni klienci)",
         "text": "do 3"
+      },
+      "visible_messages": {
+        "name": "Liczba widocznych wiadomości",
+        "hint": "(limit współdzielony pomiędzy prywatne czaty, boty i starsze grupy)",
+        "text": "~1 000 000 widocznych wiadomości"
       }
     }
   },

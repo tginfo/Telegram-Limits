@@ -61,6 +61,11 @@
         "name": "Número de contas",
         "hint": "(clientes oficiais)",
         "text": "até 3"
+      },
+      "visible_messages": {
+        "name": "Número de mensagens visíveis",
+        "hint": "(limite compartilhado entre conversas privadas, bots e grupos legados)",
+        "text": "~1.000.000 mensagens visíveis"
       }
     }
   },

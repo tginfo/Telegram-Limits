@@ -61,6 +61,11 @@
         "name": "可以同時登入的帳戶數目",
         "hint": "（以 Telegram 發佈的應用程式為準）",
         "text": "一般情況下，最多 3 個"
+      },
+      "visible_messages": {
+        "name": "Visible messages number",
+        "hint": "(shared limit between private chats, bots and legacy groups)",
+        "text": "~1,000,000 visible messages"
       }
     }
   },

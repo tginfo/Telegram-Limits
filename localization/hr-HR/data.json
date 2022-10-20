@@ -61,6 +61,11 @@
         "name": "Broj korisničkih računa",
         "hint": "(službene aplikacije)",
         "text": "do 3"
+      },
+      "visible_messages": {
+        "name": "Broj vidljivih poruka",
+        "hint": "(ograničenje se dijeli s privatnim razgovorima, botovima i običnim grupa)",
+        "text": "~1 000 000 vidljivih poruka"
       }
     }
   },

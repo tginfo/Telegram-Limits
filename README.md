@@ -1,5 +1,5 @@
 # Telegram Limits [![Crowdin](https://badges.crowdin.net/telegram-limits/localized.svg)](https://crowdin.com/project/telegram-limits)
-This project describes Telegram limitations and displays them on [limits.tginfo.me](https://limits.tginfo.me/)
+This project describes Telegram limits and displays them on [limits.tginfo.me](https://limits.tginfo.me/)
 
 ## How to contribute
 ### Report problem or make a suggestion

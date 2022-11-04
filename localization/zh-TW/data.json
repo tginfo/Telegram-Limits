@@ -5,7 +5,7 @@
       "username": {
         "name": "使用者名稱",
         "hint": "(例：@cameraman)",
-        "text": "5 到 32 個字元"
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
         "name": "自我介紹",

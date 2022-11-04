@@ -5,7 +5,7 @@
       "username": {
         "name": "Псевдонім",
         "hint": "(наприклад @cameraman)",
-        "text": "від 5 до 32 символів"
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
         "name": "Про себе",

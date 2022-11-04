@@ -5,7 +5,7 @@
       "username": {
         "name": "نام کاربری",
         "hint": "(مثال: testuser@)",
-        "text": "5 تا 32 کارکتر"
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
         "name": "درباره من",

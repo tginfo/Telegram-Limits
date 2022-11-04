@@ -5,7 +5,7 @@
       "username": {
         "name": "Foydalanuvchi nomi",
         "hint": "(foydalanuvchi nomi; masalan @cameraman)",
-        "text": "5 dan 32 tagacha "
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
         "name": "Tarjimai hol (bio)",

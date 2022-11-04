@@ -5,7 +5,7 @@
       "username": {
         "name": "Nome de Usuário",
         "hint": "(ex. @cameraman)",
-        "text": "5 a 32 caracteres"
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
         "name": "Bio",

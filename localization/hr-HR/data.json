@@ -5,7 +5,7 @@
       "username": {
         "name": "Korisničko ime",
         "hint": "(npr. @snimatelj)",
-        "text": "5 do 32 znaka"
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
         "name": "Opis",
@@ -388,8 +388,8 @@
         "text": "do 100 stavki"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "Podaci o označavanju poruka",
+        "hint": "npr. ugrađeni gumbi",
         "text": "do 10 KB"
       },
       "formatting_entities": {
@@ -398,19 +398,19 @@
         "text": "do 100 stavki"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "Učestalost emitiranja poruka",
+        "hint": "primjenjuje se samo kada aktivno šaljete obavijesti inače neaktivnim razgovorima",
+        "text": "do 30 poruka u sekundi kroz razgovore"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "name": "Učestalost slanja poruka",
+        "hint": "u bilo kojem razgovoru",
+        "text": "do otprilike jedne poruke u sekundi"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
-        "text": "up to 20 messages per second in the same chat"
+        "name": "Učestalost slanja poruka",
+        "hint": "u grupnim razgovorima",
+        "text": "do 20 poruka u sekundi u istom razgovoru"
       },
       "bot_commands_count": {
         "name": "Broj naredbi",
@@ -425,12 +425,12 @@
       "bot_command_description_length": {
         "name": "Duljina opisa naredbe",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "do 256 znakova, ne smije biti prazno kada se postavlja putem Bot API-ja"
       },
       "start_payload_size": {
         "name": "Maksimalna duljina teksta za pokretanje bota",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "koristi se u dubokom povezivanju",
+        "text": "do 64 bajta"
       },
       "bot_alert_length": {
         "name": "Duljina upozoravajuće poruke bota",
@@ -440,7 +440,7 @@
       "inline_max_items": {
         "name": "Broj ugrađenih rezultata",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "do 50 stavki po stranici"
       }
     }
   },
@@ -533,14 +533,14 @@
         "text": "800x800px, do 2 MB"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "name": "Rezolucija slike",
+        "hint": "kada se šalje s kompresijom",
+        "text": "svaka strana treba biti manja ili jednaka 1280px, inače će biti smanjena tako da će najveća stranica biti 1280px"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Rješavanje korisničkog imena",
+        "hint": "(za botove i za korisničke račune)",
+        "text": "do 20 korisnisničkih imena dnevno"
       }
     }
   }

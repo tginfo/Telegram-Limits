@@ -5,7 +5,7 @@
       "username": {
         "name": "使用者名稱",
         "hint": "（例如：@hkersaddoil）",
-        "text": "5 至 32 個英數字符（符號只限底線）"
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
         "name": "個人簡介",

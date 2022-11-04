@@ -5,7 +5,7 @@
       "username": {
         "name": "பயனர்பெயர்",
         "hint": "(எ.கா. @cameraman)",
-        "text": "5 முதல் 32 எழுத்துகள்"
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
         "name": "சுயக்குறிப்பு",

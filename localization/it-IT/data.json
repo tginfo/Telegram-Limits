@@ -5,7 +5,7 @@
       "username": {
         "name": "Username",
         "hint": "(es. @cameraman)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "Da 5 a 32 caratteri, a partire da 4 caratteri per i nomi utente NFT"
       },
       "bio": {
         "name": "Biografia",
@@ -63,9 +63,9 @@
         "text": "fino a 3"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "name": "Numero dei messaggi visibile",
+        "hint": "(limite condiviso tra chat private, bot e gruppi legacy)",
+        "text": "~1.000.000 messaggi visibili"
       }
     }
   },
@@ -388,8 +388,8 @@
         "text": "fino a 100 entità"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "Dati di markup del messaggio",
+        "hint": "es. pulsanti in linea",
         "text": "fino a 10 KB"
       },
       "formatting_entities": {
@@ -535,7 +535,7 @@
       "photo_resolution": {
         "name": "Risoluzione foto",
         "hint": "quando inviato con compressione",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "text": "ogni lato dovrebbe essere inferiore o pari a 1280px, altrimenti, sarà ridimensionato così che il lato maggiore sia pari a 1280px"
       },
       "username_resolve_limit": {
         "name": "Limite di risoluzione del nome utente",

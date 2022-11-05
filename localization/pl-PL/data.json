@@ -4,8 +4,8 @@
     "items": {
       "username": {
         "name": "Nazwa użytkownika",
-        "hint": "(np. @tpolska)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "hint": "(np. @popolskutelegram)",
+        "text": "5 do 32 znaków, od 4 znaków dla nazw użytkowników NFT"
       },
       "bio": {
         "name": "Biografia",

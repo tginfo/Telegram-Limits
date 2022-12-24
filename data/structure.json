@@ -388,6 +388,10 @@
             {
                 "id": "global_search_min_query",
                 "icon": "text_rotation_none"
+            },
+            {
+                "id": "username_resolve_limit",
+                "icon": "offline_bolt"
             }
         ]
     },
@@ -461,10 +465,6 @@
             {
                 "id": "photo_resolution",
                 "icon": "settings_overscan"
-            },
-            {
-                "id": "username_resolve_limit",
-                "icon": "offline_bolt"
             }
         ]
     }

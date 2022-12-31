@@ -3,9 +3,9 @@
     "name": "Akun",
     "items": {
       "username": {
-        "name": "Nama pengguna",
+        "name": "Username",
         "hint": "(mis. @username)",
-        "text": "5 hingga 32 karakter, mulai dari 4 karakter untuk nama pengguna NFT"
+        "text": "5 hingga 32 karakter, mulai dari 4 karakter untuk username NFT"
       },
       "bio": {
         "name": "Bio",
@@ -24,7 +24,7 @@
       },
       "self_destruction": {
         "name": "Periode penghancur akun otomatis",
-        "hint": "jika tidak ada aktifitas",
+        "hint": "jika tidak ada aktivitas",
         "text": "1, 3, 6 dan 12 bulan (6 secara bawaan)"
       },
       "spam_ban": {
@@ -48,7 +48,7 @@
         "text": "hingga 200"
       },
       "video_length": {
-        "name": "Durasi video-avatar",
+        "name": "Durasi avatar-video",
         "hint": "",
         "text": "hingga 10 detik"
       },
@@ -75,7 +75,7 @@
       "participants_number": {
         "name": "Partisipan",
         "hint": "(batasan dapat ditingkatkan)",
-        "text": "hingga 200.000 tapi tak terhingga di Grup Siaran"
+        "text": "hingga 200.000 tetapi tidak terbatas pada Grup Siaran (broadcast)"
       },
       "admins_number": {
         "name": "Jumlah admin",
@@ -84,13 +84,13 @@
       },
       "bots_amount": {
         "name": "Jumlah bot",
-        "hint": "di grup",
+        "hint": "dalam grup",
         "text": "hingga 20"
       },
       "pinned_number": {
         "name": "Obrolan tersemat di daftar utama",
         "hint": "",
-        "text": "hingga 5 obrolan atau channel + 5 pesan rahasia"
+        "text": "hingga 5 obrolan atau channel + 5 secret chat"
       },
       "group_name": {
         "name": "Nama dan deskripsi grup",
@@ -98,9 +98,9 @@
         "text": "hingga 255 karakter"
       },
       "editing": {
-        "name": "Perubahan pesan",
+        "name": "Pengeditan pesan",
         "hint": "",
-        "text": "dalam 48 jam setelah dikirim; selamanya di Tersimpan dan untuk admin dengan hak penyematan"
+        "text": "dalam 48 jam setelah pengiriman; tidak terbatas di Tersimpan dan untuk admin dengan hak penyematan"
       },
       "media_self_destruction": {
         "name": "Penghancuran foto dan video otomatis",
@@ -115,7 +115,7 @@
       "mentions_amount": {
         "name": "Jumlah penyebutan",
         "hint": "dalam satu pesan",
-        "text": "hingga 50, lebih dari itu pemberitahuan tidak akan dikirim"
+        "text": "hingga 50, lebih dari itu notifikasi tidak akan dikirim"
       },
       "visible_messages": {
         "name": "Jumlah pesan terlihat",
@@ -155,7 +155,7 @@
       "broadcast_group_access": {
         "name": "Ubah supergrup ke grup siaran",
         "hint": "",
-        "text": "untuk obrolan dengan 199.000+ member"
+        "text": "untuk obrolan dengan 199.000+ anggota"
       },
       "read_receipts_availability": {
         "name": "Ketersediaan tanda dibaca",

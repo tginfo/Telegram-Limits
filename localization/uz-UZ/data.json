@@ -456,6 +456,11 @@
         "name": "So'rovlarning minimal uzunligi",
         "hint": "global qidiruv uchun",
         "text": "kamida 4 ta belgi"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Rasm rezolyutsiyasi",
         "hint": "siqilish bilan yuborilganda",
         "text": "har bir tomon 1280px dan kam yoki teng boʻlishi kerak, aks holda u kichraytiriladi, shuning uchun eng katta tomoni 1280px boʻladi"
-      },
-      "username_resolve_limit": {
-        "name": "Foydalanuvchi nomini oʻzgartirish chegarasi",
-        "hint": "(botlar va foydalanuvchi hisoblari uchun)",
-        "text": "kuniga 200 tagacha foydalanuvchi nomi"
       }
     }
   }

@@ -456,6 +456,11 @@
         "name": "Minimale Suchbegriff-Länge",
         "hint": "für globale Suche",
         "text": "mindestens 4 Zeichen"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Bildauflösung",
         "hint": "wenn mit Komprimierung gesendet",
         "text": "jede Seite sollte kleiner oder gleich 1280px sein, sonst wird sie herunterskaliert, so dass die größte Seite 1280px ist"
-      },
-      "username_resolve_limit": {
-        "name": "Nutzernamen-Auflösungslimit",
-        "hint": "(für Bots und Nutzerkonten)",
-        "text": "täglich bis zu 200 Nutzernamen"
       }
     }
   }

@@ -456,6 +456,11 @@
         "name": "Minimalna duljina upita",
         "hint": "za globalno pretraživanje",
         "text": "najmanje 4 znaka"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Rezolucija slike",
         "hint": "kada se šalje s kompresijom",
         "text": "svaka strana treba biti manja ili jednaka 1280px, inače će biti smanjena tako da će najveća stranica biti 1280px"
-      },
-      "username_resolve_limit": {
-        "name": "Rješavanje korisničkog imena",
-        "hint": "(za botove i za korisničke račune)",
-        "text": "do 20 korisnisničkih imena dnevno"
       }
     }
   }

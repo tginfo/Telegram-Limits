@@ -456,6 +456,11 @@
         "name": "Minimal panjang kueri",
         "hint": "untuk pencarian umum",
         "text": "setidaknya 4 karakter"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Resolusi foto",
         "hint": "saat dikirim dengan kompresi",
         "text": "setiap sisinya harus kurang dari atau sama dengan 1280px, selain itu akan diperkecil sehingga sisi terbesarnya akan menjadi 1280px"
-      },
-      "username_resolve_limit": {
-        "name": "Batas menetapkan username",
-        "hint": "(untuk bot dan akun pengguna)",
-        "text": "hingga 200 username per hari"
       }
     }
   }

@@ -456,6 +456,11 @@
         "name": "Tamanho mínimo da busca",
         "hint": "para a busca global",
         "text": "ao menos 4 caracteres"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Resolução da foto",
         "hint": "quando enviado com compressão",
         "text": "cada lado deve ser menor ou igual a 1280px, caso contrário, ele será redimensionado para baixo, então o lado maior será 1280px"
-      },
-      "username_resolve_limit": {
-        "name": "Limite de resolução de nome de usuário",
-        "hint": "(para bots e contas de usuário)",
-        "text": "até 200 nomes de usuário por dia"
       }
     }
   }

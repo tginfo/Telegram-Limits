@@ -456,6 +456,11 @@
         "name": "關鍵字長度",
         "hint": "全域搜尋",
         "text": "至少 4 個字元"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Photo resolution",
         "hint": "when sent with compression",
         "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
-      },
-      "username_resolve_limit": {
-        "name": "使用者名稱解析限制",
-        "hint": "（適用於機器人與使用者）",
-        "text": "一天最多 200 個使用者名稱"
       }
     }
   }

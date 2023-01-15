@@ -456,6 +456,11 @@
         "name": "Минимальная длина запроса",
         "hint": "для глобального поиска",
         "text": "от 4 символов"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Разрешение фото",
         "hint": "при отправке со сжатием",
         "text": "каждая сторона должна быть меньше или равна 1280px, иначе фото будет уменьшено так, чтобы большая сторона равнялась 1280px"
-      },
-      "username_resolve_limit": {
-        "name": "Поиск пользователей по username",
-        "hint": "(для ботов и пользователей)",
-        "text": "до 200 username'ов ежедневно"
       }
     }
   }

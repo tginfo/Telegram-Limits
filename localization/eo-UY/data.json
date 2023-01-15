@@ -456,6 +456,11 @@
         "name": "Minimal query length",
         "hint": "for global search",
         "text": "at least 4 characters"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Photo resolution",
         "hint": "when sent with compression",
         "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
-      },
-      "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
       }
     }
   }

@@ -40,7 +40,7 @@
       "geochats_number": {
         "name": "Geochats number",
         "hint": "you can be member of",
-        "text": "unlimited"
+        "text": "up to 5 (including ones you own)"
       },
       "gifs_number": {
         "name": "Saved GIFs number",
@@ -115,7 +115,7 @@
       "mentions_amount": {
         "name": "Mentions number",
         "hint": "in a single message",
-        "text": "up to 50, only first 5 from list will receive notification"
+        "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {
         "name": "Visible messages number",
@@ -410,7 +410,7 @@
       "messaging_frequency_groups": {
         "name": "Message sending frequency",
         "hint": "in group chats",
-        "text": "up to 20 messages per minute in the same chat"
+        "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Commands amount",
@@ -456,11 +456,6 @@
         "name": "Minimal query length",
         "hint": "for global search",
         "text": "at least 4 characters"
-      },
-      "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -541,6 +536,11 @@
         "name": "Photo resolution",
         "hint": "when sent with compression",
         "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   }

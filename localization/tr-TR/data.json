@@ -456,6 +456,11 @@
         "name": "Gerekli karakter uzunluğu",
         "hint": "küresel arama için",
         "text": "en az 4 karakter"
+      },
+      "username_resolve_limit": {
+        "name": "Username resolve limit",
+        "hint": "(for both bots and user accounts)",
+        "text": "up to 200 usernames daily"
       }
     }
   },
@@ -536,11 +541,6 @@
         "name": "Fotoğraf çözünürlüğü",
         "hint": "sıkıştırarak gönderince",
         "text": "her kenarı 1280px'e eşit veya daha az olmalı, aksi takdirde küçültülecek ve en büyük kenarı 1280px olacak"
-      },
-      "username_resolve_limit": {
-        "name": "Kullanıcı adı çözüm sınırı",
-        "hint": "(hem botlar hem de kullanıcı hesapları için)",
-        "text": "günlük 200 kullanıcı adına kadar"
       }
     }
   }

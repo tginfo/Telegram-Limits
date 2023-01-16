@@ -458,9 +458,9 @@
         "text": "setidaknya 4 karakter"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Batas menetapkan username",
+        "hint": "(untuk bot dan akun pengguna)",
+        "text": "hingga 200 username per hari"
       }
     }
   },

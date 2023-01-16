@@ -458,9 +458,9 @@
         "text": "ao menos 4 caracteres"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Limite de resolução de nome de usuário",
+        "hint": "(para bots e contas de usuário)",
+        "text": "até 200 nomes de usuário por dia"
       }
     }
   },

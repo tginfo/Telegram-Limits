@@ -458,9 +458,9 @@
         "text": "co najmniej 4 znaki"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Limit rozpoznawania nazw użytkownika",
+        "hint": "(zarówno dla botów, jak i kont użytkownika)",
+        "text": "do 200 nazw użytkownika dziennie"
       }
     }
   },

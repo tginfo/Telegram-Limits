@@ -458,8 +458,8 @@
         "text": "најмање 4 знака"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
+        "name": "Решење корисничког имена",
+        "hint": "(за ботове и корисничке налоге)",
         "text": "up to 200 usernames daily"
       }
     }

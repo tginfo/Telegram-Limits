@@ -40,7 +40,7 @@
       "geochats_number": {
         "name": "Broj grupa na lokaciji",
         "hint": "u kojima možete biti član",
-        "text": "do 5 (uključujući i one koje su vaše)"
+        "text": "neograničeno"
       },
       "gifs_number": {
         "name": "Broj spremljenih GIF-ova",
@@ -115,7 +115,7 @@
       "mentions_amount": {
         "name": "Broj spominjanja",
         "hint": "u jednoj poruci",
-        "text": "do 50, ostala spominjanje neće biti poslana"
+        "text": "do 50, samo prvih 5 s popisa će dobiti obavijest"
       },
       "visible_messages": {
         "name": "Broj vidljivih poruka",
@@ -458,9 +458,9 @@
         "text": "najmanje 4 znaka"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Ograničenje korisničkih imena",
+        "hint": "(za botove i za korisničke račune)",
+        "text": "do 200 korisničkih imena dnevno"
       }
     }
   },

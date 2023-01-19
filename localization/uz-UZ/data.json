@@ -1,10 +1,10 @@
 {
   "accounts": {
-    "name": "Hisob raqam",
+    "name": "Hisob raqamlar",
     "items": {
       "username": {
         "name": "Foydalanuvchi nomi",
-        "hint": "(masalan @cameraman)",
+        "hint": "(masalan: @cameraman)",
         "text": "5 dan 32 tagacha belgi, NFT nomlar uchun 4 ta belgidan boshlab"
       },
       "bio": {
@@ -179,18 +179,18 @@
       },
       "video_chat_broadcast": {
         "name": "Video translyatsiya",
-        "hint": "(kamera, ekranga chiqarish)",
-        "text": "bir vaqtning o'zida 30 ta translyatsiya a'zosi"
+        "hint": "(kamera, ekranni ko'rsatish)",
+        "text": "bir vaqtning o'zida 30 tagacha translyatsiya qilayotgan foydalanuvchilar"
       },
       "video_chat_viewers": {
         "name": "Video translyatsiya kuzatuvchilari",
         "hint": "",
-        "text": "Rasmiy ravishda cheksiz deb aytilgan, amalda oqim bir vaqtning o'zida 2000 ga yaqin tomoshabinlarda beqaror bo'lib qoladi."
+        "text": "rasman cheksiz deb aytilgan, amalda tomoshabinlar soni bir vaqtning o'zida 2000 ga yaqin bo'lganda oqim beqaror bo'lib qoladi"
       },
       "voice_chat_schedule": {
         "name": "Rejalashtirilgan suhbatlar",
         "hint": "",
-        "text": "7 kungacha"
+        "text": "keyingi 7 kungacha"
       }
     }
   },
@@ -200,12 +200,12 @@
       "public_usernames": {
         "name": "Ommaviy foydalanuvchi nomlari soni",
         "hint": "bitta hisob raqam uchun",
-        "text": "10 tagacha (guruhlar ham)"
+        "text": "10 tagacha (guruhlar bilan)"
       },
       "username_length": {
-        "name": "@username uzunligi",
+        "name": "@foydalanuvchinomi uzunligi",
         "hint": "",
-        "text": "5 dan 32 tagacha"
+        "text": "5 dan 32 tagacha belgi"
       },
       "channel_name": {
         "name": "Kanal nomi va tavsifi",
@@ -218,7 +218,7 @@
         "text": "50 tagacha hisob raqamlar"
       },
       "editing": {
-        "name": "Xabar tahrirlash",
+        "name": "Postlarni tahrirlash",
         "hint": "",
         "text": "cheklanmagan (agar kanalga muhokama uchun guruh ulangan bo'lsa, 2 hafta muddatdan ortiqroq postlar chatda yangilanmaydi)"
       },
@@ -229,18 +229,18 @@
       },
       "visible_participants": {
         "name": "Ko'rinadigan a'zolar",
-        "hint": "kanal administratorlari uchun",
+        "hint": "kanal administratori uchun",
         "text": "200 ta odam"
       },
       "channel_deletion": {
-        "name": "O'chirilgan kanal",
+        "name": "Kanalni o'chirish",
         "hint": "",
         "text": "1K dan ortiq obunachiga ega kanallarni faqat Telegram ko'magi yordamida o'chirish mumkin"
       },
       "private_channel_access": {
-        "name": "Yopiq kanallarni a'zo bo'lmasdan kirib ko'rish",
+        "name": "Yopiq kanallarni a'zo bo'lmasdan ko'rish",
         "hint": "(200 dan ortiq a'zo bo'lgan kanallar uchun)",
-        "text": "Kuniga 5 daqiqagacha"
+        "text": "kuniga 5 daqiqagacha"
       },
       "invintations": {
         "name": "A'zo qo'shish",
@@ -253,7 +253,7 @@
         "text": "kamida 50"
       },
       "username_reservation": {
-        "name": "O'zgarishdan keyin @username zahirasi",
+        "name": "O'zgarishdan keyin @foydalanuvchinomi ni zahiralab turish",
         "hint": "(foydalanuvchi nomi faqat uning sobiq egasi uchun mavjud bo'lgan vaqt)",
         "text": "tahminan 15-30 daqiqa"
       }
@@ -280,7 +280,7 @@
       "file_name_length": {
         "name": "Fayl nomi uzunligi",
         "hint": "",
-        "text": "60 ta belgigacha, qolganlari qisqartiriladi"
+        "text": "60 ta belgigacha, oshiqchasi qisqartiriladi"
       },
       "video_message_duration": {
         "name": "Video xabarning davomiyligi",
@@ -288,12 +288,12 @@
         "text": "1 daqiqagacha"
       },
       "album_size": {
-        "name": "Rasmlar va videolar bitta pleylistda",
+        "name": "Rasmlar va videolar bitta xabarda",
         "hint": "(albom)",
-        "text": "10 tagacha "
+        "text": "10 tagacha"
       },
       "delayed_messages": {
-        "name": "Rejalashtirilgan xabarlarning davomiyligi",
+        "name": "Rejalashtirilgan xabarlarning miqdori",
         "hint": "",
         "text": "100 tagacha"
       },
@@ -429,7 +429,7 @@
       },
       "start_payload_size": {
         "name": "Bot/buyruqlari uzunligi",
-        "hint": "deep link'da qo‘llaniladi",
+        "hint": "deep linking uchun qo‘llaniladi",
         "text": "64 tagacha belgi"
       },
       "bot_alert_length": {
@@ -445,7 +445,7 @@
     }
   },
   "search": {
-    "name": " Qidiruv",
+    "name": "Qidiruv",
     "items": {
       "global_search": {
         "name": "Global qidiruv natijalari",
@@ -470,12 +470,12 @@
       "added_packs": {
         "name": "Qo'shilgan stikerlar soni",
         "hint": "",
-        "text": "200 tagacha "
+        "text": "200 tagacha"
       },
       "favorite_stickers": {
         "name": "Tanlangan stikerlar soni",
         "hint": "",
-        "text": "5 tagacha "
+        "text": "5 tagacha"
       },
       "pack_size": {
         "name": "Stiker To'plamlar miqdori",
@@ -495,7 +495,7 @@
       "file_size": {
         "name": "Stiker hajmi",
         "hint": "",
-        "text": "512 KB gacha oddiy; 64 KB gacha animatsion "
+        "text": "512 KB gacha oddiy; 64 KB gacha animatsion"
       },
       "fps": {
         "name": "FPS",

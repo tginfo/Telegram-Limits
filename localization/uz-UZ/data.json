@@ -4,11 +4,11 @@
     "items": {
       "username": {
         "name": "Foydalanuvchi nomi",
-        "hint": "(foydalanuvchi nomi; masalan @cameraman)",
+        "hint": "(masalan @cameraman)",
         "text": "5 dan 32 tagacha belgi, NFT nomlar uchun 4 ta belgidan boshlab"
       },
       "bio": {
-        "name": "Tarjimai hol (bio)",
+        "name": "\"Men haqimda\" bo'limi",
         "hint": "",
         "text": "70 tagacha belgi"
       },
@@ -23,7 +23,7 @@
         "text": "0 dan 64 tagacha belgi"
       },
       "self_destruction": {
-        "name": "O'z-o'zini yo'q qilish davri",
+        "name": "Akkauntning o'z-o'zini yo'q qilish davri",
         "hint": "faollik kuzatilmasa",
         "text": "1, 3, 6 va 12 oy (odatda 6 oy)"
       },
@@ -34,13 +34,13 @@
       },
       "channels_and_chats_number": {
         "name": "Kanallar va superguruhlar soni",
-        "hint": "siz a'zo bo'lishingiz mumkin",
+        "hint": "siz a'zo bo'lishingiz mumkin bo'lgan",
         "text": "500 tagacha (o'zingiz ochganlar bilan)"
       },
       "geochats_number": {
         "name": "Geochatlat soni",
         "hint": "siz a'zo bo'lishingiz mumkin bo'lgan",
-        "text": "5 tagacha (o'zingiz ochganlar bilan)"
+        "text": "cheklanmagan"
       },
       "gifs_number": {
         "name": "Saqlangan GIFlar soni",
@@ -59,13 +59,13 @@
       },
       "accounts_number": {
         "name": "Hisob raqamlar soni",
-        "hint": "(rasmiy mijozlarda)",
+        "hint": "(rasmiy mijozlar)",
         "text": "3 tagacha"
       },
       "visible_messages": {
         "name": "Ko'rinadigan xabarlar soni",
         "hint": "(shaxsiy chatlar, botlar va oddiy guruhlar orasidagi umumiy limit)",
-        "text": "~1 000 000 ko'rinadigan xabar"
+        "text": "~1 000 000 ko'rinadigan xabarlar"
       }
     }
   },
@@ -88,7 +88,7 @@
         "text": "20 tagacha"
       },
       "pinned_number": {
-        "name": "Ro'yxatdagi Qadalgan xabarlar soni",
+        "name": "Ro'yxatdagi qadalgan xabarlar soni",
         "hint": "",
         "text": "5 tagacha suhbat yoki kanallar + 5 tagacha maxfiy suhbat"
       },
@@ -115,12 +115,12 @@
       "mentions_amount": {
         "name": "Eslab o'tishlar soni",
         "hint": "bir xabarda",
-        "text": "50 tagacha, aks holda bildirishnomalar yuborilmaydi"
+        "text": "50 tagacha, dastlabki 5 tasiga bildirishnoma boradi"
       },
       "visible_messages": {
         "name": "Ko'rinadigan xabarlar soni",
-        "hint": "guruhlarda",
-        "text": "1 000 000 tagacha xabar"
+        "hint": "guruhda",
+        "text": "1 000 000 so'nggi xabar"
       },
       "pinned_messages_number": {
         "name": "Qadalgan xabarlar soni",
@@ -133,7 +133,7 @@
         "text": "kamida 500 ta"
       },
       "username_reservation": {
-        "name": "O'zgartirilgan foydalanuvchi nomini salash muddati",
+        "name": "O'zgartirilgan foydalanuvchi nomini zahiralash muddati",
         "hint": "(foydalanuvchi nomi faqat uning sobiq egasi uchun mavjud bo'ladigan vaqt)",
         "text": "tahminan 15-30 daqiqa"
       },
@@ -155,15 +155,15 @@
       "broadcast_group_access": {
         "name": "Super guruhni Translyatsiya guruhiga aylantirish",
         "hint": "",
-        "text": "199 000 ta va undan ko'p a'zosi bo'lsa"
+        "text": "199 000 ta va undan ko'p a'zoli chatlar uchun"
       },
       "read_receipts_availability": {
         "name": "Chatlarda o'qilganlik haqida hisobotlar",
         "hint": "",
-        "text": "100 yoki undan kam a'zolar bilan suhbatlar uchun foydalanuvchilar ro'yxati faqat xabarni yuborgan foydalanuvchi uchun mavjud"
+        "text": "100 yoki undan kam a'zolari bor chatlar uchun, o'qigan foydalanuvchilar ro'yxati faqat xabarni yuborgan foydalanuvchigagina ko'rinadi"
       },
       "read_receipts_lifetime": {
-        "name": "Chatda o'qish ruhsatnomasi vaqti",
+        "name": "O'qilganlik haqida hisobotning mavjudlik vaqti",
         "hint": "",
         "text": "xabar yuborilgan kundan boshlab 7 kungacha"
       }
@@ -173,7 +173,7 @@
     "name": "Ovozli va Video chatlar",
     "items": {
       "voice_chat_participants": {
-        "name": "Ovozli chat qatnashuvchilari",
+        "name": "Ovozli chat eshituvchilari",
         "hint": "",
         "text": "cheklanmagan"
       },
@@ -198,7 +198,7 @@
     "name": "Kanallar",
     "items": {
       "public_usernames": {
-        "name": "Ommaviy havolalar soni",
+        "name": "Ommaviy foydalanuvchi nomlari soni",
         "hint": "bitta hisob raqam uchun",
         "text": "10 tagacha (guruhlar ham)"
       },

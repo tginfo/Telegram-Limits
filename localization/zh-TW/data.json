@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "可見訊息數量",
         "hint": "（在私聊、機器人、傳統群組間共享限制）",
-        "text": "~1,000,000 visible messages"
+        "text": "～最新的100萬則消息"
       }
     }
   },
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "媒體描述",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "最多 1,024 個字元"
       },
       "upload_size": {
         "name": "檔案大小限制",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "至多 2000 MiB（略小於 2 GB）"
       },
       "file_name_length": {
         "name": "檔案名稱長度",
@@ -388,8 +388,8 @@
         "text": "最多 100 個項目"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "消息的 markup 数据",
+        "hint": "例如：inline 按钮",
         "text": "最大 10 KB"
       },
       "formatting_entities": {

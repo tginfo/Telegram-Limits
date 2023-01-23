@@ -1,11 +1,11 @@
 {
   "accounts": {
-    "name": "个人账号相关",
+    "name": "账户",
     "items": {
       "username": {
         "name": "用户名",
         "hint": "（例：@cameraman）",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "5 到 32 个字符，对于 NFT 用户名，最低为 4 个字符"
       },
       "bio": {
         "name": "个人简介",
@@ -63,9 +63,9 @@
         "text": "最多 3 个"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "name": "可见消息数量",
+        "hint": "（在私聊、机器人和传统群组间共享限制）",
+        "text": "～最新的 100 万条消息"
       }
     }
   },
@@ -409,7 +409,7 @@
       },
       "messaging_frequency_groups": {
         "name": "消息发送速率",
-        "hint": "在群组种",
+        "hint": "在群组中",
         "text": "同对话中每秒最多 20 条消息"
       },
       "bot_commands_count": {
@@ -458,9 +458,9 @@
         "text": "至少 4 个字符"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "用户名解析限制",
+        "hint": "（包括机器人和用户）",
+        "text": "每天至多 200 个用户名"
       }
     }
   },

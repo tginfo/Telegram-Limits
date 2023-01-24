@@ -458,9 +458,9 @@
         "text": "kamida 4 ta belgi"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Foydalanuvchi nomini topish chegarasi",
+        "hint": "(botlar va foydalanuvchi hisoblari uchun)",
+        "text": "kuniga 200 tagacha foydalanuvchi nomi"
       }
     }
   },

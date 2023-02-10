@@ -5,7 +5,7 @@
       "username": {
         "name": "اسم المستخدم",
         "hint": "(مثال: @username)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "5 إلى 32 حرفاً، بدءاً من 4 أحرف لأسماء مستخدمي NFT"
       },
       "bio": {
         "name": "النبذة",
@@ -38,8 +38,8 @@
         "text": "الأقصى ٥٠٠ (بتضمين التي أنشأتها)"
       },
       "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
+        "name": "رَقْم دردشة جغرافية",
+        "hint": "يمكنك أن تكون عضوا في",
         "text": "up to 5 (including ones you own)"
       },
       "gifs_number": {
@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "text": "~1,000,000 رسالة مرئية"
       }
     }
   },
@@ -170,7 +170,7 @@
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "دردشة الصوت والفيديو",
     "items": {
       "voice_chat_participants": {
         "name": "مستمعو الدردشة الصوتية",
@@ -185,7 +185,7 @@
       "video_chat_viewers": {
         "name": "مشاهدي بث الفيديو",
         "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+        "text": "رسمياً غير محدود، لكن في الواقع العملي، سيصبح البث غير مستقر عند حوالي 2000 مشاهد مباشر"
       },
       "voice_chat_schedule": {
         "name": "الدردشات المجدولة",
@@ -270,17 +270,17 @@
       "media_descriptions": {
         "name": "وصف الوسائط",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "ما يصل إلى 1,024 حرفًا"
       },
       "upload_size": {
         "name": "حجم الملف",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "حتى 2000 ميغابايت (أقل قليلاً من 2 قيقابايت الحقيقي)"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "طول اسم الملف",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "ما يصل إلى 60 حرفاً، سيتم حذف الأحرف أخرى"
       },
       "video_message_duration": {
         "name": "مدة مقطع الملف الشخصي",
@@ -378,9 +378,9 @@
         "text": "الأقصى ٢٠ ميغابايت"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
+        "name": "حد تحميل المِلَفّ",
         "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "text": "حتى 2000 ميغابايت"
       },
       "keys_in_keyboard_number": {
         "name": "عدد أزرار لوحة المفاتيح",
@@ -404,12 +404,12 @@
       },
       "messaging_frequency": {
         "name": "Message sending frequency",
-        "hint": "in any chat",
+        "hint": "في أي محادثة",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
         "name": "Message sending frequency",
-        "hint": "in group chats",
+        "hint": "في الدردشات الجماعية",
         "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
@@ -430,7 +430,7 @@
       "start_payload_size": {
         "name": "طول حمولة /start للبوت",
         "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "text": "حتى 64 بايت"
       },
       "bot_alert_length": {
         "name": "طول رسالة تنبيه البوت",
@@ -440,7 +440,7 @@
       "inline_max_items": {
         "name": "عدد نتائج الوضع الضمني",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "عرض 50 عنصر في كل صفحة"
       }
     }
   },
@@ -459,8 +459,8 @@
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "hint": "(لكل من البوتات و المستخدمين)",
+        "text": "مايصل إلى 200 أسم مستخدم يوميًا"
       }
     }
   },
@@ -510,7 +510,7 @@
       "stickerpack_url_length": {
         "name": "Pack /addstickers url length",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "ما يصل إلى 62 حرفًا"
       }
     }
   },
@@ -538,8 +538,8 @@
         "text": "٨٠٠×٨٠٠ بيكسل، حجم المقطع ٢ ميكابايت"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
+        "name": "دقة الصورة",
+        "hint": "عند الإرسال مع الضغط",
         "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       }
     }

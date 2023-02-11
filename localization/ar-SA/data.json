@@ -30,7 +30,7 @@
       "spam_ban": {
         "name": "حظر الإزعاج",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "الحظر على الأقل يوم و قد يستمر إلى الأبد"
       },
       "channels_and_chats_number": {
         "name": "عدد القنوات و المجموعات الكبرى",
@@ -158,12 +158,12 @@
         "text": "للدردشة مع 199,000+ عضو"
       },
       "read_receipts_availability": {
-        "name": "Read receipts availability",
+        "name": "توفر إيصالات القراءة",
         "hint": "",
         "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
       },
       "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
+        "name": "مدة صَلاحِيَة الإيصال القراءة",
         "hint": "",
         "text": "up to 7 days since message was sent"
       }
@@ -368,9 +368,9 @@
         "text": "الأقصى ٥٠ ميغابايت"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
+        "name": "حد رفع الملف",
         "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "text": "حتى 2000 ميغابايت"
       },
       "download_limit_botapi": {
         "name": "حد تنزيل الملفات",

@@ -108,24 +108,24 @@
         "text": "1 ĝis 60 sekundoj"
       },
       "recent_actions": {
-        "name": "Recent actions",
-        "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "name": "Lastaj agoj",
+        "hint": "(abonoj, afiŝoj, ktp.)",
+        "text": "lastaj du tagoj"
       },
       "mentions_amount": {
-        "name": "Mentions number",
-        "hint": "in a single message",
+        "name": "Numero de mencioj",
+        "hint": "en unusola mesaĝo",
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {
         "name": "Visible messages number",
-        "hint": "in group",
+        "hint": "en grupo",
         "text": "1,000,000 last messages"
       },
       "pinned_messages_number": {
         "name": "Pinned messages number",
         "hint": "",
-        "text": "unlimited"
+        "text": "senlima"
       },
       "participants_to_see_stats": {
         "name": "Number of participants to see statistics",
@@ -145,12 +145,12 @@
       "chat_role_length": {
         "name": "Admin role length",
         "hint": "",
-        "text": "up to 16 characters"
+        "text": "ĝis 16 signoj"
       },
       "chat_title_length": {
-        "name": "Chat title length",
+        "name": "Longeco de la babileja titolo",
         "hint": "",
-        "text": "up to 128 characters"
+        "text": "ĝis 128 signoj"
       },
       "broadcast_group_access": {
         "name": "Converting a supergroup to broadcast group",
@@ -175,10 +175,10 @@
       "voice_chat_participants": {
         "name": "Audio Chat listeners",
         "hint": "",
-        "text": "unlimited"
+        "text": "senlima"
       },
       "video_chat_broadcast": {
-        "name": "Broadcasting video",
+        "name": "Elsendi videon",
         "hint": "(camera, screen casting)",
         "text": "up to 30 broadcasting users simultaneously"
       },
@@ -243,9 +243,9 @@
         "text": "up to 5 minutes once a day"
       },
       "invintations": {
-        "name": "Inviting users",
+        "name": "Inviti uzantojn",
         "hint": "",
-        "text": "up to 200 people"
+        "text": "ĝis 200 personoj"
       },
       "followers_to_see_stats": {
         "name": "Number of subscribers to see statistics",
@@ -260,10 +260,10 @@
     }
   },
   "messages": {
-    "name": "Messages",
+    "name": "Mesaĝoj",
     "items": {
       "single_message_length": {
-        "name": "One message length",
+        "name": "Longeco de unu mesaĝo",
         "hint": "",
         "text": "up to 4,096 characters"
       },
@@ -340,17 +340,17 @@
     }
   },
   "bots": {
-    "name": "Bots",
+    "name": "Robotoj",
     "items": {
       "bots_amount": {
-        "name": "Bots number",
+        "name": "Nombro de robotoj",
         "hint": "(created by @BotFather)",
         "text": "up to 20 items"
       },
       "username length": {
         "name": "Length of @username",
-        "hint": "for bots",
-        "text": "5 to 32 characters"
+        "hint": "por robotoj",
+        "text": "5 ĝi 32 signoj"
       },
       "info_length": {
         "name": "Bot info length",
@@ -360,7 +360,7 @@
       "description_length": {
         "name": "Bot description length",
         "hint": "",
-        "text": "up to 512 characters"
+        "text": "ĝis 512 signoj"
       },
       "upload_limit_botapi": {
         "name": "File upload limit",

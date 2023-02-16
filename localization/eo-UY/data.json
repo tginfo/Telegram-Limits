@@ -5,25 +5,25 @@
       "username": {
         "name": "Uzantnomo",
         "hint": "(ekz. @cameraman)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "5 ĝis 32 signoj, komencante per 4 signoj por NFT uzantonomoj"
       },
       "bio": {
         "name": "Biografio",
         "hint": "",
-        "text": "up to 70 characters"
+        "text": "ĝis 70 signoj"
       },
       "name_length": {
         "name": "Longeco de la nomo",
         "hint": "",
-        "text": "from 1 to 64 characters"
+        "text": "de 1 ĝis 64 signoj"
       },
       "last_name_length": {
         "name": "Longeco de la familinomo",
         "hint": "",
-        "text": "from 0 to 64 characters"
+        "text": "de 0 ĝis 64 signoj"
       },
       "self_destruction": {
-        "name": "Self-destruction period",
+        "name": "Memdetrua periodo",
         "hint": "se ne estas aktiveco",
         "text": "1, 3, 6 kaj 12 monatoj (6 defaŭlte)"
       },
@@ -93,7 +93,7 @@
         "text": "up to 5 chats or channels + 5 secret chats"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Nomo kaj priskribo de la grupo",
         "hint": "",
         "text": "ĝis 255 presliteroj"
       },
@@ -105,7 +105,7 @@
       "media_self_destruction": {
         "name": "Memdetruo de fotoj kaj videoj",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 ĝis 60 sekundoj"
       },
       "recent_actions": {
         "name": "Recent actions",

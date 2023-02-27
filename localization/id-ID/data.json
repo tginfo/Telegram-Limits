@@ -15,12 +15,12 @@
       "name_length": {
         "name": "Panjang Nama Depan",
         "hint": "",
-        "text": "dari 1 sampai 64 karakter"
+        "text": "dari 1 hingga 64 karakter"
       },
       "last_name_length": {
         "name": "Panjang Nama Belakang",
         "hint": "",
-        "text": "dari 0 sampai 64 karakter"
+        "text": "dari 0 hingga 64 karakter"
       },
       "self_destruction": {
         "name": "Periode penghancur akun otomatis",
@@ -40,7 +40,7 @@
       "geochats_number": {
         "name": "Jumlah obrolan sekitar",
         "hint": "yang dapat anda masuki",
-        "text": "hingga 5 (termasuk yang anda miliki sendiri)"
+        "text": "tak terbatas"
       },
       "gifs_number": {
         "name": "Jumlah GIF tersimpan",
@@ -79,7 +79,7 @@
       },
       "admins_number": {
         "name": "Jumlah admin",
-        "hint": "di grup",
+        "hint": "dalam grup",
         "text": "hingga 50"
       },
       "bots_amount": {
@@ -100,12 +100,12 @@
       "editing": {
         "name": "Pengeditan pesan",
         "hint": "",
-        "text": "dalam 48 jam setelah pengiriman; tidak terbatas di Tersimpan dan untuk admin dengan hak penyematan"
+        "text": "dalam 48 jam setelah pengiriman; tak terbatas di Pesan Tersimpan dan untuk admin dengan hak penyematan"
       },
       "media_self_destruction": {
         "name": "Penghancuran foto dan video otomatis",
         "hint": "",
-        "text": "1 sampai 60 detik"
+        "text": "1 hingga 60 detik"
       },
       "recent_actions": {
         "name": "Tindakan terkini",
@@ -113,7 +113,7 @@
         "text": "dua hari terakhir"
       },
       "mentions_amount": {
-        "name": "Jumlah penyebutan",
+        "name": "Jumlah mention",
         "hint": "dalam satu pesan",
         "text": "hingga 50, lebih dari itu notifikasi tidak akan dikirim"
       },

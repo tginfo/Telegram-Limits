@@ -138,7 +138,7 @@
         "text": "sekitar 15-30 menit"
       },
       "participants_for_group_stickers": {
-        "name": "Stiker grup",
+        "name": "Grup-promosikan stiker",
         "hint": "",
         "text": "grup dengan 100+ partisipan"
       },
@@ -205,7 +205,7 @@
       "username_length": {
         "name": "Panjang @username",
         "hint": "",
-        "text": "5 sampai 32 karakter"
+        "text": "5 hingga 32 karakter"
       },
       "channel_name": {
         "name": "Nama dan dekripsi channel",
@@ -218,7 +218,7 @@
         "text": "hingga 50 akun"
       },
       "editing": {
-        "name": "Perubahan postingan",
+        "name": "Pengeditan postingan",
         "hint": "",
         "text": "tak terbatas (jika channel miliki grup diskusi yang terhubung, postingan yang lebih lama dari 2 minggu tidak akan diperbarui di obrolan)"
       },
@@ -235,7 +235,7 @@
       "channel_deletion": {
         "name": "Penghapusan channel",
         "hint": "",
-        "text": "channels dengan lebih dari 1K hanya dapat dihapus melalui bantuan Telegram"
+        "text": "channel dengan lebih dari 1K hanya dapat dihapus melalui bantuan Telegram"
       },
       "private_channel_access": {
         "name": "Melihat channel privat tanpa bergabung",
@@ -273,7 +273,7 @@
         "text": "hingga 1.024 karakter"
       },
       "upload_size": {
-        "name": "Batas ukuran file",
+        "name": "Batas ukuran berkas",
         "hint": "",
         "text": "hingga 2.000 MiB (sedikit kurang dari 2 GB yang sebenarnya)"
       },
@@ -298,7 +298,7 @@
         "text": "hingga 100 item"
       },
       "delaying_messages": {
-        "name": "Bentang penjadwalan",
+        "name": "Rentang penjadwalan",
         "hint": "",
         "text": "hingga 365 hari"
       }
@@ -350,7 +350,7 @@
       "username length": {
         "name": "Panjang @username",
         "hint": "untuk bot",
-        "text": "5 sampai 32 karakter"
+        "text": "5 hingga 32 karakter"
       },
       "info_length": {
         "name": "Panjang informasi bot",
@@ -363,22 +363,22 @@
         "text": "hingga 512 karakter"
       },
       "upload_limit_botapi": {
-        "name": "Batas unggahan file",
+        "name": "Batas unggahan berkas",
         "hint": "tanpa server Bot API lokal",
         "text": "hingga 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "Batas unggahan file",
+        "name": "Batas unggahan berkas",
         "hint": "dengan server Bot API lokal",
         "text": "hingga 2000 MB"
       },
       "download_limit_botapi": {
-        "name": "Batas unduhan file",
+        "name": "Batas unduhan berkas",
         "hint": "tanpa server Bot API lokal",
         "text": "hingga 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "Batas unduhan file",
+        "name": "Batas unduhan berkas",
         "hint": "dengan server Bot API lokal",
         "text": "hingga 2000 MB"
       },
@@ -409,18 +409,18 @@
       },
       "messaging_frequency_groups": {
         "name": "Frekuensi pengiriman pesan",
-        "hint": "di obrolan grup",
+        "hint": "dalam obrolan grup",
         "text": "hingga 20 pesan per detik di obrolan yang sama"
       },
       "bot_commands_count": {
         "name": "Jumlah perintah",
         "hint": "(di BotFather)",
-        "text": "0 sampai 100 perintah"
+        "text": "0 hingga 100 perintah"
       },
       "bot_command_name_length": {
         "name": "Panjang perintah",
         "hint": "(di BotFather)",
-        "text": "dari 1 sampai 32 karakter"
+        "text": "dari 1 hingga 32 karakter"
       },
       "bot_command_description_length": {
         "name": "Panjang deskripsi perintah",
@@ -493,7 +493,7 @@
         "text": "hingga 3 detik"
       },
       "file_size": {
-        "name": "Ukuran file stiker",
+        "name": "Ukuran berkas stiker",
         "hint": "",
         "text": "hingga 512 KB untuk statis, hingga 64 KB untuk animasi"
       },

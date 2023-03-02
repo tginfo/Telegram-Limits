@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Scheduled messages number",
         "hint": "",
-        "text": "up to 100 items"
+        "text": "up to 100 items for a chat or a channel"
       },
       "delaying_messages": {
         "name": "Schedule range",

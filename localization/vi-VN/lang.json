@@ -2,13 +2,13 @@
     "title": "Các hạn chế trên Telegram",
     "description": "Những hạn chế hiện tại trên Telegram năm {%year%}. Hạn chế độ dài thông báo, số lượng Sticker trong các bộ, tần suất gửi thông báo bằng Bot API, số lượng thành viên, khả năng chỉnh sửa, kích thước tối đa của tệp và những hạn chế khác",
     "description_short": "Những hạn chế hiện tại trên Telegram",
-    "study": "| Study",
-    "big_title": "Telegram Limits",
-    "article_name": "Why limitations exist",
-    "article_p1": "Just like any other service, Telegram uses limits to ensure that users follow Fair Usage Policy and to keep the service running.",
-    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
-    "loading": "Loading...",
-    "homepage": "Homepage",
-    "language": "Language",
-    "search": "Search"
+    "study": "Nghiên cứu",
+    "big_title": "Hạn chế trên Telegram",
+    "article_name": "Lý do có các hạn chế",
+    "article_p1": "Cũng giống như các dịch vụ khác, Telegram có áp dụng các hạn chế để đảm bảo rằng người dùng tuân thủ Chính Sách Sử Dụng Lành Mạnh và để dịch vụ có thể vận hành bình thường.",
+    "article_p2": "Bảng này có liệt kê những hạn chế được công bố bởi Telegram và thường xuyên được cập nhật.",
+    "loading": "Đang tải...",
+    "homepage": "Trang chủ",
+    "language": "Ngôn ngữ",
+    "search": "Tìm kiếm"
 }

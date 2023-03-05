@@ -10,7 +10,7 @@
       "bio": {
         "name": "Биографија",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "до 70 знакова; за премијум кориснике – до 140 знакова"
       },
       "name_length": {
         "name": "Дужина имена",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Број канала и супергрупа",
         "hint": "којих можете бити члан",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "до 500 (укључујући оне које поседујете); за премијум кориснике – до 1000"
       },
       "geochats_number": {
         "name": "Број група заснованих на локацији",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Број сачуваних GIF-ова",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "до 200; за премијум кориснике – до 400"
       },
       "video_length": {
         "name": "Трајање профилног видеа",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Број налога",
         "hint": "(званични клијенти)",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "до 3; за премијум кориснике – до 6"
       },
       "visible_messages": {
         "name": "Број видљивих порука",
         "hint": "(заједничко ограничење између приватних ћаскања, ботова и група)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "text": "неограничено; пре 2018. године – до 1.000.000 видљивих порука"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Закачена ћаскања на главној листи",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "до 5 ћаскања или канала + 5 тајних ћаскања; за премијум кориснике – до 10 ћаскања или канала"
       },
       "group_name": {
         "name": "Назив групе и опис",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Опис медија",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "до 1024 знака; за премијум кориснике – до 2024 знака"
       },
       "upload_size": {
         "name": "Величина датотеке",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "до 2 GB; за премијум кориснике – до 4 GB"
       },
       "file_name_length": {
         "name": "Дужина назива датотеке",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Број заказаних порука",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "до 100 ставки (по сваком засебном ћаскању)"
       },
       "delaying_messages": {
         "name": "Распон заказивања",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Број фасцикли",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "до 10 фасцикли; за премијум кориснике – до 20 фасцикли"
       },
       "pinned_chats_in_folder": {
         "name": "Закачена ћаскања у фасцикли",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "до 100 ћаскања; за премијум кориснике – до 200 ћаскања"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Број омиљених стикера",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "до 5 стикера; за премијум кориснике – до 10 стикера"
       },
       "pack_size": {
         "name": "Број стикера у пакету",

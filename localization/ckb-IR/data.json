@@ -10,7 +10,7 @@
       "bio": {
         "name": "ژیاننامە",
         "hint": "",
-        "text": "تا 70 نووسە ڕێپێدراوە"
+        "text": "Up to 70 characters. For Premium users - up to 140 characters. "
       },
       "name_length": {
         "name": "درێژیی ناوی یەکەم",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "ژمارەی کەناڵ و گروپەکان",
         "hint": "کە دەتوانیت ببیت بە ئەندامیان",
-        "text": "تا 500 (بەوانەی خۆتەوە)"
+        "text": "Up to 500 (including ones you own). For Premium users - up to 1000. "
       },
       "geochats_number": {
         "name": "ژمارەی وتووێژە جوگرافییەکان",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "ژمارەی گیفە پاشەکەوتکراوەکان",
         "hint": "",
-        "text": "تا 200"
+        "text": "Up to 200. For Premium users - up to 400. "
       },
       "video_length": {
         "name": "درێژیی وێنۆچکەی ڤیدیۆیی",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "ژمارەی هەژمارەکان",
         "hint": "(بەرنامە فەرمییەکان)",
-        "text": "تا 3"
+        "text": "Up to 3. For Premium users - up to 6. "
       },
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "text": "Unlimited. Before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "وتووێژە دەرزیلەکرواەکان لە لیستی سەرەکی",
         "hint": "",
-        "text": "تا 5 وتووێژ و کەناڵ + 5 وتووێژی نهێنی"
+        "text": "Up to 5 chats or channels + 5 secret chats. For Premium users - up to 10 chats or channels. "
       },
       "group_name": {
         "name": "ناوی گروپ و دەربارە",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "ژێرنووسی ڕەنگاڵەکان",
         "hint": "",
-        "text": "تا 1,024 نووسە"
+        "text": "Up to 1024 characters. For Premium users - up to 2024 characters. "
       },
       "upload_size": {
         "name": "سنووری قەبارەی پەڕگە",
         "hint": "",
-        "text": "تا 2,000 مێبیبایت (کەمێک کەمتر لە 2 گێگابایت)"
+        "text": "Up to 2 GB. For Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "درێژیی ناوی فایل",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "ژمارەی پەیامە بەرنامەڕێژکراوەکان",
         "hint": "",
-        "text": "تا 100 دانە"
+        "text": "Up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "ماوەی پەیامە بەرنامە بۆداڕێژراوەکان",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "ژمارەی بوخچەکان",
         "hint": "",
-        "text": "تا 10 بوخچە"
+        "text": "Up to 10 folders. For Premium users - up to 20 folders. "
       },
       "pinned_chats_in_folder": {
         "name": "وتووێژە دەرزیلەکرواەکان لە بوخچەیەک",
         "hint": "",
-        "text": "تا 100 وتووێژ"
+        "text": "Up to 100 chats. For Premium users - up to 200 chats."
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "ژمارەی لەزگە دڵخوازەکان",
         "hint": "",
-        "text": "تا 5 دانە"
+        "text": "Up to 5 items. For Premium users - up to 10 items."
       },
       "pack_size": {
         "name": "ژمارەی لەزگەکان لە یەک دەستەدا",

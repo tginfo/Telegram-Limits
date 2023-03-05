@@ -10,7 +10,7 @@
       "bio": {
         "name": "சுயக்குறிப்பு",
         "hint": "",
-        "text": "70 எழுத்துகள் வரை"
+        "text": "Up to 70 characters. For Premium users - up to 140 characters. "
       },
       "name_length": {
         "name": "முதன்மைப்பெயரின் நீளம்",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "பதிவுத்தடங்கள் மற்றும் சிறப்புக்குழுக்களின் எண்ணிக்கை",
         "hint": "நீங்கள் உறுப்பினராக இருக்க முடிவது",
-        "text": "500 வரை (உங்களுக்குச் சொந்தமானவை உட்பட)"
+        "text": "Up to 500 (including ones you own). For Premium users - up to 1000. "
       },
       "geochats_number": {
         "name": "Geochats number",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "அசைபட சேமிப்பு எண்ணிக்கை",
         "hint": "",
-        "text": "200 வரை"
+        "text": "Up to 200. For Premium users - up to 400. "
       },
       "video_length": {
         "name": "சுயக்குறிப்புக் காணொளி கால வரையறை",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "கணக்குகளின் எண்ணிக்கை",
         "hint": "(அதிகாரப்பூர்வ செயலிகள்)",
-        "text": "3 வரை"
+        "text": "Up to 3. For Premium users - up to 6. "
       },
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "text": "Unlimited. Before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "முக்கியப் பட்டியலில் செருகப்பட்ட அரட்டைகள்",
         "hint": "",
-        "text": "5 அரட்டை அல்லது பதிவுத்தடங்கள் + 5 கமுக்க அரட்டைகள்"
+        "text": "Up to 5 chats or channels + 5 secret chats. For Premium users - up to 10 chats or channels. "
       },
       "group_name": {
         "name": "குழுவின் பெயர் மற்றும் விளக்கம்",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "ஒலியொளிக் குறிப்பு",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "Up to 1024 characters. For Premium users - up to 2024 characters. "
       },
       "upload_size": {
         "name": "கோப்பு அளவின் வரம்பு",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "Up to 2 GB. For Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "File name length",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "நேரம் குறித்த தகவல்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "100 உருப்படிகள் வரை"
+        "text": "Up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "நேரம் குறித்தலின் வரம்பு",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "கோப்புறைகளின் எண்ணிக்கை",
         "hint": "",
-        "text": "10 கோப்புறைகள் வரை"
+        "text": "Up to 10 folders. For Premium users - up to 20 folders. "
       },
       "pinned_chats_in_folder": {
         "name": "கோப்புறையில் செருகப்பட்ட அரட்டைகள்",
         "hint": "",
-        "text": "100 அரட்டைகள் வரை"
+        "text": "Up to 100 chats. For Premium users - up to 200 chats."
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "பிடித்த ஒட்டுபடங்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "5 உருப்படிகள் வரை"
+        "text": "Up to 5 items. For Premium users - up to 10 items."
       },
       "pack_size": {
         "name": "ஒரு பொதியிலுள்ள ஒட்டுபடங்களின் எண்ணிக்கை",

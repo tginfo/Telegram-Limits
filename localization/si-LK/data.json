@@ -10,7 +10,7 @@
       "bio": {
         "name": "සටහන",
         "hint": "",
-        "text": "අක්ෂර 70 ක් දක්වා"
+        "text": "Up to 70 characters. For Premium users - up to 140 characters. "
       },
       "name_length": {
         "name": "මුල් නමේ දිග",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "නාලිකා හා සුපිරි සමූහ ගණන",
         "hint": "(ඔබට සාමාජිකයෙක් විය හැකි)",
-        "text": "500 ක් දක්වා (ඔබ හිමිකරු වන ඒවාද ඇතුළුව)"
+        "text": "Up to 500 (including ones you own). For Premium users - up to 1000. "
       },
       "geochats_number": {
         "name": "Geochats number",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "සුරැකි GIF ගණන",
         "hint": "",
-        "text": "200 ක් දක්වා"
+        "text": "Up to 200. For Premium users - up to 400. "
       },
       "video_length": {
         "name": "පැතිකඩ වීඩියෝවක කාලසීමාව",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "ගිණුම් ගණන",
         "hint": "(නිල ටෙලිග්‍රෑම් යෙදුම්)",
-        "text": "3 ක් දක්වා"
+        "text": "Up to 3. For Premium users - up to 6. "
       },
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "text": "Unlimited. Before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "ප්‍රධාන ලැයිස්තුව තුළ ඇමුණූ සංවාද",
         "hint": "",
-        "text": "නාලිකා හෝ සංවාද 5 ක් දක්වා + රහස් සංවාද 5 ක්"
+        "text": "Up to 5 chats or channels + 5 secret chats. For Premium users - up to 10 chats or channels. "
       },
       "group_name": {
         "name": "සමූහයේ නම හා විස්තරය",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "ඡායාරූප සටහන",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "Up to 1024 characters. For Premium users - up to 2024 characters. "
       },
       "upload_size": {
         "name": "ගොනුවක උපරිම විශාලත්වය",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "Up to 2 GB. For Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "File name length",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "කල්තැබූ පණිවිඩ ගණන",
         "hint": "",
-        "text": "අයිතම 100 ක් දක්වා"
+        "text": "Up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "කල්තැබිය හැකි කාලසීමාව",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "ෆෝල්ඩර ගණන",
         "hint": "",
-        "text": "ෆෝල්ඩර 10 ක් දක්වා"
+        "text": "Up to 10 folders. For Premium users - up to 20 folders. "
       },
       "pinned_chats_in_folder": {
         "name": "ෆෝල්ඩරයක් තුළ ඇමුණූ සංවාද",
         "hint": "",
-        "text": "සංවාද 100 ක් දක්වා"
+        "text": "Up to 100 chats. For Premium users - up to 200 chats."
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "ප්‍රියතම ස්ටිකර් ගණන",
         "hint": "",
-        "text": "අයිතම 5 ක් දක්වා"
+        "text": "Up to 5 items. For Premium users - up to 10 items."
       },
       "pack_size": {
         "name": "කට්ටලයක් තුළ ස්ටිකර් ගණන",

@@ -10,7 +10,7 @@
       "bio": {
         "name": "النبذة",
         "hint": "",
-        "text": "كحد أقصى 70 حرفًا"
+        "text": "Up to 70 characters. For Premium users - up to 140 characters. "
       },
       "name_length": {
         "name": "طول الاسم الأول",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "عدد القنوات و المجموعات الكبرى",
         "hint": "أقصى حد للانضمام",
-        "text": "الأقصى ٥٠٠ (بتضمين التي أنشأتها)"
+        "text": "Up to 500 (including ones you own). For Premium users - up to 1000. "
       },
       "geochats_number": {
         "name": "رَقْم دردشة جغرافية",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "أقصى حفظ للصور المتحركة",
         "hint": "",
-        "text": "200 بحد أقصى"
+        "text": "Up to 200. For Premium users - up to 400. "
       },
       "video_length": {
         "name": "مدة مقطع الملف الشخصي",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "عدد الحسابات",
         "hint": "(تيليجرام الرسمي)",
-        "text": "ما يصل إلى 3"
+        "text": "Up to 3. For Premium users - up to 6. "
       },
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 رسالة مرئية"
+        "text": "Unlimited. Before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "التثبيت بالقائمة الأساسية",
         "hint": "",
-        "text": "الأقصى ٥ قنوات او مجموعات + ٥ محادثات سرية"
+        "text": "Up to 5 chats or channels + 5 secret chats. For Premium users - up to 10 chats or channels. "
       },
       "group_name": {
         "name": "اسم المجموعة و الوصف",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "وصف الوسائط",
         "hint": "",
-        "text": "ما يصل إلى 1,024 حرفًا"
+        "text": "Up to 1024 characters. For Premium users - up to 2024 characters. "
       },
       "upload_size": {
         "name": "حجم الملف",
         "hint": "",
-        "text": "حتى 2000 ميغابايت (أقل قليلاً من 2 قيقابايت الحقيقي)"
+        "text": "Up to 2 GB. For Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "طول اسم الملف",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "عدد الرسائل المجدولة",
         "hint": "",
-        "text": "الأقصى ١٠٠ عنصر"
+        "text": "Up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "مدة الجدولة",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "عدد المجلدات",
         "hint": "",
-        "text": "الأقصى ١٠ مجلدات"
+        "text": "Up to 10 folders. For Premium users - up to 20 folders. "
       },
       "pinned_chats_in_folder": {
         "name": "المحادثات المثبتة في المجلد",
         "hint": "",
-        "text": "الأقصى مئة محادثة"
+        "text": "Up to 100 chats. For Premium users - up to 200 chats."
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "عدد الملصقات المفضلة",
         "hint": "",
-        "text": "الأقصى ٥ عناصر"
+        "text": "Up to 5 items. For Premium users - up to 10 items."
       },
       "pack_size": {
         "name": "عدد الملصقات في الحزم",

@@ -10,7 +10,7 @@
       "bio": {
         "name": "自我介紹",
         "hint": "",
-        "text": "Up to 70 characters. For Premium users - up to 140 characters. "
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
         "name": "名字長度",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "頻道與超級群組人數",
         "hint": "頻道與群組數量",
-        "text": "Up to 500 (including ones you own). For Premium users - up to 1000. "
+        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
       },
       "geochats_number": {
         "name": "地區群組數量",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "保存 GIF 數量",
         "hint": "",
-        "text": "Up to 200. For Premium users - up to 400. "
+        "text": "up to 200; for Premium users - up to 400"
       },
       "video_length": {
         "name": "動態頭貼長度",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "登入帳號數量",
         "hint": "（官方客戶端）",
-        "text": "Up to 3. For Premium users - up to 6. "
+        "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
         "name": "可見訊息數量",
         "hint": "（在私聊、機器人、傳統群組間共享限制）",
-        "text": "Unlimited. Before 2018 year - up to 1,000,000 visible messages"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "主選單置頂對話清單",
         "hint": "",
-        "text": "Up to 5 chats or channels + 5 secret chats. For Premium users - up to 10 chats or channels. "
+        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
         "name": "群組名稱及描述",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "媒體描述",
         "hint": "",
-        "text": "Up to 1024 characters. For Premium users - up to 2024 characters. "
+        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
       },
       "upload_size": {
         "name": "檔案大小限制",
         "hint": "",
-        "text": "Up to 2 GB. For Premium users - up to 4 GB"
+        "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "檔案名稱長度",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "排程訊息數量",
         "hint": "",
-        "text": "Up to 100 items (per each chat)"
+        "text": "up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "排程範圍",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "資料夾數量",
         "hint": "",
-        "text": "Up to 10 folders. For Premium users - up to 20 folders. "
+        "text": "up to 10 folders; for Premium users - up to 20 folders"
       },
       "pinned_chats_in_folder": {
         "name": "可以置頂的對話數量",
         "hint": "",
-        "text": "Up to 100 chats. For Premium users - up to 200 chats."
+        "text": "up to 100 chats; for Premium users - up to 200 chats"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "最愛貼圖",
         "hint": "",
-        "text": "Up to 5 items. For Premium users - up to 10 items."
+        "text": "up to 5 items; for Premium users - up to 10 items"
       },
       "pack_size": {
         "name": "貼圖包中的貼圖數量",

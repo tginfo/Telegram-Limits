@@ -10,7 +10,7 @@
       "bio": {
         "name": "Biografia",
         "hint": "",
-        "text": "Up to 70 characters. For Premium users - up to 140 characters. "
+        "text": "Fino a 70 caratteri. Per gli utenti Premium, fino a 140 caratteri. "
       },
       "name_length": {
         "name": "Lunghezza del nome",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Numero di supergruppi e canali",
         "hint": "di cui puoi far parte",
-        "text": "Up to 500 (including ones you own). For Premium users - up to 1000. "
+        "text": "Fino a 500 (inclusi quelli di tua proprietà). Per gli utenti Premium, fino a 1000. "
       },
       "geochats_number": {
         "name": "Numero delle geochat",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Numero di GIF salvabili",
         "hint": "",
-        "text": "Up to 200. For Premium users - up to 400. "
+        "text": "Fino a 200. Per gli utenti Premium, fino a 400. "
       },
       "video_length": {
         "name": "Durata del video profilo",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Numero di profili",
         "hint": "(nei client ufficiali)",
-        "text": "Up to 3. For Premium users - up to 6. "
+        "text": "Fino a 3. Per gli utenti Premium, fino a 6. "
       },
       "visible_messages": {
         "name": "Numero dei messaggi visibile",
         "hint": "(limite condiviso tra chat private, bot e gruppi legacy)",
-        "text": "Unlimited. Before 2018 year - up to 1,000,000 visible messages"
+        "text": "Illimitati. Prima del 2018, fino a 1.000.000 messaggi visibili"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Chat fissate nella lista principale",
         "hint": "",
-        "text": "Up to 5 chats or channels + 5 secret chats. For Premium users - up to 10 chats or channels. "
+        "text": "Fino a 5 chat o canali + 5 chat segrete. Per gli utenti Premium, fino a 10 chat o canali. "
       },
       "group_name": {
         "name": "Nome e descrizione di un gruppo",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Didascalia dei media",
         "hint": "",
-        "text": "Up to 1024 characters. For Premium users - up to 2024 characters. "
+        "text": "Fino a 1024 caratteri. Per gli utenti Premium, fino a 2024 caratteri. "
       },
       "upload_size": {
         "name": "Dimensioni di un file",
         "hint": "",
-        "text": "Up to 2 GB. For Premium users - up to 4 GB"
+        "text": "Fino a 2GB. Per gli utenti Premium, fino a 4GB"
       },
       "file_name_length": {
         "name": "Lunghezza del nome del file",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Numero di cartelle",
         "hint": "",
-        "text": "Up to 10 folders. For Premium users - up to 20 folders. "
+        "text": "Fino a 10 cartelle. Per utenti Premium, fino a 20 cartelle. "
       },
       "pinned_chats_in_folder": {
         "name": "Chat fissate in una cartella",
         "hint": "",
-        "text": "Up to 100 chats. For Premium users - up to 200 chats."
+        "text": "Fino a 100 chat. Per gli utenti Premium, fino a 200 chat."
       }
     }
   },

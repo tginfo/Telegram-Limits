@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Jumlah channel dan supergrup",
         "hint": "yang dapat anda masuki",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "hingga 500 (termasuk milik pribadi); untuk pengguna Premium - hingga 1000"
       },
       "geochats_number": {
         "name": "Jumlah obrolan sekitar",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Jumlah GIF tersimpan",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "hingga 200; untuk pengguna Premium - hingga 400"
       },
       "video_length": {
         "name": "Durasi avatar-video",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Jumlah akun",
         "hint": "(klien resmi)",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "hingga 3; untuk pengguna Premium - hingga 6"
       },
       "visible_messages": {
         "name": "Jumlah pesan terlihat",
         "hint": "(batas bersama antara obrolan pribadi, bot, dan grup lawas)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "text": "tak terhingga; sebelum tahun 2018 - hingga 1.000.000 pesan terlihat"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Obrolan tersemat di daftar utama",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "hingga 5 obrolan atau channel + 5 secret chat; untuk pengguna Premium - hingga 10 obrolan atau channel"
       },
       "group_name": {
         "name": "Nama dan deskripsi grup",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Keterangan Media",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "hingga 1024 karakter; untuk pengguna Premium - hingga 2024 karakter"
       },
       "upload_size": {
         "name": "Batas ukuran berkas",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "hingga 2 GB; untuk pengguna Premium - hingga 4 GB"
       },
       "file_name_length": {
         "name": "Panjang nama berkas",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Jumlah pesan terjadwal",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "hingga 100 item (setiap chat)"
       },
       "delaying_messages": {
         "name": "Rentang penjadwalan",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Banyak folder",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "hingga 10 folder; untuk pengguna Premium - hingga 20 folder"
       },
       "pinned_chats_in_folder": {
         "name": "Pesan tersemat pada folder",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "hingga 100 obrolan; untuk pengguna Premium - hingga 200 obrolan"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Jumlah stiker favorit",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "hingga 5 item; untuk pengguna Premium - hingga 10 item"
       },
       "pack_size": {
         "name": "Jumlah stiker dalam satu paket",

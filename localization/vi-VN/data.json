@@ -10,7 +10,7 @@
       "bio": {
         "name": "Lý lịch",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "đến 70 ký tự; đối với người dùng Premium - đến 140 ký tự"
       },
       "name_length": {
         "name": "Chiều dài của Họ",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Số của kênh và siêu nhóm",
         "hint": "bạn có thể là thành viên của",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "đến 500 (bao gồm cả những kênh mà bạn làm chủ); đối với Premium - đến 1000"
       },
       "geochats_number": {
         "name": "Số Geochats",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Số GIFs được lưu",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "đến 200; đối với người dùng Premium - đến 400"
       },
       "video_length": {
         "name": "Thời lượng của Video-avatar",
@@ -63,7 +63,7 @@
         "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
-        "name": "Visible messages number",
+        "name": "Số thông báo khả thị",
         "hint": "(shared limit between private chats, bots and legacy groups)",
         "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
@@ -78,14 +78,14 @@
         "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
-        "name": "Number of admins",
-        "hint": "in groups",
+        "name": "Số người quản trị",
+        "hint": "trong các nhóm",
         "text": "up to 50"
       },
       "bots_amount": {
-        "name": "Number of bots",
+        "name": "Số lượng Bot",
         "hint": "in groups",
-        "text": "up to 20"
+        "text": "đến 20"
       },
       "pinned_number": {
         "name": "Pinned chats in main list",
@@ -93,28 +93,28 @@
         "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
-        "name": "Group name and description",
+        "name": "Tên gọi và mô tả của nhóm",
         "hint": "",
         "text": "up to 255 characters"
       },
       "editing": {
-        "name": "Message editing",
+        "name": "Chỉnh sửa tin nhắn",
         "hint": "",
         "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
       },
       "media_self_destruction": {
         "name": "Photo and video self-destruction",
         "hint": "",
-        "text": "1 to 60 seconds"
+        "text": "1 đến 60 giây"
       },
       "recent_actions": {
         "name": "Recent actions",
         "hint": "(subscriptions, posts, etc.)",
-        "text": "last two days"
+        "text": "hai ngày gần đây"
       },
       "mentions_amount": {
         "name": "Mentions number",
-        "hint": "in a single message",
+        "hint": "trong một tin nhắn đơn lẻ",
         "text": "up to 50, only first 5 from list will receive notification"
       },
       "visible_messages": {
@@ -125,7 +125,7 @@
       "pinned_messages_number": {
         "name": "Pinned messages number",
         "hint": "",
-        "text": "unlimited"
+        "text": "không giới hạn"
       },
       "participants_to_see_stats": {
         "name": "Number of participants to see statistics",

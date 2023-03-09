@@ -10,7 +10,7 @@
       "bio": {
         "name": "Biografía",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "hasta 70 caracteres; para usuarios Premium - hasta 140 caracteres"
       },
       "name_length": {
         "name": "Longitud del nombre",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Número de canales y supergrupos",
         "hint": "puedes ser miembro de",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "hasta 500 (incluyendo los que tienes); para usuarios Premium - hasta 1000"
       },
       "geochats_number": {
         "name": "Número de chats de ubicación",

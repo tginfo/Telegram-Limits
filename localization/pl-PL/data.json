@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Liczba kanałów i supergrup",
         "hint": ", do których możesz należeć",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "do 500 (w tym stworzone przez ciebie); dla użytkowników Premium – do 1000"
       },
       "geochats_number": {
         "name": "Liczba geoczatów,",
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Przypięte czaty na głównej liście",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "do 5 czatów lub kanałów + 5 szyfrowanych czatów; dla użytkowników Premium – do 10 czatów lub kanałów"
       },
       "group_name": {
         "name": "Nazwa i opis grupy",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Opis plików multimedialnych",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "do 1024 znaków; dla użytkowników Premium – do 2024 znaków"
       },
       "upload_size": {
         "name": "Rozmiar wysłanych plików",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "do 2 GB; dla użytkowników Premium – do 4 GB"
       },
       "file_name_length": {
         "name": "Długość nazwy pliku",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Liczba zaplanowanych wiadomości",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "do 100 sztuk (na każdy czat)"
       },
       "delaying_messages": {
         "name": "Okres planowania wiadomości",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Liczba folderów",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "do 10 folderów; dla użytkowników Premium – do 20 folderów"
       },
       "pinned_chats_in_folder": {
         "name": "Przypięte czaty w folderze",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "do 100 czatów; dla użytkowników Premium – do 200 czatów"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Liczba ulubionych naklejek",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "do 5 elementów; dla użytkowników Premium – do 10 elementów"
       },
       "pack_size": {
         "name": "Liczba naklejek w zestawie",

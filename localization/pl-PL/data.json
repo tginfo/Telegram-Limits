@@ -10,7 +10,7 @@
       "bio": {
         "name": "Biografia",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "do 70 znaków; dla użytkowników Premium – do 140 znaków"
       },
       "name_length": {
         "name": "Długość imienia",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Liczba zapisanych GIF-ów",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "do 200; dla użytkowników Premium – do 400"
       },
       "video_length": {
         "name": "Czas trwania awatara wideo",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Ilość kont",
         "hint": "(oficjalni klienci)",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "do 3; dla użytkowników Premium – do 6"
       },
       "visible_messages": {
         "name": "Liczba widocznych wiadomości",
         "hint": "(limit współdzielony pomiędzy prywatne czaty, boty i starsze grupy)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "text": "nieograniczona; przed rokiem 2018 – do 1 000 000 widocznych wiadomości"
       }
     }
   },

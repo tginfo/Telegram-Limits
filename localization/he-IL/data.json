@@ -10,7 +10,7 @@
       "bio": {
         "name": "תיאור המשתמש",
         "hint": "",
-        "text": "מוגבל ל70 תווים"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
         "name": "אורך השם הפרטי",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "מספר הערוצים והסופר קבוצות",
         "hint": "אתה יכול להיות חבר ב",
-        "text": "עד 500 (כולל מה שאתה יצרת)"
+        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
       },
       "geochats_number": {
         "name": "Geochats number",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "מספר הגיפים השמורים",
         "hint": "",
-        "text": "עד 200"
+        "text": "up to 200; for Premium users - up to 400"
       },
       "video_length": {
         "name": "אורך של וידאו בפרופיל",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "מספר החשבונות",
         "hint": "(באפליקצייה הרשמית)",
-        "text": "עד 3"
+        "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "מספר הצ'אטים הנעוצים ברשימה הראשית (לא תיקיות שיצרת)",
         "hint": "",
-        "text": "עד 5 צ'אטים או ערוצים + 5 צ'אטים סודיים"
+        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
         "name": "שם ותיאור של קבוצה",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "כתוביות על מדיה",
         "hint": "",
-        "text": "up to 1,024 characters"
+        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
       },
       "upload_size": {
         "name": "מגבלת הגודל של הקבצים",
         "hint": "",
-        "text": "up to 2,000 MiB (slightly less than real 2 GB)"
+        "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "File name length",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "מספר ההודעות המתוזמנות",
         "hint": "",
-        "text": "עד 100"
+        "text": "up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "טווח הזמנים לתזמון הודעות",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "כמות התיקיות",
         "hint": "",
-        "text": "עד ל 10 תיקיות"
+        "text": "up to 10 folders; for Premium users - up to 20 folders"
       },
       "pinned_chats_in_folder": {
         "name": "צ'אטים מוצמדים בתיקייה",
         "hint": "",
-        "text": "עד ל 100 צ'אטים"
+        "text": "up to 100 chats; for Premium users - up to 200 chats"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "מספר הסטיקרים המועדפים",
         "hint": "",
-        "text": "עד 5"
+        "text": "up to 5 items; for Premium users - up to 10 items"
       },
       "pack_size": {
         "name": "סטיקרים בחבילה",

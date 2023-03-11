@@ -10,7 +10,7 @@
       "bio": {
         "name": "Bio",
         "hint": "",
-        "text": "jusqu'à 70 caractères"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
         "name": "Longueur du prénom",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Nombre de canaux et supergroupes",
         "hint": "dont pouvez être membre",
-        "text": "jusqu'à 500 (incluant ceux que vous possédez)"
+        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
       },
       "geochats_number": {
         "name": "Nombre d'échanges locaux (géolocalisés)",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Nombre de GIFs enregistrables",
         "hint": "",
-        "text": "jusqu'à 200"
+        "text": "up to 200; for Premium users - up to 400"
       },
       "video_length": {
         "name": "Durée d'un avatar vidéo",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Nombre de comptes",
         "hint": "(clients officiels)",
-        "text": "jusqu'à 3"
+        "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Échanges épinglables dans la liste principale",
         "hint": "",
-        "text": "jusqu'à 5 échanges ou canaux + 5 conversations secrètes"
+        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
         "name": "Nom et description d'un groupe",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Légende des médias",
         "hint": "",
-        "text": "jusqu'à 1 024 caractères"
+        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
       },
       "upload_size": {
         "name": "Taille maximale d'un fichier",
         "hint": "",
-        "text": "jusqu'à 2 000 Mo (un peu moins que les 2 Go réels)"
+        "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "Longueur d'un nom de fichier",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Nombre de messages planifiables",
         "hint": "",
-        "text": "jusqu'à 100 éléments"
+        "text": "up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "Plage de planification",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Nombre de dossiers",
         "hint": "",
-        "text": "jusqu'à 10 dossiers"
+        "text": "up to 10 folders; for Premium users - up to 20 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Échanges épinglés dans un dossier",
         "hint": "",
-        "text": "jusqu'à 100 échanges"
+        "text": "up to 100 chats; for Premium users - up to 200 chats"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Nombre d'autocollants favoris",
         "hint": "",
-        "text": "jusqu'à 5 éléments"
+        "text": "up to 5 items; for Premium users - up to 10 items"
       },
       "pack_size": {
         "name": "Nombre d'autocollants dans un pack",

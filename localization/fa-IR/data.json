@@ -10,7 +10,7 @@
       "bio": {
         "name": "درباره من",
         "hint": "",
-        "text": "تا 70 کارکتر"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
         "name": "طول اسم",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "تعداد کانال‌ها و ابرگروه‌ها",
         "hint": "که شما میتوانید عضو باشید",
-        "text": "تا 500 گروه و کانال(شامل آنهایی که خودتان مالک هستید)"
+        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
       },
       "geochats_number": {
         "name": "تعداد گروه‌های محلی",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "تعداد گیف های ذخیره شده",
         "hint": "",
-        "text": "تا 200 گیف"
+        "text": "up to 200; for Premium users - up to 400"
       },
       "video_length": {
         "name": "مدت زمان ویدیو آواتار",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "تعداد حساب ها",
         "hint": "(برنامه‌های رسمی)",
-        "text": "تا 3 حساب"
+        "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
-        "name": "Visible messages number",
+        "name": "Meysamkh1366",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1,000,000 visible messages"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "گفتگوهای سنجاق شده در لیست اصلی",
         "hint": "",
-        "text": "تا 5 چت یا کانال + 5 گفتگوی محرمانه"
+        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
         "name": "نام گروه و توضیحات",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "زیرنویس رسانه",
         "hint": "",
-        "text": "تا ۴٠٩۶ کرکتر"
+        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
       },
       "upload_size": {
         "name": "محدودیت حجم فایل",
         "hint": "",
-        "text": "تا 2000 مگابایت (کمی کمتر از 2 گیگابایت واقعی)"
+        "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "طول اسم",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "تعداد پیام های زمان‌بندی شده",
         "hint": "",
-        "text": "تا 100 مورد"
+        "text": "up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "محدوده زمان بندی کردن",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "تعداد پوشه‌ها",
         "hint": "",
-        "text": "تا 10 پوشه"
+        "text": "up to 10 folders; for Premium users - up to 20 folders"
       },
       "pinned_chats_in_folder": {
         "name": "گفتگوهای سنجاق شده در هر پوشه",
         "hint": "",
-        "text": "تا 100 گفتگو"
+        "text": "up to 100 chats; for Premium users - up to 200 chats"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "تعداد استیکر های موردعلاقه",
         "hint": "",
-        "text": "تا 5 مورد"
+        "text": "up to 5 items; for Premium users - up to 10 items"
       },
       "pack_size": {
         "name": "تعداد استیکر ها در هر بسته",

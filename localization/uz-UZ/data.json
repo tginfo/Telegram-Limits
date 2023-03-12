@@ -10,7 +10,7 @@
       "bio": {
         "name": "\"Men haqimda\" bo'limi",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "70 ta belgigacha; Premium foydalanuvchilar uchun - 140 ta belgigacha"
       },
       "name_length": {
         "name": "Ism uzunligi",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Kanallar va superguruhlar soni",
         "hint": "siz a'zo bo'lishingiz mumkin bo'lgan",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "500 tagacha (siz egalik qilgan chatlar bilan birgalikda); Premium foydalanuvchilar uchun - 100 tagacha"
       },
       "geochats_number": {
         "name": "Geochatlat soni",

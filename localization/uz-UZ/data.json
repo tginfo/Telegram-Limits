@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Saqlangan GIFlar soni",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "200 tagacha; Premium foydalanuvchilar uchun - 400 tagacha"
       },
       "video_length": {
         "name": "Video-avatar davomiyligi",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Hisob raqamlar soni",
         "hint": "(rasmiy mijozlar)",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "3 tagacha; Premium foydalanuvchilar uchun - 6 tagacha"
       },
       "visible_messages": {
         "name": "Ko'rinadigan xabarlar soni",
         "hint": "(shaxsiy chatlar, botlar va oddiy guruhlar orasidagi umumiy limit)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "text": "cheklanmagan; 2018-yilgacha 1 000 000 ta ko'rinadigan habar"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Ro'yxatdagi qadalgan xabarlar soni",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "5 tagacha chat yoki kanallar + 5 ta maxfiy chatlar; Preimum foydalanuvchilarga - 10 tagacha chat yoki kanallar"
       },
       "group_name": {
         "name": "Guruh nomi va tavsifi",

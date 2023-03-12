@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Medialar uchun izoh",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "1024 ta belgigacha; Premium foydalanuvchilar uchun - 2024 ta belgigacha"
       },
       "upload_size": {
-        "name": "Fayl hajmi chegarasi",
+        "name": "Fayl o'lchamiga chegara",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "2 GB gacha; Premium foydalanuvchilar uchun - 4 GB gacha"
       },
       "file_name_length": {
         "name": "Fayl nomi uzunligi",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Rejalashtirilgan xabarlarning miqdori",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "100 ta element (har bir chat uchun)"
       },
       "delaying_messages": {
         "name": "Jadval oralig'i",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Jildlar miqdori",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "10 ta papkagacha; Premium foydalanuvchilar uchun - 20 ta papkagacha"
       },
       "pinned_chats_in_folder": {
         "name": "Jilddagi qadalgan xabarlar ",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "100 ta chat; Premium foydalanuvchilar uchun - 200 ta chat"
       }
     }
   },

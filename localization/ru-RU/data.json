@@ -458,9 +458,9 @@
         "text": "от 4 символов"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Лимит на поиск username'в",
+        "hint": "(для ботов и пользователей суммарно)",
+        "text": "до 200 в день"
       }
     }
   },

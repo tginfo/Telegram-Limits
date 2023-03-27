@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "Media captions",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
       },
       "upload_size": {
         "name": "File size limit",

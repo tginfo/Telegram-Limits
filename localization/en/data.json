@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "Accounts number",
         "hint": "(official clients)",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "up to 3; for Premium users - up to 4"
       },
       "visible_messages": {
         "name": "Visible messages number",

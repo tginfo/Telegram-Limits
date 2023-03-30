@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "Número de cuentas",
         "hint": "(clientes oficiales)",
-        "text": "hasta 3; para usuarios Premium - hasta 6"
+        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Número de mensajes visibles",
@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "Leyendas del medio",
         "hint": "",
-        "text": "hasta 1024 caracteres; para usuarios Premium - hasta 2024 caracteres"
+        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
       },
       "upload_size": {
         "name": "Límite de tamaño del archivo",

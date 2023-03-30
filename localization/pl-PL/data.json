@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "Ilość kont",
         "hint": "(oficjalni klienci)",
-        "text": "do 3; dla użytkowników Premium – do 6"
+        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Liczba widocznych wiadomości",
@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "Opis plików multimedialnych",
         "hint": "",
-        "text": "do 1024 znaków; dla użytkowników Premium – do 2024 znaków"
+        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
       },
       "upload_size": {
         "name": "Rozmiar wysłanych plików",

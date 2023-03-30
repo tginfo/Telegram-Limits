@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "Jumlah akun",
         "hint": "(klien resmi)",
-        "text": "hingga 3; untuk pengguna Premium - hingga 6"
+        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Jumlah pesan terlihat",
@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "Keterangan Media",
         "hint": "",
-        "text": "hingga 1024 karakter; untuk pengguna Premium - hingga 2024 karakter"
+        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
       },
       "upload_size": {
         "name": "Batas ukuran berkas",

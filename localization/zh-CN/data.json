@@ -10,7 +10,7 @@
       "bio": {
         "name": "个人简介",
         "hint": "",
-        "text": "最多 70 个字符"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
         "name": "名字长度",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "频道和超级群组数量",
         "hint": "你可以加入的",
-        "text": "最多 500（包括您创建的）"
+        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
       },
       "geochats_number": {
         "name": "当地群组数量",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "保存在 GIF 库的 GIF 数量",
         "hint": "",
-        "text": "最多 200"
+        "text": "up to 200; for Premium users - up to 400"
       },
       "video_length": {
         "name": "视频头像时长",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "同时登录的账号数",
         "hint": "（官方客户端）",
-        "text": "最多 3 个"
+        "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
         "name": "可见消息数量",
         "hint": "（在私聊、机器人和传统群组间共享限制）",
-        "text": "～最新的 100 万条消息"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "客户端主页面的置顶群聊数",
         "hint": "",
-        "text": "最多 5 个群聊 / 频道 + 5 个私密聊天"
+        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
         "name": "群组名称和简介",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "媒体的描述",
         "hint": "",
-        "text": "最多 1024 个字符"
+        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
       },
       "upload_size": {
         "name": "单文件大小限制",
         "hint": "",
-        "text": "最多 2000 MiB（略少于 2 GB）"
+        "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "文件名长度限制",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "计划信息数量",
         "hint": "",
-        "text": "最多 100 个"
+        "text": "up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "可计划的日程范围",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "文件夹数量",
         "hint": "",
-        "text": "最多 10 个文件夹"
+        "text": "up to 10 folders; for Premium users - up to 20 folders"
       },
       "pinned_chats_in_folder": {
         "name": "单个文件夹中可置顶的聊天数",
         "hint": "",
-        "text": "最多 100 个"
+        "text": "up to 100 chats; for Premium users - up to 200 chats"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "收藏贴纸数",
         "hint": "",
-        "text": "最多 5 个"
+        "text": "up to 5 items; for Premium users - up to 10 items"
       },
       "pack_size": {
         "name": "单个贴纸包中的贴纸数",

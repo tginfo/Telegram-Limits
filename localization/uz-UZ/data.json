@@ -10,7 +10,7 @@
       "bio": {
         "name": "\"Men haqimda\" bo'limi",
         "hint": "",
-        "text": "70 tagacha belgi"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
         "name": "Ism uzunligi",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Kanallar va superguruhlar soni",
         "hint": "siz a'zo bo'lishingiz mumkin bo'lgan",
-        "text": "500 tagacha (o'zingiz ochganlar bilan)"
+        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
       },
       "geochats_number": {
         "name": "Geochatlat soni",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Saqlangan GIFlar soni",
         "hint": "",
-        "text": "200 tagacha"
+        "text": "up to 200; for Premium users - up to 400"
       },
       "video_length": {
         "name": "Video-avatar davomiyligi",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Hisob raqamlar soni",
         "hint": "(rasmiy mijozlar)",
-        "text": "3 tagacha"
+        "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
         "name": "Ko'rinadigan xabarlar soni",
         "hint": "(shaxsiy chatlar, botlar va oddiy guruhlar orasidagi umumiy limit)",
-        "text": "~1 000 000 ko'rinadigan xabarlar"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Ro'yxatdagi qadalgan xabarlar soni",
         "hint": "",
-        "text": "5 tagacha suhbat yoki kanallar + 5 tagacha maxfiy suhbat"
+        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
         "name": "Guruh nomi va tavsifi",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Medialar uchun izoh",
         "hint": "",
-        "text": "1,024 tagacha belgi"
+        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
       },
       "upload_size": {
         "name": "Fayl hajmi chegarasi",
         "hint": "",
-        "text": "2000 MB gacha (haqiqiy 2 GB dan bir oz kamroq)"
+        "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "Fayl nomi uzunligi",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Rejalashtirilgan xabarlarning miqdori",
         "hint": "",
-        "text": "100 tagacha"
+        "text": "up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "Jadval oralig'i",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Jildlar miqdori",
         "hint": "",
-        "text": "10 tagacha"
+        "text": "up to 10 folders; for Premium users - up to 20 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Jilddagi qadalgan xabarlar ",
         "hint": "",
-        "text": "100 tagacha"
+        "text": "up to 100 chats; for Premium users - up to 200 chats"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Tanlangan stikerlar soni",
         "hint": "",
-        "text": "5 tagacha"
+        "text": "up to 5 items; for Premium users - up to 10 items"
       },
       "pack_size": {
         "name": "Stiker To'plamlar miqdori",

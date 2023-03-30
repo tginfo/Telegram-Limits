@@ -10,7 +10,7 @@
       "bio": {
         "name": "Про себе",
         "hint": "",
-        "text": "до 70 символів"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
         "name": "Довжина імені",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Кількість каналів та супергруп",
         "hint": "в котрих можна бути членом",
-        "text": "до 500 (враховуючи ваші)"
+        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
       },
       "geochats_number": {
         "name": "Кількість геочатів",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Кількість збережених GIF",
         "hint": "",
-        "text": "до 200"
+        "text": "up to 200; for Premium users - up to 400"
       },
       "video_length": {
         "name": "Тривалість відеоаватару",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Кількість акаунтів",
         "hint": "(офіційні клієнти)",
-        "text": "до 3"
+        "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "~1 000 000 видимих повідомлень"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Закріплені чати в стрічці користувача",
         "hint": "",
-        "text": "до 5 чатів або каналів + 5 секретних чатів"
+        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
         "name": "Назва та опис групи",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Опис у медіа",
         "hint": "",
-        "text": "до 1 024 символів"
+        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
       },
       "upload_size": {
         "name": "Обмеження розміру файлу",
         "hint": "",
-        "text": "до 2 000 МіБ (трохи менше справжніх 2 ГБ)"
+        "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "Довжина імені файлу",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Кількість нагадувань",
         "hint": "",
-        "text": "до 100 повідомлень"
+        "text": "up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "Діапазон нагадувань",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Кількість папок",
         "hint": "",
-        "text": "до 10 папок"
+        "text": "up to 10 folders; for Premium users - up to 20 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Закріплені чати в папці",
         "hint": "",
-        "text": "до 100 чатів"
+        "text": "up to 100 chats; for Premium users - up to 200 chats"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Кількість улюблених наліпок",
         "hint": "",
-        "text": "до 5 елементів"
+        "text": "up to 5 items; for Premium users - up to 10 items"
       },
       "pack_size": {
         "name": "Кількість наліпок в наборі",

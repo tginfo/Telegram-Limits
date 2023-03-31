@@ -5,12 +5,12 @@
       "username": {
         "name": "Nom d'utilisateur",
         "hint": "(exemple : @cameraman)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "5 à 32 caractères, à partir de 4 caractères pour les noms d'utilisateur NFT"
       },
       "bio": {
         "name": "Bio",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "jusqu'à 70 caractères; pour les utilisateurs Premium, jusqu'à 140 caractères"
       },
       "name_length": {
         "name": "Longueur du prénom",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Nombre de canaux et supergroupes",
         "hint": "dont pouvez être membre",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "jusqu'à 500 personnes (incluant ceux que vous possédez); pour les utilisateurs Premium, jusqu'à 1000"
       },
       "geochats_number": {
         "name": "Nombre d'échanges locaux (géolocalisés)",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Nombre de GIFs enregistrables",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "jusqu'à 200; pour les utilisateurs Premium, jusqu'à 400"
       },
       "video_length": {
         "name": "Durée d'un avatar vidéo",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Nombre de comptes",
         "hint": "(clients officiels)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "jusqu'à 3; pour les utilisateurs Premium, jusqu'à 4-6 (dépend de l'application)"
       },
       "visible_messages": {
-        "name": "Visible messages number",
+        "name": "Nombre de messages visibles",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "text": "illimité; avant 2018, jusqu'à 1 000 000 messages visibles"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Échanges épinglables dans la liste principale",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "jusqu'à 5 échanges ou canaux + 5 échanges secrets; pour les utilisateurs Premium, jusqu'à 10 échanges ou canaux"
       },
       "group_name": {
         "name": "Nom et description d'un groupe",

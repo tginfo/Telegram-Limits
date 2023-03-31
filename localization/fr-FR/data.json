@@ -64,7 +64,7 @@
       },
       "visible_messages": {
         "name": "Nombre de messages visibles",
-        "hint": "(shared limit between private chats, bots and legacy groups)",
+        "hint": "(limite partagée entre les échanges privés, les bots et les groupes simples)",
         "text": "illimité; avant 2018, jusqu'à 1 000 000 messages visibles"
       }
     }
@@ -115,7 +115,7 @@
       "mentions_amount": {
         "name": "Nombre de mentions",
         "hint": "en un seul message",
-        "text": "jusqu'à 50 personnes, sinon les notifications ne seront pas envoyées"
+        "text": "jusqu'à 50, seuls les 5 premiers de la liste recevront une notification"
       },
       "visible_messages": {
         "name": "Nombre de messages visibles",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Légende des médias",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "jusqu'à 1024 caractères; pour les utilisateurs Premium, jusqu'à 2048 caractères"
       },
       "upload_size": {
         "name": "Taille maximale d'un fichier",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "jusqu'à 2 Go; pour les utilisateurs Premium, jusqu'à 4 Go"
       },
       "file_name_length": {
         "name": "Longueur d'un nom de fichier",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Nombre de messages planifiables",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "jusqu'à 100 éléments (par échange)"
       },
       "delaying_messages": {
         "name": "Plage de planification",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Nombre de dossiers",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "jusqu'à 10 dossiers; pour les utilisateurs Premium, jusqu'à 20 dossiers"
       },
       "pinned_chats_in_folder": {
         "name": "Échanges épinglés dans un dossier",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "jusqu'à 100 échanges; pour les utilisateurs Premium, jusqu'à 200 échanges"
       }
     }
   },
@@ -410,7 +410,7 @@
       "messaging_frequency_groups": {
         "name": "Fréquence d'envoi de message",
         "hint": "dans les groupes",
-        "text": "jusqu'à 20 messages par seconde dans le même échange"
+        "text": "jusqu'à 20 messages par minute dans le même échanges"
       },
       "bot_commands_count": {
         "name": "Nombre de commandes",
@@ -458,9 +458,9 @@
         "text": "au moins 4 caractères"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Limite de résolution de nom d'utilisateur",
+        "hint": "(pour les bots et les comptes utilisateurs)",
+        "text": "jusqu'à 200 noms d'utilisateurs par jour"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Nombre d'autocollants favoris",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "jusqu'à 5 éléments; pour les utilisateurs Premium, jusqu'à 10 éléments"
       },
       "pack_size": {
         "name": "Nombre d'autocollants dans un pack",

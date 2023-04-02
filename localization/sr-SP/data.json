@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "Број налога",
         "hint": "(званични клијенти)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "до 3; за премијум кориснике 4-6 (у зависности од апликације)"
       },
       "visible_messages": {
         "name": "Број видљивих порука",
@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "Опис медија",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "до 1024 знака; за премијум кориснике до 2048 знакова"
       },
       "upload_size": {
         "name": "Величина датотеке",

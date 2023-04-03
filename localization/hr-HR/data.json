@@ -10,7 +10,7 @@
       "bio": {
         "name": "Opis",
         "hint": "",
-        "text": "do 70 znakova"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
         "name": "Duljina imena",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Broj kanala i supergrupa",
         "hint": "u kojima možete biti član",
-        "text": "do 500 (uključujući i one koje su vaše)"
+        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
       },
       "geochats_number": {
         "name": "Broj grupa na lokaciji",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Broj spremljenih GIF-ova",
         "hint": "",
-        "text": "do 200"
+        "text": "up to 200; for Premium users - up to 400"
       },
       "video_length": {
         "name": "Trajanje videozapisa za profil",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Broj korisničkih računa",
         "hint": "(službene aplikacije)",
-        "text": "do 3"
+        "text": "up to 3; for Premium users - up to 6"
       },
       "visible_messages": {
         "name": "Broj vidljivih poruka",
         "hint": "(ograničenje se dijeli s privatnim razgovorima, botovima i običnim grupa)",
-        "text": "~1 000 000 vidljivih poruka"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Prikvačeni razgovori u glavnoj listi",
         "hint": "",
-        "text": "do 5 razgovora ili kanala + 5 tajnih razgovora"
+        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
       "group_name": {
         "name": "Ime grupe i opis",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Opis medija",
         "hint": "",
-        "text": "do 1024 znaka"
+        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
       },
       "upload_size": {
         "name": "Veličina datoteke",
         "hint": "",
-        "text": "do 2000 MB (nešto manje od stvarnih 2 GB)"
+        "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
         "name": "Duljina imena",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Broj zakazanih poruka",
         "hint": "",
-        "text": "do 100 poruka"
+        "text": "up to 100 items (per each chat)"
       },
       "delaying_messages": {
         "name": "Razdoblje zakazanih poruka",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Broj mapa",
         "hint": "",
-        "text": "do 10 mapa"
+        "text": "up to 10 folders; for Premium users - up to 20 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Prikvačeni razgovori u mapi",
         "hint": "",
-        "text": "do 100 razgovora"
+        "text": "up to 100 chats; for Premium users - up to 200 chats"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Broj naljepnica u favoritima",
         "hint": "",
-        "text": "do 5 naljepnica"
+        "text": "up to 5 items; for Premium users - up to 10 items"
       },
       "pack_size": {
         "name": "Broj naljepnica u paketu",

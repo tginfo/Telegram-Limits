@@ -40,7 +40,7 @@
       "geochats_number": {
         "name": "Nombre d'échanges locaux (géolocalisés)",
         "hint": "dont vous pouvez être membre",
-        "text": "jusqu'à 5 (incluant ceux que vous possédez)"
+        "text": "illimité"
       },
       "gifs_number": {
         "name": "Nombre de GIFs enregistrables",

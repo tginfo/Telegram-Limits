@@ -48,7 +48,7 @@
         "text": "bis 200; für Premium-Nutzer - bis 400"
       },
       "video_length": {
-        "name": "Länge des Videoprofilbild",
+        "name": "Länge des Profilvideos",
         "hint": "",
         "text": "bis zu 10 Sekunden"
       },
@@ -364,7 +364,7 @@
       },
       "upload_limit_botapi": {
         "name": "Datei-Upload-Limit",
-        "hint": "ohne lokalem Bot API Server",
+        "hint": "ohne lokalen Bot API Server",
         "text": "bis zu 50 MB"
       },
       "upload_limit_botapi_local": {
@@ -374,7 +374,7 @@
       },
       "download_limit_botapi": {
         "name": "Datei-Download-Limit",
-        "hint": "ohne lokalem Bot API Server",
+        "hint": "ohne lokalen Bot API Server",
         "text": "bis zu 20 MB"
       },
       "download_limit_botapi_local": {

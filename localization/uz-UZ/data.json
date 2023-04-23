@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "Hisob raqamlar soni",
         "hint": "(rasmiy mijozlar)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "3 tagacha; Premium foydalanuvchilar - 4-6 tagacha (ilovaga bog'liq)"
       },
       "visible_messages": {
         "name": "Ko'rinadigan xabarlar soni",
@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "Medialar uchun izoh",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "1024 ta belgigacha; Premium foydalanuvchilar uchun - 2048 ta belgigacha"
       },
       "upload_size": {
         "name": "Fayl o'lchamiga chegara",

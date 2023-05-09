@@ -130,7 +130,7 @@
       "participants_to_see_stats": {
         "name": "Number of participants to see statistics",
         "hint": "",
-        "text": "at least 500"
+        "text": "at least 50"
       },
       "username_reservation": {
         "name": "Username change reservation",

@@ -130,7 +130,7 @@
       "participants_to_see_stats": {
         "name": "Количество участников для открытия статистики",
         "hint": "",
-        "text": "500 и более"
+        "text": "50 и более"
       },
       "username_reservation": {
         "name": "Резервирование @username после смены",

@@ -128,9 +128,9 @@
         "text": "ללא הגבלה"
       },
       "participants_to_see_stats": {
-        "name": "מספר החברים בשביל לראות סטטיסטיקה",
+        "name": "Number of members/subscribers to see statistics",
         "hint": "",
-        "text": "500 לפחות"
+        "text": "for groups: at least 500; for channels: at least 50"
       },
       "username_reservation": {
         "name": "זמן שינוי שם משתמש לקבוצות",

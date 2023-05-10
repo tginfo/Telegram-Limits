@@ -128,9 +128,9 @@
         "text": "無上限"
       },
       "participants_to_see_stats": {
-        "name": "查看統計資料所需人數",
+        "name": "Number of members/subscribers to see statistics",
         "hint": "",
-        "text": "至少 500"
+        "text": "for groups: at least 500; for channels: at least 50"
       },
       "username_reservation": {
         "name": "使用者名稱保留時間",

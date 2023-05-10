@@ -128,9 +128,9 @@
         "text": "අසීමිතයි"
       },
       "participants_to_see_stats": {
-        "name": "සංඛ්‍යාලේඛන දැකීම සඳහා අවශ්‍ය සාමාජිකයින් ගණන",
+        "name": "Number of members/subscribers to see statistics",
         "hint": "",
-        "text": "අවම වශයෙන් 500 ක්"
+        "text": "for groups: at least 500; for channels: at least 50"
       },
       "username_reservation": {
         "name": "වෙනස්කළ පරිශීලක නාමය වෙන්කිරීම",

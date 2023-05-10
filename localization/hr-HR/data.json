@@ -128,9 +128,9 @@
         "text": "neograničeno"
       },
       "participants_to_see_stats": {
-        "name": "Broj članova za otvaranje statistike",
+        "name": "Number of members/subscribers to see statistics",
         "hint": "",
-        "text": "najmanje 500 članova"
+        "text": "for groups: at least 500; for channels: at least 50"
       },
       "username_reservation": {
         "name": "Rezervacija korisničkog imena nakon promjene",

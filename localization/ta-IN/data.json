@@ -128,9 +128,9 @@
         "text": "வரம்பற்றது"
       },
       "participants_to_see_stats": {
-        "name": "புள்ளிவிவரங்களைக் காண தேவைப்படும் பங்கேற்பாளர்களின் எண்ணிக்கை",
+        "name": "Number of members/subscribers to see statistics",
         "hint": "",
-        "text": "குறைந்தது 500"
+        "text": "for groups: at least 500; for channels: at least 50"
       },
       "username_reservation": {
         "name": "பயனர்பெயர் மாற்ற முன்பதிவு",

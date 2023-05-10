@@ -128,9 +128,9 @@
         "text": "unbegrenzt"
       },
       "participants_to_see_stats": {
-        "name": "Anzahl der Gruppenmitglieder zur Anzeige der Statistiken",
+        "name": "Number of members/subscribers to see statistics",
         "hint": "",
-        "text": "mindestens 500"
+        "text": "for groups: at least 500; for channels: at least 50"
       },
       "username_reservation": {
         "name": "Reservierung des Nutzernamens bei Änderung",

@@ -128,9 +128,9 @@
         "text": "不限"
       },
       "participants_to_see_stats": {
-        "name": "使“统计数据”可用的频道订阅者 / 群聊成员数",
+        "name": "Number of members/subscribers to see statistics",
         "hint": "",
-        "text": "至少 500"
+        "text": "for groups: at least 500; for channels: at least 50"
       },
       "username_reservation": {
         "name": "更改 username 后生效时长",

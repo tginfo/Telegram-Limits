@@ -128,9 +128,9 @@
         "text": "tak terbatas"
       },
       "participants_to_see_stats": {
-        "name": "Jumlah partisipan untuk melihat statistik",
+        "name": "Jumlah anggota/pelanggan untuk melihat statistik",
         "hint": "",
-        "text": "setidaknya 500"
+        "text": "untuk grup: setidaknya 500; untuk channel: setidaknya 50"
       },
       "username_reservation": {
         "name": "Reservasi perubahan username",

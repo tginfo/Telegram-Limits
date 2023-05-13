@@ -128,9 +128,9 @@
         "text": "illimitato"
       },
       "participants_to_see_stats": {
-        "name": "Numero di partecipanti per vedere le statistiche",
+        "name": "Numero di membri/iscritti per vedere le statistiche",
         "hint": "",
-        "text": "almeno 500"
+        "text": "per i gruppi: almeno 500; per i canali: almeno 50"
       },
       "username_reservation": {
         "name": "Proprietà di un username",

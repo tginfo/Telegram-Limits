@@ -128,9 +128,9 @@
         "text": "bez limitu"
       },
       "participants_to_see_stats": {
-        "name": "Liczba subskrybentów, aby zobaczyć statystyki",
+        "name": "Liczba członków/subskrybentów, aby wyświetlić statystyki",
         "hint": "",
-        "text": "co najmniej 500"
+        "text": "dla grup: co najmniej 500; dla kanałów: co najmniej 50"
       },
       "username_reservation": {
         "name": "Rezerwacja @nazwy użytkownika po zmianie",

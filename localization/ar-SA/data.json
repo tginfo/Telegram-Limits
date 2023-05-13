@@ -128,9 +128,9 @@
         "text": "غير محدود"
       },
       "participants_to_see_stats": {
-        "name": "عدد الأعضاء المطلوبة لرؤية الإحصائيات",
+        "name": "Number of members/subscribers to see statistics",
         "hint": "",
-        "text": "الأدنى ٥٠٠ عضو"
+        "text": "for groups: at least 500; for channels: at least 50"
       },
       "username_reservation": {
         "name": "مهلة حجز اسم المستخدم",

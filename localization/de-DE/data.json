@@ -5,12 +5,12 @@
       "username": {
         "name": "Nutzername",
         "hint": "(z.B. @cameraman)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "5 bis 32 Zeichen, beginnend mit 4 Zeichen für NFT-Benutzernamen"
       },
       "bio": {
         "name": "Bio",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "bis zu 70 Zeichen; für Premium-Nutzer - bis zu 140 Zeichen"
       },
       "name_length": {
         "name": "Länge des Vornamens",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Anzahl der Kanäle und Supergruppen",
         "hint": "in denen du Mitglied sein kannst",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "bis zu 500 (einschließlich einer, die du besitzt); für Premium-Nutzer - bis zu 1000"
       },
       "geochats_number": {
         "name": "Anzahl der Geochats",
@@ -45,10 +45,10 @@
       "gifs_number": {
         "name": "Anzahl gespeicherter GIFs",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "bis 200; für Premium-Nutzer - bis 400"
       },
       "video_length": {
-        "name": "Länge des Videoprofilbild",
+        "name": "Länge des Profilvideos",
         "hint": "",
         "text": "bis zu 10 Sekunden"
       },
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Anzahl der Accounts",
         "hint": "(offizielle Clients)",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "bis zu 3; für Premium-Nutzer - bis zu 4-6 (abhängig von App)"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "name": "Anzahl sichtbarer Nachrichten",
+        "hint": "(geteiltes Limit zwischen privaten Chats, Bots und alten Gruppen)",
+        "text": "unbegrenzt; vor 2018 - bis zu 1.000.000 sichtbare Nachrichten"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Angepinnte Chats in der Hauptliste",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "bis zu 5 Chats oder Kanäle + 5 geheime Chats; für Premium-Nutzer - bis zu 10 Chats oder Kanäle"
       },
       "group_name": {
         "name": "Gruppenname und -beschreibung",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Medienbeschreibungen",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "bis zu 1024 Zeichen; für Premium-Nutzer - bis zu 2048 Zeichen"
       },
       "upload_size": {
         "name": "Maximale Dateigröße",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "bis zu 2 GB; für Premium-Nutzer - bis zu 4 GB"
       },
       "file_name_length": {
         "name": "Dateinamenlänge",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Anzahl geplanter Nachrichten",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "bis zu 100 Elemente (pro Chat)"
       },
       "delaying_messages": {
         "name": "Zeitplan-Bereich",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Anzahl der Ordner",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "bis zu 10 Ordner; für Premium-Benutzer - bis zu 20 Ordner"
       },
       "pinned_chats_in_folder": {
         "name": "Angeheftete Chats in einem Ordner",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "bis zu 100 Chats; für Premium-Nutzer - bis zu 200 Chats"
       }
     }
   },
@@ -364,7 +364,7 @@
       },
       "upload_limit_botapi": {
         "name": "Datei-Upload-Limit",
-        "hint": "ohne lokalem Bot API Server",
+        "hint": "ohne lokalen Bot API Server",
         "text": "bis zu 50 MB"
       },
       "upload_limit_botapi_local": {
@@ -374,7 +374,7 @@
       },
       "download_limit_botapi": {
         "name": "Datei-Download-Limit",
-        "hint": "ohne lokalem Bot API Server",
+        "hint": "ohne lokalen Bot API Server",
         "text": "bis zu 20 MB"
       },
       "download_limit_botapi_local": {
@@ -458,9 +458,9 @@
         "text": "mindestens 4 Zeichen"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Nutzernamen-Auflösungslimit",
+        "hint": "(für Bots und Nutzerkonten)",
+        "text": "täglich bis zu 200 Nutzernamen"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Anzahl favorisierter Sticker",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "bis zu 5; für Premium-Nutzer - bis zu 10"
       },
       "pack_size": {
         "name": "Anzahl der Sticker pro Pack",

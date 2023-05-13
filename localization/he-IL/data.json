@@ -5,12 +5,12 @@
       "username": {
         "name": "שם משתמש",
         "hint": "(דוגמה @cameraman)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "5 עד 32 תווים, החל מ-4 תווים עבור שמות משתמש NFT"
       },
       "bio": {
         "name": "תיאור המשתמש",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "עד 70 תווים;  למשתמשי פרימיום - עד 140 תווים"
       },
       "name_length": {
         "name": "אורך השם הפרטי",
@@ -30,12 +30,12 @@
       "spam_ban": {
         "name": "הגבלת ספאם",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "מיום אחד ועד לתמיד"
       },
       "channels_and_chats_number": {
         "name": "מספר הערוצים והסופר קבוצות",
         "hint": "אתה יכול להיות חבר ב",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "עד 500 (כולל כאלה שבבעלותך);  למשתמשי פרימיום - עד 1000"
       },
       "geochats_number": {
         "name": "Geochats number",
@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "מספר החשבונות",
         "hint": "(באפליקצייה הרשמית)",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Visible messages number",
@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "כתוביות על מדיה",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
       },
       "upload_size": {
         "name": "מגבלת הגודל של הקבצים",

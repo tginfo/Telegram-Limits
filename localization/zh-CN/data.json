@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "同时登录的账号数",
         "hint": "（官方客户端）",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "可见消息数量",
@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "媒体的描述",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
       },
       "upload_size": {
         "name": "单文件大小限制",

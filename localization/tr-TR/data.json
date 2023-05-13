@@ -5,12 +5,12 @@
       "username": {
         "name": "Kullanıcı Adı",
         "hint": "(örn. @cameraman)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "NFT kullanıcı adları için 4 karakterden başlayarak 5 ila 32 karakter"
       },
       "bio": {
         "name": "Biyografi",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "70 karaktere kadar; Premium kullanıcılar için - 140 karaktere kadar"
       },
       "name_length": {
         "name": "Ad uzunluğu",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Kanal ve grup sayısı",
         "hint": "üye olabileceğiniz",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "500'e kadar (sahip olduklarınız dahil); Premium kullanıcılar için - 1000'e kadar"
       },
       "geochats_number": {
         "name": "Konuma dayalı sohbet sayısı",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Kayıtlı GIF sayısı",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "200'e kadar; Premium kullanıcılar için - 400'e kadar"
       },
       "video_length": {
         "name": "Video profil süresi",
@@ -60,11 +60,11 @@
       "accounts_number": {
         "name": "Hesap sayısı",
         "hint": "(resmi istemciler)",
-        "text": "up to 3; for Premium users - up to 6"
+        "text": "3'e kadar; Premium kullanıcılar için - 4-6 kişiye kadar (uygulamaya bağlıdır)"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "(shared limit between private chats, bots and legacy groups)",
+        "name": "Görünen mesaj sayısı",
+        "hint": "(özel sohbetler, botlar ve eski gruplar arasında paylaşılan sınır)",
         "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
       }
     }
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Medya açıklaması",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2024 characters"
+        "text": "1024 karaktere kadar; Premium kullanıcılar için - 2048 karaktere kadar"
       },
       "upload_size": {
         "name": "Dosya boyut sınırı",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "2 GB'a kadar; Premium kullanıcılar için - 4 GB'a kadar"
       },
       "file_name_length": {
         "name": "Dosya adı uzunluğu",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Zamanlanmış mesaj sayısı",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "100 öğeye kadar (her sohbet için)"
       },
       "delaying_messages": {
         "name": "Zamanlama aralığı",
@@ -459,8 +459,8 @@
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "hint": "(hem botlar hem de kullanıcı hesapları için)",
+        "text": "günlük 200 adede kadar kullanıcı adı"
       }
     }
   },

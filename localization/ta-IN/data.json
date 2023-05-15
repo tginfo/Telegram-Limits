@@ -278,9 +278,9 @@
         "text": "2 ஜிபி வரை; மிகைப்புப் பயனர்களுக்கு - 4 ஜிபி வரை"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "கோப்புப் பெயர் நீளம்",
         "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
+        "text": "60 எழுத்துகள்வரை, மற்றவை நறுக்கப்படும்"
       },
       "video_message_duration": {
         "name": "காணொளித் தகவலின் கால வரையறை",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "நேரம் குறித்த தகவல்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "100 உருப்படிகள்வரை (ஒவ்வொரு அரட்டைக்கும்)"
       },
       "delaying_messages": {
         "name": "நேரம் குறித்தலின் வரம்பு",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "கோப்புறைகளின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "10 கோப்புறைகள்வரை; மிகைப்புப் பயனர்களுக்கு - 20 கோப்புறைகள்வரை"
       },
       "pinned_chats_in_folder": {
         "name": "கோப்புறையில் செருகப்பட்ட அரட்டைகள்",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "100 அரட்டைகள்வரை; மிகைப்புப் பயனர்களுக்கு - 200 அரட்டைகள்வரை"
       }
     }
   },
@@ -364,23 +364,23 @@
       },
       "upload_limit_botapi": {
         "name": "கோப்பு பதிவேற்றல் வரம்பு",
-        "hint": "without local Bot API server",
+        "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகம் இல்லாமல்",
         "text": "50 MB வரை"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "கோப்பின் பதிவேற்ற வரம்பு",
+        "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகமுடன்",
+        "text": "2000 MB வரை"
       },
       "download_limit_botapi": {
         "name": "கோப்பின் பதிவிறக்க வரம்பு",
-        "hint": "without local Bot API server",
+        "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகம் இல்லாமல்",
         "text": "20 MB வரை"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
-        "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "name": "கோப்பின் பதிவிறக்க வரம்பு",
+        "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகமுடன்",
+        "text": "2000 MB வரை"
       },
       "keys_in_keyboard_number": {
         "name": "விசைப்பலகை பொத்தான்களின் எண்ணிக்கை",
@@ -388,8 +388,8 @@
         "text": "100 உருப்படிகள் வரை"
       },
       "formatting_data": {
-        "name": "Message markup data",
-        "hint": "e.g. inline buttons",
+        "name": "தகவல் வகையாக்கத் தரவு",
+        "hint": "எ.க. உள்ளகப் பொத்தான்",
         "text": "10 கேபி வரை"
       },
       "formatting_entities": {
@@ -398,18 +398,18 @@
         "text": "100 உருப்படிகள் வரை"
       },
       "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
+        "name": "தகவல் ஒளிபரப்பு அடுக்குநிகழ்நிலை",
+        "hint": "செயலற்ற அரட்டைகளுக்கு அறிவிப்புகளை அனுப்பும்போது மட்டுமே பொருந்தும்",
+        "text": "அரட்டைகள் முழுவதும் வினாடிக்கு 30 தகவல்கள்வரை"
       },
       "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "in any chat",
-        "text": "up to roughly one message per second, except maybe short bursts"
+        "name": "தகவல் அனுப்பும் அடுக்குநிகழ்நிலை",
+        "hint": "எந்த அரட்டையிலும்",
+        "text": "ஒரு வினாடிக்குத் தோராயமாக ஒரு தகவல்வரை, மின்னல் போன்ற பரிமாற்றத்தைத் தவிர"
       },
       "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "in group chats",
+        "name": "தகவல் அனுப்பும் அடுக்குநிகழ்நிலை",
+        "hint": "குழு அரட்டைகளில்",
         "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
@@ -425,12 +425,12 @@
       "bot_command_description_length": {
         "name": "கட்டளை விளக்கத்தின் நீளம்",
         "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
+        "text": "கூளியின் செயலி நிரல் இடைமுகம்மூலம் அமைக்கும்போது 256 எழுத்துகள்வரை காலியாக இருக்க வேண்டும்"
       },
       "start_payload_size": {
         "name": "கூளி /துவக்க அனுப்பலின் நீளம்",
-        "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "hint": "ஆழமானத் தொடுப்பில் பயன்படுத்தப்படுகிறது",
+        "text": "64 பைட்டுகள் வரை"
       },
       "bot_alert_length": {
         "name": "கூளியின் எச்சரிக்கை தகவல் நீளம்",
@@ -440,7 +440,7 @@
       "inline_max_items": {
         "name": "உள்ளக தேடல் முடிவு எண்ணிக்கை",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "ஒரு பக்கத்திற்கு 50 உருப்படிகள்வரை"
       }
     }
   },
@@ -458,9 +458,9 @@
         "text": "குறைந்தபட்சம் 4 எழுத்துகள்"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "பயனர்பெயர் தீர்வு வரம்பு",
+        "hint": "(கூளிகள் மற்றும் பயனர் கணக்குகள் இரண்டிற்கும்)",
+        "text": "தினசரி 200 பயனர்பெயர்கள்வரை"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "பிடித்த ஒட்டுபடங்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "5 உருப்படிகள்வரை; மிகைப்புப் பயனர்களுக்கு - 10 உருப்படிகள்வரை"
       },
       "pack_size": {
         "name": "ஒரு பொதியிலுள்ள ஒட்டுபடங்களின் எண்ணிக்கை",
@@ -508,9 +508,9 @@
         "text": "64 எழுத்துகள் வரை"
       },
       "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
+        "name": "/addstickers தொகுப்பின் தொடுப்பு நீளம்",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "62 எழுத்துகள்வரை"
       }
     }
   },
@@ -538,9 +538,9 @@
         "text": "800x800px, 2 MB வரை"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+        "name": "புகைப்பட அளவு",
+        "hint": "சுருக்கி அனுப்பப்படும்போது",
+        "text": "ஒவ்வொரு பக்கமும் 1280px -க்குக் குறைவாகவோ அல்லது 1280px என இருக்க வேண்டும், இல்லையெனில் மிகப்பெரிய பக்கமானது 1280px எனக் குறைக்கப்படும்"
       }
     }
   }

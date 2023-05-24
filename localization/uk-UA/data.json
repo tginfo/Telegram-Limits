@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,9 +128,9 @@
         "text": "необмежено"
       },
       "participants_to_see_stats": {
-        "name": "Number of members/subscribers to see statistics",
+        "name": "Number of members to see statistics",
         "hint": "",
-        "text": "for groups: at least 500; for channels: at least 50"
+        "text": "at least 500"
       },
       "username_reservation": {
         "name": "Бронювання @username після зміни",

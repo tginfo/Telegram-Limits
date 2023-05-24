@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "காணக்கூடிய தகவல்களின் எண்ணிக்கை",
         "hint": "(தனிப்பட்ட அரட்டைகள், கூளிகள் மற்றும் தொன்மைக் குழுக்களுக்கு இடையே பகிரப்பட்ட வரம்பு)",
-        "text": "வரம்பற்றது; 2018 ஆண்டுக்கு முன் - 10,00,000 வரை தெரியும் தகவல்கள்"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,9 +128,9 @@
         "text": "வரம்பற்றது"
       },
       "participants_to_see_stats": {
-        "name": "புள்ளிவிவரங்களைக் காண உறுப்பினர்கள்/நேயர்களின் எண்ணிக்கை",
+        "name": "Number of members to see statistics",
         "hint": "",
-        "text": "குழுக்களுக்கு: குறைந்தபட்சம் 500; பதிதடங்களுக்கு: குறைந்தபட்சம் 50"
+        "text": "at least 500"
       },
       "username_reservation": {
         "name": "பயனர்பெயர் மாற்ற முன்பதிவு",

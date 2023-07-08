@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "Jumlah pesan terlihat",
         "hint": "(batas bersama antara obrolan pribadi, bot, dan grup lawas)",
-        "text": "tak terhingga; sebelum tahun 2018 - hingga 1.000.000 pesan terlihat"
+        "text": "tak terbatas; sebelum tahun 2018 - hingga 1.000.000 pesan terlihat: lihat https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,9 +128,9 @@
         "text": "tak terbatas"
       },
       "participants_to_see_stats": {
-        "name": "Jumlah anggota/pelanggan untuk melihat statistik",
+        "name": "Jumlah anggota untuk melihat statistik",
         "hint": "",
-        "text": "untuk grup: setidaknya 500; untuk channel: setidaknya 50"
+        "text": "setidaknya 500"
       },
       "username_reservation": {
         "name": "Reservasi perubahan username",

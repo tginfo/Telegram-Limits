@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "Liczba widocznych wiadomości",
         "hint": "(limit współdzielony pomiędzy prywatne czaty, boty i starsze grupy)",
-        "text": "nieograniczona; przed rokiem 2018 – do 1 000 000 widocznych wiadomości"
+        "text": "nieograniczona; przed 2018 r. – do 1 000 000 widocznych wiadomości: zobacz https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,9 +128,9 @@
         "text": "bez limitu"
       },
       "participants_to_see_stats": {
-        "name": "Liczba członków/subskrybentów, aby wyświetlić statystyki",
+        "name": "Liczba członków, aby wyświetlić statystyki",
         "hint": "",
-        "text": "dla grup: co najmniej 500; dla kanałów: co najmniej 50"
+        "text": "co najmniej 500"
       },
       "username_reservation": {
         "name": "Rezerwacja @nazwy użytkownika po zmianie",

@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "Ko'rinadigan xabarlar soni",
         "hint": "(shaxsiy chatlar, botlar va oddiy guruhlar orasidagi umumiy limit)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
+        "text": "cheksiz; 2018 yilgacha - 1 000 000 tagacha ko'rinadigan xabarlar: Batafsil: https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,9 +128,9 @@
         "text": "cheklanmagan"
       },
       "participants_to_see_stats": {
-        "name": "Number of members to see statistics",
+        "name": "Statistikani ko'rish uchun a'zolar soni",
         "hint": "",
-        "text": "at least 500"
+        "text": "kamida 500"
       },
       "username_reservation": {
         "name": "O'zgartirilgan foydalanuvchi nomini zahiralash muddati",

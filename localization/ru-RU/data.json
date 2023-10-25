@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Количество папок",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "до 10; для подписчиков Telegram Premium - до 30"
       },
       "pinned_chats_in_folder": {
         "name": "Закреплённые чаты в папке",

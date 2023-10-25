@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "கோப்புறைகளின் எண்ணிக்கை",
         "hint": "",
-        "text": "10 கோப்புறைகள்வரை; மிகைப்புப் பயனர்களுக்கு - 20 கோப்புறைகள்வரை"
+        "text": "up to 10 folders; for Premium users - up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "கோப்புறையில் செருகப்பட்ட அரட்டைகள்",

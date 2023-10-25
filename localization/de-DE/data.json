@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "Anzahl sichtbarer Nachrichten",
         "hint": "(geteiltes Limit zwischen privaten Chats, Bots und alten Gruppen)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
+        "text": "unbegrenzt; vor 2018 - bis zu 1 Mio. sichtbare Nachrichten: siehe x.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,9 +128,9 @@
         "text": "unbegrenzt"
       },
       "participants_to_see_stats": {
-        "name": "Number of members to see statistics",
+        "name": "Anzahl der Mitgliedern, die Statistiken sehen können",
         "hint": "",
-        "text": "at least 500"
+        "text": "mindestens 500"
       },
       "username_reservation": {
         "name": "Reservierung des Nutzernamens bei Änderung",
@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Anzahl der Ordner",
         "hint": "",
-        "text": "bis zu 10 Ordner; für Premium-Benutzer - bis zu 20 Ordner"
+        "text": "up to 10 folders; for Premium users - up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Angeheftete Chats in einem Ordner",

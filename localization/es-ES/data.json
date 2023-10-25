@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Cantidad de carpetas",
         "hint": "",
-        "text": "hasta 10 carpetas; para usuarios Premium - hasta 20 carpetas"
+        "text": "up to 10 folders; for Premium users - up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Chats fijados en una carpeta",
@@ -458,7 +458,7 @@
         "text": "al menos 4 caracteres"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
+        "name": "Límite de cambiar nombre de usuario",
         "hint": "(para bots y cuentas de usuario)",
         "text": "hasta 200 nombres de usuario diariamente"
       }

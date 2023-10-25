@@ -15,6 +15,7 @@
     scrollbar-width: thin;
     -webkit-tap-highlight-color: transparent;
     font-size: inherit;
+    word-break: break-word;
 }
 
 body {

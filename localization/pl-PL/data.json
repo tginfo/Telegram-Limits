@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Liczba folderów",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "do 10 folderów; dla użytkowników Premium – do 30 folderów"
       },
       "pinned_chats_in_folder": {
         "name": "Przypięte czaty w folderze",

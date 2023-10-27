@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Numero di cartelle",
         "hint": "",
-        "text": "fino a 10 cartelle; per utenti Premium - fino a 30 cartelle"
+        "text": "fino a 10 cartelle; per utenti Premium: fino a 30 cartelle"
       },
       "pinned_chats_in_folder": {
         "name": "Chat fissate in una cartella",

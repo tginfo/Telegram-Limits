@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "文件夹数量",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "最多 10 个文件夹；对高级用户最多 30 个文件夹"
       },
       "pinned_chats_in_folder": {
         "name": "单个文件夹中可置顶的聊天数",

@@ -5,12 +5,12 @@
       "username": {
         "name": "Псевдонім",
         "hint": "(наприклад @cameraman)",
-        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+        "text": "Від 5 до 32 символів, починаючи з 4 символів для імен користувачів NFT"
       },
       "bio": {
         "name": "Про себе",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "до 70 символів; для користувачів Premium - до 140 символів"
       },
       "name_length": {
         "name": "Довжина імені",
@@ -35,17 +35,17 @@
       "channels_and_chats_number": {
         "name": "Кількість каналів та супергруп",
         "hint": "в котрих можна бути членом",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "до 500 (включаючи власні); для Premium користувачів - до 1000"
       },
       "geochats_number": {
         "name": "Кількість геочатів",
         "hint": "в котрих можна бути членом",
-        "text": "до 5 (у тому числі ті, якими ви володієте)"
+        "text": "необмежений"
       },
       "gifs_number": {
         "name": "Кількість збережених GIF",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "до 200; для Premium користувачів - до 400"
       },
       "video_length": {
         "name": "Тривалість відеоаватару",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Кількість акаунтів",
         "hint": "(офіційні клієнти)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "до 3; для користувачів Premium - до 4-6 (залежить від програми)"
       },
       "visible_messages": {
-        "name": "Visible messages number",
-        "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
+        "name": "Номер видимого повідомлення",
+        "hint": "(спільний ліміт між приватними чатами, ботами та застарілими групами)",
+        "text": "необмежений; до 2018 року - до 1 000 000 видимих повідомлень: див. https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Закріплені чати в стрічці користувача",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "до 5 чатів або каналів + 5 секретних чатів; для користувачів Premium - до 10 чатів або каналів"
       },
       "group_name": {
         "name": "Назва та опис групи",
@@ -128,9 +128,9 @@
         "text": "необмежено"
       },
       "participants_to_see_stats": {
-        "name": "Number of members to see statistics",
+        "name": "Кількість учасників для перегляду статистики",
         "hint": "",
-        "text": "at least 500"
+        "text": "не менше 500"
       },
       "username_reservation": {
         "name": "Бронювання @username після зміни",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Опис у медіа",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "до 1024 символів; для користувачів Premium - до 2048 символів"
       },
       "upload_size": {
         "name": "Обмеження розміру файлу",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "до 2 Гб; для користувачів Premium - до 4 Гб"
       },
       "file_name_length": {
         "name": "Довжина імені файлу",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Кількість нагадувань",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "до 100 елементів (на кожен чат)"
       },
       "delaying_messages": {
         "name": "Діапазон нагадувань",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Кількість папок",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "до 10 папок; для користувачів Premium - до 30 папок"
       },
       "pinned_chats_in_folder": {
         "name": "Закріплені чати в папці",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "до 100 чатів; для Premium користувачів - до 200 чатів"
       }
     }
   },
@@ -458,9 +458,9 @@
         "text": "не менше 4 символів"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "name": "Обмеження дозволу імені користувача",
+        "hint": "(як для ботів, так і для облікових записів користувачів)",
+        "text": "до 200 імен користувачів щодня"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Кількість улюблених наліпок",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "до 5 предметів; для Premium користувачів - до 10 шт"
       },
       "pack_size": {
         "name": "Кількість наліпок в наборі",

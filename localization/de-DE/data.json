@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Anzahl der Ordner",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "bis zu 10 Ordner; für Premium-Benutzer - bis zu 30 Ordner"
       },
       "pinned_chats_in_folder": {
         "name": "Angeheftete Chats in einem Ordner",

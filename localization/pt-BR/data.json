@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Quantidade de pastas",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "até 10 pastas; para usuários Premium - até 30 pastas"
       },
       "pinned_chats_in_folder": {
         "name": "Chats fixados em uma pasta",

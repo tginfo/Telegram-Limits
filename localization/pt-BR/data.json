@@ -10,7 +10,7 @@
       "bio": {
         "name": "Bio",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "até 70 caracteres; para usuários Premium - até 140 caracteres"
       },
       "name_length": {
         "name": "Tamanho do nome",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "Número de canais e supergrupos",
         "hint": "em que você pode juntar-se",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": "até 500 (incluindo os que você possui); para usuários Premium - até 1000"
       },
       "geochats_number": {
         "name": "Numero de chat de localização",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "Número de GIFs salvos",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "até 200; para usuários Premium - até 400"
       },
       "video_length": {
         "name": "Duração do vídeo de perfil",
@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Número de contas",
         "hint": "(clientes oficiais)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "até 3; para usuários Premium - até 4-6 (depende do aplicativo)"
       },
       "visible_messages": {
         "name": "Número de mensagens visíveis",
         "hint": "(limite compartilhado entre conversas privadas, bots e grupos legados)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
+        "text": "ilimitado; antes de 2018 - até 1.000.000 de mensagens visíveis: veja https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -90,7 +90,7 @@
       "pinned_number": {
         "name": "Chats fixados na lista principal",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "até 5 chats ou canais + 5 chats secretos; para usuários Premium - até 10 chats ou canais"
       },
       "group_name": {
         "name": "Nome do grupo e descrição",
@@ -128,9 +128,9 @@
         "text": "ilimitado"
       },
       "participants_to_see_stats": {
-        "name": "Number of members to see statistics",
+        "name": "Número de membros para ver estatísticas",
         "hint": "",
-        "text": "at least 500"
+        "text": "pelo menos 500"
       },
       "username_reservation": {
         "name": "Reserva de mudança de nome de usuário",
@@ -270,12 +270,12 @@
       "media_descriptions": {
         "name": "Legendas de mídia",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "até 1024 caracteres; para usuários Premium - até 2048 caracteres"
       },
       "upload_size": {
         "name": "Limite de tamanho de arquivos",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "até 2 GB; para usuários Premium - até 4 GB"
       },
       "file_name_length": {
         "name": "Comprimento do nome do arquivo",
@@ -295,7 +295,7 @@
       "delayed_messages": {
         "name": "Número de mensagens agendadas",
         "hint": "",
-        "text": "up to 100 items (per each chat)"
+        "text": "até 100 itens (por cada chat)"
       },
       "delaying_messages": {
         "name": "Intervalo de agendamento",
@@ -315,7 +315,7 @@
       "pinned_chats_in_folder": {
         "name": "Chats fixados em uma pasta",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "até 100 chats; para usuários Premium - até 200 chats"
       }
     }
   },
@@ -389,7 +389,7 @@
       },
       "formatting_data": {
         "name": "Dados de marcação de mensagem",
-        "hint": "e.g. inline buttons",
+        "hint": "p.ex. botões inline",
         "text": "até 10 KB"
       },
       "formatting_entities": {
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Número de stickers favoritos",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "até 5 itens; para usuários Premium - até 10 itens"
       },
       "pack_size": {
         "name": "Número de stickers em um pacote",

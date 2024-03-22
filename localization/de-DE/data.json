@@ -160,7 +160,7 @@
       "read_receipts_availability": {
         "name": "Verfügbarkeit von Lesebestätigungen",
         "hint": "",
-        "text": "für Chats mit mindestens 100 Mitgliedern, die Liste der Nutzer ist nur für den Nutzer verfügbar, der die Nachricht gesendet hat"
+        "text": "für Chats mit bis zu 100 Mitgliedern. Die Liste der Nutzer ist nur für den Nutzer verfügbar, der die Nachricht gesendet hat"
       },
       "read_receipts_lifetime": {
         "name": "Anzeigedauer von Lesebestätigungen",
@@ -410,7 +410,7 @@
       "messaging_frequency_groups": {
         "name": "Nachrichten-Sendefrequenz",
         "hint": "in Gruppenchats",
-        "text": "bis zu 20 Nachrichten pro Sekunde in einem Chat"
+        "text": "bis zu 20 Nachrichten pro Minute in einem Chat"
       },
       "bot_commands_count": {
         "name": "Anzahl der Kommandos",

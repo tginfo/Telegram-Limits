@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Nombre de dossiers",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "jusqu'à 10 dossiers; pour les utilisateurs Premium, jusqu'à 30 dossiers"
       },
       "pinned_chats_in_folder": {
         "name": "Échanges épinglés dans un dossier",

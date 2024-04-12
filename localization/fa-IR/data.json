@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "تعداد کانال‌ها و ابرگروه‌ها",
         "hint": "که شما میتوانید عضو باشید",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": ""
       },
       "geochats_number": {
         "name": "تعداد گروه‌های محلی",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "تعداد گیف های ذخیره شده",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "最大 200 个；对高级用户最大 400 个"
       },
       "video_length": {
         "name": "مدت زمان ویدیو آواتار",

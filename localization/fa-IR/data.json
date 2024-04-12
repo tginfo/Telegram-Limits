@@ -1,26 +1,26 @@
 {
   "accounts": {
-    "name": "حساب‌ها",
+    "name": "Accounts",
     "items": {
       "username": {
         "name": "نام کاربری",
-        "hint": "(مثال: testuser@)",
-        "text": "5 تا 32 کاراکتر، برای نام کاربری های NFT شروع از 4 کاراکتر"
+        "hint": "(e.g. @cameraman)",
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
-        "name": "درباره من",
+        "name": "Bio",
         "hint": "",
-        "text": "تا 70 کاراکتر؛ برای کاربران پریمیوم تا 140 کاراکتر"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
-        "name": "طول اسم",
+        "name": "First Name length",
         "hint": "",
-        "text": "از 1 تا 64 کارکتر"
+        "text": "from 1 to 64 characters"
       },
       "last_name_length": {
-        "name": "طول فامیل",
+        "name": "Last Name length",
         "hint": "",
-        "text": "از 0 تا 64 کارکتر"
+        "text": "from 0 to 64 characters"
       },
       "self_destruction": {
         "name": "زمان نابودکننده",
@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "تعداد حساب ها",
         "hint": "(برنامه‌های رسمی)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": ""
       },
       "visible_messages": {
         "name": "Meysamkh1366",

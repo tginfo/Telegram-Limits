@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "تعداد پوشه‌ها",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "تا ۱۰ پوشه؛ تا ۳۰ پوشه - برای کاربران پریمیوم"
       },
       "pinned_chats_in_folder": {
         "name": "گفتگوهای سنجاق شده در هر پوشه",

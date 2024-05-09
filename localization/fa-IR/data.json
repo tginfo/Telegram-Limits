@@ -1,26 +1,26 @@
 {
   "accounts": {
-    "name": "حساب‌ها",
+    "name": "Accounts",
     "items": {
       "username": {
         "name": "نام کاربری",
-        "hint": "(مثال: testuser@)",
-        "text": "5 تا 32 کاراکتر، برای نام کاربری های NFT شروع از 4 کاراکتر"
+        "hint": "(e.g. @cameraman)",
+        "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
-        "name": "درباره من",
+        "name": "Bio",
         "hint": "",
-        "text": "تا 70 کاراکتر؛ برای کاربران پریمیوم تا 140 کاراکتر"
+        "text": "up to 70 characters; for Premium users - up to 140 characters"
       },
       "name_length": {
-        "name": "طول اسم",
+        "name": "First Name length",
         "hint": "",
-        "text": "از 1 تا 64 کارکتر"
+        "text": "from 1 to 64 characters"
       },
       "last_name_length": {
-        "name": "طول فامیل",
+        "name": "Last Name length",
         "hint": "",
-        "text": "از 0 تا 64 کارکتر"
+        "text": "from 0 to 64 characters"
       },
       "self_destruction": {
         "name": "زمان نابودکننده",
@@ -35,7 +35,7 @@
       "channels_and_chats_number": {
         "name": "تعداد کانال‌ها و ابرگروه‌ها",
         "hint": "که شما میتوانید عضو باشید",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
+        "text": ""
       },
       "geochats_number": {
         "name": "تعداد گروه‌های محلی",
@@ -45,7 +45,7 @@
       "gifs_number": {
         "name": "تعداد گیف های ذخیره شده",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "最大 200 个；对高级用户最大 400 个"
       },
       "video_length": {
         "name": "مدت زمان ویدیو آواتار",
@@ -60,7 +60,7 @@
       "accounts_number": {
         "name": "تعداد حساب ها",
         "hint": "(برنامه‌های رسمی)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": ""
       },
       "visible_messages": {
         "name": "Meysamkh1366",
@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "تعداد پوشه‌ها",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "تا ۱۰ پوشه؛ تا ۳۰ پوشه - برای کاربران پریمیوم"
       },
       "pinned_chats_in_folder": {
         "name": "گفتگوهای سنجاق شده در هر پوشه",

@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "Numero dei messaggi visibile",
         "hint": "(limite condiviso tra chat private, bot e gruppi legacy)",
-        "text": "illimitati; prima del 2018 - fino a 1.000.000 di messaggi visibili"
+        "text": "illimitato; prima dell'anno 2018 - fino a 1.000.000 di messaggi visibili: vedi https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,7 +128,7 @@
         "text": "illimitato"
       },
       "participants_to_see_stats": {
-        "name": "Numero di partecipanti per vedere le statistiche",
+        "name": "Numero di membri per vedere le statistiche",
         "hint": "",
         "text": "almeno 500"
       },

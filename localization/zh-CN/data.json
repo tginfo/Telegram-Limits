@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "可见消息数量",
         "hint": "（在私聊、机器人和传统群组间共享限制）",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,9 +128,9 @@
         "text": "不限"
       },
       "participants_to_see_stats": {
-        "name": "使“统计数据”可用的频道订阅者 / 群聊成员数",
+        "name": "Number of members to see statistics",
         "hint": "",
-        "text": "至少 500"
+        "text": "at least 500"
       },
       "username_reservation": {
         "name": "更改 username 后生效时长",

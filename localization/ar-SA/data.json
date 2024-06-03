@@ -65,7 +65,7 @@
       "visible_messages": {
         "name": "Visible messages number",
         "hint": "(shared limit between private chats, bots and legacy groups)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages"
+        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,9 +128,9 @@
         "text": "غير محدود"
       },
       "participants_to_see_stats": {
-        "name": "عدد الأعضاء المطلوبة لرؤية الإحصائيات",
+        "name": "Number of members to see statistics",
         "hint": "",
-        "text": "الأدنى ٥٠٠ عضو"
+        "text": "at least 500"
       },
       "username_reservation": {
         "name": "مهلة حجز اسم المستخدم",

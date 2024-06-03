@@ -60,12 +60,12 @@
       "accounts_number": {
         "name": "Número de cuentas",
         "hint": "(clientes oficiales)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "hasta 3; para usuarios Premium - hasta 4-6 (depende de la app)"
       },
       "visible_messages": {
         "name": "Número de mensajes visibles",
         "hint": "(límite compartido entre chats privados, bots y grupos antiguos)",
-        "text": "ilimitado; antes del año 2018 - hasta 1.000.000 mensajes visibles"
+        "text": "ilimitado; antes del año 2018 - hasta 1.000.000 mensajes visibles: vea https://twitter.com/telegram/status/1060910769410371584"
       }
     }
   },
@@ -128,7 +128,7 @@
         "text": "ilimitado"
       },
       "participants_to_see_stats": {
-        "name": "Número de participantes para ver las estadísticas",
+        "name": "Número de miembros para ver las estadísticas",
         "hint": "",
         "text": "al menos 500"
       },
@@ -270,7 +270,7 @@
       "media_descriptions": {
         "name": "Leyendas del medio",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "hasta 1024 caracteres; para usuarios Premium - hasta 2048 caracteres"
       },
       "upload_size": {
         "name": "Límite de tamaño del archivo",

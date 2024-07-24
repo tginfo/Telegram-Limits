@@ -74,7 +74,7 @@
     "items": {
       "participants_number": {
         "name": "Partoprenantoj",
-        "hint": "(limit can be raised)",
+        "hint": "(limo povas esti pliigita)",
         "text": "up to 200,000 but unlimited in Broadcast Groups"
       },
       "admins_number": {
@@ -88,7 +88,7 @@
         "text": "ĝis 20"
       },
       "pinned_number": {
-        "name": "Pinned chats in main list",
+        "name": "Fiksitaj babilejoj en la ĉeflisto",
         "hint": "",
         "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
       },
@@ -118,9 +118,9 @@
         "text": "up to 50, else notifications won't be sent"
       },
       "visible_messages": {
-        "name": "Visible messages number",
+        "name": "Nombro da videblaj mesaĝoj",
         "hint": "en grupo",
-        "text": "1,000,000 last messages"
+        "text": "lastaj 1,000,000 mesaĝoj"
       },
       "pinned_messages_number": {
         "name": "Pinned messages number",
@@ -130,12 +130,12 @@
       "participants_to_see_stats": {
         "name": "Number of members to see statistics",
         "hint": "",
-        "text": "at least 500"
+        "text": "almenaŭ 500"
       },
       "username_reservation": {
         "name": "Username change reservation",
         "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "text": "proksimume 15-30 minutoj"
       },
       "participants_for_group_stickers": {
         "name": "Group-promoted stickers",
@@ -143,7 +143,7 @@
         "text": "groups with 100+ participants"
       },
       "chat_role_length": {
-        "name": "Admin role length",
+        "name": "Longeco de la administranta rolo",
         "hint": "",
         "text": "ĝis 16 signoj"
       },
@@ -170,7 +170,7 @@
     }
   },
   "voice_chats": {
-    "name": "Voice & Video Chats",
+    "name": "Sono kaj Video babilejoj",
     "items": {
       "voice_chat_participants": {
         "name": "Audio Chat listeners",
@@ -215,20 +215,20 @@
       "channel_admins": {
         "name": "Channel admins number",
         "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "up to 50 accounts"
+        "text": "ĝis 50 kontoj"
       },
       "editing": {
-        "name": "Posts editing",
+        "name": "Mesaĝredaktado",
         "hint": "",
         "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
       },
       "subscribers": {
         "name": "Channel subscribers number",
         "hint": "",
-        "text": "unlimited"
+        "text": "senlima"
       },
       "visible_participants": {
-        "name": "Visible subscribers",
+        "name": "Videblaj abonantoj",
         "hint": "for channel admin",
         "text": "200 people"
       },
@@ -278,18 +278,18 @@
         "text": "up to 2 GB; for Premium users - up to 4 GB"
       },
       "file_name_length": {
-        "name": "File name length",
+        "name": "Longeco de la dosiernomo",
         "hint": "",
         "text": "up to 60 characters, others will be trimmed out"
       },
       "video_message_duration": {
-        "name": "Video message duration",
+        "name": "Daŭro de videomesaĝo",
         "hint": "",
-        "text": "up to 1 minute"
+        "text": "ĝis 1 minuto"
       },
       "album_size": {
         "name": "Images and videos in single message",
-        "hint": "(album)",
+        "hint": "(albumo)",
         "text": "up to 10 items"
       },
       "delayed_messages": {
@@ -300,15 +300,15 @@
       "delaying_messages": {
         "name": "Schedule range",
         "hint": "",
-        "text": "up to 365 days"
+        "text": "ĝis 365 tagoj"
       }
     }
   },
   "folders": {
-    "name": "Folders",
+    "name": "Dosierujoj",
     "items": {
       "folder_amount": {
-        "name": "Folders amount",
+        "name": "Kvanto da dosierujoj",
         "hint": "",
         "text": "up to 10 folders; for Premium users - up to 30 folders"
       },
@@ -320,17 +320,17 @@
     }
   },
   "people_nearby": {
-    "name": "People Nearby",
+    "name": "Apudaj personoj",
     "items": {
       "range": {
-        "name": "Visibility range",
+        "name": "Videbla rango",
         "hint": "",
-        "text": "about 12 kilometers"
+        "text": "proksimume 12 kilometroj"
       },
       "amount_of_people": {
         "name": "Visible users amount",
         "hint": "",
-        "text": "up to 100 people"
+        "text": "ĝis 100 personoj"
       },
       "geochats_number": {
         "name": "Visible geochats number",

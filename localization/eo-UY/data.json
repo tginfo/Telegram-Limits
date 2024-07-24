@@ -140,7 +140,7 @@
       "participants_for_group_stickers": {
         "name": "Group-promoted stickers",
         "hint": "",
-        "text": "groups with 100+ participants"
+        "text": "grupoj kun 100+ partoprenantoj"
       },
       "chat_role_length": {
         "name": "Longeco de la administranta rolo",
@@ -200,20 +200,20 @@
       "public_usernames": {
         "name": "Public usernames number",
         "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "text": "ĝis 10 (inkludante grupojn)"
       },
       "username_length": {
-        "name": "Length of @username",
+        "name": "Longeco de @uzantnomo",
         "hint": "",
-        "text": "5 to 32 characters"
+        "text": "5 ĝi 32 signoj"
       },
       "channel_name": {
-        "name": "Channel name and description",
+        "name": "Nomo kaj priskribo de la kanalo",
         "hint": "",
-        "text": "up to 255 characters"
+        "text": "ĝis 255 signoj"
       },
       "channel_admins": {
-        "name": "Channel admins number",
+        "name": "Kvanto da administrantoj en kanalo",
         "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
         "text": "ĝis 50 kontoj"
       },
@@ -229,18 +229,18 @@
       },
       "visible_participants": {
         "name": "Videblaj abonantoj",
-        "hint": "for channel admin",
-        "text": "200 people"
+        "hint": "por la administranto de la kanalo",
+        "text": "200 personoj"
       },
       "channel_deletion": {
-        "name": "Channel deletion",
+        "name": "Forigo de kanalo",
         "hint": "",
         "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
       },
       "private_channel_access": {
         "name": "Viewing private channels without joining",
         "hint": "(for channels with 200+ subscribers)",
-        "text": "up to 5 minutes once a day"
+        "text": "ĝis 5 minutoj tage"
       },
       "invintations": {
         "name": "Inviti uzantojn",
@@ -250,12 +250,12 @@
       "followers_to_see_stats": {
         "name": "Number of subscribers to see statistics",
         "hint": "",
-        "text": "at least 50"
+        "text": "almenaŭ 50"
       },
       "username_reservation": {
         "name": "Username change reservation",
         "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "about 15-30 minutes"
+        "text": "proksimume 15-30 minutoj"
       }
     }
   },
@@ -328,14 +328,14 @@
         "text": "proksimume 12 kilometroj"
       },
       "amount_of_people": {
-        "name": "Visible users amount",
+        "name": "Kvanto da videblaj uzantoj",
         "hint": "",
         "text": "ĝis 100 personoj"
       },
       "geochats_number": {
-        "name": "Visible geochats number",
+        "name": "Nombro da videblaj geobabilejoj",
         "hint": "",
-        "text": "up to 10 closest"
+        "text": "ĝis 10 plej proksimaj"
       }
     }
   },
@@ -344,58 +344,58 @@
     "items": {
       "bots_amount": {
         "name": "Nombro de robotoj",
-        "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "hint": "(kreita de @BotFather)",
+        "text": "ĝis 20 botoj"
       },
       "username length": {
-        "name": "Length of @username",
+        "name": "Longeco de @uzantnomo",
         "hint": "por robotoj",
         "text": "5 ĝi 32 signoj"
       },
       "info_length": {
-        "name": "Bot info length",
+        "name": "Longeco de la robota info",
         "hint": "(/setabouttext)",
-        "text": "up to 120 characters"
+        "text": "ĝis 120 signoj"
       },
       "description_length": {
-        "name": "Bot description length",
+        "name": "Longeco de la robota priskribo",
         "hint": "",
         "text": "ĝis 512 signoj"
       },
       "upload_limit_botapi": {
-        "name": "File upload limit",
+        "name": "Dosieralŝuta limo",
         "hint": "without local Bot API server",
-        "text": "up to 50 MB"
+        "text": "ĝis 50 MB"
       },
       "upload_limit_botapi_local": {
-        "name": "File upload limit",
+        "name": "Dosieralŝuta limo",
         "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "text": "ĝis 2000 MB"
       },
       "download_limit_botapi": {
-        "name": "File download limit",
+        "name": "Dosierelŝuta limo",
         "hint": "without local Bot API server",
-        "text": "up to 20 MB"
+        "text": "ĝis 20 MB"
       },
       "download_limit_botapi_local": {
-        "name": "File download limit",
+        "name": "Dosierelŝuta limo",
         "hint": "with local Bot API server",
-        "text": "up to 2000 MB"
+        "text": "ĝis 2000 MB"
       },
       "keys_in_keyboard_number": {
         "name": "Keyboard buttons number",
         "hint": "",
-        "text": "up to 100 entities"
+        "text": "ĝis 100 klavoj"
       },
       "formatting_data": {
         "name": "Message markup data",
-        "hint": "e.g. inline buttons",
-        "text": "up to 10 KB"
+        "hint": "ekz. enliniaj butonoj",
+        "text": "ĝis 10 KB"
       },
       "formatting_entities": {
         "name": "Formatting entities",
-        "hint": "(bold, cursive etc.)",
-        "text": "up to 100 items"
+        "hint": "(grasa, kursiva ktp.)",
+        "text": "ĝis 100 elementoj"
       },
       "messaging_frequency_broadcast": {
         "name": "Message broadcasting frequency",
@@ -404,48 +404,48 @@
       },
       "messaging_frequency": {
         "name": "Message sending frequency",
-        "hint": "in any chat",
+        "hint": "en iu ajn babilejo",
         "text": "up to roughly one message per second, except maybe short bursts"
       },
       "messaging_frequency_groups": {
         "name": "Message sending frequency",
-        "hint": "in group chats",
+        "hint": "en babilejoj de grupo",
         "text": "up to 20 messages per second in the same chat"
       },
       "bot_commands_count": {
         "name": "Commands amount",
-        "hint": "(in BotFather)",
-        "text": "0 to 100 commands"
+        "hint": "(en BotFather)",
+        "text": "0 ĝis 100 komandoj"
       },
       "bot_command_name_length": {
-        "name": "Command length",
-        "hint": "(in BotFather)",
-        "text": "from 1 to 32 characters"
+        "name": "Komandlongeco",
+        "hint": "(en BotFather)",
+        "text": "de 1 ĝis 32 signoj"
       },
       "bot_command_description_length": {
-        "name": "Command description length",
+        "name": "Longeco de la komandpriskribo",
         "hint": "",
         "text": "up to 256 characters, must be non-empty when set via Bot API"
       },
       "start_payload_size": {
         "name": "Bot /start payload length",
         "hint": "used in deep linking",
-        "text": "up to 64 bytes"
+        "text": "ĝis 64 bajtoj"
       },
       "bot_alert_length": {
         "name": "Bot alert message length",
         "hint": "",
-        "text": "up to 200 characters"
+        "text": "ĝis 200 signoj"
       },
       "inline_max_items": {
-        "name": "Inline results number",
+        "name": "Enlinia kvanto da rezultoj",
         "hint": "",
-        "text": "up to 50 items per page"
+        "text": "ĝis 50 rezultoj po paĝo"
       }
     }
   },
   "search": {
-    "name": "Search",
+    "name": "Serĉi",
     "items": {
       "global_search": {
         "name": "Global search results",
@@ -455,22 +455,22 @@
       "global_search_min_query": {
         "name": "Minimal query length",
         "hint": "for global search",
-        "text": "at least 4 characters"
+        "text": "almenaŭ 4 signoj"
       },
       "username_resolve_limit": {
         "name": "Username resolve limit",
         "hint": "(for both bots and user accounts)",
-        "text": "up to 200 usernames daily"
+        "text": "ĝis 200 uzantnomoj tage"
       }
     }
   },
   "stickers": {
-    "name": "Stickers",
+    "name": "Glumarkoj",
     "items": {
       "added_packs": {
         "name": "Added packs number",
         "hint": "",
-        "text": "up to 200 items"
+        "text": "ĝis 200 pakaĵoj"
       },
       "favorite_stickers": {
         "name": "Favorite stickers number",
@@ -483,34 +483,34 @@
         "text": "up to 120 for static, up to 50 for animated"
       },
       "sticker_size": {
-        "name": "Sticker size",
+        "name": "Pezo de glumarko",
         "hint": "",
         "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
       },
       "animation_duration": {
         "name": "Animation duration",
         "hint": "",
-        "text": "up to 3 seconds"
+        "text": "ĝis 3 sekundoj"
       },
       "file_size": {
-        "name": "Sticker file size",
+        "name": "Dosiera pezo de la glumarko",
         "hint": "",
         "text": "up to 512 KB for static, up to 64 KB for animated"
       },
       "fps": {
         "name": "FPS",
         "hint": "",
-        "text": "either 30 or 60"
+        "text": "30 aŭ 60"
       },
       "stickerpack_name_length": {
-        "name": "Pack name length",
+        "name": "Longeco de la pakaĵnomo",
         "hint": "",
-        "text": "up to 64 characters"
+        "text": "ĝis 64 signoj"
       },
       "stickerpack_url_length": {
         "name": "Pack /addstickers url length",
         "hint": "",
-        "text": "up to 62 characters"
+        "text": "ĝis 62 signoj"
       }
     }
   },
@@ -518,14 +518,14 @@
     "name": "Telegraph",
     "items": {
       "accounts_number": {
-        "name": "Accounts number",
-        "hint": "in @telegraph bot",
-        "text": "up to 5 items"
+        "name": "Nombro de kontoj",
+        "hint": "en la roboto @telegraph",
+        "text": "ĝis 5 kontoj"
       },
       "text_size": {
-        "name": "Article size",
+        "name": "Pezo de la artikolo",
         "hint": "",
-        "text": "up to 64 KiB"
+        "text": "ĝis 64 KiB"
       }
     }
   },
@@ -535,10 +535,10 @@
       "properties": {
         "name": "Video avatar properties",
         "hint": "",
-        "text": "800x800px, up to 2 MB"
+        "text": "800x800px, ĝis 2 MB"
       },
       "photo_resolution": {
-        "name": "Photo resolution",
+        "name": "Fotokvalito",
         "hint": "when sent with compression",
         "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
       }

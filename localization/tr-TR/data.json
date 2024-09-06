@@ -128,9 +128,9 @@
         "text": "sınırsız"
       },
       "participants_to_see_stats": {
-        "name": "Number of members to see statistics",
+        "name": "İstatistikleri görmek için üye sayısı",
         "hint": "",
-        "text": "at least 500"
+        "text": "En az 500"
       },
       "username_reservation": {
         "name": "Kullanıcı adı değişim rezervasyonu",
@@ -310,12 +310,12 @@
       "folder_amount": {
         "name": "Klasör miktarı",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "10 klasöre kadar; Premium kullanıcılar için - 30 klasöre kadar"
       },
       "pinned_chats_in_folder": {
         "name": "Bir klasördeki sabit sohbetler",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
+        "text": "100 sohbete kadar; Premium kullanıcılar için - 200 sohbete kadar"
       }
     }
   },
@@ -475,7 +475,7 @@
       "favorite_stickers": {
         "name": "Favori çıkartma sayısı",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "5 öğeye kadar; Premium kullanıcılar için - 10 öğeye kadar"
       },
       "pack_size": {
         "name": "Tek paketteki çıkartma sayısı",

@@ -7,6 +7,12 @@ if (!isset($_GET["hl"]) || $lang !== $_GET["hl"]) {
     header("Location: /$lang");
     exit();
 }
+
+if ($lang === "ru-RU") {
+    header("Location: https://tginfo.me/limity/");
+    exit();
+}
+
 $structure = json_decode(file_get_contents(__DIR__ . "/data/structure.json"), true);
 $data = json_decode(file_get_contents(__DIR__ . "/localization/$lang/data.json"), true);
 

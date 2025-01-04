@@ -10,8 +10,8 @@
       "bio": {
         "name": "Biografia",
         "hint": "",
-        "text": "up to 70 characters",
-        "text_premium": "up to 140 characters"
+        "text": "do 70 znaków",
+        "text_premium": "do 140 znaków"
       },
       "name_length": {
         "name": "Długość imienia",
@@ -26,25 +26,25 @@
       "self_destruction": {
         "name": "Okres samozniszczenia konta",
         "hint": "w przypadku braku aktywności",
-        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
+        "text": "1, 3, 6, 12, 18, 24 (domyślnie 12)"
       },
       "spam_ban": {
         "name": "Blokada za SPAM",
         "hint": "",
         "text": "od 1 dnia do na zawsze",
-        "text_premium": "from 1 second up to forever"
+        "text_premium": "od 1 sekundy do na zawsze"
       },
       "channels_and_chats_number": {
         "name": "Liczba kanałów i supergrup",
         "hint": ", do których możesz należeć",
-        "text": "up to 500 (including ones you own)",
-        "text_premium": "up to 1000 (including ones you own)"
+        "text": "do 500 (w tym stworzone przez ciebie)",
+        "text_premium": "do 1000 (w tym stworzone przez ciebie)"
       },
       "gifs_number": {
         "name": "Liczba zapisanych GIF-ów",
         "hint": "",
-        "text": "up to 200",
-        "text_premium": "up to 400"
+        "text": "do 200",
+        "text_premium": "do 400"
       },
       "video_length": {
         "name": "Czas trwania awatara wideo",
@@ -59,8 +59,8 @@
       "accounts_number": {
         "name": "Ilość kont",
         "hint": "(oficjalni klienci)",
-        "text": "up to 3",
-        "text_premium": "up to 4-6 (depends on app)"
+        "text": "do 3",
+        "text_premium": "do 4-6 (w zależności od aplikacji)"
       },
       "visible_messages": {
         "name": "Liczba widocznych wiadomości",

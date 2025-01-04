@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "账户自动销毁时限",
         "hint": "（长时间无登录活动）",
-        "text": "1、3、6 或 12 个月 (默认 6 个月)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "恶意灌水封禁时长",
         "hint": "",
-        "text": "1 天 ~ 永久"
+        "text": "1 天 ~ 永久",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "频道和超级群组数量",
         "hint": "你可以加入的",
-        "text": "最多 500 个 (包括您是所有者的)；对高级用户最多 1000 个"
-      },
-      "geochats_number": {
-        "name": "当地群组数量",
-        "hint": "你可以加入的",
-        "text": "最多 5 个（包括你创建的）"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "保存在 GIF 库的 GIF 数量",
         "hint": "",
-        "text": "最大 200 个；对高级用户最大 400 个"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "视频头像时长",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "同时登录的账号数",
         "hint": "（官方客户端）",
-        "text": "最多 3 个；对高级用户最多 4-6 个 (取决于应用程序)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "可见消息数量",

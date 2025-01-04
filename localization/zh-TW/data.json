@@ -10,7 +10,8 @@
       "bio": {
         "name": "自我介紹",
         "hint": "",
-        "text": "限 70 字元；付費會員可達 140 字元"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "名字長度",

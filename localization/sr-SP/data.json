@@ -10,7 +10,8 @@
       "bio": {
         "name": "Биографија",
         "hint": "",
-        "text": "до 70 знакова; за премијум кориснике – до 140 знакова"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Дужина имена",

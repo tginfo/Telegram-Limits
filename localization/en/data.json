@@ -37,7 +37,7 @@
       "channels_and_chats_number": {
         "name": "Channels and supergroups number",
         "hint": "you can be member of",
-        "text": "up to 500 (including ones you own),
+        "text": "up to 500 (including ones you own)",
         "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {

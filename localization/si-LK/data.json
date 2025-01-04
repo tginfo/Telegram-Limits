@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "ස්වයංක්‍රීයව මැකීමේ කාලසීමාව",
         "hint": "(අක්‍රියව සිටියොත්)",
-        "text": "මාස 1, 3, 6, සහ 12 (පෙරනිමි සැකසුම 6 ක්)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "ස්පෑම් වාරණය",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "from 1 day up to forever",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "නාලිකා හා සුපිරි සමූහ ගණන",
         "hint": "(ඔබට සාමාජිකයෙක් විය හැකි)",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
-      },
-      "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "සුරැකි GIF ගණන",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "පැතිකඩ වීඩියෝවක කාලසීමාව",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "ගිණුම් ගණන",
         "hint": "(නිල ටෙලිග්‍රෑම් යෙදුම්)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Visible messages number",

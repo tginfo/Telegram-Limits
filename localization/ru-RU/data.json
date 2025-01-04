@@ -10,7 +10,8 @@
       "bio": {
         "name": "Раздел \"О себе\" (Bio)",
         "hint": "",
-        "text": "70 символов; для подписчиков Telegram Premium - 140 символов"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Длина имени",

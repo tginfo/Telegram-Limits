@@ -10,7 +10,8 @@
       "bio": {
         "name": "Про себе",
         "hint": "",
-        "text": "до 70 символів; для користувачів Premium - до 140 символів"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Довжина імені",

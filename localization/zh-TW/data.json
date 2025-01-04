@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "自動刪除帳號時間",
         "hint": "如在設定時間沒有活動",
-        "text": "1、3、6 與 12 個月（預設為 6 個月）"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "違反防垃圾規則封鎖",
         "hint": "",
-        "text": "1 天～永久"
+        "text": "1 天～永久",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "頻道與超級群組人數",
         "hint": "頻道與群組數量",
-        "text": "最多 500 個（含自己建立的）；付費會員可達 1000 個"
-      },
-      "geochats_number": {
-        "name": "地區群組數量",
-        "hint": "你可以加入的數量",
-        "text": "5 個（含自己建立的）"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "保存 GIF 數量",
         "hint": "",
-        "text": "最多 200 個；付費會員可達 400 個"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "動態頭貼長度",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "登入帳號數量",
         "hint": "（官方客戶端）",
-        "text": "最多 3 個；付費會員可達 4-6 個（視應用程式決定）"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "可見訊息數量",

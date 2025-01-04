@@ -10,7 +10,8 @@
       "bio": {
         "name": "Lý lịch",
         "hint": "",
-        "text": "đến 70 ký tự; đối với người dùng Premium - đến 140 ký tự"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Chiều dài của Họ",

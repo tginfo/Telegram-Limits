@@ -26,25 +26,25 @@
       "self_destruction": {
         "name": "Autodistruzione dell'account",
         "hint": "se si è inattivi",
-        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
+        "text": "1, 3, 6, 12, 18, 24 (12 come predefinito)"
       },
       "spam_ban": {
         "name": "Limitazione per spam",
         "hint": "",
         "text": "da 1 giorno a sempre",
-        "text_premium": "from 1 second up to forever"
+        "text_premium": "da 1 secondo fino a per sempre"
       },
       "channels_and_chats_number": {
         "name": "Numero di supergruppi e canali",
         "hint": "di cui puoi far parte",
-        "text": "up to 500 (including ones you own)",
-        "text_premium": "up to 1000 (including ones you own)"
+        "text": "fino a 500 (inclusi quelli creati da te)",
+        "text_premium": "fino a 1000 (inclusi quelli creati da te)"
       },
       "gifs_number": {
         "name": "Numero di GIF salvabili",
         "hint": "",
-        "text": "up to 200",
-        "text_premium": "up to 400"
+        "text": "fino a 200",
+        "text_premium": "fino a 400"
       },
       "video_length": {
         "name": "Durata del video profilo",
@@ -59,8 +59,8 @@
       "accounts_number": {
         "name": "Numero di profili",
         "hint": "(nei client ufficiali)",
-        "text": "up to 3",
-        "text_premium": "up to 4-6 (depends on app)"
+        "text": "fino a 3",
+        "text_premium": "fino a 4-6 (dipende dall'app)"
       },
       "visible_messages": {
         "name": "Numero dei messaggi visibile",

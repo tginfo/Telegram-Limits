@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "Рок за самоуништење",
         "hint": "ако је неактиван",
-        "text": "1, 3, 6 и 12 месеци (6 подразумевано)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "Забрана приступа због злоупотребе",
         "hint": "",
-        "text": "од 1 дана до заувек"
+        "text": "од 1 дана до заувек",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "Број канала и супергрупа",
         "hint": "којих можете бити члан",
-        "text": "до 500 (укључујући оне које поседујете); за премијум кориснике – до 1000"
-      },
-      "geochats_number": {
-        "name": "Број група заснованих на локацији",
-        "hint": "којих можете бити члан",
-        "text": "неограничено"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "Број сачуваних GIF-ова",
         "hint": "",
-        "text": "до 200; за премијум кориснике – до 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "Трајање профилног видеа",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "Број налога",
         "hint": "(званични клијенти)",
-        "text": "до 3; за премијум кориснике 4-6 (у зависности од апликације)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Број видљивих порука",

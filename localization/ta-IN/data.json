@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "சுய-அழிவுக்காலம்",
         "hint": "செயல்பாடு இல்லை என்றால்",
-        "text": "1, 3, 6 மற்றும் 12 மாதங்கள் (இயல்பாக - 6)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "வீண் செயல் தடை",
         "hint": "",
-        "text": "1 நாள் முதல் எப்போதும் வரை"
+        "text": "1 நாள் முதல் எப்போதும் வரை",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "பதிவுத்தடங்கள் மற்றும் சிறப்புக்குழுக்களின் எண்ணிக்கை",
         "hint": "நீங்கள் உறுப்பினராக இருக்க முடிவது",
-        "text": "500 வரை (உங்களுக்குச் சொந்தமானவை உட்பட); மிகைப்புப் பயனர்களுக்கு - 1000 வரை"
-      },
-      "geochats_number": {
-        "name": "புவிசார் அரட்டை எண்ணிக்கை",
-        "hint": "நீங்கள் உறுப்பினராக இருக்க முடிவது",
-        "text": "up to 5 (including ones you own)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "அசைபட சேமிப்பு எண்ணிக்கை",
         "hint": "",
-        "text": "200 வரை; மிகைப்புப் பயனர்களுக்கு - 400 வரை"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "சுயக்குறிப்புக் காணொளி கால வரையறை",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "கணக்குகளின் எண்ணிக்கை",
         "hint": "(அதிகாரப்பூர்வ செயலிகள்)",
-        "text": "3 வரை; மிகைப்புப் பயனர்களுக்கு - 4-6 வரை (செயலியைப் பொறுத்தது)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "காணக்கூடிய தகவல்களின் எண்ணிக்கை",

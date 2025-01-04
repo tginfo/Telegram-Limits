@@ -10,7 +10,8 @@
       "bio": {
         "name": "個人簡介",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "使用者本名",

@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "Autodestruction du compte",
         "hint": "si aucune activité",
-        "text": "1, 3, 6 et 12 mois (6 par défaut)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "Bannissement pour spam",
         "hint": "",
-        "text": "de 1 jour jusqu'à définitivevement"
+        "text": "de 1 jour jusqu'à définitivevement",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "Nombre de canaux et supergroupes",
         "hint": "dont pouvez être membre",
-        "text": "jusqu'à 500 personnes (incluant ceux que vous possédez); pour les utilisateurs Premium, jusqu'à 1000"
-      },
-      "geochats_number": {
-        "name": "Nombre d'échanges locaux (géolocalisés)",
-        "hint": "dont vous pouvez être membre",
-        "text": "illimité"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "Nombre de GIFs enregistrables",
         "hint": "",
-        "text": "jusqu'à 200; pour les utilisateurs Premium, jusqu'à 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "Durée d'un avatar vidéo",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "Nombre de comptes",
         "hint": "(clients officiels)",
-        "text": "jusqu'à 3; pour les utilisateurs Premium, jusqu'à 4-6 (dépend de l'application)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Nombre de messages visibles",

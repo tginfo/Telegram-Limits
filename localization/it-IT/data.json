@@ -10,7 +10,8 @@
       "bio": {
         "name": "Biografia",
         "hint": "",
-        "text": "fino a 70 caratteri; per gli utenti Premium - fino a 140 caratteri"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Lunghezza del nome",

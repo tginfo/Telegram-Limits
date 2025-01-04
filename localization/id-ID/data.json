@@ -10,7 +10,8 @@
       "bio": {
         "name": "Bio",
         "hint": "",
-        "text": "hingga 70 karakter; untuk pengguna Premium - hingga 140 karakter"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Panjang Nama Depan",

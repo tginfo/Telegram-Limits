@@ -346,6 +346,21 @@ main .collection>.card>.item>.content>.data {
     display: block;
 }
 
+main .collection>.card>.item>.content>.data.premium {
+    color: #611c9a;
+}
+
+main .collection>.card>.item>.content>.data.premium::before {
+    content: '';
+    height: 1em;
+    width: 1em;
+    background: url(./assets/images/premium.webp);
+    background-size: 100%;
+    background-position: 50%;
+    margin-inline-end: .3em;
+    display: inline-block;
+}
+
 footer {
     background: #f1f1f1;
     padding: 1em;

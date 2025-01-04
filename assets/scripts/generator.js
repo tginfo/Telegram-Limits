@@ -67,6 +67,13 @@ function run() {
             data.className = "data";
             content.appendChild(data);
             data.innerText = i.text;
+
+            if (i.premium_text) {
+                var dataPremium = document.createElement("td");
+                dataPremium.className = "data premium";
+                content.appendChild(dataPremium);
+                dataPremium.innerText = i.premium_text;
+            }
         });
 
         if (count === 0) return;

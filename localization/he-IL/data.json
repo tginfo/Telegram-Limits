@@ -10,7 +10,8 @@
       "bio": {
         "name": "תיאור המשתמש",
         "hint": "",
-        "text": "עד 70 תווים;  למשתמשי פרימיום - עד 140 תווים"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "אורך השם הפרטי",

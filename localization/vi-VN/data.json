@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "Kỳ tự hủy",
         "hint": "nếu không hiện hoạt",
-        "text": "1, 3, 6 và 12 tháng (mặc định là 6)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "Chặn Spam",
         "hint": "",
-        "text": "từ 1 ngày và mãi mãi"
+        "text": "từ 1 ngày và mãi mãi",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "Số của kênh và siêu nhóm",
         "hint": "bạn có thể là thành viên của",
-        "text": "đến 500 (bao gồm cả những kênh mà bạn làm chủ); đối với Premium - đến 1000"
-      },
-      "geochats_number": {
-        "name": "Số Geochats",
-        "hint": "bạn có thể là thành viên của",
-        "text": "không hạn chế"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "Số GIFs được lưu",
         "hint": "",
-        "text": "đến 200; đối với người dùng Premium - đến 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "Thời lượng của Video-avatar",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "Số lượng tài khoản",
         "hint": "(official clients)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Số thông báo khả thị",

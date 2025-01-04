@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "Memdetrua periodo",
         "hint": "se ne estas aktiveco",
-        "text": "1, 3, 6 kaj 12 monatoj (6 defaŭlte)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "Blokado de trudmesaĝo",
         "hint": "",
-        "text": "de 1 tago ĝis ĉiam"
+        "text": "de 1 tago ĝis ĉiam",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "Numero de kanaloj kaj supergrupoj",
         "hint": "vi povas esti membro de",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
-      },
-      "geochats_number": {
-        "name": "Nombro de geomesaĝejoj",
-        "hint": "vi povas esti membro de",
-        "text": "ĝis 5 (inkludante viajn proprajn)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "Nombro de konservitaj GIF",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "Daŭro de avatara video",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "Nombro de kontoj",
         "hint": "(oficialaj klientoj)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Nombro da videblaj mesaĝoj",

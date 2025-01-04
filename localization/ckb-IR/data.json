@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "ماوەی سڕینەوەی خۆکارانە",
         "hint": "ئەگەر هیچ چالاکییەک نەبوو",
-        "text": "1، 3، 6 و 12 مانگ (بنەڕەت: 6)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "قەدەغەکردن لەبەر سپام",
         "hint": "",
-        "text": "لە یەک ڕۆژەوە بۆ هەتاهەتایە"
+        "text": "لە یەک ڕۆژەوە بۆ هەتاهەتایە",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "ژمارەی کەناڵ و گروپەکان",
         "hint": "کە دەتوانیت ببیت بە ئەندامیان",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
-      },
-      "geochats_number": {
-        "name": "ژمارەی وتووێژە جوگرافییەکان",
-        "hint": "کە دەتوانیت ببیت بە ئەندامیان",
-        "text": "تا 5 (بەوانەی خۆتەوە)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "ژمارەی گیفە پاشەکەوتکراوەکان",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "درێژیی وێنۆچکەی ڤیدیۆیی",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "ژمارەی هەژمارەکان",
         "hint": "(بەرنامە فەرمییەکان)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Visible messages number",

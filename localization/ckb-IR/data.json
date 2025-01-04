@@ -10,7 +10,8 @@
       "bio": {
         "name": "ژیاننامە",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "درێژیی ناوی یەکەم",

@@ -352,13 +352,14 @@ main .collection>.card>.item>.content>.data.premium {
 
 main .collection>.card>.item>.content>.data.premium::before {
     content: '';
-    height: 1em;
-    width: 1em;
+    height: .9em;
+    width: .9em;
     background: url(./assets/images/premium.webp);
     background-size: 100%;
     background-position: 50%;
     margin-inline-end: .3em;
     display: inline-block;
+    vertical-align: middle;
 }
 
 footer {

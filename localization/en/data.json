@@ -11,7 +11,7 @@
         "name": "Bio",
         "hint": "",
         "text": "up to 70 characters",
-        "textpremium": "up to 140 characters"
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "First Name length",

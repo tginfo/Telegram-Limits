@@ -10,7 +10,8 @@
       "bio": {
         "name": "个人简介",
         "hint": "",
-        "text": "最多 70 字符；对高级用户最多 140 字符"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "名字长度",

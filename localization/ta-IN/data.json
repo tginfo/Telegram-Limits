@@ -10,7 +10,8 @@
       "bio": {
         "name": "சுயக்குறிப்பு",
         "hint": "",
-        "text": "70 எழுத்துகள்வரை; மிகைப்புப் பயனர்களுக்கு - 140 எழுத்துகள்வரை"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "முதன்மைப்பெயரின் நீளம்",

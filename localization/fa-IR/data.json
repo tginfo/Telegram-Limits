@@ -26,27 +26,25 @@
       "self_destruction": {
         "name": "زمان نابودکننده",
         "hint": "اگر هیچ فعالیتی نداشته باشید",
-        "text": "6،3،1 و 12 ماه (6 ماه به صورت پیش‌فرض)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "ممنوعیت هرزنامه",
         "hint": "",
-        "text": "از یک روز تا برای همیشه"
+        "text": "از یک روز تا برای همیشه",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "تعداد کانال‌ها و ابرگروه‌ها",
         "hint": "که شما میتوانید عضو باشید",
-        "text": ""
-      },
-      "geochats_number": {
-        "name": "تعداد گروه‌های محلی",
-        "hint": "که شما میتوانید عضو باشید",
-        "text": "تا 5 گروه و کانال(شامل آنهایی که خودتان مالک هستید)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "تعداد گیف های ذخیره شده",
         "hint": "",
-        "text": "最大 200 个；对高级用户最大 400 个"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "مدت زمان ویدیو آواتار",
@@ -61,7 +59,8 @@
       "accounts_number": {
         "name": "تعداد حساب ها",
         "hint": "(برنامه‌های رسمی)",
-        "text": ""
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Meysamkh1366",

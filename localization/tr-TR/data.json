@@ -10,7 +10,8 @@
       "bio": {
         "name": "Biyografi",
         "hint": "",
-        "text": "70 karaktere kadar; Premium kullanıcılar için - 140 karaktere kadar"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Ad uzunluğu",

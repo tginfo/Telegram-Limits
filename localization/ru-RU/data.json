@@ -10,8 +10,8 @@
       "bio": {
         "name": "Раздел \"О себе\" (Bio)",
         "hint": "",
-        "text": "up to 70 characters",
-        "text_premium": "up to 140 characters"
+        "text": "до 70 символов",
+        "text_premium": "до 140 символов"
       },
       "name_length": {
         "name": "Длина имени",
@@ -26,25 +26,25 @@
       "self_destruction": {
         "name": "Срок самоуничтожения аккаунта",
         "hint": "при отсутствии активности",
-        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
+        "text": "1, 3, 6, 12, 18, 24 (по умолчанию 12)"
       },
       "spam_ban": {
         "name": "Спам-бан",
         "hint": "",
         "text": "от 1 дня до навсегда",
-        "text_premium": "from 1 second up to forever"
+        "text_premium": "от 1 секунды до навсегда"
       },
       "channels_and_chats_number": {
         "name": "Количество каналов и супергрупп",
         "hint": "в которых можно состоять",
-        "text": "up to 500 (including ones you own)",
-        "text_premium": "up to 1000 (including ones you own)"
+        "text": "максимум 500 (включая созданные вами)",
+        "text_premium": "максимум 1000 (включая созданные вами)"
       },
       "gifs_number": {
         "name": "Количество сохранённых GIF",
         "hint": "",
-        "text": "up to 200",
-        "text_premium": "up to 400"
+        "text": "до 200",
+        "text_premium": "до 400"
       },
       "video_length": {
         "name": "Длительность видеоаватара",
@@ -59,8 +59,8 @@
       "accounts_number": {
         "name": "Количество аккаунтов",
         "hint": "(официальные клиенты)",
-        "text": "up to 3",
-        "text_premium": "up to 4-6 (depends on app)"
+        "text": "до 3",
+        "text_premium": "до 4-6 (зависит от приложения)"
       },
       "visible_messages": {
         "name": "Количество видимых сообщений",
@@ -90,8 +90,8 @@
       "pinned_number": {
         "name": "Закреплённые чаты в ленте пользователя",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats",
-        "text_premium": "up to 10 chats or channels"
+        "text": "до 5 чатов или каналов + 5 секретных чатов",
+        "text_premium": "до 10 чатов или каналов"
       },
       "group_name": {
         "name": "Название и описание группы",
@@ -202,7 +202,7 @@
         "name": "Количество публичных юзернеймов",
         "hint": "на один аккаунт",
         "text": "до 10 (включая группы)",
-        "text_premium": "up to 20 (including groups)"
+        "text_premium": "до 20 (включая группы)"
       },
       "username_length": {
         "name": "Длина @username",
@@ -272,14 +272,14 @@
       "media_descriptions": {
         "name": "Описание к медиафайлам",
         "hint": "",
-        "text": "up to 1,024 characters",
-        "text_premium": "up to 2,048 characters"
+        "text": "до 1,024 символов",
+        "text_premium": "до 2,048 символов"
       },
       "upload_size": {
         "name": "Объём отправляемых файлов",
         "hint": "",
-        "text": "up to 2 GB",
-        "text_premium": "up to 4 GB"
+        "text": "до 2 GB",
+        "text_premium": "до 4 GB"
       },
       "file_name_length": {
         "name": "Длина имени файла",
@@ -307,15 +307,15 @@
         "text": "до 365 дней"
       },
       "custom_emoji_per_message": {
-        "name": "Custom emoji per message",
-        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-        "text": "not available",
-        "text_premium": "up to 100 emoji"
+        "name": "Пользовательских эмодзи на сообщение",
+        "hint": "без Telegram Premium, пользовательские эмодзи могут быть отправлены только в Избранное, более 100 пользовательских эмодзи заменяются соответствующими стандартными эмодзи",
+        "text": "недоступно",
+        "text_premium": "до 100 эмодзи"
       },
       "links_per_message": {
-        "name": "Links per message",
+        "name": "Ссылок на сообщение",
         "hint": "",
-        "text": "up to 100 links"
+        "text": "до 100 ссылок"
       }
     }
   },
@@ -323,45 +323,45 @@
     "name": "Папки",
     "items": {
       "name_length": {
-        "name": "Folder name length",
+        "name": "Длина имени папки",
         "hint": "",
-        "text": "up to 12 characters"
+        "text": "до 12 символов"
       },
       "folder_amount": {
         "name": "Количество папок",
         "hint": "",
-        "text": "up to 10 folders",
-        "text_premium": "up to 30 folders"
+        "text": "до 10 папок",
+        "text_premium": "до 30 папок"
       },
       "pinned_chats_in_folder": {
         "name": "Закреплённые чаты в папке",
         "hint": "",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
+        "text": "до 100 чатов",
+        "text_premium": "до 200 чатов"
       },
       "chats_per_folder": {
-        "name": "Chats per folder",
-        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
+        "name": "Чатов на папку",
+        "hint": "Не включает чаты, добавленные в папку по типу (например, каналы). Включает чаты, добавленные в раздел Исключения.",
+        "text": "до 100 чатов",
+        "text_premium": "до 200 чатов"
       }
     }
   },
   "public_folders": {
-    "name": "Public Folders",
-    "icon": "folder_shared",
+    "name": "Общие папки",
+    "icon": "папка_общая",
     "items": {
       "public_folders_count": {
-        "name": "Number of public folders",
+        "name": "Количество общих папок",
         "hint": "",
-        "text": "up to 2 folders",
-        "text_premium": "up to 20 folders"
+        "text": "до 2 папок",
+        "text_premium": "до 20 папок"
       },
       "chats_per_public_folder": {
-        "name": "Chats/channels per public folder",
+        "name": "Чатов/каналов на общую папку",
         "hint": "",
-        "text": "up to 100 items",
-        "text_premium": "up to 200 items"
+        "text": "до 100 элементов",
+        "text_premium": "до 200 элементов"
       }
     }
   },
@@ -372,7 +372,7 @@
         "name": "Количество ботов",
         "hint": "(созданных через @BotFather)",
         "text": "до 20 штук",
-        "text_premium": "up to 40 items"
+        "text_premium": "до 40 элементов"
       },
       "username length": {
         "name": "Длина @username",
@@ -472,60 +472,60 @@
     }
   },
   "stories": {
-    "name": "Stories",
+    "name": "Истории",
     "items": {
       "story_lifetime": {
-        "name": "Story lifetime",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "24 hours",
-        "text_premium": "6/12/24/48 hours"
+        "name": "Время исчезновения истории",
+        "hint": "Публикация историй без Telegram Premium доступна не во всех странах",
+        "text": "24 часа",
+        "text_premium": "6/12/24/48 часов"
       },
       "story_duration": {
-        "name": "Story duration",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 60 seconds"
+        "name": "Длительность истории",
+        "hint": "Публикация историй без Telegram Premium доступна не во всех странах",
+        "text": "до 60 секунд"
       },
       "story_viewers_visibility": {
-        "name": "Viewers visibility",
+        "name": "Видимость просмотревших",
         "hint": "",
-        "text": "24 hours",
-        "text_premium": "unlimited"
+        "text": "24 часа",
+        "text_premium": "неограничено"
       },
       "story_daily_limit": {
-        "name": "Daily stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 100 stories"
+        "name": "Ежедневный лимит историй",
+        "hint": "Публикация историй без Telegram Premium доступна не во всех странах",
+        "text": "до 3 историй",
+        "text_premium": "до 100 историй"
       },
       "story_weekly_limit": {
-        "name": "Weekly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 700 stories"
+        "name": "Еженедельный лимит историй",
+        "hint": "Публикация историй без Telegram Premium доступна не во всех странах",
+        "text": "до 3 историй",
+        "text_premium": "до 700 историй"
       },
       "story_monthly_limit": {
-        "name": "Monthly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 30 stories",
-        "text_premium": "up to 3,000 stories"
+        "name": "Ежемесячный лимит историй",
+        "hint": "Публикация историй без Telegram Premium доступна не во всех странах",
+        "text": "до 30 историй",
+        "text_premium": "до 3,000 историй"
       },
       "story_text_length": {
-        "name": "Text length in story",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 200 characters",
-        "text_premium": "up to 2,048 characters"
+        "name": "Длина текста в истории",
+        "hint": "Публикация историй без Telegram Premium доступна не во всех странах",
+        "text": "до 200 символов",
+        "text_premium": "до 2,048 символов"
       },
       "story_incognito_frequency": {
-        "name": "Incognito usage frequency",
+        "name": "Частота использования инкогнито",
         "hint": "",
-        "text": "not available",
-        "text_premium": "once per 3 hour"
+        "text": "недоступно",
+        "text_premium": "один раз в 3 часа"
       },
       "story_incognito_duration": {
-        "name": "Incognito duration",
-        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
-        "text": "not available",
-        "text_premium": "30 minutes"
+        "name": "Длительность инкогнито",
+        "hint": "Все просмотры за последние 5 минут до включения режима исчезают, и просмотры на 25 минут после включения не фиксируются.",
+        "text": "недоступно",
+        "text_premium": "30 минут"
       }
     }
   },
@@ -560,8 +560,8 @@
       "favorite_stickers": {
         "name": "Количество избранных стикеров",
         "hint": "",
-        "text": "up to 5 items",
-        "text_premium": "up to 10 items"
+        "text": "до 5 элементов",
+        "text_premium": "до 10 элементов"
       },
       "pack_size": {
         "name": "Количество стикеров в наборе",

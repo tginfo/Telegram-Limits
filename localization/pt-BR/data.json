@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Chats fixados na lista principal",
         "hint": "",
-        "text": "até 5 chats ou canais + 5 chats secretos; para usuários Premium - até 10 chats ou canais"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Nome do grupo e descrição",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Número de nomes públicos",
         "hint": "para uma única conta",
-        "text": "até 10 (incluindo os grupos)"
+        "text": "até 10 (incluindo os grupos)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Tamanho do @nome",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Legendas de mídia",
         "hint": "",
-        "text": "até 1024 caracteres; para usuários Premium - até 2048 caracteres"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Limite de tamanho de arquivos",
         "hint": "",
-        "text": "até 2 GB; para usuários Premium - até 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Comprimento do nome do arquivo",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Quantidade de pastas",
         "hint": "",
-        "text": "até 10 pastas; para usuários Premium - até 30 pastas"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Chats fixados em uma pasta",
         "hint": "",
-        "text": "até 100 chats; para usuários Premium - até 200 chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Pessoas Próximas",
-    "items": {
-      "range": {
-        "name": "Raio de alcance",
-        "hint": "",
-        "text": "cerca de 12 quilômetros"
-      },
-      "amount_of_people": {
-        "name": "Quantidade de usuários visíveis",
-        "hint": "",
-        "text": "até 100 pessoas"
-      },
-      "geochats_number": {
-        "name": "Número de grupos visíveis",
-        "hint": "",
-        "text": "até 10 mais próximos"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Número de bots",
         "hint": "(criados pelo @BotFather)",
-        "text": "até 20 itens"
+        "text": "até 20 itens",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Tamanho do @nome",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Número de stickers favoritos",
         "hint": "",
-        "text": "até 5 itens; para usuários Premium - até 10 itens"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Número de stickers em um pacote",

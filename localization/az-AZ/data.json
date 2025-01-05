@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Əsas siyahıda sancaqlanmış söhbətlər",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Qrup adı və açıqlaması",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "İctimai istifadəçi adı sayı",
         "hint": "bir hesab üçün",
-        "text": "10-a qədər (qruplar daxil olmaqla)"
+        "text": "10-a qədər (qruplar daxil olmaqla)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "@istifadəçiadı uzunluğu",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Media açıqlaması",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Fayl həcm limiti",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Fayl adı uzunluğu",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Qovluq miqdarı",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Qovluqda sancaqlanmış söhbətlər",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Yaxınlıqdakı insanlar",
-    "items": {
-      "range": {
-        "name": "Görünmə aralığı",
-        "hint": "",
-        "text": "təxminən 12 kilometr"
-      },
-      "amount_of_people": {
-        "name": "Görünən istifadəçi sayı",
-        "hint": "",
-        "text": "100 nəfərə qədər"
-      },
-      "geochats_number": {
-        "name": "Görünən coğrafi söhbət sayı",
-        "hint": "",
-        "text": "ən yaxın 10 söhbətə qədər"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Bot sayı",
         "hint": "(@BotFather tərəfindən yaradıldı)",
-        "text": "20 elementə qədər"
+        "text": "20 elementə qədər",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "@istifadəçiadı uzunluğu",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Sevimli stiker sayı",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Paketdəki stiker sayı",

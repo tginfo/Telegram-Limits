@@ -90,8 +90,8 @@
       "pinned_number": {
         "name": "Chat fissate nella lista principale",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats",
-        "text_premium": "up to 10 chats or channels"
+        "text": "fino a 5 chat o canali + 5 chat segrete",
+        "text_premium": "fino a 10 chat o canali"
       },
       "group_name": {
         "name": "Nome e descrizione di un gruppo",
@@ -202,7 +202,7 @@
         "name": "Numero di username pubblici",
         "hint": "per un singolo account",
         "text": "fino a 10 (gruppi inclusi)",
-        "text_premium": "up to 20 (including groups)"
+        "text_premium": "fino a 20 (gruppi inclusi)"
       },
       "username_length": {
         "name": "Lunghezza di un @username",
@@ -272,14 +272,14 @@
       "media_descriptions": {
         "name": "Didascalia dei media",
         "hint": "",
-        "text": "up to 1,024 characters",
-        "text_premium": "up to 2,048 characters"
+        "text": "fino a 1.024 caratteri",
+        "text_premium": "fino a 2.048 caratteri"
       },
       "upload_size": {
         "name": "Dimensioni di un file",
         "hint": "",
-        "text": "up to 2 GB",
-        "text_premium": "up to 4 GB"
+        "text": "fino a 2 GB",
+        "text_premium": "fino a 4 GB"
       },
       "file_name_length": {
         "name": "Lunghezza del nome del file",
@@ -307,15 +307,15 @@
         "text": "fino a 365 giorni"
       },
       "custom_emoji_per_message": {
-        "name": "Custom emoji per message",
-        "hint": "Without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-        "text": "not available",
-        "text_premium": "up to 10 emoji"
+        "name": "Emoji personalizzate per messaggio",
+        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+        "text": "non disponibile",
+        "text_premium": "up to 100 emoji"
       },
       "links_per_message": {
-        "name": "Links per message",
+        "name": "Link per messaggio",
         "hint": "",
-        "text": "up to 100 links"
+        "text": "fino a 100 link"
       }
     }
   },
@@ -323,45 +323,45 @@
     "name": "Cartelle",
     "items": {
       "name_length": {
-        "name": "Folder name length",
+        "name": "Lunghezza nome cartella",
         "hint": "",
-        "text": "up to 12 characters"
+        "text": "fino a 12 caratteri"
       },
       "folder_amount": {
         "name": "Numero di cartelle",
         "hint": "",
-        "text": "up to 10 folders",
-        "text_premium": "up to 30 folders"
+        "text": "fino a 10 cartelle",
+        "text_premium": "fino a 30 cartelle"
       },
       "pinned_chats_in_folder": {
         "name": "Chat fissate in una cartella",
         "hint": "",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
+        "text": "fino a 100 chat",
+        "text_premium": "fino a 200 chat"
       },
       "chats_per_folder": {
-        "name": "Chats per folder",
-        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
+        "name": "Chat per cartella",
+        "hint": "Non include le chat aggiunte alla cartella per tipo (es. canali). Include le chat aggiunte alla sezione Eccezioni.",
+        "text": "fino a 100 chat",
+        "text_premium": "fino a 200 chat"
       }
     }
   },
   "public_folders": {
-    "name": "Public Folders",
+    "name": "Cartelle Pubbliche",
     "icon": "folder_shared",
     "items": {
       "public_folders_count": {
-        "name": "Number of public folders",
+        "name": "Numero di cartelle pubbliche",
         "hint": "",
-        "text": "up to 2 folders",
-        "text_premium": "up to 20 folders"
+        "text": "fino a 2 cartelle",
+        "text_premium": "fino a 20 cartelle"
       },
       "chats_per_public_folder": {
-        "name": "Chats/channels per public folder",
+        "name": "Chat/canali per cartelle pubbliche",
         "hint": "",
-        "text": "up to 100 items",
-        "text_premium": "up to 200 items"
+        "text": "fino a 100 chat",
+        "text_premium": "fino a 200 chat"
       }
     }
   },
@@ -372,7 +372,7 @@
         "name": "Numero di bot",
         "hint": "(creabili per account su @BotFather)",
         "text": "fino a 20 bot",
-        "text_premium": "up to 40 items"
+        "text_premium": "fino a 40 bot"
       },
       "username length": {
         "name": "Lunghezza di un @username",
@@ -472,60 +472,60 @@
     }
   },
   "stories": {
-    "name": "Stories",
+    "name": "Storie",
     "items": {
       "story_lifetime": {
-        "name": "Story lifetime",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "24 hours",
-        "text_premium": "6/12/24/48 hours"
+        "name": "Disponibilità Storia",
+        "hint": "La pubblicazione delle storie senza Telegram Premium non è disponibile in tutti i paesi",
+        "text": "24 ore",
+        "text_premium": "6/12/24/48 ore"
       },
       "story_duration": {
-        "name": "Story duration",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 60 seconds"
+        "name": "Durata storia",
+        "hint": "La pubblicazione delle storie senza Telegram Premium non è disponibile in tutti i paesi",
+        "text": "fino a 60 secondi"
       },
       "story_viewers_visibility": {
-        "name": "Viewers visibility",
+        "name": "Visibilità spettatori",
         "hint": "",
-        "text": "24 hours",
-        "text_premium": "unlimited"
+        "text": "24 ore",
+        "text_premium": "illimitata"
       },
       "story_daily_limit": {
-        "name": "Daily stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 100 stories"
+        "name": "Limite storie giornaliere",
+        "hint": "La pubblicazione delle storie senza Telegram Premium non è disponibile in tutti i paesi",
+        "text": "fino a 3 storie",
+        "text_premium": "fino a 100 storie"
       },
       "story_weekly_limit": {
-        "name": "Weekly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 700 stories"
+        "name": "Limite storie settimanale",
+        "hint": "La pubblicazione delle storie senza Telegram Premium non è disponibile in tutti i paesi",
+        "text": "fino a 3 storie",
+        "text_premium": "fino a 700 storie"
       },
       "story_monthly_limit": {
-        "name": "Monthly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 30 stories",
-        "text_premium": "up to 3,000 stories"
+        "name": "Limite storie mensili",
+        "hint": "La pubblicazione delle storie senza Telegram Premium non è disponibile in tutti i paesi",
+        "text": "fino a 30 storie",
+        "text_premium": "fino a 3.000 storie"
       },
       "story_text_length": {
-        "name": "Text length in story",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 200 characters",
-        "text_premium": "up to 2,048 characters"
+        "name": "Lunghezza testo nella storia",
+        "hint": "La pubblicazione delle storie senza Telegram Premium non è disponibile in tutti i paesi",
+        "text": "fino a 200 caratteri",
+        "text_premium": "fino a 2.048 caratteri"
       },
       "story_incognito_frequency": {
-        "name": "Incognito usage frequency",
+        "name": "Frequenza uso modalità incognito",
         "hint": "",
-        "text": "not available",
-        "text_premium": "once per 3 hour"
+        "text": "non disponibile",
+        "text_premium": "una volta ogni 3 ore"
       },
       "story_incognito_duration": {
-        "name": "Incognito duration",
-        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
-        "text": "not available",
-        "text_premium": "30 minutes"
+        "name": "Durata modalità incognito",
+        "hint": "Tutte le visualizzazioni degli ultimi 5 minuti, prima che la modalità sia stata attivata, spariscono e le visualizzazioni, dopo che è stato attivata la modalità, non verranno registrate per 25 minuti.",
+        "text": "non disponibile",
+        "text_premium": "30 minuti"
       }
     }
   },
@@ -560,8 +560,8 @@
       "favorite_stickers": {
         "name": "Numero di sticker preferiti",
         "hint": "",
-        "text": "up to 5 items",
-        "text_premium": "up to 10 items"
+        "text": "fino a 5 sticker",
+        "text_premium": "fino a 10 sticker"
       },
       "pack_size": {
         "name": "Numero di sticker in un pacchetto",

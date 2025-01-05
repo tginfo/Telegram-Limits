@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Pinned chats in main list",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Tên gọi và mô tả của nhóm",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Public usernames number",
         "hint": "for a single account",
-        "text": "up to 10 (including groups)"
+        "text": "up to 10 (including groups)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Length of @username",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Media captions",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "File size limit",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "File name length",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Folders amount",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Pinned chats in a folder",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "People Nearby",
-    "items": {
-      "range": {
-        "name": "Visibility range",
-        "hint": "",
-        "text": "about 12 kilometers"
-      },
-      "amount_of_people": {
-        "name": "Visible users amount",
-        "hint": "",
-        "text": "up to 100 people"
-      },
-      "geochats_number": {
-        "name": "Visible geochats number",
-        "hint": "",
-        "text": "up to 10 closest"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Bots number",
         "hint": "(created by @BotFather)",
-        "text": "up to 20 items"
+        "text": "up to 20 items",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Length of @username",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Favorite stickers number",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Stickers in a pack number",

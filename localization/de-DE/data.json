@@ -10,7 +10,8 @@
       "bio": {
         "name": "Bio",
         "hint": "",
-        "text": "bis zu 70 Zeichen; für Premium-Nutzer - bis zu 140 Zeichen"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Länge des Vornamens",
@@ -25,27 +26,25 @@
       "self_destruction": {
         "name": "Selbstzerstörungszeit",
         "hint": "bei Inaktivität",
-        "text": "1, 3, 6 und 12 Monate (standardmäßig 6)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "Spam-Bann",
         "hint": "",
-        "text": "von 1 Tag bis für immer"
+        "text": "von 1 Tag bis für immer",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "Anzahl der Kanäle und Supergruppen",
         "hint": "in denen du Mitglied sein kannst",
-        "text": "bis zu 500 (einschließlich einer, die du besitzt); für Premium-Nutzer - bis zu 1000"
-      },
-      "geochats_number": {
-        "name": "Anzahl der Geochats",
-        "hint": "in denen du Mitglied sein kannst",
-        "text": "bis zu 5 (inklusive denen, die du besitzt)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "Anzahl gespeicherter GIFs",
         "hint": "",
-        "text": "bis 200; für Premium-Nutzer - bis 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "Länge des Profilvideos",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "Anzahl der Accounts",
         "hint": "(offizielle Clients)",
-        "text": "bis zu 3; für Premium-Nutzer - bis zu 4-6 (abhängig von App)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Anzahl sichtbarer Nachrichten",

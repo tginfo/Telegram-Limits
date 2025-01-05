@@ -10,7 +10,8 @@
       "bio": {
         "name": "النبذة",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "طول الاسم الأول",
@@ -25,27 +26,25 @@
       "self_destruction": {
         "name": "مدة التدمير الذاتي",
         "hint": "إذا لم يكن حسابك نشطًا",
-        "text": "1، 3، 6 و12 شهرًا (الإفتراضي 6 أشهر)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "حظر الإزعاج",
         "hint": "",
-        "text": "الحظر على الأقل يوم و قد يستمر إلى الأبد"
+        "text": "الحظر على الأقل يوم و قد يستمر إلى الأبد",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "عدد القنوات و المجموعات الكبرى",
         "hint": "أقصى حد للانضمام",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
-      },
-      "geochats_number": {
-        "name": "رَقْم دردشة جغرافية",
-        "hint": "يمكنك أن تكون عضوا في",
-        "text": "up to 5 (including ones you own)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "أقصى حفظ للصور المتحركة",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "مدة مقطع الملف الشخصي",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "عدد الحسابات",
         "hint": "(تيليجرام الرسمي)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Visible messages number",

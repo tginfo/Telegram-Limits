@@ -10,7 +10,8 @@
       "bio": {
         "name": "Biyografi",
         "hint": "",
-        "text": "70 karaktere kadar; Premium kullanıcılar için - 140 karaktere kadar"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Ad uzunluğu",
@@ -25,27 +26,25 @@
       "self_destruction": {
         "name": "Kendini imha aralığı",
         "hint": "(hareket yoksa)",
-        "text": "1, 3, 6 ve 12 ay (varsayılan 6)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "Spam engeli",
         "hint": "",
-        "text": "1 günden sonsuza kadar"
+        "text": "1 günden sonsuza kadar",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "Kanal ve grup sayısı",
         "hint": "üye olabileceğiniz",
-        "text": "500'e kadar (sahip olduklarınız dahil); Premium kullanıcılar için - 1000'e kadar"
-      },
-      "geochats_number": {
-        "name": "Konuma dayalı sohbet sayısı",
-        "hint": "üye olabileceğiniz grup sayısı",
-        "text": "5’e kadar (kendinizinkiler dahil)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "Kayıtlı GIF sayısı",
         "hint": "",
-        "text": "200'e kadar; Premium kullanıcılar için - 400'e kadar"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "Video profil süresi",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "Hesap sayısı",
         "hint": "(resmi istemciler)",
-        "text": "3'e kadar; Premium kullanıcılar için - 4-6 kişiye kadar (uygulamaya bağlıdır)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Görünen mesaj sayısı",

@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "گفتگوهای سنجاق شده در لیست اصلی",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "نام گروه و توضیحات",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "تعداد نام کاربری عمومی",
         "hint": "برای یک حساب واحد",
-        "text": "تا 10 مورد(شامل گروه ها)"
+        "text": "تا 10 مورد(شامل گروه ها)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "طولِ username@",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "زیرنویس رسانه",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "محدودیت حجم فایل",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "طول اسم",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "تعداد پوشه‌ها",
         "hint": "",
-        "text": "تا ۱۰ پوشه؛ تا ۳۰ پوشه - برای کاربران پریمیوم"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "گفتگوهای سنجاق شده در هر پوشه",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "افراد نزدیک",
-    "items": {
-      "range": {
-        "name": "محدوده پدیدار شدن",
-        "hint": "",
-        "text": "تقریباً 12 کيلومتر"
-      },
-      "amount_of_people": {
-        "name": "تعداد افراد قابل رؤیت",
-        "hint": "",
-        "text": "تا 100 نفر"
-      },
-      "geochats_number": {
-        "name": "تعداد گروه های قابل رؤیت منطقه جغرافیایی",
-        "hint": "",
-        "text": "تا 10 چت نزدیکتر"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "تعداد ربات‌ها",
         "hint": "(ساخته شده بوسیله BotFather@)",
-        "text": "تا 20 ربات"
+        "text": "تا 20 ربات",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "طولِ username@",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "تعداد استیکر های موردعلاقه",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "تعداد استیکر ها در هر بسته",

@@ -90,8 +90,8 @@
       "pinned_number": {
         "name": "Przypięte czaty na głównej liście",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats",
-        "text_premium": "up to 10 chats or channels"
+        "text": "do 5 czatów lub kanałów + 5 sekretnych czatów",
+        "text_premium": "do 10 czatów lub kanałów"
       },
       "group_name": {
         "name": "Nazwa i opis grupy",
@@ -201,8 +201,8 @@
       "public_usernames": {
         "name": "Liczba publicznych nazw użytkownika",
         "hint": "na pojedyncze konto",
-        "text": "do 10 (w tym grupy)",
-        "text_premium": "up to 20 (including groups)"
+        "text": "do 10 (łącznie z grupami)",
+        "text_premium": "do 20 (łącznie z grupami)"
       },
       "username_length": {
         "name": "Długość @nazwy użytkownika",
@@ -272,14 +272,14 @@
       "media_descriptions": {
         "name": "Opis plików multimedialnych",
         "hint": "",
-        "text": "up to 1,024 characters",
-        "text_premium": "up to 2,048 characters"
+        "text": "do 1024 znaków",
+        "text_premium": "do 2048 znaków"
       },
       "upload_size": {
         "name": "Rozmiar wysłanych plików",
         "hint": "",
-        "text": "up to 2 GB",
-        "text_premium": "up to 4 GB"
+        "text": "do 2 GB",
+        "text_premium": "do 4 GB"
       },
       "file_name_length": {
         "name": "Długość nazwy pliku",
@@ -308,9 +308,9 @@
       },
       "custom_emoji_per_message": {
         "name": "Custom emoji per message",
-        "hint": "Without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
         "text": "not available",
-        "text_premium": "up to 10 emoji"
+        "text_premium": "up to 100 emoji"
       },
       "links_per_message": {
         "name": "Links per message",
@@ -330,14 +330,14 @@
       "folder_amount": {
         "name": "Liczba folderów",
         "hint": "",
-        "text": "up to 10 folders",
-        "text_premium": "up to 30 folders"
+        "text": "do 10 folderów",
+        "text_premium": "do 30 folderów"
       },
       "pinned_chats_in_folder": {
         "name": "Przypięte czaty w folderze",
         "hint": "",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
+        "text": "do 100 czatów",
+        "text_premium": "do 200 czatów"
       },
       "chats_per_folder": {
         "name": "Chats per folder",
@@ -360,8 +360,8 @@
       "chats_per_public_folder": {
         "name": "Chats/channels per public folder",
         "hint": "",
-        "text": "up to 100 items",
-        "text_premium": "up to 200 items"
+        "text": "do 100 sztuk",
+        "text_premium": "do 200 sztuk"
       }
     }
   },
@@ -372,7 +372,7 @@
         "name": "Liczba botów",
         "hint": "(utworzonych przez @BotFather)",
         "text": "do 20 sztuk",
-        "text_premium": "up to 40 items"
+        "text_premium": "do 40 sztuk"
       },
       "username length": {
         "name": "Długość @nazwy użytkownika",
@@ -560,8 +560,8 @@
       "favorite_stickers": {
         "name": "Liczba ulubionych naklejek",
         "hint": "",
-        "text": "up to 5 items",
-        "text_premium": "up to 10 items"
+        "text": "do 5 sztuk",
+        "text_premium": "do 10 sztuk"
       },
       "pack_size": {
         "name": "Liczba naklejek w zestawie",

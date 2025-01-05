@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "主選單置頂對話清單",
         "hint": "",
-        "text": "最多 5 個聊天室或頻道 + 5 個秘密聊天室；付費會員可達 10 個聊天室或頻道"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "群組名稱及描述",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "可以開立的頻道數目",
         "hint": "（單一使用者）",
-        "text": "最多 10 個（包括群組）"
+        "text": "最多 10 個（包括群組）",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "使用者名稱長度",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "圖片與影片說明",
         "hint": "",
-        "text": "最多 1024 字元；付費會員可達 2048 字元"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "單一檔案大小限制",
         "hint": "",
-        "text": "最多 2 GB；付費會員可達 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "檔案名稱長度",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "資料夾數量",
         "hint": "",
-        "text": "最多 10 個；付費會員可達 30 個"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "資料夾中可以置頂的對話數量",
         "hint": "",
-        "text": "最多 100 個；付費會員可達 200 個"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "附近的人",
-    "items": {
-      "range": {
-        "name": "可見範圍",
-        "hint": "",
-        "text": "大約 12 公里"
-      },
-      "amount_of_people": {
-        "name": "可見使用者數量",
-        "hint": "",
-        "text": "最多 100 人"
-      },
-      "geochats_number": {
-        "name": "可見地區群組數量",
-        "hint": "",
-        "text": "最多 10 個"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "機器人數量",
         "hint": "(透過 @BotFather 創建)",
-        "text": "最多 20 個"
+        "text": "最多 20 個",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "（以單一使用者計算）",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "最愛貼圖",
         "hint": "",
-        "text": "最多 5 個；付費會員可達 10 個"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "貼圖包中的貼圖數量",

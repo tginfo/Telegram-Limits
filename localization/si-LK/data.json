@@ -308,9 +308,9 @@
       },
       "custom_emoji_per_message": {
         "name": "Custom emoji per message",
-        "hint": "Without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
         "text": "not available",
-        "text_premium": "up to 10 emoji"
+        "text_premium": "up to 100 emoji"
       },
       "links_per_message": {
         "name": "Links per message",

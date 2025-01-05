@@ -259,6 +259,14 @@
             {
                 "id": "delaying_messages",
                 "icon": "date_range"
+            },
+            {
+                "id": "custom_emoji_per_message",
+                "icon": "emoji_emotions"
+            },
+            {
+                "id": "links_per_message",
+                "icon": "link"
             }
         ]
     },
@@ -268,32 +276,35 @@
         "color": "156, 39, 176",
         "items": [
             {
+                "id": "name_length",
+                "icon": "text_rotation_none"
+            },
+            {
                 "id": "folder_amount",
                 "icon": "create_new_folder"
             },
             {
                 "id": "pinned_chats_in_folder",
-                "text": "до 100 штук",
                 "icon": "push_pin"
+            },
+            {
+                "id": "chats_per_folder",
+                "icon": "folder_shared"
             }
         ]
     },
     {
-        "id": "people_nearby",
-        "icon": "person_pin_circle",
-        "color": "175, 180, 43",
+        "id": "public_folders",
+        "icon": "folder_shared",
+        "color": "156, 39, 176",
         "items": [
             {
-                "id": "range",
-                "icon": "track_changes"
+                "id": "public_folders_count",
+                "icon": "folder_special"
             },
             {
-                "id": "amount_of_people",
+                "id": "chats_per_public_folder",
                 "icon": "groups"
-            },
-            {
-                "id": "geochats_number",
-                "icon": "forum"
             }
         ]
     },
@@ -373,6 +384,49 @@
             {
                 "id": "inline_max_items",
                 "icon": "receipt"
+            }
+        ]
+    },
+    {
+        "id": "stories",
+        "icon": "auto_stories",
+        "color": "76, 175, 80",
+        "items": [
+            {
+                "id": "story_lifetime",
+                "icon": "hourglass_empty"
+            },
+            {
+                "id": "story_duration",
+                "icon": "timer"
+            },
+            {
+                "id": "story_viewers_visibility",
+                "icon": "visibility"
+            },
+            {
+                "id": "story_daily_limit",
+                "icon": "today"
+            },
+            {
+                "id": "story_weekly_limit",
+                "icon": "date_range"
+            },
+            {
+                "id": "story_monthly_limit",
+                "icon": "calendar_month"
+            },
+            {
+                "id": "story_text_length",
+                "icon": "text_fields"
+            },
+            {
+                "id": "story_incognito_frequency",
+                "icon": "update"
+            },
+            {
+                "id": "story_incognito_duration",
+                "icon": "timer_off"
             }
         ]
     },

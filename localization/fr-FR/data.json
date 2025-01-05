@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Échanges épinglables dans la liste principale",
         "hint": "",
-        "text": "jusqu'à 5 échanges ou canaux + 5 échanges secrets; pour les utilisateurs Premium, jusqu'à 10 échanges ou canaux"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Nom et description d'un groupe",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Nombre de noms d'utilisateur publics",
         "hint": "pour un seul compte",
-        "text": "jusqu'à 10 (groupes inclus)"
+        "text": "jusqu'à 10 (groupes inclus)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Longueur du @username",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Légende des médias",
         "hint": "",
-        "text": "jusqu'à 1024 caractères; pour les utilisateurs Premium, jusqu'à 2048 caractères"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Taille maximale d'un fichier",
         "hint": "",
-        "text": "jusqu'à 2 Go; pour les utilisateurs Premium, jusqu'à 4 Go"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Longueur d'un nom de fichier",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Nombre de dossiers",
         "hint": "",
-        "text": "jusqu'à 10 dossiers; pour les utilisateurs Premium, jusqu'à 30 dossiers"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Échanges épinglés dans un dossier",
         "hint": "",
-        "text": "jusqu'à 100 échanges; pour les utilisateurs Premium, jusqu'à 200 échanges"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Personnes à proximité",
-    "items": {
-      "range": {
-        "name": "Portée de la visibilité",
-        "hint": "",
-        "text": "environ 12 kilomètres"
-      },
-      "amount_of_people": {
-        "name": "Nombre d'utilisateurs visibles",
-        "hint": "",
-        "text": "jusqu'à 100 personnes"
-      },
-      "geochats_number": {
-        "name": "Nombre de groupes locaux visibles (géolocalisation)",
-        "hint": "",
-        "text": "les 10 plus proches"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Nombre de bots",
         "hint": "(créé avec @BotFather)",
-        "text": "jusqu'à 20"
+        "text": "jusqu'à 20",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Longueur du @username",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Nombre d'autocollants favoris",
         "hint": "",
-        "text": "jusqu'à 5 éléments; pour les utilisateurs Premium, jusqu'à 10 éléments"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Nombre d'autocollants dans un pack",

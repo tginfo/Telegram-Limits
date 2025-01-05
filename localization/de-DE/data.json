@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Angepinnte Chats in der Hauptliste",
         "hint": "",
-        "text": "bis zu 5 Chats oder Kanäle + 5 geheime Chats; für Premium-Nutzer - bis zu 10 Chats oder Kanäle"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Gruppenname und -beschreibung",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Anzahl öffentlicher Nutzernamen",
         "hint": "für ein einzelnes Konto",
-        "text": "bis zu 10 (einschließlich Gruppen)"
+        "text": "bis zu 10 (einschließlich Gruppen)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Länge des @username",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Medienbeschreibungen",
         "hint": "",
-        "text": "bis zu 1024 Zeichen; für Premium-Nutzer - bis zu 2048 Zeichen"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Maximale Dateigröße",
         "hint": "",
-        "text": "bis zu 2 GB; für Premium-Nutzer - bis zu 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Dateinamenlänge",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Anzahl der Ordner",
         "hint": "",
-        "text": "bis zu 10 Ordner; für Premium-Benutzer - bis zu 30 Ordner"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Angeheftete Chats in einem Ordner",
         "hint": "",
-        "text": "bis zu 100 Chats; für Premium-Nutzer - bis zu 200 Chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Leute in der Nähe",
-    "items": {
-      "range": {
-        "name": "Sichtbarer Bereich",
-        "hint": "",
-        "text": "etwa 12 Kilometer"
-      },
-      "amount_of_people": {
-        "name": "Anzahl sichtbarer Nutzer",
-        "hint": "",
-        "text": "bis zu 100 Leute"
-      },
-      "geochats_number": {
-        "name": "Anzahl sichtbarer Geochats",
-        "hint": "",
-        "text": "bis zu 10 nächste"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Anzahl der Bots",
         "hint": "(erstellt über @BotFather)",
-        "text": "bis zu 20"
+        "text": "bis zu 20",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Länge des @username",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Anzahl favorisierter Sticker",
         "hint": "",
-        "text": "bis zu 5; für Premium-Nutzer - bis zu 10"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Anzahl der Sticker pro Pack",

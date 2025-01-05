@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "ප්‍රධාන ලැයිස්තුව තුළ ඇමුණූ සංවාද",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "සමූහයේ නම හා විස්තරය",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "පොදු පරිශීලක නාමයන් ගණන",
         "hint": "එක් ගිණුමක් සඳහා",
-        "text": "10 ක් දක්වා (සමූහද ඇතුළුව)"
+        "text": "10 ක් දක්වා (සමූහද ඇතුළුව)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "@username හි දිග",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "ඡායාරූප සටහන",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "ගොනුවක උපරිම විශාලත්වය",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "File name length",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "ෆෝල්ඩර ගණන",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "ෆෝල්ඩරයක් තුළ ඇමුණූ සංවාද",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "යාබද පුද්ගලයින්",
-    "items": {
-      "range": {
-        "name": "පෙන්වන පරාසය",
-        "hint": "",
-        "text": "කිලෝමීටර 12 ක් පමණ"
-      },
-      "amount_of_people": {
-        "name": "පෙන්වන පුද්ගලයින් ගණන",
-        "hint": "",
-        "text": "පුද්ගලයින් 100 ක් දක්වා"
-      },
-      "geochats_number": {
-        "name": "පෙන්වන ස්ථානීය සමූහ ගණන",
-        "hint": "",
-        "text": "ආසන්නම 10 ක් දක්වා"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "රොබෝවන් ගණන",
         "hint": "(@BotFather විසින් සෑදූ)",
-        "text": "20 ක් දක්වා"
+        "text": "20 ක් දක්වා",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "@username හි දිග",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "ප්‍රියතම ස්ටිකර් ගණන",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "කට්ටලයක් තුළ ස්ටිකර් ගණන",

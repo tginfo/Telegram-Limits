@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Obrolan tersemat di daftar utama",
         "hint": "",
-        "text": "hingga 5 obrolan atau channel + 5 secret chat; untuk pengguna Premium - hingga 10 obrolan atau channel"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Nama dan deskripsi grup",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Jumlah username publik",
         "hint": "untuk satu akun",
-        "text": "hingga 10 (termasuk grup)"
+        "text": "hingga 10 (termasuk grup)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Panjang @username",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Keterangan Media",
         "hint": "",
-        "text": "hingga 1024 karakter; untuk pengguna Premium - hingga 2048 karakter"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Batas ukuran berkas",
         "hint": "",
-        "text": "hingga 2 GB; untuk pengguna Premium - hingga 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Panjang nama berkas",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Banyak folder",
         "hint": "",
-        "text": "hingga 10 folder; untuk pengguna Premium - hingga 30 folder"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Pesan tersemat pada folder",
         "hint": "",
-        "text": "hingga 100 obrolan; untuk pengguna Premium - hingga 200 obrolan"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Pengguna sekitar",
-    "items": {
-      "range": {
-        "name": "Jarak terlihat",
-        "hint": "",
-        "text": "sekitar 12 kilometer"
-      },
-      "amount_of_people": {
-        "name": "Jumlah pengguna terlihat",
-        "hint": "",
-        "text": "hingga 100 orang"
-      },
-      "geochats_number": {
-        "name": "Jumlah obrolan berbasis lokasi yang terlihat",
-        "hint": "",
-        "text": "hingga 10 terdekat"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Jumlah bot",
         "hint": "(dibuat oleh @BotFather)",
-        "text": "hingga 20 item"
+        "text": "hingga 20 item",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Panjang @username",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Jumlah stiker favorit",
         "hint": "",
-        "text": "hingga 5 item; untuk pengguna Premium - hingga 10 item"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Jumlah stiker dalam satu paket",

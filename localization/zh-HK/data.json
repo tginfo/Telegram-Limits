@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "可以在首頁置頂的對話數量",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "群組名稱及簡介",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "可以開立的頻道數目",
         "hint": "（以單一使用者帳戶計算）",
-        "text": "最多 10 個（包括群組對話）"
+        "text": "最多 10 個（包括群組對話）",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "頻道的「@使用者名稱」長度",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "附件描述",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "檔案大小",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "File name length",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "資料夾數量",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "可以置頂的對話數量",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "附近嘅人",
-    "items": {
-      "range": {
-        "name": "掃瞄範圍",
-        "hint": "",
-        "text": "大約 12 公里（以旺角朗豪坊為中心，距離大約由中文大學去到榕樹灣碼頭）"
-      },
-      "amount_of_people": {
-        "name": "可以見到嘅使用者數目",
-        "hint": "",
-        "text": "最多 100 個"
-      },
-      "geochats_number": {
-        "name": "可以見到嘅鄰里群組",
-        "hint": "",
-        "text": "最近嗰 10 個"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "可以建立嘅 Bot 數目",
         "hint": "（以單一使用者帳戶計算）",
-        "text": "最多 20 隻"
+        "text": "最多 20 隻",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Bot 的「@使用者名稱」長度",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "我的最愛貼圖包",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "每個貼圖包嘅貼圖數目",

@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "מספר הצ'אטים הנעוצים ברשימה הראשית (לא תיקיות שיצרת)",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "שם ותיאור של קבוצה",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "מספר שמות המשתמשים",
         "hint": "לחשבון אחד",
-        "text": "עד 10 (כולל קבוצות)"
+        "text": "עד 10 (כולל קבוצות)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "אורך של השם משתמש (@username)",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "כתוביות על מדיה",
         "hint": "",
-        "text": "up to 1024 characters; for Premium users - up to 2048 characters"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "מגבלת הגודל של הקבצים",
         "hint": "",
-        "text": "up to 2 GB; for Premium users - up to 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "File name length",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "כמות התיקיות",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "צ'אטים מוצמדים בתיקייה",
         "hint": "",
-        "text": "up to 100 chats; for Premium users - up to 200 chats"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "האנשים הקרובים",
-    "items": {
-      "range": {
-        "name": "טווח בשביל נראות למשתמשים אחרים",
-        "hint": "",
-        "text": "עד 12 קילומטרים"
-      },
-      "amount_of_people": {
-        "name": "כמות האנשים שאפשר לראות",
-        "hint": "",
-        "text": "עד 100 אנשים"
-      },
-      "geochats_number": {
-        "name": "מספר הצ'אטים בקרבת מקום הניתנים להצגה",
-        "hint": "",
-        "text": "עד ל 10 הקרובים ביותר"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "מספר הבוטים",
         "hint": "(שאפשר ליצור דרך @BotFather)",
-        "text": "עד 20 בוטים"
+        "text": "עד 20 בוטים",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "אורך של השם משתמש (@username)",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "מספר הסטיקרים המועדפים",
         "hint": "",
-        "text": "up to 5 items; for Premium users - up to 10 items"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "סטיקרים בחבילה",

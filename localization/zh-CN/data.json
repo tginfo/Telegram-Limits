@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "客户端主页面的置顶群聊数",
         "hint": "",
-        "text": "最多 5 个对话或频道 + 5 个加密对话；对高级用户最多 10 个对话或频道"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "群组名称和简介",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "可拥有的公开频道 / 群组个数",
         "hint": "单个用户",
-        "text": "最多 10 个（包括群组）"
+        "text": "最多 10 个（包括群组）",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "用户名长度",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "媒体的描述",
         "hint": "",
-        "text": "最多 1024 字符；对高级用户最多 2048 字符"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "单文件大小限制",
         "hint": "",
-        "text": "最大 2 GB；对高级用户最大 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "文件名长度限制",
@@ -301,41 +305,63 @@
         "name": "可计划的日程范围",
         "hint": "",
         "text": "最长 365 天"
+      },
+      "custom_emoji_per_message": {
+        "name": "Custom emoji per message",
+        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+        "text": "not available",
+        "text_premium": "up to 100 emoji"
+      },
+      "links_per_message": {
+        "name": "Links per message",
+        "hint": "",
+        "text": "up to 100 links"
       }
     }
   },
   "folders": {
     "name": "聊天文件夹相关",
     "items": {
+      "name_length": {
+        "name": "Folder name length",
+        "hint": "",
+        "text": "up to 12 characters"
+      },
       "folder_amount": {
         "name": "文件夹数量",
         "hint": "",
-        "text": "最多 10 个文件夹；对高级用户最多 30 个文件夹"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "单个文件夹中可置顶的聊天数",
         "hint": "",
-        "text": "最多 100 个对话；对高级用户最多 200 个对话"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
+      },
+      "chats_per_folder": {
+        "name": "Chats per folder",
+        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
-  "people_nearby": {
-    "name": "附近的人",
+  "public_folders": {
+    "name": "Public Folders",
+    "icon": "folder_shared",
     "items": {
-      "range": {
-        "name": "可见范围",
+      "public_folders_count": {
+        "name": "Number of public folders",
         "hint": "",
-        "text": "约 12 公里以内"
+        "text": "up to 2 folders",
+        "text_premium": "up to 20 folders"
       },
-      "amount_of_people": {
-        "name": "可见用户数量",
+      "chats_per_public_folder": {
+        "name": "Chats/channels per public folder",
         "hint": "",
-        "text": "最多 100 人"
-      },
-      "geochats_number": {
-        "name": "可见的当地群组数量",
-        "hint": "",
-        "text": "最多 10 个附近的群组"
+        "text": "up to 100 items",
+        "text_premium": "up to 200 items"
       }
     }
   },
@@ -345,7 +371,8 @@
       "bots_amount": {
         "name": "单账户可拥有的机器人数量",
         "hint": "（由 @BotFather 创建的）",
-        "text": "最多 20 个"
+        "text": "最多 20 个",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "用户名长度",
@@ -444,6 +471,64 @@
       }
     }
   },
+  "stories": {
+    "name": "Stories",
+    "items": {
+      "story_lifetime": {
+        "name": "Story lifetime",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "24 hours",
+        "text_premium": "6/12/24/48 hours"
+      },
+      "story_duration": {
+        "name": "Story duration",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 60 seconds"
+      },
+      "story_viewers_visibility": {
+        "name": "Viewers visibility",
+        "hint": "",
+        "text": "24 hours",
+        "text_premium": "unlimited"
+      },
+      "story_daily_limit": {
+        "name": "Daily stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 100 stories"
+      },
+      "story_weekly_limit": {
+        "name": "Weekly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 700 stories"
+      },
+      "story_monthly_limit": {
+        "name": "Monthly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 30 stories",
+        "text_premium": "up to 3,000 stories"
+      },
+      "story_text_length": {
+        "name": "Text length in story",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 200 characters",
+        "text_premium": "up to 2,048 characters"
+      },
+      "story_incognito_frequency": {
+        "name": "Incognito usage frequency",
+        "hint": "",
+        "text": "not available",
+        "text_premium": "once per 3 hour"
+      },
+      "story_incognito_duration": {
+        "name": "Incognito duration",
+        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
+        "text": "not available",
+        "text_premium": "30 minutes"
+      }
+    }
+  },
   "search": {
     "name": "搜索相关",
     "items": {
@@ -475,7 +560,8 @@
       "favorite_stickers": {
         "name": "收藏贴纸数",
         "hint": "",
-        "text": "最多 5 项；对高级用户最多 10 项"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "单个贴纸包中的贴纸数",

@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "主選單置頂對話清單",
         "hint": "",
-        "text": "最多 5 個聊天室或頻道 + 5 個秘密聊天室；付費會員可達 10 個聊天室或頻道"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "群組名稱及描述",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "可以開立的頻道數目",
         "hint": "（單一使用者）",
-        "text": "最多 10 個（包括群組）"
+        "text": "最多 10 個（包括群組）",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "使用者名稱長度",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "圖片與影片說明",
         "hint": "",
-        "text": "最多 1024 字元；付費會員可達 2048 字元"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "單一檔案大小限制",
         "hint": "",
-        "text": "最多 2 GB；付費會員可達 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "檔案名稱長度",
@@ -301,41 +305,63 @@
         "name": "排程時間範圍",
         "hint": "",
         "text": "最多 365 天"
+      },
+      "custom_emoji_per_message": {
+        "name": "Custom emoji per message",
+        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+        "text": "not available",
+        "text_premium": "up to 100 emoji"
+      },
+      "links_per_message": {
+        "name": "Links per message",
+        "hint": "",
+        "text": "up to 100 links"
       }
     }
   },
   "folders": {
     "name": "資料夾",
     "items": {
+      "name_length": {
+        "name": "Folder name length",
+        "hint": "",
+        "text": "up to 12 characters"
+      },
       "folder_amount": {
         "name": "資料夾數量",
         "hint": "",
-        "text": "最多 10 個；付費會員可達 30 個"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "資料夾中可以置頂的對話數量",
         "hint": "",
-        "text": "最多 100 個；付費會員可達 200 個"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
+      },
+      "chats_per_folder": {
+        "name": "Chats per folder",
+        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
-  "people_nearby": {
-    "name": "附近的人",
+  "public_folders": {
+    "name": "Public Folders",
+    "icon": "folder_shared",
     "items": {
-      "range": {
-        "name": "可見範圍",
+      "public_folders_count": {
+        "name": "Number of public folders",
         "hint": "",
-        "text": "大約 12 公里"
+        "text": "up to 2 folders",
+        "text_premium": "up to 20 folders"
       },
-      "amount_of_people": {
-        "name": "可見使用者數量",
+      "chats_per_public_folder": {
+        "name": "Chats/channels per public folder",
         "hint": "",
-        "text": "最多 100 人"
-      },
-      "geochats_number": {
-        "name": "可見地區群組數量",
-        "hint": "",
-        "text": "最多 10 個"
+        "text": "up to 100 items",
+        "text_premium": "up to 200 items"
       }
     }
   },
@@ -345,7 +371,8 @@
       "bots_amount": {
         "name": "機器人數量",
         "hint": "(透過 @BotFather 創建)",
-        "text": "最多 20 個"
+        "text": "最多 20 個",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "（以單一使用者計算）",
@@ -444,6 +471,64 @@
       }
     }
   },
+  "stories": {
+    "name": "Stories",
+    "items": {
+      "story_lifetime": {
+        "name": "Story lifetime",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "24 hours",
+        "text_premium": "6/12/24/48 hours"
+      },
+      "story_duration": {
+        "name": "Story duration",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 60 seconds"
+      },
+      "story_viewers_visibility": {
+        "name": "Viewers visibility",
+        "hint": "",
+        "text": "24 hours",
+        "text_premium": "unlimited"
+      },
+      "story_daily_limit": {
+        "name": "Daily stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 100 stories"
+      },
+      "story_weekly_limit": {
+        "name": "Weekly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 700 stories"
+      },
+      "story_monthly_limit": {
+        "name": "Monthly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 30 stories",
+        "text_premium": "up to 3,000 stories"
+      },
+      "story_text_length": {
+        "name": "Text length in story",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 200 characters",
+        "text_premium": "up to 2,048 characters"
+      },
+      "story_incognito_frequency": {
+        "name": "Incognito usage frequency",
+        "hint": "",
+        "text": "not available",
+        "text_premium": "once per 3 hour"
+      },
+      "story_incognito_duration": {
+        "name": "Incognito duration",
+        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
+        "text": "not available",
+        "text_premium": "30 minutes"
+      }
+    }
+  },
   "search": {
     "name": "搜尋",
     "items": {
@@ -475,7 +560,8 @@
       "favorite_stickers": {
         "name": "最愛貼圖",
         "hint": "",
-        "text": "最多 5 個；付費會員可達 10 個"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "貼圖包中的貼圖數量",

@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Закачена ћаскања на главној листи",
         "hint": "",
-        "text": "до 5 ћаскања или канала + 5 тајних ћаскања; за премијум кориснике – до 10 ћаскања или канала"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Назив групе и опис",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Број јавних корисничких имена",
         "hint": "за један налог",
-        "text": "до 10 (укључујући групе)"
+        "text": "до 10 (укључујући групе)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Дужина @username",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Опис медија",
         "hint": "",
-        "text": "до 1024 знака; за премијум кориснике до 2048 знакова"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Величина датотеке",
         "hint": "",
-        "text": "до 2 GB; за премијум кориснике – до 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Дужина назива датотеке",
@@ -301,41 +305,63 @@
         "name": "Распон заказивања",
         "hint": "",
         "text": "до 365 дана"
+      },
+      "custom_emoji_per_message": {
+        "name": "Custom emoji per message",
+        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+        "text": "not available",
+        "text_premium": "up to 100 emoji"
+      },
+      "links_per_message": {
+        "name": "Links per message",
+        "hint": "",
+        "text": "up to 100 links"
       }
     }
   },
   "folders": {
     "name": "Фасцикле",
     "items": {
+      "name_length": {
+        "name": "Folder name length",
+        "hint": "",
+        "text": "up to 12 characters"
+      },
       "folder_amount": {
         "name": "Број фасцикли",
         "hint": "",
-        "text": "до 10 фасцикли; за премијум кориснике – до 30 фасцикли"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Закачена ћаскања у фасцикли",
         "hint": "",
-        "text": "до 100 ћаскања; за премијум кориснике – до 200 ћаскања"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
+      },
+      "chats_per_folder": {
+        "name": "Chats per folder",
+        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
-  "people_nearby": {
-    "name": "Људи у близини",
+  "public_folders": {
+    "name": "Public Folders",
+    "icon": "folder_shared",
     "items": {
-      "range": {
-        "name": "Домет видљивости",
+      "public_folders_count": {
+        "name": "Number of public folders",
         "hint": "",
-        "text": "око 12 километара"
+        "text": "up to 2 folders",
+        "text_premium": "up to 20 folders"
       },
-      "amount_of_people": {
-        "name": "Број видљивих особа",
+      "chats_per_public_folder": {
+        "name": "Chats/channels per public folder",
         "hint": "",
-        "text": "до 100 особа"
-      },
-      "geochats_number": {
-        "name": "Број видљивих група заснованих на локацији",
-        "hint": "",
-        "text": "до 10 најближих"
+        "text": "up to 100 items",
+        "text_premium": "up to 200 items"
       }
     }
   },
@@ -345,7 +371,8 @@
       "bots_amount": {
         "name": "Број ботова",
         "hint": "(које је направио @BotFather)",
-        "text": "до 20 ботова"
+        "text": "до 20 ботова",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Дужина @username",
@@ -444,6 +471,64 @@
       }
     }
   },
+  "stories": {
+    "name": "Stories",
+    "items": {
+      "story_lifetime": {
+        "name": "Story lifetime",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "24 hours",
+        "text_premium": "6/12/24/48 hours"
+      },
+      "story_duration": {
+        "name": "Story duration",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 60 seconds"
+      },
+      "story_viewers_visibility": {
+        "name": "Viewers visibility",
+        "hint": "",
+        "text": "24 hours",
+        "text_premium": "unlimited"
+      },
+      "story_daily_limit": {
+        "name": "Daily stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 100 stories"
+      },
+      "story_weekly_limit": {
+        "name": "Weekly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 700 stories"
+      },
+      "story_monthly_limit": {
+        "name": "Monthly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 30 stories",
+        "text_premium": "up to 3,000 stories"
+      },
+      "story_text_length": {
+        "name": "Text length in story",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 200 characters",
+        "text_premium": "up to 2,048 characters"
+      },
+      "story_incognito_frequency": {
+        "name": "Incognito usage frequency",
+        "hint": "",
+        "text": "not available",
+        "text_premium": "once per 3 hour"
+      },
+      "story_incognito_duration": {
+        "name": "Incognito duration",
+        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
+        "text": "not available",
+        "text_premium": "30 minutes"
+      }
+    }
+  },
   "search": {
     "name": "Претрага",
     "items": {
@@ -475,7 +560,8 @@
       "favorite_stickers": {
         "name": "Број омиљених стикера",
         "hint": "",
-        "text": "до 5 стикера; за премијум кориснике – до 10 стикера"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Број стикера у пакету",

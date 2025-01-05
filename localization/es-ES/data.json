@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Chats fijados en la lista principal",
         "hint": "",
-        "text": "hasta 5 chats o canales + 5 chats secretos; para usuarios Premium - hasta 10 chats o canales"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Nombre y descripción del grupo",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Número de nombres de usuario públicos",
         "hint": "para una sola cuenta",
-        "text": "hasta 10 (incluyendo grupos)"
+        "text": "hasta 10 (incluyendo grupos)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Longitud de @nombre",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Leyendas del medio",
         "hint": "",
-        "text": "hasta 1024 caracteres; para usuarios Premium - hasta 2048 caracteres"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Límite de tamaño del archivo",
         "hint": "",
-        "text": "hasta 2 GB; para usuarios Premium - hasta 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Longitud del nombre de archivo",
@@ -301,41 +305,63 @@
         "name": "Rango de programación",
         "hint": "",
         "text": "hasta 365 días"
+      },
+      "custom_emoji_per_message": {
+        "name": "Custom emoji per message",
+        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+        "text": "not available",
+        "text_premium": "up to 100 emoji"
+      },
+      "links_per_message": {
+        "name": "Links per message",
+        "hint": "",
+        "text": "up to 100 links"
       }
     }
   },
   "folders": {
     "name": "Carpetas",
     "items": {
+      "name_length": {
+        "name": "Folder name length",
+        "hint": "",
+        "text": "up to 12 characters"
+      },
       "folder_amount": {
         "name": "Cantidad de carpetas",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Chats fijados en una carpeta",
         "hint": "",
-        "text": "hasta 100 chats; para usuarios Premium - hasta 200 chats"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
+      },
+      "chats_per_folder": {
+        "name": "Chats per folder",
+        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
-  "people_nearby": {
-    "name": "Personas cerca",
+  "public_folders": {
+    "name": "Public Folders",
+    "icon": "folder_shared",
     "items": {
-      "range": {
-        "name": "Rango de visibilidad",
+      "public_folders_count": {
+        "name": "Number of public folders",
         "hint": "",
-        "text": "alrededor de 12 kilómetros"
+        "text": "up to 2 folders",
+        "text_premium": "up to 20 folders"
       },
-      "amount_of_people": {
-        "name": "Cantidad de usuarios visibles",
+      "chats_per_public_folder": {
+        "name": "Chats/channels per public folder",
         "hint": "",
-        "text": "hasta 100 personas"
-      },
-      "geochats_number": {
-        "name": "Número de geochats visibles",
-        "hint": "",
-        "text": "hasta 10 más cerca"
+        "text": "up to 100 items",
+        "text_premium": "up to 200 items"
       }
     }
   },
@@ -345,7 +371,8 @@
       "bots_amount": {
         "name": "Número de bots",
         "hint": "(creado por @BotFather)",
-        "text": "hasta 20 bots"
+        "text": "hasta 20 bots",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Longitud de @nombre",
@@ -444,6 +471,64 @@
       }
     }
   },
+  "stories": {
+    "name": "Stories",
+    "items": {
+      "story_lifetime": {
+        "name": "Story lifetime",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "24 hours",
+        "text_premium": "6/12/24/48 hours"
+      },
+      "story_duration": {
+        "name": "Story duration",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 60 seconds"
+      },
+      "story_viewers_visibility": {
+        "name": "Viewers visibility",
+        "hint": "",
+        "text": "24 hours",
+        "text_premium": "unlimited"
+      },
+      "story_daily_limit": {
+        "name": "Daily stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 100 stories"
+      },
+      "story_weekly_limit": {
+        "name": "Weekly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 700 stories"
+      },
+      "story_monthly_limit": {
+        "name": "Monthly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 30 stories",
+        "text_premium": "up to 3,000 stories"
+      },
+      "story_text_length": {
+        "name": "Text length in story",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 200 characters",
+        "text_premium": "up to 2,048 characters"
+      },
+      "story_incognito_frequency": {
+        "name": "Incognito usage frequency",
+        "hint": "",
+        "text": "not available",
+        "text_premium": "once per 3 hour"
+      },
+      "story_incognito_duration": {
+        "name": "Incognito duration",
+        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
+        "text": "not available",
+        "text_premium": "30 minutes"
+      }
+    }
+  },
   "search": {
     "name": "Buscar",
     "items": {
@@ -475,7 +560,8 @@
       "favorite_stickers": {
         "name": "Número de stickers favoritos",
         "hint": "",
-        "text": "hasta 5 elementos; para usuarios Premium - hasta 10 elementos"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Número de stickers en un pack",

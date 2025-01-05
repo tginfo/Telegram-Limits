@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Закачена ћаскања на главној листи",
         "hint": "",
-        "text": "до 5 ћаскања или канала + 5 тајних ћаскања; за премијум кориснике – до 10 ћаскања или канала"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Назив групе и опис",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Број јавних корисничких имена",
         "hint": "за један налог",
-        "text": "до 10 (укључујући групе)"
+        "text": "до 10 (укључујући групе)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Дужина @username",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Опис медија",
         "hint": "",
-        "text": "до 1024 знака; за премијум кориснике до 2048 знакова"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Величина датотеке",
         "hint": "",
-        "text": "до 2 GB; за премијум кориснике – до 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Дужина назива датотеке",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Број фасцикли",
         "hint": "",
-        "text": "до 10 фасцикли; за премијум кориснике – до 30 фасцикли"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Закачена ћаскања у фасцикли",
         "hint": "",
-        "text": "до 100 ћаскања; за премијум кориснике – до 200 ћаскања"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Људи у близини",
-    "items": {
-      "range": {
-        "name": "Домет видљивости",
-        "hint": "",
-        "text": "око 12 километара"
-      },
-      "amount_of_people": {
-        "name": "Број видљивих особа",
-        "hint": "",
-        "text": "до 100 особа"
-      },
-      "geochats_number": {
-        "name": "Број видљивих група заснованих на локацији",
-        "hint": "",
-        "text": "до 10 најближих"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Број ботова",
         "hint": "(које је направио @BotFather)",
-        "text": "до 20 ботова"
+        "text": "до 20 ботова",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Дужина @username",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Број омиљених стикера",
         "hint": "",
-        "text": "до 5 стикера; за премијум кориснике – до 10 стикера"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Број стикера у пакету",

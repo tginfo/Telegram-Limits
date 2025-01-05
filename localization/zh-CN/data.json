@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "客户端主页面的置顶群聊数",
         "hint": "",
-        "text": "最多 5 个对话或频道 + 5 个加密对话；对高级用户最多 10 个对话或频道"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "群组名称和简介",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "可拥有的公开频道 / 群组个数",
         "hint": "单个用户",
-        "text": "最多 10 个（包括群组）"
+        "text": "最多 10 个（包括群组）",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "用户名长度",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "媒体的描述",
         "hint": "",
-        "text": "最多 1024 字符；对高级用户最多 2048 字符"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "单文件大小限制",
         "hint": "",
-        "text": "最大 2 GB；对高级用户最大 4 GB"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "文件名长度限制",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "文件夹数量",
         "hint": "",
-        "text": "最多 10 个文件夹；对高级用户最多 30 个文件夹"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "单个文件夹中可置顶的聊天数",
         "hint": "",
-        "text": "最多 100 个对话；对高级用户最多 200 个对话"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "附近的人",
-    "items": {
-      "range": {
-        "name": "可见范围",
-        "hint": "",
-        "text": "约 12 公里以内"
-      },
-      "amount_of_people": {
-        "name": "可见用户数量",
-        "hint": "",
-        "text": "最多 100 人"
-      },
-      "geochats_number": {
-        "name": "可见的当地群组数量",
-        "hint": "",
-        "text": "最多 10 个附近的群组"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "单账户可拥有的机器人数量",
         "hint": "（由 @BotFather 创建的）",
-        "text": "最多 20 个"
+        "text": "最多 20 个",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "用户名长度",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "收藏贴纸数",
         "hint": "",
-        "text": "最多 5 项；对高级用户最多 10 项"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "单个贴纸包中的贴纸数",

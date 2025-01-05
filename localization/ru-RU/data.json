@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Закреплённые чаты в ленте пользователя",
         "hint": "",
-        "text": "до 5 чатов или каналов + до 5 секретных чатов; для подписчиков Telegram Premium - до 10 чатов или каналов"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Название и описание группы",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Количество публичных юзернеймов",
         "hint": "на один аккаунт",
-        "text": "до 10 (включая группы)"
+        "text": "до 10 (включая группы)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Длина @username",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Описание к медиафайлам",
         "hint": "",
-        "text": "до 1024 символов; для подписчиков Telegram Premium - до 2048 символов"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Объём отправляемых файлов",
         "hint": "",
-        "text": "до 2 ГБ; для подписчиков Telegram Premium - до 4 ГБ"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Длина имени файла",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Количество папок",
         "hint": "",
-        "text": "до 10; для подписчиков Telegram Premium - до 30"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Закреплённые чаты в папке",
         "hint": "",
-        "text": "до 100 чатов; для подписчиков Telegram Premium - до 200 чатов"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Люди рядом",
-    "items": {
-      "range": {
-        "name": "Радиус видимости",
-        "hint": "",
-        "text": "около 12 километров"
-      },
-      "amount_of_people": {
-        "name": "Количество отображаемых пользователей",
-        "hint": "",
-        "text": "до 100 человек"
-      },
-      "geochats_number": {
-        "name": "Количество отображаемых геочатов",
-        "hint": "",
-        "text": "до 10 ближайших"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Количество ботов",
         "hint": "(созданных через @BotFather)",
-        "text": "до 20 штук"
+        "text": "до 20 штук",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Длина @username",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Количество избранных стикеров",
         "hint": "",
-        "text": "до 5 штук; для подписчиков Telegram Premium - до 10 штук"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Количество стикеров в наборе",

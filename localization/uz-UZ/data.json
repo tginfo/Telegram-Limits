@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Ro'yxatdagi qadalgan xabarlar soni",
         "hint": "",
-        "text": "5 tagacha chat yoki kanallar + 5 ta maxfiy chatlar; Preimum foydalanuvchilarga - 10 tagacha chat yoki kanallar"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Guruh nomi va tavsifi",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Ommaviy foydalanuvchi nomlari soni",
         "hint": "bitta hisob raqam uchun",
-        "text": "10 tagacha (guruhlar bilan)"
+        "text": "10 tagacha (guruhlar bilan)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "@foydalanuvchinomi uzunligi",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Medialar uchun izoh",
         "hint": "",
-        "text": "1024 ta belgigacha; Premium foydalanuvchilar uchun - 2048 ta belgigacha"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Fayl o'lchamiga chegara",
         "hint": "",
-        "text": "2 GB gacha; Premium foydalanuvchilar uchun - 4 GB gacha"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Fayl nomi uzunligi",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Jildlar miqdori",
         "hint": "",
-        "text": ""
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Jilddagi qadalgan xabarlar ",
         "hint": "",
-        "text": "100 ta chat; Premium foydalanuvchilar uchun - 200 ta chat"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Yaqin atrofdagi odamlar",
-    "items": {
-      "range": {
-        "name": "Ko'rish oralig'i",
-        "hint": "",
-        "text": "Tahminan 12 kilometr"
-      },
-      "amount_of_people": {
-        "name": "Ko'rinadigan foydalanuvchilar miqdori",
-        "hint": "",
-        "text": "100 ta odamgacha"
-      },
-      "geochats_number": {
-        "name": "Ko'rsatilgan geochatlar",
-        "hint": "",
-        "text": "10 tagacha eng yaqin"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Botlar soni",
         "hint": "(@BotFather orqali yaratilgan)",
-        "text": "20 tagacha"
+        "text": "20 tagacha",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "@username uzunligi",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Tanlangan stikerlar soni",
         "hint": "",
-        "text": "5 ta element; Premium foydalanuvchilar uchun - 10 ta elementgacha"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Stiker To'plamlar miqdori",

@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Закріплені чати в стрічці користувача",
         "hint": "",
-        "text": "до 5 чатів або каналів + 5 секретних чатів; для користувачів Premium - до 10 чатів або каналів"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Назва та опис групи",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Кількість публічних імен",
         "hint": "для одного акаунту",
-        "text": "до 10 (враховуючи групи)"
+        "text": "до 10 (враховуючи групи)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "Довжина @username",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Опис у медіа",
         "hint": "",
-        "text": "до 1024 символів; для користувачів Premium - до 2048 символів"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Обмеження розміру файлу",
         "hint": "",
-        "text": "до 2 Гб; для користувачів Premium - до 4 Гб"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Довжина імені файлу",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Кількість папок",
         "hint": "",
-        "text": "до 10 папок; для користувачів Premium - до 30 папок"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Закріплені чати в папці",
         "hint": "",
-        "text": "до 100 чатів; для Premium користувачів - до 200 чатів"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Люди поблизу",
-    "items": {
-      "range": {
-        "name": "Діапазон видимості",
-        "hint": "",
-        "text": "близько 12 км"
-      },
-      "amount_of_people": {
-        "name": "Кількість видимих користувачів",
-        "hint": "",
-        "text": "до 100 осіб"
-      },
-      "geochats_number": {
-        "name": "Кількість видимих груп поблизу",
-        "hint": "",
-        "text": "до 10 найближчих"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Кількість ботів",
         "hint": "(створених у @BotFather)",
-        "text": "до 20 ботів"
+        "text": "до 20 ботів",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "Довжина @username",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Кількість улюблених наліпок",
         "hint": "",
-        "text": "до 5 предметів; для Premium користувачів - до 10 шт"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Кількість наліпок в наборі",

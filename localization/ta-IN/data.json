@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "முக்கியப் பட்டியலில் செருகப்பட்ட அரட்டைகள்",
         "hint": "",
-        "text": "5 அரட்டைகள் அல்லது பதிதடங்கள் + 5 கமுக்க அரட்டைகள் வரை; மிகைப்புப் பயனர்களுக்கு - 10 அரட்டைகள் அல்லது பதிதடங்கள் வரை"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "குழுவின் பெயர் மற்றும் விளக்கம்",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "பொது பயனர்பெயர் எண்ணிக்கை",
         "hint": "ஒரு கணக்கிற்கு",
-        "text": "10 வரை (குழுக்கள் உட்பட)"
+        "text": "10 வரை (குழுக்கள் உட்பட)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "@பயனர்பெயரின் நீளம்",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "ஒலியொளிக் குறிப்பு",
         "hint": "",
-        "text": "1024 எழுத்துகள்வரை; மிகைப்புப் பயனர்களுக்கு - 2048 எழுத்துகள்வரை"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "கோப்பு அளவின் வரம்பு",
         "hint": "",
-        "text": "2 ஜிபி வரை; மிகைப்புப் பயனர்களுக்கு - 4 ஜிபி வரை"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "கோப்புப் பெயர் நீளம்",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "கோப்புறைகளின் எண்ணிக்கை",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 30 folders"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "கோப்புறையில் செருகப்பட்ட அரட்டைகள்",
         "hint": "",
-        "text": "100 அரட்டைகள்வரை; மிகைப்புப் பயனர்களுக்கு - 200 அரட்டைகள்வரை"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "அருகிலுள்ளவர்கள்",
-    "items": {
-      "range": {
-        "name": "தெரிவுநிலை வரம்பு",
-        "hint": "",
-        "text": "சுமார் 12 கிலோமீட்டர்"
-      },
-      "amount_of_people": {
-        "name": "காணக்கூடிய பயனர்களின் எண்ணிக்கை",
-        "hint": "",
-        "text": "100 பேர் வரை"
-      },
-      "geochats_number": {
-        "name": "புலப்படும் இடம்சார்ந்த அரட்டைகளின் எண்ணிக்கை",
-        "hint": "",
-        "text": "நெருங்கிய 10 வரை"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "கூளிகளின் எண்ணிக்கை",
         "hint": "(@BotFather ஆல் உருவாக்கப்பட்டது)",
-        "text": "20 உருப்படிகள் வரை"
+        "text": "20 உருப்படிகள் வரை",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "@பயனர்பெயரின் நீளம்",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "பிடித்த ஒட்டுபடங்களின் எண்ணிக்கை",
         "hint": "",
-        "text": "5 உருப்படிகள்வரை; மிகைப்புப் பயனர்களுக்கு - 10 உருப்படிகள்வரை"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "ஒரு பொதியிலுள்ள ஒட்டுபடங்களின் எண்ணிக்கை",

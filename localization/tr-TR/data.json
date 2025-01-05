@@ -90,7 +90,8 @@
       "pinned_number": {
         "name": "Ana listede sabit sohbetler",
         "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats; for Premium users - up to 10 chats or channels"
+        "text": "up to 5 chats or channels + 5 secret chats",
+        "text_premium": "up to 10 chats or channels"
       },
       "group_name": {
         "name": "Grup adı ve açıklaması",
@@ -200,7 +201,8 @@
       "public_usernames": {
         "name": "Genel kullanıcı adı sayısı",
         "hint": "tek hesapta",
-        "text": "10'a kadar (gruplar dahil)"
+        "text": "10'a kadar (gruplar dahil)",
+        "text_premium": "up to 20 (including groups)"
       },
       "username_length": {
         "name": "@kullaniciadi uzunluğu",
@@ -270,12 +272,14 @@
       "media_descriptions": {
         "name": "Medya açıklaması",
         "hint": "",
-        "text": "1024 karaktere kadar; Premium kullanıcılar için - 2048 karaktere kadar"
+        "text": "up to 1,024 characters",
+        "text_premium": "up to 2,048 characters"
       },
       "upload_size": {
         "name": "Dosya boyut sınırı",
         "hint": "",
-        "text": "2 GB'a kadar; Premium kullanıcılar için - 4 GB'a kadar"
+        "text": "up to 2 GB",
+        "text_premium": "up to 4 GB"
       },
       "file_name_length": {
         "name": "Dosya adı uzunluğu",
@@ -310,32 +314,14 @@
       "folder_amount": {
         "name": "Klasör miktarı",
         "hint": "",
-        "text": "10 klasöre kadar; Premium kullanıcılar için - 30 klasöre kadar"
+        "text": "up to 10 folders",
+        "text_premium": "up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Bir klasördeki sabit sohbetler",
         "hint": "",
-        "text": "100 sohbete kadar; Premium kullanıcılar için - 200 sohbete kadar"
-      }
-    }
-  },
-  "people_nearby": {
-    "name": "Yakındaki Kişiler",
-    "items": {
-      "range": {
-        "name": "Görünürlük aralığı",
-        "hint": "",
-        "text": "yaklaşık 12 kilometre"
-      },
-      "amount_of_people": {
-        "name": "Görünen kullanıcı miktarı",
-        "hint": "",
-        "text": "100 kişiye kadar"
-      },
-      "geochats_number": {
-        "name": "Görünen sohbet sayısı",
-        "hint": "",
-        "text": "en yakındaki 10 sohbete kadar"
+        "text": "up to 100 chats",
+        "text_premium": "up to 200 chats"
       }
     }
   },
@@ -345,7 +331,8 @@
       "bots_amount": {
         "name": "Bot sayısı",
         "hint": "(@BotFather ile oluşturulan)",
-        "text": "20 öğeye kadar"
+        "text": "20 öğeye kadar",
+        "text_premium": "up to 40 items"
       },
       "username length": {
         "name": "@kullaniciadi uzunluğu",
@@ -475,7 +462,8 @@
       "favorite_stickers": {
         "name": "Favori çıkartma sayısı",
         "hint": "",
-        "text": "5 öğeye kadar; Premium kullanıcılar için - 10 öğeye kadar"
+        "text": "up to 5 items",
+        "text_premium": "up to 10 items"
       },
       "pack_size": {
         "name": "Tek paketteki çıkartma sayısı",

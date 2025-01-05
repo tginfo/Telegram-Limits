@@ -323,7 +323,7 @@
     "name": "Folders",
     "items": {
       "name_length": {
-      "name": "Folder name length",
+        "name": "Folder name length",
         "hint": "",
         "text": "up to 12 characters"
       },
@@ -472,63 +472,63 @@
     }
   },
   "stories": {
-      "name": "Stories",
-      "items": {
-        "lifetime": {
-          "name": "Story lifetime",
-          "hint": "Publishing stories without Telegram Premium is not available in all countries",
-          "text": "24 hours",
-          "text_premium": "6/12/24/48 hours"
-        },
-        "duration": {
-          "name": "Story duration",
-          "hint": "Publishing stories without Telegram Premium is not available in all countries",
-          "text": "up to 60 seconds"
-        },
-        "viewers_visibility": {
-          "name": "Viewers visibility",
-          "hint": "",
-          "text": "24 hours",
-          "text_premium": "unlimited"
-        },
-        "daily_limit": {
-          "name": "Daily stories limit",
-          "hint": "Publishing stories without Telegram Premium is not available in all countries",
-          "text": "up to 3 stories",
-          "text_premium": "up to 100 stories"
-        },
-        "weekly_limit": {
-          "name": "Weekly stories limit",
-          "hint": "Publishing stories without Telegram Premium is not available in all countries",
-          "text": "up to 3 stories",
-          "text_premium": "up to 700 stories"
-        },
-        "monthly_limit": {
-          "name": "Monthly stories limit",
-          "hint": "Publishing stories without Telegram Premium is not available in all countries",
-          "text": "up to 30 stories",
-          "text_premium": "up to 3,000 stories"
-        },
-        "text_length": {
-          "name": "Text length in story",
-          "hint": "Publishing stories without Telegram Premium is not available in all countries",
-          "text": "up to 200 characters",
-          "text_premium": "up to 2,048 characters"
-        },
-        "incognito_frequency": {
-          "name": "Incognito usage frequency",
-          "hint": "",
-          "text": "not available",
-          "text_premium": "once per 3 hour"
-        },
-        "incognito_duration": {
-          "name": "Incognito duration",
-          "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
-          "text": "not available",
-          "text_premium": "30 minutes"
-        }
+    "name": "Stories",
+    "items": {
+      "story_lifetime": {
+        "name": "Story lifetime",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "24 hours",
+        "text_premium": "6/12/24/48 hours"
+      },
+      "story_duration": {
+        "name": "Story duration",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 60 seconds"
+      },
+      "story_viewers_visibility": {
+        "name": "Viewers visibility",
+        "hint": "",
+        "text": "24 hours",
+        "text_premium": "unlimited"
+      },
+      "story_daily_limit": {
+        "name": "Daily stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 100 stories"
+      },
+      "story_weekly_limit": {
+        "name": "Weekly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 3 stories",
+        "text_premium": "up to 700 stories"
+      },
+      "story_monthly_limit": {
+        "name": "Monthly stories limit",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 30 stories",
+        "text_premium": "up to 3,000 stories"
+      },
+      "story_text_length": {
+        "name": "Text length in story",
+        "hint": "Publishing stories without Telegram Premium is not available in all countries",
+        "text": "up to 200 characters",
+        "text_premium": "up to 2,048 characters"
+      },
+      "story_incognito_frequency": {
+        "name": "Incognito usage frequency",
+        "hint": "",
+        "text": "not available",
+        "text_premium": "once per 3 hour"
+      },
+      "story_incognito_duration": {
+        "name": "Incognito duration",
+        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
+        "text": "not available",
+        "text_premium": "30 minutes"
       }
-    },
+    }
+  },
   "search": {
     "name": "Search",
     "items": {

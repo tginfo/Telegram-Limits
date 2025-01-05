@@ -276,6 +276,10 @@
         "color": "156, 39, 176",
         "items": [
             {
+                "id": "name_length",
+                "icon": "text_rotation_none"
+            },
+            {
                 "id": "folder_amount",
                 "icon": "create_new_folder"
             },
@@ -284,12 +288,8 @@
                 "icon": "push_pin"
             },
             {
-                "id": "custom_emoji_per_message",
-                "icon": "emoji_emotions"
-            },
-            {
-                "id": "links_per_message",
-                "icon": "link"
+                "id": "chats_per_folder",
+                "icon": "folder_shared"
             }
         ]
     },

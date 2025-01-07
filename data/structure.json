@@ -452,6 +452,10 @@
         "color": "76, 175, 80",
         "items": [
             {
+                "id": "story_availability",
+                "icon": "public"
+            },
+            {
                 "id": "story_lifetime",
                 "icon": "hourglass_empty"
             },

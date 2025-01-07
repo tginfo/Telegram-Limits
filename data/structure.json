@@ -55,6 +55,18 @@
             {
                 "id": "visible_messages",
                 "icon": "visibility"
+            },
+            {
+                "id": "sticker_packs_per_account",
+                "icon": "emoji_emotions"
+            },
+            {
+                "id": "emoji_packs_per_account",
+                "icon": "category"
+            },
+            {
+                "id": "username_ownership_for_auction",
+                "icon": "gavel"
             }
         ]
     },
@@ -138,6 +150,29 @@
             {
                 "id": "read_receipts_availability",
                 "icon": "date_range"
+            }
+        ]
+    },
+    {
+        "id": "topic",
+        "icon": "topic",
+        "color": "156, 39, 176",
+        "items": [
+            {
+                "id": "visible_users_in_topic_group",
+                "icon": "visibility"
+            },
+            {
+                "id": "topics_per_group",
+                "icon": "format_list_numbered"
+            },
+            {
+                "id": "topic_title_length",
+                "icon": "title"
+            },
+            {
+                "id": "pinned_topics",
+                "icon": "push_pin"
             }
         ]
     },
@@ -267,6 +302,30 @@
             {
                 "id": "links_per_message",
                 "icon": "link"
+            }
+        ]
+    },
+    {
+        "id": "poll",
+        "icon": "poll",
+        "color": "255, 87, 34",
+        "name": "Polls",
+        "items": [
+            {
+                "id": "poll_question_length",
+                "icon": "help_outline"
+            },
+            {
+                "id": "quiz_question_length",
+                "icon": "quiz"
+            },
+            {
+                "id": "poll_options_count",
+                "icon": "list_alt"
+            },
+            {
+                "id": "poll_option_length",
+                "icon": "short_text"
             }
         ]
     },
@@ -489,6 +548,10 @@
             {
                 "id": "stickerpack_url_length",
                 "icon": "link"
+            },
+            {
+                "id": "emojis_per_pack",
+                "icon": "sentiment_satisfied_alt"
             }
         ]
     },

@@ -831,6 +831,79 @@
             static contentElement = null;
             static draggingType = null;
 
+            static async openHelp(source) {
+                alert("We're already working on documentation. Until then, for guidance, please contact contributors directly.");
+            }
+
+            static async suggestEdit() {
+                try {
+                    const dialog = document.createElement('dialog');
+                    dialog.innerHTML = `
+                        <form method="dialog">
+                            <article>
+                                <p>
+                                    <b>Note:</b> We do not accept translations through this form. 
+                                    Please go to <a href="https://crowdin.com/project/telegram-limits" target="_blank">Crowdin</a> for translation.
+                                </p>    
+                            </article>
+                            <label>
+                                <span>Description:</span>
+                                <textarea id="description" rows="5" style="width: 100%;" placeholder="Describe changes you've made" maxlength="800"></textarea>
+                            </label>
+                            <label>
+                                <span>Contact:</span>
+                                <input id="contact" type="text" style="width: 100%;" placeholder="Telegram username, email, etc." maxlength="100">
+                            </label>
+                            <menu style="display: flex; padding: 0;">
+                                <button id="cancelButton" value="cancel" class="secondary">Cancel</button>
+                                <button id="sendButton" value="send" class="trailing-container">Send</button>
+                            </menu>
+                        </form>
+                    `;
+
+                    dialog.querySelector('#cancelButton').addEventListener('click', () => {
+                        dialog.close();
+                        dialog.remove();
+                    });
+                    dialog.querySelector('#sendButton').addEventListener('click', async () => {
+                        try {
+                            const url = 'https://limits.tginfo.me/prop/suggest.php';
+
+                            const data = {
+                                structure: this.structure,
+                                localization: this.localization,
+                                description: dialog.querySelector('#description').value,
+                                contact: dialog.querySelector('#contact').value,
+                            };
+
+                            const response = await fetch(url, {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                },
+                                body: JSON.stringify(data),
+                            });
+
+                            const responseText = await response.text();
+                            if (response.ok) {
+                                alert('✅ Suggestion sent successfully:\n\n' + responseText);
+                            } else {
+                                alert('⛔️ An error occurred while sending the suggestion:\n\n' + responseText);
+                            }
+                        } catch (e) {
+                            console.error(e);
+                            alert('An error occurred while sending the suggestion: ' + e.message);
+                        }
+                    });
+
+                    document.body.appendChild(dialog);
+                    dialog.showModal();
+                } catch (e) {
+                    console.error(e);
+                    alert('An error occurred while sending the suggestion: ' + e.message);
+                }
+            }
+
             static async check() {
                 if (!('showDirectoryPicker' in window)) {
                     alert('Your browser does not support the File System Access API. ' +
@@ -1024,13 +1097,23 @@
                 helpButton.classList.add('icon');
                 helpButton.classList.add('secondary');
                 helpButton.textContent = 'help';
+                helpButton.title = 'Help & Documentation';
                 helpButton.addEventListener('click', () => EditorUi.openHelp("toolbar"));
                 toolbar.appendChild(helpButton);
+
+                const sendButton = document.createElement('button');
+                sendButton.classList.add('icon');
+                sendButton.classList.add('secondary');
+                sendButton.textContent = 'send';
+                sendButton.title = 'Send The Edit to @tginfo';
+                sendButton.addEventListener('click', () => EditorUi.suggestEdit());
+                toolbar.appendChild(sendButton);
 
                 const saveButton = document.createElement('button');
                 saveButton.classList.add('icon');
                 saveButton.classList.add('secondary');
                 saveButton.textContent = 'save';
+                saveButton.title = 'Save to Disk';
                 saveButton.addEventListener('click', () => this.save());
                 toolbar.appendChild(saveButton);
 

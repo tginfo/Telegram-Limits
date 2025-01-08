@@ -1301,6 +1301,7 @@
 
                 const idContainer = document.createElement('span');
                 idContainer.classList.add('id-container');
+                idContainer.textContent = '<empty>>';
                 idContainer.addEventListener('click', () => {
                     const newId = prompt('New Section ID:', sectionId);
 
@@ -1319,7 +1320,7 @@
                     }
 
                     sectionId = newId;
-                    idContainer.textContent = newId;
+                    idContainer.textContent = newId || '<empty>';
                 });
 
                 const newSectionName = document.createElement('input');
@@ -1337,7 +1338,7 @@
                     } while (checkIfSectionIdExists(newSectionId));
 
                     sectionId = newSectionId;
-                    idContainer.textContent = sectionId;
+                    idContainer.textContent = sectionId || '<empty>';
                 });
 
                 const colorSuggestions = [
@@ -1749,6 +1750,28 @@
 
                 const idContainer = document.createElement('span');
                 idContainer.classList.add('id-container');
+                idContainer.textContent = '<empty>';
+
+                idContainer.addEventListener('click', () => {
+                    const newId = prompt('New Item ID:', itemId);
+
+                    if (!newId) return;
+
+                    try {
+                        this.editor.validateSectionId(newId);
+                    } catch (error) {
+                        alert(error.message);
+                        return;
+                    }
+
+                    if (checkIfItemIdExists(newId)) {
+                        alert('Item with this ID already exists.');
+                        return;
+                    }
+
+                    itemId = newId;
+                    idContainer.textContent = itemId || '<empty>';
+                });
 
                 const newItemTitleContainer = document.createElement('div');
                 newItemTitleContainer.classList.add('title-field-container');
@@ -1769,7 +1792,7 @@
                     } while (checkIfItemIdExists(newItemId));
 
                     itemId = newItemId;
-                    idContainer.textContent = itemId;
+                    idContainer.textContent = itemId || '<empty>';
                 });
 
                 newItemName.style.height = "5px";

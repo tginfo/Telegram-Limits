@@ -33,10 +33,6 @@
                 "icon": "groups"
             },
             {
-                "id": "geochats_number",
-                "icon": "person_pin_circle"
-            },
-            {
                 "id": "gifs_number",
                 "icon": "gif"
             },
@@ -377,7 +373,7 @@
                 "icon": "widgets"
             },
             {
-                "id": "username length",
+                "id": "username_length",
                 "icon": "alternate_email"
             },
             {
@@ -413,8 +409,20 @@
                 "icon": "format_shapes"
             },
             {
-                "id": "messaging_frequency_groups",
+                "id": "formatting_entities",
+                "icon": "flip_to_front"
+            },
+            {
+                "id": "messaging_frequency",
                 "icon": "speed"
+            },
+            {
+                "id": "messaging_frequency_groups",
+                "icon": "people"
+            },
+            {
+                "id": "messaging_frequency_broadcast",
+                "icon": "campaign"
             },
             {
                 "id": "api_requests_frequency",

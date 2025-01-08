@@ -1185,6 +1185,7 @@
                     const sectionIcon = this.constructIconPicker(section.icon, (icon) => {
                         section.icon = icon;
                         this.markDirty();
+                        this.constructContent();
                     });
                     sectionIcon.title = 'Pick an icon for the title of the section';
                     sectionElement.appendChild(sectionIcon);
@@ -1201,6 +1202,10 @@
                         this.markDirty();
                     });
 
+                    sectionName.addEventListener('blur', () => {
+                        this.constructContent();
+                    });
+
                     const sectionColor = document.createElement('input');
                     sectionColor.type = 'color';
                     sectionColor.title = 'Pick a color for the section';
@@ -1209,6 +1214,7 @@
                     sectionColor.addEventListener('input', () => {
                         section.color = this.hexToRgb(sectionColor.value);
                         this.markDirty();
+                        this.constructContent();
                     });
 
                     const idContainer = document.createElement('span');

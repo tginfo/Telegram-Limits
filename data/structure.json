@@ -507,10 +507,6 @@
         "color": "63, 81, 181",
         "items": [
             {
-                "id": "global_search",
-                "icon": "receipt_long"
-            },
-            {
                 "id": "global_search_min_query",
                 "icon": "text_rotation_none"
             },

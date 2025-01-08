@@ -604,11 +604,6 @@
     "search": {
         "name": "Search",
         "items": {
-            "global_search": {
-                "name": "Global search results",
-                "hint": "",
-                "text": ""
-            },
             "global_search_min_query": {
                 "name": "Minimal query length",
                 "hint": "for global search",

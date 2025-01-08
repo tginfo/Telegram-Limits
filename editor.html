@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .start-screen {
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        p+p,
+        h1+p {
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            vertical-align: middle;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        button:active {
+            background-color: #004080;
+        }
+
+        button.destructive {
+            background-color: #bb303e;
+        }
+
+        button.destructive:hover {
+            background-color: #a22b36;
+        }
+
+        button.destructive:active {
+            background-color: #8c232d;
+        }
+
+        button.secondary {
+            background-color: transparent;
+            color: #007bff;
+        }
+
+        button.secondary:hover {
+            background-color: rgba(0, 123, 255, 0.1);
+        }
+
+        button.secondary:active {
+            background-color: rgba(0, 123, 255, 0.2);
+        }
+
+        button.secondary.destructive {
+            color: #bb303e;
+        }
+
+        button.secondary.destructive:hover {
+            background-color: rgba(187, 48, 62, 0.1);
+        }
+
+        button.secondary.destructive:active {
+            background-color: rgba(187, 48, 62, 0.2);
+        }
+
+        button:disabled {
+            background-color: #ccc;
+            color: #898989;
+            cursor: not-allowed;
+        }
+
+        button:disabled:hover,
+        button:disabled:active {
+            background-color: #ccc;
+        }
+
+        button#restoreSessionButton:disabled {
+            display: none;
+        }
+
+        button+button {
+            margin-left: 10px;
+        }
+
+        button.icon {
+            font-family: 'limits-icons';
+            font-size: 1.5rem;
+            padding: 10px;
+        }
+
+        button>.icon {
+            margin-right: 5px;
+            font-size: 1.4rem;
+            align-self: center;
+            vertical-align: text-bottom;
+            line-height: 1;
+        }
+
+        code {
+            font-family: monospace;
+            background-color: rgba(0, 0, 0, 0.07);
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+
+        article {
+            margin: 20px auto;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        main {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .content-scroller {
+            flex: 1;
+            overflow: auto;
+        }
+
+        #content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border-top: 1px solid #ccc;
+        }
+
+        nav button {
+            margin: 0;
+        }
+
+        .icon {
+            font-family: 'limits-icons';
+            user-select: none;
+        }
+
+        #save-status {
+            font-style: italic;
+            color: #9e9e9e;
+            transition: color 0.3s, opacity 0.3s;
+        }
+
+        #save-status:empty {
+            opacity: 0;
+        }
+
+        #save-status.unsaved {
+            color: #810000;
+        }
+
+        .section-edit-panel {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .item-edit-panel .icon-picker,
+        .item-edit-panel .drag-handle,
+        .item-edit-panel .drag-handle-substitute {
+            align-self: flex-start;
+        }
+
+        .section-add-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .section-add-panel-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .item-add-panel {
+            display: flex;
+            gap: 10px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .item-add-panel .trailing-container button {
+            align-self: flex-end;
+        }
+
+        .section-edit-panel.drag-over {
+            background-color: #f0f0f0;
+        }
+
+        #sections-sortable,
+        .items-sortable {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .drag-handle,
+        .drag-handle-substitute {
+            font-size: 1.5rem;
+            line-height: 1;
+            padding: 5px;
+            color: #cbcbcb;
+        }
+
+        .drag-handle {
+            cursor: move;
+        }
+
+        .icon-preview {
+            font-size: 1.5rem;
+            line-height: 1;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            display: flex;
+            color: #666;
+        }
+
+        .icon-preview.placeholder {
+            background-color: #f0f0f0;
+            color: #ccc;
+        }
+
+        .icon-picker {
+            position: relative;
+        }
+
+        .icon-picker .icon-preview {
+            cursor: pointer;
+        }
+
+        .icon-picker .icon-preview:hover {
+            background-color: #f0f0f0;
+        }
+
+        .icon-picker .icon-preview:active {
+            background-color: #e6e6e6;
+        }
+
+        .icon-picker .icon-preview.placeholder:hover {
+            background-color: #e6e6e6;
+        }
+
+        .icon-picker .icon-preview.placeholder:active {
+            background-color: #dcdcdc;
+        }
+
+        .icon-selection-popup {
+            position: absolute;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 100;
+            margin-top: 5px;
+            max-height: 300px;
+            max-width: 250px;
+            overflow-y: scroll;
+            scrollbar-width: thin;
+        }
+
+        .icon-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .icon-header-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .picker-subtext {
+            display: block;
+            width: 100%;
+            background-color: #f0f0f0;
+            padding: 5px;
+            color: #666;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .picker-subtext:hover {
+            background-color: #e6e6e6;
+            text-decoration: underline;
+        }
+
+        .icon-header button {
+            margin: 0;
+            font-size: 1rem;
+            padding: 5px 10px;
+        }
+
+        .icon-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+            gap: 5px;
+            padding: 10px 0;
+        }
+
+        .no-results-grid .icon-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .icon-list .no-results {
+            text-align: center;
+            color: #666;
+        }
+
+        .icon-list .no-results a {
+            display: block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .icon-list .no-results a:hover {
+            background-color: #0056b3;
+        }
+
+        .icon-list .icon {
+            font-size: 1.25rem;
+            line-height: 1;
+            padding: 5px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            cursor: pointer;
+        }
+
+        #sections-container {
+            margin-top: 20px;
+        }
+
+        .start-screen article {
+            max-width: 600px;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .id-container {
+            font-style: italic;
+            color: #666;
+            cursor: pointer;
+            background: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .trailing-container {
+            margin-left: auto;
+            display: flex;
+            gap: 5px;
+        }
+
+        .trailing-container button {
+            margin-top: 0;
+            align-self: center;
+            align-items: center;
+        }
+
+        h2.section-title {
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title .icon {
+            font-size: 1.5rem;
+            line-height: 1;
+            padding: 5px;
+            margin-right: 5px;
+        }
+
+        .item-content-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .item-content-premium-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 5px;
+        }
+
+        .item-content-premium-container .icon {
+            color: #ac4ef0;
+            margin-top: 2px;
+        }
+
+        .item-content-premium-container textarea {
+            flex-grow: 1;
+        }
+
+        .item-fields {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            width: 300px;
+        }
+
+        .title-field-container {
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            resize: none;
+            overflow: hidden;
+            max-height: 100px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    <style id="dynamicStyles"></style>
+    <title>Limits Editor</title>
+</head>
+
+<body>
+    <div class="start-screen" id="start-screen">
+        <h1>Telegram Limits Editor</h1>
+        <article>
+            <p>Edit limits in your cloned Telegram-Limits folder. When you click Save – files are updated right on your
+                disk. No downloads required.</p>
+        </article>
+        <article>
+            <p><b>Pick Telegram-Limits Folder</b>: Open the folder where you cloned Telegram-Limits repository.</p>
+            <p><b>Open a Folder & Download Files</b>: Easiest option if you do not want to interact with Git. You will
+                be prompted to pick an empty folder on your
+                computer where this tool will download required files from the Telegram-Limits repository. You can
+                also specify the branch name to download files from. <code>master</code> is the default branch with
+                production data.</p>
+            <p><code>git clone git@github.com:tginfo/Telegram-Limits.git</code></p>
+        </article>
+        <p>
+            <button onclick="EditorUi.newSession()">Pick <code>Telegram-Limits</code> Folder</button>
+
+            <button onclick="EditorUi.downloadFiles()" id="downloadNewButton" class="secondary">
+                Open a Folder & Download Files
+            </button>
+        </p>
+        <p>
+            <button onclick="EditorUi.restoreSession()" disabled id="restoreSessionButton" class="secondary">
+                Open Last Used Folder
+            </button>
+        </p>
+    </div>
+    <main class="hidden" id="main"></main>
+    <script async>
+        class Idb {
+            static async getObjectStore() {
+                const idb = new Promise((resolve, reject) => {
+                    const request = indexedDB.open('limits', 1);
+
+                    request.onerror = () => reject(request.error);
+                    request.onsuccess = () => resolve(request.result);
+                    request.onupgradeneeded = () => {
+                        const db = request.result;
+                        db.createObjectStore('data', { keyPath: 'id' });
+                    };
+                });
+
+                const db = await idb;
+
+                const transaction = db.transaction('data', 'readwrite');
+
+                return transaction.objectStore('data');
+            }
+
+            static async getObjectByIndex(index) {
+                const store = await this.getObjectStore();
+                const request = store.get(index);
+
+                return new Promise((resolve, reject) => {
+                    request.onerror = () => reject(request.error);
+                    request.onsuccess = () => resolve(request.result);
+                });
+            }
+
+            static async setObjectByIndex(index, object) {
+                const store = await this.getObjectStore();
+                const request = store.put({ id: index, object });
+
+                return new Promise((resolve, reject) => {
+                    request.onerror = () => reject(request.error);
+                    request.onsuccess = () => resolve(request.result);
+                });
+            }
+        }
+
+        class WorkDirHandle {
+            handle = null;
+            structureFile = null;
+            localizationFile = null;
+            iconFile = null;
+            iconCodePointsFile = null;
+
+            constructor(handle) {
+                this.handle = handle;
+            }
+
+            static async checkHandleInIdb() {
+                try {
+                    const handleData = await Idb.getObjectByIndex('folder-handle');
+
+                    if (handleData) {
+                        return handleData.object;
+                    }
+
+                    return null;
+                } catch (e) {
+                    console.error(e);
+                    return null;
+                }
+            }
+
+            static async setHandleInIdb(handle) {
+                await Idb.setObjectByIndex('folder-handle', handle);
+            }
+
+            static async createNewHandle() {
+                const handle = await window.showDirectoryPicker({ id: 'limits', mode: 'readwrite' });
+                WorkDirHandle.setHandleInIdb(handle);
+
+                return handle;
+            }
+
+            async readFiles() {
+                const structureHandle = await this.handle.getDirectoryHandle('data');
+                const structureFile = await structureHandle.getFileHandle('structure.json');
+
+                const localizationHandle = await this.handle.getDirectoryHandle('localization');
+                const localizationEnHandle = await localizationHandle.getDirectoryHandle('en');
+                const localizationFile = await localizationEnHandle.getFileHandle('data.json');
+
+                const iconHandle = await (await this.handle.getDirectoryHandle('assets')).getDirectoryHandle('images');
+                const iconFile = await iconHandle.getFileHandle('icons.woff2');
+                const iconCodePointsFile = await iconHandle.getFileHandle('icons.codepoints');
+
+                const structure = await structureFile.getFile();
+                const localization = await localizationFile.getFile();
+
+                const icon = await iconFile.getFile();
+                const iconCodePoints = await iconCodePointsFile.getFile();
+
+                const structureText = await structure.text();
+                const localizationText = await localization.text();
+
+                const structureJson = JSON.parse(structureText);
+                const localizationJson = JSON.parse(localizationText);
+
+                const iconObjectUrl = URL.createObjectURL(icon);
+                const iconCodePointsText = await iconCodePoints.text();
+
+                const iconCodePointsMap = iconCodePointsText.split('\n').reduce((acc, line) => {
+                    const [name, codePoint] = line.split(' ');
+                    acc[name] = codePoint;
+
+                    return acc;
+                }, {});
+
+                this.structureFile = structureFile;
+                this.localizationFile = localizationFile;
+                this.iconFile = iconFile;
+                this.iconCodePointsFile = iconCodePointsFile;
+
+                return { structure: structureJson, localization: localizationJson, iconCodePointsMap, iconObjectUrl };
+            }
+
+            async writeFiles(structure, localization) {
+                const structureText = JSON.stringify(structure, null, 4);
+                const localizationText = JSON.stringify(localization, null, 4);
+
+                const structureWritable = await this.structureFile.createWritable();
+                await structureWritable.write(structureText);
+                await structureWritable.close();
+
+                const localizationWritable = await this.localizationFile.createWritable();
+                await localizationWritable.write(localizationText);
+                await localizationWritable.close();
+            }
+        }
+
+        class LimitsEditor {
+            structure = null;
+            localization = null;
+            iconCodePoints = null;
+
+            constructor(structure, localization, iconCodePoints) {
+                this.structure = structure;
+                this.localization = localization;
+                this.iconCodePoints = iconCodePoints;
+            }
+
+            validateSectionId(id) {
+                if (!id.match(/^[a-z0-9_]+$/)) {
+                    throw new Error(`Section id ${id} should contain only lowercase letters, numbers, and underscores`);
+                }
+
+                if (id.length === 0) {
+                    throw new Error(`Section id can't be empty`);
+                }
+
+                if (id.startsWith('_')) {
+                    throw new Error(`Section id ${id} can't start with an underscore`);
+                }
+
+                if (id.endsWith('_')) {
+                    throw new Error(`Section id ${id} can't end with an underscore`);
+                }
+            }
+
+            normalizeForId(name, duplicateNumber) {
+                const removeWords = ['a', 'an', 'the', 'in', 'on', 'at', 'to', 'of', 'for', 'with', 'by', 'and', 'or', 'nor', 'but', 'yet', 'so'];
+                const words = name.trim().toLowerCase().replace(/[^a-z0-9_ ]/g, '').split(' ');
+
+                const filteredWords = words.filter(word => !removeWords.includes(word.toLowerCase()));
+
+                let id = filteredWords.join('_');
+
+                if (duplicateNumber > 1) {
+                    id += `_${duplicateNumber}`;
+                }
+
+                return id;
+            }
+
+            validate() {
+                const structureSections = this.structure.map(section => section.id);
+                const localizationSections = Object.keys(this.localization);
+                console.log(structureSections, localizationSections);
+                const sectionsCount = Math.max(structureSections.length, localizationSections.length);
+
+                const structureSectionsCheck = this.structure.map(section => section.id);
+                const localizationSectionsCheck = Object.keys(this.localization);
+
+                for (const sectionId of structureSections) {
+                    if (!localizationSections.includes(sectionId)) {
+                        throw new Error(`Section ${sectionId} is missing in the localization`);
+                    }
+
+                    structureSectionsCheck.splice(structureSectionsCheck.indexOf(sectionId), 1);
+                }
+
+                for (const sectionId of localizationSections) {
+                    if (!structureSections.includes(sectionId)) {
+                        throw new Error(`Section ${sectionId} is missing in the structure`);
+                    }
+
+                    localizationSectionsCheck.splice(localizationSectionsCheck.indexOf(sectionId), 1);
+                }
+
+                if (localizationSectionsCheck.length > 0) {
+                    throw new Error(`Unexpected ${localizationSectionsCheck.join(', ')} sections in the localization`);
+                }
+
+                if (structureSectionsCheck.length > 0) {
+                    throw new Error(`Unexpected ${structureSectionsCheck.join(', ')} sections in the structure`);
+                }
+
+                if (new Set(localizationSections).size !== localizationSections.length) {
+                    throw new Error('Section ids are not unique in the localization');
+                }
+
+                if (new Set(structureSections).size !== structureSections.length) {
+                    throw new Error('Section ids are not unique in the structure');
+                }
+
+                if (structureSections.length !== localizationSections.length) {
+                    throw new Error('Structure and localization sections count mismatch');
+                }
+
+                if (sectionsCount === 0) {
+                    throw new Error('No sections found');
+                }
+
+                for (let i = 0; i < sectionsCount; i++) {
+                    if (structureSections[i] !== localizationSections[i]) {
+                        throw new Error(`${structureSections[i]} !== ${localizationSections[i]}. Structure and localization sections mismatch at index ${i}`);
+                    }
+
+                    this.validateSectionId(structureSections[i]);
+
+                    for (const sectionId of structureSections) {
+                        const structureSection = this.structure.find(section => section.id === sectionId);
+                        const localizationSection = this.localization[sectionId];
+
+                        const rgbRegex = /^(\d{1,3}), (\d{1,3}), (\d{1,3})$/;
+
+                        const match = structureSection.color.match(rgbRegex);
+                        if (!match) {
+                            throw new Error(`Section color ${structureSection.color} in section ${sectionId} does not match the RGB format`);
+                        }
+
+                        const [, r, g, b] = match;
+                        if (r < 0 || r > 255 || g < 0 || g > 255 || b < 0 || b > 255) {
+                            throw new Error(`Section color ${structureSection.color} in section ${sectionId} has invalid RGB values`);
+                        }
+
+                        const structureItems = structureSection.items.map(item => item.id);
+                        const localizationItems = Object.keys(localizationSection.items);
+                        const itemsCount = Math.max(structureItems.length, localizationItems.length);
+
+                        if (itemsCount === 0) {
+                            throw new Error(`No items found in section ${sectionId}`);
+                        }
+
+                        for (let i = 0; i < itemsCount; i++) {
+                            if (structureItems[i] !== localizationItems[i]) {
+                                throw new Error(`${structureItems[i]} !== ${localizationItems[i]}. Structure and localization items mismatch at index ${i} in section ${sectionId}`);
+                            }
+
+                            this.validateSectionId(structureItems[i]);
+
+                            const item = structureSection.items.find(item => item.id === structureItems[i]);
+                            const itemLocale = localizationSection.items[structureItems[i]];
+
+                            if (!itemLocale.name) {
+                                throw new Error(`Item name is empty for item ${item.id} in section ${sectionId}`);
+                            }
+
+                            if (!itemLocale.text && !itemLocale.text_premium) {
+                                throw new Error(`Item text is empty for item ${item.id} in section ${sectionId}`);
+                            }
+                        }
+
+                        if (new Set(structureItems).size !== structureItems.length) {
+                            throw new Error(`Item ids are not unique in the section ${sectionId}`);
+                        }
+
+                        for (const item of structureSection.items) {
+                            const iconName = item.icon;
+
+                            if (iconName.length === 0) {
+                                throw new Error(`Icon name is empty for item ${item.id} in section ${sectionId}`);
+                            }
+
+                            if (!this.iconCodePoints[iconName]) {
+                                throw new Error(`Icon ${iconName} is not found in the icon code points map for item ${item.id} in section ${sectionId}`);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        class EditorUi {
+            static workDirHandle = null;
+            static structure = null;
+            static localization = null;
+            static iconCodePointsMap = null;
+            static iconObjectUrl = null;
+            static editor = null;
+            static isDirty = false;
+            static contentElement = null;
+            static draggingType = null;
+
+            static async check() {
+                if (!('showDirectoryPicker' in window)) {
+                    alert('Your browser does not support the File System Access API. ' +
+                        'Please use a Chromium-based browser, like Google Chrome. Only Desktop version is supported.');
+                    return;
+                }
+
+                const handle = await WorkDirHandle.checkHandleInIdb();
+
+                if (handle) {
+                    this.workDirHandle = new WorkDirHandle(handle);
+                    document.getElementById('restoreSessionButton').disabled = false;
+                }
+            }
+
+            static async markDirty() {
+                this.editor.structure = this.structure;
+                this.editor.localization = this.localization;
+                this.isDirty = true;
+            }
+
+            static async save() {
+                try {
+                    this.editor.validate();
+                } catch (error) {
+                    console.error(error);
+                    if (!confirm("Errors found in generated files. Please report this to developers! \n\n" +
+                        "Do you want to save it anyway? Note that files that can't pass validation won't open " +
+                        "in the UI next time you will try to load them — you will have to fix them manually first\n\n" +
+                        " Error:" + error.message)) {
+                        return;
+                    }
+                }
+
+                try {
+                    await this.workDirHandle.writeFiles(this.structure, this.localization);
+                    this.isDirty = false;
+                    this.updateSaveStatus();
+                } catch (error) {
+                    console.error(error);
+                    alert("An error occurred while writing files: \n" + error.message);
+                }
+            }
+
+            static async newSession() {
+                try {
+                    this.workDirHandle = new WorkDirHandle(await WorkDirHandle.createNewHandle());
+                    const data = await this.workDirHandle.readFiles();
+                    this.applyData(data);
+                } catch (error) {
+                    console.error(error);
+                    alert("Are you sure you opened a Telegram-Limits folder? An error occurred while reading files: \n" + error.message);
+                }
+            }
+
+            static async restoreSession() {
+                try {
+                    const data = await this.workDirHandle.readFiles();
+                    this.applyData(data);
+                } catch (error) {
+                    console.error(error);
+                    alert("An error occurred while reading files: \n" + error.message);
+                }
+            }
+
+
+
+            static async downloadFiles() {
+                const button = document.getElementById('downloadNewButton');
+                try {
+                    button.disabled = true;
+                    button.textContent = 'Downloading...';
+                    const handle = await WorkDirHandle.createNewHandle();
+
+                    const entries = handle.values();
+                    if (entries.length > 0) {
+                        throw new Error('Folder is not empty');
+                    }
+
+                    const branchName = prompt('Enter the branch name to download files from', 'master');
+
+                    const structureHandle = await handle.getDirectoryHandle('data', { create: true });
+
+
+                    const structureFile = await structureHandle.getFileHandle('structure.json', { create: true });
+
+                    const localizationHandle = await handle.getDirectoryHandle('localization', { create: true });
+
+                    const localizationEnHandle = await localizationHandle.getDirectoryHandle('en', { create: true });
+                    const localizationFile = await localizationEnHandle.getFileHandle('data.json', { create: true });
+
+                    const iconHandle = await handle.getDirectoryHandle('assets', { create: true });
+                    const iconImagesHandle = await iconHandle.getDirectoryHandle('images', { create: true });
+
+                    const iconFile = await iconImagesHandle.getFileHandle('icons.woff2', { create: true });
+                    const iconCodePointsFile = await iconImagesHandle.getFileHandle('icons.codepoints', { create: true });
+
+
+                    const urlPrefix = 'https://raw.githubusercontent.com/tginfo/Telegram-Limits/' + branchName;
+                    const structureUrl = `${urlPrefix}/data/structure.json`;
+                    const localizationUrl = `${urlPrefix}/localization/en/data.json`;
+                    const iconUrl = `${urlPrefix}/assets/images/icons.woff2`;
+                    const iconCodePointsUrl = `${urlPrefix}/assets/images/icons.codepoints`;
+
+                    const structureResponse = await fetch(structureUrl);
+                    const localizationResponse = await fetch(localizationUrl);
+                    const iconResponse = await fetch(iconUrl);
+                    const iconCodePointsResponse = await fetch(iconCodePointsUrl);
+
+                    const structureBlob = await structureResponse.blob();
+                    const localizationBlob = await localizationResponse.blob();
+                    const iconBlob = await iconResponse.blob();
+                    const iconCodePointsBlob = await iconCodePointsResponse.blob();
+
+                    const structureWritable = await structureFile.createWritable();
+                    await structureWritable.write(structureBlob);
+                    await structureWritable.close();
+
+                    const localizationWritable = await localizationFile.createWritable();
+                    await localizationWritable.write(localizationBlob);
+                    await localizationWritable.close();
+
+                    const iconWritable = await iconFile.createWritable();
+                    await iconWritable.write(iconBlob);
+                    await iconWritable.close();
+
+                    const iconCodePointsWritable = await iconCodePointsFile.createWritable();
+                    await iconCodePointsWritable.write(iconCodePointsBlob);
+                    await iconCodePointsWritable.close();
+
+                    this.workDirHandle = new WorkDirHandle(handle);
+                    const data = await this.workDirHandle.readFiles();
+                    this.applyData(data);
+                } catch (e) {
+                    console.error(e);
+                    alert('An error occurred while initializing folder: ' + e.message);
+                } finally {
+                    button.disabled = false;
+                    button.textContent = 'Open a Folder & Download Files';
+                }
+            }
+
+            static async applyData(data) {
+                this.structure = data.structure;
+                this.localization = data.localization;
+                this.iconCodePointsMap = data.iconCodePointsMap;
+                this.iconObjectUrl = data.iconObjectUrl;
+
+                this.editor = new LimitsEditor(this.structure, this.localization, this.iconCodePointsMap);
+
+                document.getElementById('dynamicStyles').textContent = `
+                    @font-face {
+                        font-family: 'limits-icons';
+                        src: url('${this.iconObjectUrl}') format('woff2');
+                    }
+                `;
+
+                try {
+                    this.editor.validate();
+                } catch (error) {
+                    console.error(error);
+                    alert("Errors found. UI can't be used until the errors are fixed: \n" + error.message);
+                    return;
+                }
+
+                document.getElementById('start-screen').classList.add('hidden');
+                document.getElementById('main').classList.remove('hidden');
+
+                this.constructUi();
+            }
+
+            static constructUi() {
+                const main = document.getElementById('main');
+
+                const contentScroller = document.createElement('div');
+                contentScroller.classList.add('content-scroller');
+                main.appendChild(contentScroller);
+
+                const content = document.createElement('div');
+                content.id = 'content';
+                contentScroller.appendChild(content);
+                this.contentElement = content;
+
+                this.constructContent();
+
+                const toolbar = document.createElement('nav');
+                toolbar.id = 'toolbar';
+                main.appendChild(toolbar);
+
+                const helpButton = document.createElement('button');
+                helpButton.classList.add('icon');
+                helpButton.classList.add('secondary');
+                helpButton.textContent = 'help';
+                helpButton.addEventListener('click', () => EditorUi.openHelp("toolbar"));
+                toolbar.appendChild(helpButton);
+
+                const saveButton = document.createElement('button');
+                saveButton.classList.add('icon');
+                saveButton.classList.add('secondary');
+                saveButton.textContent = 'save';
+                saveButton.addEventListener('click', () => this.save());
+                toolbar.appendChild(saveButton);
+
+                const saveStatus = document.createElement('span');
+                saveStatus.id = 'save-status';
+                toolbar.appendChild(saveStatus);
+
+                this.updateSaveStatus = () => {
+                    saveStatus.textContent = this.isDirty ? 'Unsaved changes' : 'Saved';
+                    if (this.isDirty) {
+                        saveStatus.classList.add('unsaved');
+                        saveButton.classList.remove('secondary');
+                    } else {
+                        saveStatus.classList.remove('unsaved');
+                        saveButton.classList.add('secondary');
+                    }
+                }
+
+                setInterval(() => {
+                    this.updateSaveStatus();
+                }, 1000);
+            }
+
+            static constructContent() {
+                const content = this.contentElement;
+                content.innerHTML = '';
+                const sectionsTitle = document.createElement('h1');
+                sectionsTitle.classList.add('settings-title');
+                sectionsTitle.textContent = 'Sections';
+                content.appendChild(sectionsTitle);
+
+                const sectionsContainer = document.createElement('div');
+                sectionsContainer.id = 'sections-container';
+                content.appendChild(sectionsContainer);
+
+                this.constructSectionsSettings(sectionsContainer);
+
+                for (const section of this.structure) {
+                    const sectionElement = document.createElement('section');
+                    sectionElement.id = section.id;
+                    content.appendChild(sectionElement);
+
+                    const itemsEditorContainer = document.createElement('div');
+                    itemsEditorContainer.classList.add('items-editor-container');
+                    sectionElement.appendChild(itemsEditorContainer);
+
+                    this.constructItemsEditor(itemsEditorContainer, section);
+                }
+            }
+
+
+
+            static rgbToHex(rgb) {
+                const num = rgb.split(', ').map(num => parseInt(num));
+                return '#' + num.map(num => num.toString(16).padStart(2, '0')).join('');
+            }
+
+            static hexToRgb(hex) {
+                const num = parseInt(hex.replace('#', ''), 16);
+                return [(num >> 16) & 255, (num >> 8) & 255, num & 255].join(', ');
+            }
+
+            static constructSectionsSettings(sectionsContainer) {
+                sectionsContainer.innerHTML = '';
+                const sectionsSortable = document.createElement('div');
+                sectionsSortable.id = 'sections-sortable';
+                sectionsContainer.appendChild(sectionsSortable);
+
+                let indexCounter = 0;
+                let sectionElements = [];
+                for (const section of this.structure) {
+                    const myIndex = indexCounter++;
+                    const sectionLocale = this.localization[section.id];
+
+                    const sectionElement = document.createElement('div');
+                    sectionElement.classList.add('section-edit-panel');
+                    sectionElement.dataset.sectionId = section.id;
+                    sectionElement.dataset.sectionIndex = myIndex;
+                    sectionsSortable.appendChild(sectionElement);
+                    sectionElements.push(sectionElement);
+
+                    const sectionDragHandle = document.createElement('span');
+                    sectionDragHandle.classList.add('icon');
+                    sectionDragHandle.classList.add('drag-handle');
+                    sectionDragHandle.textContent = 'drag_indicator';
+                    sectionDragHandle.title = 'Drag to reorder';
+                    sectionElement.appendChild(sectionDragHandle);
+                    sectionDragHandle.addEventListener('mousedown', (e) => {
+                        sectionElement.draggable = true;
+
+                        sectionElement.addEventListener('dragend', () => {
+                            sectionElement.draggable = false;
+                            sectionElement.style.cursor = '';
+                        }, { once: true });
+                    });
+
+                    sectionElement.addEventListener('dragstart', (e) => {
+                        e.dataTransfer.setData('application/json', JSON.stringify({ type: 'section', sectionId: section.id, sectionIndex: myIndex }));
+                        e.dataTransfer.effectAllowed = 'move';
+                        this.draggingType = 'section';
+                    });
+
+                    sectionElement.addEventListener('dragover', (e) => {
+                        e.preventDefault();
+
+                        if (this.draggingType !== 'section') {
+                            return;
+                        }
+                        sectionElement.classList.add('drag-over');
+                    });
+
+                    sectionElement.addEventListener('dragleave', () => {
+                        sectionElement.classList.remove('drag-over');
+                    });
+
+                    sectionElement.addEventListener('drop', (e) => {
+                        e.preventDefault();
+                        sectionElement.classList.remove('drag-over');
+
+                        const draggedData = e.dataTransfer.getData('application/json');
+                        const { type, sectionIndex: draggedIndex } = JSON.parse(draggedData);
+
+                        if (type !== 'section') {
+                            alert(`Can't drop ${type} on a section`);
+                            return;
+                        }
+
+                        const draggedElement = sectionElements[draggedIndex];
+
+                        const draggedSection = this.structure[draggedIndex];
+                        const draggedSectionLocale = this.localization[draggedSection.id];
+
+                        const targetIndex = parseInt(sectionElement.dataset.sectionIndex);
+                        const targetSection = this.structure[targetIndex];
+                        const targetSectionLocale = this.localization[targetSection.id];
+
+                        this.structure.splice(draggedIndex, 1);
+                        this.structure.splice(targetIndex, 0, draggedSection);
+
+                        const sectionsOrder = this.structure.map(section => section.id);
+                        const newLocalization = {};
+                        for (const sectionId of sectionsOrder) {
+                            newLocalization[sectionId] = this.localization[sectionId];
+                        }
+
+                        this.localization = newLocalization;
+
+                        this.markDirty();
+                        this.constructContent();
+                    });
+
+                    const sectionIcon = this.constructIconPicker(section.icon, (icon) => {
+                        section.icon = icon;
+                        this.markDirty();
+                    });
+                    sectionIcon.title = 'Pick an icon for the title of the section';
+                    sectionElement.appendChild(sectionIcon);
+
+                    const sectionName = document.createElement('input');
+                    sectionName.type = 'text';
+                    sectionName.value = sectionLocale.name;
+                    sectionName.placeholder = 'Section Name';
+                    sectionName.title = 'Enter a name for the section';
+                    sectionElement.appendChild(sectionName);
+
+                    sectionName.addEventListener('input', () => {
+                        sectionLocale.name = sectionName.value.trim();
+                        this.markDirty();
+                    });
+
+                    const sectionColor = document.createElement('input');
+                    sectionColor.type = 'color';
+                    sectionColor.title = 'Pick a color for the section';
+                    sectionColor.value = this.rgbToHex(section.color);
+                    sectionElement.appendChild(sectionColor);
+                    sectionColor.addEventListener('input', () => {
+                        section.color = this.hexToRgb(sectionColor.value);
+                        this.markDirty();
+                    });
+
+                    const idContainer = document.createElement('span');
+                    idContainer.classList.add('id-container');
+                    idContainer.textContent = section.id;
+                    idContainer.title = 'Click to change the section ID';
+                    sectionElement.appendChild(idContainer);
+                    idContainer.addEventListener('click', () => {
+                        const newId = prompt('New Section ID:', section.id);
+
+                        if (!newId) return;
+                        if (newId === section.id) return;
+
+                        if (this.localization[newId]) {
+                            alert('Section with this ID already exists.');
+                            return;
+                        }
+
+                        try {
+                            this.editor.validateSectionId(newId);
+                        } catch (error) {
+                            alert(error.message);
+                            return;
+                        }
+
+                        const oldId = section.id;
+                        section.id = newId;
+                        this.localization[newId] = this.localization[oldId];
+                        delete this.localization[oldId];
+
+                        this.markDirty();
+                        this.constructContent();
+                    });
+
+                    const trailingContainer = document.createElement('span');
+                    trailingContainer.classList.add('trailing-container');
+                    sectionElement.appendChild(trailingContainer);
+
+                    const deleteSection = document.createElement('button');
+                    deleteSection.classList.add('secondary');
+                    deleteSection.classList.add('destructive');
+                    deleteSection.classList.add('icon');
+                    deleteSection.textContent = 'delete';
+                    deleteSection.title = 'Delete Section';
+                    deleteSection.addEventListener('click', () => {
+                        if (!confirm('Are you sure you want to delete this section?')) return;
+
+                        this.structure.splice(myIndex, 1);
+                        delete this.localization[section.id];
+
+                        this.markDirty();
+                        this.constructContent();
+                    });
+                    trailingContainer.appendChild(deleteSection);
+
+                    const jumpToSection = document.createElement('button');
+                    jumpToSection.classList.add('secondary');
+                    jumpToSection.classList.add('icon');
+                    jumpToSection.textContent = 'launch';
+                    jumpToSection.title = 'Jump to Section';
+                    jumpToSection.addEventListener('click', () => {
+                        const sectionElement = document.querySelector(`section#${section.id}`);
+                        sectionElement.scrollIntoView({ behavior: 'smooth' });
+                    });
+                    trailingContainer.appendChild(jumpToSection);
+                }
+
+                const addSectionPanel = document.createElement('div');
+                addSectionPanel.classList.add('section-add-panel');
+                sectionsContainer.appendChild(addSectionPanel);
+
+                const addSectionPanelRow = document.createElement('div');
+                addSectionPanelRow.classList.add('section-add-panel-row');
+                addSectionPanel.appendChild(addSectionPanelRow);
+
+                const plusIcon = document.createElement('span');
+                plusIcon.classList.add('icon');
+                plusIcon.classList.add('drag-handle-substitute');
+                plusIcon.textContent = 'arrow_circle_right';
+                addSectionPanelRow.appendChild(plusIcon);
+
+                let icon = null;
+                const newSectionIcon = this.constructIconPicker(null, (n) => {
+                    icon = n;
+                });
+                addSectionPanelRow.appendChild(newSectionIcon);
+
+                let sectionId = null;
+                const checkIfSectionIdExists = (newId) => this.structure.find(section => section.id === newId);
+
+                const idContainer = document.createElement('span');
+                idContainer.classList.add('id-container');
+                idContainer.addEventListener('click', () => {
+                    const newId = prompt('New Section ID:', sectionId);
+
+                    if (!newId) return;
+
+                    try {
+                        this.editor.validateSectionId(newId);
+                    } catch (error) {
+                        alert(error.message);
+                        return;
+                    }
+
+                    if (checkIfSectionIdExists(newId)) {
+                        alert('Section with this ID already exists.');
+                        return;
+                    }
+
+                    sectionId = newId;
+                    idContainer.textContent = newId;
+                });
+
+                const newSectionName = document.createElement('input');
+                newSectionName.type = 'text';
+                newSectionName.placeholder = 'Section Name';
+                newSectionName.title = 'Enter a name for the section';
+                addSectionPanelRow.appendChild(newSectionName);
+                newSectionName.addEventListener('input', () => {
+                    let duplicateNumber = 0;
+                    let newSectionId;
+
+                    do {
+                        duplicateNumber++;
+                        newSectionId = this.editor.normalizeForId(newSectionName.value, duplicateNumber);
+                    } while (checkIfSectionIdExists(newSectionId));
+
+                    sectionId = newSectionId;
+                    idContainer.textContent = sectionId;
+                });
+
+                const colorSuggestions = [
+                    '#EF5350',
+                    '#EC407A',
+                    '#AB47BC',
+                    '#7E57C2',
+                    '#5C6BC0',
+                    '#42A5F5',
+                    '#29B6F6',
+                    '#26C6DA',
+                    '#26A69A',
+                    '#66BB6A',
+                    '#9CCC65',
+                    '#D4E157',
+                    '#FFEE58',
+                    '#FFCA28',
+                    '#FFA726',
+                    '#FF7043',
+                    '#8D6E63',
+                    '#BDBDBD',
+                    '#78909C',
+                ];
+
+                const newSectionColor = document.createElement('input');
+                newSectionColor.type = 'color';
+                newSectionColor.title = 'Pick a color for the section';
+                newSectionColor.value = colorSuggestions[Math.floor(Math.random() * colorSuggestions.length)];
+                addSectionPanelRow.appendChild(newSectionColor);
+
+                addSectionPanelRow.appendChild(idContainer);
+
+                const trailingContainer = document.createElement('span');
+                trailingContainer.classList.add('trailing-container');
+                addSectionPanelRow.appendChild(trailingContainer);
+
+                const addSectionButton = document.createElement('button');
+                addSectionButton.classList.add('secondary');
+                addSectionButton.innerHTML = '<span class="icon">add</span> Add Section';
+                addSectionButton.addEventListener('click', () => {
+                    try {
+                        const name = newSectionName.value.trim();
+                        if (name.length === 0) {
+                            alert('Section name can\'t be empty');
+                            return;
+                        }
+
+                        if (!icon) {
+                            alert('Please pick an icon for the section');
+                            return;
+                        }
+
+                        try {
+                            this.editor.validateSectionId(sectionId);
+                        } catch (error) {
+                            alert('Invalid section ID: ' + error.message);
+                            return;
+                        }
+
+                        if (this.structure.find(section => section.id === sectionId)) {
+                            alert('Section with this ID already exists.');
+                            return;
+                        }
+
+                        if (!/#[0-9a-fA-F]{6}/.test(newSectionColor.value)) {
+                            alert('Invalid color value');
+                            return;
+                        }
+
+                        const color = this.hexToRgb(newSectionColor.value);
+
+                        this.structure.push({
+                            id: sectionId,
+                            icon,
+                            color,
+                            items: [],
+                        });
+
+                        this.localization[sectionId] = {
+                            name,
+                            items: {},
+                        };
+
+                        this.markDirty();
+                        this.constructContent();
+                    } catch (e) {
+                        alert(e.message);
+                    }
+                });
+                trailingContainer.appendChild(addSectionButton);
+            }
+
+            static constructItemsEditor(itemsEditorContainer, section) {
+                itemsEditorContainer.innerHTML = '';
+
+                const sectionLocale = this.localization[section.id];
+
+                const sectionTitle = document.createElement('h2');
+                sectionTitle.classList.add('section-title');
+                itemsEditorContainer.appendChild(sectionTitle);
+                sectionTitle.style.color = `rgb(${section.color})`;
+
+                const sectionIcon = document.createElement('span');
+                sectionIcon.classList.add('icon');
+                sectionIcon.textContent = section.icon;
+                sectionTitle.appendChild(sectionIcon);
+
+                const sectionName = document.createElement('span');
+                sectionName.textContent = sectionLocale.name;
+                sectionTitle.appendChild(sectionName);
+
+                const itemsSortable = document.createElement('div');
+                itemsSortable.className = 'items-sortable';
+                itemsEditorContainer.appendChild(itemsSortable);
+
+                let indexCounter = 0;
+                let itemElements = [];
+                for (const item of section.items) {
+                    const myIndex = indexCounter++;
+
+                    const itemElement = document.createElement('div');
+                    itemElement.classList.add('section-edit-panel');
+                    itemElement.classList.add('item-edit-panel');
+                    itemElement.dataset.itemIndex = myIndex;
+                    itemsSortable.appendChild(itemElement);
+                    itemElements.push(itemElement);
+
+                    const itemDragHandle = document.createElement('span');
+                    itemDragHandle.classList.add('icon');
+                    itemDragHandle.classList.add('drag-handle');
+                    itemDragHandle.textContent = 'drag_indicator';
+                    itemDragHandle.title = 'Drag to reorder';
+                    itemElement.appendChild(itemDragHandle);
+                    itemDragHandle.addEventListener('mousedown', (e) => {
+                        itemElement.draggable = true;
+
+                        itemElement.addEventListener('dragend', () => {
+                            itemElement.draggable = false;
+                            itemElement.style.cursor = '';
+                        }, { once: true });
+                    });
+
+                    itemElement.addEventListener('dragstart', (e) => {
+                        e.dataTransfer.setData('application/json', JSON.stringify({ type: 'item', sectionId: section.id, itemIndex: myIndex }));
+                        e.dataTransfer.effectAllowed = 'move';
+                        this.draggingType = 'item';
+                    });
+
+                    itemElement.addEventListener('dragover', (e) => {
+                        e.preventDefault();
+
+                        if (this.draggingType !== 'item') {
+                            return;
+                        }
+
+                        itemElement.classList.add('drag-over');
+                    });
+
+                    itemElement.addEventListener('dragleave', () => {
+                        itemElement.classList.remove('drag-over');
+                    });
+
+                    itemElement.addEventListener('drop', (e) => {
+                        e.preventDefault();
+                        itemElement.classList.remove('drag-over');
+
+                        const data = e.dataTransfer.getData('application/json');
+                        const { type, sectionId: sourceSectionId, itemIndex: draggedIndex } = JSON.parse(data);
+
+                        if (type !== 'item') {
+                            alert(`Can't drop ${type} on an item`);
+                            return;
+                        }
+
+
+                        const oldSection = this.structure.find(section => section.id === sourceSectionId);
+                        const oldSectionLocale = this.localization[sourceSectionId];
+
+                        const newSection = this.structure.find(s => s.id === section.id);
+                        const newSectionLocale = this.localization[section.id];
+
+                        const oldIndex = draggedIndex;
+                        const newIndex = myIndex;
+
+                        const draggedItem = oldSection.items[oldIndex];
+
+                        if (sourceSectionId === section.id && oldIndex === newIndex) return;
+
+                        if (sourceSectionId !== section.id) {
+                            if (!oldSection.items.find(item => item.id === draggedItem.id)) {
+                                alert(`Section ${sourceSectionId} no longer contains an item with ID ${draggedItem.id}. Please try reproducing the issue and report it to developers.`);
+                                return;
+                            }
+
+                            if (newSection.items.find(item => item.id === draggedItem.id)) {
+                                alert(`Section ${section.id} already contains an item with ID ${draggedItem.id}. Rename or delete it first.`);
+                                return;
+                            }
+                        }
+
+                        oldSection.items.splice(oldIndex, 1);
+                        newSection.items.splice(newIndex, 0, draggedItem);
+
+                        console.log(oldSection, newSection);
+
+                        const sourceLocale = {};
+                        for (const item of oldSection.items) {
+                            sourceLocale[item.id] = oldSectionLocale.items[item.id];
+                        }
+
+                        const targetLocale = {};
+                        for (const item of newSection.items) {
+                            if (item.id === draggedItem.id) {
+                                targetLocale[item.id] = oldSectionLocale.items[item.id];
+                                continue;
+                            }
+
+                            targetLocale[item.id] = newSectionLocale.items[item.id];
+                        }
+
+                        oldSectionLocale.items = sourceLocale;
+                        newSectionLocale.items = targetLocale;
+
+                        console.log(oldSectionLocale, newSectionLocale);
+
+                        this.markDirty();
+                        this.constructContent();
+                    });
+
+                    const itemIcon = this.constructIconPicker(item.icon, (icon) => {
+                        item.icon = icon;
+                        this.markDirty();
+                    });
+
+                    itemElement.appendChild(itemIcon);
+
+                    const itemFields = document.createElement('div');
+                    itemFields.classList.add('item-fields');
+                    itemElement.appendChild(itemFields);
+
+                    const titleFieldContainer = document.createElement('div');
+                    titleFieldContainer.classList.add('title-field-container');
+                    itemFields.appendChild(titleFieldContainer);
+
+                    const itemName = document.createElement('textarea');
+                    itemName.value = sectionLocale.items[item.id].name;
+                    itemName.placeholder = 'Title';
+                    itemName.title = 'Enter a name for the item';
+                    itemName.rows = 1;
+                    titleFieldContainer.appendChild(itemName);
+
+                    itemName.addEventListener('input', () => {
+                        itemName.style.height = "5px";
+                        itemName.style.height = (itemName.scrollHeight) + "px";
+
+                        sectionLocale.items[item.id].name = itemName.value.trim();
+                        this.markDirty();
+                    });
+
+                    const itemHint = document.createElement('textarea');
+                    itemHint.value = sectionLocale.items[item.id].hint || '';
+                    itemHint.placeholder = 'Hint';
+                    itemHint.title = 'Enter a hint for the item';
+                    itemHint.rows = 1;
+                    titleFieldContainer.appendChild(itemHint);
+
+                    itemHint.addEventListener('input', () => {
+                        itemHint.style.height = "5px";
+                        itemHint.style.height = (itemHint.scrollHeight) + "px";
+
+                        sectionLocale.items[item.id].hint = itemHint.value.trim();
+                        this.markDirty();
+                    });
+
+                    const itemContentContainer = document.createElement('div');
+                    itemContentContainer.classList.add('item-content-container');
+                    itemFields.appendChild(itemContentContainer);
+
+                    const itemContent = document.createElement('textarea');
+                    itemContent.value = sectionLocale.items[item.id].text || '';
+                    itemContent.placeholder = 'Limit Description';
+                    itemContent.title = 'Describe the limit';
+                    itemContent.rows = 1;
+                    itemContentContainer.appendChild(itemContent);
+
+                    itemContent.addEventListener('input', () => {
+                        itemContent.style.height = "5px";
+                        itemContent.style.height = (itemContent.scrollHeight) + "px";
+
+
+                        const newContent = itemContent.value.trim();
+                        sectionLocale.items[item.id].text = newContent || undefined;
+                        this.markDirty();
+                    });
+
+                    const itemContentPremiumContainer = document.createElement('div');
+                    itemContentPremiumContainer.classList.add('item-content-premium-container');
+                    itemFields.appendChild(itemContentPremiumContainer);
+
+                    const starIcon = document.createElement('span');
+                    starIcon.classList.add('icon');
+                    starIcon.textContent = 'star';
+                    itemContentPremiumContainer.appendChild(starIcon);
+
+                    const itemContentPremium = document.createElement('textarea');
+                    itemContentPremium.value = sectionLocale.items[item.id].text_premium || '';
+                    itemContentPremium.placeholder = 'Premium Limit Description';
+                    itemContentPremium.title = 'Describe the limit for Premium users';
+                    itemContentPremium.rows = 1;
+                    itemContentPremiumContainer.appendChild(itemContentPremium);
+
+                    itemContentPremium.addEventListener('input', () => {
+                        itemContentPremium.style.height = "5px";
+                        itemContentPremium.style.height = (itemContentPremium.scrollHeight) + "px";
+
+                        const newContent = itemContentPremium.value.trim();
+                        sectionLocale.items[item.id].text_premium = newContent || undefined;
+                        this.markDirty();
+                    });
+
+                    const idContainer = document.createElement('div');
+                    idContainer.classList.add('id-container');
+                    idContainer.textContent = item.id;
+                    idContainer.title = 'Click to change the item ID';
+                    itemFields.appendChild(idContainer);
+                    idContainer.addEventListener('click', () => {
+                        const newId = prompt('New Item ID:', item.id);
+
+                        if (!newId) return;
+                        if (newId === item.id) return;
+
+                        if (sectionLocale.items[newId]) {
+                            alert('Item with this ID already exists.');
+                            return;
+                        }
+
+                        try {
+                            this.editor.validateSectionId(newId);
+                        } catch (error) {
+                            alert(error.message);
+                            return;
+                        }
+
+                        const oldId = item.id;
+                        item.id = newId;
+                        sectionLocale.items[newId] = sectionLocale.items[oldId];
+                        delete sectionLocale.items[oldId];
+
+                        this.markDirty();
+                        this.constructContent();
+                    });
+
+                    const trailingContainer = document.createElement('div');
+                    trailingContainer.classList.add('trailing-container');
+                    itemElement.appendChild(trailingContainer);
+
+                    const deleteItem = document.createElement('button');
+                    deleteItem.classList.add('secondary');
+                    deleteItem.classList.add('destructive');
+                    deleteItem.classList.add('icon');
+                    deleteItem.textContent = 'delete';
+                    deleteItem.title = 'Delete Item';
+                    deleteItem.addEventListener('click', () => {
+                        if (!confirm('Are you sure you want to delete this item?')) return;
+
+                        section.items.splice(myIndex, 1);
+                        delete sectionLocale.items[item.id];
+
+                        this.markDirty();
+                        this.constructContent();
+                    });
+                    trailingContainer.appendChild(deleteItem);
+                }
+
+                const addItemPanel = document.createElement('div');
+                addItemPanel.classList.add('item-add-panel');
+                itemsEditorContainer.appendChild(addItemPanel);
+
+                const plusIcon = document.createElement('span');
+                plusIcon.classList.add('icon');
+                plusIcon.classList.add('drag-handle-substitute');
+                plusIcon.textContent = 'arrow_circle_right';
+                addItemPanel.appendChild(plusIcon);
+
+                let icon = null;
+                const newItemIcon = this.constructIconPicker(null, (n) => {
+                    icon = n;
+                });
+                addItemPanel.appendChild(newItemIcon);
+
+                const addItemPanelRow = document.createElement('div');
+                addItemPanelRow.classList.add('item-fields');
+                addItemPanel.appendChild(addItemPanelRow);
+
+                let itemId = null;
+                const checkIfItemIdExists = (newId) => section.items.find(item => item.id === newId);
+
+                const idContainer = document.createElement('span');
+                idContainer.classList.add('id-container');
+
+                const newItemTitleContainer = document.createElement('div');
+                newItemTitleContainer.classList.add('title-field-container');
+                addItemPanelRow.appendChild(newItemTitleContainer);
+
+                const newItemName = document.createElement('textarea');
+                newItemName.placeholder = 'Title';
+                newItemName.title = 'Enter a name for the limit';
+                newItemName.rows = 1;
+                newItemTitleContainer.appendChild(newItemName);
+                newItemName.addEventListener('input', () => {
+                    let duplicateNumber = 0;
+                    let newItemId;
+
+                    do {
+                        duplicateNumber++;
+                        newItemId = this.editor.normalizeForId(newItemName.value, duplicateNumber);
+                    } while (checkIfItemIdExists(newItemId));
+
+                    itemId = newItemId;
+                    idContainer.textContent = itemId;
+                });
+
+                const newItemHint = document.createElement('textarea');
+                newItemHint.placeholder = 'Hint';
+                newItemHint.title = 'Enter a hint for the limit';
+                newItemHint.rows = 1;
+                newItemTitleContainer.appendChild(newItemHint);
+
+                const newItemContent = document.createElement('textarea');
+                newItemContent.placeholder = 'Limit Description';
+                newItemContent.title = 'Describe the limit';
+                newItemContent.rows = 1;
+                addItemPanelRow.appendChild(newItemContent);
+
+                const newItemContentPremiumContainer = document.createElement('div');
+                newItemContentPremiumContainer.classList.add('item-content-premium-container');
+                addItemPanelRow.appendChild(newItemContentPremiumContainer);
+
+                const starIcon = document.createElement('span');
+                starIcon.classList.add('icon');
+                starIcon.textContent = 'star';
+                newItemContentPremiumContainer.appendChild(starIcon);
+
+                const newItemContentPremium = document.createElement('textarea');
+                newItemContentPremium.placeholder = 'Premium Limit Description';
+                newItemContentPremium.title = 'Describe the limit for Premium users';
+                newItemContentPremium.rows = 1;
+                newItemContentPremiumContainer.appendChild(newItemContentPremium);
+
+                addItemPanelRow.appendChild(idContainer);
+
+                const trailingContainer = document.createElement('span');
+                trailingContainer.classList.add('trailing-container');
+                addItemPanel.appendChild(trailingContainer);
+
+                const addItemButton = document.createElement('button');
+                addItemButton.classList.add('secondary');
+                addItemButton.innerHTML = '<span class="icon">add</span> Add Limit';
+
+                addItemButton.addEventListener('click', () => {
+                    try {
+                        const name = newItemName.value.trim();
+                        if (name.length === 0) {
+                            alert('Limit name can\'t be empty');
+                            return;
+                        }
+
+                        if (!icon) {
+                            alert('Please pick an icon for the limit');
+                            return;
+                        }
+
+                        try {
+                            this.editor.validateSectionId(itemId);
+                        } catch (error) {
+                            alert('Invalid limit ID: ' + error.message);
+                            return;
+                        }
+
+                        if (section.items.find(item => item.id === itemId)) {
+                            alert('Limit with this ID already exists.');
+                            return;
+                        }
+
+                        const hint = newItemHint.value.trim();
+                        const text = newItemContent.value.trim();
+                        const textPremium = newItemContentPremium.value.trim();
+
+                        if (!text && !textPremium) {
+                            alert('At least one of the descriptions must be filled');
+                            return;
+                        }
+
+                        section.items.push({
+                            id: itemId,
+                            icon,
+                        });
+
+                        sectionLocale.items[itemId] = {
+                            name,
+                            hint: hint || undefined,
+                            text: text || undefined,
+                            text_premium: textPremium || undefined,
+                        };
+
+                        this.markDirty();
+                        this.constructContent();
+                    } catch (e) {
+                        alert(e.message);
+                    }
+                });
+
+                trailingContainer.appendChild(addItemButton);
+            }
+
+            static constructIconPicker(value, onChange) {
+                const iconPicker = document.createElement('div');
+                iconPicker.classList.add('icon-picker');
+
+                const iconPreview = document.createElement('span');
+                iconPreview.classList.add('icon');
+                iconPreview.classList.add('icon-preview');
+                iconPreview.textContent = value;
+
+                if (value === null) {
+                    iconPreview.classList.add('placeholder');
+                    iconPreview.textContent = 'star_border'
+                }
+
+                iconPicker.appendChild(iconPreview);
+
+                iconPreview.addEventListener('click', () => {
+                    const iconSelectionPopup = document.createElement('div');
+                    iconSelectionPopup.classList.add('icon-selection-popup');
+                    iconPicker.appendChild(iconSelectionPopup);
+
+                    const iconHeader = document.createElement('div');
+                    iconHeader.classList.add('icon-header');
+                    iconSelectionPopup.appendChild(iconHeader);
+
+                    const iconHeaderRow = document.createElement('div');
+                    iconHeaderRow.classList.add('icon-header-row');
+                    iconHeader.appendChild(iconHeaderRow);
+
+                    const iconSearch = document.createElement('input');
+                    iconSearch.type = 'text';
+                    iconSearch.placeholder = 'Search icon...';
+                    iconSearch.value = value;
+                    iconHeaderRow.appendChild(iconSearch);
+
+                    const iconClose = document.createElement('button');
+                    iconClose.classList.add('secondary');
+                    iconClose.textContent = 'Close';
+                    iconClose.addEventListener('click', () => iconSelectionPopup.remove());
+                    iconHeaderRow.appendChild(iconClose);
+
+                    const googleFontsLink = document.createElement('a');
+                    googleFontsLink.classList.add('picker-subtext');
+                    googleFontsLink.href = 'https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Rounded';
+                    googleFontsLink.target = '_blank';
+                    googleFontsLink.textContent = 'Open Icon Library on Google Fonts';
+                    iconHeader.appendChild(googleFontsLink);
+
+                    const iconList = document.createElement('div');
+                    iconList.classList.add('icon-list');
+                    iconSelectionPopup.appendChild(iconList);
+
+                    const search = () => {
+                        iconSelectionPopup.classList.remove('no-results-grid');
+                        iconList.innerHTML = '';
+                        const query = iconSearch.value.toLowerCase().replace(/\s/g, '_').replace(/[^a-z0-9_]/g, '').trim();
+
+                        let counter = 0;
+                        for (const icon of Object.keys(this.iconCodePointsMap)) {
+                            if (icon.includes(query)) {
+                                counter++;
+                                const iconElement = document.createElement('span');
+                                iconElement.classList.add('icon');
+                                iconElement.textContent = icon;
+                                iconElement.addEventListener('click', () => {
+                                    value = icon;
+                                    iconPreview.textContent = icon;
+                                    iconPreview.classList.remove('placeholder');
+                                    onChange(icon);
+                                    iconSelectionPopup.remove();
+                                });
+                                iconList.appendChild(iconElement);
+                            }
+                        }
+
+                        if (counter === 0) {
+                            iconSelectionPopup.classList.add('no-results-grid');
+                            const noResults = document.createElement('div');
+                            noResults.classList.add('no-results');
+
+                            const noResultsText = document.createElement('span');
+                            noResultsText.textContent = 'For better results, open Google Fonts';
+                            noResults.appendChild(noResultsText);
+
+                            const noResultsLink = document.createElement('a');
+                            noResultsLink.href = 'https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Rounded&icon.query=' + encodeURIComponent(query);
+                            noResultsLink.target = '_blank';
+                            noResultsLink.textContent = 'Go to Google Fonts';
+                            noResults.appendChild(noResultsLink);
+
+                            iconList.appendChild(noResults);
+                        }
+                    }
+
+                    iconSearch.addEventListener('input', () => {
+                        search();
+                    }, { passive: true });
+
+                    iconSearch.focus();
+
+                    iconSearch.addEventListener('keydown', (e) => {
+                        if (e.key === 'Escape') {
+                            iconClose.click();
+                        }
+
+                        if (e.key === 'Enter') {
+                            const firstIcon = iconList.querySelector('.icon');
+                            if (firstIcon) {
+                                firstIcon.click();
+                            }
+                        }
+                    });
+
+                    setTimeout(() => {
+                        search();
+                    }, 0);
+                });
+
+                return iconPicker;
+            }
+        }
+
+        EditorUi.check();
+
+        window.onbeforeunload = (e) => {
+            if (EditorUi.isDirty) {
+                e.preventDefault();
+                e.returnValue = '';
+            }
+        };
+    </script>
+</body>
+
+</html>

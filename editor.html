@@ -1245,6 +1245,14 @@
                         this.localization[newId] = this.localization[oldId];
                         delete this.localization[oldId];
 
+                        const newLocalization = {};
+
+                        for (const section of this.structure) {
+                            newLocalization[section.id] = this.localization[section.id];
+                        }
+
+                        this.localization = newLocalization;
+
                         this.markDirty();
                         this.constructContent();
                     });
@@ -1704,6 +1712,14 @@
                         item.id = newId;
                         sectionLocale.items[newId] = sectionLocale.items[oldId];
                         delete sectionLocale.items[oldId];
+
+                        const newItems = {};
+
+                        for (const item of section.items) {
+                            newItems[item.id] = sectionLocale.items[item.id];
+                        }
+
+                        sectionLocale.items = newItems;
 
                         this.markDirty();
                         this.constructContent();

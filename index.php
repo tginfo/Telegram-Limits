@@ -186,7 +186,7 @@ $markup = [
                                     <div class="item" role="row">
                                         <md-icon aria-hidden="true"><?= $item["icon"] ?></md-icon>
                                         <div class="content">
-                                            <div class="title" role="columnheader"><?= $cur_item["name"] ?> <span class="info"><?= $cur_item["hint"] ?></span></div>
+                                            <div class="title" role="columnheader"><?= $cur_item["name"] ?> <span class="info"><?= isset($cur_item["hint"]) ? $cur_item["hint"] : '' ?></span></div>
                                             <div class="data" role="cell"><?= $cur_item["text"] ?></div>
                                             <?php if (isset($cur_item["text_premium"])) { ?>
                                             <div class="data premium" role="cell" title="<?=__("for_premium_users", UCOMP) ?>"><?= $cur_item["text_premium"] ?></div>

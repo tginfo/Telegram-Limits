@@ -868,6 +868,18 @@
             }
 
             static async suggestEdit() {
+                let error;
+                try {
+                    this.editor.validate();
+                } catch (e) {
+                    console.error(e);
+                    const answer = confirm("Errors found in the generated files. Do you want to submit a bug report?\n\nError: " + e.message);
+                    if (!answer) {
+                        return;
+                    }
+                    error = e;
+                }
+
                 try {
                     const dialog = document.createElement('dialog');
                     dialog.innerHTML = `
@@ -896,6 +908,11 @@
                         </form>
                     `;
 
+                    if (error) {
+                        dialog.querySelector('#description').maxLength = 600;
+                        dialog.querySelector('#description').value = '<Please tell us what did you change that could have caused the files to break!';
+                    }
+
                     dialog.querySelector('#cancelButton').addEventListener('click', () => {
                         dialog.close();
                         dialog.remove();
@@ -904,10 +921,19 @@
                         try {
                             const url = 'https://limits.tginfo.me/prop/suggest.php';
 
+                            let desc =  dialog.querySelector('#description').value;
+
+                            if (error) {
+                                desc += '\n\nError: ' + error.message;
+                                if (desc.length > 800) {
+                                    desc = desc.slice(0, 800);
+                                }
+                            }
+
                             const data = {
                                 structure: this.structure,
                                 localization: this.localization,
-                                description: dialog.querySelector('#description').value,
+                                description: desc,
                                 contact: dialog.querySelector('#contact').value,
                             };
 

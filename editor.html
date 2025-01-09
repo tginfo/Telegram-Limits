@@ -799,6 +799,22 @@
                         const structureSection = this.structure.find(section => section.id === sectionId);
                         const localizationSection = this.localization[sectionId];
 
+                        if (!localizationSection.name) {
+                            throw new ValidationError(`Section name is empty for section ${sectionId}`, true);
+                        }
+
+                        if (!structureSection.color) {
+                            throw new ValidationError(`Section color is empty for section ${sectionId}`, true);
+                        }
+
+                        if (!structureSection.icon) {
+                            throw new ValidationError(`Section icon is empty for section ${sectionId}`, true);
+                        }
+
+                        if (!this.iconCodePoints[structureSection.icon]) {
+                            throw new ValidationError(`Icon ${structureSection.icon} is not found in the icon code points map for section ${sectionId}`, true);
+                        }
+
                         const rgbRegex = /^(\d{1,3}), (\d{1,3}), (\d{1,3})$/;
 
                         const match = structureSection.color.match(rgbRegex);
@@ -846,11 +862,11 @@
                             const iconName = item.icon;
 
                             if (iconName.length === 0) {
-                                throw new ValidationError(`Icon name is empty for item ${item.id} in section ${sectionId}`);
+                                throw new ValidationError(`Icon name is empty for item ${item.id} in section ${sectionId}`, true);
                             }
 
                             if (!this.iconCodePoints[iconName]) {
-                                throw new ValidationError(`Icon ${iconName} is not found in the icon code points map for item ${item.id} in section ${sectionId}`);
+                                throw new ValidationError(`Icon ${iconName} is not found in the icon code points map for item ${item.id} in section ${sectionId}`, true);
                             }
                         }
                     }

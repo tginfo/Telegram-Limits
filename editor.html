@@ -736,6 +736,11 @@
                     id += `_${duplicateNumber}`;
                 }
 
+                id = id.replace(/_+$/, '');
+                id = id.replace(/^_+/, '');
+
+                id = id.replace(/_+/g, '_');
+
                 return id;
             }
 

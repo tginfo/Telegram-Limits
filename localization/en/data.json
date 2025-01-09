@@ -403,15 +403,15 @@
                 "text": "up to 10 folders",
                 "text_premium": "up to 30 folders"
             },
-            "pinned_chats_in_folder": {
-                "name": "Pinned chats in a folder",
-                "hint": "",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
-            },
             "chats_per_folder": {
                 "name": "Chats per folder",
                 "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            },
+            "pinned_chats_in_folder": {
+                "name": "Pinned chats in a folder",
+                "hint": "",
                 "text": "up to 100 chats",
                 "text_premium": "up to 200 chats"
             }

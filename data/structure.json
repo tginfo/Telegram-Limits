@@ -339,12 +339,12 @@
                 "icon": "create_new_folder"
             },
             {
-                "id": "pinned_chats_in_folder",
-                "icon": "push_pin"
-            },
-            {
                 "id": "chats_per_folder",
                 "icon": "folder_shared"
+            },
+            {
+                "id": "pinned_chats_in_folder",
+                "icon": "push_pin"
             }
         ]
     },

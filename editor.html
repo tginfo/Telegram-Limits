@@ -688,6 +688,13 @@
             }
         }
 
+        class ValidationError extends Error {
+            constructor(message, isUserError = false) {
+                super(message);
+                this.isUserError = isUserError;
+            }
+        }
+
         class LimitsEditor {
             structure = null;
             localization = null;
@@ -701,19 +708,19 @@
 
             validateSectionId(id) {
                 if (!id.match(/^[a-z0-9_]+$/)) {
-                    throw new Error(`Section id ${id} should contain only lowercase letters, numbers, and underscores`);
+                    throw new ValidationError(`Section id ${id} should contain only lowercase letters, numbers, and underscores`);
                 }
 
                 if (id.length === 0) {
-                    throw new Error(`Section id can't be empty`);
+                    throw new ValidationError(`Section id can't be empty`);
                 }
 
                 if (id.startsWith('_')) {
-                    throw new Error(`Section id ${id} can't start with an underscore`);
+                    throw new ValidationError(`Section id ${id} can't start with an underscore`);
                 }
 
                 if (id.endsWith('_')) {
-                    throw new Error(`Section id ${id} can't end with an underscore`);
+                    throw new ValidationError(`Section id ${id} can't end with an underscore`);
                 }
             }
 
@@ -743,7 +750,7 @@
 
                 for (const sectionId of structureSections) {
                     if (!localizationSections.includes(sectionId)) {
-                        throw new Error(`Section ${sectionId} is missing in the localization`);
+                        throw new ValidationError(`Section ${sectionId} is missing in the localization`);
                     }
 
                     structureSectionsCheck.splice(structureSectionsCheck.indexOf(sectionId), 1);
@@ -751,39 +758,39 @@
 
                 for (const sectionId of localizationSections) {
                     if (!structureSections.includes(sectionId)) {
-                        throw new Error(`Section ${sectionId} is missing in the structure`);
+                        throw new ValidationError(`Section ${sectionId} is missing in the structure`);
                     }
 
                     localizationSectionsCheck.splice(localizationSectionsCheck.indexOf(sectionId), 1);
                 }
 
                 if (localizationSectionsCheck.length > 0) {
-                    throw new Error(`Unexpected ${localizationSectionsCheck.join(', ')} sections in the localization`);
+                    throw new ValidationError(`Unexpected ${localizationSectionsCheck.join(', ')} sections in the localization`);
                 }
 
                 if (structureSectionsCheck.length > 0) {
-                    throw new Error(`Unexpected ${structureSectionsCheck.join(', ')} sections in the structure`);
+                    throw new ValidationError(`Unexpected ${structureSectionsCheck.join(', ')} sections in the structure`);
                 }
 
                 if (new Set(localizationSections).size !== localizationSections.length) {
-                    throw new Error('Section ids are not unique in the localization');
+                    throw new ValidationError('Section ids are not unique in the localization');
                 }
 
                 if (new Set(structureSections).size !== structureSections.length) {
-                    throw new Error('Section ids are not unique in the structure');
+                    throw new ValidationError('Section ids are not unique in the structure');
                 }
 
                 if (structureSections.length !== localizationSections.length) {
-                    throw new Error('Structure and localization sections count mismatch');
+                    throw new ValidationError('Structure and localization sections count mismatch');
                 }
 
                 if (sectionsCount === 0) {
-                    throw new Error('No sections found');
+                    throw new ValidationError('No sections found', true);
                 }
 
                 for (let i = 0; i < sectionsCount; i++) {
                     if (structureSections[i] !== localizationSections[i]) {
-                        throw new Error(`${structureSections[i]} !== ${localizationSections[i]}. Structure and localization sections mismatch at index ${i}`);
+                        throw new ValidationError(`${structureSections[i]} !== ${localizationSections[i]}. Structure and localization sections mismatch at index ${i}`);
                     }
 
                     this.validateSectionId(structureSections[i]);
@@ -796,12 +803,12 @@
 
                         const match = structureSection.color.match(rgbRegex);
                         if (!match) {
-                            throw new Error(`Section color ${structureSection.color} in section ${sectionId} does not match the RGB format`);
+                            throw new ValidationError(`Section color ${structureSection.color} in section ${sectionId} does not match the RGB format`);
                         }
 
                         const [, r, g, b] = match;
                         if (r < 0 || r > 255 || g < 0 || g > 255 || b < 0 || b > 255) {
-                            throw new Error(`Section color ${structureSection.color} in section ${sectionId} has invalid RGB values`);
+                            throw new ValidationError(`Section color ${structureSection.color} in section ${sectionId} has invalid RGB values`);
                         }
 
                         const structureItems = structureSection.items.map(item => item.id);
@@ -809,12 +816,12 @@
                         const itemsCount = Math.max(structureItems.length, localizationItems.length);
 
                         if (itemsCount === 0) {
-                            throw new Error(`No items found in section ${sectionId}`);
+                            throw new ValidationError(`No items found in section ${sectionId}`, true);
                         }
 
                         for (let i = 0; i < itemsCount; i++) {
                             if (structureItems[i] !== localizationItems[i]) {
-                                throw new Error(`${structureItems[i]} !== ${localizationItems[i]}. Structure and localization items mismatch at index ${i} in section ${sectionId}`);
+                                throw new ValidationError(`${structureItems[i]} !== ${localizationItems[i]}. Structure and localization items mismatch at index ${i} in section ${sectionId}`);
                             }
 
                             this.validateSectionId(structureItems[i]);
@@ -823,27 +830,27 @@
                             const itemLocale = localizationSection.items[structureItems[i]];
 
                             if (!itemLocale.name) {
-                                throw new Error(`Item name is empty for item ${item.id} in section ${sectionId}`);
+                                throw new ValidationError(`Item name is empty for item ${item.id} in section ${sectionId}`, true);
                             }
 
                             if (!itemLocale.text && !itemLocale.text_premium) {
-                                throw new Error(`Item text is empty for item ${item.id} in section ${sectionId}`);
+                                throw new ValidationError(`Item text is empty for item ${item.id} in section ${sectionId}`, true);
                             }
                         }
 
                         if (new Set(structureItems).size !== structureItems.length) {
-                            throw new Error(`Item ids are not unique in the section ${sectionId}`);
+                            throw new ValidationError(`Item ids are not unique in the section ${sectionId}`);
                         }
 
                         for (const item of structureSection.items) {
                             const iconName = item.icon;
 
                             if (iconName.length === 0) {
-                                throw new Error(`Icon name is empty for item ${item.id} in section ${sectionId}`);
+                                throw new ValidationError(`Icon name is empty for item ${item.id} in section ${sectionId}`);
                             }
 
                             if (!this.iconCodePoints[iconName]) {
-                                throw new Error(`Icon ${iconName} is not found in the icon code points map for item ${item.id} in section ${sectionId}`);
+                                throw new ValidationError(`Icon ${iconName} is not found in the icon code points map for item ${item.id} in section ${sectionId}`);
                             }
                         }
                     }
@@ -873,7 +880,10 @@
                     this.editor.validate();
                 } catch (e) {
                     console.error(e);
-                    const answer = confirm("Errors found in the generated files. Do you want to submit a bug report?\n\nError: " + e.message);
+                    const answer = confirm(
+                        e.isUserError ? "Errors found in your files: \n" + e.message + "\n\nDo you want to submit anyway?" :
+                            "Errors found in the generated files. Do you want to submit a bug report?\n\nError: " + e.message
+                    );
                     if (!answer) {
                         return;
                     }
@@ -910,7 +920,7 @@
 
                     if (error) {
                         dialog.querySelector('#description').maxLength = 600;
-                        dialog.querySelector('#description').value = '<Please tell us what did you change that could have caused the files to break!';
+                        if (!error.isUserError) dialog.querySelector('#description').value = 'Please tell us what did you change that could have caused the files to break!';
                     }
 
                     dialog.querySelector('#cancelButton').addEventListener('click', () => {
@@ -921,7 +931,7 @@
                         try {
                             const url = 'https://limits.tginfo.me/prop/suggest.php';
 
-                            let desc =  dialog.querySelector('#description').value;
+                            let desc = dialog.querySelector('#description').value;
 
                             if (error) {
                                 desc += '\n\nError: ' + error.message;
@@ -985,9 +995,14 @@
                     this.editor.validate();
                 } catch (error) {
                     console.error(error);
-                    if (!confirm("Errors found in generated files. Please report this to developers! \n\n" +
+
+                    const fatalErrorWarning = "Errors found in generated files. Please report this to developers! \n\n" +
                         "Do you want to save it anyway? Note that files that can't pass validation won't open " +
-                        "in the UI next time you will try to load them — you will have to fix them manually first\n\n" +
+                        "in the UI next time you will try to load them — you will have to fix them manually first\n\n";
+
+                    const userErrorWarning = "Non-fatal errors found in your files. Save anyway? \n";
+
+                    if (!confirm((error.isUserError ? userErrorWarning : fatalErrorWarning) +
                         " Error:" + error.message)) {
                         return;
                     }
@@ -1163,8 +1178,13 @@
                     this.editor.validate();
                 } catch (error) {
                     console.error(error);
-                    alert("Errors found. UI can't be used until the errors are fixed: \n" + error.message);
-                    return;
+
+                    if (error.isUserError) {
+                        alert('Errors found in your files: \n' + error.message + '\n\nThis error is not fatal and you can proceed with editing.');
+                    } else {
+                        alert("Errors found. UI can't be used until the errors are fixed: \n" + error.message);
+                        return;
+                    }
                 }
 
                 document.getElementById('start-screen').classList.add('hidden');

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Suggest edits
+    url: https://limits.tginfo.me/editor.html
+    about: Edit Telegram Limits website and send your suggestion to @tginfo

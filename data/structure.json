@@ -33,10 +33,6 @@
                 "icon": "groups"
             },
             {
-                "id": "geochats_number",
-                "icon": "person_pin_circle"
-            },
-            {
                 "id": "gifs_number",
                 "icon": "gif"
             },
@@ -55,6 +51,18 @@
             {
                 "id": "visible_messages",
                 "icon": "visibility"
+            },
+            {
+                "id": "sticker_packs_per_account",
+                "icon": "emoji_emotions"
+            },
+            {
+                "id": "emoji_packs_per_account",
+                "icon": "category"
+            },
+            {
+                "id": "username_ownership_for_auction",
+                "icon": "gavel"
             }
         ]
     },
@@ -138,6 +146,29 @@
             {
                 "id": "read_receipts_availability",
                 "icon": "date_range"
+            }
+        ]
+    },
+    {
+        "id": "topic",
+        "icon": "topic",
+        "color": "156, 39, 176",
+        "items": [
+            {
+                "id": "visible_users_in_topic_group",
+                "icon": "visibility"
+            },
+            {
+                "id": "topics_per_group",
+                "icon": "format_list_numbered"
+            },
+            {
+                "id": "topic_title_length",
+                "icon": "title"
+            },
+            {
+                "id": "pinned_topics",
+                "icon": "push_pin"
             }
         ]
     },
@@ -259,6 +290,38 @@
             {
                 "id": "delaying_messages",
                 "icon": "date_range"
+            },
+            {
+                "id": "custom_emoji_per_message",
+                "icon": "emoji_emotions"
+            },
+            {
+                "id": "links_per_message",
+                "icon": "link"
+            }
+        ]
+    },
+    {
+        "id": "poll",
+        "icon": "poll",
+        "color": "255, 87, 34",
+        "name": "Polls",
+        "items": [
+            {
+                "id": "poll_question_length",
+                "icon": "help_outline"
+            },
+            {
+                "id": "quiz_question_length",
+                "icon": "quiz"
+            },
+            {
+                "id": "poll_options_count",
+                "icon": "list_alt"
+            },
+            {
+                "id": "poll_option_length",
+                "icon": "short_text"
             }
         ]
     },
@@ -268,32 +331,35 @@
         "color": "156, 39, 176",
         "items": [
             {
+                "id": "name_length",
+                "icon": "text_rotation_none"
+            },
+            {
                 "id": "folder_amount",
                 "icon": "create_new_folder"
             },
             {
                 "id": "pinned_chats_in_folder",
-                "text": "до 100 штук",
                 "icon": "push_pin"
+            },
+            {
+                "id": "chats_per_folder",
+                "icon": "folder_shared"
             }
         ]
     },
     {
-        "id": "people_nearby",
-        "icon": "person_pin_circle",
-        "color": "175, 180, 43",
+        "id": "public_folders",
+        "icon": "folder_shared",
+        "color": "156, 39, 176",
         "items": [
             {
-                "id": "range",
-                "icon": "track_changes"
+                "id": "public_folders_count",
+                "icon": "folder_special"
             },
             {
-                "id": "amount_of_people",
+                "id": "chats_per_public_folder",
                 "icon": "groups"
-            },
-            {
-                "id": "geochats_number",
-                "icon": "forum"
             }
         ]
     },
@@ -307,7 +373,7 @@
                 "icon": "widgets"
             },
             {
-                "id": "username length",
+                "id": "username_length",
                 "icon": "alternate_email"
             },
             {
@@ -343,8 +409,20 @@
                 "icon": "format_shapes"
             },
             {
-                "id": "messaging_frequency_groups",
+                "id": "formatting_entities",
+                "icon": "flip_to_front"
+            },
+            {
+                "id": "messaging_frequency",
                 "icon": "speed"
+            },
+            {
+                "id": "messaging_frequency_groups",
+                "icon": "people"
+            },
+            {
+                "id": "messaging_frequency_broadcast",
+                "icon": "campaign"
             },
             {
                 "id": "api_requests_frequency",
@@ -377,14 +455,57 @@
         ]
     },
     {
+        "id": "stories",
+        "icon": "auto_stories",
+        "color": "76, 175, 80",
+        "items": [
+            {
+                "id": "story_availability",
+                "icon": "public"
+            },
+            {
+                "id": "story_lifetime",
+                "icon": "hourglass_empty"
+            },
+            {
+                "id": "story_duration",
+                "icon": "timer"
+            },
+            {
+                "id": "story_viewers_visibility",
+                "icon": "visibility"
+            },
+            {
+                "id": "story_daily_limit",
+                "icon": "today"
+            },
+            {
+                "id": "story_weekly_limit",
+                "icon": "date_range"
+            },
+            {
+                "id": "story_monthly_limit",
+                "icon": "calendar_month"
+            },
+            {
+                "id": "story_text_length",
+                "icon": "text_fields"
+            },
+            {
+                "id": "story_incognito_frequency",
+                "icon": "update"
+            },
+            {
+                "id": "story_incognito_duration",
+                "icon": "timer_off"
+            }
+        ]
+    },
+    {
         "id": "search",
         "icon": "search",
         "color": "63, 81, 181",
         "items": [
-            {
-                "id": "global_search",
-                "icon": "receipt_long"
-            },
             {
                 "id": "global_search_min_query",
                 "icon": "text_rotation_none"
@@ -435,6 +556,10 @@
             {
                 "id": "stickerpack_url_length",
                 "icon": "link"
+            },
+            {
+                "id": "emojis_per_pack",
+                "icon": "sentiment_satisfied_alt"
             }
         ]
     },

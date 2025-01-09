@@ -10,7 +10,8 @@
       "bio": {
         "name": "Biografia",
         "hint": "",
-        "text": "do 70 znaków; dla użytkowników Premium – do 140 znaków"
+        "text": "do 70 znaków",
+        "text_premium": "do 140 znaków"
       },
       "name_length": {
         "name": "Długość imienia",
@@ -25,27 +26,25 @@
       "self_destruction": {
         "name": "Okres samozniszczenia konta",
         "hint": "w przypadku braku aktywności",
-        "text": "1, 3, 6 i 12 miesięcy (domyślnie 6)"
+        "text": "1, 3, 6, 12, 18, 24 (domyślnie 12)"
       },
       "spam_ban": {
         "name": "Blokada za SPAM",
         "hint": "",
-        "text": "od 1 dnia do na zawsze"
+        "text": "od 1 dnia do na zawsze",
+        "text_premium": "od 1 sekundy do na zawsze"
       },
       "channels_and_chats_number": {
         "name": "Liczba kanałów i supergrup",
         "hint": ", do których możesz należeć",
-        "text": "do 500 (w tym stworzone przez ciebie); dla użytkowników Premium – do 1000"
-      },
-      "geochats_number": {
-        "name": "Liczba geoczatów,",
-        "hint": "w których możesz być członkiem",
-        "text": "do 5 (w tym te stworzone przez Ciebie)"
+        "text": "do 500 (w tym stworzone przez ciebie)",
+        "text_premium": "do 1000 (w tym stworzone przez ciebie)"
       },
       "gifs_number": {
         "name": "Liczba zapisanych GIF-ów",
         "hint": "",
-        "text": "do 200; dla użytkowników Premium – do 400"
+        "text": "do 200",
+        "text_premium": "do 400"
       },
       "video_length": {
         "name": "Czas trwania awatara wideo",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "Ilość kont",
         "hint": "(oficjalni klienci)",
-        "text": "do 3; dla użytkowników Premium – do 4-6 (zależy od aplikacji)"
+        "text": "do 3",
+        "text_premium": "do 4-6 (w zależności od aplikacji)"
       },
       "visible_messages": {
         "name": "Liczba widocznych wiadomości",
@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Liczba folderów",
         "hint": "",
-        "text": "do 10 folderów; dla użytkowników Premium – do 20 folderów"
+        "text": "do 10 folderów; dla użytkowników Premium – do 30 folderów"
       },
       "pinned_chats_in_folder": {
         "name": "Przypięte czaty w folderze",

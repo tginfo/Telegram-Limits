@@ -5,12 +5,13 @@
       "username": {
         "name": "Username",
         "hint": "(имя пользователя; например @cameraman)",
-        "text": "от 5 до 32 символов, от 4 символов для имён NFT"
+        "text": "От 5 до 32 символов, от 4 символов для имён NFT"
       },
       "bio": {
         "name": "Раздел \"О себе\" (Bio)",
         "hint": "",
-        "text": "70 символов; для подписчиков Telegram Premium - 140 символов"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Длина имени",
@@ -25,27 +26,25 @@
       "self_destruction": {
         "name": "Срок самоуничтожения аккаунта",
         "hint": "при отсутствии активности",
-        "text": "1, 3, 6 и 12 месяцев (6 по умолчанию)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "Спам-бан",
         "hint": "",
-        "text": "от 1 дня до навсегда"
+        "text": "от 1 дня до навсегда",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "Количество каналов и супергрупп",
         "hint": "в которых можно состоять",
-        "text": "до 500 (включая созданные Вами); для подписчиков Telegram Premium - до 1000"
-      },
-      "geochats_number": {
-        "name": "Количество геочатов",
-        "hint": "в которых можно состоять",
-        "text": "неограниченно"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "Количество сохранённых GIF",
         "hint": "",
-        "text": "до 200; для подписчиков Telegram Premium - до 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "Длительность видеоаватара",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "Количество аккаунтов",
         "hint": "(официальные клиенты)",
-        "text": "до 3 профилей; для подписчиков Telegram Premium - от 4 до 6 профилей (зависит от приложения)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Количество видимых сообщений",
@@ -85,7 +85,7 @@
       "bots_amount": {
         "name": "Количество ботов",
         "hint": "в группе",
-        "text": "при создании - неограниченно; при добавлении в существующую группу - до 20."
+        "text": "до 20 штук"
       },
       "pinned_number": {
         "name": "Закреплённые чаты в ленте пользователя",
@@ -110,7 +110,7 @@
       "recent_actions": {
         "name": "История действий",
         "hint": "(движения участников, сообщений и т.п.)",
-        "text": "последние 48 часов. "
+        "text": "последние два дня"
       },
       "mentions_amount": {
         "name": "Количество упоминаний",
@@ -120,7 +120,7 @@
       "visible_messages": {
         "name": "Количество видимых сообщений",
         "hint": "в группе",
-        "text": "от 500,000 до 1,000,000 последних сообщений"
+        "text": "1 000 000 последних сообщений"
       },
       "pinned_messages_number": {
         "name": "Количество закреплённых сообщений",
@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Количество папок",
         "hint": "",
-        "text": "до 10; для подписчиков Telegram Premium - до 20"
+        "text": "до 10; для подписчиков Telegram Premium - до 30"
       },
       "pinned_chats_in_folder": {
         "name": "Закреплённые чаты в папке",
@@ -458,7 +458,7 @@
         "text": "от 4 символов"
       },
       "username_resolve_limit": {
-        "name": "Лимит на поиск username'в",
+        "name": "Лимит на поиск по имени пользователя",
         "hint": "(для ботов и пользователей суммарно)",
         "text": "до 200 в день"
       }
@@ -525,7 +525,7 @@
       "text_size": {
         "name": "Размер текста",
         "hint": "",
-        "text": "до 64 KiB (1 KiB = 1024 байта)"
+        "text": "до 64 KiB"
       }
     }
   },

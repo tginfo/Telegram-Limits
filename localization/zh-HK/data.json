@@ -10,7 +10,8 @@
       "bio": {
         "name": "個人簡介",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "使用者本名",
@@ -25,27 +26,25 @@
       "self_destruction": {
         "name": "「閒置帳戶」自動刪除計時器",
         "hint": "（即使用者在指定時間內沒有上線或登入使用）",
-        "text": "1、3、6 或 12 個月（預設為 6 個月）"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "濫發訊息封鎖時間",
         "hint": "",
-        "text": "from 1 day up to forever"
+        "text": "from 1 day up to forever",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "可以加入的頻道及大型群組數目",
         "hint": "（即 channel 以及連同 Bot 在內，超過 49 人的群組）",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
-      },
-      "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "可以儲存的 GIF 圖數目",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "動態大頭貼秒數",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "可以同時登入的帳戶數目",
         "hint": "（以 Telegram 發佈的應用程式為準）",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Visible messages number",
@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "資料夾數量",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "up to 10 folders; for Premium users - up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "可以置頂的對話數量",

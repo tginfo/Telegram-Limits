@@ -1,51 +1,50 @@
 {
   "accounts": {
-    "name": "حساب‌ها",
+    "name": "Accounts",
     "items": {
       "username": {
         "name": "نام کاربری",
-        "hint": "(مثال: testuser@)",
+        "hint": "(e.g. @cameraman)",
         "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
       },
       "bio": {
-        "name": "درباره من",
+        "name": "Bio",
         "hint": "",
-        "text": "up to 70 characters; for Premium users - up to 140 characters"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
-        "name": "طول اسم",
+        "name": "First Name length",
         "hint": "",
-        "text": "از 1 تا 64 کارکتر"
+        "text": "from 1 to 64 characters"
       },
       "last_name_length": {
-        "name": "طول فامیل",
+        "name": "Last Name length",
         "hint": "",
-        "text": "از 0 تا 64 کارکتر"
+        "text": "from 0 to 64 characters"
       },
       "self_destruction": {
         "name": "زمان نابودکننده",
         "hint": "اگر هیچ فعالیتی نداشته باشید",
-        "text": "6،3،1 و 12 ماه (6 ماه به صورت پیش‌فرض)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "ممنوعیت هرزنامه",
         "hint": "",
-        "text": "از یک روز تا برای همیشه"
+        "text": "از یک روز تا برای همیشه",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "تعداد کانال‌ها و ابرگروه‌ها",
         "hint": "که شما میتوانید عضو باشید",
-        "text": "up to 500 (including ones you own); for Premium users - up to 1000"
-      },
-      "geochats_number": {
-        "name": "تعداد گروه‌های محلی",
-        "hint": "که شما میتوانید عضو باشید",
-        "text": "تا 5 گروه و کانال(شامل آنهایی که خودتان مالک هستید)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "تعداد گیف های ذخیره شده",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "مدت زمان ویدیو آواتار",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "تعداد حساب ها",
         "hint": "(برنامه‌های رسمی)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Meysamkh1366",
@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "تعداد پوشه‌ها",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "تا ۱۰ پوشه؛ تا ۳۰ پوشه - برای کاربران پریمیوم"
       },
       "pinned_chats_in_folder": {
         "name": "گفتگوهای سنجاق شده در هر پوشه",

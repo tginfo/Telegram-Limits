@@ -15,6 +15,7 @@
     scrollbar-width: thin;
     -webkit-tap-highlight-color: transparent;
     font-size: inherit;
+    word-break: break-word;
 }
 
 body {
@@ -343,6 +344,22 @@ main .collection>.card>.item>.content>.title>.info {
 main .collection>.card>.item>.content>.data {
     opacity: .7;
     display: block;
+}
+
+main .collection>.card>.item>.content>.data.premium {
+    color: #611c9a;
+}
+
+main .collection>.card>.item>.content>.data.premium::before {
+    content: '';
+    height: .9em;
+    width: .9em;
+    background: url(./assets/images/premium.webp);
+    background-size: 100%;
+    background-position: 50%;
+    margin-inline-end: .3em;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 footer {

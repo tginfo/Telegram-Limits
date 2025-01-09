@@ -10,7 +10,8 @@
       "bio": {
         "name": "תיאור המשתמש",
         "hint": "",
-        "text": "עד 70 תווים;  למשתמשי פרימיום - עד 140 תווים"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "אורך השם הפרטי",
@@ -25,27 +26,25 @@
       "self_destruction": {
         "name": "תקופת השמדה עצמית",
         "hint": "אם אין פעילות בחשבון",
-        "text": "1, 3, 6 ו 12 חודשים (6 כברירת מחדל)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "הגבלת ספאם",
         "hint": "",
-        "text": "מיום אחד ועד לתמיד"
+        "text": "מיום אחד ועד לתמיד",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "מספר הערוצים והסופר קבוצות",
         "hint": "אתה יכול להיות חבר ב",
-        "text": "עד 500 (כולל כאלה שבבעלותך);  למשתמשי פרימיום - עד 1000"
-      },
-      "geochats_number": {
-        "name": "Geochats number",
-        "hint": "you can be member of",
-        "text": "up to 5 (including ones you own)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "מספר הגיפים השמורים",
         "hint": "",
-        "text": "up to 200; for Premium users - up to 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "אורך של וידאו בפרופיל",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "מספר החשבונות",
         "hint": "(באפליקצייה הרשמית)",
-        "text": "up to 3; for Premium users - up to 4-6 (depends on app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Visible messages number",
@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "כמות התיקיות",
         "hint": "",
-        "text": "up to 10 folders; for Premium users - up to 20 folders"
+        "text": "up to 10 folders; for Premium users - up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "צ'אטים מוצמדים בתיקייה",

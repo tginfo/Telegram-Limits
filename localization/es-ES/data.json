@@ -10,7 +10,8 @@
       "bio": {
         "name": "Biografía",
         "hint": "",
-        "text": "hasta 70 caracteres; para usuarios Premium - hasta 140 caracteres"
+        "text": "up to 70 characters",
+        "text_premium": "up to 140 characters"
       },
       "name_length": {
         "name": "Longitud del nombre",
@@ -25,27 +26,25 @@
       "self_destruction": {
         "name": "Período de autodestrucción",
         "hint": "si no hay actividad",
-        "text": "1, 3, 6 y 12 meses (6 por defecto)"
+        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
       },
       "spam_ban": {
         "name": "Bloqueo de spam",
         "hint": "",
-        "text": "de 1 día hasta siempre"
+        "text": "de 1 día hasta siempre",
+        "text_premium": "from 1 second up to forever"
       },
       "channels_and_chats_number": {
         "name": "Número de canales y supergrupos",
         "hint": "puedes ser miembro de",
-        "text": "hasta 500 (incluyendo los que tienes); para usuarios Premium - hasta 1000"
-      },
-      "geochats_number": {
-        "name": "Número de chats de ubicación",
-        "hint": "puedes ser miembro de",
-        "text": "hasta 5 (incluyendo los de que posees)"
+        "text": "up to 500 (including ones you own)",
+        "text_premium": "up to 1000 (including ones you own)"
       },
       "gifs_number": {
         "name": "Número de GIF guardados",
         "hint": "",
-        "text": "hasta 200; para usuarios Premium - hasta 400"
+        "text": "up to 200",
+        "text_premium": "up to 400"
       },
       "video_length": {
         "name": "Duración del vídeo de perfil",
@@ -60,7 +59,8 @@
       "accounts_number": {
         "name": "Número de cuentas",
         "hint": "(clientes oficiales)",
-        "text": "hasta 3; para usuarios Premium - hasta 4-6 (depende de la app)"
+        "text": "up to 3",
+        "text_premium": "up to 4-6 (depends on app)"
       },
       "visible_messages": {
         "name": "Número de mensajes visibles",
@@ -310,7 +310,7 @@
       "folder_amount": {
         "name": "Cantidad de carpetas",
         "hint": "",
-        "text": "hasta 10 carpetas; para usuarios Premium - hasta 20 carpetas"
+        "text": "up to 10 folders; for Premium users - up to 30 folders"
       },
       "pinned_chats_in_folder": {
         "name": "Chats fijados en una carpeta",
@@ -458,7 +458,7 @@
         "text": "al menos 4 caracteres"
       },
       "username_resolve_limit": {
-        "name": "Username resolve limit",
+        "name": "Límite de cambiar nombre de usuario",
         "hint": "(para bots y cuentas de usuario)",
         "text": "hasta 200 nombres de usuario diariamente"
       }

@@ -123,6 +123,10 @@
             padding: 10px;
         }
 
+        button.for-icon {
+            padding: 10px;
+        }
+
         button>.icon {
             margin-right: 5px;
             font-size: 1.4rem;
@@ -487,6 +491,10 @@
             max-height: 100px;
             font-family: Arial, sans-serif;
         }
+
+        button .icon:last-child {
+            margin: 0;
+        }
     </style>
     <style id="dynamicStyles"></style>
     <title>Limits Editor</title>
@@ -495,6 +503,18 @@
 <body>
     <div class="start-screen" id="start-screen">
         <h1>Telegram Limits Editor</h1>
+        <article>
+            <p>
+                Click the button below to suggest an edit to the @tginfo team.
+            </p>
+            <p>
+                <b>Note</b>: We do not accept translations through this form. Please go to <a
+                    href="https://crowdin.com/project/telegram-limits" target="_blank">Crowdin</a> for translation.
+            </p>
+        </article>
+        <p>
+            <button onclick="EditorUi.startSubmission()" id="suggestButton">Suggest an Edit</button>
+        </p>
         <article>
             <p>Edit limits in your cloned Telegram-Limits folder. When you click Save – files are updated right on your
                 disk. No downloads required.</p>
@@ -509,7 +529,7 @@
             <p><code>git clone git@github.com:tginfo/Telegram-Limits.git</code></p>
         </article>
         <p>
-            <button onclick="EditorUi.newSession()">Pick <code>Telegram-Limits</code> Folder</button>
+            <button onclick="EditorUi.newSession()" class="secondary">Pick <code>Telegram-Limits</code> Folder</button>
 
             <button onclick="EditorUi.downloadFiles()" id="downloadNewButton" class="secondary">
                 Open a Folder & Download Files
@@ -601,6 +621,15 @@
                 return handle;
             }
 
+            static parseIconCodePoints(iconCodePointsText) {
+                return iconCodePointsText.split('\n').reduce((acc, line) => {
+                    const [name, codePoint] = line.split(' ');
+                    acc[name] = codePoint;
+
+                    return acc;
+                }, {});
+            }
+
             async readFiles() {
                 const structureHandle = await this.handle.getDirectoryHandle('data');
                 const structureFile = await structureHandle.getFileHandle('structure.json');
@@ -628,12 +657,7 @@
                 const iconObjectUrl = URL.createObjectURL(icon);
                 const iconCodePointsText = await iconCodePoints.text();
 
-                const iconCodePointsMap = iconCodePointsText.split('\n').reduce((acc, line) => {
-                    const [name, codePoint] = line.split(' ');
-                    acc[name] = codePoint;
-
-                    return acc;
-                }, {});
+                const iconCodePointsMap = WorkDirHandle.parseIconCodePoints(iconCodePointsText);
 
                 this.structureFile = structureFile;
                 this.localizationFile = localizationFile;
@@ -830,6 +854,7 @@
             static isDirty = false;
             static contentElement = null;
             static draggingType = null;
+            static noFsMode = false;
 
             static async openHelp(source) {
                 alert("We're already working on documentation. Until then, for guidance, please contact contributors directly.");
@@ -844,7 +869,10 @@
                                 <p>
                                     <b>Note:</b> We do not accept translations through this form. 
                                     Please go to <a href="https://crowdin.com/project/telegram-limits" target="_blank">Crowdin</a> for translation.
-                                </p>    
+                                </p>   
+                                <p>
+                                    Please group your changes into a single suggestion. Don't submit more often than once-twice a day.
+                                </p>
                             </article>
                             <label>
                                 <span>Description:</span>
@@ -905,12 +933,6 @@
             }
 
             static async check() {
-                if (!('showDirectoryPicker' in window)) {
-                    alert('Your browser does not support the File System Access API. ' +
-                        'Please use a Chromium-based browser, like Google Chrome. Only Desktop version is supported.');
-                    return;
-                }
-
                 const handle = await WorkDirHandle.checkHandleInIdb();
 
                 if (handle) {
@@ -949,6 +971,12 @@
             }
 
             static async newSession() {
+                if (!('showDirectoryPicker' in window)) {
+                    alert('Your browser does not support the File System Access API. ' +
+                        'Please use a Chromium-based browser, like Google Chrome. Only Desktop version is supported.');
+                    return;
+                }
+
                 try {
                     this.workDirHandle = new WorkDirHandle(await WorkDirHandle.createNewHandle());
                     const data = await this.workDirHandle.readFiles();
@@ -969,9 +997,61 @@
                 }
             }
 
+            static async startSubmission() {
+                const button = document.getElementById('suggestButton');
+                button.disabled = true;
+                button.textContent = 'Downloading...';
 
+                try {
+                    const { structureBlob, localizationBlob, iconBlob, iconCodePointsBlob } = await this.downloadBlobs('master');
+
+                    const structureText = await structureBlob.text();
+                    const localizationText = await localizationBlob.text();
+                    const iconCodePointsText = await iconCodePointsBlob.text();
+
+                    const structure = JSON.parse(structureText);
+                    const localization = JSON.parse(localizationText);
+                    const iconObjectUrl = URL.createObjectURL(iconBlob);
+                    const iconCodePointsMap = WorkDirHandle.parseIconCodePoints(iconCodePointsText);
+
+                    this.noFsMode = true;
+                    this.applyData({ structure, localization, iconCodePointsMap, iconObjectUrl });
+                } catch (e) {
+                    console.error(e);
+                    alert('An error occurred while starting: ' + e.message);
+                } finally {
+                    button.disabled = false;
+                    button.textContent = 'Suggest an Edit';
+                }
+            }
+
+            static async downloadBlobs(branchName) {
+                const urlPrefix = 'https://raw.githubusercontent.com/tginfo/Telegram-Limits/' + branchName;
+                const structureUrl = `${urlPrefix}/data/structure.json`;
+                const localizationUrl = `${urlPrefix}/localization/en/data.json`;
+                const iconUrl = `${urlPrefix}/assets/images/icons.woff2`;
+                const iconCodePointsUrl = `${urlPrefix}/assets/images/icons.codepoints`;
+
+                const structureResponse = await fetch(structureUrl);
+                const localizationResponse = await fetch(localizationUrl);
+                const iconResponse = await fetch(iconUrl);
+                const iconCodePointsResponse = await fetch(iconCodePointsUrl);
+
+                const structureBlob = await structureResponse.blob();
+                const localizationBlob = await localizationResponse.blob();
+                const iconBlob = await iconResponse.blob();
+                const iconCodePointsBlob = await iconCodePointsResponse.blob();
+
+                return { structureBlob, localizationBlob, iconBlob, iconCodePointsBlob };
+            }
 
             static async downloadFiles() {
+                if (!('showDirectoryPicker' in window)) {
+                    alert('Your browser does not support the File System Access API. ' +
+                        'Please use a Chromium-based browser, like Google Chrome. Only Desktop version is supported.');
+                    return;
+                }
+
                 const button = document.getElementById('downloadNewButton');
                 try {
                     button.disabled = true;
@@ -1001,22 +1081,7 @@
                     const iconFile = await iconImagesHandle.getFileHandle('icons.woff2', { create: true });
                     const iconCodePointsFile = await iconImagesHandle.getFileHandle('icons.codepoints', { create: true });
 
-
-                    const urlPrefix = 'https://raw.githubusercontent.com/tginfo/Telegram-Limits/' + branchName;
-                    const structureUrl = `${urlPrefix}/data/structure.json`;
-                    const localizationUrl = `${urlPrefix}/localization/en/data.json`;
-                    const iconUrl = `${urlPrefix}/assets/images/icons.woff2`;
-                    const iconCodePointsUrl = `${urlPrefix}/assets/images/icons.codepoints`;
-
-                    const structureResponse = await fetch(structureUrl);
-                    const localizationResponse = await fetch(localizationUrl);
-                    const iconResponse = await fetch(iconUrl);
-                    const iconCodePointsResponse = await fetch(iconCodePointsUrl);
-
-                    const structureBlob = await structureResponse.blob();
-                    const localizationBlob = await localizationResponse.blob();
-                    const iconBlob = await iconResponse.blob();
-                    const iconCodePointsBlob = await iconCodePointsResponse.blob();
+                    const { structureBlob, localizationBlob, iconBlob, iconCodePointsBlob } = await this.downloadBlobs(branchName);
 
                     const structureWritable = await structureFile.createWritable();
                     await structureWritable.write(structureBlob);
@@ -1102,39 +1167,51 @@
                 toolbar.appendChild(helpButton);
 
                 const sendButton = document.createElement('button');
-                sendButton.classList.add('icon');
-                sendButton.classList.add('secondary');
-                sendButton.textContent = 'send';
+                if (!this.noFsMode) sendButton.classList.add('for-icon');
+                if (!this.noFsMode) sendButton.classList.add('secondary');
                 sendButton.title = 'Send The Edit to @tginfo';
                 sendButton.addEventListener('click', () => EditorUi.suggestEdit());
                 toolbar.appendChild(sendButton);
 
-                const saveButton = document.createElement('button');
-                saveButton.classList.add('icon');
-                saveButton.classList.add('secondary');
-                saveButton.textContent = 'save';
-                saveButton.title = 'Save to Disk';
-                saveButton.addEventListener('click', () => this.save());
-                toolbar.appendChild(saveButton);
+                const sendButtonIcon = document.createElement('span');
+                sendButtonIcon.classList.add('icon');
+                sendButtonIcon.textContent = 'send';
+                sendButton.appendChild(sendButtonIcon);
 
-                const saveStatus = document.createElement('span');
-                saveStatus.id = 'save-status';
-                toolbar.appendChild(saveStatus);
-
-                this.updateSaveStatus = () => {
-                    saveStatus.textContent = this.isDirty ? 'Unsaved changes' : 'Saved';
-                    if (this.isDirty) {
-                        saveStatus.classList.add('unsaved');
-                        saveButton.classList.remove('secondary');
-                    } else {
-                        saveStatus.classList.remove('unsaved');
-                        saveButton.classList.add('secondary');
-                    }
+                if (this.noFsMode) {
+                    const sendButtonLabel = document.createElement('span');
+                    sendButtonLabel.textContent = 'Send suggestion';
+                    sendButton.appendChild(sendButtonLabel);
                 }
 
-                setInterval(() => {
-                    this.updateSaveStatus();
-                }, 1000);
+                if (!this.noFsMode) {
+                    const saveButton = document.createElement('button');
+                    saveButton.classList.add('icon');
+                    saveButton.classList.add('secondary');
+                    saveButton.textContent = 'save';
+                    saveButton.title = 'Save to Disk';
+                    saveButton.addEventListener('click', () => this.save());
+                    toolbar.appendChild(saveButton);
+
+                    const saveStatus = document.createElement('span');
+                    saveStatus.id = 'save-status';
+                    toolbar.appendChild(saveStatus);
+
+                    this.updateSaveStatus = () => {
+                        saveStatus.textContent = this.isDirty ? 'Unsaved changes' : 'Saved';
+                        if (this.isDirty) {
+                            saveStatus.classList.add('unsaved');
+                            saveButton.classList.remove('secondary');
+                        } else {
+                            saveStatus.classList.remove('unsaved');
+                            saveButton.classList.add('secondary');
+                        }
+                    }
+
+                    setInterval(() => {
+                        this.updateSaveStatus();
+                    }, 1000);
+                }
             }
 
             static constructContent() {

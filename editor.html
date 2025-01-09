@@ -928,6 +928,16 @@
                         dialog.remove();
                     });
                     dialog.querySelector('#sendButton').addEventListener('click', async () => {
+                        if (!dialog.querySelector('#description').value) {
+                            alert('Please describe your changes');
+                            return;
+                        }
+
+                        if (!dialog.querySelector('#contact').value) {
+                            alert('Please provide a contact');
+                            return;
+                        }
+
                         try {
                             const url = 'https://limits.tginfo.me/prop/suggest.php';
 

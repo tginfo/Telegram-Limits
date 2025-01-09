@@ -375,6 +375,11 @@
             padding: 10px 0;
         }
 
+        .icon-list .icon.selected {
+            border: 1px solid #007bff;
+            border-radius: 5px;
+        }
+
         .no-results-grid .icon-list {
             display: flex;
             justify-content: center;
@@ -2238,13 +2243,24 @@
                         iconList.innerHTML = '';
                         const query = iconSearch.value.toLowerCase().replace(/\s/g, '_').replace(/[^a-z0-9_]/g, '').trim();
 
+                        const exactMatch = query ? Object.keys(this.iconCodePointsMap).findIndex(icon => icon === query) : null;
+
+                        const iconsList = Object.keys(this.iconCodePointsMap);
+
+                        if (exactMatch) {
+                            iconsList.unshift(iconsList.splice(exactMatch, 1)[0]);
+                        }
+
                         let counter = 0;
-                        for (const icon of Object.keys(this.iconCodePointsMap)) {
+                        for (const icon of iconsList) {
                             if (icon.includes(query)) {
                                 counter++;
                                 const iconElement = document.createElement('span');
                                 iconElement.classList.add('icon');
                                 iconElement.textContent = icon;
+                                if (icon === value) {
+                                    iconElement.classList.add('selected');
+                                }
                                 iconElement.addEventListener('click', () => {
                                     value = icon;
                                     iconPreview.textContent = icon;

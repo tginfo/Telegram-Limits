@@ -1,633 +1,705 @@
 {
-  "accounts": {
-    "name": "கணக்குகள்",
-    "items": {
-      "username": {
-        "name": "பயனர்பெயர்",
-        "hint": "(எ.கா. @cameraman)",
-        "text": "5 முதல் 32 எழுத்துகள்; மாறா வில்லை (NFT) பயனர்பெயர்களுக்கு 4 எழுத்துக்களிலிருந்து தொடங்குகிறது"
-      },
-      "bio": {
-        "name": "சுயக்குறிப்பு",
-        "hint": "",
-        "text": "up to 70 characters",
-        "text_premium": "up to 140 characters"
-      },
-      "name_length": {
-        "name": "முதன்மைப்பெயரின் நீளம்",
-        "hint": "",
-        "text": "1 முதல் 64 எழுத்துகள்"
-      },
-      "last_name_length": {
-        "name": "கடைசிப்பெயரின் நீளம்",
-        "hint": "",
-        "text": "0 முதல் 64 எழுத்துகள்"
-      },
-      "self_destruction": {
-        "name": "சுய-அழிவுக்காலம்",
-        "hint": "செயல்பாடு இல்லை என்றால்",
-        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
-      },
-      "spam_ban": {
-        "name": "வீண் செயல் தடை",
-        "hint": "",
-        "text": "1 நாள் முதல் எப்போதும் வரை",
-        "text_premium": "from 1 second up to forever"
-      },
-      "channels_and_chats_number": {
-        "name": "பதிவுத்தடங்கள் மற்றும் சிறப்புக்குழுக்களின் எண்ணிக்கை",
-        "hint": "நீங்கள் உறுப்பினராக இருக்க முடிவது",
-        "text": "up to 500 (including ones you own)",
-        "text_premium": "up to 1000 (including ones you own)"
-      },
-      "gifs_number": {
-        "name": "அசைபட சேமிப்பு எண்ணிக்கை",
-        "hint": "",
-        "text": "up to 200",
-        "text_premium": "up to 400"
-      },
-      "video_length": {
-        "name": "சுயக்குறிப்புக் காணொளி கால வரையறை",
-        "hint": "",
-        "text": "10 வினாடிகள் வரை"
-      },
-      "groups_and_channels_creation": {
-        "name": "குழு மற்றும் பதிவுத்தட உருவாக்கம்",
-        "hint": "",
-        "text": "ஒரு நாளில் 50 வரை"
-      },
-      "accounts_number": {
-        "name": "கணக்குகளின் எண்ணிக்கை",
-        "hint": "(அதிகாரப்பூர்வ செயலிகள்)",
-        "text": "up to 3",
-        "text_premium": "up to 4-6 (depends on app)"
-      },
-      "visible_messages": {
-        "name": "காணக்கூடிய தகவல்களின் எண்ணிக்கை",
-        "hint": "(தனிப்பட்ட அரட்டைகள், கூளிகள் மற்றும் தொன்மைக் குழுக்களுக்கு இடையே பகிரப்பட்ட வரம்பு)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
-      }
+    "accounts": {
+        "name": "கணக்குகள்",
+        "items": {
+            "username": {
+                "name": "பயனர்பெயர்",
+                "hint": "(எ.கா. @cameraman)",
+                "text": "5 முதல் 32 எழுத்துகள்; மாறா வில்லை (NFT) பயனர்பெயர்களுக்கு 4 எழுத்துக்களிலிருந்து தொடங்குகிறது"
+            },
+            "bio": {
+                "name": "சுயக்குறிப்பு",
+                "hint": "",
+                "text": "up to 70 characters",
+                "text_premium": "up to 140 characters"
+            },
+            "name_length": {
+                "name": "முதன்மைப்பெயரின் நீளம்",
+                "hint": "",
+                "text": "1 முதல் 64 எழுத்துகள்"
+            },
+            "last_name_length": {
+                "name": "கடைசிப்பெயரின் நீளம்",
+                "hint": "",
+                "text": "0 முதல் 64 எழுத்துகள்"
+            },
+            "self_destruction": {
+                "name": "சுய-அழிவுக்காலம்",
+                "hint": "செயல்பாடு இல்லை என்றால்",
+                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+            },
+            "spam_ban": {
+                "name": "வீண் செயல் தடை",
+                "hint": "",
+                "text": "1 நாள் முதல் எப்போதும் வரை",
+                "text_premium": "from 1 second up to forever"
+            },
+            "channels_and_chats_number": {
+                "name": "பதிவுத்தடங்கள் மற்றும் சிறப்புக்குழுக்களின் எண்ணிக்கை",
+                "hint": "நீங்கள் உறுப்பினராக இருக்க முடிவது",
+                "text": "up to 500 (including ones you own)",
+                "text_premium": "up to 1000 (including ones you own)"
+            },
+            "gifs_number": {
+                "name": "அசைபட சேமிப்பு எண்ணிக்கை",
+                "hint": "",
+                "text": "up to 200",
+                "text_premium": "up to 400"
+            },
+            "video_length": {
+                "name": "சுயக்குறிப்புக் காணொளி கால வரையறை",
+                "hint": "",
+                "text": "10 வினாடிகள் வரை"
+            },
+            "groups_and_channels_creation": {
+                "name": "குழு மற்றும் பதிவுத்தட உருவாக்கம்",
+                "hint": "",
+                "text": "ஒரு நாளில் 50 வரை"
+            },
+            "accounts_number": {
+                "name": "கணக்குகளின் எண்ணிக்கை",
+                "hint": "(அதிகாரப்பூர்வ செயலிகள்)",
+                "text": "up to 3",
+                "text_premium": "up to 4-6 (depends on app)"
+            },
+            "visible_messages": {
+                "name": "காணக்கூடிய தகவல்களின் எண்ணிக்கை",
+                "hint": "(தனிப்பட்ட அரட்டைகள், கூளிகள் மற்றும் தொன்மைக் குழுக்களுக்கு இடையே பகிரப்பட்ட வரம்பு)",
+                "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
+            },
+            "sticker_packs_per_account": {
+                "name": "Sticker packs per account",
+                "hint": "",
+                "text": "up to 200"
+            },
+            "emoji_packs_per_account": {
+                "name": "Emoji packs per account",
+                "hint": "",
+                "text": "up to 200"
+            },
+            "username_ownership_for_auction": {
+                "name": "Minimum username ownership for auction",
+                "hint": "",
+                "text": "14 days"
+            }
+        }
+    },
+    "chats": {
+        "name": "அரட்டை மற்றும் குழுக்கள்",
+        "items": {
+            "participants_number": {
+                "name": "பங்கேற்பாளர்கள்",
+                "hint": "(வரம்பை உயர்த்த முடியும்)",
+                "text": "2,00,000 வரை ஆனால் ஒளிபரப்புக் குழுக்களில் வரம்பற்றது"
+            },
+            "admins_number": {
+                "name": "நிர்வாகிகளின் எண்ணிக்கை",
+                "hint": "குழுக்களில்",
+                "text": "50 வரை"
+            },
+            "bots_amount": {
+                "name": "கூளிகளின் எண்ணிக்கை",
+                "hint": "குழுக்களில்",
+                "text": "20 வரை"
+            },
+            "pinned_number": {
+                "name": "முக்கியப் பட்டியலில் செருகப்பட்ட அரட்டைகள்",
+                "hint": "",
+                "text": "up to 5 chats or channels + 5 secret chats",
+                "text_premium": "up to 10 chats or channels"
+            },
+            "group_name": {
+                "name": "குழுவின் பெயர் மற்றும் விளக்கம்",
+                "hint": "",
+                "text": "255 எழுத்துகள் வரை"
+            },
+            "editing": {
+                "name": "தகவல் திருத்தம்",
+                "hint": "",
+                "text": "அனுப்பிய 48 மணி நேரத்திற்குள்; சேமிக்கப்பட்டவையில் மற்றும் செருக உரிமையுள்ள நிர்வாகிகளுக்கு வரம்பற்றது"
+            },
+            "media_self_destruction": {
+                "name": "படம் மற்றும் காணொளி சுய-அழிவு",
+                "hint": "",
+                "text": "1 முதல் 60 வினாடிகள்"
+            },
+            "recent_actions": {
+                "name": "அண்மைச் செயல்கள்",
+                "hint": "(நேயராவது, பதிவுகள், முதலியன)",
+                "text": "கடந்த இரண்டு நாட்கள்"
+            },
+            "mentions_amount": {
+                "name": "குறிப்பிடல்களின் எண்ணிக்கை",
+                "hint": "ஒரே தகவலில்",
+                "text": "50 வரை, மற்ற அறிவிப்புகள் அனுப்பப்படாது"
+            },
+            "visible_messages": {
+                "name": "காணக்கூடிய தகவல்களின் எண்ணிக்கை",
+                "hint": "குழுக்களில்",
+                "text": "கடைசி 10,00,000 தகவல்கள்"
+            },
+            "pinned_messages_number": {
+                "name": "செருகப்பட்ட தகவல்களின் எண்ணிக்கை",
+                "hint": "",
+                "text": "வரம்பற்றது"
+            },
+            "participants_to_see_stats": {
+                "name": "Number of members to see statistics",
+                "hint": "",
+                "text": "at least 500"
+            },
+            "username_reservation": {
+                "name": "பயனர்பெயர் மாற்ற முன்பதிவு",
+                "hint": "(அசல் உரிமையாளருக்கு மட்டுமின்றி, அனைவருக்கும் பயனர்பெயர் கிடைக்கும் முன்)",
+                "text": "சுமார் 15-30 நிமிடங்கள்"
+            },
+            "participants_for_group_stickers": {
+                "name": "குழு பரிந்துரைக்கும் ஒட்டுபடங்கள்",
+                "hint": "",
+                "text": "100+ பங்கேற்பாளர்கள் கொண்ட குழுக்கள்"
+            },
+            "chat_role_length": {
+                "name": "நிர்வாகி பதவிப் பெயரின் நீளம்",
+                "hint": "",
+                "text": "16 எழுத்துகள் வரை"
+            },
+            "chat_title_length": {
+                "name": "அரட்டை தலைப்பின் நீளம்",
+                "hint": "",
+                "text": "128 எழுத்துகள் வரை"
+            },
+            "broadcast_group_access": {
+                "name": "ஒரு சிறப்புக் குழுவை ஒளிபரப்புக் குழுவாக மாற்றுதல்",
+                "hint": "",
+                "text": "1,99,000+ உறுப்பினர்கள் உள்ள அரட்டையில்"
+            },
+            "read_receipts_lifetime": {
+                "name": "பார்த்ததற்கான சிட்டைகள் வாழ்நாள் முழுவதும்",
+                "hint": "",
+                "text": "தகவல் அனுப்பப்பட்டதிலிருந்து 7 நாட்கள்வரை"
+            },
+            "read_receipts_availability": {
+                "name": "பார்த்ததற்கான சிட்டைகள் கிடைப்பது",
+                "hint": "",
+                "text": "100 அல்லது அதற்கும் குறைவான உறுப்பினர்களுள்ள அரட்டையில், பயனர்களின் பட்டியல் தகவலை அனுப்பிய பயனருக்கு மட்டுமே கிடைக்கும்"
+            }
+        }
+    },
+    "topic": {
+        "name": "Forum",
+        "items": {
+            "visible_users_in_topic_group": {
+                "name": "Visible users in topic group",
+                "hint": "",
+                "text": "up to 100"
+            },
+            "topics_per_group": {
+                "name": "Topics per group",
+                "hint": "",
+                "text": "up to 1,000,000"
+            },
+            "topic_title_length": {
+                "name": "Topic title length",
+                "hint": "",
+                "text": "up to 128 characters"
+            },
+            "pinned_topics": {
+                "name": "Pinned topics",
+                "hint": "",
+                "text": "up to 5"
+            }
+        }
+    },
+    "voice_chats": {
+        "name": "குரல் & காணொளி அரட்டைகள்",
+        "items": {
+            "voice_chat_participants": {
+                "name": "குரலரட்டை கவனிப்பவர்கள்",
+                "hint": "",
+                "text": "வரம்பற்றது"
+            },
+            "video_chat_broadcast": {
+                "name": "காணொளி ஒளிபரப்பு",
+                "hint": "(படக்கருவி, திரை வார்ப்பு)",
+                "text": "ஒரே நேரத்தில் 30 ஒளிபரப்பு பயனர்கள் வரை"
+            },
+            "video_chat_viewers": {
+                "name": "காணொளி ஒளிபரப்பு பார்வையாளர்கள்",
+                "hint": "",
+                "text": "அதிகாரப்பூர்வமாக இது வரம்பற்றதாகக் கூறப்படுகிறது, நடைமுறையில், ஒரே நேரத்தில் சுமார் 2,000 பார்வையாளர்களில் பாய்வு நிலையற்றதாகிறது"
+            },
+            "voice_chat_title_length": {
+                "name": "Voice chat title length",
+                "hint": "",
+                "text": "up to 40 characters"
+            },
+            "voice_chat_schedule": {
+                "name": "அரட்டைகளுக்கு நேரம் குறித்தல்",
+                "hint": "",
+                "text": "7 நாட்களுக்கு முன்னால்"
+            }
+        }
+    },
+    "channels": {
+        "name": "பதிவுத்தடங்கள்",
+        "items": {
+            "public_usernames": {
+                "name": "பொது பயனர்பெயர் எண்ணிக்கை",
+                "hint": "ஒரு கணக்கிற்கு",
+                "text": "10 வரை (குழுக்கள் உட்பட)",
+                "text_premium": "up to 20 (including groups)"
+            },
+            "username_length": {
+                "name": "@பயனர்பெயரின் நீளம்",
+                "hint": "",
+                "text": "5 முதல் 32 எழுத்துகள்"
+            },
+            "channel_name": {
+                "name": "பதிவுத்தடத்தின் பெயர் மற்றும் விளக்கம்",
+                "hint": "",
+                "text": "255 எழுத்துகள் வரை"
+            },
+            "channel_admins": {
+                "name": "பதிவுத்தட நிர்வாகிகளின் எண்ணிக்கை",
+                "hint": "(கூளிகள் உட்பட; கூளியை ஒரு நிர்வாகியாக மாற்றுவதன் மூலம் மட்டுமே அதை உங்கள் பதிவுத்தடத்தில் சேர்க்க முடியும்)",
+                "text": "50 கணக்குகள் வரை"
+            },
+            "editing": {
+                "name": "பதிவிட்டதின் திருத்தம்",
+                "hint": "",
+                "text": "வரம்பற்றது (பதிவுத்தடத்தில் ஒரு விவாதக் குழு இணைக்கப்பட்டிருந்தால், 2 வாரங்களுக்கும் மேலான பதிவுகள் அரட்டையில் திருத்தப்படாது)"
+            },
+            "subscribers": {
+                "name": "பதிவுத்தட நேயர்களின் எண்ணிக்கை",
+                "hint": "",
+                "text": "வரம்பற்றது"
+            },
+            "visible_participants": {
+                "name": "தெரியக்கூடிய நேயர்கள்",
+                "hint": "பதிவுத்தட நிர்வாகிக்கு",
+                "text": "200 நபர்கள்"
+            },
+            "channel_deletion": {
+                "name": "பதிவுத்தட அழிப்பு",
+                "hint": "",
+                "text": "ஆயிரத்திற்கும் மேற்பட்ட நேயர்களைக் கொண்ட பதிவுத்தடங்களை டெலிகிராம் ஆதரவுடன் மட்டுமே அழிக்க முடியும்"
+            },
+            "private_channel_access": {
+                "name": "சேராமல் தனியார் பதிவுத்தடங்களைப் பார்ப்பது",
+                "hint": "(200+ நேயர்களைக் கொண்ட பதிவுத்தடங்களுக்கு)",
+                "text": "ஒரு நாளைக்கு 5 நிமிடங்கள் வரை"
+            },
+            "invintations": {
+                "name": "பயனர்களை வரச்செய்தல்",
+                "hint": "",
+                "text": "200 பேர் வரை"
+            },
+            "followers_to_see_stats": {
+                "name": "புள்ளிவிவரங்களைக் காட்ட தேவையான நேயர்களின் எண்ணிக்கை",
+                "hint": "",
+                "text": "குறைந்தது 50"
+            },
+            "username_reservation": {
+                "name": "பயனர்பெயர் மாற்ற முன்பதிவு",
+                "hint": "(அசல் உரிமையாளருக்கு மட்டுமின்றி, அனைவருக்கும் பயனர்பெயர் கிடைக்கும் முன்)",
+                "text": "சுமார் 15-30 நிமிடங்கள்"
+            }
+        }
+    },
+    "messages": {
+        "name": "தகவல்கள்",
+        "items": {
+            "single_message_length": {
+                "name": "ஒரு தகவலின் நீளம்",
+                "hint": "",
+                "text": "4,096 எழுத்துகள் வரை"
+            },
+            "media_descriptions": {
+                "name": "ஒலியொளிக் குறிப்பு",
+                "hint": "",
+                "text": "up to 1,024 characters",
+                "text_premium": "up to 2,048 characters"
+            },
+            "upload_size": {
+                "name": "கோப்பு அளவின் வரம்பு",
+                "hint": "",
+                "text": "up to 2 GB",
+                "text_premium": "up to 4 GB"
+            },
+            "file_name_length": {
+                "name": "கோப்புப் பெயர் நீளம்",
+                "hint": "",
+                "text": "60 எழுத்துகள்வரை, மற்றவை நறுக்கப்படும்"
+            },
+            "video_message_duration": {
+                "name": "காணொளித் தகவலின் கால வரையறை",
+                "hint": "",
+                "text": "1 நிமிடம் வரை"
+            },
+            "album_size": {
+                "name": "ஒரே தகவலில் படங்கள் மற்றும் வீடியோக்கள்",
+                "hint": "(படத்தொகுப்பு)",
+                "text": "10 உருப்படிகள் வரை"
+            },
+            "delayed_messages": {
+                "name": "நேரம் குறித்த தகவல்களின் எண்ணிக்கை",
+                "hint": "",
+                "text": "100 உருப்படிகள்வரை (ஒவ்வொரு அரட்டைக்கும்)"
+            },
+            "delaying_messages": {
+                "name": "நேரம் குறித்தலின் வரம்பு",
+                "hint": "",
+                "text": "365 நாட்கள் வரை"
+            },
+            "custom_emoji_per_message": {
+                "name": "Custom emoji per message",
+                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+                "text": "not available",
+                "text_premium": "up to 100 emoji"
+            },
+            "links_per_message": {
+                "name": "Links per message",
+                "hint": "",
+                "text": "up to 100 links"
+            }
+        }
+    },
+    "poll": {
+        "name": "Polls",
+        "items": {
+            "poll_question_length": {
+                "name": "Poll question length",
+                "hint": "",
+                "text": "1 to 255 characters"
+            },
+            "quiz_question_length": {
+                "name": "Quiz question length",
+                "hint": "",
+                "text": "1 to 200 characters"
+            },
+            "poll_options_count": {
+                "name": "Poll options count",
+                "hint": "",
+                "text": "2 to 10"
+            },
+            "poll_option_length": {
+                "name": "Poll option length",
+                "hint": "",
+                "text": "1 to 100 characters"
+            }
+        }
+    },
+    "folders": {
+        "name": "கோப்புறைகள்",
+        "items": {
+            "name_length": {
+                "name": "Folder name length",
+                "hint": "",
+                "text": "up to 12 characters"
+            },
+            "folder_amount": {
+                "name": "கோப்புறைகளின் எண்ணிக்கை",
+                "hint": "",
+                "text": "up to 10 folders",
+                "text_premium": "up to 30 folders"
+            },
+            "chats_per_folder": {
+                "name": "Chats per folder",
+                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            },
+            "pinned_chats_in_folder": {
+                "name": "கோப்புறையில் செருகப்பட்ட அரட்டைகள்",
+                "hint": "",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            }
+        }
+    },
+    "public_folders": {
+        "name": "Public Folders",
+        "icon": "folder_shared",
+        "items": {
+            "public_folders_count": {
+                "name": "Number of public folders",
+                "hint": "",
+                "text": "up to 2 folders",
+                "text_premium": "up to 20 folders"
+            },
+            "chats_per_public_folder": {
+                "name": "Chats/channels per public folder",
+                "hint": "",
+                "text": "up to 100 items",
+                "text_premium": "up to 200 items"
+            }
+        }
+    },
+    "bots": {
+        "name": "கூளிகள்",
+        "items": {
+            "bots_amount": {
+                "name": "கூளிகளின் எண்ணிக்கை",
+                "hint": "(@BotFather ஆல் உருவாக்கப்பட்டது)",
+                "text": "20 உருப்படிகள் வரை",
+                "text_premium": "up to 40 items"
+            },
+            "username_length": {
+                "name": "Length of @username",
+                "hint": "for bots",
+                "text": "5 to 32 characters"
+            },
+            "info_length": {
+                "name": "கூளி விவரத்தின் நீளம்",
+                "hint": "(/setabouttext)",
+                "text": "120 எழுத்துகள் வரை"
+            },
+            "description_length": {
+                "name": "கூளி விளக்கத்தின் நீளம்",
+                "hint": "",
+                "text": "512 எழுத்துகள் வரை"
+            },
+            "upload_limit_botapi": {
+                "name": "கோப்பு பதிவேற்றல் வரம்பு",
+                "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகம் இல்லாமல்",
+                "text": "50 MB வரை"
+            },
+            "upload_limit_botapi_local": {
+                "name": "கோப்பின் பதிவேற்ற வரம்பு",
+                "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகமுடன்",
+                "text": "2000 MB வரை"
+            },
+            "download_limit_botapi": {
+                "name": "கோப்பின் பதிவிறக்க வரம்பு",
+                "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகம் இல்லாமல்",
+                "text": "20 MB வரை"
+            },
+            "download_limit_botapi_local": {
+                "name": "கோப்பின் பதிவிறக்க வரம்பு",
+                "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகமுடன்",
+                "text": "2000 MB வரை"
+            },
+            "keys_in_keyboard_number": {
+                "name": "விசைப்பலகை பொத்தான்களின் எண்ணிக்கை",
+                "hint": "",
+                "text": "100 உருப்படிகள் வரை"
+            },
+            "formatting_data": {
+                "name": "தகவல் வகையாக்கத் தரவு",
+                "hint": "எ.க. உள்ளகப் பொத்தான்",
+                "text": "10 கேபி வரை"
+            },
+            "formatting_entities": {
+                "name": "வடிவமைத்தல் வகை",
+                "hint": "(பட்டை, சாய்ந்த போன்றவை)",
+                "text": "100 உருப்படிகள் வரை"
+            },
+            "messaging_frequency": {
+                "name": "தகவல் அனுப்பும் அடுக்குநிகழ்நிலை",
+                "hint": "எந்த அரட்டையிலும்",
+                "text": "ஒரு வினாடிக்குத் தோராயமாக ஒரு தகவல்வரை, மின்னல் போன்ற பரிமாற்றத்தைத் தவிர"
+            },
+            "messaging_frequency_groups": {
+                "name": "தகவல் அனுப்பும் அடுக்குநிகழ்நிலை",
+                "hint": "குழு அரட்டைகளில்",
+                "text": "up to 20 messages per second in the same chat"
+            },
+            "messaging_frequency_broadcast": {
+                "name": "தகவல் ஒளிபரப்பு அடுக்குநிகழ்நிலை",
+                "hint": "செயலற்ற அரட்டைகளுக்கு அறிவிப்புகளை அனுப்பும்போது மட்டுமே பொருந்தும்",
+                "text": "அரட்டைகள் முழுவதும் வினாடிக்கு 30 தகவல்கள்வரை"
+            },
+            "api_requests_frequency": {
+                "name": "API requests frequency",
+                "hint": "",
+                "text": "up to about 30 requests per second"
+            },
+            "bot_commands_count": {
+                "name": "கட்டளைகளின் எண்ணிக்கை",
+                "hint": "(BotFather-இல்)",
+                "text": "0 முதல் 100 கட்டளைகள்"
+            },
+            "bot_command_name_length": {
+                "name": "கட்டளை நீளம்",
+                "hint": "(BotFather-இல்)",
+                "text": "1 முதல் 32 எழுத்துகள்"
+            },
+            "bot_command_description_length": {
+                "name": "கட்டளை விளக்கத்தின் நீளம்",
+                "hint": "",
+                "text": "கூளியின் செயலி நிரல் இடைமுகம்மூலம் அமைக்கும்போது 256 எழுத்துகள்வரை காலியாக இருக்க வேண்டும்"
+            },
+            "start_payload_size": {
+                "name": "கூளி /துவக்க அனுப்பலின் நீளம்",
+                "hint": "ஆழமானத் தொடுப்பில் பயன்படுத்தப்படுகிறது",
+                "text": "64 பைட்டுகள் வரை"
+            },
+            "bot_alert_length": {
+                "name": "கூளியின் எச்சரிக்கை தகவல் நீளம்",
+                "hint": "",
+                "text": "200 எழுத்துகள் வரை"
+            },
+            "inline_max_items": {
+                "name": "உள்ளக தேடல் முடிவு எண்ணிக்கை",
+                "hint": "",
+                "text": "ஒரு பக்கத்திற்கு 50 உருப்படிகள்வரை"
+            }
+        }
+    },
+    "stories": {
+        "name": "Stories",
+        "items": {
+            "story_availability": {
+                "name": "Story availability",
+                "hint": "countries where stories are available without Telegram Premium",
+                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+            },
+            "story_lifetime": {
+                "name": "Story lifetime",
+                "text": "24 hours",
+                "text_premium": "6/12/24/48 hours"
+            },
+            "story_duration": {
+                "name": "Story duration",
+                "text": "up to 60 seconds"
+            },
+            "story_viewers_visibility": {
+                "name": "Viewers visibility",
+                "text": "24 hours",
+                "text_premium": "unlimited"
+            },
+            "story_daily_limit": {
+                "name": "Daily stories limit",
+                "text": "up to 2 stories",
+                "text_premium": "up to 100 stories"
+            },
+            "story_weekly_limit": {
+                "name": "Weekly stories limit",
+                "text": "up to 5 stories",
+                "text_premium": "up to 700 stories"
+            },
+            "story_monthly_limit": {
+                "name": "Monthly stories limit",
+                "text": "up to 20 stories",
+                "text_premium": "up to 3,000 stories"
+            },
+            "story_text_length": {
+                "name": "Text length in story",
+                "text": "up to 200 characters",
+                "text_premium": "up to 2,048 characters"
+            },
+            "story_incognito_frequency": {
+                "name": "Incognito usage frequency",
+                "text": "not available",
+                "text_premium": "once per 3 hour"
+            },
+            "story_incognito_duration": {
+                "name": "Incognito duration",
+                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
+                "text": "not available",
+                "text_premium": "30 minutes"
+            }
+        }
+    },
+    "search": {
+        "name": "தேடல்",
+        "items": {
+            "global_search_min_query": {
+                "name": "குறைந்தபட்ச வினவல் நீளம்",
+                "hint": "உலகளாவிய தேடலுக்கு",
+                "text": "குறைந்தபட்சம் 4 எழுத்துகள்"
+            },
+            "username_resolve_limit": {
+                "name": "பயனர்பெயர் தீர்வு வரம்பு",
+                "hint": "(கூளிகள் மற்றும் பயனர் கணக்குகள் இரண்டிற்கும்)",
+                "text": "தினசரி 200 பயனர்பெயர்கள்வரை"
+            }
+        }
+    },
+    "stickers": {
+        "name": "ஒட்டுபடங்கள்",
+        "items": {
+            "added_packs": {
+                "name": "சேர்க்கப்பட்ட பொதிகளின் எண்ணிக்கை",
+                "hint": "",
+                "text": "200 உருப்படிகள் வரை"
+            },
+            "favorite_stickers": {
+                "name": "பிடித்த ஒட்டுபடங்களின் எண்ணிக்கை",
+                "hint": "",
+                "text": "up to 5 items",
+                "text_premium": "up to 10 items"
+            },
+            "pack_size": {
+                "name": "ஒரு பொதியிலுள்ள ஒட்டுபடங்களின் எண்ணிக்கை",
+                "hint": "",
+                "text": "நிலையானது 120 வரை, அசைவூட்டம் உள்ளது 50 வரை"
+            },
+            "sticker_size": {
+                "name": "ஒட்டுபட அளவு",
+                "hint": "",
+                "text": "ஒரு பக்கம் 512 புள்ளிகளும், மற்றொரு பக்கம் 512 புள்ளிகள் அல்லது அதற்கும் குறைவானது; அசைவூட்டத்திற்கு கண்டிப்பாக 512x512 வேண்டும்"
+            },
+            "animation_duration": {
+                "name": "அசைவூட்ட கால வரையறை",
+                "hint": "",
+                "text": "3 வினாடிகள் வரை"
+            },
+            "file_size": {
+                "name": "ஒட்டுபடக் கோப்பின் அளவு",
+                "hint": "",
+                "text": "நிலையானது 512 கேபி வரை, அசைவூட்டம் உள்ளது 64 கேபி வரை"
+            },
+            "fps": {
+                "name": "FPS",
+                "hint": "",
+                "text": "30 அல்லது 60"
+            },
+            "stickerpack_name_length": {
+                "name": "பொதியின் பெயர் நீளம்",
+                "hint": "",
+                "text": "64 எழுத்துகள் வரை"
+            },
+            "stickerpack_url_length": {
+                "name": "/addstickers தொகுப்பின் தொடுப்பு நீளம்",
+                "hint": "",
+                "text": "62 எழுத்துகள்வரை"
+            },
+            "emojis_per_pack": {
+                "name": "Emojis per pack",
+                "hint": "",
+                "text": "up to 200"
+            }
+        }
+    },
+    "telegraph": {
+        "name": "டெலிகிராப்",
+        "items": {
+            "accounts_number": {
+                "name": "கணக்குகளின் எண்ணிக்கை",
+                "hint": "@டெலிகிராப் கூளியில்",
+                "text": "5 உருப்படிகள் வரை"
+            },
+            "text_size": {
+                "name": "கட்டுரையின் அளவு",
+                "hint": "",
+                "text": "64 KiB வரை"
+            }
+        }
+    },
+    "miscellaneous": {
+        "name": "மற்றவை",
+        "items": {
+            "properties": {
+                "name": "சுயக்குறிப்புக் காணொளி பண்புகள்",
+                "hint": "",
+                "text": "800x800px, 2 MB வரை"
+            },
+            "photo_resolution": {
+                "name": "புகைப்பட அளவு",
+                "hint": "சுருக்கி அனுப்பப்படும்போது",
+                "text": "ஒவ்வொரு பக்கமும் 1280px -க்குக் குறைவாகவோ அல்லது 1280px என இருக்க வேண்டும், இல்லையெனில் மிகப்பெரிய பக்கமானது 1280px எனக் குறைக்கப்படும்"
+            }
+        }
     }
-  },
-  "chats": {
-    "name": "அரட்டை மற்றும் குழுக்கள்",
-    "items": {
-      "participants_number": {
-        "name": "பங்கேற்பாளர்கள்",
-        "hint": "(வரம்பை உயர்த்த முடியும்)",
-        "text": "2,00,000 வரை ஆனால் ஒளிபரப்புக் குழுக்களில் வரம்பற்றது"
-      },
-      "admins_number": {
-        "name": "நிர்வாகிகளின் எண்ணிக்கை",
-        "hint": "குழுக்களில்",
-        "text": "50 வரை"
-      },
-      "bots_amount": {
-        "name": "கூளிகளின் எண்ணிக்கை",
-        "hint": "குழுக்களில்",
-        "text": "20 வரை"
-      },
-      "pinned_number": {
-        "name": "முக்கியப் பட்டியலில் செருகப்பட்ட அரட்டைகள்",
-        "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats",
-        "text_premium": "up to 10 chats or channels"
-      },
-      "group_name": {
-        "name": "குழுவின் பெயர் மற்றும் விளக்கம்",
-        "hint": "",
-        "text": "255 எழுத்துகள் வரை"
-      },
-      "editing": {
-        "name": "தகவல் திருத்தம்",
-        "hint": "",
-        "text": "அனுப்பிய 48 மணி நேரத்திற்குள்; சேமிக்கப்பட்டவையில் மற்றும் செருக உரிமையுள்ள நிர்வாகிகளுக்கு வரம்பற்றது"
-      },
-      "media_self_destruction": {
-        "name": "படம் மற்றும் காணொளி சுய-அழிவு",
-        "hint": "",
-        "text": "1 முதல் 60 வினாடிகள்"
-      },
-      "recent_actions": {
-        "name": "அண்மைச் செயல்கள்",
-        "hint": "(நேயராவது, பதிவுகள், முதலியன)",
-        "text": "கடந்த இரண்டு நாட்கள்"
-      },
-      "mentions_amount": {
-        "name": "குறிப்பிடல்களின் எண்ணிக்கை",
-        "hint": "ஒரே தகவலில்",
-        "text": "50 வரை, மற்ற அறிவிப்புகள் அனுப்பப்படாது"
-      },
-      "visible_messages": {
-        "name": "காணக்கூடிய தகவல்களின் எண்ணிக்கை",
-        "hint": "குழுக்களில்",
-        "text": "கடைசி 10,00,000 தகவல்கள்"
-      },
-      "pinned_messages_number": {
-        "name": "செருகப்பட்ட தகவல்களின் எண்ணிக்கை",
-        "hint": "",
-        "text": "வரம்பற்றது"
-      },
-      "participants_to_see_stats": {
-        "name": "Number of members to see statistics",
-        "hint": "",
-        "text": "at least 500"
-      },
-      "username_reservation": {
-        "name": "பயனர்பெயர் மாற்ற முன்பதிவு",
-        "hint": "(அசல் உரிமையாளருக்கு மட்டுமின்றி, அனைவருக்கும் பயனர்பெயர் கிடைக்கும் முன்)",
-        "text": "சுமார் 15-30 நிமிடங்கள்"
-      },
-      "participants_for_group_stickers": {
-        "name": "குழு பரிந்துரைக்கும் ஒட்டுபடங்கள்",
-        "hint": "",
-        "text": "100+ பங்கேற்பாளர்கள் கொண்ட குழுக்கள்"
-      },
-      "chat_role_length": {
-        "name": "நிர்வாகி பதவிப் பெயரின் நீளம்",
-        "hint": "",
-        "text": "16 எழுத்துகள் வரை"
-      },
-      "chat_title_length": {
-        "name": "அரட்டை தலைப்பின் நீளம்",
-        "hint": "",
-        "text": "128 எழுத்துகள் வரை"
-      },
-      "broadcast_group_access": {
-        "name": "ஒரு சிறப்புக் குழுவை ஒளிபரப்புக் குழுவாக மாற்றுதல்",
-        "hint": "",
-        "text": "1,99,000+ உறுப்பினர்கள் உள்ள அரட்டையில்"
-      },
-      "read_receipts_availability": {
-        "name": "பார்த்ததற்கான சிட்டைகள் கிடைப்பது",
-        "hint": "",
-        "text": "100 அல்லது அதற்கும் குறைவான உறுப்பினர்களுள்ள அரட்டையில், பயனர்களின் பட்டியல் தகவலை அனுப்பிய பயனருக்கு மட்டுமே கிடைக்கும்"
-      },
-      "read_receipts_lifetime": {
-        "name": "பார்த்ததற்கான சிட்டைகள் வாழ்நாள் முழுவதும்",
-        "hint": "",
-        "text": "தகவல் அனுப்பப்பட்டதிலிருந்து 7 நாட்கள்வரை"
-      }
-    }
-  },
-  "voice_chats": {
-    "name": "குரல் & காணொளி அரட்டைகள்",
-    "items": {
-      "voice_chat_participants": {
-        "name": "குரலரட்டை கவனிப்பவர்கள்",
-        "hint": "",
-        "text": "வரம்பற்றது"
-      },
-      "video_chat_broadcast": {
-        "name": "காணொளி ஒளிபரப்பு",
-        "hint": "(படக்கருவி, திரை வார்ப்பு)",
-        "text": "ஒரே நேரத்தில் 30 ஒளிபரப்பு பயனர்கள் வரை"
-      },
-      "video_chat_viewers": {
-        "name": "காணொளி ஒளிபரப்பு பார்வையாளர்கள்",
-        "hint": "",
-        "text": "அதிகாரப்பூர்வமாக இது வரம்பற்றதாகக் கூறப்படுகிறது, நடைமுறையில், ஒரே நேரத்தில் சுமார் 2,000 பார்வையாளர்களில் பாய்வு நிலையற்றதாகிறது"
-      },
-      "voice_chat_schedule": {
-        "name": "அரட்டைகளுக்கு நேரம் குறித்தல்",
-        "hint": "",
-        "text": "7 நாட்களுக்கு முன்னால்"
-      }
-    }
-  },
-  "channels": {
-    "name": "பதிவுத்தடங்கள்",
-    "items": {
-      "public_usernames": {
-        "name": "பொது பயனர்பெயர் எண்ணிக்கை",
-        "hint": "ஒரு கணக்கிற்கு",
-        "text": "10 வரை (குழுக்கள் உட்பட)",
-        "text_premium": "up to 20 (including groups)"
-      },
-      "username_length": {
-        "name": "@பயனர்பெயரின் நீளம்",
-        "hint": "",
-        "text": "5 முதல் 32 எழுத்துகள்"
-      },
-      "channel_name": {
-        "name": "பதிவுத்தடத்தின் பெயர் மற்றும் விளக்கம்",
-        "hint": "",
-        "text": "255 எழுத்துகள் வரை"
-      },
-      "channel_admins": {
-        "name": "பதிவுத்தட நிர்வாகிகளின் எண்ணிக்கை",
-        "hint": "(கூளிகள் உட்பட; கூளியை ஒரு நிர்வாகியாக மாற்றுவதன் மூலம் மட்டுமே அதை உங்கள் பதிவுத்தடத்தில் சேர்க்க முடியும்)",
-        "text": "50 கணக்குகள் வரை"
-      },
-      "editing": {
-        "name": "பதிவிட்டதின் திருத்தம்",
-        "hint": "",
-        "text": "வரம்பற்றது (பதிவுத்தடத்தில் ஒரு விவாதக் குழு இணைக்கப்பட்டிருந்தால், 2 வாரங்களுக்கும் மேலான பதிவுகள் அரட்டையில் திருத்தப்படாது)"
-      },
-      "subscribers": {
-        "name": "பதிவுத்தட நேயர்களின் எண்ணிக்கை",
-        "hint": "",
-        "text": "வரம்பற்றது"
-      },
-      "visible_participants": {
-        "name": "தெரியக்கூடிய நேயர்கள்",
-        "hint": "பதிவுத்தட நிர்வாகிக்கு",
-        "text": "200 நபர்கள்"
-      },
-      "channel_deletion": {
-        "name": "பதிவுத்தட அழிப்பு",
-        "hint": "",
-        "text": "ஆயிரத்திற்கும் மேற்பட்ட நேயர்களைக் கொண்ட பதிவுத்தடங்களை டெலிகிராம் ஆதரவுடன் மட்டுமே அழிக்க முடியும்"
-      },
-      "private_channel_access": {
-        "name": "சேராமல் தனியார் பதிவுத்தடங்களைப் பார்ப்பது",
-        "hint": "(200+ நேயர்களைக் கொண்ட பதிவுத்தடங்களுக்கு)",
-        "text": "ஒரு நாளைக்கு 5 நிமிடங்கள் வரை"
-      },
-      "invintations": {
-        "name": "பயனர்களை வரச்செய்தல்",
-        "hint": "",
-        "text": "200 பேர் வரை"
-      },
-      "followers_to_see_stats": {
-        "name": "புள்ளிவிவரங்களைக் காட்ட தேவையான நேயர்களின் எண்ணிக்கை",
-        "hint": "",
-        "text": "குறைந்தது 50"
-      },
-      "username_reservation": {
-        "name": "பயனர்பெயர் மாற்ற முன்பதிவு",
-        "hint": "(அசல் உரிமையாளருக்கு மட்டுமின்றி, அனைவருக்கும் பயனர்பெயர் கிடைக்கும் முன்)",
-        "text": "சுமார் 15-30 நிமிடங்கள்"
-      }
-    }
-  },
-  "messages": {
-    "name": "தகவல்கள்",
-    "items": {
-      "single_message_length": {
-        "name": "ஒரு தகவலின் நீளம்",
-        "hint": "",
-        "text": "4,096 எழுத்துகள் வரை"
-      },
-      "media_descriptions": {
-        "name": "ஒலியொளிக் குறிப்பு",
-        "hint": "",
-        "text": "up to 1,024 characters",
-        "text_premium": "up to 2,048 characters"
-      },
-      "upload_size": {
-        "name": "கோப்பு அளவின் வரம்பு",
-        "hint": "",
-        "text": "up to 2 GB",
-        "text_premium": "up to 4 GB"
-      },
-      "file_name_length": {
-        "name": "கோப்புப் பெயர் நீளம்",
-        "hint": "",
-        "text": "60 எழுத்துகள்வரை, மற்றவை நறுக்கப்படும்"
-      },
-      "video_message_duration": {
-        "name": "காணொளித் தகவலின் கால வரையறை",
-        "hint": "",
-        "text": "1 நிமிடம் வரை"
-      },
-      "album_size": {
-        "name": "ஒரே தகவலில் படங்கள் மற்றும் வீடியோக்கள்",
-        "hint": "(படத்தொகுப்பு)",
-        "text": "10 உருப்படிகள் வரை"
-      },
-      "delayed_messages": {
-        "name": "நேரம் குறித்த தகவல்களின் எண்ணிக்கை",
-        "hint": "",
-        "text": "100 உருப்படிகள்வரை (ஒவ்வொரு அரட்டைக்கும்)"
-      },
-      "delaying_messages": {
-        "name": "நேரம் குறித்தலின் வரம்பு",
-        "hint": "",
-        "text": "365 நாட்கள் வரை"
-      },
-      "custom_emoji_per_message": {
-        "name": "Custom emoji per message",
-        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-        "text": "not available",
-        "text_premium": "up to 100 emoji"
-      },
-      "links_per_message": {
-        "name": "Links per message",
-        "hint": "",
-        "text": "up to 100 links"
-      }
-    }
-  },
-  "folders": {
-    "name": "கோப்புறைகள்",
-    "items": {
-      "name_length": {
-        "name": "Folder name length",
-        "hint": "",
-        "text": "up to 12 characters"
-      },
-      "folder_amount": {
-        "name": "கோப்புறைகளின் எண்ணிக்கை",
-        "hint": "",
-        "text": "up to 10 folders",
-        "text_premium": "up to 30 folders"
-      },
-      "pinned_chats_in_folder": {
-        "name": "கோப்புறையில் செருகப்பட்ட அரட்டைகள்",
-        "hint": "",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
-      },
-      "chats_per_folder": {
-        "name": "Chats per folder",
-        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
-      }
-    }
-  },
-  "public_folders": {
-    "name": "Public Folders",
-    "icon": "folder_shared",
-    "items": {
-      "public_folders_count": {
-        "name": "Number of public folders",
-        "hint": "",
-        "text": "up to 2 folders",
-        "text_premium": "up to 20 folders"
-      },
-      "chats_per_public_folder": {
-        "name": "Chats/channels per public folder",
-        "hint": "",
-        "text": "up to 100 items",
-        "text_premium": "up to 200 items"
-      }
-    }
-  },
-  "bots": {
-    "name": "கூளிகள்",
-    "items": {
-      "bots_amount": {
-        "name": "கூளிகளின் எண்ணிக்கை",
-        "hint": "(@BotFather ஆல் உருவாக்கப்பட்டது)",
-        "text": "20 உருப்படிகள் வரை",
-        "text_premium": "up to 40 items"
-      },
-      "username length": {
-        "name": "@பயனர்பெயரின் நீளம்",
-        "hint": "கூளிகளுக்கு",
-        "text": "5 முதல் 32 எழுத்துகள்"
-      },
-      "info_length": {
-        "name": "கூளி விவரத்தின் நீளம்",
-        "hint": "(/setabouttext)",
-        "text": "120 எழுத்துகள் வரை"
-      },
-      "description_length": {
-        "name": "கூளி விளக்கத்தின் நீளம்",
-        "hint": "",
-        "text": "512 எழுத்துகள் வரை"
-      },
-      "upload_limit_botapi": {
-        "name": "கோப்பு பதிவேற்றல் வரம்பு",
-        "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகம் இல்லாமல்",
-        "text": "50 MB வரை"
-      },
-      "upload_limit_botapi_local": {
-        "name": "கோப்பின் பதிவேற்ற வரம்பு",
-        "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகமுடன்",
-        "text": "2000 MB வரை"
-      },
-      "download_limit_botapi": {
-        "name": "கோப்பின் பதிவிறக்க வரம்பு",
-        "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகம் இல்லாமல்",
-        "text": "20 MB வரை"
-      },
-      "download_limit_botapi_local": {
-        "name": "கோப்பின் பதிவிறக்க வரம்பு",
-        "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகமுடன்",
-        "text": "2000 MB வரை"
-      },
-      "keys_in_keyboard_number": {
-        "name": "விசைப்பலகை பொத்தான்களின் எண்ணிக்கை",
-        "hint": "",
-        "text": "100 உருப்படிகள் வரை"
-      },
-      "formatting_data": {
-        "name": "தகவல் வகையாக்கத் தரவு",
-        "hint": "எ.க. உள்ளகப் பொத்தான்",
-        "text": "10 கேபி வரை"
-      },
-      "formatting_entities": {
-        "name": "வடிவமைத்தல் வகை",
-        "hint": "(பட்டை, சாய்ந்த போன்றவை)",
-        "text": "100 உருப்படிகள் வரை"
-      },
-      "messaging_frequency_broadcast": {
-        "name": "தகவல் ஒளிபரப்பு அடுக்குநிகழ்நிலை",
-        "hint": "செயலற்ற அரட்டைகளுக்கு அறிவிப்புகளை அனுப்பும்போது மட்டுமே பொருந்தும்",
-        "text": "அரட்டைகள் முழுவதும் வினாடிக்கு 30 தகவல்கள்வரை"
-      },
-      "messaging_frequency": {
-        "name": "தகவல் அனுப்பும் அடுக்குநிகழ்நிலை",
-        "hint": "எந்த அரட்டையிலும்",
-        "text": "ஒரு வினாடிக்குத் தோராயமாக ஒரு தகவல்வரை, மின்னல் போன்ற பரிமாற்றத்தைத் தவிர"
-      },
-      "messaging_frequency_groups": {
-        "name": "தகவல் அனுப்பும் அடுக்குநிகழ்நிலை",
-        "hint": "குழு அரட்டைகளில்",
-        "text": "up to 20 messages per second in the same chat"
-      },
-      "bot_commands_count": {
-        "name": "கட்டளைகளின் எண்ணிக்கை",
-        "hint": "(BotFather-இல்)",
-        "text": "0 முதல் 100 கட்டளைகள்"
-      },
-      "bot_command_name_length": {
-        "name": "கட்டளை நீளம்",
-        "hint": "(BotFather-இல்)",
-        "text": "1 முதல் 32 எழுத்துகள்"
-      },
-      "bot_command_description_length": {
-        "name": "கட்டளை விளக்கத்தின் நீளம்",
-        "hint": "",
-        "text": "கூளியின் செயலி நிரல் இடைமுகம்மூலம் அமைக்கும்போது 256 எழுத்துகள்வரை காலியாக இருக்க வேண்டும்"
-      },
-      "start_payload_size": {
-        "name": "கூளி /துவக்க அனுப்பலின் நீளம்",
-        "hint": "ஆழமானத் தொடுப்பில் பயன்படுத்தப்படுகிறது",
-        "text": "64 பைட்டுகள் வரை"
-      },
-      "bot_alert_length": {
-        "name": "கூளியின் எச்சரிக்கை தகவல் நீளம்",
-        "hint": "",
-        "text": "200 எழுத்துகள் வரை"
-      },
-      "inline_max_items": {
-        "name": "உள்ளக தேடல் முடிவு எண்ணிக்கை",
-        "hint": "",
-        "text": "ஒரு பக்கத்திற்கு 50 உருப்படிகள்வரை"
-      }
-    }
-  },
-  "stories": {
-    "name": "Stories",
-    "items": {
-      "story_lifetime": {
-        "name": "Story lifetime",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "24 hours",
-        "text_premium": "6/12/24/48 hours"
-      },
-      "story_duration": {
-        "name": "Story duration",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 60 seconds"
-      },
-      "story_viewers_visibility": {
-        "name": "Viewers visibility",
-        "hint": "",
-        "text": "24 hours",
-        "text_premium": "unlimited"
-      },
-      "story_daily_limit": {
-        "name": "Daily stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 100 stories"
-      },
-      "story_weekly_limit": {
-        "name": "Weekly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 700 stories"
-      },
-      "story_monthly_limit": {
-        "name": "Monthly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 30 stories",
-        "text_premium": "up to 3,000 stories"
-      },
-      "story_text_length": {
-        "name": "Text length in story",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 200 characters",
-        "text_premium": "up to 2,048 characters"
-      },
-      "story_incognito_frequency": {
-        "name": "Incognito usage frequency",
-        "hint": "",
-        "text": "not available",
-        "text_premium": "once per 3 hour"
-      },
-      "story_incognito_duration": {
-        "name": "Incognito duration",
-        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
-        "text": "not available",
-        "text_premium": "30 minutes"
-      }
-    }
-  },
-  "search": {
-    "name": "தேடல்",
-    "items": {
-      "global_search": {
-        "name": "உலகளாவிய தேடல் முடிவுகள்",
-        "hint": "",
-        "text": ""
-      },
-      "global_search_min_query": {
-        "name": "குறைந்தபட்ச வினவல் நீளம்",
-        "hint": "உலகளாவிய தேடலுக்கு",
-        "text": "குறைந்தபட்சம் 4 எழுத்துகள்"
-      },
-      "username_resolve_limit": {
-        "name": "பயனர்பெயர் தீர்வு வரம்பு",
-        "hint": "(கூளிகள் மற்றும் பயனர் கணக்குகள் இரண்டிற்கும்)",
-        "text": "தினசரி 200 பயனர்பெயர்கள்வரை"
-      }
-    }
-  },
-  "stickers": {
-    "name": "ஒட்டுபடங்கள்",
-    "items": {
-      "added_packs": {
-        "name": "சேர்க்கப்பட்ட பொதிகளின் எண்ணிக்கை",
-        "hint": "",
-        "text": "200 உருப்படிகள் வரை"
-      },
-      "favorite_stickers": {
-        "name": "பிடித்த ஒட்டுபடங்களின் எண்ணிக்கை",
-        "hint": "",
-        "text": "up to 5 items",
-        "text_premium": "up to 10 items"
-      },
-      "pack_size": {
-        "name": "ஒரு பொதியிலுள்ள ஒட்டுபடங்களின் எண்ணிக்கை",
-        "hint": "",
-        "text": "நிலையானது 120 வரை, அசைவூட்டம் உள்ளது 50 வரை"
-      },
-      "sticker_size": {
-        "name": "ஒட்டுபட அளவு",
-        "hint": "",
-        "text": "ஒரு பக்கம் 512 புள்ளிகளும், மற்றொரு பக்கம் 512 புள்ளிகள் அல்லது அதற்கும் குறைவானது; அசைவூட்டத்திற்கு கண்டிப்பாக 512x512 வேண்டும்"
-      },
-      "animation_duration": {
-        "name": "அசைவூட்ட கால வரையறை",
-        "hint": "",
-        "text": "3 வினாடிகள் வரை"
-      },
-      "file_size": {
-        "name": "ஒட்டுபடக் கோப்பின் அளவு",
-        "hint": "",
-        "text": "நிலையானது 512 கேபி வரை, அசைவூட்டம் உள்ளது 64 கேபி வரை"
-      },
-      "fps": {
-        "name": "FPS",
-        "hint": "",
-        "text": "30 அல்லது 60"
-      },
-      "stickerpack_name_length": {
-        "name": "பொதியின் பெயர் நீளம்",
-        "hint": "",
-        "text": "64 எழுத்துகள் வரை"
-      },
-      "stickerpack_url_length": {
-        "name": "/addstickers தொகுப்பின் தொடுப்பு நீளம்",
-        "hint": "",
-        "text": "62 எழுத்துகள்வரை"
-      }
-    }
-  },
-  "telegraph": {
-    "name": "டெலிகிராப்",
-    "items": {
-      "accounts_number": {
-        "name": "கணக்குகளின் எண்ணிக்கை",
-        "hint": "@டெலிகிராப் கூளியில்",
-        "text": "5 உருப்படிகள் வரை"
-      },
-      "text_size": {
-        "name": "கட்டுரையின் அளவு",
-        "hint": "",
-        "text": "64 KiB வரை"
-      }
-    }
-  },
-  "miscellaneous": {
-    "name": "மற்றவை",
-    "items": {
-      "properties": {
-        "name": "சுயக்குறிப்புக் காணொளி பண்புகள்",
-        "hint": "",
-        "text": "800x800px, 2 MB வரை"
-      },
-      "photo_resolution": {
-        "name": "புகைப்பட அளவு",
-        "hint": "சுருக்கி அனுப்பப்படும்போது",
-        "text": "ஒவ்வொரு பக்கமும் 1280px -க்குக் குறைவாகவோ அல்லது 1280px என இருக்க வேண்டும், இல்லையெனில் மிகப்பெரிய பக்கமானது 1280px எனக் குறைக்கப்படும்"
-      }
-    }
-  }
 }

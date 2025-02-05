@@ -1,633 +1,705 @@
 {
-  "accounts": {
-    "name": "Kontoj",
-    "items": {
-      "username": {
-        "name": "Uzantnomo",
-        "hint": "(ekz. @cameraman)",
-        "text": "5 ĝis 32 signoj, komencante per 4 signoj por NFT uzantonomoj"
-      },
-      "bio": {
-        "name": "Biografio",
-        "hint": "",
-        "text": "up to 70 characters",
-        "text_premium": "up to 140 characters"
-      },
-      "name_length": {
-        "name": "Longeco de la nomo",
-        "hint": "",
-        "text": "de 1 ĝis 64 signoj"
-      },
-      "last_name_length": {
-        "name": "Longeco de la familinomo",
-        "hint": "",
-        "text": "de 0 ĝis 64 signoj"
-      },
-      "self_destruction": {
-        "name": "Memdetrua periodo",
-        "hint": "se ne estas aktiveco",
-        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
-      },
-      "spam_ban": {
-        "name": "Blokado de trudmesaĝo",
-        "hint": "",
-        "text": "de 1 tago ĝis ĉiam",
-        "text_premium": "from 1 second up to forever"
-      },
-      "channels_and_chats_number": {
-        "name": "Numero de kanaloj kaj supergrupoj",
-        "hint": "vi povas esti membro de",
-        "text": "up to 500 (including ones you own)",
-        "text_premium": "up to 1000 (including ones you own)"
-      },
-      "gifs_number": {
-        "name": "Nombro de konservitaj GIF",
-        "hint": "",
-        "text": "up to 200",
-        "text_premium": "up to 400"
-      },
-      "video_length": {
-        "name": "Daŭro de avatara video",
-        "hint": "",
-        "text": "ĝis 10 sekundoj"
-      },
-      "groups_and_channels_creation": {
-        "name": "Kreado de grupoj kaj kanaloj",
-        "hint": "",
-        "text": "ĝis 50 po tago"
-      },
-      "accounts_number": {
-        "name": "Nombro de kontoj",
-        "hint": "(oficialaj klientoj)",
-        "text": "up to 3",
-        "text_premium": "up to 4-6 (depends on app)"
-      },
-      "visible_messages": {
-        "name": "Nombro da videblaj mesaĝoj",
-        "hint": "(kundividita limo inter privataj babilejoj, bots kaj malnovaj grupoj)",
-        "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
-      }
+    "accounts": {
+        "name": "Kontoj",
+        "items": {
+            "username": {
+                "name": "Uzantnomo",
+                "hint": "(ekz. @cameraman)",
+                "text": "5 ĝis 32 signoj, komencante per 4 signoj por NFT uzantonomoj"
+            },
+            "bio": {
+                "name": "Biografio",
+                "hint": "",
+                "text": "up to 70 characters",
+                "text_premium": "up to 140 characters"
+            },
+            "name_length": {
+                "name": "Longeco de la nomo",
+                "hint": "",
+                "text": "de 1 ĝis 64 signoj"
+            },
+            "last_name_length": {
+                "name": "Longeco de la familinomo",
+                "hint": "",
+                "text": "de 0 ĝis 64 signoj"
+            },
+            "self_destruction": {
+                "name": "Memdetrua periodo",
+                "hint": "se ne estas aktiveco",
+                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+            },
+            "spam_ban": {
+                "name": "Blokado de trudmesaĝo",
+                "hint": "",
+                "text": "de 1 tago ĝis ĉiam",
+                "text_premium": "from 1 second up to forever"
+            },
+            "channels_and_chats_number": {
+                "name": "Numero de kanaloj kaj supergrupoj",
+                "hint": "vi povas esti membro de",
+                "text": "up to 500 (including ones you own)",
+                "text_premium": "up to 1000 (including ones you own)"
+            },
+            "gifs_number": {
+                "name": "Nombro de konservitaj GIF",
+                "hint": "",
+                "text": "up to 200",
+                "text_premium": "up to 400"
+            },
+            "video_length": {
+                "name": "Daŭro de avatara video",
+                "hint": "",
+                "text": "ĝis 10 sekundoj"
+            },
+            "groups_and_channels_creation": {
+                "name": "Kreado de grupoj kaj kanaloj",
+                "hint": "",
+                "text": "ĝis 50 po tago"
+            },
+            "accounts_number": {
+                "name": "Nombro de kontoj",
+                "hint": "(oficialaj klientoj)",
+                "text": "up to 3",
+                "text_premium": "up to 4-6 (depends on app)"
+            },
+            "visible_messages": {
+                "name": "Nombro da videblaj mesaĝoj",
+                "hint": "(kundividita limo inter privataj babilejoj, bots kaj malnovaj grupoj)",
+                "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
+            },
+            "sticker_packs_per_account": {
+                "name": "Sticker packs per account",
+                "hint": "",
+                "text": "up to 200"
+            },
+            "emoji_packs_per_account": {
+                "name": "Emoji packs per account",
+                "hint": "",
+                "text": "up to 200"
+            },
+            "username_ownership_for_auction": {
+                "name": "Minimum username ownership for auction",
+                "hint": "",
+                "text": "14 days"
+            }
+        }
+    },
+    "chats": {
+        "name": "Babilejoj kaj grupoj",
+        "items": {
+            "participants_number": {
+                "name": "Partoprenantoj",
+                "hint": "(limo povas esti pliigita)",
+                "text": "up to 200,000 but unlimited in Broadcast Groups"
+            },
+            "admins_number": {
+                "name": "Nombro da administrantoj",
+                "hint": "en grupoj",
+                "text": "ĝis 50"
+            },
+            "bots_amount": {
+                "name": "Nombro da bots",
+                "hint": "en grupoj",
+                "text": "ĝis 20"
+            },
+            "pinned_number": {
+                "name": "Fiksitaj babilejoj en la ĉeflisto",
+                "hint": "",
+                "text": "up to 5 chats or channels + 5 secret chats",
+                "text_premium": "up to 10 chats or channels"
+            },
+            "group_name": {
+                "name": "Nomo kaj priskribo de la grupo",
+                "hint": "",
+                "text": "ĝis 255 presliteroj"
+            },
+            "editing": {
+                "name": "Redakti mesaĝon",
+                "hint": "",
+                "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
+            },
+            "media_self_destruction": {
+                "name": "Memdetruo de fotoj kaj videoj",
+                "hint": "",
+                "text": "1 ĝis 60 sekundoj"
+            },
+            "recent_actions": {
+                "name": "Lastaj agoj",
+                "hint": "(abonoj, afiŝoj, ktp.)",
+                "text": "lastaj du tagoj"
+            },
+            "mentions_amount": {
+                "name": "Numero de mencioj",
+                "hint": "en unusola mesaĝo",
+                "text": "up to 50, else notifications won't be sent"
+            },
+            "visible_messages": {
+                "name": "Nombro da videblaj mesaĝoj",
+                "hint": "en grupo",
+                "text": "lastaj 1,000,000 mesaĝoj"
+            },
+            "pinned_messages_number": {
+                "name": "Pinned messages number",
+                "hint": "",
+                "text": "senlima"
+            },
+            "participants_to_see_stats": {
+                "name": "Number of members to see statistics",
+                "hint": "",
+                "text": "almenaŭ 500"
+            },
+            "username_reservation": {
+                "name": "Username change reservation",
+                "hint": "(time before username will be available for everyone, not just the original owner)",
+                "text": "proksimume 15-30 minutoj"
+            },
+            "participants_for_group_stickers": {
+                "name": "Group-promoted stickers",
+                "hint": "",
+                "text": "grupoj kun 100+ partoprenantoj"
+            },
+            "chat_role_length": {
+                "name": "Longeco de la administranta rolo",
+                "hint": "",
+                "text": "ĝis 16 signoj"
+            },
+            "chat_title_length": {
+                "name": "Longeco de la babileja titolo",
+                "hint": "",
+                "text": "ĝis 128 signoj"
+            },
+            "broadcast_group_access": {
+                "name": "Converting a supergroup to broadcast group",
+                "hint": "",
+                "text": "for chats with 199,000+ members"
+            },
+            "read_receipts_lifetime": {
+                "name": "Read receipts lifetime",
+                "hint": "",
+                "text": "up to 7 days since message was sent"
+            },
+            "read_receipts_availability": {
+                "name": "Read receipts availability",
+                "hint": "",
+                "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+            }
+        }
+    },
+    "topic": {
+        "name": "Forum",
+        "items": {
+            "visible_users_in_topic_group": {
+                "name": "Visible users in topic group",
+                "hint": "",
+                "text": "up to 100"
+            },
+            "topics_per_group": {
+                "name": "Topics per group",
+                "hint": "",
+                "text": "up to 1,000,000"
+            },
+            "topic_title_length": {
+                "name": "Topic title length",
+                "hint": "",
+                "text": "up to 128 characters"
+            },
+            "pinned_topics": {
+                "name": "Pinned topics",
+                "hint": "",
+                "text": "up to 5"
+            }
+        }
+    },
+    "voice_chats": {
+        "name": "Sono kaj Video babilejoj",
+        "items": {
+            "voice_chat_participants": {
+                "name": "Audio Chat listeners",
+                "hint": "",
+                "text": "senlima"
+            },
+            "video_chat_broadcast": {
+                "name": "Elsendi videon",
+                "hint": "(camera, screen casting)",
+                "text": "up to 30 broadcasting users simultaneously"
+            },
+            "video_chat_viewers": {
+                "name": "Video broadcast viewers",
+                "hint": "",
+                "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
+            },
+            "voice_chat_title_length": {
+                "name": "Voice chat title length",
+                "hint": "",
+                "text": "up to 40 characters"
+            },
+            "voice_chat_schedule": {
+                "name": "Scheduled chats",
+                "hint": "",
+                "text": "up to 7 days ahead"
+            }
+        }
+    },
+    "channels": {
+        "name": "Kanaloj",
+        "items": {
+            "public_usernames": {
+                "name": "Public usernames number",
+                "hint": "for a single account",
+                "text": "ĝis 10 (inkludante grupojn)",
+                "text_premium": "up to 20 (including groups)"
+            },
+            "username_length": {
+                "name": "Longeco de @uzantnomo",
+                "hint": "",
+                "text": "5 ĝi 32 signoj"
+            },
+            "channel_name": {
+                "name": "Nomo kaj priskribo de la kanalo",
+                "hint": "",
+                "text": "ĝis 255 signoj"
+            },
+            "channel_admins": {
+                "name": "Kvanto da administrantoj en kanalo",
+                "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
+                "text": "ĝis 50 kontoj"
+            },
+            "editing": {
+                "name": "Mesaĝredaktado",
+                "hint": "",
+                "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
+            },
+            "subscribers": {
+                "name": "Channel subscribers number",
+                "hint": "",
+                "text": "senlima"
+            },
+            "visible_participants": {
+                "name": "Videblaj abonantoj",
+                "hint": "por la administranto de la kanalo",
+                "text": "200 personoj"
+            },
+            "channel_deletion": {
+                "name": "Forigo de kanalo",
+                "hint": "",
+                "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+            },
+            "private_channel_access": {
+                "name": "Viewing private channels without joining",
+                "hint": "(for channels with 200+ subscribers)",
+                "text": "ĝis 5 minutoj tage"
+            },
+            "invintations": {
+                "name": "Inviti uzantojn",
+                "hint": "",
+                "text": "ĝis 200 personoj"
+            },
+            "followers_to_see_stats": {
+                "name": "Number of subscribers to see statistics",
+                "hint": "",
+                "text": "almenaŭ 50"
+            },
+            "username_reservation": {
+                "name": "Username change reservation",
+                "hint": "(time before username will be available for everyone, not just the original owner)",
+                "text": "proksimume 15-30 minutoj"
+            }
+        }
+    },
+    "messages": {
+        "name": "Mesaĝoj",
+        "items": {
+            "single_message_length": {
+                "name": "Longeco de unu mesaĝo",
+                "hint": "",
+                "text": "up to 4,096 characters"
+            },
+            "media_descriptions": {
+                "name": "Media captions",
+                "hint": "",
+                "text": "up to 1,024 characters",
+                "text_premium": "up to 2,048 characters"
+            },
+            "upload_size": {
+                "name": "File size limit",
+                "hint": "",
+                "text": "up to 2 GB",
+                "text_premium": "up to 4 GB"
+            },
+            "file_name_length": {
+                "name": "Longeco de la dosiernomo",
+                "hint": "",
+                "text": "up to 60 characters, others will be trimmed out"
+            },
+            "video_message_duration": {
+                "name": "Daŭro de videomesaĝo",
+                "hint": "",
+                "text": "ĝis 1 minuto"
+            },
+            "album_size": {
+                "name": "Images and videos in single message",
+                "hint": "(albumo)",
+                "text": "up to 10 items"
+            },
+            "delayed_messages": {
+                "name": "Scheduled messages number",
+                "hint": "",
+                "text": "up to 100 items (per each chat)"
+            },
+            "delaying_messages": {
+                "name": "Schedule range",
+                "hint": "",
+                "text": "ĝis 365 tagoj"
+            },
+            "custom_emoji_per_message": {
+                "name": "Custom emoji per message",
+                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+                "text": "not available",
+                "text_premium": "up to 100 emoji"
+            },
+            "links_per_message": {
+                "name": "Links per message",
+                "hint": "",
+                "text": "up to 100 links"
+            }
+        }
+    },
+    "poll": {
+        "name": "Polls",
+        "items": {
+            "poll_question_length": {
+                "name": "Poll question length",
+                "hint": "",
+                "text": "1 to 255 characters"
+            },
+            "quiz_question_length": {
+                "name": "Quiz question length",
+                "hint": "",
+                "text": "1 to 200 characters"
+            },
+            "poll_options_count": {
+                "name": "Poll options count",
+                "hint": "",
+                "text": "2 to 10"
+            },
+            "poll_option_length": {
+                "name": "Poll option length",
+                "hint": "",
+                "text": "1 to 100 characters"
+            }
+        }
+    },
+    "folders": {
+        "name": "Dosierujoj",
+        "items": {
+            "name_length": {
+                "name": "Folder name length",
+                "hint": "",
+                "text": "up to 12 characters"
+            },
+            "folder_amount": {
+                "name": "Kvanto da dosierujoj",
+                "hint": "",
+                "text": "up to 10 folders",
+                "text_premium": "up to 30 folders"
+            },
+            "chats_per_folder": {
+                "name": "Chats per folder",
+                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            },
+            "pinned_chats_in_folder": {
+                "name": "Pinned chats in a folder",
+                "hint": "",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            }
+        }
+    },
+    "public_folders": {
+        "name": "Public Folders",
+        "icon": "folder_shared",
+        "items": {
+            "public_folders_count": {
+                "name": "Number of public folders",
+                "hint": "",
+                "text": "up to 2 folders",
+                "text_premium": "up to 20 folders"
+            },
+            "chats_per_public_folder": {
+                "name": "Chats/channels per public folder",
+                "hint": "",
+                "text": "up to 100 items",
+                "text_premium": "up to 200 items"
+            }
+        }
+    },
+    "bots": {
+        "name": "Robotoj",
+        "items": {
+            "bots_amount": {
+                "name": "Nombro de robotoj",
+                "hint": "(kreita de @BotFather)",
+                "text": "ĝis 20 botoj",
+                "text_premium": "up to 40 items"
+            },
+            "username_length": {
+                "name": "Length of @username",
+                "hint": "for bots",
+                "text": "5 to 32 characters"
+            },
+            "info_length": {
+                "name": "Longeco de la robota info",
+                "hint": "(/setabouttext)",
+                "text": "ĝis 120 signoj"
+            },
+            "description_length": {
+                "name": "Longeco de la robota priskribo",
+                "hint": "",
+                "text": "ĝis 512 signoj"
+            },
+            "upload_limit_botapi": {
+                "name": "Dosieralŝuta limo",
+                "hint": "without local Bot API server",
+                "text": "ĝis 50 MB"
+            },
+            "upload_limit_botapi_local": {
+                "name": "Dosieralŝuta limo",
+                "hint": "with local Bot API server",
+                "text": "ĝis 2000 MB"
+            },
+            "download_limit_botapi": {
+                "name": "Dosierelŝuta limo",
+                "hint": "without local Bot API server",
+                "text": "ĝis 20 MB"
+            },
+            "download_limit_botapi_local": {
+                "name": "Dosierelŝuta limo",
+                "hint": "with local Bot API server",
+                "text": "ĝis 2000 MB"
+            },
+            "keys_in_keyboard_number": {
+                "name": "Keyboard buttons number",
+                "hint": "",
+                "text": "ĝis 100 klavoj"
+            },
+            "formatting_data": {
+                "name": "Message markup data",
+                "hint": "ekz. enliniaj butonoj",
+                "text": "ĝis 10 KB"
+            },
+            "formatting_entities": {
+                "name": "Formatting entities",
+                "hint": "(grasa, kursiva ktp.)",
+                "text": "ĝis 100 elementoj"
+            },
+            "messaging_frequency": {
+                "name": "Message sending frequency",
+                "hint": "en iu ajn babilejo",
+                "text": "up to roughly one message per second, except maybe short bursts"
+            },
+            "messaging_frequency_groups": {
+                "name": "Message sending frequency",
+                "hint": "en babilejoj de grupo",
+                "text": "up to 20 messages per second in the same chat"
+            },
+            "messaging_frequency_broadcast": {
+                "name": "Message broadcasting frequency",
+                "hint": "only applies when actively sending notifications to otherwise inactive chats",
+                "text": "up to 30 messages per second across chats"
+            },
+            "api_requests_frequency": {
+                "name": "API requests frequency",
+                "hint": "",
+                "text": "up to about 30 requests per second"
+            },
+            "bot_commands_count": {
+                "name": "Commands amount",
+                "hint": "(en BotFather)",
+                "text": "0 ĝis 100 komandoj"
+            },
+            "bot_command_name_length": {
+                "name": "Komandlongeco",
+                "hint": "(en BotFather)",
+                "text": "de 1 ĝis 32 signoj"
+            },
+            "bot_command_description_length": {
+                "name": "Longeco de la komandpriskribo",
+                "hint": "",
+                "text": "up to 256 characters, must be non-empty when set via Bot API"
+            },
+            "start_payload_size": {
+                "name": "Bot /start payload length",
+                "hint": "used in deep linking",
+                "text": "ĝis 64 bajtoj"
+            },
+            "bot_alert_length": {
+                "name": "Bot alert message length",
+                "hint": "",
+                "text": "ĝis 200 signoj"
+            },
+            "inline_max_items": {
+                "name": "Enlinia kvanto da rezultoj",
+                "hint": "",
+                "text": "ĝis 50 rezultoj po paĝo"
+            }
+        }
+    },
+    "stories": {
+        "name": "Stories",
+        "items": {
+            "story_availability": {
+                "name": "Story availability",
+                "hint": "countries where stories are available without Telegram Premium",
+                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+            },
+            "story_lifetime": {
+                "name": "Story lifetime",
+                "text": "24 hours",
+                "text_premium": "6/12/24/48 hours"
+            },
+            "story_duration": {
+                "name": "Story duration",
+                "text": "up to 60 seconds"
+            },
+            "story_viewers_visibility": {
+                "name": "Viewers visibility",
+                "text": "24 hours",
+                "text_premium": "unlimited"
+            },
+            "story_daily_limit": {
+                "name": "Daily stories limit",
+                "text": "up to 2 stories",
+                "text_premium": "up to 100 stories"
+            },
+            "story_weekly_limit": {
+                "name": "Weekly stories limit",
+                "text": "up to 5 stories",
+                "text_premium": "up to 700 stories"
+            },
+            "story_monthly_limit": {
+                "name": "Monthly stories limit",
+                "text": "up to 20 stories",
+                "text_premium": "up to 3,000 stories"
+            },
+            "story_text_length": {
+                "name": "Text length in story",
+                "text": "up to 200 characters",
+                "text_premium": "up to 2,048 characters"
+            },
+            "story_incognito_frequency": {
+                "name": "Incognito usage frequency",
+                "text": "not available",
+                "text_premium": "once per 3 hour"
+            },
+            "story_incognito_duration": {
+                "name": "Incognito duration",
+                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
+                "text": "not available",
+                "text_premium": "30 minutes"
+            }
+        }
+    },
+    "search": {
+        "name": "Serĉi",
+        "items": {
+            "global_search_min_query": {
+                "name": "Minimal query length",
+                "hint": "for global search",
+                "text": "almenaŭ 4 signoj"
+            },
+            "username_resolve_limit": {
+                "name": "Username resolve limit",
+                "hint": "(for both bots and user accounts)",
+                "text": "ĝis 200 uzantnomoj tage"
+            }
+        }
+    },
+    "stickers": {
+        "name": "Glumarkoj",
+        "items": {
+            "added_packs": {
+                "name": "Added packs number",
+                "hint": "",
+                "text": "ĝis 200 pakaĵoj"
+            },
+            "favorite_stickers": {
+                "name": "Favorite stickers number",
+                "hint": "",
+                "text": "up to 5 items",
+                "text_premium": "up to 10 items"
+            },
+            "pack_size": {
+                "name": "Stickers in a pack number",
+                "hint": "",
+                "text": "up to 120 for static, up to 50 for animated"
+            },
+            "sticker_size": {
+                "name": "Pezo de glumarko",
+                "hint": "",
+                "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
+            },
+            "animation_duration": {
+                "name": "Animation duration",
+                "hint": "",
+                "text": "ĝis 3 sekundoj"
+            },
+            "file_size": {
+                "name": "Dosiera pezo de la glumarko",
+                "hint": "",
+                "text": "up to 512 KB for static, up to 64 KB for animated"
+            },
+            "fps": {
+                "name": "FPS",
+                "hint": "",
+                "text": "30 aŭ 60"
+            },
+            "stickerpack_name_length": {
+                "name": "Longeco de la pakaĵnomo",
+                "hint": "",
+                "text": "ĝis 64 signoj"
+            },
+            "stickerpack_url_length": {
+                "name": "Pack /addstickers url length",
+                "hint": "",
+                "text": "ĝis 62 signoj"
+            },
+            "emojis_per_pack": {
+                "name": "Emojis per pack",
+                "hint": "",
+                "text": "up to 200"
+            }
+        }
+    },
+    "telegraph": {
+        "name": "Telegraph",
+        "items": {
+            "accounts_number": {
+                "name": "Nombro de kontoj",
+                "hint": "en la roboto @telegraph",
+                "text": "ĝis 5 kontoj"
+            },
+            "text_size": {
+                "name": "Pezo de la artikolo",
+                "hint": "",
+                "text": "ĝis 64 KiB"
+            }
+        }
+    },
+    "miscellaneous": {
+        "name": "Miscellaneous",
+        "items": {
+            "properties": {
+                "name": "Video avatar properties",
+                "hint": "",
+                "text": "800x800px, ĝis 2 MB"
+            },
+            "photo_resolution": {
+                "name": "Fotokvalito",
+                "hint": "when sent with compression",
+                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+            }
+        }
     }
-  },
-  "chats": {
-    "name": "Babilejoj kaj grupoj",
-    "items": {
-      "participants_number": {
-        "name": "Partoprenantoj",
-        "hint": "(limo povas esti pliigita)",
-        "text": "up to 200,000 but unlimited in Broadcast Groups"
-      },
-      "admins_number": {
-        "name": "Nombro da administrantoj",
-        "hint": "en grupoj",
-        "text": "ĝis 50"
-      },
-      "bots_amount": {
-        "name": "Nombro da bots",
-        "hint": "en grupoj",
-        "text": "ĝis 20"
-      },
-      "pinned_number": {
-        "name": "Fiksitaj babilejoj en la ĉeflisto",
-        "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats",
-        "text_premium": "up to 10 chats or channels"
-      },
-      "group_name": {
-        "name": "Nomo kaj priskribo de la grupo",
-        "hint": "",
-        "text": "ĝis 255 presliteroj"
-      },
-      "editing": {
-        "name": "Redakti mesaĝon",
-        "hint": "",
-        "text": "in 48 hours after sending; unlimited in Saved and for admins with pinning rights"
-      },
-      "media_self_destruction": {
-        "name": "Memdetruo de fotoj kaj videoj",
-        "hint": "",
-        "text": "1 ĝis 60 sekundoj"
-      },
-      "recent_actions": {
-        "name": "Lastaj agoj",
-        "hint": "(abonoj, afiŝoj, ktp.)",
-        "text": "lastaj du tagoj"
-      },
-      "mentions_amount": {
-        "name": "Numero de mencioj",
-        "hint": "en unusola mesaĝo",
-        "text": "up to 50, else notifications won't be sent"
-      },
-      "visible_messages": {
-        "name": "Nombro da videblaj mesaĝoj",
-        "hint": "en grupo",
-        "text": "lastaj 1,000,000 mesaĝoj"
-      },
-      "pinned_messages_number": {
-        "name": "Pinned messages number",
-        "hint": "",
-        "text": "senlima"
-      },
-      "participants_to_see_stats": {
-        "name": "Number of members to see statistics",
-        "hint": "",
-        "text": "almenaŭ 500"
-      },
-      "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "proksimume 15-30 minutoj"
-      },
-      "participants_for_group_stickers": {
-        "name": "Group-promoted stickers",
-        "hint": "",
-        "text": "grupoj kun 100+ partoprenantoj"
-      },
-      "chat_role_length": {
-        "name": "Longeco de la administranta rolo",
-        "hint": "",
-        "text": "ĝis 16 signoj"
-      },
-      "chat_title_length": {
-        "name": "Longeco de la babileja titolo",
-        "hint": "",
-        "text": "ĝis 128 signoj"
-      },
-      "broadcast_group_access": {
-        "name": "Converting a supergroup to broadcast group",
-        "hint": "",
-        "text": "for chats with 199,000+ members"
-      },
-      "read_receipts_availability": {
-        "name": "Read receipts availability",
-        "hint": "",
-        "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
-      },
-      "read_receipts_lifetime": {
-        "name": "Read receipts lifetime",
-        "hint": "",
-        "text": "up to 7 days since message was sent"
-      }
-    }
-  },
-  "voice_chats": {
-    "name": "Sono kaj Video babilejoj",
-    "items": {
-      "voice_chat_participants": {
-        "name": "Audio Chat listeners",
-        "hint": "",
-        "text": "senlima"
-      },
-      "video_chat_broadcast": {
-        "name": "Elsendi videon",
-        "hint": "(camera, screen casting)",
-        "text": "up to 30 broadcasting users simultaneously"
-      },
-      "video_chat_viewers": {
-        "name": "Video broadcast viewers",
-        "hint": "",
-        "text": "officially it's stated to be unlimited, in practice, the stream becomes unstable at about 2,000 simultaneous viewers"
-      },
-      "voice_chat_schedule": {
-        "name": "Scheduled chats",
-        "hint": "",
-        "text": "up to 7 days ahead"
-      }
-    }
-  },
-  "channels": {
-    "name": "Kanaloj",
-    "items": {
-      "public_usernames": {
-        "name": "Public usernames number",
-        "hint": "for a single account",
-        "text": "ĝis 10 (inkludante grupojn)",
-        "text_premium": "up to 20 (including groups)"
-      },
-      "username_length": {
-        "name": "Longeco de @uzantnomo",
-        "hint": "",
-        "text": "5 ĝi 32 signoj"
-      },
-      "channel_name": {
-        "name": "Nomo kaj priskribo de la kanalo",
-        "hint": "",
-        "text": "ĝis 255 signoj"
-      },
-      "channel_admins": {
-        "name": "Kvanto da administrantoj en kanalo",
-        "hint": "(including bots; you can add a bot to your channel only by making it an admin)",
-        "text": "ĝis 50 kontoj"
-      },
-      "editing": {
-        "name": "Mesaĝredaktado",
-        "hint": "",
-        "text": "unlimited (if the channel has a discussion group linked, posts older than 2 weeks won't be updated in the chat)"
-      },
-      "subscribers": {
-        "name": "Channel subscribers number",
-        "hint": "",
-        "text": "senlima"
-      },
-      "visible_participants": {
-        "name": "Videblaj abonantoj",
-        "hint": "por la administranto de la kanalo",
-        "text": "200 personoj"
-      },
-      "channel_deletion": {
-        "name": "Forigo de kanalo",
-        "hint": "",
-        "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
-      },
-      "private_channel_access": {
-        "name": "Viewing private channels without joining",
-        "hint": "(for channels with 200+ subscribers)",
-        "text": "ĝis 5 minutoj tage"
-      },
-      "invintations": {
-        "name": "Inviti uzantojn",
-        "hint": "",
-        "text": "ĝis 200 personoj"
-      },
-      "followers_to_see_stats": {
-        "name": "Number of subscribers to see statistics",
-        "hint": "",
-        "text": "almenaŭ 50"
-      },
-      "username_reservation": {
-        "name": "Username change reservation",
-        "hint": "(time before username will be available for everyone, not just the original owner)",
-        "text": "proksimume 15-30 minutoj"
-      }
-    }
-  },
-  "messages": {
-    "name": "Mesaĝoj",
-    "items": {
-      "single_message_length": {
-        "name": "Longeco de unu mesaĝo",
-        "hint": "",
-        "text": "up to 4,096 characters"
-      },
-      "media_descriptions": {
-        "name": "Media captions",
-        "hint": "",
-        "text": "up to 1,024 characters",
-        "text_premium": "up to 2,048 characters"
-      },
-      "upload_size": {
-        "name": "File size limit",
-        "hint": "",
-        "text": "up to 2 GB",
-        "text_premium": "up to 4 GB"
-      },
-      "file_name_length": {
-        "name": "Longeco de la dosiernomo",
-        "hint": "",
-        "text": "up to 60 characters, others will be trimmed out"
-      },
-      "video_message_duration": {
-        "name": "Daŭro de videomesaĝo",
-        "hint": "",
-        "text": "ĝis 1 minuto"
-      },
-      "album_size": {
-        "name": "Images and videos in single message",
-        "hint": "(albumo)",
-        "text": "up to 10 items"
-      },
-      "delayed_messages": {
-        "name": "Scheduled messages number",
-        "hint": "",
-        "text": "up to 100 items (per each chat)"
-      },
-      "delaying_messages": {
-        "name": "Schedule range",
-        "hint": "",
-        "text": "ĝis 365 tagoj"
-      },
-      "custom_emoji_per_message": {
-        "name": "Custom emoji per message",
-        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-        "text": "not available",
-        "text_premium": "up to 100 emoji"
-      },
-      "links_per_message": {
-        "name": "Links per message",
-        "hint": "",
-        "text": "up to 100 links"
-      }
-    }
-  },
-  "folders": {
-    "name": "Dosierujoj",
-    "items": {
-      "name_length": {
-        "name": "Folder name length",
-        "hint": "",
-        "text": "up to 12 characters"
-      },
-      "folder_amount": {
-        "name": "Kvanto da dosierujoj",
-        "hint": "",
-        "text": "up to 10 folders",
-        "text_premium": "up to 30 folders"
-      },
-      "pinned_chats_in_folder": {
-        "name": "Pinned chats in a folder",
-        "hint": "",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
-      },
-      "chats_per_folder": {
-        "name": "Chats per folder",
-        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
-      }
-    }
-  },
-  "public_folders": {
-    "name": "Public Folders",
-    "icon": "folder_shared",
-    "items": {
-      "public_folders_count": {
-        "name": "Number of public folders",
-        "hint": "",
-        "text": "up to 2 folders",
-        "text_premium": "up to 20 folders"
-      },
-      "chats_per_public_folder": {
-        "name": "Chats/channels per public folder",
-        "hint": "",
-        "text": "up to 100 items",
-        "text_premium": "up to 200 items"
-      }
-    }
-  },
-  "bots": {
-    "name": "Robotoj",
-    "items": {
-      "bots_amount": {
-        "name": "Nombro de robotoj",
-        "hint": "(kreita de @BotFather)",
-        "text": "ĝis 20 botoj",
-        "text_premium": "up to 40 items"
-      },
-      "username length": {
-        "name": "Longeco de @uzantnomo",
-        "hint": "por robotoj",
-        "text": "5 ĝi 32 signoj"
-      },
-      "info_length": {
-        "name": "Longeco de la robota info",
-        "hint": "(/setabouttext)",
-        "text": "ĝis 120 signoj"
-      },
-      "description_length": {
-        "name": "Longeco de la robota priskribo",
-        "hint": "",
-        "text": "ĝis 512 signoj"
-      },
-      "upload_limit_botapi": {
-        "name": "Dosieralŝuta limo",
-        "hint": "without local Bot API server",
-        "text": "ĝis 50 MB"
-      },
-      "upload_limit_botapi_local": {
-        "name": "Dosieralŝuta limo",
-        "hint": "with local Bot API server",
-        "text": "ĝis 2000 MB"
-      },
-      "download_limit_botapi": {
-        "name": "Dosierelŝuta limo",
-        "hint": "without local Bot API server",
-        "text": "ĝis 20 MB"
-      },
-      "download_limit_botapi_local": {
-        "name": "Dosierelŝuta limo",
-        "hint": "with local Bot API server",
-        "text": "ĝis 2000 MB"
-      },
-      "keys_in_keyboard_number": {
-        "name": "Keyboard buttons number",
-        "hint": "",
-        "text": "ĝis 100 klavoj"
-      },
-      "formatting_data": {
-        "name": "Message markup data",
-        "hint": "ekz. enliniaj butonoj",
-        "text": "ĝis 10 KB"
-      },
-      "formatting_entities": {
-        "name": "Formatting entities",
-        "hint": "(grasa, kursiva ktp.)",
-        "text": "ĝis 100 elementoj"
-      },
-      "messaging_frequency_broadcast": {
-        "name": "Message broadcasting frequency",
-        "hint": "only applies when actively sending notifications to otherwise inactive chats",
-        "text": "up to 30 messages per second across chats"
-      },
-      "messaging_frequency": {
-        "name": "Message sending frequency",
-        "hint": "en iu ajn babilejo",
-        "text": "up to roughly one message per second, except maybe short bursts"
-      },
-      "messaging_frequency_groups": {
-        "name": "Message sending frequency",
-        "hint": "en babilejoj de grupo",
-        "text": "up to 20 messages per second in the same chat"
-      },
-      "bot_commands_count": {
-        "name": "Commands amount",
-        "hint": "(en BotFather)",
-        "text": "0 ĝis 100 komandoj"
-      },
-      "bot_command_name_length": {
-        "name": "Komandlongeco",
-        "hint": "(en BotFather)",
-        "text": "de 1 ĝis 32 signoj"
-      },
-      "bot_command_description_length": {
-        "name": "Longeco de la komandpriskribo",
-        "hint": "",
-        "text": "up to 256 characters, must be non-empty when set via Bot API"
-      },
-      "start_payload_size": {
-        "name": "Bot /start payload length",
-        "hint": "used in deep linking",
-        "text": "ĝis 64 bajtoj"
-      },
-      "bot_alert_length": {
-        "name": "Bot alert message length",
-        "hint": "",
-        "text": "ĝis 200 signoj"
-      },
-      "inline_max_items": {
-        "name": "Enlinia kvanto da rezultoj",
-        "hint": "",
-        "text": "ĝis 50 rezultoj po paĝo"
-      }
-    }
-  },
-  "stories": {
-    "name": "Stories",
-    "items": {
-      "story_lifetime": {
-        "name": "Story lifetime",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "24 hours",
-        "text_premium": "6/12/24/48 hours"
-      },
-      "story_duration": {
-        "name": "Story duration",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 60 seconds"
-      },
-      "story_viewers_visibility": {
-        "name": "Viewers visibility",
-        "hint": "",
-        "text": "24 hours",
-        "text_premium": "unlimited"
-      },
-      "story_daily_limit": {
-        "name": "Daily stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 100 stories"
-      },
-      "story_weekly_limit": {
-        "name": "Weekly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 700 stories"
-      },
-      "story_monthly_limit": {
-        "name": "Monthly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 30 stories",
-        "text_premium": "up to 3,000 stories"
-      },
-      "story_text_length": {
-        "name": "Text length in story",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 200 characters",
-        "text_premium": "up to 2,048 characters"
-      },
-      "story_incognito_frequency": {
-        "name": "Incognito usage frequency",
-        "hint": "",
-        "text": "not available",
-        "text_premium": "once per 3 hour"
-      },
-      "story_incognito_duration": {
-        "name": "Incognito duration",
-        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
-        "text": "not available",
-        "text_premium": "30 minutes"
-      }
-    }
-  },
-  "search": {
-    "name": "Serĉi",
-    "items": {
-      "global_search": {
-        "name": "Global search results",
-        "hint": "",
-        "text": ""
-      },
-      "global_search_min_query": {
-        "name": "Minimal query length",
-        "hint": "for global search",
-        "text": "almenaŭ 4 signoj"
-      },
-      "username_resolve_limit": {
-        "name": "Username resolve limit",
-        "hint": "(for both bots and user accounts)",
-        "text": "ĝis 200 uzantnomoj tage"
-      }
-    }
-  },
-  "stickers": {
-    "name": "Glumarkoj",
-    "items": {
-      "added_packs": {
-        "name": "Added packs number",
-        "hint": "",
-        "text": "ĝis 200 pakaĵoj"
-      },
-      "favorite_stickers": {
-        "name": "Favorite stickers number",
-        "hint": "",
-        "text": "up to 5 items",
-        "text_premium": "up to 10 items"
-      },
-      "pack_size": {
-        "name": "Stickers in a pack number",
-        "hint": "",
-        "text": "up to 120 for static, up to 50 for animated"
-      },
-      "sticker_size": {
-        "name": "Pezo de glumarko",
-        "hint": "",
-        "text": "one side equal to 512px, the other side 512px or less; strictly 512x512 for animated"
-      },
-      "animation_duration": {
-        "name": "Animation duration",
-        "hint": "",
-        "text": "ĝis 3 sekundoj"
-      },
-      "file_size": {
-        "name": "Dosiera pezo de la glumarko",
-        "hint": "",
-        "text": "up to 512 KB for static, up to 64 KB for animated"
-      },
-      "fps": {
-        "name": "FPS",
-        "hint": "",
-        "text": "30 aŭ 60"
-      },
-      "stickerpack_name_length": {
-        "name": "Longeco de la pakaĵnomo",
-        "hint": "",
-        "text": "ĝis 64 signoj"
-      },
-      "stickerpack_url_length": {
-        "name": "Pack /addstickers url length",
-        "hint": "",
-        "text": "ĝis 62 signoj"
-      }
-    }
-  },
-  "telegraph": {
-    "name": "Telegraph",
-    "items": {
-      "accounts_number": {
-        "name": "Nombro de kontoj",
-        "hint": "en la roboto @telegraph",
-        "text": "ĝis 5 kontoj"
-      },
-      "text_size": {
-        "name": "Pezo de la artikolo",
-        "hint": "",
-        "text": "ĝis 64 KiB"
-      }
-    }
-  },
-  "miscellaneous": {
-    "name": "Miscellaneous",
-    "items": {
-      "properties": {
-        "name": "Video avatar properties",
-        "hint": "",
-        "text": "800x800px, ĝis 2 MB"
-      },
-      "photo_resolution": {
-        "name": "Fotokvalito",
-        "hint": "when sent with compression",
-        "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
-      }
-    }
-  }
 }

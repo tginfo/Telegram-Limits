@@ -1,633 +1,705 @@
 {
-  "accounts": {
-    "name": "Hisob raqamlar",
-    "items": {
-      "username": {
-        "name": "Foydalanuvchi nomi",
-        "hint": "(masalan: @cameraman)",
-        "text": "5 dan 32 tagacha belgi, NFT nomlar uchun 4 ta belgidan boshlab"
-      },
-      "bio": {
-        "name": "\"Men haqimda\" bo'limi",
-        "hint": "",
-        "text": "up to 70 characters",
-        "text_premium": "up to 140 characters"
-      },
-      "name_length": {
-        "name": "Ism uzunligi",
-        "hint": "",
-        "text": "1 dan 64 tagacha belgi"
-      },
-      "last_name_length": {
-        "name": "Familiya uzunligi",
-        "hint": "",
-        "text": "0 dan 64 tagacha belgi"
-      },
-      "self_destruction": {
-        "name": "Akkauntning o'z-o'zini yo'q qilish davri",
-        "hint": "faollik kuzatilmasa",
-        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
-      },
-      "spam_ban": {
-        "name": "Spam taqiq",
-        "hint": "",
-        "text": "1-kundan boshlab umrbod",
-        "text_premium": "from 1 second up to forever"
-      },
-      "channels_and_chats_number": {
-        "name": "Kanallar va superguruhlar soni",
-        "hint": "siz a'zo bo'lishingiz mumkin bo'lgan",
-        "text": "up to 500 (including ones you own)",
-        "text_premium": "up to 1000 (including ones you own)"
-      },
-      "gifs_number": {
-        "name": "Saqlangan GIFlar soni",
-        "hint": "",
-        "text": "up to 200",
-        "text_premium": "up to 400"
-      },
-      "video_length": {
-        "name": "Video-avatar davomiyligi",
-        "hint": "",
-        "text": "10 soniyagacha"
-      },
-      "groups_and_channels_creation": {
-        "name": "Guruh va kanal ochish",
-        "hint": "",
-        "text": "kuniga 50 tagacha"
-      },
-      "accounts_number": {
-        "name": "Hisob raqamlar soni",
-        "hint": "(rasmiy mijozlar)",
-        "text": "up to 3",
-        "text_premium": "up to 4-6 (depends on app)"
-      },
-      "visible_messages": {
-        "name": "Ko'rinadigan xabarlar soni",
-        "hint": "(shaxsiy chatlar, botlar va oddiy guruhlar orasidagi umumiy limit)",
-        "text": "cheksiz; 2018 yilgacha - 1 000 000 tagacha ko'rinadigan xabarlar: Batafsil: https://twitter.com/telegram/status/1060910769410371584"
-      }
+    "accounts": {
+        "name": "Hisob raqamlar",
+        "items": {
+            "username": {
+                "name": "Foydalanuvchi nomi",
+                "hint": "(masalan: @cameraman)",
+                "text": "5 dan 32 tagacha belgi, NFT nomlar uchun 4 ta belgidan boshlab"
+            },
+            "bio": {
+                "name": "\"Men haqimda\" bo'limi",
+                "hint": "",
+                "text": "up to 70 characters",
+                "text_premium": "up to 140 characters"
+            },
+            "name_length": {
+                "name": "Ism uzunligi",
+                "hint": "",
+                "text": "1 dan 64 tagacha belgi"
+            },
+            "last_name_length": {
+                "name": "Familiya uzunligi",
+                "hint": "",
+                "text": "0 dan 64 tagacha belgi"
+            },
+            "self_destruction": {
+                "name": "Akkauntning o'z-o'zini yo'q qilish davri",
+                "hint": "faollik kuzatilmasa",
+                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+            },
+            "spam_ban": {
+                "name": "Spam taqiq",
+                "hint": "",
+                "text": "1-kundan boshlab umrbod",
+                "text_premium": "from 1 second up to forever"
+            },
+            "channels_and_chats_number": {
+                "name": "Kanallar va superguruhlar soni",
+                "hint": "siz a'zo bo'lishingiz mumkin bo'lgan",
+                "text": "up to 500 (including ones you own)",
+                "text_premium": "up to 1000 (including ones you own)"
+            },
+            "gifs_number": {
+                "name": "Saqlangan GIFlar soni",
+                "hint": "",
+                "text": "up to 200",
+                "text_premium": "up to 400"
+            },
+            "video_length": {
+                "name": "Video-avatar davomiyligi",
+                "hint": "",
+                "text": "10 soniyagacha"
+            },
+            "groups_and_channels_creation": {
+                "name": "Guruh va kanal ochish",
+                "hint": "",
+                "text": "kuniga 50 tagacha"
+            },
+            "accounts_number": {
+                "name": "Hisob raqamlar soni",
+                "hint": "(rasmiy mijozlar)",
+                "text": "up to 3",
+                "text_premium": "up to 4-6 (depends on app)"
+            },
+            "visible_messages": {
+                "name": "Ko'rinadigan xabarlar soni",
+                "hint": "(shaxsiy chatlar, botlar va oddiy guruhlar orasidagi umumiy limit)",
+                "text": "cheksiz; 2018 yilgacha - 1 000 000 tagacha ko'rinadigan xabarlar: Batafsil: https://twitter.com/telegram/status/1060910769410371584"
+            },
+            "sticker_packs_per_account": {
+                "name": "Sticker packs per account",
+                "hint": "",
+                "text": "up to 200"
+            },
+            "emoji_packs_per_account": {
+                "name": "Emoji packs per account",
+                "hint": "",
+                "text": "up to 200"
+            },
+            "username_ownership_for_auction": {
+                "name": "Minimum username ownership for auction",
+                "hint": "",
+                "text": "14 days"
+            }
+        }
+    },
+    "chats": {
+        "name": "Suhbatlar va guruhlar",
+        "items": {
+            "participants_number": {
+                "name": "Ishtirokchilar",
+                "hint": "(cheklov oshirilishi mumkin)",
+                "text": "200 000 tagacha, lekin Translyatsiya guruhlarida cheksiz"
+            },
+            "admins_number": {
+                "name": "Administratorlar soni",
+                "hint": "guruhlarda",
+                "text": "50 tagacha"
+            },
+            "bots_amount": {
+                "name": "Botlar soni",
+                "hint": "guruhlarda",
+                "text": "20 tagacha"
+            },
+            "pinned_number": {
+                "name": "Ro'yxatdagi qadalgan xabarlar soni",
+                "hint": "",
+                "text": "up to 5 chats or channels + 5 secret chats",
+                "text_premium": "up to 10 chats or channels"
+            },
+            "group_name": {
+                "name": "Guruh nomi va tavsifi",
+                "hint": "",
+                "text": "255 tagacha belgi"
+            },
+            "editing": {
+                "name": "Xabarni tahrirlash",
+                "hint": "",
+                "text": "yuborilganidan so'ng 48 soat ichida; Saqlangan xabarlar va qadash huquqiga ega bo'lgan administratorlar uchun cheklanmagan"
+            },
+            "media_self_destruction": {
+                "name": "Rasm va video o'z-o'zini yo'q qilish",
+                "hint": "",
+                "text": "1 dan 60 sekundgacha"
+            },
+            "recent_actions": {
+                "name": "So'nggi amallar",
+                "hint": "(obunalar, xabarlar, va boshqalar)",
+                "text": "so'nggi ikki kun"
+            },
+            "mentions_amount": {
+                "name": "Eslab o'tishlar soni",
+                "hint": "bir xabarda",
+                "text": "50 tagacha, dastlabki 5 tasiga bildirishnoma boradi"
+            },
+            "visible_messages": {
+                "name": "Ko'rinadigan xabarlar soni",
+                "hint": "guruhda",
+                "text": "1 000 000 so'nggi xabar"
+            },
+            "pinned_messages_number": {
+                "name": "Qadalgan xabarlar soni",
+                "hint": "",
+                "text": "cheklanmagan"
+            },
+            "participants_to_see_stats": {
+                "name": "Statistikani ko'rish uchun a'zolar soni",
+                "hint": "",
+                "text": "kamida 500"
+            },
+            "username_reservation": {
+                "name": "O'zgartirilgan foydalanuvchi nomini zahiralash muddati",
+                "hint": "(foydalanuvchi nomi faqat uning sobiq egasi uchun mavjud bo'ladigan vaqt)",
+                "text": "tahminan 15-30 daqiqa"
+            },
+            "participants_for_group_stickers": {
+                "name": "Guruh stikerlari",
+                "hint": "",
+                "text": "100+ ishtirokchilari bo'lgan guruhlar"
+            },
+            "chat_role_length": {
+                "name": "Admin amali nomi uzunligi",
+                "hint": "",
+                "text": "16 tagacha belgi"
+            },
+            "chat_title_length": {
+                "name": "Chat nomi uzunligi",
+                "hint": "",
+                "text": "128 tagacha belgi"
+            },
+            "broadcast_group_access": {
+                "name": "Super guruhni Translyatsiya guruhiga aylantirish",
+                "hint": "",
+                "text": "199 000 ta va undan ko'p a'zoli chatlar uchun"
+            },
+            "read_receipts_lifetime": {
+                "name": "O'qilganlik haqida hisobotning mavjudlik vaqti",
+                "hint": "",
+                "text": "xabar yuborilgan kundan boshlab 7 kungacha"
+            },
+            "read_receipts_availability": {
+                "name": "Chatlarda o'qilganlik haqida hisobotlar",
+                "hint": "",
+                "text": "100 yoki undan kam a'zolari bor chatlar uchun, o'qigan foydalanuvchilar ro'yxati faqat xabarni yuborgan foydalanuvchigagina ko'rinadi"
+            }
+        }
+    },
+    "topic": {
+        "name": "Forum",
+        "items": {
+            "visible_users_in_topic_group": {
+                "name": "Visible users in topic group",
+                "hint": "",
+                "text": "up to 100"
+            },
+            "topics_per_group": {
+                "name": "Topics per group",
+                "hint": "",
+                "text": "up to 1,000,000"
+            },
+            "topic_title_length": {
+                "name": "Topic title length",
+                "hint": "",
+                "text": "up to 128 characters"
+            },
+            "pinned_topics": {
+                "name": "Pinned topics",
+                "hint": "",
+                "text": "up to 5"
+            }
+        }
+    },
+    "voice_chats": {
+        "name": "Ovozli va Video chatlar",
+        "items": {
+            "voice_chat_participants": {
+                "name": "Ovozli chat eshituvchilari",
+                "hint": "",
+                "text": "cheklanmagan"
+            },
+            "video_chat_broadcast": {
+                "name": "Video translyatsiya",
+                "hint": "(kamera, ekranni ko'rsatish)",
+                "text": "bir vaqtning o'zida 30 tagacha translyatsiya qilayotgan foydalanuvchilar"
+            },
+            "video_chat_viewers": {
+                "name": "Video translyatsiya kuzatuvchilari",
+                "hint": "",
+                "text": "rasman cheksiz deb aytilgan, amalda tomoshabinlar soni bir vaqtning o'zida 2000 ga yaqin bo'lganda oqim beqaror bo'lib qoladi"
+            },
+            "voice_chat_title_length": {
+                "name": "Voice chat title length",
+                "hint": "",
+                "text": "up to 40 characters"
+            },
+            "voice_chat_schedule": {
+                "name": "Rejalashtirilgan suhbatlar",
+                "hint": "",
+                "text": "keyingi 7 kungacha"
+            }
+        }
+    },
+    "channels": {
+        "name": "Kanallar",
+        "items": {
+            "public_usernames": {
+                "name": "Ommaviy foydalanuvchi nomlari soni",
+                "hint": "bitta hisob raqam uchun",
+                "text": "10 tagacha (guruhlar bilan)",
+                "text_premium": "up to 20 (including groups)"
+            },
+            "username_length": {
+                "name": "@foydalanuvchinomi uzunligi",
+                "hint": "",
+                "text": "5 dan 32 tagacha belgi"
+            },
+            "channel_name": {
+                "name": "Kanal nomi va tavsifi",
+                "hint": "",
+                "text": "255 tagacha belgi"
+            },
+            "channel_admins": {
+                "name": "Kanaldagi adminlar soni",
+                "hint": "(shu jumladan botlar; botni faqat administrator qilib kanalingizga qo'shishingiz mumkin)",
+                "text": "50 tagacha hisob raqamlar"
+            },
+            "editing": {
+                "name": "Postlarni tahrirlash",
+                "hint": "",
+                "text": "cheklanmagan (agar kanalga muhokama uchun guruh ulangan bo'lsa, 2 hafta muddatdan ortiqroq postlar chatda yangilanmaydi)"
+            },
+            "subscribers": {
+                "name": "Kanal a'zolari soni",
+                "hint": "",
+                "text": "cheklanmagan"
+            },
+            "visible_participants": {
+                "name": "Ko'rinadigan a'zolar",
+                "hint": "kanal administratori uchun",
+                "text": "200 ta odam"
+            },
+            "channel_deletion": {
+                "name": "Kanalni o'chirish",
+                "hint": "",
+                "text": "1K dan ortiq obunachiga ega kanallarni faqat Telegram ko'magi yordamida o'chirish mumkin"
+            },
+            "private_channel_access": {
+                "name": "Yopiq kanallarni a'zo bo'lmasdan ko'rish",
+                "hint": "(200 dan ortiq a'zo bo'lgan kanallar uchun)",
+                "text": "kuniga 5 daqiqagacha"
+            },
+            "invintations": {
+                "name": "A'zo qo'shish",
+                "hint": "",
+                "text": "200 tagacha"
+            },
+            "followers_to_see_stats": {
+                "name": "Statistikani ko'rish uchun a'zolar soni",
+                "hint": "",
+                "text": "kamida 50"
+            },
+            "username_reservation": {
+                "name": "O'zgarishdan keyin @foydalanuvchinomi ni zahiralab turish",
+                "hint": "(foydalanuvchi nomi faqat uning sobiq egasi uchun mavjud bo'lgan vaqt)",
+                "text": "tahminan 15-30 daqiqa"
+            }
+        }
+    },
+    "messages": {
+        "name": "Xabarlar",
+        "items": {
+            "single_message_length": {
+                "name": "Bitta xabar uzunligi",
+                "hint": "",
+                "text": "4,096 tagacha belgi"
+            },
+            "media_descriptions": {
+                "name": "Medialar uchun izoh",
+                "hint": "",
+                "text": "up to 1,024 characters",
+                "text_premium": "up to 2,048 characters"
+            },
+            "upload_size": {
+                "name": "Fayl o'lchamiga chegara",
+                "hint": "",
+                "text": "up to 2 GB",
+                "text_premium": "up to 4 GB"
+            },
+            "file_name_length": {
+                "name": "Fayl nomi uzunligi",
+                "hint": "",
+                "text": "60 ta belgigacha, oshiqchasi qisqartiriladi"
+            },
+            "video_message_duration": {
+                "name": "Video xabarning davomiyligi",
+                "hint": "",
+                "text": "1 daqiqagacha"
+            },
+            "album_size": {
+                "name": "Rasmlar va videolar bitta xabarda",
+                "hint": "(albom)",
+                "text": "10 tagacha"
+            },
+            "delayed_messages": {
+                "name": "Rejalashtirilgan xabarlarning miqdori",
+                "hint": "",
+                "text": "100 ta element (har bir chat uchun)"
+            },
+            "delaying_messages": {
+                "name": "Jadval oralig'i",
+                "hint": "",
+                "text": "365 kungacha"
+            },
+            "custom_emoji_per_message": {
+                "name": "Custom emoji per message",
+                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+                "text": "not available",
+                "text_premium": "up to 100 emoji"
+            },
+            "links_per_message": {
+                "name": "Links per message",
+                "hint": "",
+                "text": "up to 100 links"
+            }
+        }
+    },
+    "poll": {
+        "name": "Polls",
+        "items": {
+            "poll_question_length": {
+                "name": "Poll question length",
+                "hint": "",
+                "text": "1 to 255 characters"
+            },
+            "quiz_question_length": {
+                "name": "Quiz question length",
+                "hint": "",
+                "text": "1 to 200 characters"
+            },
+            "poll_options_count": {
+                "name": "Poll options count",
+                "hint": "",
+                "text": "2 to 10"
+            },
+            "poll_option_length": {
+                "name": "Poll option length",
+                "hint": "",
+                "text": "1 to 100 characters"
+            }
+        }
+    },
+    "folders": {
+        "name": "Jildlar",
+        "items": {
+            "name_length": {
+                "name": "Folder name length",
+                "hint": "",
+                "text": "up to 12 characters"
+            },
+            "folder_amount": {
+                "name": "Jildlar miqdori",
+                "hint": "",
+                "text": "up to 10 folders",
+                "text_premium": "up to 30 folders"
+            },
+            "chats_per_folder": {
+                "name": "Chats per folder",
+                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            },
+            "pinned_chats_in_folder": {
+                "name": "Jilddagi qadalgan xabarlar ",
+                "hint": "",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            }
+        }
+    },
+    "public_folders": {
+        "name": "Public Folders",
+        "icon": "folder_shared",
+        "items": {
+            "public_folders_count": {
+                "name": "Number of public folders",
+                "hint": "",
+                "text": "up to 2 folders",
+                "text_premium": "up to 20 folders"
+            },
+            "chats_per_public_folder": {
+                "name": "Chats/channels per public folder",
+                "hint": "",
+                "text": "up to 100 items",
+                "text_premium": "up to 200 items"
+            }
+        }
+    },
+    "bots": {
+        "name": "Botlar",
+        "items": {
+            "bots_amount": {
+                "name": "Botlar soni",
+                "hint": "(@BotFather orqali yaratilgan)",
+                "text": "20 tagacha",
+                "text_premium": "up to 40 items"
+            },
+            "username_length": {
+                "name": "Length of @username",
+                "hint": "for bots",
+                "text": "5 to 32 characters"
+            },
+            "info_length": {
+                "name": "Bot ma'lumoti uzunligi",
+                "hint": "(/setabouttext)",
+                "text": "120 tagacha belgi"
+            },
+            "description_length": {
+                "name": "Bot tavsifining uzunligi",
+                "hint": "",
+                "text": "512 tagacha belgi"
+            },
+            "upload_limit_botapi": {
+                "name": "Fayllarni yuklash chegarasi",
+                "hint": "local Bot APi serverisiz",
+                "text": "50 MB gacha"
+            },
+            "upload_limit_botapi_local": {
+                "name": "Fayllarni telegramga yuklash chegarasi",
+                "hint": "local Bot API serveri bilan",
+                "text": "2000 MB gacha"
+            },
+            "download_limit_botapi": {
+                "name": "Fayllarni yuklab olish chegarasi",
+                "hint": "local Bot API serverisiz",
+                "text": "20 MB gacha"
+            },
+            "download_limit_botapi_local": {
+                "name": "Fayllarni yuklab olish chegarasi",
+                "hint": "local Bot API serveri bilan",
+                "text": "2000 MB gacha"
+            },
+            "keys_in_keyboard_number": {
+                "name": "Tugmachalar soni",
+                "hint": "",
+                "text": "100 tagacha"
+            },
+            "formatting_data": {
+                "name": "Xabar markup ma'lumotlari",
+                "hint": "masalan. inline tugmalar",
+                "text": "10 KB gacha"
+            },
+            "formatting_entities": {
+                "name": "Formatlash sub'ektlari",
+                "hint": "(qalin, kursiv va boshqalar)",
+                "text": "100 tagacha"
+            },
+            "messaging_frequency": {
+                "name": "Xabarlarni uzatish chastotasi",
+                "hint": "har qanday chatda",
+                "text": "sekundiga taxminan bir xabargacha, qisqa xabarlar bundan mustasno"
+            },
+            "messaging_frequency_groups": {
+                "name": "Xabarlarni uzatish chastotasi",
+                "hint": "guruhlarda",
+                "text": "bir chatda soniyasiga 20 tagacha xabar"
+            },
+            "messaging_frequency_broadcast": {
+                "name": "Xabarlarni uzatish chastotasi",
+                "hint": "faqat boshqa nofaol chatlarga bildirishnomalar yuborilganda amal qiladi",
+                "text": "chatlarda soniyasiga 30 tagacha xabar"
+            },
+            "api_requests_frequency": {
+                "name": "API requests frequency",
+                "hint": "",
+                "text": "up to about 30 requests per second"
+            },
+            "bot_commands_count": {
+                "name": "Buyruqlar soni",
+                "hint": "(BotFatherda)",
+                "text": "0 dan 100 gacha"
+            },
+            "bot_command_name_length": {
+                "name": "Buyruq uzunligi",
+                "hint": "(BotFather'da)",
+                "text": "1 dan 32 tagacha belgi"
+            },
+            "bot_command_description_length": {
+                "name": "Buyruq tavsifi uzunligi",
+                "hint": "",
+                "text": "256 tagacha belgi, Bot API orqali o'rnatilganda bo'sh bo'lmasligi kerak"
+            },
+            "start_payload_size": {
+                "name": "Bot/buyruqlari uzunligi",
+                "hint": "deep linking uchun qo‘llaniladi",
+                "text": "64 tagacha belgi"
+            },
+            "bot_alert_length": {
+                "name": "Bot ogohlantirish xabarining uzunligi",
+                "hint": "",
+                "text": "200 tagacha belgi"
+            },
+            "inline_max_items": {
+                "name": "Inline natijalar soni",
+                "hint": "",
+                "text": "har bir sahifaga 50 tagacha element"
+            }
+        }
+    },
+    "stories": {
+        "name": "Stories",
+        "items": {
+            "story_availability": {
+                "name": "Story availability",
+                "hint": "countries where stories are available without Telegram Premium",
+                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+            },
+            "story_lifetime": {
+                "name": "Story lifetime",
+                "text": "24 hours",
+                "text_premium": "6/12/24/48 hours"
+            },
+            "story_duration": {
+                "name": "Story duration",
+                "text": "up to 60 seconds"
+            },
+            "story_viewers_visibility": {
+                "name": "Viewers visibility",
+                "text": "24 hours",
+                "text_premium": "unlimited"
+            },
+            "story_daily_limit": {
+                "name": "Daily stories limit",
+                "text": "up to 2 stories",
+                "text_premium": "up to 100 stories"
+            },
+            "story_weekly_limit": {
+                "name": "Weekly stories limit",
+                "text": "up to 5 stories",
+                "text_premium": "up to 700 stories"
+            },
+            "story_monthly_limit": {
+                "name": "Monthly stories limit",
+                "text": "up to 20 stories",
+                "text_premium": "up to 3,000 stories"
+            },
+            "story_text_length": {
+                "name": "Text length in story",
+                "text": "up to 200 characters",
+                "text_premium": "up to 2,048 characters"
+            },
+            "story_incognito_frequency": {
+                "name": "Incognito usage frequency",
+                "text": "not available",
+                "text_premium": "once per 3 hour"
+            },
+            "story_incognito_duration": {
+                "name": "Incognito duration",
+                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
+                "text": "not available",
+                "text_premium": "30 minutes"
+            }
+        }
+    },
+    "search": {
+        "name": "Qidiruv",
+        "items": {
+            "global_search_min_query": {
+                "name": "So'rovlarning minimal uzunligi",
+                "hint": "global qidiruv uchun",
+                "text": "kamida 4 ta belgi"
+            },
+            "username_resolve_limit": {
+                "name": "Foydalanuvchi nomini topish chegarasi",
+                "hint": "(botlar va foydalanuvchi hisoblari uchun)",
+                "text": "kuniga 200 tagacha foydalanuvchi nomi"
+            }
+        }
+    },
+    "stickers": {
+        "name": "Stikerlar",
+        "items": {
+            "added_packs": {
+                "name": "Qo'shilgan stikerlar soni",
+                "hint": "",
+                "text": "200 tagacha"
+            },
+            "favorite_stickers": {
+                "name": "Tanlangan stikerlar soni",
+                "hint": "",
+                "text": "up to 5 items",
+                "text_premium": "up to 10 items"
+            },
+            "pack_size": {
+                "name": "Stiker To'plamlar miqdori",
+                "hint": "",
+                "text": "120 ta oddiy, 50 ta animatsion"
+            },
+            "sticker_size": {
+                "name": "Stiker o'lchami",
+                "hint": "",
+                "text": "stiker uchun 512x512 px o'lchamda. Animatsion stikerlar uchun ham 512x512 px"
+            },
+            "animation_duration": {
+                "name": "Animatsiya davomiyligi",
+                "hint": "",
+                "text": "3 soniyagacha"
+            },
+            "file_size": {
+                "name": "Stiker hajmi",
+                "hint": "",
+                "text": "512 KB gacha oddiy; 64 KB gacha animatsion"
+            },
+            "fps": {
+                "name": "FPS",
+                "hint": "",
+                "text": "30 yoki 60"
+            },
+            "stickerpack_name_length": {
+                "name": "To'plam nomi uzunligi",
+                "hint": "",
+                "text": "64 tagacha belgi"
+            },
+            "stickerpack_url_length": {
+                "name": "/addstickers stiker to'plami uzunligi",
+                "hint": "",
+                "text": "62 tagacha belgi"
+            },
+            "emojis_per_pack": {
+                "name": "Emojis per pack",
+                "hint": "",
+                "text": "up to 200"
+            }
+        }
+    },
+    "telegraph": {
+        "name": "Telegraph",
+        "items": {
+            "accounts_number": {
+                "name": "Hisoblar soni",
+                "hint": "@telegraph botida",
+                "text": "5 tagacha belgi"
+            },
+            "text_size": {
+                "name": "Matn hajmi",
+                "hint": "",
+                "text": "64 Kb gacha"
+            }
+        }
+    },
+    "miscellaneous": {
+        "name": "Turli-xil",
+        "items": {
+            "properties": {
+                "name": "Video avatar xususiyatlari",
+                "hint": "",
+                "text": "800x800 px, 2 MB gacha"
+            },
+            "photo_resolution": {
+                "name": "Rasm rezolyutsiyasi",
+                "hint": "siqilish bilan yuborilganda",
+                "text": "har bir tomon 1280px dan kam yoki teng boʻlishi kerak, aks holda u kichraytiriladi, shuning uchun eng katta tomoni 1280px boʻladi"
+            }
+        }
     }
-  },
-  "chats": {
-    "name": "Suhbatlar va guruhlar",
-    "items": {
-      "participants_number": {
-        "name": "Ishtirokchilar",
-        "hint": "(cheklov oshirilishi mumkin)",
-        "text": "200 000 tagacha, lekin Translyatsiya guruhlarida cheksiz"
-      },
-      "admins_number": {
-        "name": "Administratorlar soni",
-        "hint": "guruhlarda",
-        "text": "50 tagacha"
-      },
-      "bots_amount": {
-        "name": "Botlar soni",
-        "hint": "guruhlarda",
-        "text": "20 tagacha"
-      },
-      "pinned_number": {
-        "name": "Ro'yxatdagi qadalgan xabarlar soni",
-        "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats",
-        "text_premium": "up to 10 chats or channels"
-      },
-      "group_name": {
-        "name": "Guruh nomi va tavsifi",
-        "hint": "",
-        "text": "255 tagacha belgi"
-      },
-      "editing": {
-        "name": "Xabarni tahrirlash",
-        "hint": "",
-        "text": "yuborilganidan so'ng 48 soat ichida; Saqlangan xabarlar va qadash huquqiga ega bo'lgan administratorlar uchun cheklanmagan"
-      },
-      "media_self_destruction": {
-        "name": "Rasm va video o'z-o'zini yo'q qilish",
-        "hint": "",
-        "text": "1 dan 60 sekundgacha"
-      },
-      "recent_actions": {
-        "name": "So'nggi amallar",
-        "hint": "(obunalar, xabarlar, va boshqalar)",
-        "text": "so'nggi ikki kun"
-      },
-      "mentions_amount": {
-        "name": "Eslab o'tishlar soni",
-        "hint": "bir xabarda",
-        "text": "50 tagacha, dastlabki 5 tasiga bildirishnoma boradi"
-      },
-      "visible_messages": {
-        "name": "Ko'rinadigan xabarlar soni",
-        "hint": "guruhda",
-        "text": "1 000 000 so'nggi xabar"
-      },
-      "pinned_messages_number": {
-        "name": "Qadalgan xabarlar soni",
-        "hint": "",
-        "text": "cheklanmagan"
-      },
-      "participants_to_see_stats": {
-        "name": "Statistikani ko'rish uchun a'zolar soni",
-        "hint": "",
-        "text": "kamida 500"
-      },
-      "username_reservation": {
-        "name": "O'zgartirilgan foydalanuvchi nomini zahiralash muddati",
-        "hint": "(foydalanuvchi nomi faqat uning sobiq egasi uchun mavjud bo'ladigan vaqt)",
-        "text": "tahminan 15-30 daqiqa"
-      },
-      "participants_for_group_stickers": {
-        "name": "Guruh stikerlari",
-        "hint": "",
-        "text": "100+ ishtirokchilari bo'lgan guruhlar"
-      },
-      "chat_role_length": {
-        "name": "Admin amali nomi uzunligi",
-        "hint": "",
-        "text": "16 tagacha belgi"
-      },
-      "chat_title_length": {
-        "name": "Chat nomi uzunligi",
-        "hint": "",
-        "text": "128 tagacha belgi"
-      },
-      "broadcast_group_access": {
-        "name": "Super guruhni Translyatsiya guruhiga aylantirish",
-        "hint": "",
-        "text": "199 000 ta va undan ko'p a'zoli chatlar uchun"
-      },
-      "read_receipts_availability": {
-        "name": "Chatlarda o'qilganlik haqida hisobotlar",
-        "hint": "",
-        "text": "100 yoki undan kam a'zolari bor chatlar uchun, o'qigan foydalanuvchilar ro'yxati faqat xabarni yuborgan foydalanuvchigagina ko'rinadi"
-      },
-      "read_receipts_lifetime": {
-        "name": "O'qilganlik haqida hisobotning mavjudlik vaqti",
-        "hint": "",
-        "text": "xabar yuborilgan kundan boshlab 7 kungacha"
-      }
-    }
-  },
-  "voice_chats": {
-    "name": "Ovozli va Video chatlar",
-    "items": {
-      "voice_chat_participants": {
-        "name": "Ovozli chat eshituvchilari",
-        "hint": "",
-        "text": "cheklanmagan"
-      },
-      "video_chat_broadcast": {
-        "name": "Video translyatsiya",
-        "hint": "(kamera, ekranni ko'rsatish)",
-        "text": "bir vaqtning o'zida 30 tagacha translyatsiya qilayotgan foydalanuvchilar"
-      },
-      "video_chat_viewers": {
-        "name": "Video translyatsiya kuzatuvchilari",
-        "hint": "",
-        "text": "rasman cheksiz deb aytilgan, amalda tomoshabinlar soni bir vaqtning o'zida 2000 ga yaqin bo'lganda oqim beqaror bo'lib qoladi"
-      },
-      "voice_chat_schedule": {
-        "name": "Rejalashtirilgan suhbatlar",
-        "hint": "",
-        "text": "keyingi 7 kungacha"
-      }
-    }
-  },
-  "channels": {
-    "name": "Kanallar",
-    "items": {
-      "public_usernames": {
-        "name": "Ommaviy foydalanuvchi nomlari soni",
-        "hint": "bitta hisob raqam uchun",
-        "text": "10 tagacha (guruhlar bilan)",
-        "text_premium": "up to 20 (including groups)"
-      },
-      "username_length": {
-        "name": "@foydalanuvchinomi uzunligi",
-        "hint": "",
-        "text": "5 dan 32 tagacha belgi"
-      },
-      "channel_name": {
-        "name": "Kanal nomi va tavsifi",
-        "hint": "",
-        "text": "255 tagacha belgi"
-      },
-      "channel_admins": {
-        "name": "Kanaldagi adminlar soni",
-        "hint": "(shu jumladan botlar; botni faqat administrator qilib kanalingizga qo'shishingiz mumkin)",
-        "text": "50 tagacha hisob raqamlar"
-      },
-      "editing": {
-        "name": "Postlarni tahrirlash",
-        "hint": "",
-        "text": "cheklanmagan (agar kanalga muhokama uchun guruh ulangan bo'lsa, 2 hafta muddatdan ortiqroq postlar chatda yangilanmaydi)"
-      },
-      "subscribers": {
-        "name": "Kanal a'zolari soni",
-        "hint": "",
-        "text": "cheklanmagan"
-      },
-      "visible_participants": {
-        "name": "Ko'rinadigan a'zolar",
-        "hint": "kanal administratori uchun",
-        "text": "200 ta odam"
-      },
-      "channel_deletion": {
-        "name": "Kanalni o'chirish",
-        "hint": "",
-        "text": "1K dan ortiq obunachiga ega kanallarni faqat Telegram ko'magi yordamida o'chirish mumkin"
-      },
-      "private_channel_access": {
-        "name": "Yopiq kanallarni a'zo bo'lmasdan ko'rish",
-        "hint": "(200 dan ortiq a'zo bo'lgan kanallar uchun)",
-        "text": "kuniga 5 daqiqagacha"
-      },
-      "invintations": {
-        "name": "A'zo qo'shish",
-        "hint": "",
-        "text": "200 tagacha"
-      },
-      "followers_to_see_stats": {
-        "name": "Statistikani ko'rish uchun a'zolar soni",
-        "hint": "",
-        "text": "kamida 50"
-      },
-      "username_reservation": {
-        "name": "O'zgarishdan keyin @foydalanuvchinomi ni zahiralab turish",
-        "hint": "(foydalanuvchi nomi faqat uning sobiq egasi uchun mavjud bo'lgan vaqt)",
-        "text": "tahminan 15-30 daqiqa"
-      }
-    }
-  },
-  "messages": {
-    "name": "Xabarlar",
-    "items": {
-      "single_message_length": {
-        "name": "Bitta xabar uzunligi",
-        "hint": "",
-        "text": "4,096 tagacha belgi"
-      },
-      "media_descriptions": {
-        "name": "Medialar uchun izoh",
-        "hint": "",
-        "text": "up to 1,024 characters",
-        "text_premium": "up to 2,048 characters"
-      },
-      "upload_size": {
-        "name": "Fayl o'lchamiga chegara",
-        "hint": "",
-        "text": "up to 2 GB",
-        "text_premium": "up to 4 GB"
-      },
-      "file_name_length": {
-        "name": "Fayl nomi uzunligi",
-        "hint": "",
-        "text": "60 ta belgigacha, oshiqchasi qisqartiriladi"
-      },
-      "video_message_duration": {
-        "name": "Video xabarning davomiyligi",
-        "hint": "",
-        "text": "1 daqiqagacha"
-      },
-      "album_size": {
-        "name": "Rasmlar va videolar bitta xabarda",
-        "hint": "(albom)",
-        "text": "10 tagacha"
-      },
-      "delayed_messages": {
-        "name": "Rejalashtirilgan xabarlarning miqdori",
-        "hint": "",
-        "text": "100 ta element (har bir chat uchun)"
-      },
-      "delaying_messages": {
-        "name": "Jadval oralig'i",
-        "hint": "",
-        "text": "365 kungacha"
-      },
-      "custom_emoji_per_message": {
-        "name": "Custom emoji per message",
-        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-        "text": "not available",
-        "text_premium": "up to 100 emoji"
-      },
-      "links_per_message": {
-        "name": "Links per message",
-        "hint": "",
-        "text": "up to 100 links"
-      }
-    }
-  },
-  "folders": {
-    "name": "Jildlar",
-    "items": {
-      "name_length": {
-        "name": "Folder name length",
-        "hint": "",
-        "text": "up to 12 characters"
-      },
-      "folder_amount": {
-        "name": "Jildlar miqdori",
-        "hint": "",
-        "text": "up to 10 folders",
-        "text_premium": "up to 30 folders"
-      },
-      "pinned_chats_in_folder": {
-        "name": "Jilddagi qadalgan xabarlar ",
-        "hint": "",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
-      },
-      "chats_per_folder": {
-        "name": "Chats per folder",
-        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
-      }
-    }
-  },
-  "public_folders": {
-    "name": "Public Folders",
-    "icon": "folder_shared",
-    "items": {
-      "public_folders_count": {
-        "name": "Number of public folders",
-        "hint": "",
-        "text": "up to 2 folders",
-        "text_premium": "up to 20 folders"
-      },
-      "chats_per_public_folder": {
-        "name": "Chats/channels per public folder",
-        "hint": "",
-        "text": "up to 100 items",
-        "text_premium": "up to 200 items"
-      }
-    }
-  },
-  "bots": {
-    "name": "Botlar",
-    "items": {
-      "bots_amount": {
-        "name": "Botlar soni",
-        "hint": "(@BotFather orqali yaratilgan)",
-        "text": "20 tagacha",
-        "text_premium": "up to 40 items"
-      },
-      "username length": {
-        "name": "@username uzunligi",
-        "hint": "botlar uchun",
-        "text": "5 dan 32 tagacha belgi"
-      },
-      "info_length": {
-        "name": "Bot ma'lumoti uzunligi",
-        "hint": "(/setabouttext)",
-        "text": "120 tagacha belgi"
-      },
-      "description_length": {
-        "name": "Bot tavsifining uzunligi",
-        "hint": "",
-        "text": "512 tagacha belgi"
-      },
-      "upload_limit_botapi": {
-        "name": "Fayllarni yuklash chegarasi",
-        "hint": "local Bot APi serverisiz",
-        "text": "50 MB gacha"
-      },
-      "upload_limit_botapi_local": {
-        "name": "Fayllarni telegramga yuklash chegarasi",
-        "hint": "local Bot API serveri bilan",
-        "text": "2000 MB gacha"
-      },
-      "download_limit_botapi": {
-        "name": "Fayllarni yuklab olish chegarasi",
-        "hint": "local Bot API serverisiz",
-        "text": "20 MB gacha"
-      },
-      "download_limit_botapi_local": {
-        "name": "Fayllarni yuklab olish chegarasi",
-        "hint": "local Bot API serveri bilan",
-        "text": "2000 MB gacha"
-      },
-      "keys_in_keyboard_number": {
-        "name": "Tugmachalar soni",
-        "hint": "",
-        "text": "100 tagacha"
-      },
-      "formatting_data": {
-        "name": "Xabar markup ma'lumotlari",
-        "hint": "masalan. inline tugmalar",
-        "text": "10 KB gacha"
-      },
-      "formatting_entities": {
-        "name": "Formatlash sub'ektlari",
-        "hint": "(qalin, kursiv va boshqalar)",
-        "text": "100 tagacha"
-      },
-      "messaging_frequency_broadcast": {
-        "name": "Xabarlarni uzatish chastotasi",
-        "hint": "faqat boshqa nofaol chatlarga bildirishnomalar yuborilganda amal qiladi",
-        "text": "chatlarda soniyasiga 30 tagacha xabar"
-      },
-      "messaging_frequency": {
-        "name": "Xabarlarni uzatish chastotasi",
-        "hint": "har qanday chatda",
-        "text": "sekundiga taxminan bir xabargacha, qisqa xabarlar bundan mustasno"
-      },
-      "messaging_frequency_groups": {
-        "name": "Xabarlarni uzatish chastotasi",
-        "hint": "guruhlarda",
-        "text": "bir chatda soniyasiga 20 tagacha xabar"
-      },
-      "bot_commands_count": {
-        "name": "Buyruqlar soni",
-        "hint": "(BotFatherda)",
-        "text": "0 dan 100 gacha"
-      },
-      "bot_command_name_length": {
-        "name": "Buyruq uzunligi",
-        "hint": "(BotFather'da)",
-        "text": "1 dan 32 tagacha belgi"
-      },
-      "bot_command_description_length": {
-        "name": "Buyruq tavsifi uzunligi",
-        "hint": "",
-        "text": "256 tagacha belgi, Bot API orqali o'rnatilganda bo'sh bo'lmasligi kerak"
-      },
-      "start_payload_size": {
-        "name": "Bot/buyruqlari uzunligi",
-        "hint": "deep linking uchun qo‘llaniladi",
-        "text": "64 tagacha belgi"
-      },
-      "bot_alert_length": {
-        "name": "Bot ogohlantirish xabarining uzunligi",
-        "hint": "",
-        "text": "200 tagacha belgi"
-      },
-      "inline_max_items": {
-        "name": "Inline natijalar soni",
-        "hint": "",
-        "text": "har bir sahifaga 50 tagacha element"
-      }
-    }
-  },
-  "stories": {
-    "name": "Stories",
-    "items": {
-      "story_lifetime": {
-        "name": "Story lifetime",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "24 hours",
-        "text_premium": "6/12/24/48 hours"
-      },
-      "story_duration": {
-        "name": "Story duration",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 60 seconds"
-      },
-      "story_viewers_visibility": {
-        "name": "Viewers visibility",
-        "hint": "",
-        "text": "24 hours",
-        "text_premium": "unlimited"
-      },
-      "story_daily_limit": {
-        "name": "Daily stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 100 stories"
-      },
-      "story_weekly_limit": {
-        "name": "Weekly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 700 stories"
-      },
-      "story_monthly_limit": {
-        "name": "Monthly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 30 stories",
-        "text_premium": "up to 3,000 stories"
-      },
-      "story_text_length": {
-        "name": "Text length in story",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 200 characters",
-        "text_premium": "up to 2,048 characters"
-      },
-      "story_incognito_frequency": {
-        "name": "Incognito usage frequency",
-        "hint": "",
-        "text": "not available",
-        "text_premium": "once per 3 hour"
-      },
-      "story_incognito_duration": {
-        "name": "Incognito duration",
-        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
-        "text": "not available",
-        "text_premium": "30 minutes"
-      }
-    }
-  },
-  "search": {
-    "name": "Qidiruv",
-    "items": {
-      "global_search": {
-        "name": "Global qidiruv natijalari",
-        "hint": "",
-        "text": ""
-      },
-      "global_search_min_query": {
-        "name": "So'rovlarning minimal uzunligi",
-        "hint": "global qidiruv uchun",
-        "text": "kamida 4 ta belgi"
-      },
-      "username_resolve_limit": {
-        "name": "Foydalanuvchi nomini topish chegarasi",
-        "hint": "(botlar va foydalanuvchi hisoblari uchun)",
-        "text": "kuniga 200 tagacha foydalanuvchi nomi"
-      }
-    }
-  },
-  "stickers": {
-    "name": "Stikerlar",
-    "items": {
-      "added_packs": {
-        "name": "Qo'shilgan stikerlar soni",
-        "hint": "",
-        "text": "200 tagacha"
-      },
-      "favorite_stickers": {
-        "name": "Tanlangan stikerlar soni",
-        "hint": "",
-        "text": "up to 5 items",
-        "text_premium": "up to 10 items"
-      },
-      "pack_size": {
-        "name": "Stiker To'plamlar miqdori",
-        "hint": "",
-        "text": "120 ta oddiy, 50 ta animatsion"
-      },
-      "sticker_size": {
-        "name": "Stiker o'lchami",
-        "hint": "",
-        "text": "stiker uchun 512x512 px o'lchamda. Animatsion stikerlar uchun ham 512x512 px"
-      },
-      "animation_duration": {
-        "name": "Animatsiya davomiyligi",
-        "hint": "",
-        "text": "3 soniyagacha"
-      },
-      "file_size": {
-        "name": "Stiker hajmi",
-        "hint": "",
-        "text": "512 KB gacha oddiy; 64 KB gacha animatsion"
-      },
-      "fps": {
-        "name": "FPS",
-        "hint": "",
-        "text": "30 yoki 60"
-      },
-      "stickerpack_name_length": {
-        "name": "To'plam nomi uzunligi",
-        "hint": "",
-        "text": "64 tagacha belgi"
-      },
-      "stickerpack_url_length": {
-        "name": "/addstickers stiker to'plami uzunligi",
-        "hint": "",
-        "text": "62 tagacha belgi"
-      }
-    }
-  },
-  "telegraph": {
-    "name": "Telegraph",
-    "items": {
-      "accounts_number": {
-        "name": "Hisoblar soni",
-        "hint": "@telegraph botida",
-        "text": "5 tagacha belgi"
-      },
-      "text_size": {
-        "name": "Matn hajmi",
-        "hint": "",
-        "text": "64 Kb gacha"
-      }
-    }
-  },
-  "miscellaneous": {
-    "name": "Turli-xil",
-    "items": {
-      "properties": {
-        "name": "Video avatar xususiyatlari",
-        "hint": "",
-        "text": "800x800 px, 2 MB gacha"
-      },
-      "photo_resolution": {
-        "name": "Rasm rezolyutsiyasi",
-        "hint": "siqilish bilan yuborilganda",
-        "text": "har bir tomon 1280px dan kam yoki teng boʻlishi kerak, aks holda u kichraytiriladi, shuning uchun eng katta tomoni 1280px boʻladi"
-      }
-    }
-  }
 }

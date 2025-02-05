@@ -1,633 +1,705 @@
 {
-  "accounts": {
-    "name": "Акаунти",
-    "items": {
-      "username": {
-        "name": "Псевдонім",
-        "hint": "(наприклад @cameraman)",
-        "text": "Від 5 до 32 символів, починаючи з 4 символів для імен користувачів NFT"
-      },
-      "bio": {
-        "name": "Про себе",
-        "hint": "",
-        "text": "up to 70 characters",
-        "text_premium": "up to 140 characters"
-      },
-      "name_length": {
-        "name": "Довжина імені",
-        "hint": "",
-        "text": "від 1 до 64 символів"
-      },
-      "last_name_length": {
-        "name": "Довжина прізвища",
-        "hint": "",
-        "text": "від 0 до 64 символів"
-      },
-      "self_destruction": {
-        "name": "Період самознищення",
-        "hint": "якщо немає активності",
-        "text": "1, 3, 6, 12, 18, 24 (12 by default)"
-      },
-      "spam_ban": {
-        "name": "Спам-бан",
-        "hint": "",
-        "text": "від 1 дня до назавжди",
-        "text_premium": "from 1 second up to forever"
-      },
-      "channels_and_chats_number": {
-        "name": "Кількість каналів та супергруп",
-        "hint": "в котрих можна бути членом",
-        "text": "up to 500 (including ones you own)",
-        "text_premium": "up to 1000 (including ones you own)"
-      },
-      "gifs_number": {
-        "name": "Кількість збережених GIF",
-        "hint": "",
-        "text": "up to 200",
-        "text_premium": "up to 400"
-      },
-      "video_length": {
-        "name": "Тривалість відеоаватару",
-        "hint": "",
-        "text": "до 10 секунд"
-      },
-      "groups_and_channels_creation": {
-        "name": "Створення груп та каналів",
-        "hint": "",
-        "text": "до 50 за добу"
-      },
-      "accounts_number": {
-        "name": "Кількість акаунтів",
-        "hint": "(офіційні клієнти)",
-        "text": "up to 3",
-        "text_premium": "up to 4-6 (depends on app)"
-      },
-      "visible_messages": {
-        "name": "Номер видимого повідомлення",
-        "hint": "(спільний ліміт між приватними чатами, ботами та застарілими групами)",
-        "text": "необмежений; до 2018 року - до 1 000 000 видимих повідомлень: див. https://twitter.com/telegram/status/1060910769410371584"
-      }
+    "accounts": {
+        "name": "Акаунти",
+        "items": {
+            "username": {
+                "name": "Псевдонім",
+                "hint": "(наприклад @cameraman)",
+                "text": "Від 5 до 32 символів, починаючи з 4 символів для імен користувачів NFT"
+            },
+            "bio": {
+                "name": "Про себе",
+                "hint": "",
+                "text": "up to 70 characters",
+                "text_premium": "up to 140 characters"
+            },
+            "name_length": {
+                "name": "Довжина імені",
+                "hint": "",
+                "text": "від 1 до 64 символів"
+            },
+            "last_name_length": {
+                "name": "Довжина прізвища",
+                "hint": "",
+                "text": "від 0 до 64 символів"
+            },
+            "self_destruction": {
+                "name": "Період самознищення",
+                "hint": "якщо немає активності",
+                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+            },
+            "spam_ban": {
+                "name": "Спам-бан",
+                "hint": "",
+                "text": "від 1 дня до назавжди",
+                "text_premium": "from 1 second up to forever"
+            },
+            "channels_and_chats_number": {
+                "name": "Кількість каналів та супергруп",
+                "hint": "в котрих можна бути членом",
+                "text": "up to 500 (including ones you own)",
+                "text_premium": "up to 1000 (including ones you own)"
+            },
+            "gifs_number": {
+                "name": "Кількість збережених GIF",
+                "hint": "",
+                "text": "up to 200",
+                "text_premium": "up to 400"
+            },
+            "video_length": {
+                "name": "Тривалість відеоаватару",
+                "hint": "",
+                "text": "до 10 секунд"
+            },
+            "groups_and_channels_creation": {
+                "name": "Створення груп та каналів",
+                "hint": "",
+                "text": "до 50 за добу"
+            },
+            "accounts_number": {
+                "name": "Кількість акаунтів",
+                "hint": "(офіційні клієнти)",
+                "text": "up to 3",
+                "text_premium": "up to 4-6 (depends on app)"
+            },
+            "visible_messages": {
+                "name": "Номер видимого повідомлення",
+                "hint": "(спільний ліміт між приватними чатами, ботами та застарілими групами)",
+                "text": "необмежений; до 2018 року - до 1 000 000 видимих повідомлень: див. https://twitter.com/telegram/status/1060910769410371584"
+            },
+            "sticker_packs_per_account": {
+                "name": "Sticker packs per account",
+                "hint": "",
+                "text": "up to 200"
+            },
+            "emoji_packs_per_account": {
+                "name": "Emoji packs per account",
+                "hint": "",
+                "text": "up to 200"
+            },
+            "username_ownership_for_auction": {
+                "name": "Minimum username ownership for auction",
+                "hint": "",
+                "text": "14 days"
+            }
+        }
+    },
+    "chats": {
+        "name": "Чати й групи",
+        "items": {
+            "participants_number": {
+                "name": "Учасники",
+                "hint": "(ліміт може збільшитися)",
+                "text": "до 200 000, необмежено в групах для трансляцій"
+            },
+            "admins_number": {
+                "name": "Кількість адміністраторів",
+                "hint": "в групах",
+                "text": "до 50"
+            },
+            "bots_amount": {
+                "name": "Кількість ботів",
+                "hint": "в групах",
+                "text": "до 20"
+            },
+            "pinned_number": {
+                "name": "Закріплені чати в стрічці користувача",
+                "hint": "",
+                "text": "up to 5 chats or channels + 5 secret chats",
+                "text_premium": "up to 10 chats or channels"
+            },
+            "group_name": {
+                "name": "Назва та опис групи",
+                "hint": "",
+                "text": "до 255 символів"
+            },
+            "editing": {
+                "name": "Редагування повідомлень",
+                "hint": "",
+                "text": "протягом 48 годин після надсилання; необмежено в Збережених та для адміністраторів з правами закріплення"
+            },
+            "media_self_destruction": {
+                "name": "Самознищення світлин та відео",
+                "hint": "",
+                "text": "від 1 до 60 секунд"
+            },
+            "recent_actions": {
+                "name": "Останні дії",
+                "hint": "(підписки, пости тощо)",
+                "text": "останні 2 дні"
+            },
+            "mentions_amount": {
+                "name": "Кількість згадувань",
+                "hint": "в одному повідомленні",
+                "text": "до 50, інші повідомлення не будуть надіслані"
+            },
+            "visible_messages": {
+                "name": "Кількість видимих повідомлень",
+                "hint": "в групі",
+                "text": "1,000,000 останніх повідомлень"
+            },
+            "pinned_messages_number": {
+                "name": "Кількість закріплених повідомлень",
+                "hint": "",
+                "text": "необмежено"
+            },
+            "participants_to_see_stats": {
+                "name": "Кількість учасників для перегляду статистики",
+                "hint": "",
+                "text": "не менше 500"
+            },
+            "username_reservation": {
+                "name": "Бронювання @username після зміни",
+                "hint": "(час до того, як @username стане доступним для всіх, а не лише для початкового власника)",
+                "text": "близько 15-30 хвилин"
+            },
+            "participants_for_group_stickers": {
+                "name": "Наліпки групи",
+                "hint": "",
+                "text": "групи з 100+ учасниками"
+            },
+            "chat_role_length": {
+                "name": "Довжина мітки адміністратора",
+                "hint": "",
+                "text": "до 16 символів"
+            },
+            "chat_title_length": {
+                "name": "Довжина назви чату",
+                "hint": "",
+                "text": "до 128 символів"
+            },
+            "broadcast_group_access": {
+                "name": "Перетворення супергрупи у групу для трансляцій",
+                "hint": "",
+                "text": "для чатів де більше 199 000 учасників"
+            },
+            "read_receipts_lifetime": {
+                "name": "Тривалість доступності звіту про прочитання",
+                "hint": "",
+                "text": "до 7 днів з моменту надсилання повідомлення"
+            },
+            "read_receipts_availability": {
+                "name": "Доступність звіту про прочитання",
+                "hint": "",
+                "text": "для чатів з 100 учасниками або менше, список користувачів доступний тільки для користувача, який надіслав повідомлення"
+            }
+        }
+    },
+    "topic": {
+        "name": "Forum",
+        "items": {
+            "visible_users_in_topic_group": {
+                "name": "Visible users in topic group",
+                "hint": "",
+                "text": "up to 100"
+            },
+            "topics_per_group": {
+                "name": "Topics per group",
+                "hint": "",
+                "text": "up to 1,000,000"
+            },
+            "topic_title_length": {
+                "name": "Topic title length",
+                "hint": "",
+                "text": "up to 128 characters"
+            },
+            "pinned_topics": {
+                "name": "Pinned topics",
+                "hint": "",
+                "text": "up to 5"
+            }
+        }
+    },
+    "voice_chats": {
+        "name": "Голосові та відео чати",
+        "items": {
+            "voice_chat_participants": {
+                "name": "Слухачі голосового чату",
+                "hint": "",
+                "text": "необмежено"
+            },
+            "video_chat_broadcast": {
+                "name": "Трансляція відео",
+                "hint": "(камера, виведення екрану)",
+                "text": "до 30 транслюючих користувачів одночасно"
+            },
+            "video_chat_viewers": {
+                "name": "Глядачі відеотрансляцій",
+                "hint": "",
+                "text": "офіційно заявлена відсутність обмежень, на практиці, трансляція стає нестабільною приблизно на 2 000 одночасних глядачів"
+            },
+            "voice_chat_title_length": {
+                "name": "Voice chat title length",
+                "hint": "",
+                "text": "up to 40 characters"
+            },
+            "voice_chat_schedule": {
+                "name": "Заплановані чати",
+                "hint": "",
+                "text": "до 7 днів наперед"
+            }
+        }
+    },
+    "channels": {
+        "name": "Канали",
+        "items": {
+            "public_usernames": {
+                "name": "Кількість публічних імен",
+                "hint": "для одного акаунту",
+                "text": "до 10 (враховуючи групи)",
+                "text_premium": "up to 20 (including groups)"
+            },
+            "username_length": {
+                "name": "Довжина @username",
+                "hint": "",
+                "text": "від 5 до 32 символів"
+            },
+            "channel_name": {
+                "name": "Назва та опис каналу",
+                "hint": "",
+                "text": "до 255 символів"
+            },
+            "channel_admins": {
+                "name": "Кількість адміністраторів каналу",
+                "hint": "(включаючи ботів; додати бота до каналу можна лише зробивши його адміністратором)",
+                "text": "до 50 облікових записів"
+            },
+            "editing": {
+                "name": "Редагування постів",
+                "hint": "",
+                "text": "необмежено (якщо до каналу прив'язано групу, записи старіше за 2 тижні не буде оновлено у чаті)"
+            },
+            "subscribers": {
+                "name": "Кількість підписників каналу",
+                "hint": "",
+                "text": "необмежено"
+            },
+            "visible_participants": {
+                "name": "Видимі підписники",
+                "hint": "для адміністратора каналу",
+                "text": "200 осіб"
+            },
+            "channel_deletion": {
+                "name": "Видалення каналу",
+                "hint": "",
+                "text": "канали з більш ніж 1К підписників можуть бути видалені тільки за допомогою підтримки Telegram"
+            },
+            "private_channel_access": {
+                "name": "Перегляд закритих каналів без вступу",
+                "hint": "(для каналів з 200+ підписниками)",
+                "text": "до 5 хвилин раз на добу"
+            },
+            "invintations": {
+                "name": "Запрошення користувачів",
+                "hint": "",
+                "text": "до 200 осіб"
+            },
+            "followers_to_see_stats": {
+                "name": "Кількість підписників задля розблокування статистики",
+                "hint": "",
+                "text": "щонайменше 50"
+            },
+            "username_reservation": {
+                "name": "Бронювання @username після зміни",
+                "hint": "(час до того, як @username стане доступним для всіх, а не лише для початкового власника)",
+                "text": "близько 15-30 хвилин"
+            }
+        }
+    },
+    "messages": {
+        "name": "Повідомлення",
+        "items": {
+            "single_message_length": {
+                "name": "Довжина одного повідомлення",
+                "hint": "",
+                "text": "до 4,096 символів"
+            },
+            "media_descriptions": {
+                "name": "Опис у медіа",
+                "hint": "",
+                "text": "up to 1,024 characters",
+                "text_premium": "up to 2,048 characters"
+            },
+            "upload_size": {
+                "name": "Обмеження розміру файлу",
+                "hint": "",
+                "text": "up to 2 GB",
+                "text_premium": "up to 4 GB"
+            },
+            "file_name_length": {
+                "name": "Довжина імені файлу",
+                "hint": "",
+                "text": "до 60 символів, зайві будуть обрізані"
+            },
+            "video_message_duration": {
+                "name": "Тривалість відеоповідомлення",
+                "hint": "",
+                "text": "до 1 хвилини"
+            },
+            "album_size": {
+                "name": "Світлини та відео в одному повідомленні",
+                "hint": "(альбом)",
+                "text": "до 10 файлів"
+            },
+            "delayed_messages": {
+                "name": "Кількість нагадувань",
+                "hint": "",
+                "text": "до 100 елементів (на кожен чат)"
+            },
+            "delaying_messages": {
+                "name": "Діапазон нагадувань",
+                "hint": "",
+                "text": "до 365 днів"
+            },
+            "custom_emoji_per_message": {
+                "name": "Custom emoji per message",
+                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+                "text": "not available",
+                "text_premium": "up to 100 emoji"
+            },
+            "links_per_message": {
+                "name": "Links per message",
+                "hint": "",
+                "text": "up to 100 links"
+            }
+        }
+    },
+    "poll": {
+        "name": "Polls",
+        "items": {
+            "poll_question_length": {
+                "name": "Poll question length",
+                "hint": "",
+                "text": "1 to 255 characters"
+            },
+            "quiz_question_length": {
+                "name": "Quiz question length",
+                "hint": "",
+                "text": "1 to 200 characters"
+            },
+            "poll_options_count": {
+                "name": "Poll options count",
+                "hint": "",
+                "text": "2 to 10"
+            },
+            "poll_option_length": {
+                "name": "Poll option length",
+                "hint": "",
+                "text": "1 to 100 characters"
+            }
+        }
+    },
+    "folders": {
+        "name": "Папки",
+        "items": {
+            "name_length": {
+                "name": "Folder name length",
+                "hint": "",
+                "text": "up to 12 characters"
+            },
+            "folder_amount": {
+                "name": "Кількість папок",
+                "hint": "",
+                "text": "up to 10 folders",
+                "text_premium": "up to 30 folders"
+            },
+            "chats_per_folder": {
+                "name": "Chats per folder",
+                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            },
+            "pinned_chats_in_folder": {
+                "name": "Закріплені чати в папці",
+                "hint": "",
+                "text": "up to 100 chats",
+                "text_premium": "up to 200 chats"
+            }
+        }
+    },
+    "public_folders": {
+        "name": "Public Folders",
+        "icon": "folder_shared",
+        "items": {
+            "public_folders_count": {
+                "name": "Number of public folders",
+                "hint": "",
+                "text": "up to 2 folders",
+                "text_premium": "up to 20 folders"
+            },
+            "chats_per_public_folder": {
+                "name": "Chats/channels per public folder",
+                "hint": "",
+                "text": "up to 100 items",
+                "text_premium": "up to 200 items"
+            }
+        }
+    },
+    "bots": {
+        "name": "Боти",
+        "items": {
+            "bots_amount": {
+                "name": "Кількість ботів",
+                "hint": "(створених у @BotFather)",
+                "text": "до 20 ботів",
+                "text_premium": "up to 40 items"
+            },
+            "username_length": {
+                "name": "Length of @username",
+                "hint": "for bots",
+                "text": "5 to 32 characters"
+            },
+            "info_length": {
+                "name": "Довжина інформації про бота",
+                "hint": "(/setabouttext)",
+                "text": "до 120 символів"
+            },
+            "description_length": {
+                "name": "Довжина опису бота",
+                "hint": "",
+                "text": "до 512 символів"
+            },
+            "upload_limit_botapi": {
+                "name": "Ліміт вивантаження файлу",
+                "hint": "без локального Bot API сервера",
+                "text": "до 50 Мб"
+            },
+            "upload_limit_botapi_local": {
+                "name": "Ліміт на вивантаження файлів",
+                "hint": "з локальним Bot API сервером",
+                "text": "до 2000 Мб"
+            },
+            "download_limit_botapi": {
+                "name": "Ліміт завантаження файлу",
+                "hint": "без локального Bot API сервера",
+                "text": "до 20 Мб"
+            },
+            "download_limit_botapi_local": {
+                "name": "Ліміт на завантаження файлів",
+                "hint": "з локальним Bot API сервером",
+                "text": "до 2000 Мб"
+            },
+            "keys_in_keyboard_number": {
+                "name": "Кількість кнопок клавіатури",
+                "hint": "",
+                "text": "до 100 елементів"
+            },
+            "formatting_data": {
+                "name": "Markup-дані повідомлення",
+                "hint": "наприклад, inline-кнопки",
+                "text": "до 10 Кб"
+            },
+            "formatting_entities": {
+                "name": "Форматування сутностей",
+                "hint": "(жирний, курсив тощо)",
+                "text": "до 100 елементів"
+            },
+            "messaging_frequency": {
+                "name": "Частота надсилання повідомлень",
+                "hint": "у будь-якому чаті",
+                "text": "приблизно одне повідомлення в секунду, не враховуючи можливих коротких сплесків"
+            },
+            "messaging_frequency_groups": {
+                "name": "Частота звичайного надсилання повідомлень",
+                "hint": "у групових чатах",
+                "text": "до 20 повідомлень в хвилину в одному чаті"
+            },
+            "messaging_frequency_broadcast": {
+                "name": "Частота масованого розсилання повідомлень",
+                "hint": "застосовується тільки за активного посилання повідомлень до раніше неактивних чатів",
+                "text": "до 30 повідомлень в секунду, один ліміт на всі чати"
+            },
+            "api_requests_frequency": {
+                "name": "API requests frequency",
+                "hint": "",
+                "text": "up to about 30 requests per second"
+            },
+            "bot_commands_count": {
+                "name": "Кількість команд",
+                "hint": "(у BotFather)",
+                "text": "від 0 до 100 команд"
+            },
+            "bot_command_name_length": {
+                "name": "Довжина команди",
+                "hint": "(у BotFather)",
+                "text": "від 1 до 32 символів"
+            },
+            "bot_command_description_length": {
+                "name": "Довжина опису команди",
+                "hint": "",
+                "text": "до 256 символів, має бути не порожнім, якщо встановлюється через Bot API"
+            },
+            "start_payload_size": {
+                "name": "Довжина метаданих для /start",
+                "hint": "використовується для deep linking",
+                "text": "до 64 байт"
+            },
+            "bot_alert_length": {
+                "name": "Довжина сповіщень бота",
+                "hint": "",
+                "text": "до 200 символів"
+            },
+            "inline_max_items": {
+                "name": "Кількість inline-результатів",
+                "hint": "",
+                "text": "до 50 елементів на сторінку"
+            }
+        }
+    },
+    "stories": {
+        "name": "Stories",
+        "items": {
+            "story_availability": {
+                "name": "Story availability",
+                "hint": "countries where stories are available without Telegram Premium",
+                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+            },
+            "story_lifetime": {
+                "name": "Story lifetime",
+                "text": "24 hours",
+                "text_premium": "6/12/24/48 hours"
+            },
+            "story_duration": {
+                "name": "Story duration",
+                "text": "up to 60 seconds"
+            },
+            "story_viewers_visibility": {
+                "name": "Viewers visibility",
+                "text": "24 hours",
+                "text_premium": "unlimited"
+            },
+            "story_daily_limit": {
+                "name": "Daily stories limit",
+                "text": "up to 2 stories",
+                "text_premium": "up to 100 stories"
+            },
+            "story_weekly_limit": {
+                "name": "Weekly stories limit",
+                "text": "up to 5 stories",
+                "text_premium": "up to 700 stories"
+            },
+            "story_monthly_limit": {
+                "name": "Monthly stories limit",
+                "text": "up to 20 stories",
+                "text_premium": "up to 3,000 stories"
+            },
+            "story_text_length": {
+                "name": "Text length in story",
+                "text": "up to 200 characters",
+                "text_premium": "up to 2,048 characters"
+            },
+            "story_incognito_frequency": {
+                "name": "Incognito usage frequency",
+                "text": "not available",
+                "text_premium": "once per 3 hour"
+            },
+            "story_incognito_duration": {
+                "name": "Incognito duration",
+                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
+                "text": "not available",
+                "text_premium": "30 minutes"
+            }
+        }
+    },
+    "search": {
+        "name": "Пошук",
+        "items": {
+            "global_search_min_query": {
+                "name": "Мінімальна довжина запиту",
+                "hint": "для глобального пошуку",
+                "text": "не менше 4 символів"
+            },
+            "username_resolve_limit": {
+                "name": "Обмеження дозволу імені користувача",
+                "hint": "(як для ботів, так і для облікових записів користувачів)",
+                "text": "до 200 імен користувачів щодня"
+            }
+        }
+    },
+    "stickers": {
+        "name": "Наліпки",
+        "items": {
+            "added_packs": {
+                "name": "Кількість доданих наборів",
+                "hint": "",
+                "text": "до 200 елементів"
+            },
+            "favorite_stickers": {
+                "name": "Кількість улюблених наліпок",
+                "hint": "",
+                "text": "up to 5 items",
+                "text_premium": "up to 10 items"
+            },
+            "pack_size": {
+                "name": "Кількість наліпок в наборі",
+                "hint": "",
+                "text": "до 120 для статичних, до 50 для анімованих"
+            },
+            "sticker_size": {
+                "name": "Розмір наліпки",
+                "hint": "",
+                "text": "одна сторона дорівнює 512px, інша сторона ‒ 512px чи менше; строго 512х512 для анімованих"
+            },
+            "animation_duration": {
+                "name": "Тривалість анімації",
+                "hint": "",
+                "text": "до 3 секунд"
+            },
+            "file_size": {
+                "name": "Розмір файлу наліпки",
+                "hint": "",
+                "text": "до 512 Кб для статичних, до 64 Кб для анімованих"
+            },
+            "fps": {
+                "name": "FPS",
+                "hint": "",
+                "text": "30 або 60"
+            },
+            "stickerpack_name_length": {
+                "name": "Довжина назви набору",
+                "hint": "",
+                "text": "до 64 символів"
+            },
+            "stickerpack_url_length": {
+                "name": "Довжина адреси /addstickers для набору",
+                "hint": "",
+                "text": "до 62 символів"
+            },
+            "emojis_per_pack": {
+                "name": "Emojis per pack",
+                "hint": "",
+                "text": "up to 200"
+            }
+        }
+    },
+    "telegraph": {
+        "name": "Telegraph",
+        "items": {
+            "accounts_number": {
+                "name": "Кількість акаунтів",
+                "hint": "в боті @telegraph",
+                "text": "до 5 штук"
+            },
+            "text_size": {
+                "name": "Розмір статті",
+                "hint": "",
+                "text": "до 64 KiB"
+            }
+        }
+    },
+    "miscellaneous": {
+        "name": "Інше",
+        "items": {
+            "properties": {
+                "name": "Властивості відеоаватару",
+                "hint": "",
+                "text": "800x800px, до 2 Мб"
+            },
+            "photo_resolution": {
+                "name": "Роздільна здатність фото",
+                "hint": "при надсиланні зі стисканням",
+                "text": "кожна сторона має бути меншою чи дорівнювати 1280px, інакше фото буде зменшено таким чином, щоб більша сторона дорівнювала 1280px"
+            }
+        }
     }
-  },
-  "chats": {
-    "name": "Чати й групи",
-    "items": {
-      "participants_number": {
-        "name": "Учасники",
-        "hint": "(ліміт може збільшитися)",
-        "text": "до 200 000, необмежено в групах для трансляцій"
-      },
-      "admins_number": {
-        "name": "Кількість адміністраторів",
-        "hint": "в групах",
-        "text": "до 50"
-      },
-      "bots_amount": {
-        "name": "Кількість ботів",
-        "hint": "в групах",
-        "text": "до 20"
-      },
-      "pinned_number": {
-        "name": "Закріплені чати в стрічці користувача",
-        "hint": "",
-        "text": "up to 5 chats or channels + 5 secret chats",
-        "text_premium": "up to 10 chats or channels"
-      },
-      "group_name": {
-        "name": "Назва та опис групи",
-        "hint": "",
-        "text": "до 255 символів"
-      },
-      "editing": {
-        "name": "Редагування повідомлень",
-        "hint": "",
-        "text": "протягом 48 годин після надсилання; необмежено в Збережених та для адміністраторів з правами закріплення"
-      },
-      "media_self_destruction": {
-        "name": "Самознищення світлин та відео",
-        "hint": "",
-        "text": "від 1 до 60 секунд"
-      },
-      "recent_actions": {
-        "name": "Останні дії",
-        "hint": "(підписки, пости тощо)",
-        "text": "останні 2 дні"
-      },
-      "mentions_amount": {
-        "name": "Кількість згадувань",
-        "hint": "в одному повідомленні",
-        "text": "до 50, інші повідомлення не будуть надіслані"
-      },
-      "visible_messages": {
-        "name": "Кількість видимих повідомлень",
-        "hint": "в групі",
-        "text": "1,000,000 останніх повідомлень"
-      },
-      "pinned_messages_number": {
-        "name": "Кількість закріплених повідомлень",
-        "hint": "",
-        "text": "необмежено"
-      },
-      "participants_to_see_stats": {
-        "name": "Кількість учасників для перегляду статистики",
-        "hint": "",
-        "text": "не менше 500"
-      },
-      "username_reservation": {
-        "name": "Бронювання @username після зміни",
-        "hint": "(час до того, як @username стане доступним для всіх, а не лише для початкового власника)",
-        "text": "близько 15-30 хвилин"
-      },
-      "participants_for_group_stickers": {
-        "name": "Наліпки групи",
-        "hint": "",
-        "text": "групи з 100+ учасниками"
-      },
-      "chat_role_length": {
-        "name": "Довжина мітки адміністратора",
-        "hint": "",
-        "text": "до 16 символів"
-      },
-      "chat_title_length": {
-        "name": "Довжина назви чату",
-        "hint": "",
-        "text": "до 128 символів"
-      },
-      "broadcast_group_access": {
-        "name": "Перетворення супергрупи у групу для трансляцій",
-        "hint": "",
-        "text": "для чатів де більше 199 000 учасників"
-      },
-      "read_receipts_availability": {
-        "name": "Доступність звіту про прочитання",
-        "hint": "",
-        "text": "для чатів з 100 учасниками або менше, список користувачів доступний тільки для користувача, який надіслав повідомлення"
-      },
-      "read_receipts_lifetime": {
-        "name": "Тривалість доступності звіту про прочитання",
-        "hint": "",
-        "text": "до 7 днів з моменту надсилання повідомлення"
-      }
-    }
-  },
-  "voice_chats": {
-    "name": "Голосові та відео чати",
-    "items": {
-      "voice_chat_participants": {
-        "name": "Слухачі голосового чату",
-        "hint": "",
-        "text": "необмежено"
-      },
-      "video_chat_broadcast": {
-        "name": "Трансляція відео",
-        "hint": "(камера, виведення екрану)",
-        "text": "до 30 транслюючих користувачів одночасно"
-      },
-      "video_chat_viewers": {
-        "name": "Глядачі відеотрансляцій",
-        "hint": "",
-        "text": "офіційно заявлена відсутність обмежень, на практиці, трансляція стає нестабільною приблизно на 2 000 одночасних глядачів"
-      },
-      "voice_chat_schedule": {
-        "name": "Заплановані чати",
-        "hint": "",
-        "text": "до 7 днів наперед"
-      }
-    }
-  },
-  "channels": {
-    "name": "Канали",
-    "items": {
-      "public_usernames": {
-        "name": "Кількість публічних імен",
-        "hint": "для одного акаунту",
-        "text": "до 10 (враховуючи групи)",
-        "text_premium": "up to 20 (including groups)"
-      },
-      "username_length": {
-        "name": "Довжина @username",
-        "hint": "",
-        "text": "від 5 до 32 символів"
-      },
-      "channel_name": {
-        "name": "Назва та опис каналу",
-        "hint": "",
-        "text": "до 255 символів"
-      },
-      "channel_admins": {
-        "name": "Кількість адміністраторів каналу",
-        "hint": "(включаючи ботів; додати бота до каналу можна лише зробивши його адміністратором)",
-        "text": "до 50 облікових записів"
-      },
-      "editing": {
-        "name": "Редагування постів",
-        "hint": "",
-        "text": "необмежено (якщо до каналу прив'язано групу, записи старіше за 2 тижні не буде оновлено у чаті)"
-      },
-      "subscribers": {
-        "name": "Кількість підписників каналу",
-        "hint": "",
-        "text": "необмежено"
-      },
-      "visible_participants": {
-        "name": "Видимі підписники",
-        "hint": "для адміністратора каналу",
-        "text": "200 осіб"
-      },
-      "channel_deletion": {
-        "name": "Видалення каналу",
-        "hint": "",
-        "text": "канали з більш ніж 1К підписників можуть бути видалені тільки за допомогою підтримки Telegram"
-      },
-      "private_channel_access": {
-        "name": "Перегляд закритих каналів без вступу",
-        "hint": "(для каналів з 200+ підписниками)",
-        "text": "до 5 хвилин раз на добу"
-      },
-      "invintations": {
-        "name": "Запрошення користувачів",
-        "hint": "",
-        "text": "до 200 осіб"
-      },
-      "followers_to_see_stats": {
-        "name": "Кількість підписників задля розблокування статистики",
-        "hint": "",
-        "text": "щонайменше 50"
-      },
-      "username_reservation": {
-        "name": "Бронювання @username після зміни",
-        "hint": "(час до того, як @username стане доступним для всіх, а не лише для початкового власника)",
-        "text": "близько 15-30 хвилин"
-      }
-    }
-  },
-  "messages": {
-    "name": "Повідомлення",
-    "items": {
-      "single_message_length": {
-        "name": "Довжина одного повідомлення",
-        "hint": "",
-        "text": "до 4,096 символів"
-      },
-      "media_descriptions": {
-        "name": "Опис у медіа",
-        "hint": "",
-        "text": "up to 1,024 characters",
-        "text_premium": "up to 2,048 characters"
-      },
-      "upload_size": {
-        "name": "Обмеження розміру файлу",
-        "hint": "",
-        "text": "up to 2 GB",
-        "text_premium": "up to 4 GB"
-      },
-      "file_name_length": {
-        "name": "Довжина імені файлу",
-        "hint": "",
-        "text": "до 60 символів, зайві будуть обрізані"
-      },
-      "video_message_duration": {
-        "name": "Тривалість відеоповідомлення",
-        "hint": "",
-        "text": "до 1 хвилини"
-      },
-      "album_size": {
-        "name": "Світлини та відео в одному повідомленні",
-        "hint": "(альбом)",
-        "text": "до 10 файлів"
-      },
-      "delayed_messages": {
-        "name": "Кількість нагадувань",
-        "hint": "",
-        "text": "до 100 елементів (на кожен чат)"
-      },
-      "delaying_messages": {
-        "name": "Діапазон нагадувань",
-        "hint": "",
-        "text": "до 365 днів"
-      },
-      "custom_emoji_per_message": {
-        "name": "Custom emoji per message",
-        "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-        "text": "not available",
-        "text_premium": "up to 100 emoji"
-      },
-      "links_per_message": {
-        "name": "Links per message",
-        "hint": "",
-        "text": "up to 100 links"
-      }
-    }
-  },
-  "folders": {
-    "name": "Папки",
-    "items": {
-      "name_length": {
-        "name": "Folder name length",
-        "hint": "",
-        "text": "up to 12 characters"
-      },
-      "folder_amount": {
-        "name": "Кількість папок",
-        "hint": "",
-        "text": "up to 10 folders",
-        "text_premium": "up to 30 folders"
-      },
-      "pinned_chats_in_folder": {
-        "name": "Закріплені чати в папці",
-        "hint": "",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
-      },
-      "chats_per_folder": {
-        "name": "Chats per folder",
-        "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-        "text": "up to 100 chats",
-        "text_premium": "up to 200 chats"
-      }
-    }
-  },
-  "public_folders": {
-    "name": "Public Folders",
-    "icon": "folder_shared",
-    "items": {
-      "public_folders_count": {
-        "name": "Number of public folders",
-        "hint": "",
-        "text": "up to 2 folders",
-        "text_premium": "up to 20 folders"
-      },
-      "chats_per_public_folder": {
-        "name": "Chats/channels per public folder",
-        "hint": "",
-        "text": "up to 100 items",
-        "text_premium": "up to 200 items"
-      }
-    }
-  },
-  "bots": {
-    "name": "Боти",
-    "items": {
-      "bots_amount": {
-        "name": "Кількість ботів",
-        "hint": "(створених у @BotFather)",
-        "text": "до 20 ботів",
-        "text_premium": "up to 40 items"
-      },
-      "username length": {
-        "name": "Довжина @username",
-        "hint": "для ботів",
-        "text": "від 5 до 32 символів"
-      },
-      "info_length": {
-        "name": "Довжина інформації про бота",
-        "hint": "(/setabouttext)",
-        "text": "до 120 символів"
-      },
-      "description_length": {
-        "name": "Довжина опису бота",
-        "hint": "",
-        "text": "до 512 символів"
-      },
-      "upload_limit_botapi": {
-        "name": "Ліміт вивантаження файлу",
-        "hint": "без локального Bot API сервера",
-        "text": "до 50 Мб"
-      },
-      "upload_limit_botapi_local": {
-        "name": "Ліміт на вивантаження файлів",
-        "hint": "з локальним Bot API сервером",
-        "text": "до 2000 Мб"
-      },
-      "download_limit_botapi": {
-        "name": "Ліміт завантаження файлу",
-        "hint": "без локального Bot API сервера",
-        "text": "до 20 Мб"
-      },
-      "download_limit_botapi_local": {
-        "name": "Ліміт на завантаження файлів",
-        "hint": "з локальним Bot API сервером",
-        "text": "до 2000 Мб"
-      },
-      "keys_in_keyboard_number": {
-        "name": "Кількість кнопок клавіатури",
-        "hint": "",
-        "text": "до 100 елементів"
-      },
-      "formatting_data": {
-        "name": "Markup-дані повідомлення",
-        "hint": "наприклад, inline-кнопки",
-        "text": "до 10 Кб"
-      },
-      "formatting_entities": {
-        "name": "Форматування сутностей",
-        "hint": "(жирний, курсив тощо)",
-        "text": "до 100 елементів"
-      },
-      "messaging_frequency_broadcast": {
-        "name": "Частота масованого розсилання повідомлень",
-        "hint": "застосовується тільки за активного посилання повідомлень до раніше неактивних чатів",
-        "text": "до 30 повідомлень в секунду, один ліміт на всі чати"
-      },
-      "messaging_frequency": {
-        "name": "Частота надсилання повідомлень",
-        "hint": "у будь-якому чаті",
-        "text": "приблизно одне повідомлення в секунду, не враховуючи можливих коротких сплесків"
-      },
-      "messaging_frequency_groups": {
-        "name": "Частота звичайного надсилання повідомлень",
-        "hint": "у групових чатах",
-        "text": "до 20 повідомлень в хвилину в одному чаті"
-      },
-      "bot_commands_count": {
-        "name": "Кількість команд",
-        "hint": "(у BotFather)",
-        "text": "від 0 до 100 команд"
-      },
-      "bot_command_name_length": {
-        "name": "Довжина команди",
-        "hint": "(у BotFather)",
-        "text": "від 1 до 32 символів"
-      },
-      "bot_command_description_length": {
-        "name": "Довжина опису команди",
-        "hint": "",
-        "text": "до 256 символів, має бути не порожнім, якщо встановлюється через Bot API"
-      },
-      "start_payload_size": {
-        "name": "Довжина метаданих для /start",
-        "hint": "використовується для deep linking",
-        "text": "до 64 байт"
-      },
-      "bot_alert_length": {
-        "name": "Довжина сповіщень бота",
-        "hint": "",
-        "text": "до 200 символів"
-      },
-      "inline_max_items": {
-        "name": "Кількість inline-результатів",
-        "hint": "",
-        "text": "до 50 елементів на сторінку"
-      }
-    }
-  },
-  "stories": {
-    "name": "Stories",
-    "items": {
-      "story_lifetime": {
-        "name": "Story lifetime",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "24 hours",
-        "text_premium": "6/12/24/48 hours"
-      },
-      "story_duration": {
-        "name": "Story duration",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 60 seconds"
-      },
-      "story_viewers_visibility": {
-        "name": "Viewers visibility",
-        "hint": "",
-        "text": "24 hours",
-        "text_premium": "unlimited"
-      },
-      "story_daily_limit": {
-        "name": "Daily stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 100 stories"
-      },
-      "story_weekly_limit": {
-        "name": "Weekly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 3 stories",
-        "text_premium": "up to 700 stories"
-      },
-      "story_monthly_limit": {
-        "name": "Monthly stories limit",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 30 stories",
-        "text_premium": "up to 3,000 stories"
-      },
-      "story_text_length": {
-        "name": "Text length in story",
-        "hint": "Publishing stories without Telegram Premium is not available in all countries",
-        "text": "up to 200 characters",
-        "text_premium": "up to 2,048 characters"
-      },
-      "story_incognito_frequency": {
-        "name": "Incognito usage frequency",
-        "hint": "",
-        "text": "not available",
-        "text_premium": "once per 3 hour"
-      },
-      "story_incognito_duration": {
-        "name": "Incognito duration",
-        "hint": "All views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded.",
-        "text": "not available",
-        "text_premium": "30 minutes"
-      }
-    }
-  },
-  "search": {
-    "name": "Пошук",
-    "items": {
-      "global_search": {
-        "name": "Результати глобального пошуку",
-        "hint": "",
-        "text": ""
-      },
-      "global_search_min_query": {
-        "name": "Мінімальна довжина запиту",
-        "hint": "для глобального пошуку",
-        "text": "не менше 4 символів"
-      },
-      "username_resolve_limit": {
-        "name": "Обмеження дозволу імені користувача",
-        "hint": "(як для ботів, так і для облікових записів користувачів)",
-        "text": "до 200 імен користувачів щодня"
-      }
-    }
-  },
-  "stickers": {
-    "name": "Наліпки",
-    "items": {
-      "added_packs": {
-        "name": "Кількість доданих наборів",
-        "hint": "",
-        "text": "до 200 елементів"
-      },
-      "favorite_stickers": {
-        "name": "Кількість улюблених наліпок",
-        "hint": "",
-        "text": "up to 5 items",
-        "text_premium": "up to 10 items"
-      },
-      "pack_size": {
-        "name": "Кількість наліпок в наборі",
-        "hint": "",
-        "text": "до 120 для статичних, до 50 для анімованих"
-      },
-      "sticker_size": {
-        "name": "Розмір наліпки",
-        "hint": "",
-        "text": "одна сторона дорівнює 512px, інша сторона ‒ 512px чи менше; строго 512х512 для анімованих"
-      },
-      "animation_duration": {
-        "name": "Тривалість анімації",
-        "hint": "",
-        "text": "до 3 секунд"
-      },
-      "file_size": {
-        "name": "Розмір файлу наліпки",
-        "hint": "",
-        "text": "до 512 Кб для статичних, до 64 Кб для анімованих"
-      },
-      "fps": {
-        "name": "FPS",
-        "hint": "",
-        "text": "30 або 60"
-      },
-      "stickerpack_name_length": {
-        "name": "Довжина назви набору",
-        "hint": "",
-        "text": "до 64 символів"
-      },
-      "stickerpack_url_length": {
-        "name": "Довжина адреси /addstickers для набору",
-        "hint": "",
-        "text": "до 62 символів"
-      }
-    }
-  },
-  "telegraph": {
-    "name": "Telegraph",
-    "items": {
-      "accounts_number": {
-        "name": "Кількість акаунтів",
-        "hint": "в боті @telegraph",
-        "text": "до 5 штук"
-      },
-      "text_size": {
-        "name": "Розмір статті",
-        "hint": "",
-        "text": "до 64 KiB"
-      }
-    }
-  },
-  "miscellaneous": {
-    "name": "Інше",
-    "items": {
-      "properties": {
-        "name": "Властивості відеоаватару",
-        "hint": "",
-        "text": "800x800px, до 2 Мб"
-      },
-      "photo_resolution": {
-        "name": "Роздільна здатність фото",
-        "hint": "при надсиланні зі стисканням",
-        "text": "кожна сторона має бути меншою чи дорівнювати 1280px, інакше фото буде зменшено таким чином, щоб більша сторона дорівнювала 1280px"
-      }
-    }
-  }
 }

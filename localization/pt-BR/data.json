@@ -419,7 +419,6 @@
     },
     "public_folders": {
         "name": "Pastas Públicas",
-        "icon": "pasta_compartilhada",
         "items": {
             "public_folders_count": {
                 "name": "Número de pastas públicas",

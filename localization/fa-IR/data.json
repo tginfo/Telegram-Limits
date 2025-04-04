@@ -26,7 +26,7 @@
             "self_destruction": {
                 "name": "زمان نابودکننده",
                 "hint": "اگر هیچ فعالیتی نداشته باشید",
-                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+                "text": "۱، ۳، ۶، ۱۲، ۱۸، ۲۴ ماه (به‌صورت پیش‌فرض: ۱۸ ماه)"
             },
             "spam_ban": {
                 "name": "ممنوعیت هرزنامه",
@@ -38,13 +38,13 @@
                 "name": "تعداد کانال‌ها و ابرگروه‌ها",
                 "hint": "که شما میتوانید عضو باشید",
                 "text": "تا ۵۰۰ گروه و کانال (شامل آنهایی که خودتان مالک هستید)",
-                "text_premium": "up to 1000 (including ones you own)"
+                "text_premium": "تا ۱۰۰۰ عدد (شامل مواردی که مالک آن‌ها هستید)"
             },
             "gifs_number": {
                 "name": "تعداد گیف های ذخیره شده",
                 "hint": "",
-                "text": "up to 200",
-                "text_premium": "up to 400"
+                "text": "تا ۲۰۰ عدد",
+                "text_premium": "تا ۴۰۰ عدد"
             },
             "video_length": {
                 "name": "مدت زمان ویدیو آواتار",
@@ -59,8 +59,8 @@
             "accounts_number": {
                 "name": "تعداد حساب ها",
                 "hint": "(برنامه‌های رسمی)",
-                "text": "up to 3",
-                "text_premium": "up to 4-6 (depends on app)"
+                "text": "تا ۳ عدد",
+                "text_premium": "تا ۴ الی ۶ مورد (بسته به برنامه)"
             },
             "visible_messages": {
                 "name": "Meysamkh1366",
@@ -68,19 +68,19 @@
                 "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
-                "name": "Sticker packs per account",
+                "name": "تعداد بسته‌های استیکر در هر حساب کاربری",
                 "hint": "",
-                "text": "up to 200"
+                "text": "تا ۲۰۰ عدد"
             },
             "emoji_packs_per_account": {
-                "name": "Emoji packs per account",
+                "name": "تعداد بسته‌های ایموجی در هر حساب کاربری",
                 "hint": "",
-                "text": "up to 200"
+                "text": "تا ۲۰۰ عدد"
             },
             "username_ownership_for_auction": {
-                "name": "Minimum username ownership for auction",
+                "name": "حداقل مدت مالکیت نام کاربری برای مزایده",
                 "hint": "",
-                "text": "14 days"
+                "text": "۱۴ روز"
             }
         }
     },
@@ -419,7 +419,6 @@
     },
     "public_folders": {
         "name": "Public Folders",
-        "icon": "folder_shared",
         "items": {
             "public_folders_count": {
                 "name": "Number of public folders",

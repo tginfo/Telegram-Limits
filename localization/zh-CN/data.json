@@ -5,13 +5,13 @@
             "username": {
                 "name": "用户名",
                 "hint": "（例：@cameraman）",
-                "text": "5 到 32 个字符，对于 NFT 用户名，最低为 4 个字符"
+                "text": "5 到 32 个字符；对于 NFT 用户名，最低为 4 个字符"
             },
             "bio": {
                 "name": "个人简介",
                 "hint": "",
-                "text": "up to 70 characters",
-                "text_premium": "up to 140 characters"
+                "text": "最多 70 个字符",
+                "text_premium": "最多 140 个字符"
             },
             "name_length": {
                 "name": "名字长度",
@@ -26,25 +26,25 @@
             "self_destruction": {
                 "name": "账户自动销毁时限",
                 "hint": "（长时间无登录活动）",
-                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+                "text": "1、3、6、12、18 或 24 个月 (默认 18 个月)"
             },
             "spam_ban": {
                 "name": "恶意灌水封禁时长",
                 "hint": "",
                 "text": "1 天 ~ 永久",
-                "text_premium": "from 1 second up to forever"
+                "text_premium": "1 秒 ~ 永久"
             },
             "channels_and_chats_number": {
                 "name": "频道和超级群组数量",
                 "hint": "你可以加入的",
-                "text": "up to 500 (including ones you own)",
-                "text_premium": "up to 1000 (including ones you own)"
+                "text": "最多 500 个（包含你创建的）",
+                "text_premium": "最多 1000 个（包含你创建的）"
             },
             "gifs_number": {
                 "name": "保存在 GIF 库的 GIF 数量",
                 "hint": "",
-                "text": "up to 200",
-                "text_premium": "up to 400"
+                "text": "最多 200 个",
+                "text_premium": "最多 400 个"
             },
             "video_length": {
                 "name": "视频头像时长",
@@ -59,8 +59,8 @@
             "accounts_number": {
                 "name": "同时登录的账号数",
                 "hint": "（官方客户端）",
-                "text": "up to 3",
-                "text_premium": "up to 4-6 (depends on app)"
+                "text": "最多 3 个",
+                "text_premium": "最多 4-6 个（根据应用程序而定）"
             },
             "visible_messages": {
                 "name": "可见消息数量",
@@ -68,19 +68,19 @@
                 "text": "无限；2018 年前 - 最多 100 万条消息可见：参阅 https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
-                "name": "Sticker packs per account",
+                "name": "每个账户的贴纸包",
                 "hint": "",
-                "text": "up to 200"
+                "text": "最多 200 个"
             },
             "emoji_packs_per_account": {
-                "name": "Emoji packs per account",
+                "name": "每个账户的表情包",
                 "hint": "",
-                "text": "up to 200"
+                "text": "最多 200 个"
             },
             "username_ownership_for_auction": {
-                "name": "Minimum username ownership for auction",
+                "name": "拍卖所需最小用户名持有时间",
                 "hint": "",
-                "text": "14 days"
+                "text": "14 天"
             }
         }
     },
@@ -105,8 +105,8 @@
             "pinned_number": {
                 "name": "客户端主页面的置顶群聊数",
                 "hint": "",
-                "text": "up to 5 chats or channels + 5 secret chats",
-                "text_premium": "up to 10 chats or channels"
+                "text": "最多 5 个群组 / 频道 + 5 个加密对话",
+                "text_premium": "最多 10 个对话或频道"
             },
             "group_name": {
                 "name": "群组名称和简介",
@@ -164,7 +164,7 @@
                 "text": "最多 16 个字符"
             },
             "chat_title_length": {
-                "name": "频道 / 群聊标题长度",
+                "name": "对话标题长度",
                 "hint": "",
                 "text": "最多 128 个字符"
             },
@@ -186,27 +186,27 @@
         }
     },
     "topic": {
-        "name": "Forum",
+        "name": "论坛",
         "items": {
             "visible_users_in_topic_group": {
-                "name": "Visible users in topic group",
+                "name": "话题群组中可见用户数",
                 "hint": "",
-                "text": "up to 100"
+                "text": "最多 100 个"
             },
             "topics_per_group": {
-                "name": "Topics per group",
+                "name": "每个群组的话题数",
                 "hint": "",
-                "text": "up to 1,000,000"
+                "text": "最多 1,000,000 个"
             },
             "topic_title_length": {
-                "name": "Topic title length",
+                "name": "话题标题长度",
                 "hint": "",
-                "text": "up to 128 characters"
+                "text": "最多 128 个字符"
             },
             "pinned_topics": {
-                "name": "Pinned topics",
+                "name": "置顶话题数",
                 "hint": "",
-                "text": "up to 5"
+                "text": "最多 5 个"
             }
         }
     },
@@ -229,9 +229,9 @@
                 "text": "官方声称为“不限”；实际测试中，观众达到约 2,000 时，直播流可能会变得不稳定。"
             },
             "voice_chat_title_length": {
-                "name": "Voice chat title length",
+                "name": "语音聊天标题长度",
                 "hint": "",
-                "text": "up to 40 characters"
+                "text": "最多 40 个字符"
             },
             "voice_chat_schedule": {
                 "name": "可提前预定的时长",
@@ -247,7 +247,7 @@
                 "name": "可拥有的公开频道 / 群组个数",
                 "hint": "单个用户",
                 "text": "最多 10 个（包括群组）",
-                "text_premium": "up to 20 (including groups)"
+                "text_premium": "最多 20 个（包括群组）"
             },
             "username_length": {
                 "name": "用户名长度",
@@ -302,7 +302,7 @@
             "username_reservation": {
                 "name": "更改 username 生效时长",
                 "hint": "（更改多长时间后对所有人可见）",
-                "text": "15 ~ 30 分钟"
+                "text": "约 15 ~ 30 分钟"
             }
         }
     },
@@ -317,14 +317,14 @@
             "media_descriptions": {
                 "name": "媒体的描述",
                 "hint": "",
-                "text": "up to 1,024 characters",
-                "text_premium": "up to 2,048 characters"
+                "text": "最多 1,024 个字符",
+                "text_premium": "最多 2,048 个字符"
             },
             "upload_size": {
                 "name": "单文件大小限制",
                 "hint": "",
-                "text": "up to 2 GB",
-                "text_premium": "up to 4 GB"
+                "text": "最大 2 GB",
+                "text_premium": "最大 4 GB"
             },
             "file_name_length": {
                 "name": "文件名长度限制",
@@ -338,13 +338,13 @@
             },
             "album_size": {
                 "name": "单条消息中的图片和视频",
-                "hint": "（或专辑）",
+                "hint": "（相册）",
                 "text": "最多 10 个"
             },
             "delayed_messages": {
                 "name": "计划信息数量",
                 "hint": "",
-                "text": "最多 100 项目 (每对话)"
+                "text": "最多 100 个项目（每个对话）"
             },
             "delaying_messages": {
                 "name": "可计划的日程范围",
@@ -352,40 +352,40 @@
                 "text": "最长 365 天"
             },
             "custom_emoji_per_message": {
-                "name": "Custom emoji per message",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-                "text": "not available",
-                "text_premium": "up to 100 emoji"
+                "name": "每条消息中的自定义表情",
+                "hint": "若没有 Telegram Premium，仅能向消息收藏夹发送自定义表情；超过 100 个自定义表情将被相应标准表情替换",
+                "text": "不可用",
+                "text_premium": "最多 100 个表情"
             },
             "links_per_message": {
-                "name": "Links per message",
+                "name": "每条消息中的链接",
                 "hint": "",
-                "text": "up to 100 links"
+                "text": "最多 100 个链接"
             }
         }
     },
     "poll": {
-        "name": "Polls",
+        "name": "投票",
         "items": {
             "poll_question_length": {
-                "name": "Poll question length",
+                "name": "投票问题长度",
                 "hint": "",
-                "text": "1 to 255 characters"
+                "text": "1 ~ 255 个字符"
             },
             "quiz_question_length": {
-                "name": "Quiz question length",
+                "name": "测验问题长度",
                 "hint": "",
-                "text": "1 to 200 characters"
+                "text": "1 ~ 200 个字符"
             },
             "poll_options_count": {
-                "name": "Poll options count",
+                "name": "投票选项数量",
                 "hint": "",
-                "text": "2 to 10"
+                "text": "2 ~ 10 个"
             },
             "poll_option_length": {
-                "name": "Poll option length",
+                "name": "投票选项长度",
                 "hint": "",
-                "text": "1 to 100 characters"
+                "text": "1 ~ 100 个字符"
             }
         }
     },
@@ -393,45 +393,45 @@
         "name": "聊天文件夹相关",
         "items": {
             "name_length": {
-                "name": "Folder name length",
+                "name": "文件夹名称长度",
                 "hint": "",
-                "text": "up to 12 characters"
+                "text": "最多 12 个字符"
             },
             "folder_amount": {
                 "name": "文件夹数量",
                 "hint": "",
-                "text": "up to 10 folders",
-                "text_premium": "up to 30 folders"
+                "text": "最多 10 个文件夹",
+                "text_premium": "最多 30 个文件夹"
             },
             "chats_per_folder": {
-                "name": "Chats per folder",
-                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
+                "name": "每个文件夹中的对话",
+                "hint": "不包括按照类型（例如频道）添加到文件夹的对话。包括添加到排除部分的对话。",
+                "text": "最多 100 个",
+                "text_premium": "最多 200 个"
             },
             "pinned_chats_in_folder": {
                 "name": "单个文件夹中可置顶的聊天数",
                 "hint": "",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
+                "text": "最多 100 个对话",
+                "text_premium": "最多 200 个对话"
             }
         }
     },
     "public_folders": {
-        "name": "Public Folders",
+        "name": "公共文件夹",
         "icon": "folder_shared",
         "items": {
             "public_folders_count": {
-                "name": "Number of public folders",
+                "name": "公共文件夹数量",
                 "hint": "",
-                "text": "up to 2 folders",
-                "text_premium": "up to 20 folders"
+                "text": "最多 2 个文件夹",
+                "text_premium": "最多 20 个文件夹"
             },
             "chats_per_public_folder": {
-                "name": "Chats/channels per public folder",
+                "name": "每个公共文件夹的对话/频道",
                 "hint": "",
-                "text": "up to 100 items",
-                "text_premium": "up to 200 items"
+                "text": "最多 100 个",
+                "text_premium": "最多 200 个"
             }
         }
     },
@@ -442,12 +442,12 @@
                 "name": "单账户可拥有的机器人数量",
                 "hint": "（由 @BotFather 创建的）",
                 "text": "最多 20 个",
-                "text_premium": "up to 40 items"
+                "text_premium": "最多 40 项"
             },
             "username_length": {
-                "name": "Length of @username",
-                "hint": "for bots",
-                "text": "5 to 32 characters"
+                "name": "用户名长度",
+                "hint": "对机器人",
+                "text": "5 ~ 32 个字符"
             },
             "info_length": {
                 "name": "机器人关于信息（What can this bot do?）长度",
@@ -461,22 +461,22 @@
             },
             "upload_limit_botapi": {
                 "name": "上传文件大小限制",
-                "hint": "不使用本地 Bot API 后端",
+                "hint": "不使用本地 Bot API 服务器时",
                 "text": "最大 50 MB"
             },
             "upload_limit_botapi_local": {
                 "name": "上传文件大小限制",
-                "hint": "使用本地 Bot API 后端",
+                "hint": "使用本地 Bot API 服务器时",
                 "text": "最大 2000 MB"
             },
             "download_limit_botapi": {
                 "name": "下载文件大小限制",
-                "hint": "不使用本地 Bot API 后端",
+                "hint": "不使用本地 Bot API 服务器时",
                 "text": "最大 20 MB"
             },
             "download_limit_botapi_local": {
                 "name": "下载文件大小限制",
-                "hint": "使用本地 Bot API 后端",
+                "hint": "使用本地 Bot API 服务器时",
                 "text": "最大 2000 MB"
             },
             "keys_in_keyboard_number": {
@@ -507,21 +507,21 @@
             "messaging_frequency_broadcast": {
                 "name": "消息广播速率",
                 "hint": "仅适用于主动发送通知到不活跃的聊天",
-                "text": "对话中每秒最多 30 条消息"
+                "text": "所有对话中每秒最多 30 条消息"
             },
             "api_requests_frequency": {
-                "name": "API requests frequency",
+                "name": "API 请求频率",
                 "hint": "",
-                "text": "up to about 30 requests per second"
+                "text": "每秒最多约 30 个请求"
             },
             "bot_commands_count": {
                 "name": "指令数量",
-                "hint": "(Bot Father)",
-                "text": "0 ~ 100 个命令"
+                "hint": "（在 BotFather 中）",
+                "text": "0 ~ 100 个指令"
             },
             "bot_command_name_length": {
                 "name": "指令长度",
-                "hint": "(Bot Father)",
+                "hint": "（在 BotFather 中）",
                 "text": "1 ~ 32 个字符"
             },
             "bot_command_description_length": {
@@ -530,8 +530,8 @@
                 "text": "最多 256 个字符；在通过 Bot API 设置时不可为空"
             },
             "start_payload_size": {
-                "name": "/start 命令的元数据长度",
-                "hint": "（深度链接中）",
+                "name": "机器人 /start 载荷长度",
+                "hint": "在深层链接中使用",
                 "text": "最多 64 字节"
             },
             "bot_alert_length": {
@@ -547,57 +547,57 @@
         }
     },
     "stories": {
-        "name": "Stories",
+        "name": "故事",
         "items": {
             "story_availability": {
-                "name": "Story availability",
-                "hint": "countries where stories are available without Telegram Premium",
-                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+                "name": "故事可用性",
+                "hint": "没有 Telegram Premium 时可使用故事的国家",
+                "text": "澳大利亚、阿塞拜疆、白俄罗斯、塞浦路斯、爱沙尼亚、德国、伊拉克、以色列、哈萨克斯坦、吉尔吉斯斯坦、老挝、摩洛哥、波兰、葡萄牙、罗马尼亚、斯洛文尼亚、斯里兰卡、瑞典、泰国、土耳其、英国、乌兹别克斯坦、印度尼西亚、美国、越南"
             },
             "story_lifetime": {
-                "name": "Story lifetime",
-                "text": "24 hours",
-                "text_premium": "6/12/24/48 hours"
+                "name": "故事生存期",
+                "text": "24 小时",
+                "text_premium": "6/12/24/48 小时"
             },
             "story_duration": {
-                "name": "Story duration",
-                "text": "up to 60 seconds"
+                "name": "故事持续时间",
+                "text": "最长 60 秒"
             },
             "story_viewers_visibility": {
-                "name": "Viewers visibility",
-                "text": "24 hours",
-                "text_premium": "unlimited"
+                "name": "观看者可见性",
+                "text": "24 小时",
+                "text_premium": "无限制"
             },
             "story_daily_limit": {
-                "name": "Daily stories limit",
-                "text": "up to 2 stories",
-                "text_premium": "up to 100 stories"
+                "name": "每日故事限制",
+                "text": "最多 2 条故事",
+                "text_premium": "最多 100 条故事"
             },
             "story_weekly_limit": {
-                "name": "Weekly stories limit",
-                "text": "up to 5 stories",
-                "text_premium": "up to 700 stories"
+                "name": "每周故事限制",
+                "text": "最多 5 条故事",
+                "text_premium": "最多 700 条故事"
             },
             "story_monthly_limit": {
-                "name": "Monthly stories limit",
-                "text": "up to 20 stories",
-                "text_premium": "up to 3,000 stories"
+                "name": "每月故事限制",
+                "text": "最多 20 条故事",
+                "text_premium": "最多 3,000 条故事"
             },
             "story_text_length": {
-                "name": "Text length in story",
-                "text": "up to 200 characters",
-                "text_premium": "up to 2,048 characters"
+                "name": "故事中的文本长度",
+                "text": "最多 200 个字符",
+                "text_premium": "最多 2,048 个字符"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency",
-                "text": "not available",
-                "text_premium": "once per 3 hour"
+                "name": "隐身使用频率",
+                "text": "不可用",
+                "text_premium": "每 3 小时一次"
             },
             "story_incognito_duration": {
-                "name": "Incognito duration",
-                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
-                "text": "not available",
-                "text_premium": "30 minutes"
+                "name": "隐身持续时长",
+                "hint": "（启用前 5 分钟内的查看记录消失，启用后 25 分钟内的查看不被记录）",
+                "text": "不可用",
+                "text_premium": "30 分钟"
             }
         }
     },
@@ -627,8 +627,8 @@
             "favorite_stickers": {
                 "name": "收藏贴纸数",
                 "hint": "",
-                "text": "up to 5 items",
-                "text_premium": "up to 10 items"
+                "text": "最多 5 个",
+                "text_premium": "最多 10 个"
             },
             "pack_size": {
                 "name": "单个贴纸包中的贴纸数",
@@ -666,9 +666,9 @@
                 "text": "最多 62 个字符"
             },
             "emojis_per_pack": {
-                "name": "Emojis per pack",
+                "name": "每个表情包中的表情数",
                 "hint": "",
-                "text": "up to 200"
+                "text": "最多 200 个"
             }
         }
     },

@@ -419,6 +419,7 @@
     },
     "public_folders": {
         "name": "Cartelle Pubbliche",
+        "icon": "cartella_condivisa",
         "items": {
             "public_folders_count": {
                 "name": "Numero di cartelle pubbliche",

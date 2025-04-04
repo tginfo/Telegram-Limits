@@ -26,7 +26,7 @@
             "self_destruction": {
                 "name": "Selbstzerstörungszeit",
                 "hint": "bei Inaktivität",
-                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+                "text": "1, 3, 6, 12, 18, 24 Monate (standardmäßig 18 Monate)"
             },
             "spam_ban": {
                 "name": "Spam-Bann",
@@ -68,19 +68,19 @@
                 "text": "unbegrenzt; vor 2018 - bis zu 1 Mio. sichtbare Nachrichten: siehe x.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
-                "name": "Sticker packs per account",
+                "name": "Sticker Pakete pro Konto",
                 "hint": "",
-                "text": "up to 200"
+                "text": "bis zu 200"
             },
             "emoji_packs_per_account": {
-                "name": "Emoji packs per account",
+                "name": "Emoji Pakete pro Konto",
                 "hint": "",
-                "text": "up to 200"
+                "text": "bis zu 200"
             },
             "username_ownership_for_auction": {
-                "name": "Minimum username ownership for auction",
+                "name": "Mindestanzahl an Benutzernamen für Auktionen",
                 "hint": "",
-                "text": "14 days"
+                "text": "14 Tage"
             }
         }
     },
@@ -189,24 +189,24 @@
         "name": "Forum",
         "items": {
             "visible_users_in_topic_group": {
-                "name": "Visible users in topic group",
+                "name": "Sichtbare Benutzer in Themengruppe",
                 "hint": "",
-                "text": "up to 100"
+                "text": "bis zu 100"
             },
             "topics_per_group": {
                 "name": "Topics per group",
                 "hint": "",
-                "text": "up to 1,000,000"
+                "text": "bis zu 1.000.000"
             },
             "topic_title_length": {
-                "name": "Topic title length",
+                "name": "Länge des Thementitels",
                 "hint": "",
-                "text": "up to 128 characters"
+                "text": "bis zu 128 Zeichen"
             },
             "pinned_topics": {
-                "name": "Pinned topics",
+                "name": "Angeheftete Themen",
                 "hint": "",
-                "text": "up to 5"
+                "text": "bis zu 5"
             }
         }
     },

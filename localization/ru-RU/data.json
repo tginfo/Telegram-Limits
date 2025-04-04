@@ -26,7 +26,7 @@
             "self_destruction": {
                 "name": "Срок самоуничтожения аккаунта",
                 "hint": "при отсутствии активности",
-                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+                "text": "1, 3, 6, 12, 18, 24 месяцев (по умолчанию 18 месяцев)"
             },
             "spam_ban": {
                 "name": "Спам-бан",
@@ -68,14 +68,14 @@
                 "text": "неограниченно; до 2018 года - до 1,000,000 сообщений: см. https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
-                "name": "Sticker packs per account",
+                "name": "Наборы стикеров для аккаунта",
                 "hint": "",
-                "text": "up to 200"
+                "text": "До 200"
             },
             "emoji_packs_per_account": {
-                "name": "Emoji packs per account",
+                "name": "Пакеты эмодзи для аккаунта",
                 "hint": "",
-                "text": "up to 200"
+                "text": "До 200"
             },
             "username_ownership_for_auction": {
                 "name": "Minimum username ownership for auction",

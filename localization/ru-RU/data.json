@@ -68,19 +68,19 @@
                 "text": "неограниченно; до 2018 года - до 1,000,000 сообщений: см. https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
-                "name": "Наборы стикеров для аккаунта",
+                "name": "Количество стикер-паков",
                 "hint": "",
-                "text": "До 200"
+                "text": "до 200"
             },
             "emoji_packs_per_account": {
-                "name": "Пакеты эмодзи для аккаунта",
+                "name": "Количество эмодзи-паков",
                 "hint": "",
-                "text": "До 200"
+                "text": "до 200"
             },
             "username_ownership_for_auction": {
-                "name": "Minimum username ownership for auction",
+                "name": "Минимальное время владения именем пользователя для отправки на аукцион",
                 "hint": "",
-                "text": "14 days"
+                "text": "14 дней"
             }
         }
     },
@@ -186,27 +186,27 @@
         }
     },
     "topic": {
-        "name": "Forum",
+        "name": "Форум",
         "items": {
             "visible_users_in_topic_group": {
-                "name": "Visible users in topic group",
+                "name": "Количество видимых пользователей",
                 "hint": "",
-                "text": "up to 100"
+                "text": "до 100"
             },
             "topics_per_group": {
-                "name": "Topics per group",
+                "name": "Колиество тем в форуме",
                 "hint": "",
-                "text": "up to 1,000,000"
+                "text": "до 1 000 000"
             },
             "topic_title_length": {
-                "name": "Topic title length",
+                "name": "Длина названия темы",
                 "hint": "",
-                "text": "up to 128 characters"
+                "text": "до 128 символов"
             },
             "pinned_topics": {
-                "name": "Pinned topics",
+                "name": "Закреплённые темы",
                 "hint": "",
-                "text": "up to 5"
+                "text": "до 5"
             }
         }
     },
@@ -229,9 +229,9 @@
                 "text": "официально заявлено, что ограничений нет, но на практике трансляция становится нестабильной при около 2 000 одновременных зрителей"
             },
             "voice_chat_title_length": {
-                "name": "Voice chat title length",
+                "name": "Длина заголовка голосового чата",
                 "hint": "",
-                "text": "up to 40 characters"
+                "text": "до 40 символов"
             },
             "voice_chat_schedule": {
                 "name": "Запланированные чаты",
@@ -352,8 +352,8 @@
                 "text": "до 365 дней"
             },
             "custom_emoji_per_message": {
-                "name": "Пользовательских эмодзи на сообщение",
-                "hint": "без Telegram Premium, пользовательские эмодзи могут быть отправлены только в Избранное, более 100 пользовательских эмодзи заменяются соответствующими стандартными эмодзи",
+                "name": "Количество кастомных эмодзи в сообщении",
+                "hint": "без Telegram Premium, кастомные эмодзи могут быть отправлены только в Избранное, более 100 кастомных эмодзи заменяются соответствующими стандартными эмодзи",
                 "text": "недоступно",
                 "text_premium": "до 100 эмодзи"
             },
@@ -365,27 +365,27 @@
         }
     },
     "poll": {
-        "name": "Polls",
+        "name": "Опросы",
         "items": {
             "poll_question_length": {
-                "name": "Poll question length",
+                "name": "Длина заголовка опроса",
                 "hint": "",
-                "text": "1 to 255 characters"
+                "text": "от 1 до 255 символов"
             },
             "quiz_question_length": {
-                "name": "Quiz question length",
+                "name": "Длина заголовка квиза (опроса с правильным ответом)",
                 "hint": "",
-                "text": "1 to 200 characters"
+                "text": "от 1 до 200 символов"
             },
             "poll_options_count": {
-                "name": "Poll options count",
+                "name": "Количество опций опроса",
                 "hint": "",
-                "text": "2 to 10"
+                "text": "от 2 до 10"
             },
             "poll_option_length": {
-                "name": "Poll option length",
+                "name": "Длина варианта ответа в опросе",
                 "hint": "",
-                "text": "1 to 100 characters"
+                "text": "от 1 до 100 символов"
             }
         }
     },
@@ -445,9 +445,9 @@
                 "text_premium": "до 40 элементов"
             },
             "username_length": {
-                "name": "Length of @username",
-                "hint": "for bots",
-                "text": "5 to 32 characters"
+                "name": "Длина @username",
+                "hint": "для бота",
+                "text": "от 5 до 32 символов"
             },
             "info_length": {
                 "name": "Длина информации о боте",
@@ -510,9 +510,9 @@
                 "text": "до 30 сообщений в секунду, один лимит на все чаты"
             },
             "api_requests_frequency": {
-                "name": "API requests frequency",
+                "name": "Частота запросов к API",
                 "hint": "",
-                "text": "up to about 30 requests per second"
+                "text": "примерно до 30 запросов в секунду"
             },
             "bot_commands_count": {
                 "name": "Количество команд",
@@ -550,9 +550,9 @@
         "name": "Истории",
         "items": {
             "story_availability": {
-                "name": "Story availability",
-                "hint": "countries where stories are available without Telegram Premium",
-                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+                "name": "Доступность историй",
+                "hint": "страны, где истории доступны без Telegram Premium",
+                "text": "Австралия, Азербайджан, Беларусь, Кипр, Эстония, Германия, Ирак, Израиль, Казахстан, Кыргызстан, Лаос, Марокко, Польша, Португалия, Румыния, Словения, Шри-Ланка, Швеция, Таиланд, Турция, Великобритания, Узбекистан, Индонезия, США, Вьетнам"
             },
             "story_lifetime": {
                 "name": "Время исчезновения истории",
@@ -570,23 +570,23 @@
             },
             "story_daily_limit": {
                 "name": "Ежедневный лимит историй",
-                "text": "up to 2 stories",
+                "text": "до 2 историй",
                 "text_premium": "до 100 историй"
             },
             "story_weekly_limit": {
                 "name": "Еженедельный лимит историй",
-                "text": "up to 5 stories",
+                "text": "до 5 историй",
                 "text_premium": "до 700 историй"
             },
             "story_monthly_limit": {
                 "name": "Ежемесячный лимит историй",
-                "text": "up to 20 stories",
-                "text_premium": "до 3,000 историй"
+                "text": "до 20 историй",
+                "text_premium": "до 3 000 историй"
             },
             "story_text_length": {
                 "name": "Длина текста в истории",
                 "text": "до 200 символов",
-                "text_premium": "до 2,048 символов"
+                "text_premium": "до 2 048 символов"
             },
             "story_incognito_frequency": {
                 "name": "Частота использования инкогнито",
@@ -595,7 +595,7 @@
             },
             "story_incognito_duration": {
                 "name": "Длительность инкогнито",
-                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
+                "hint": "(все просмотры за последние 5 минут до включения режима исчезают, просмотры после включения не фиксируются 25 минут)",
                 "text": "недоступно",
                 "text_premium": "30 минут"
             }
@@ -666,9 +666,9 @@
                 "text": "до 62 символов"
             },
             "emojis_per_pack": {
-                "name": "Emojis per pack",
+                "name": "Эмодзи в наборе",
                 "hint": "",
-                "text": "up to 200"
+                "text": "до 200"
             }
         }
     },

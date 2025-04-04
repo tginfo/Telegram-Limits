@@ -16,12 +16,12 @@
             "name_length": {
                 "name": "Länge des Vornamens",
                 "hint": "",
-                "text": "1 bis 64 Zeichen"
+                "text": "von 1 bis 64 Zeichen"
             },
             "last_name_length": {
                 "name": "Länge des Nachnamens",
                 "hint": "",
-                "text": "0 bis 64 Zeichen"
+                "text": "von 0 bis 64 Zeichen"
             },
             "self_destruction": {
                 "name": "Selbstzerstörungszeit",
@@ -194,7 +194,7 @@
                 "text": "bis zu 100"
             },
             "topics_per_group": {
-                "name": "Topics per group",
+                "name": "Themen pro Gruppe",
                 "hint": "",
                 "text": "bis zu 1.000.000"
             },
@@ -229,9 +229,9 @@
                 "text": "offiziell unbegrenzt, in der Praxis wird der Stream bei etwa 2.000 gleichzeitigen Zuschauern instabil"
             },
             "voice_chat_title_length": {
-                "name": "Voice chat title length",
+                "name": "Titellänge von Sprachchats",
                 "hint": "",
-                "text": "up to 40 characters"
+                "text": "bis zu 40 Zeichen"
             },
             "voice_chat_schedule": {
                 "name": "Geplante Sprachchats",
@@ -365,27 +365,27 @@
         }
     },
     "poll": {
-        "name": "Polls",
+        "name": "Umfragen",
         "items": {
             "poll_question_length": {
-                "name": "Poll question length",
+                "name": "Länge der Umfragefrage",
                 "hint": "",
-                "text": "1 to 255 characters"
+                "text": "1 bis 255 Zeichen"
             },
             "quiz_question_length": {
-                "name": "Quiz question length",
+                "name": "Länge der Quizfragen",
                 "hint": "",
-                "text": "1 to 200 characters"
+                "text": "1 bis 200 Zeichen"
             },
             "poll_options_count": {
-                "name": "Poll options count",
+                "name": "Anzahl der Umfrageoptionen",
                 "hint": "",
-                "text": "2 to 10"
+                "text": "2 bis 10"
             },
             "poll_option_length": {
-                "name": "Poll option length",
+                "name": "Länge der Umfrageoptionen",
                 "hint": "",
-                "text": "1 to 100 characters"
+                "text": "1 bis 100 Zeichen"
             }
         }
     },
@@ -445,9 +445,9 @@
                 "text_premium": "bis zu 40"
             },
             "username_length": {
-                "name": "Length of @username",
-                "hint": "for bots",
-                "text": "5 to 32 characters"
+                "name": "Länge des @Benutzernamens",
+                "hint": "für Bots",
+                "text": "für Bots"
             },
             "info_length": {
                 "name": "Länge der Botinfo",
@@ -510,9 +510,9 @@
                 "text": "bis zu 30 Nachrichten pro Sekunde über alle Chats"
             },
             "api_requests_frequency": {
-                "name": "API requests frequency",
+                "name": "Anzahl der API-Anfragen",
                 "hint": "",
-                "text": "up to about 30 requests per second"
+                "text": "bis zu ca. 30 Anfragen pro Sekunde"
             },
             "bot_commands_count": {
                 "name": "Anzahl der Kommandos",
@@ -550,9 +550,9 @@
         "name": "Stories",
         "items": {
             "story_availability": {
-                "name": "Story availability",
-                "hint": "countries where stories are available without Telegram Premium",
-                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+                "name": "Story Verfügbarkeit",
+                "hint": "Länder, in denen Stories ohne Telegram Premium verfügbar sind",
+                "text": "Australien, Aserbaidschan, Weißrussland, Zypern, Estland, Deutschland, Irak, Israel, Kasachstan, Kirgisistan, Laos, Marokko, Polen, Portugal, Rumänien, Slowenien, Sri Lanka, Schweden, Thailand, Türkei, Vereinigtes Königreich, Usbekistan, Indonesien, USA, Vietnam"
             },
             "story_lifetime": {
                 "name": "Lebensdauer der Stories",
@@ -570,17 +570,17 @@
             },
             "story_daily_limit": {
                 "name": "Tägliches Storylimit",
-                "text": "up to 2 stories",
+                "text": "bis zu 2 Stories",
                 "text_premium": "bis zu 100 Stories"
             },
             "story_weekly_limit": {
                 "name": "Wöchentliches Storylimit",
-                "text": "up to 5 stories",
+                "text": "bis zu 5 Stories",
                 "text_premium": "bis zu 700 Stories"
             },
             "story_monthly_limit": {
                 "name": "Monatliches Storylimit",
-                "text": "up to 20 stories",
+                "text": "bis zu 20 Stories",
                 "text_premium": "bis zu 3.000 Stories"
             },
             "story_text_length": {
@@ -595,7 +595,7 @@
             },
             "story_incognito_duration": {
                 "name": "Inkognito-Dauer",
-                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
+                "hint": "(alle Ansichten der letzten 5 Minuten vor dem Einschalten des Modus verschwinden und Ansichten für 25 Minuten nach dem Einschalten werden nicht aufgezeichnet)",
                 "text": "nicht verfügbar",
                 "text_premium": "30 Minuten"
             }
@@ -666,9 +666,9 @@
                 "text": "bis zu 62 Zeichen"
             },
             "emojis_per_pack": {
-                "name": "Emojis per pack",
+                "name": "Emojis pro Paket",
                 "hint": "",
-                "text": "up to 200"
+                "text": "bis zu 200"
             }
         }
     },

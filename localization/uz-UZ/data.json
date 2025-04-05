@@ -10,8 +10,8 @@
             "bio": {
                 "name": "\"Men haqimda\" bo'limi",
                 "hint": "",
-                "text": "up to 70 characters",
-                "text_premium": "up to 140 characters"
+                "text": "70 tagacha belgi",
+                "text_premium": "140 tagacha belgi"
             },
             "name_length": {
                 "name": "Ism uzunligi",

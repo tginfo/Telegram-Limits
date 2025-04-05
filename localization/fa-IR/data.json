@@ -186,27 +186,27 @@
         }
     },
     "topic": {
-        "name": "Forum",
+        "name": "انجمن",
         "items": {
             "visible_users_in_topic_group": {
-                "name": "Visible users in topic group",
+                "name": "کاربران قابل مشاهده در گروه موضوعی",
                 "hint": "",
-                "text": "up to 100"
+                "text": "تا ۱۰۰ عدد"
             },
             "topics_per_group": {
-                "name": "Topics per group",
+                "name": "تعداد موضوع‌ها در هر گروه",
                 "hint": "",
-                "text": "up to 1,000,000"
+                "text": "تا ۱،۰۰۰،۰۰۰ عدد"
             },
             "topic_title_length": {
-                "name": "Topic title length",
+                "name": "طول عنوان موضوع",
                 "hint": "",
-                "text": "up to 128 characters"
+                "text": "تا ۱۲۸ کاراکتر"
             },
             "pinned_topics": {
-                "name": "Pinned topics",
+                "name": "موضوعات سنجاق‌شده",
                 "hint": "",
-                "text": "up to 5"
+                "text": "تا ۵ عدد"
             }
         }
     },
@@ -229,9 +229,9 @@
                 "text": "به صورتی رسمی عنوان شده است که نامحدود است، اما در عمل وقتی پخش زنده به ٢٠٠٠ بیننده برسد، ناپایدار خواهد شد"
             },
             "voice_chat_title_length": {
-                "name": "Voice chat title length",
+                "name": "طول عنوان گفتگوی صوتی",
                 "hint": "",
-                "text": "up to 40 characters"
+                "text": "تا ۴۰ کاراکتر"
             },
             "voice_chat_schedule": {
                 "name": "گفتگوهای زمان‌بندی‌شده",
@@ -352,40 +352,40 @@
                 "text": "تا 365 روز"
             },
             "custom_emoji_per_message": {
-                "name": "Custom emoji per message",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-                "text": "not available",
-                "text_premium": "up to 100 emoji"
+                "name": "ایموجی سفارشی در هر پیام",
+                "hint": "بدون تلگرام پریمیوم، ایموجی‌های سفارشی فقط قابل ارسال به پیام‌های ذخیره‌شده هستند و بیش از ۱۰۰ ایموجی سفارشی با ایموجی استاندارد معادل جایگزین می‌شوند",
+                "text": "غیرقابل دسترسی",
+                "text_premium": "تا ۱۰۰ عدد ایموجی"
             },
             "links_per_message": {
-                "name": "Links per message",
+                "name": "لینک‌ها در هر پیام",
                 "hint": "",
-                "text": "up to 100 links"
+                "text": "تا ۱۰۰ عدد لینک"
             }
         }
     },
     "poll": {
-        "name": "Polls",
+        "name": "نظرسنجی‌ها",
         "items": {
             "poll_question_length": {
-                "name": "Poll question length",
+                "name": "طول سؤال نظرسنجی",
                 "hint": "",
-                "text": "1 to 255 characters"
+                "text": "از ۱ تا ۲۵۵ کاراکتر"
             },
             "quiz_question_length": {
-                "name": "Quiz question length",
+                "name": "طول سؤال آزمون",
                 "hint": "",
-                "text": "1 to 200 characters"
+                "text": "از ۱ تا ۲۰۰ کاراکتر"
             },
             "poll_options_count": {
-                "name": "Poll options count",
+                "name": "تعداد گزینه‌های نظرسنجی",
                 "hint": "",
-                "text": "2 to 10"
+                "text": "از ۲ تا ۱۰ گزینه"
             },
             "poll_option_length": {
-                "name": "Poll option length",
+                "name": "طول گزینه‌های نظرسنجی",
                 "hint": "",
-                "text": "1 to 100 characters"
+                "text": "از ۱ تا ۱۰۰ کاراکتر"
             }
         }
     },
@@ -393,9 +393,9 @@
         "name": "پوشه ها",
         "items": {
             "name_length": {
-                "name": "Folder name length",
+                "name": "طول نام پوشه",
                 "hint": "",
-                "text": "up to 12 characters"
+                "text": "تا ۱۲ کاراکتر"
             },
             "folder_amount": {
                 "name": "تعداد پوشه‌ها",
@@ -419,6 +419,7 @@
     },
     "public_folders": {
         "name": "Public Folders",
+        "icon": "folder_shared",
         "items": {
             "public_folders_count": {
                 "name": "Number of public folders",

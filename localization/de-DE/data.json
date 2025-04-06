@@ -419,6 +419,7 @@
     },
     "public_folders": {
         "name": "Öffentliche Ordner",
+        "icon": "folder_shared",
         "items": {
             "public_folders_count": {
                 "name": "Anzahl öffentlicher Ordner",

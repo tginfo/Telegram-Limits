@@ -419,6 +419,7 @@
     },
     "public_folders": {
         "name": "Общие папки",
+        "icon": "folder_shared",
         "items": {
             "public_folders_count": {
                 "name": "Количество общих папок",

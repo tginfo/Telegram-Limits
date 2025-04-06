@@ -624,13 +624,13 @@
                 "text": "bis zu 200"
             },
             "favorite_stickers": {
-                "name": "Anzahl favorisierter Sticker",
+                "name": "Anzahl Lieblingssticker",
                 "hint": "",
                 "text": "bis zu 5",
                 "text_premium": "bis zu 10"
             },
             "pack_size": {
-                "name": "Anzahl der Sticker pro Pack",
+                "name": "Anzahl der Sticker pro Paket",
                 "hint": "",
                 "text": "bis zu 120 für statische, bis zu 50 für animierte"
             },

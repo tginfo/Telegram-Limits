@@ -305,7 +305,6 @@
         "id": "poll",
         "icon": "poll",
         "color": "255, 87, 34",
-        "name": "Polls",
         "items": [
             {
                 "id": "poll_question_length",

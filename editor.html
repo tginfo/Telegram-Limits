@@ -809,6 +809,18 @@
                         const structureSection = this.structure.find(section => section.id === sectionId);
                         const localizationSection = this.localization[sectionId];
 
+                        for (const key in localizationSection) {
+                            if (key !== 'name' && key !== 'items') {
+                                throw new ValidationError(`Unexpected key ${key} in the localization section ${sectionId}`);
+                            }
+                        }
+
+                        for (const key in structureSection) {
+                            if (key !== 'id' && key !== 'color' && key !== 'icon' && key !== 'items') {
+                                throw new ValidationError(`Unexpected key ${key} in the structure section ${sectionId}`);
+                            }
+                        }
+
                         if (!localizationSection.name) {
                             throw new ValidationError(`Section name is empty for section ${sectionId}`, true);
                         }
@@ -854,6 +866,18 @@
 
                             const item = structureSection.items.find(item => item.id === structureItems[i]);
                             const itemLocale = localizationSection.items[structureItems[i]];
+
+                            for (const key in itemLocale) {
+                                if (key !== 'name' && key !== 'text' && key !== 'text_premium' && key !== 'hint') {
+                                    throw new ValidationError(`Unexpected key ${key} in the localization item ${item.id} in section ${sectionId}`);
+                                }
+                            }
+
+                            for (const key in item) {
+                                if (key !== 'id' && key !== 'icon') {
+                                    throw new ValidationError(`Unexpected key ${key} in the structure item ${item.id} in section ${sectionId}`);
+                                }
+                            }
 
                             if (!itemLocale.name) {
                                 throw new ValidationError(`Item name is empty for item ${item.id} in section ${sectionId}`, true);

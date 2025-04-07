@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Veličina članka",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "do 64 KB"
             }
         }

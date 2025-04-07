@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "حجم مقاله",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "تا 64 کیلوبیت"
             }
         }

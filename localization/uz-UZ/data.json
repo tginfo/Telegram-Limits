@@ -405,32 +405,32 @@
             },
             "chats_per_folder": {
                 "name": "Jilddagi chatlar",
-                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
+                "hint": "U jildga turi bo'yicha qo'shilgan chatlarni o'z ichiga olmaydi (masalan, kanallar). Istisnolar bo'limiga qo'shilgan chatlarni o'z ichiga oladi.",
+                "text": "100 tagacha",
+                "text_premium": "200 tagacha"
             },
             "pinned_chats_in_folder": {
                 "name": "Jilddagi qadalgan xabarlar ",
                 "hint": "",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
+                "text": "100 tagacha",
+                "text_premium": "200 tagacha"
             }
         }
     },
     "public_folders": {
-        "name": "Public Folders",
+        "name": "Umumiy jildlar",
         "items": {
             "public_folders_count": {
-                "name": "Number of public folders",
+                "name": "Umumiy jildlar soni",
                 "hint": "",
-                "text": "up to 2 folders",
-                "text_premium": "up to 20 folders"
+                "text": "2 tagacha jild",
+                "text_premium": "20 tagacha jild"
             },
             "chats_per_public_folder": {
-                "name": "Chats/channels per public folder",
+                "name": "Umumiy jildda bitta chat/kanallar",
                 "hint": "",
-                "text": "up to 100 items",
-                "text_premium": "up to 200 items"
+                "text": "100 tagacha belgilar",
+                "text_premium": "200 tagacha belgilar"
             }
         }
     },
@@ -441,12 +441,12 @@
                 "name": "Botlar soni",
                 "hint": "(@BotFather orqali yaratilgan)",
                 "text": "20 tagacha",
-                "text_premium": "up to 40 items"
+                "text_premium": "40 tagacha belgilar"
             },
             "username_length": {
-                "name": "Length of @username",
-                "hint": "for bots",
-                "text": "5 to 32 characters"
+                "name": "@username uzunligi",
+                "hint": "botlar uchun",
+                "text": "5 dan 32 tagacha belgi"
             },
             "info_length": {
                 "name": "Bot ma'lumoti uzunligi",
@@ -509,9 +509,9 @@
                 "text": "chatlarda soniyasiga 30 tagacha xabar"
             },
             "api_requests_frequency": {
-                "name": "API requests frequency",
+                "name": "API chastota haqida savol",
                 "hint": "",
-                "text": "up to about 30 requests per second"
+                "text": "sekundiga taxminan 30 so'rovlargacha "
             },
             "bot_commands_count": {
                 "name": "Buyruqlar soni",
@@ -546,12 +546,12 @@
         }
     },
     "stories": {
-        "name": "Stories",
+        "name": "Hikoyalar",
         "items": {
             "story_availability": {
-                "name": "Story availability",
-                "hint": "countries where stories are available without Telegram Premium",
-                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+                "name": "Hikoya mavjudligi",
+                "hint": "Telegram Premiumsiz hikoyalar joylaydigan davlatlar",
+                "text": "Avstraliya, Ozarbayjon, Belarus, Kipr, Estoniya, Germaniya, Iroq, Isroil, Qozog'iston, Qirg'iziston, Laos, Marokash, Polsha, Portugaliya, Ruminiya, Sloveniya, Shri Lanka, Shvetsiya, Tailand, Turkiya, Birlashgan Qirollik, O'zbekiston, Indoneziya, AQSh, Vetnam "
             },
             "story_lifetime": {
                 "name": "Story lifetime",

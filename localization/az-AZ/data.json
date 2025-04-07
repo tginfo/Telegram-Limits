@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Məqalə həcmi",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "64 KiB-ə qədər"
             }
         }

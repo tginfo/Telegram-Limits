@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "גודל הטקסט עבור מאמר",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "עד 64 KiB"
             }
         }

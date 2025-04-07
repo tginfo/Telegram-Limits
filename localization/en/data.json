@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Article size",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "up to 64 KiB"
             }
         }

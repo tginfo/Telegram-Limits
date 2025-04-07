@@ -4,27 +4,27 @@
         "items": {
             "username": {
                 "name": "نام کاربری",
-                "hint": "(e.g. @cameraman)",
-                "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
+                "hint": "(مثال: @cameraman)",
+                "text": "از ۵ تا ۳۲ کاراکتر، شروع از ۴ کاراکتر برای نام‌کاربری‌های NFT"
             },
             "bio": {
-                "name": "Bio",
+                "name": "بیو",
                 "hint": "",
                 "text": "تا ۷۰ کارکتر",
                 "text_premium": "حداکثر ۱۴۰ کاراکتر"
             },
             "name_length": {
-                "name": "First Name length",
+                "name": "طول نام اول",
                 "hint": "",
-                "text": "from 1 to 64 characters"
+                "text": "از ۱ تا ۶۴ کاراکتر"
             },
             "last_name_length": {
-                "name": "Last Name length",
+                "name": "طول نام خانوادگی",
                 "hint": "",
-                "text": "from 0 to 64 characters"
+                "text": "از ۰ تا ۶۴ کاراکتر"
             },
             "self_destruction": {
-                "name": "زمان نابودکننده",
+                "name": "مدت زمان خود تخریبی",
                 "hint": "اگر هیچ فعالیتی نداشته باشید",
                 "text": "۱، ۳، ۶، ۱۲، ۱۸، ۲۴ ماه (به‌صورت پیش‌فرض: ۱۸ ماه)"
             },
@@ -35,8 +35,8 @@
                 "text_premium": "از ۱ ثانیه تا برای همیشه"
             },
             "channels_and_chats_number": {
-                "name": "تعداد کانال‌ها و ابرگروه‌ها",
-                "hint": "که شما میتوانید عضو باشید",
+                "name": "تعداد کانال‌ها و سوپرگروه‌ها",
+                "hint": "شما می‌توانید عضو شوید",
                 "text": "تا ۵۰۰ گروه و کانال (شامل آنهایی که خودتان مالک هستید)",
                 "text_premium": "تا ۱۰۰۰ عدد (شامل مواردی که مالک آن‌ها هستید)"
             },
@@ -54,7 +54,7 @@
             "groups_and_channels_creation": {
                 "name": "ایجاد گروه و کانال",
                 "hint": "",
-                "text": "تا 50 تا در هر روز"
+                "text": "تا 50 مورد در هر روز"
             },
             "accounts_number": {
                 "name": "تعداد حساب ها",
@@ -63,9 +63,9 @@
                 "text_premium": "تا ۴ الی ۶ مورد (بسته به برنامه)"
             },
             "visible_messages": {
-                "name": "Meysamkh1366",
-                "hint": "(shared limit between private chats, bots and legacy groups)",
-                "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
+                "name": "تعداد پیام‌های قابل مشاهده",
+                "hint": "(محدودیت مشترک بین چت‌های خصوصی، ربات‌ها و گروه‌های قدیمی)",
+                "text": "نامحدود؛ قبل از سال ۲۰۱۸ - تا ۱,۰۰۰,۰۰۰ پیام قابل مشاهده: برای اطلاعات بیشتر، به این لینک https://twitter.com/telegram/status/1060910769410371584 مراجعه کنید."
             },
             "sticker_packs_per_account": {
                 "name": "تعداد بسته‌های استیکر در هر حساب کاربری",
@@ -129,7 +129,7 @@
                 "text": "دو روز گذشته"
             },
             "mentions_amount": {
-                "name": "تعداد اشاره ها(منشن)",
+                "name": "تعداد منشن‌ها",
                 "hint": "در یک پیام واحد",
                 "text": "تا 50 منشن، اعلانات دیگر فرستاده نخواهند شد"
             },
@@ -665,7 +665,7 @@
                 "text": "تا ۶٢ کارکتر"
             },
             "emojis_per_pack": {
-                "name": "Emojis per pack",
+                "name": "ایموجی‌ها در هر بسته",
                 "hint": "",
                 "text": "تا ۲۰۰ مورد"
             }

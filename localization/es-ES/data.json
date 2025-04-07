@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Tamaño del artículo",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "hasta 64 KiB"
             }
         }

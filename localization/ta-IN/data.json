@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "கட்டுரையின் அளவு",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "64 KiB வரை"
             }
         }

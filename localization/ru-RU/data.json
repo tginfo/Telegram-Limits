@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Размер текста",
-                "hint": "(including pictures)",
+                "hint": "(включая картинки)",
                 "text": "до 64 KiB"
             }
         }

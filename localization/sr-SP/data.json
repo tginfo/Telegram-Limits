@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Величина чланка",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "до 64 KiB"
             }
         }

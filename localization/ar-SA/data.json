@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "حجم المقال",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "الأقصى ٦٤ كيلوبايت"
             }
         }

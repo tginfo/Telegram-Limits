@@ -554,49 +554,49 @@
                 "text": "Avstraliya, Ozarbayjon, Belarus, Kipr, Estoniya, Germaniya, Iroq, Isroil, Qozog'iston, Qirg'iziston, Laos, Marokash, Polsha, Portugaliya, Ruminiya, Sloveniya, Shri Lanka, Shvetsiya, Tailand, Turkiya, Birlashgan Qirollik, O'zbekiston, Indoneziya, AQSh, Vetnam "
             },
             "story_lifetime": {
-                "name": "Story lifetime",
-                "text": "24 hours",
-                "text_premium": "6/12/24/48 hours"
+                "name": "Hikoya faollik muddati ",
+                "text": "24 soat",
+                "text_premium": "6/12/24/48 soat"
             },
             "story_duration": {
-                "name": "Story duration",
-                "text": "up to 60 seconds"
+                "name": "Hikoya davomiyligi",
+                "text": "60 soniyagacha"
             },
             "story_viewers_visibility": {
-                "name": "Viewers visibility",
-                "text": "24 hours",
-                "text_premium": "unlimited"
+                "name": "Ko'rishlar muddati",
+                "text": "24 soat",
+                "text_premium": "cheklanmagan"
             },
             "story_daily_limit": {
-                "name": "Daily stories limit",
-                "text": "up to 2 stories",
-                "text_premium": "up to 100 stories"
+                "name": "Kundalik hikoyalar cheklovlari",
+                "text": "2 tagacha hikoyalar",
+                "text_premium": "100 tagacha hikoyalar"
             },
             "story_weekly_limit": {
-                "name": "Weekly stories limit",
-                "text": "up to 5 stories",
-                "text_premium": "up to 700 stories"
+                "name": "Haftalik hikoyalar cheklovlari",
+                "text": "5 tagacha hikoyalar",
+                "text_premium": "700 tagacha hikoyalar"
             },
             "story_monthly_limit": {
-                "name": "Monthly stories limit",
-                "text": "up to 20 stories",
-                "text_premium": "up to 3,000 stories"
+                "name": "Oylik hikoyalar cheklovlari",
+                "text": "20 tagacha hikoyalar",
+                "text_premium": "3,000 tagacha hikoyalar"
             },
             "story_text_length": {
-                "name": "Text length in story",
-                "text": "up to 200 characters",
-                "text_premium": "up to 2,048 characters"
+                "name": "Hikoya matni uzunligi",
+                "text": "200 tagacha belgi",
+                "text_premium": "2,048 tagacha belgi"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency",
-                "text": "not available",
-                "text_premium": "once per 3 hour"
+                "name": "Inkognito ishlatish chastotasi",
+                "text": "Mavjud emas",
+                "text_premium": "3 soatga bir marotaba"
             },
             "story_incognito_duration": {
                 "name": "Inkognito davomiyligi",
                 "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
-                "text": "not available",
-                "text_premium": "30 minutes"
+                "text": "Mavjud emas",
+                "text_premium": "30 daqiqa"
             }
         }
     },
@@ -626,8 +626,8 @@
             "favorite_stickers": {
                 "name": "Tanlangan stikerlar soni",
                 "hint": "",
-                "text": "up to 5 items",
-                "text_premium": "up to 10 items"
+                "text": "5 tagacha belgi",
+                "text_premium": "10 tagacha belgilar"
             },
             "pack_size": {
                 "name": "Stiker To'plamlar miqdori",
@@ -665,9 +665,9 @@
                 "text": "62 tagacha belgi"
             },
             "emojis_per_pack": {
-                "name": "Emojis per pack",
+                "name": "To'plam uchun emojilar",
                 "hint": "",
-                "text": "up to 200"
+                "text": "200 tagacha"
             }
         }
     },
@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Matn hajmi",
-                "hint": "(including pictures)",
+                "hint": "(shu jumladan rasmlar) ",
                 "text": "64 Kb gacha"
             }
         }

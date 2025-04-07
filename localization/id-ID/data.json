@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Ukuran artikel",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "hingga 64 KiB"
             }
         }

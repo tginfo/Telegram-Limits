@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Makale boyutu",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "64 KiB'e kadar"
             }
         }

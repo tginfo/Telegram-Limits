@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "文章大小",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "最大 64 KB"
             }
         }

@@ -10,8 +10,8 @@
             "bio": {
                 "name": "النبذة",
                 "hint": "",
-                "text": "up to 70 characters",
-                "text_premium": "up to 140 characters"
+                "text": "ما يصل إلى 70 حرفًا",
+                "text_premium": "ما يصل إلى 140 حرفًا"
             },
             "name_length": {
                 "name": "طول الاسم الأول",
@@ -26,25 +26,25 @@
             "self_destruction": {
                 "name": "مدة التدمير الذاتي",
                 "hint": "إذا لم يكن حسابك نشطًا",
-                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+                "text": "1، 3، 6، 12، 18، 24 شهراً (18 شهراً تلقائياً)"
             },
             "spam_ban": {
                 "name": "حظر الإزعاج",
                 "hint": "",
                 "text": "الحظر على الأقل يوم و قد يستمر إلى الأبد",
-                "text_premium": "from 1 second up to forever"
+                "text_premium": "قد يستمر من 1 ثانية واحدة أو إلى الأبد"
             },
             "channels_and_chats_number": {
                 "name": "عدد القنوات و المجموعات الكبرى",
                 "hint": "أقصى حد للانضمام",
-                "text": "up to 500 (including ones you own)",
-                "text_premium": "up to 1000 (including ones you own)"
+                "text": "يصل إلى 500 (بما في ذلك تلك التي تملكها)",
+                "text_premium": "يصل إلى 1000 (بما في ذلك تلك التي تملكها)"
             },
             "gifs_number": {
                 "name": "أقصى حفظ للصور المتحركة",
                 "hint": "",
-                "text": "up to 200",
-                "text_premium": "up to 400"
+                "text": "ما يصل إلى 200",
+                "text_premium": "ما يصل إلى 400"
             },
             "video_length": {
                 "name": "مدة مقطع الملف الشخصي",
@@ -59,21 +59,21 @@
             "accounts_number": {
                 "name": "عدد الحسابات",
                 "hint": "(تيليجرام الرسمي)",
-                "text": "up to 3",
-                "text_premium": "up to 4-6 (depends on app)"
+                "text": "ما يصل إلى 3",
+                "text_premium": "ما يصل إلى 4-6 (يعتمد على التطبيق)"
             },
             "visible_messages": {
-                "name": "Visible messages number",
+                "name": "عدد الرسائل المرئية",
                 "hint": "(shared limit between private chats, bots and legacy groups)",
                 "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
-                "name": "Sticker packs per account",
+                "name": "حزم الملصقات لكل حساب",
                 "hint": "",
-                "text": "up to 200"
+                "text": "ما يصل إلى 200"
             },
             "emoji_packs_per_account": {
-                "name": "Emoji packs per account",
+                "name": "حزم الرموز التعبيرية لكل حساب",
                 "hint": "",
                 "text": "up to 200"
             },
@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "حجم المقال",
-                "hint": "",
+                "hint": "(including pictures)",
                 "text": "الأقصى ٦٤ كيلوبايت"
             }
         }

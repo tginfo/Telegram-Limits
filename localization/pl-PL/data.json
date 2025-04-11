@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Rozmiar artykułu",
-                "hint": "",
+                "hint": "(w tym obrazy)",
                 "text": "do 64 KB"
             }
         }

@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Dimensione di un articolo",
-                "hint": "",
+                "hint": "(foto incluse)",
                 "text": "fino a 64 KiB"
             }
         }

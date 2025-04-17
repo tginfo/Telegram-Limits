@@ -11,7 +11,7 @@
                 "name": "自我介紹",
                 "hint": "",
                 "text": "up to 70 characters",
-                "text_premium": "up to 140 characters"
+                "text_premium": "最多 140 個字元"
             },
             "name_length": {
                 "name": "名字長度",

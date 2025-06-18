@@ -10,8 +10,8 @@
             "bio": {
                 "name": "Про себе",
                 "hint": "",
-                "text": "up to 70 characters",
-                "text_premium": "up to 140 characters"
+                "text": "до 70 символів",
+                "text_premium": "до 140 символів"
             },
             "name_length": {
                 "name": "Довжина імені",
@@ -26,13 +26,13 @@
             "self_destruction": {
                 "name": "Період самознищення",
                 "hint": "якщо немає активності",
-                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+                "text": "1, 3, 6, 12, 18, 24 місяці (18 місяців за замовчуванням)"
             },
             "spam_ban": {
                 "name": "Спам-бан",
                 "hint": "",
                 "text": "від 1 дня до назавжди",
-                "text_premium": "from 1 second up to forever"
+                "text_premium": "від 1 секунди до вічного"
             },
             "channels_and_chats_number": {
                 "name": "Кількість каналів та супергруп",

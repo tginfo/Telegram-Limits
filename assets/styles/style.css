@@ -595,7 +595,7 @@ html[dir="rtl"] header::before {
     border-radius: 8px;
     margin: 0.1em;
     margin-top: 0.5em;
-    margin-right: 0.5em;
+    margin-inline-end: 0.5em;
     font-weight: 500;
     transition: transform 0.2s ease-out, filter 0.2s ease-out;
     transform: scale(1);
@@ -618,7 +618,7 @@ html[dir="rtl"] header::before {
 
     .explanator .icon-container md-icon {
         margin-bottom: 0;
-        margin-right: 0.2em;
+        margin-inline-end: 0.2em;
     }
 
     .explanator {

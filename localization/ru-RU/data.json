@@ -551,7 +551,7 @@
             "story_availability": {
                 "name": "Доступность историй",
                 "hint": "страны, где истории доступны без Telegram Premium",
-                "text": "Австралия, Азербайджан, Беларусь, Кипр, Эстония, Германия, Ирак, Израиль, Казахстан, Кыргызстан, Лаос, Марокко, Польша, Португалия, Румыния, Словения, Шри-Ланка, Швеция, Таиланд, Турция, Великобритания, Узбекистан, Индонезия, США, Вьетнам"
+                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Время исчезновения истории",
@@ -698,6 +698,23 @@
                 "name": "Разрешение фото",
                 "hint": "при отправке со сжатием",
                 "text": "каждая сторона должна быть меньше или равна 1280px, иначе фото будет уменьшено так, чтобы большая сторона равнялась 1280px"
+            }
+        }
+    },
+    "checklists": {
+        "name": "Checklists",
+        "items": {
+            "max_number_items_list": {
+                "name": "Number of items in list",
+                "text": "from 1 to 30"
+            },
+            "checklist_caption": {
+                "name": "Checklist caption",
+                "text": "from 1 to 255 characters"
+            },
+            "item_caption": {
+                "name": "item caption",
+                "text": "from 1 to 100 characters"
             }
         }
     }

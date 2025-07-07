@@ -11,11 +11,11 @@
     "homepage": "На главную",
     "language": "Язык",
     "search": "Поиск",
-    "last_update": "Last Update: {%date%}",
+    "last_update": "Обновлено: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
     "for_premium_users": "для пользователей Telegram Premium",
-    "suggest_offer": "Found a mistake or want to suggest a new limit?",
-    "suggest_button_label": "Send a suggestion",
-    "translate_offer": "Help translating this page in your language!",
-    "translate_button_label": "I want to translate"
+    "suggest_offer": "Нашли ошибку или хотите предложить новый лимит?",
+    "suggest_button_label": "Отправить предложение",
+    "translate_offer": "Помогите перевести эту страницу на ваш язык!",
+    "translate_button_label": "Хочу переводить"
 }

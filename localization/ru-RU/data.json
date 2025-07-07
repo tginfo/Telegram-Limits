@@ -551,7 +551,7 @@
             "story_availability": {
                 "name": "Доступность историй",
                 "hint": "страны, где истории доступны без Telegram Premium",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "Список доступен здесь: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Время исчезновения истории",
@@ -702,44 +702,44 @@
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "Списки задач",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in checklist",
-                "text": "from 1 to 30"
+                "name": "Количество элементов в списке задач",
+                "text": "от 1 до 30"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "name": "Заголовок списка",
+                "text": "от 1 до 255 символов"
             },
             "item_caption": {
-                "name": "Item caption",
-                "text": "from 1 to 100 characters"
+                "name": "Подпись элемента",
+                "text": "от 1 до 100 символов"
             }
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "Подарки",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "Минимальная цена за апгрейд подарка",
+                "text": "25 звёзд"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
+                "name": "Максимальное количество закреплённых подарков",
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "name": "Время ожидания перед тем, как подарок можно будет обменять на звёзды",
+                "text": "7 дней"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "name": "Срок, после которого подарок нельзя обменять на звёзды",
+                "text": "21 день"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "Минимальная сумма звёзд для вывода",
+                "text": "1000 звёзд"
             }
         }
     }

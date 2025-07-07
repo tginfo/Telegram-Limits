@@ -551,7 +551,7 @@
             "story_availability": {
                 "name": "故事可用性",
                 "hint": "没有 Telegram Premium 时可使用故事的国家",
-                "text": "澳大利亚、阿塞拜疆、白俄罗斯、塞浦路斯、爱沙尼亚、德国、伊拉克、以色列、哈萨克斯坦、吉尔吉斯斯坦、老挝、摩洛哥、波兰、葡萄牙、罗马尼亚、斯洛文尼亚、斯里兰卡、瑞典、泰国、土耳其、英国、乌兹别克斯坦、印度尼西亚、美国、越南"
+                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "故事生存期",
@@ -698,6 +698,23 @@
                 "name": "照片分辨率",
                 "hint": "当以非原图模式发送时",
                 "text": "每边应小于等于 1280px，否则将被压缩以使最大边为 1280px"
+            }
+        }
+    },
+    "checklists": {
+        "name": "Checklists",
+        "items": {
+            "max_number_items_list": {
+                "name": "Number of items in list",
+                "text": "from 1 to 30"
+            },
+            "checklist_caption": {
+                "name": "Checklist caption",
+                "text": "from 1 to 255 characters"
+            },
+            "item_caption": {
+                "name": "item caption",
+                "text": "from 1 to 100 characters"
             }
         }
     }

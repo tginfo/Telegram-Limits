@@ -551,7 +551,7 @@
             "story_availability": {
                 "name": "Hikoya mavjudligi",
                 "hint": "Telegram Premiumsiz hikoyalar joylaydigan davlatlar",
-                "text": "Avstraliya, Ozarbayjon, Belarus, Kipr, Estoniya, Germaniya, Iroq, Isroil, Qozog'iston, Qirg'iziston, Laos, Marokash, Polsha, Portugaliya, Ruminiya, Sloveniya, Shri Lanka, Shvetsiya, Tailand, Turkiya, Birlashgan Qirollik, O'zbekiston, Indoneziya, AQSh, Vetnam "
+                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Hikoya faollik muddati ",
@@ -698,6 +698,23 @@
                 "name": "Rasm rezolyutsiyasi",
                 "hint": "siqilish bilan yuborilganda",
                 "text": "har bir tomon 1280px dan kam yoki teng boʻlishi kerak, aks holda u kichraytiriladi, shuning uchun eng katta tomoni 1280px boʻladi"
+            }
+        }
+    },
+    "checklists": {
+        "name": "Checklists",
+        "items": {
+            "max_number_items_list": {
+                "name": "Number of items in list",
+                "text": "from 1 to 30"
+            },
+            "checklist_caption": {
+                "name": "Checklist caption",
+                "text": "from 1 to 255 characters"
+            },
+            "item_caption": {
+                "name": "item caption",
+                "text": "from 1 to 100 characters"
             }
         }
     }

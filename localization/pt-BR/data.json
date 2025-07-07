@@ -131,7 +131,7 @@
             "mentions_amount": {
                 "name": "Número de menções",
                 "hint": "em uma única mensagem",
-                "text": "até 50, senão as notificações não se enviarão"
+                "text": "até 50, apenas os 5 primeiros da lista receberão notificações"
             },
             "visible_messages": {
                 "name": "Número de mensagens visíveis",
@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Tamanho do artigo",
-                "hint": "(including pictures)",
+                "hint": "(incluindo fotos)",
                 "text": "até 64 KiB"
             }
         }

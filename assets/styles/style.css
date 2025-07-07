@@ -597,11 +597,31 @@ html[dir="rtl"] header::before {
     margin-top: 0.5em;
     margin-right: 0.5em;
     font-weight: 500;
-    transition: all 0.2s ease-out;
+    transition: transform 0.2s ease-out, filter 0.2s ease-out;
     transform: scale(1);
 }
 
 .trailing-button:hover {
     transform: scale(1.03);
     filter: brightness(1.2);
+}
+
+@media (max-width: 1024px) {
+    .ex-card {
+        display: flex;
+        align-items: center;
+    }
+
+    .ex-card-column {
+        display: none;
+    }
+
+    .explanator .icon-container md-icon {
+        margin-bottom: 0;
+        margin-right: 0.2em;
+    }
+
+    .explanator {
+        flex-direction: column;
+    }
 }

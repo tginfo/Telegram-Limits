@@ -172,7 +172,7 @@ $markup = [
                 <div class="ex-card">
                     <div class="icon-container"><md-icon>&#xe8e2;</md-icon></div>
                     <div class="ex-card-column">
-                        <h2>Help Translating The Page In Your Language!</h2>
+                        <h2>Help translating this page in your language!</h2>
 
                     </div>
                     <div class="button-holder"><a class="trailing-button" href="https://crowdin.com/project/telegram-limits" target="_blank">I want to translate</a></div>
@@ -185,7 +185,7 @@ $markup = [
             <div class="content">
                 <label class="searchbox" for="search">
                     <md-icon aria-hidden="true">&#xe8b6;</md-icon>
-                    <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
+                    <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>. Last Update: 2025-07-07" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
                 </label>
 
                 <script>

@@ -6,20 +6,20 @@
     main {
         background: black;
     }
-    main .collection>.header {
+    main .collection > .header {
         background: #3f3f48;
     }
-    main .collection>.card {
+    main .collection > .card {
         background: #2d2e2f;
     }
-    main .collection>.card>.item {
+    main .collection > .card > .item {
         border-bottom: solid 1px #424242;
     }
-    main .collection>.card>.item>.content>.data.premium {
+    main .collection > .card > .item > .content > .data.premium {
         color: #c7abdf;
     }
     .searchbox {
-        background: rgba(255, 255, 255, .15);
+        background: rgba(255, 255, 255, 0.15);
     }
     footer {
         background: #1d1d1d;
@@ -31,18 +31,22 @@
         background: linear-gradient(180deg, #4f0080 0%, #052956 50%);
     }
     header::after {
-        opacity: .5;
+        opacity: 0.5;
     }
-    main .collection>.card>.item>md-icon {
+    main .collection > .card > .item > md-icon {
         filter: brightness(1.5);
     }
-    main .collection>.header>md-icon {
+    main .collection > .header > md-icon {
         filter: brightness(1.5);
     }
-    .searchbox>input {
+    .searchbox > input {
         color: white;
     }
     #langlist {
         background: black;
+    }
+    .trailing-button {
+        background: #52579e;
+        color: white;
     }
 }

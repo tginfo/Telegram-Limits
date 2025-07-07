@@ -619,6 +619,7 @@ html[dir="rtl"] header::before {
     .explanator .icon-container md-icon {
         margin-bottom: 0;
         margin-inline-end: 0.2em;
+        margin-top: 0.2em;
     }
 
     .explanator {

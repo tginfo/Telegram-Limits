@@ -591,5 +591,24 @@
                 "icon": "settings_overscan"
             }
         ]
+    },
+    {
+        "id": "checklists",
+        "icon": "checklist",
+        "color": "255, 112, 67",
+        "items": [
+            {
+                "id": "max_number_items_list",
+                "icon": "format_list_numbered"
+            },
+            {
+                "id": "checklist_caption",
+                "icon": "label_important"
+            },
+            {
+                "id": "item_caption",
+                "icon": "label_important_outline"
+            }
+        ]
     }
 ]

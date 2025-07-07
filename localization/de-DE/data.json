@@ -250,7 +250,7 @@
                 "text_premium": "bis zu 20 (einschließlich Gruppen)"
             },
             "username_length": {
-                "name": "Länge des @username",
+                "name": "Länge des @Benutzernamens",
                 "hint": "",
                 "text": "5 bis 32 Zeichen"
             },
@@ -551,7 +551,7 @@
             "story_availability": {
                 "name": "Story Verfügbarkeit",
                 "hint": "Länder, in denen Stories ohne Telegram Premium verfügbar sind",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "Die Liste ist hier verfügbar: https://tginfo.mrants.de/stories-by-countries-de/"
             },
             "story_lifetime": {
                 "name": "Lebensdauer der Stories",
@@ -681,7 +681,7 @@
             },
             "text_size": {
                 "name": "Größe des Artikels",
-                "hint": "(including pictures)",
+                "hint": "(inklusive Bilder)",
                 "text": "bis zu 64 KB"
             }
         }
@@ -702,19 +702,44 @@
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "Checklisten",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in list",
-                "text": "from 1 to 30"
+                "name": "Anzahl der Elemente in der Checkliste",
+                "text": "von 1 bis 30"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "name": "Checklistenbeschriftung",
+                "text": "von 1 bis 255 Zeichen"
             },
             "item_caption": {
-                "name": "Item caption",
-                "text": "from 1 to 100 characters"
+                "name": "Objektbeschriftung",
+                "text": "von 1 bis 100 Zeichen"
+            }
+        }
+    },
+    "gifts": {
+        "name": "Gifts",
+        "items": {
+            "minimum_gift_upgrade_price": {
+                "name": "Minimum price of a gift upgrade",
+                "text": "25 stars"
+            },
+            "maximum_pinned_gifts_amount": {
+                "name": "Maximum pinned gifts number",
+                "text": "6"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars",
+                "text": "7 days"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Term after which gifts can't be exchanged for stars",
+                "text": "21 days"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "Minimum stars amount for withdrawal",
+                "text": "1000 stars"
             }
         }
     }

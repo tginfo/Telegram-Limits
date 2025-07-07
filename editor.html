@@ -10,18 +10,25 @@
             box-sizing: border-box;
         }
 
+        html {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            height: 100%;
+        }
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            width: 100%;
             background-color: #f0f0f0;
         }
 
         .start-screen {
             text-align: center;
+            margin: auto;
+            padding: 10px;
         }
 
         h1 {
@@ -506,6 +513,13 @@
         button .icon:last-child {
             margin: 0;
         }
+
+        @media (max-width: 630px) {
+            .section-edit-panel, .section-add-panel-row, .item-edit-panel, .item-add-panel {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
     </style>
     <style id="dynamicStyles"></style>
     <title>Limits Editor</title>
@@ -921,7 +935,7 @@
             static noFsMode = false;
 
             static async openHelp(source) {
-                alert("We're already working on documentation. Until then, for guidance, please contact contributors directly.");
+                alert("We're already working on documentation. Until then, for guidance, please contact @infowritebot");
             }
 
             static async suggestEdit() {
@@ -1000,11 +1014,14 @@
                                 }
                             }
 
+                            const commitSha = this.latestCommitJson ? this.latestCommitJson.sha : undefined;
+
                             const data = {
                                 structure: this.structure,
                                 localization: this.localization,
                                 description: desc,
                                 contact: dialog.querySelector('#contact').value,
+                                baseCommitSha: commitSha,
                             };
 
                             const response = await fetch(url, {
@@ -1111,7 +1128,7 @@
                 button.textContent = 'Downloading...';
 
                 try {
-                    const { structureBlob, localizationBlob, iconBlob, iconCodePointsBlob } = await this.downloadBlobs('master');
+                    const { structureBlob, localizationBlob, iconBlob, iconCodePointsBlob, latestCommitsJson } = await this.downloadBlobs('master');
 
                     const structureText = await structureBlob.text();
                     const localizationText = await localizationBlob.text();
@@ -1122,8 +1139,10 @@
                     const iconObjectUrl = URL.createObjectURL(iconBlob);
                     const iconCodePointsMap = WorkDirHandle.parseIconCodePoints(iconCodePointsText);
 
+                    let latestCommitJson = latestCommitsJson ? latestCommitsJson[0] : null;
+
                     this.noFsMode = true;
-                    this.applyData({ structure, localization, iconCodePointsMap, iconObjectUrl });
+                    this.applyData({ structure, localization, iconCodePointsMap, iconObjectUrl, latestCommitJson });
                 } catch (e) {
                     console.error(e);
                     alert('An error occurred while starting: ' + e.message);
@@ -1134,23 +1153,27 @@
             }
 
             static async downloadBlobs(branchName) {
-                const urlPrefix = 'https://raw.githubusercontent.com/tginfo/Telegram-Limits/' + branchName;
+                const repo = 'tginfo/Telegram-Limits';
+                const urlPrefix = `https://raw.githubusercontent.com/${repo}/` + branchName;
                 const structureUrl = `${urlPrefix}/data/structure.json`;
                 const localizationUrl = `${urlPrefix}/localization/en/data.json`;
                 const iconUrl = `${urlPrefix}/assets/images/icons.woff2`;
                 const iconCodePointsUrl = `${urlPrefix}/assets/images/icons.codepoints`;
+                const latestCommitsUrl = `https://api.github.com/repos/${repo}/commits?sha=${branchName}&per_page=1`;
 
                 const structureResponse = await fetch(structureUrl);
                 const localizationResponse = await fetch(localizationUrl);
                 const iconResponse = await fetch(iconUrl);
                 const iconCodePointsResponse = await fetch(iconCodePointsUrl);
+                const latestCommitsResponse = await fetch(latestCommitsUrl);
 
                 const structureBlob = await structureResponse.blob();
                 const localizationBlob = await localizationResponse.blob();
                 const iconBlob = await iconResponse.blob();
                 const iconCodePointsBlob = await iconCodePointsResponse.blob();
+                const latestCommitsJson = await latestCommitsResponse.json();
 
-                return { structureBlob, localizationBlob, iconBlob, iconCodePointsBlob };
+                return { structureBlob, localizationBlob, iconBlob, iconCodePointsBlob, latestCommitsJson };
             }
 
             static async downloadFiles() {
@@ -1224,6 +1247,7 @@
                 this.localization = data.localization;
                 this.iconCodePointsMap = data.iconCodePointsMap;
                 this.iconObjectUrl = data.iconObjectUrl;
+                this.latestCommitJson = data.latestCommitJson;
 
                 this.editor = new LimitsEditor(this.structure, this.localization, this.iconCodePointsMap);
 
@@ -1391,6 +1415,18 @@
                     sectionDragHandle.textContent = 'drag_indicator';
                     sectionDragHandle.title = 'Drag to reorder';
                     sectionElement.appendChild(sectionDragHandle);
+
+                    sectionDragHandle.addEventListener('touchstart', (e) => {
+                        const touchTime = performance.now();
+
+                        sectionDragHandle.addEventListener('touchend', (e) => {
+                            const touchDuration = performance.now() - touchTime;
+                            if (touchDuration < 300) {
+                                alert('Sorry, only mouse pointer can be used to rearrange sections');
+                            }
+                        }, { once: true });
+                    });
+
                     sectionDragHandle.addEventListener('mousedown', (e) => {
                         sectionElement.draggable = true;
 
@@ -1759,6 +1795,18 @@
                     itemDragHandle.textContent = 'drag_indicator';
                     itemDragHandle.title = 'Drag to reorder';
                     itemElement.appendChild(itemDragHandle);
+
+                    itemDragHandle.addEventListener('touchstart', (e) => {
+                        const touchTime = performance.now();
+
+                        itemDragHandle.addEventListener('touchend', (e) => {
+                            const touchDuration = performance.now() - touchTime;
+                            if (touchDuration < 300) {
+                                alert("Sorry, only mouse pointer can be used to move items")
+                            }
+                        }, { once: true });
+                    });
+
                     itemDragHandle.addEventListener('mousedown', (e) => {
                         itemElement.draggable = true;
 

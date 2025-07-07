@@ -13,8 +13,10 @@ if ($lang === "ru-RU") {
     exit();
 }
 
+$data_file_path = __DIR__ . "/localization/$lang/data.json";
+
 $structure = json_decode(file_get_contents(__DIR__ . "/data/structure.json"), true);
-$data = json_decode(file_get_contents(__DIR__ . "/localization/$lang/data.json"), true);
+$data = json_decode(file_get_contents($data_file_path), true);
 
 if (!$data && $lang !== $supported_langs[""]) {
     header("Location: /{$supported_langs[""]}");
@@ -185,7 +187,7 @@ $markup = [
             <div class="content">
                 <label class="searchbox" for="search">
                     <md-icon aria-hidden="true">&#xe8b6;</md-icon>
-                    <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>. Last Update: 2025-07-07" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
+                    <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>. Last Update: <?= date("Y-m-d", filemtime($data_file_path)); ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
                 </label>
 
                 <script>

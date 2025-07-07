@@ -717,5 +717,30 @@
                 "text": "from 1 to 100 characters"
             }
         }
+    },
+    "gifts": {
+        "name": "Gifts",
+        "items": {
+            "minimum_gift_upgrade_price": {
+                "name": "Minimum price of gift upgrade",
+                "text": "25 stars"
+            },
+            "maximum_pinned_gifts_amount": {
+                "name": "Maximum pinned gifts amount",
+                "text": "6"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Maximum gift-to-stars exchange term",
+                "text": "7 days"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Minimum term of stars ownership for withdraw",
+                "text": "21 days"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "Minimum stars amount for withdraw",
+                "text": "1000 stars"
+            }
+        }
     }
 }

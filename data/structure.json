@@ -610,5 +610,32 @@
                 "icon": "label_important_outline"
             }
         ]
+    },
+    {
+        "id": "gifts",
+        "icon": "card_giftcard",
+        "color": "239, 83, 80",
+        "items": [
+            {
+                "id": "minimum_gift_upgrade_price",
+                "icon": "stars"
+            },
+            {
+                "id": "maximum_pinned_gifts_amount",
+                "icon": "push_pin"
+            },
+            {
+                "id": "maximum_gifttostars_exchange_term",
+                "icon": "access_time_filled"
+            },
+            {
+                "id": "minimum_term_stars_ownership_withdraw",
+                "icon": "import_export"
+            },
+            {
+                "id": "minimum_stars_amount_withdraw",
+                "icon": "star"
+            }
+        ]
     }
 ]

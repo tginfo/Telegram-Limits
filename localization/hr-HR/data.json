@@ -713,7 +713,7 @@
                 "text": "from 1 to 255 characters"
             },
             "item_caption": {
-                "name": "item caption",
+                "name": "Item caption",
                 "text": "from 1 to 100 characters"
             }
         }

@@ -705,7 +705,7 @@
         "name": "Checklists",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in list",
+                "name": "Number of items in checklist",
                 "text": "from 1 to 30"
             },
             "checklist_caption": {

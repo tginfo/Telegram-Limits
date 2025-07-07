@@ -163,21 +163,21 @@ $markup = [
                 <div class="ex-card">
                     <div class="icon-container"><md-icon>&#xef58;</md-icon></div>
                     <div class="ex-card-column">
-                        <h2>Found a mistake or want to suggest a new limit?</h2>
+                        <h2><?= __("suggest_offer", UCOMP) ?></h2>
 
                     </div>
                     <div class="button-holder">
-                        <a class="trailing-button" href="/editor.html?act=suggest" target="_blank">Send a suggestion
+                        <a class="trailing-button" href="/editor.html?act=suggest" target="_blank"><?= __("suggest_button_label", UCOMP) ?>
                         </a>
                     </div>
                 </div>
                 <div class="ex-card">
                     <div class="icon-container"><md-icon>&#xe8e2;</md-icon></div>
                     <div class="ex-card-column">
-                        <h2>Help translating this page in your language!</h2>
+                        <h2><?= __("translate_offer", UCOMP) ?></h2>
 
                     </div>
-                    <div class="button-holder"><a class="trailing-button" href="https://crowdin.com/project/telegram-limits" target="_blank">I want to translate</a></div>
+                    <div class="button-holder"><a class="trailing-button" href="https://crowdin.com/project/telegram-limits" target="_blank"><?= __("translate_button_label", UCOMP) ?></a></div>
                 </div>
             </article>
         </div>
@@ -187,7 +187,7 @@ $markup = [
             <div class="content">
                 <label class="searchbox" for="search">
                     <md-icon aria-hidden="true">&#xe8b6;</md-icon>
-                    <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>. Last Update: <?= date("Y-m-d", filemtime($data_file_path)); ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
+                    <input type="search" id="search" placeholder="<?= __("search_last_update", UCOMP, ['search' => __("search", UCOMP), 'last_update' => __("last_update", UCOMP, ['date' => date("Y-m-d", filemtime($data_file_path))])]) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
                 </label>
 
                 <script>

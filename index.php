@@ -158,9 +158,9 @@ $markup = [
                 <h1 class="name" data-lang="big_title"><?= __("big_title", UCOMP) ?></h1>
             </div>
             <article class="explanator">
-                <div class="card">
+                <div class="ex-card">
                     <div class="icon-container"><md-icon>&#xef58;</md-icon></div>
-                    <div class="card-column">
+                    <div class="ex-card-column">
                         <h2>Found a mistake or want to suggest a new limit?</h2>
 
                     </div>
@@ -169,9 +169,9 @@ $markup = [
                         </a>
                     </div>
                 </div>
-                <div class="card">
+                <div class="ex-card">
                     <div class="icon-container"><md-icon>&#xe8e2;</md-icon></div>
-                    <div class="card-column">
+                    <div class="ex-card-column">
                         <h2>Help Translating The Page In Your Language!</h2>
 
                     </div>

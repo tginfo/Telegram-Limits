@@ -551,7 +551,7 @@
             "story_availability": {
                 "name": "Disponibilità storie",
                 "hint": "paesi in cui le storie sono disponibili senza Telegram Premium",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "La lista è disponibile qui: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Disponibilità Storia",
@@ -702,19 +702,19 @@
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "Elenchi",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in list",
-                "text": "from 1 to 30"
+                "name": "Numero di elementi nella lista",
+                "text": "da 1 a 30"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "name": "Descrizione elenchi",
+                "text": "da 1 a 255 caratteri"
             },
             "item_caption": {
-                "name": "item caption",
-                "text": "from 1 to 100 characters"
+                "name": "descrizione elemento",
+                "text": "da 1 a 100 caratteri"
             }
         }
     }

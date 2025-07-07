@@ -1,3 +1,7 @@
 files:
   - source: /localization/en/*.json
     translation: /localization/%locale%/%original_file_name%
+pull_request_labels: [
+  "crowdin",
+  "l10n"
+]

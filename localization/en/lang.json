@@ -12,7 +12,7 @@
     "language": "Language",
     "search": "Search",
     "last_update": "Last Update: {%date%}",
-    "search_last_update": "{%search}. {%last_update%}",
+    "search_last_update": "{%search%}. {%last_update%}",
     "for_premium_users": "for Telegram Premium users",
     "suggest_offer": "Found a mistake or want to suggest a new limit?",
     "suggest_button_label": "Send a suggestion",

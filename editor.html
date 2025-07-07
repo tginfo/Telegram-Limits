@@ -1165,11 +1165,11 @@
                 const iconCodePointsUrl = `${urlPrefix}/assets/images/icons.codepoints`;
                 const latestCommitsUrl = `https://api.github.com/repos/${repo}/commits?sha=${branchName}&per_page=1`;
 
-                const structureResponse = await fetch(structureUrl);
-                const localizationResponse = await fetch(localizationUrl);
-                const iconResponse = await fetch(iconUrl);
-                const iconCodePointsResponse = await fetch(iconCodePointsUrl);
-                const latestCommitsResponse = await fetch(latestCommitsUrl);
+                const structureResponse = await fetch(structureUrl, { cache: 'no-store' });
+                const localizationResponse = await fetch(localizationUrl, { cache: 'no-store' });
+                const iconResponse = await fetch(iconUrl, { cache: 'no-store' });
+                const iconCodePointsResponse = await fetch(iconCodePointsUrl, { cache: 'no-store' });
+                const latestCommitsResponse = await fetch(latestCommitsUrl, { cache: 'no-store' });
 
                 const structureBlob = await structureResponse.blob();
                 const localizationBlob = await localizationResponse.blob();

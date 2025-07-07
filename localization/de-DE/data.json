@@ -719,27 +719,27 @@
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "Geschenke",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "Mindestpreis für ein Geschenk-Upgrade",
+                "text": "25 Sterne"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
+                "name": "Maximale Anzahl angehefteter Geschenke",
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "name": "Abkühlzeit, bevor Geschenke in Sterne umgewandelt werden können",
+                "text": "7 Tage"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "name": "Frist, nach der Geschenke nicht mehr gegen Sterne eingetauscht werden können",
+                "text": "21 Tage"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "Mindestanzahl an Sternen für die Auszahlung",
+                "text": "1000 Sterne"
             }
         }
     }

@@ -551,7 +551,7 @@
             "story_availability": {
                 "name": "Disponibilidade do story",
                 "hint": "países onde os stories estão disponíveis sem o Telegram Premium",
-                "text": "Austrália, Azerbaijão, Bielorrússia, Brasil, Chipre, Estônia, Alemanha, Iraque, Israel, Cazaquistão, Quirguistão, Laos, Marrocos, Polônia, Portugal, Romênia, Eslovênia, Sri Lanka, Suécia, Tailândia, Turquia, Reino Unido, Uzbequistão, Indonésia, Estados Unidos, Vietnã"
+                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Tempo do story",
@@ -698,6 +698,23 @@
                 "name": "Resolução da foto",
                 "hint": "quando enviado com compressão",
                 "text": "cada lado deve ser menor ou igual a 1280px, caso contrário, ele será redimensionado para baixo, então o lado maior será 1280px"
+            }
+        }
+    },
+    "checklists": {
+        "name": "Checklists",
+        "items": {
+            "max_number_items_list": {
+                "name": "Number of items in list",
+                "text": "from 1 to 30"
+            },
+            "checklist_caption": {
+                "name": "Checklist caption",
+                "text": "from 1 to 255 characters"
+            },
+            "item_caption": {
+                "name": "item caption",
+                "text": "from 1 to 100 characters"
             }
         }
     }

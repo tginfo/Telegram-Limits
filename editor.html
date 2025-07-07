@@ -515,7 +515,11 @@
         }
 
         @media (max-width: 630px) {
-            .section-edit-panel, .section-add-panel-row, .item-edit-panel, .item-add-panel {
+
+            .section-edit-panel,
+            .section-add-panel-row,
+            .item-edit-panel,
+            .item-add-panel {
                 flex-direction: column;
                 align-items: flex-start;
             }
@@ -2399,6 +2403,14 @@
                 e.returnValue = '';
             }
         };
+    </script>
+    <script async>
+        let urlParams = new URLSearchParams(window.location.search);
+        let act = urlParams.get('act');
+        if (act === 'suggest') {
+            EditorUi.startSubmission();
+            return;
+        }
     </script>
 </body>
 

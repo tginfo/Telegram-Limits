@@ -80,7 +80,7 @@ $markup = [
     <meta property="twitter:title" content="<?= __("title", UCOMP) ?>" data-lang="title">
     <meta property="twitter:description" content="<?= __("description_short", UCOMP) ?>" data-lang="description_short">
     <meta property="twitter:image" content="<?= BASE ?>/assets/images/previews/en/twitter.png" data-lang="preview_twitter">
-    
+
     <link rel="canonical" href="<?= BASE ?>/<?= $lang ?>" />
     <link rel="alternate" href="<?= BASE ?>/" hreflang="x-default" />
     <?php
@@ -105,17 +105,33 @@ $markup = [
     <script>
         <?= file_get_contents("./assets/scripts/screen.js") ?>
     </script>
-    <script >
-    window.requestIdleCallback =
-    window.requestIdleCallback || window.requestAnimationFrame || function(f) {setTimeout(f, 0)};
-    window.addEventListener("load", function() {
-        var s = document.createElement("script");
-        s.src = "https://www.googletagmanager.com/gtag/js?id=UA-38971936-4";
-        s.async = true;
-        setTimeout(function() {requestIdleCallback(function(){document.head.appendChild(s);});}, 3000);
-    }, false);
+    <script>
+        window.requestIdleCallback =
+            window.requestIdleCallback || window.requestAnimationFrame || function(f) {
+                setTimeout(f, 0)
+            };
+        window.addEventListener("load", function() {
+            var s = document.createElement("script");
+            s.src = "https://www.googletagmanager.com/gtag/js?id=UA-38971936-4";
+            s.async = true;
+            setTimeout(function() {
+                requestIdleCallback(function() {
+                    document.head.appendChild(s);
+                });
+            }, 3000);
+        }, false);
     </script>
-    <script>window.dataLayer = window.dataLayer || [];function gtag() {dataLayer.push(arguments);};gtag('js', new Date());gtag('config', 'UA-38971936-4', {'page_path': '/limits'});</script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        };
+        gtag('js', new Date());
+        gtag('config', 'UA-38971936-4', {
+            'page_path': '/limits'
+        });
+    </script>
     <?php
     /*<script type="application/ld+json">
         <?= json_encode($markup); ?>
@@ -131,7 +147,7 @@ $markup = [
                     <a href="https://tginfo.me">
                         <picture>
                             <source srcset="<?= BASE ?>/assets/images/tginfo.webp" type="image/webp">
-                            <source srcset="<?= BASE ?>/assets/images/tginfo.jpg" type="image/jpeg"> 
+                            <source srcset="<?= BASE ?>/assets/images/tginfo.jpg" type="image/jpeg">
                             <img src="<?= BASE ?>/assets/images/tginfo.png" alt="Telegram Info logo">
                         </picture>
                         <span class="bold">Telegram</span>
@@ -142,10 +158,24 @@ $markup = [
                 <h1 class="name" data-lang="big_title"><?= __("big_title", UCOMP) ?></h1>
             </div>
             <article class="explanator">
-                <h2 class="title" data-lang="article_name"><?= __("article_name", UCOMP) ?></h2>
-                <div class="content">
-                    <p data-lang="article_p1"><?= __("article_p1", UCOMP) ?></p>
-                    <p data-lang="article_p2"><?= __("article_p2", UCOMP) ?></p>
+                <div class="card">
+                    <div class="icon-container"><md-icon>&#xef58;</md-icon></div>
+                    <div class="card-column">
+                        <h2>Found a mistake or want to suggest a new limit?</h2>
+
+                    </div>
+                    <div class="button-holder">
+                        <a class="trailing-button" href="/editor.html?act=suggest" target="_blank">Send a suggestion
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="icon-container"><md-icon>&#xe8e2;</md-icon></div>
+                    <div class="card-column">
+                        <h2>Help Translating The Page In Your Language!</h2>
+
+                    </div>
+                    <div class="button-holder"><a class="trailing-button" href="https://crowdin.com/project/telegram-limits" target="_blank">I want to translate</a></div>
                 </div>
             </article>
         </div>
@@ -158,11 +188,11 @@ $markup = [
                     <input type="search" id="search" placeholder="<?= __("search", UCOMP) ?>" autocomplete="off" value="<?= htmlentities($_GET["q"] ?? "") ?>">
                 </label>
 
-                    <script> 
-                        if ( document.querySelector("main>.content").clientWidth >= 1390 && !matchMedia("print").matches) {
+                <script>
+                    if (document.querySelector("main>.content").clientWidth >= 1390 && !matchMedia("print").matches) {
                         document.querySelector("main>.content").classList.add("hide");
-                        } 
-                    </script>
+                    }
+                </script>
 
                 <div id="results">
                     <?php
@@ -189,7 +219,7 @@ $markup = [
                                             <div class="title" role="columnheader"><?= $cur_item["name"] ?> <span class="info"><?= isset($cur_item["hint"]) ? $cur_item["hint"] : '' ?></span></div>
                                             <div class="data" role="cell"><?= $cur_item["text"] ?></div>
                                             <?php if (isset($cur_item["text_premium"])) { ?>
-                                            <div class="data premium" role="cell" title="<?=__("for_premium_users", UCOMP) ?>"><?= $cur_item["text_premium"] ?></div>
+                                                <div class="data premium" role="cell" title="<?= __("for_premium_users", UCOMP) ?>"><?= $cur_item["text_premium"] ?></div>
                                             <?php } ?>
                                         </div>
                                     </div>
@@ -212,7 +242,7 @@ $markup = [
         <div class="logo">
             <picture>
                 <source srcset="<?= BASE ?>/assets/images/tginfologo.webp" type="image/webp">
-                <source srcset="<?= BASE ?>/assets/images/tginfologo.jpg" type="image/jpeg"> 
+                <source srcset="<?= BASE ?>/assets/images/tginfologo.jpg" type="image/jpeg">
                 <img src="<?= BASE ?>/assets/images/tginfologo.jpg" alt="Telegram Info logo">
             </picture>
         </div>

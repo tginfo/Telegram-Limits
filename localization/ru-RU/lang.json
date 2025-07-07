@@ -11,5 +11,11 @@
     "homepage": "На главную",
     "language": "Язык",
     "search": "Поиск",
-    "for_premium_users": "для пользователей Telegram Premium"
+    "last_update": "Last Update: {%date%}",
+    "search_last_update": "{%search%}. {%last_update%}",
+    "for_premium_users": "для пользователей Telegram Premium",
+    "suggest_offer": "Found a mistake or want to suggest a new limit?",
+    "suggest_button_label": "Send a suggestion",
+    "translate_offer": "Help translating this page in your language!",
+    "translate_button_label": "I want to translate"
 }

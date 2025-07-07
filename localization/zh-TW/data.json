@@ -551,7 +551,7 @@
             "story_availability": {
                 "name": "Story availability",
                 "hint": "countries where stories are available without Telegram Premium",
-                "text": "Australia, Azerbaijan, Belarus, Cyprus, Estonia, Germany, Iraq, Israel, Kazakhstan, Kyrgyzstan, Laos, Morocco, Poland, Portugal, Romania, Slovenia, Sri Lanka, Sweden, Thailand, Turkey, United Kingdom, Uzbekistan, Indonesia, USA, Vietnam"
+                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Story lifetime",
@@ -698,6 +698,23 @@
                 "name": "相片解析度",
                 "hint": "（開啟壓縮時）",
                 "text": "長與寬皆須≦1280 px，否則將縮圖使最大邊為 1280 px"
+            }
+        }
+    },
+    "checklists": {
+        "name": "Checklists",
+        "items": {
+            "max_number_items_list": {
+                "name": "Number of items in list",
+                "text": "from 1 to 30"
+            },
+            "checklist_caption": {
+                "name": "Checklist caption",
+                "text": "from 1 to 255 characters"
+            },
+            "item_caption": {
+                "name": "item caption",
+                "text": "from 1 to 100 characters"
             }
         }
     }

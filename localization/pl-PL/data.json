@@ -559,17 +559,17 @@
             },
             "story_daily_limit": {
                 "name": "Dzienny limit relacji",
-                "text": "1 story",
+                "text": "1 relacja",
                 "text_premium": "do 100 relacji"
             },
             "story_weekly_limit": {
                 "name": "Tygodniowy limit relacji",
-                "text": "up to 3 stories",
+                "text": "do 3 relacji",
                 "text_premium": "do 700 relacji"
             },
             "story_monthly_limit": {
                 "name": "Miesięczny limit relacji",
-                "text": "up to 10 stories",
+                "text": "do 10 relacji",
                 "text_premium": "do 3000 relacji"
             },
             "story_text_length": {
@@ -709,27 +709,27 @@
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "Prezenty",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "Minimalna cena ulepszenia prezentu",
+                "text": "25 Gwiazdek"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
+                "name": "Maksymalna liczba przypiętych prezentów",
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "name": "Zamrożenie przed zamianą prezentu na Gwiazdki",
+                "text": "7 dni"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "name": "Termin, po którym prezentów nie można wymienić na Gwiazdki",
+                "text": "21 dni"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "Minimalna liczba Gwiazdek do wypłaty",
+                "text": "1000 Gwiazdek"
             }
         }
     }

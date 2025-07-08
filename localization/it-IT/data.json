@@ -163,11 +163,6 @@
                 "hint": "",
                 "text": "fino a 16 caratteri"
             },
-            "chat_title_length": {
-                "name": "Lunghezza del nome della chat",
-                "hint": "",
-                "text": "fino a 128 caratteri"
-            },
             "broadcast_group_access": {
                 "name": "Convertendo un supergruppo al gruppo di broadcast",
                 "hint": "",
@@ -569,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "Limite storie giornaliere",
-                "text": "fino a 2 storie",
+                "text": "1 story",
                 "text_premium": "fino a 100 storie"
             },
             "story_weekly_limit": {
                 "name": "Limite storie settimanale",
-                "text": "fino a 5 storie",
+                "text": "up to 3 stories",
                 "text_premium": "fino a 700 storie"
             },
             "story_monthly_limit": {
                 "name": "Limite storie mensili",
-                "text": "fino a 20 storie",
+                "text": "up to 10 stories",
                 "text_premium": "fino a 3.000 storie"
             },
             "story_text_length": {

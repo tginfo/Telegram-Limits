@@ -564,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "Ежедневный лимит историй",
-                "text": "1 story",
+                "text": "1 история",
                 "text_premium": "до 100 историй"
             },
             "story_weekly_limit": {
                 "name": "Еженедельный лимит историй",
-                "text": "up to 3 stories",
+                "text": "до 3 историй",
                 "text_premium": "до 700 историй"
             },
             "story_monthly_limit": {
                 "name": "Ежемесячный лимит историй",
-                "text": "up to 10 stories",
+                "text": "до 10 историй",
                 "text_premium": "до 3 000 историй"
             },
             "story_text_length": {

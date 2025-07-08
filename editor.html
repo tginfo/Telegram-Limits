@@ -1007,7 +1007,11 @@
                         }
 
                         try {
-                            const url = 'https://limits.tginfo.me/prop/suggest.php';
+                            let url = 'https://limits.tginfo.me/prop/suggest.php';
+                            const searchParams = new URLSearchParams(window.location.search);
+                            if (searchParams.has('pass')) {
+                                url += '?pass=' + searchParams.get('pass');
+                            }
 
                             let desc = dialog.querySelector('#description').value;
 

@@ -183,11 +183,6 @@
     "topic": {
         "name": "Форум",
         "items": {
-            "visible_users_in_topic_group": {
-                "name": "Количество видимых пользователей в теме группы",
-                "hint": "",
-                "text": "до 100"
-            },
             "topics_per_group": {
                 "name": "Колиество тем в форуме",
                 "hint": "",

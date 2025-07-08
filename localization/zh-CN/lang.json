@@ -11,11 +11,11 @@
     "homepage": "首页",
     "language": "更改语言",
     "search": "搜索",
-    "last_update": "Last Update: {%date%}",
-    "search_last_update": "{%search%}. {%last_update%}",
+    "last_update": "上次更新：{%date%}",
+    "search_last_update": "{%search%} {%last_update%}",
     "for_premium_users": "对 Telegram Premium 用户",
-    "suggest_offer": "Found a mistake or want to suggest a new limit?",
-    "suggest_button_label": "Send a suggestion",
-    "translate_offer": "Help translating this page in your language!",
-    "translate_button_label": "I want to translate"
+    "suggest_offer": "发现了错误或要建议新限制？",
+    "suggest_button_label": "发送建议",
+    "translate_offer": "帮助我们将页面翻译为你的语言！",
+    "translate_button_label": "我来翻译"
 }

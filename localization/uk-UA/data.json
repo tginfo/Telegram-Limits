@@ -183,11 +183,6 @@
     "topic": {
         "name": "Форум",
         "items": {
-            "visible_users_in_topic_group": {
-                "name": "Видимі користувачі в групі тем",
-                "hint": "",
-                "text": "до 100"
-            },
             "topics_per_group": {
                 "name": "Тем на групу",
                 "hint": "",

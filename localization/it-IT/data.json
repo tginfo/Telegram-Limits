@@ -564,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "Limite storie giornaliere",
-                "text": "1 story",
+                "text": "1 storia",
                 "text_premium": "fino a 100 storie"
             },
             "story_weekly_limit": {
                 "name": "Limite storie settimanale",
-                "text": "up to 3 stories",
+                "text": "fino a 3 storie",
                 "text_premium": "fino a 700 storie"
             },
             "story_monthly_limit": {
                 "name": "Limite storie mensili",
-                "text": "up to 10 stories",
+                "text": "fino a 10 storie",
                 "text_premium": "fino a 3.000 storie"
             },
             "story_text_length": {

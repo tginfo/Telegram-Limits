@@ -163,11 +163,6 @@
                 "hint": "",
                 "text": "最多 16 个字符"
             },
-            "chat_title_length": {
-                "name": "对话标题长度",
-                "hint": "",
-                "text": "最多 128 个字符"
-            },
             "broadcast_group_access": {
                 "name": "超级群组可转为广播群组",
                 "hint": "",
@@ -569,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "每日故事限制",
-                "text": "最多 2 条故事",
+                "text": "1 story",
                 "text_premium": "最多 100 条故事"
             },
             "story_weekly_limit": {
                 "name": "每周故事限制",
-                "text": "最多 5 条故事",
+                "text": "up to 3 stories",
                 "text_premium": "最多 700 条故事"
             },
             "story_monthly_limit": {
                 "name": "每月故事限制",
-                "text": "最多 20 条故事",
+                "text": "up to 10 stories",
                 "text_premium": "最多 3,000 条故事"
             },
             "story_text_length": {

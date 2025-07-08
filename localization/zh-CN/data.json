@@ -103,7 +103,7 @@
                 "text": "最多 20 个"
             },
             "pinned_number": {
-                "name": "客户端主页面的置顶群聊数",
+                "name": "主对话列表的置顶对话数",
                 "hint": "",
                 "text": "最多 5 个群组 / 频道 + 5 个加密对话",
                 "text_premium": "最多 10 个对话或频道"
@@ -149,8 +149,8 @@
                 "text": "至少 500"
             },
             "username_reservation": {
-                "name": "更改 username 后生效时长",
-                "hint": "（更改多长时间后对所有人可见）",
+                "name": "更改用户名后保留时长",
+                "hint": "（在此之后用户名对所有人可用，而非仅原所有者可用）",
                 "text": "15 ~ 30 分钟"
             },
             "participants_for_group_stickers": {
@@ -176,7 +176,7 @@
             "read_receipts_availability": {
                 "name": "“哪些成员已读”数据可见性",
                 "hint": "",
-                "text": "少于 100 人的群聊可用；只有对应消息的发送者可见"
+                "text": "少于 100 人的群组可用；只有对应消息的发送者可见"
             }
         }
     },
@@ -295,8 +295,8 @@
                 "text": "至少 50 位订阅者"
             },
             "username_reservation": {
-                "name": "更改 username 生效时长",
-                "hint": "（更改多长时间后对所有人可见）",
+                "name": "更改用户名后保留时长",
+                "hint": "（在此之后用户名对所有人可用，而非仅原所有者可用）",
                 "text": "约 15 ~ 30 分钟"
             }
         }
@@ -546,7 +546,7 @@
             "story_availability": {
                 "name": "故事可用性",
                 "hint": "没有 Telegram Premium 时可使用故事的国家",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "请在此处查看列表 (英文)：https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "故事生存期",
@@ -564,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "每日故事限制",
-                "text": "1 story",
+                "text": "1 条故事",
                 "text_premium": "最多 100 条故事"
             },
             "story_weekly_limit": {
                 "name": "每周故事限制",
-                "text": "up to 3 stories",
+                "text": "最多 3 条故事",
                 "text_premium": "最多 700 条故事"
             },
             "story_monthly_limit": {
                 "name": "每月故事限制",
-                "text": "up to 10 stories",
+                "text": "最多 10 条故事",
                 "text_premium": "最多 3,000 条故事"
             },
             "story_text_length": {
@@ -676,7 +676,7 @@
             },
             "text_size": {
                 "name": "文章大小",
-                "hint": "(including pictures)",
+                "hint": "(包括图片)",
                 "text": "最大 64 KiB"
             }
         }
@@ -697,44 +697,44 @@
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "清单",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in checklist",
-                "text": "from 1 to 30"
+                "name": "清单中的项目数",
+                "text": "1 到 30 项"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "name": "清单标题",
+                "text": "1 到 255 个字符"
             },
             "item_caption": {
-                "name": "Item caption",
-                "text": "from 1 to 100 characters"
+                "name": "项目标题",
+                "text": "1 到 100 个字符"
             }
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "礼物",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "礼物升级的最低价格",
+                "text": "25 枚星币"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
+                "name": "最大置顶礼物数",
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "name": "将礼物转换为星币前的冷却时间",
+                "text": "7 天"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "name": "礼物无法再转换为星币的周期",
+                "text": "21 天"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "提现所需的星币数量",
+                "text": "最少 1000 枚星币"
             }
         }
     }

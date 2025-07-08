@@ -183,11 +183,6 @@
     "topic": {
         "name": "Forum",
         "items": {
-            "visible_users_in_topic_group": {
-                "name": "Mavzuli guruhdagi koʻrinadigan foydalanuvchi",
-                "hint": "",
-                "text": "100 tagacha"
-            },
             "topics_per_group": {
                 "name": "Guruhdagi mavzular soni",
                 "hint": "",

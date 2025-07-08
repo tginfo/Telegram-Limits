@@ -183,11 +183,6 @@
     "topic": {
         "name": "انجمن",
         "items": {
-            "visible_users_in_topic_group": {
-                "name": "کاربران قابل مشاهده در گروه موضوعی",
-                "hint": "",
-                "text": "تا ۱۰۰ عدد"
-            },
             "topics_per_group": {
                 "name": "تعداد موضوع‌ها در هر گروه",
                 "hint": "",

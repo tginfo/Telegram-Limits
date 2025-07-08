@@ -183,11 +183,6 @@
     "topic": {
         "name": "论坛",
         "items": {
-            "visible_users_in_topic_group": {
-                "name": "话题群组中可见用户数",
-                "hint": "",
-                "text": "最多 100 个"
-            },
             "topics_per_group": {
                 "name": "每个群组的话题数",
                 "hint": "",

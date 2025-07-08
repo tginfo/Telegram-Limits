@@ -183,11 +183,6 @@
     "topic": {
         "name": "Forum",
         "items": {
-            "visible_users_in_topic_group": {
-                "name": "Visible users in topic group",
-                "hint": "",
-                "text": "up to 100"
-            },
             "topics_per_group": {
                 "name": "Topics per group",
                 "hint": "",

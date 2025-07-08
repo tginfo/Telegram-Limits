@@ -163,11 +163,6 @@
                 "hint": "",
                 "text": "تا ۱۶ کاراکتر"
             },
-            "chat_title_length": {
-                "name": "طول عنوان چت",
-                "hint": "",
-                "text": "تا ۱۲۸ کاراکتر"
-            },
             "broadcast_group_access": {
                 "name": "تبدیل یک ابرگروه به گروه ارسال همگانی",
                 "hint": "",
@@ -569,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "حداکثر تعداد استوری‌ها در روز",
-                "text": "تا ۲ استوری",
+                "text": "1 story",
                 "text_premium": "تا ۱۰۰ استوری"
             },
             "story_weekly_limit": {
                 "name": "حداکثر تعداد استوری‌ها در هفته",
-                "text": "تا ۵ استوری",
+                "text": "up to 3 stories",
                 "text_premium": "تا ۷۰۰ استوری"
             },
             "story_monthly_limit": {
                 "name": "حداکثر تعداد استوری‌ها در ماه",
-                "text": "تا ۲۰ استوری",
+                "text": "up to 10 stories",
                 "text_premium": "تا ۳،۰۰۰ استوری"
             },
             "story_text_length": {

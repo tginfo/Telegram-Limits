@@ -163,11 +163,6 @@
                 "hint": "",
                 "text": "16 tagacha belgi"
             },
-            "chat_title_length": {
-                "name": "Chat nomi uzunligi",
-                "hint": "",
-                "text": "128 tagacha belgi"
-            },
             "broadcast_group_access": {
                 "name": "Super guruhni Translyatsiya guruhiga aylantirish",
                 "hint": "",
@@ -569,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "Kundalik hikoyalar cheklovlari",
-                "text": "2 tagacha hikoyalar",
+                "text": "1 story",
                 "text_premium": "100 tagacha hikoyalar"
             },
             "story_weekly_limit": {
                 "name": "Haftalik hikoyalar cheklovlari",
-                "text": "5 tagacha hikoyalar",
+                "text": "up to 3 stories",
                 "text_premium": "700 tagacha hikoyalar"
             },
             "story_monthly_limit": {
                 "name": "Oylik hikoyalar cheklovlari",
-                "text": "20 tagacha hikoyalar",
+                "text": "up to 10 stories",
                 "text_premium": "3,000 tagacha hikoyalar"
             },
             "story_text_length": {

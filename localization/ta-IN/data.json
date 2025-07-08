@@ -163,11 +163,6 @@
                 "hint": "",
                 "text": "16 எழுத்துகள் வரை"
             },
-            "chat_title_length": {
-                "name": "அரட்டை தலைப்பின் நீளம்",
-                "hint": "",
-                "text": "128 எழுத்துகள் வரை"
-            },
             "broadcast_group_access": {
                 "name": "ஒரு சிறப்புக் குழுவை ஒளிபரப்புக் குழுவாக மாற்றுதல்",
                 "hint": "",
@@ -569,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "Daily stories limit",
-                "text": "up to 2 stories",
+                "text": "1 story",
                 "text_premium": "up to 100 stories"
             },
             "story_weekly_limit": {
                 "name": "Weekly stories limit",
-                "text": "up to 5 stories",
+                "text": "up to 3 stories",
                 "text_premium": "up to 700 stories"
             },
             "story_monthly_limit": {
                 "name": "Monthly stories limit",
-                "text": "up to 20 stories",
+                "text": "up to 10 stories",
                 "text_premium": "up to 3,000 stories"
             },
             "story_text_length": {

@@ -78,7 +78,7 @@
                 "text": "до 200"
             },
             "username_ownership_for_auction": {
-                "name": "Minimum username ownership for auction",
+                "name": "Мінімальний час володіння ім'ям користувача для виставлення на аукціон",
                 "hint": "",
                 "text": "14 днів"
             }
@@ -105,8 +105,8 @@
             "pinned_number": {
                 "name": "Закріплені чати в стрічці користувача",
                 "hint": "",
-                "text": "up to 5 chats or channels + 5 secret chats",
-                "text_premium": "up to 10 chats or channels"
+                "text": "до 5 чатів або каналів + 5 секретних чатів",
+                "text_premium": "до 10 чатів або каналів"
             },
             "group_name": {
                 "name": "Назва та опис групи",
@@ -181,25 +181,25 @@
         }
     },
     "topic": {
-        "name": "Forum",
+        "name": "Форум",
         "items": {
             "visible_users_in_topic_group": {
-                "name": "Visible users in topic group",
+                "name": "Видимі користувачі в групі тем",
                 "hint": "",
                 "text": "до 100"
             },
             "topics_per_group": {
-                "name": "Topics per group",
+                "name": "Тем на групу",
                 "hint": "",
                 "text": "до 1 000 000"
             },
             "topic_title_length": {
-                "name": "Topic title length",
+                "name": "Довжина назви теми",
                 "hint": "",
                 "text": "до 128 символів"
             },
             "pinned_topics": {
-                "name": "Pinned topics",
+                "name": "Закріплені теми",
                 "hint": "",
                 "text": "до 5"
             }
@@ -224,7 +224,7 @@
                 "text": "офіційно заявлена відсутність обмежень, на практиці, трансляція стає нестабільною приблизно на 2 000 одночасних глядачів"
             },
             "voice_chat_title_length": {
-                "name": "Voice chat title length",
+                "name": "Довжина заголовка голосового чату",
                 "hint": "",
                 "text": "до 40 символів"
             },
@@ -347,38 +347,38 @@
                 "text": "до 365 днів"
             },
             "custom_emoji_per_message": {
-                "name": "Custom emoji per message",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-                "text": "not available",
+                "name": "Кількість користувацьких емоджі в повідомленні",
+                "hint": "без Telegram Premium, користувацькі емоджі можуть бути відправлені лише у Збережені, понад 100 користувацьких емоджі замінюються відповідним стандартним",
+                "text": "недоступно",
                 "text_premium": "до 100 емоджі"
             },
             "links_per_message": {
-                "name": "Links per message",
+                "name": "Посилань на повідомлення",
                 "hint": "",
-                "text": "up to 100 links"
+                "text": "до 100 посилань"
             }
         }
     },
     "poll": {
-        "name": "Polls",
+        "name": "Опитування",
         "items": {
             "poll_question_length": {
-                "name": "Poll question length",
+                "name": "Довжина заголовку опитування",
                 "hint": "",
                 "text": "від 1 до 255 символів"
             },
             "quiz_question_length": {
-                "name": "Quiz question length",
+                "name": "Довжина заголовку вікторини",
                 "hint": "",
                 "text": "від 1 до 200 символів"
             },
             "poll_options_count": {
-                "name": "Poll options count",
+                "name": "Кількість опцій опитування",
                 "hint": "",
                 "text": "від 2 до 10"
             },
             "poll_option_length": {
-                "name": "Poll option length",
+                "name": "Довжина варіанту відповіді в опитуванні",
                 "hint": "",
                 "text": "від 1 до 100 символів"
             }
@@ -388,7 +388,7 @@
         "name": "Папки",
         "items": {
             "name_length": {
-                "name": "Folder name length",
+                "name": "Довжина назви папки",
                 "hint": "",
                 "text": "до 12 символів"
             },
@@ -399,7 +399,7 @@
                 "text_premium": "до 30 папок"
             },
             "chats_per_folder": {
-                "name": "Chats per folder",
+                "name": "Чатів на папку",
                 "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
                 "text": "до 100 чатів",
                 "text_premium": "до 200 чатів"

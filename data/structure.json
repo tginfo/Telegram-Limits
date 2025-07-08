@@ -151,10 +151,6 @@
         "color": "156, 39, 176",
         "items": [
             {
-                "id": "visible_users_in_topic_group",
-                "icon": "visibility"
-            },
-            {
                 "id": "topics_per_group",
                 "icon": "format_list_numbered"
             },

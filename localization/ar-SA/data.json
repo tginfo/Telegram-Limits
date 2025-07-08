@@ -163,11 +163,6 @@
                 "hint": "",
                 "text": "ما يصل إلى 16 حرفًا"
             },
-            "chat_title_length": {
-                "name": "طول عنوان الدردشة",
-                "hint": "",
-                "text": "ما يصل إلى 128 حرفًا"
-            },
             "broadcast_group_access": {
                 "name": "تحويل مجموعة كبيرة إلى مجموعة بث",
                 "hint": "",
@@ -569,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "Daily stories limit",
-                "text": "up to 2 stories",
+                "text": "1 story",
                 "text_premium": "up to 100 stories"
             },
             "story_weekly_limit": {
                 "name": "Weekly stories limit",
-                "text": "up to 5 stories",
+                "text": "up to 3 stories",
                 "text_premium": "up to 700 stories"
             },
             "story_monthly_limit": {
                 "name": "Monthly stories limit",
-                "text": "up to 20 stories",
+                "text": "up to 10 stories",
                 "text_premium": "up to 3,000 stories"
             },
             "story_text_length": {

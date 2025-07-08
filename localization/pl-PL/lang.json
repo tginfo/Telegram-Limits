@@ -2,7 +2,7 @@
     "title": "Limity Telegrama — Telegram Info",
     "description": "Zawsze aktualne Limity Telegrama w {%year%} r. Ograniczenia dotyczące długości wiadomości, liczby naklejek w zestawach, częstotliwości wiadomości w Bot API, liczby członków, edycji, maksymalnego rozmiaru pliku i nie tylko",
     "description_short": "Zawsze aktualne Limity Telegrama",
-    "study": "| Badanie",
+    "study": "| Opracowanie",
     "big_title": "Limity Telegrama",
     "article_name": "Dlaczego istnieją limity",
     "article_p1": "Podobnie jak każda inna usługa, Telegram stosuje ograniczenia, aby zapewnić, że użytkownicy przestrzegają zasad uczciwego użytkowania i aby usługa działała.",
@@ -11,11 +11,11 @@
     "homepage": "Strona główna",
     "language": "Język",
     "search": "Szukaj",
-    "last_update": "Last Update: {%date%}",
+    "last_update": "Ostatnia aktualizacja: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
     "for_premium_users": "dla użytkowników Telegram Premium",
-    "suggest_offer": "Found a mistake or want to suggest a new limit?",
-    "suggest_button_label": "Send a suggestion",
-    "translate_offer": "Help translating this page in your language!",
-    "translate_button_label": "I want to translate"
+    "suggest_offer": "Znaleziono błąd lub chcesz zaproponować nowy limit?",
+    "suggest_button_label": "Wyślij propozycję",
+    "translate_offer": "Pomóż w tłumaczeniu tej strony na twój język!",
+    "translate_button_label": "Chcę przetłumaczyć"
 }

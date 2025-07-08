@@ -318,8 +318,8 @@
             "upload_size": {
                 "name": "Обмеження розміру файлу",
                 "hint": "",
-                "text": "до 2 Гб",
-                "text_premium": "до 4 Гб"
+                "text": "до 2 ГБ",
+                "text_premium": "до 4 ГБ"
             },
             "file_name_length": {
                 "name": "Довжина імені файлу",
@@ -400,7 +400,7 @@
             },
             "chats_per_folder": {
                 "name": "Чатів на папку",
-                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
+                "hint": "Не містить чати, додані в папку за типом (наприклад, канали). Включає чати додані в розділ Винятки.",
                 "text": "до 100 чатів",
                 "text_premium": "до 200 чатів"
             },
@@ -413,18 +413,18 @@
         }
     },
     "public_folders": {
-        "name": "Public Folders",
+        "name": "Публічні папки",
         "items": {
             "public_folders_count": {
-                "name": "Number of public folders",
+                "name": "Кількість публічних папок",
                 "hint": "",
-                "text": "up to 2 folders",
-                "text_premium": "up to 20 folders"
+                "text": "до 2 папок",
+                "text_premium": "до 20 папок"
             },
             "chats_per_public_folder": {
-                "name": "Chats/channels per public folder",
+                "name": "Чатів/каналів на публічну папку",
                 "hint": "",
-                "text": "up to 100 items",
+                "text": "до 100 елементів",
                 "text_premium": "до 200"
             }
         }
@@ -439,8 +439,8 @@
                 "text_premium": "до 40"
             },
             "username_length": {
-                "name": "Length of @username",
-                "hint": "for bots",
+                "name": "Довжина @username",
+                "hint": "для ботів",
                 "text": "від 5 до 32 символів"
             },
             "info_length": {
@@ -504,9 +504,9 @@
                 "text": "до 30 повідомлень в секунду, один ліміт на всі чати"
             },
             "api_requests_frequency": {
-                "name": "API requests frequency",
+                "name": "Частота запитів до API",
                 "hint": "",
-                "text": "up to about 30 requests per second"
+                "text": "приблизно до 30 запитів на секунду"
             },
             "bot_commands_count": {
                 "name": "Кількість команд",
@@ -541,57 +541,57 @@
         }
     },
     "stories": {
-        "name": "Stories",
+        "name": "Iсторії",
         "items": {
             "story_availability": {
-                "name": "Story availability",
-                "hint": "countries where stories are available without Telegram Premium",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "name": "Доступність історії",
+                "hint": "країни, в яких доступні історії без Telegram Premium",
+                "text": "Список доступний тут: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
-                "name": "Story lifetime",
-                "text": "24 hours",
-                "text_premium": "6/12/24/48 hours"
+                "name": "Тривалість життя історії",
+                "text": "24 години",
+                "text_premium": "6/12/24/48 годин"
             },
             "story_duration": {
-                "name": "Story duration",
-                "text": "up to 60 seconds"
+                "name": "Тривалість історії",
+                "text": "до 60 секунд"
             },
             "story_viewers_visibility": {
-                "name": "Viewers visibility",
-                "text": "24 hours",
-                "text_premium": "unlimited"
+                "name": "Видимість переглядів",
+                "text": "24 години",
+                "text_premium": "необмежено"
             },
             "story_daily_limit": {
-                "name": "Daily stories limit",
-                "text": "1 story",
-                "text_premium": "up to 100 stories"
+                "name": "Ліміт щоденних історій",
+                "text": "1 історія",
+                "text_premium": "до 100 історій"
             },
             "story_weekly_limit": {
-                "name": "Weekly stories limit",
-                "text": "up to 3 stories",
-                "text_premium": "up to 700 stories"
+                "name": "Ліміт тижневих історій",
+                "text": "до 3 історій",
+                "text_premium": "до 700 історій"
             },
             "story_monthly_limit": {
-                "name": "Monthly stories limit",
-                "text": "up to 10 stories",
-                "text_premium": "up to 3,000 stories"
+                "name": "Ліміт місячних історій",
+                "text": "до 10 історій",
+                "text_premium": "до 3000 історій"
             },
             "story_text_length": {
-                "name": "Text length in story",
+                "name": "Довжина тексту в історії",
                 "text": "до 200 символів",
                 "text_premium": "до 2048 символів"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency",
-                "text": "not available",
-                "text_premium": "once per 3 hour"
+                "name": "Частота використання інкогніто",
+                "text": "недоступно",
+                "text_premium": "один раз на 3 години"
             },
             "story_incognito_duration": {
-                "name": "Incognito duration",
-                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
-                "text": "not available",
-                "text_premium": "30 minutes"
+                "name": "Тривалість інкогніто",
+                "hint": "(всі перегляди за останні 5 хвилин до ввімкнення режиму зникають, перегляди після ввімкнення не фіксуються 25 хвилин)",
+                "text": "недоступно",
+                "text_premium": "30 хвилин"
             }
         }
     },
@@ -660,7 +660,7 @@
                 "text": "до 62 символів"
             },
             "emojis_per_pack": {
-                "name": "Emojis per pack",
+                "name": "Емоджі в наборі",
                 "hint": "",
                 "text": "до 200"
             }
@@ -676,7 +676,7 @@
             },
             "text_size": {
                 "name": "Розмір статті",
-                "hint": "(including pictures)",
+                "hint": "(включаючи картинки)",
                 "text": "до 64 KiB"
             }
         }
@@ -697,44 +697,44 @@
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "Списки задач",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in checklist",
-                "text": "from 1 to 30"
+                "name": "Кількість елементів у списку",
+                "text": "від 1 до 30"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "name": "Заголовок списку",
+                "text": "від 1 до 255 символів"
             },
             "item_caption": {
-                "name": "Item caption",
-                "text": "from 1 to 100 characters"
+                "name": "Підпис елементу",
+                "text": "від 1 до 100 символів"
             }
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "Подарунки",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "Мінімальна ціна за покращення подарунку",
+                "text": "25 зірок"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
+                "name": "Максимальна кількість закріплених подарунків",
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "name": "Час очікування перед тим, як подарунок можна буде обміняти на зірки",
+                "text": "7 днів"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "name": "Термін, після якого подарунки не можна обміняти на зірки",
+                "text": "21 день"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "Мінімальна сума зірок для виведення",
+                "text": "1000 зірок"
             }
         }
     }

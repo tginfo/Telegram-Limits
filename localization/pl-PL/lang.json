@@ -14,8 +14,8 @@
     "last_update": "Ostatnia aktualizacja: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
     "for_premium_users": "dla użytkowników Telegram Premium",
-    "suggest_offer": "Znaleziono błąd lub chcesz zaproponować nowy limit?",
+    "suggest_offer": "Znalazłeś błąd lub chcesz zaproponować nowy limit?",
     "suggest_button_label": "Wyślij propozycję",
-    "translate_offer": "Pomóż w tłumaczeniu tej strony na twój język!",
+    "translate_offer": "Pomóż w tłumaczeniu tej strony na swój język!",
     "translate_button_label": "Chcę przetłumaczyć"
 }

@@ -943,6 +943,13 @@
             }
 
             static async suggestEdit() {
+                if (!this.isDirty) {
+                    alert("This page is for suggesting edits to limits if you know some limit is wrong, or you know about some new limit.\n\n" + 
+                    "WE ARE NOT TELEGRAM, we can't help you change limits in the messenger, we only reflect the limits the messenger team imposes!\n\n" + 
+                    "Change or add limits to send tyour suggestion.");
+                    return;
+                }
+
                 let error;
                 try {
                     this.editor.validate();

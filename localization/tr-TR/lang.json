@@ -11,11 +11,11 @@
     "homepage": "Anasayfa",
     "language": "Dil",
     "search": "Ara",
-    "last_update": "Last Update: {%date%}",
+    "last_update": "Son Güncelleme: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
-    "for_premium_users": "for Telegram Premium users",
-    "suggest_offer": "Found a mistake or want to suggest a new limit?",
-    "suggest_button_label": "Send a suggestion",
-    "translate_offer": "Help translating this page in your language!",
-    "translate_button_label": "I want to translate"
+    "for_premium_users": "Telegram Premium kullanıcıları için",
+    "suggest_offer": "Hatalı olduğunu düşünüyor veya yeni limit mi önermek istiyorsunuz?",
+    "suggest_button_label": "Öneride bulunun",
+    "translate_offer": "Sizin dilinize çevirmemize yardım edin!",
+    "translate_button_label": "Çevirmek istiyorum"
 }

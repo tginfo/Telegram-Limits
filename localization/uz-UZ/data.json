@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "Kanallar va superguruhlar soni",
-                "hint": "siz a'zo bo'lishingiz mumkin bo'lgan",
+                "hint": "you can be member of (combined)",
                 "text": "500 tagacha (o'zingiz ochganlar bilan)",
                 "text_premium": "1000 tagacha (o'zingiz ochganlar bilan)"
             },

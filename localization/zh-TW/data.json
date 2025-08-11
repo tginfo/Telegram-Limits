@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "頻道與超級群組人數",
-                "hint": "頻道與群組數量",
+                "hint": "you can be member of (combined)",
                 "text": "up to 500 (including ones you own)",
                 "text_premium": "up to 1000 (including ones you own)"
             },

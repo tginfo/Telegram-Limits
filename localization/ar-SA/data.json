@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "عدد القنوات و المجموعات الكبرى",
-                "hint": "أقصى حد للانضمام",
+                "hint": "you can be member of (combined)",
                 "text": "يصل إلى 500 (بما في ذلك تلك التي تملكها)",
                 "text_premium": "يصل إلى 1000 (بما في ذلك تلك التي تملكها)"
             },

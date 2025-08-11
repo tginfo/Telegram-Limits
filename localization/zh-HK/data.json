@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "可以加入的頻道及大型群組數目",
-                "hint": "（即 channel 以及連同 Bot 在內，超過 49 人的群組）",
+                "hint": "you can be member of (combined)",
                 "text": "up to 500 (including ones you own)",
                 "text_premium": "up to 1000 (including ones you own)"
             },

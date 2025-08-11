@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "ژمارەی کەناڵ و گروپەکان",
-                "hint": "کە دەتوانیت ببیت بە ئەندامیان",
+                "hint": "you can be member of (combined)",
                 "text": "up to 500 (including ones you own)",
                 "text_premium": "up to 1000 (including ones you own)"
             },

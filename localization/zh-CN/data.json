@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "频道和超级群组数量",
-                "hint": "你可以加入的",
+                "hint": "you can be member of (combined)",
                 "text": "最多 500 个（包含你创建的）",
                 "text_premium": "最多 1000 个（包含你创建的）"
             },

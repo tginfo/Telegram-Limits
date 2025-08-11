@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "Liczba kanałów i supergrup",
-                "hint": "you can be member of (combined)",
+                "hint": "możesz być członkiem (łącznie)",
                 "text": "do 500 (w tym stworzone przez ciebie)",
                 "text_premium": "do 1000 (w tym stworzone przez ciebie)"
             },

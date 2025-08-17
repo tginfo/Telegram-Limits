@@ -442,6 +442,10 @@
             {
                 "id": "inline_max_items",
                 "icon": "receipt"
+            },
+            {
+                "id": "inline_search_query",
+                "icon": "search"
             }
         ]
     },

@@ -532,6 +532,11 @@
                 "name": "உள்ளக தேடல் முடிவு எண்ணிக்கை",
                 "hint": "",
                 "text": "ஒரு பக்கத்திற்கு 50 உருப்படிகள்வரை"
+            },
+            "inline_search_query": {
+                "name": "Inline search query",
+                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
+                "text": "up to 256 characters after bot's username"
             }
         }
     },

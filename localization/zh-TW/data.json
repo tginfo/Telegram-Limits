@@ -532,6 +532,11 @@
                 "name": "行內指令結果數量",
                 "hint": "",
                 "text": "每頁最多顯示 50 項"
+            },
+            "inline_search_query": {
+                "name": "Inline search query",
+                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
+                "text": "up to 256 characters after bot's username"
             }
         }
     },

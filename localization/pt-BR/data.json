@@ -534,9 +534,9 @@
                 "text": "até 50 itens por página"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "name": "Pesquisa inline",
+                "hint": "(<@BotUsername> sua pesquisa). Os usuários podem inserir consultas sem restrições, mas o bot só pode processar um determinado número de caracteres",
+                "text": "até 256 caracteres após o nome de usuário do bot"
             }
         }
     },

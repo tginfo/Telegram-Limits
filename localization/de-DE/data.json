@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "Anzahl der Kanäle und Supergruppen",
-                "hint": "you can be member of (combined)",
+                "hint": "von denen du Mitglied sein kannst (kombiniert)",
                 "text": "bis zu 500 (inklusive denen, die du besitzt)",
                 "text_premium": "bis zu 1000 (inklusive denen, die du besitzt)"
             },
@@ -534,9 +534,9 @@
                 "text": "bis zu 50 pro Seite"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "name": "Inline-Suchanfrage",
+                "hint": "(<@BotNutzername> deine Suchanfrage). Benutzer können Anfragen ohne Einschränkungen eingeben, der Bot kann jedoch nur eine bestimmte Anzahl von Zeichen verarbeiten",
+                "text": "bis zu 256 Zeichen nach dem Benutzernamen des Bots"
             }
         }
     },

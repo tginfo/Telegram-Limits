@@ -532,6 +532,11 @@
                 "name": "Inline natijalar soni",
                 "hint": "",
                 "text": "har bir sahifaga 50 tagacha element"
+            },
+            "inline_search_query": {
+                "name": "Inline search query",
+                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
+                "text": "up to 256 characters after bot's username"
             }
         }
     },

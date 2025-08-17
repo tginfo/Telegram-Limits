@@ -532,6 +532,11 @@
                 "name": "شماره نتایج درون خطی",
                 "hint": "",
                 "text": "تا ۵۰ مورد در هر صفحه"
+            },
+            "inline_search_query": {
+                "name": "Inline search query",
+                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
+                "text": "up to 256 characters after bot's username"
             }
         }
     },

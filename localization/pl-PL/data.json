@@ -532,6 +532,11 @@
                 "name": "Ilość wyników inline",
                 "hint": "",
                 "text": "do 50 elementów na stronę"
+            },
+            "inline_search_query": {
+                "name": "Inline search query",
+                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
+                "text": "up to 256 characters after bot's username"
             }
         }
     },

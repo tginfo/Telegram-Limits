@@ -532,6 +532,11 @@
                 "name": "מספר התוצאות להצגה במצב אינליין",
                 "hint": "",
                 "text": "up to 50 items per page"
+            },
+            "inline_search_query": {
+                "name": "Inline search query",
+                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
+                "text": "up to 256 characters after bot's username"
             }
         }
     },

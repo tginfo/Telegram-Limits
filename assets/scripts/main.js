@@ -5,9 +5,19 @@ function position() {
         
     var max = 0;
     var gap = parseInt(getComputedStyle(res).fontSize, 10);
-    var wid = Math.max(450, ((res.clientWidth - gap) / 3) - gap);
-    var fits = Math.floor((res.clientWidth + gap) / (wid + gap)) - 1;
-    if (fits > 3) fits = 3;
+    var fits = 1;
+	
+	var fit3CandWid = (res.clientWidth - gap * 2) / 3;
+	var fit2CandWid = (res.clientWidth - gap * 1) / 2;
+	var wid;
+
+		if (fit3CandWid >= 450) {
+				fits = 3;	
+				wid = fit3CandWid;
+		} else if (fit2CandWid >= 450) {
+				fits = 2;
+				wid = fit2CandWid;
+		}
 
     var cur = -1;
     [].slice.call(res.children)
@@ -23,21 +33,18 @@ function position() {
             res.style.height = ""
         });
 
-
-
-    if (fits <= 1 || matchMedia("print").matches) return;
+    if (fits <= 1 || matchMedia("print").matches || window.innerWidth <= 1000) return;
 
     var map = [];
-    var margin = (res.clientWidth - ((wid + gap) * (fits + 1)));
-    for (var index = 0; index <= fits; index++) {
+    var margin = (res.clientWidth - ((wid + gap) * fits - gap));
+    for (var index = 0; index < fits; index++) {
         map[index] = [];
     }
-
 
     [].slice.call(res.children)
         .forEach(function (el) {
             cur++;
-            if (cur > fits) cur = 0;
+            if (cur >= fits) cur = 0;
 
             const al = map.map(function (col) {
                 var last = col[col.length - 1];

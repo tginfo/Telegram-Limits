@@ -308,7 +308,7 @@
                 "name": "زیرنویس رسانه",
                 "hint": "",
                 "text": "تا ۱٬۰۲۴ کارکتر",
-                "text_premium": "حداکثر ۲٬۰۴۸ کاراکتر"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "محدودیت حجم فایل",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "وضوح تصویر",
                 "hint": "هنگام ارسال با فشرده‌سازی",
-                "text": "هردو ضلع باید 1280 پیکسل یا کمتر باشد، در غیر اینصورت تصویر کوچک می‌شود تا بزرگ‌ترین ضلع 1280 پیکسل شود"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

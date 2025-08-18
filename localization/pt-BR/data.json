@@ -690,8 +690,13 @@
                 "text": "800x800px, até 2 MB"
             },
             "photo_resolution": {
-                "name": "Resolução da foto",
+                "name": "Photo resolution (SD)",
                 "hint": "quando enviado com compressão",
+                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+            },
+            "photo_resolution_hd": {
+                "name": "Photo resolution (HD)",
+                "hint": "when sent with compression",
                 "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }

@@ -308,7 +308,7 @@
                 "name": "Опис медија",
                 "hint": "",
                 "text": "до 1.024 знака",
-                "text_premium": "up to 2,048 characters"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Величина датотеке",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Резолуција слике",
                 "hint": "када је послата са компресијом",
-                "text": "свака страна би требало да буде мања или једнака 1280px, или ће бити смањена тако да највећа страна буде 1280px"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

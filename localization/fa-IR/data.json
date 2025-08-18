@@ -690,8 +690,13 @@
                 "text": "800px*800px، تا 2 مگابایت"
             },
             "photo_resolution": {
-                "name": "وضوح تصویر",
+                "name": "Photo resolution (SD)",
                 "hint": "هنگام ارسال با فشرده‌سازی",
+                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+            },
+            "photo_resolution_hd": {
+                "name": "Photo resolution (HD)",
+                "hint": "when sent with compression",
                 "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }

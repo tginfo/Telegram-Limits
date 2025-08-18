@@ -534,9 +534,9 @@
                 "text": "do 50 elementów na stronę"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "name": "Zapytanie wyszukiwania inline",
+                "hint": "(<@nazwabota> twoje zapytanie wyszukiwania). Użytkownicy mogą wprowadzać zapytania bez ograniczeń, ale bot może przetworzyć tylko określoną liczbę znaków",
+                "text": "do 256 znaków po nazwie bota"
             }
         }
     },

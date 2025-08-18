@@ -308,7 +308,7 @@
                 "name": "Media captions",
                 "hint": "",
                 "text": "up to 1,024 characters",
-                "text_premium": "up to 2,048 characters"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "File size limit",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Fotokvalito",
                 "hint": "when sent with compression",
-                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

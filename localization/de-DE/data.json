@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "Anzahl der Kanäle und Supergruppen",
-                "hint": "von denen du Mitglied sein kannst (kombiniert)",
+                "hint": "in denen du Mitglied sein kannst (kombiniert)",
                 "text": "bis zu 500 (inklusive denen, die du besitzt)",
                 "text_premium": "bis zu 1000 (inklusive denen, die du besitzt)"
             },
@@ -308,7 +308,7 @@
                 "name": "Medienbeschreibungen",
                 "hint": "",
                 "text": "bis zu 1.024 Zeichen",
-                "text_premium": "up to 4,096 characters"
+                "text_premium": "bis zu 4.096 Zeichen"
             },
             "upload_size": {
                 "name": "Maximale Dateigröße",
@@ -690,9 +690,14 @@
                 "text": "800x800px, bis zu 2 MB"
             },
             "photo_resolution": {
-                "name": "Bildauflösung",
+                "name": "Fotoauflösung (SD)",
                 "hint": "wenn mit Komprimierung gesendet",
-                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
+                "text": "Jede Seite sollte kleiner oder gleich 1280 Pixel sein, sonst wird sie verkleinert, sodass die größte Seite 1280 Pixel groß ist"
+            },
+            "photo_resolution_hd": {
+                "name": "Fotoauflösung (HD)",
+                "hint": "beim Senden mit Komprimierung",
+                "text": "Jede Seite sollte kleiner oder gleich 2048 Pixel (Android) oder 2560 Pixel (iOS, PC) sein, sonst wird sie verkleinert, sodass die größte Seite 2048/2560 Pixel groß ist"
             }
         }
     },

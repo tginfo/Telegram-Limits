@@ -308,7 +308,7 @@
                 "name": "ஒலியொளிக் குறிப்பு",
                 "hint": "",
                 "text": "up to 1,024 characters",
-                "text_premium": "up to 2,048 characters"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "கோப்பு அளவின் வரம்பு",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "புகைப்பட அளவு",
                 "hint": "சுருக்கி அனுப்பப்படும்போது",
-                "text": "ஒவ்வொரு பக்கமும் 1280px -க்குக் குறைவாகவோ அல்லது 1280px என இருக்க வேண்டும், இல்லையெனில் மிகப்பெரிய பக்கமானது 1280px எனக் குறைக்கப்படும்"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

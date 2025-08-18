@@ -308,7 +308,7 @@
                 "name": "Legendas de mídia",
                 "hint": "",
                 "text": "até 1.024 caracteres",
-                "text_premium": "até 2.048 caracteres"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Limite de tamanho de arquivos",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Resolução da foto",
                 "hint": "quando enviado com compressão",
-                "text": "cada lado deve ser menor ou igual a 1280px, caso contrário, ele será redimensionado para baixo, então o lado maior será 1280px"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

@@ -308,7 +308,7 @@
                 "name": "Didascalia dei media",
                 "hint": "",
                 "text": "fino a 1.024 caratteri",
-                "text_premium": "fino a 2.048 caratteri"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Dimensioni di un file",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Risoluzione foto",
                 "hint": "quando inviato con compressione",
-                "text": "ogni lato dovrebbe essere inferiore o pari a 1280px, altrimenti, sarà ridimensionato così che il lato maggiore sia pari a 1280px"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

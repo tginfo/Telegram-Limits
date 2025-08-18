@@ -308,7 +308,7 @@
                 "name": "Keterangan Media",
                 "hint": "",
                 "text": "up to 1,024 characters",
-                "text_premium": "up to 2,048 characters"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Batas ukuran berkas",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Resolusi foto",
                 "hint": "saat dikirim dengan kompresi",
-                "text": "setiap sisinya harus kurang dari atau sama dengan 1280px, selain itu akan diperkecil sehingga sisi terbesarnya akan menjadi 1280px"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

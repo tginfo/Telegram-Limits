@@ -308,7 +308,7 @@
                 "name": "Medienbeschreibungen",
                 "hint": "",
                 "text": "bis zu 1.024 Zeichen",
-                "text_premium": "bis zu 2.048 Zeichen"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Maximale Dateigröße",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Bildauflösung",
                 "hint": "wenn mit Komprimierung gesendet",
-                "text": "jede Seite sollte kleiner oder gleich 1280px sein, sonst wird sie herunterskaliert, so dass die größte Seite 1280px ist"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

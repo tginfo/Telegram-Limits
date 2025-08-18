@@ -308,7 +308,7 @@
                 "name": "Medialar uchun izoh",
                 "hint": "",
                 "text": "1,024 tagacha belgi",
-                "text_premium": "2,048 tagacha belgi"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Fayl o'lchamiga chegara",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Rasm rezolyutsiyasi",
                 "hint": "siqilish bilan yuborilganda",
-                "text": "har bir tomon 1280px dan kam yoki teng boʻlishi kerak, aks holda u kichraytiriladi, shuning uchun eng katta tomoni 1280px boʻladi"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

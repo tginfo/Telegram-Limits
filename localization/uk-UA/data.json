@@ -308,7 +308,7 @@
                 "name": "Опис у медіа",
                 "hint": "",
                 "text": "до 1024 символів",
-                "text_premium": "до 2048 символів"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Обмеження розміру файлу",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Роздільна здатність фото",
                 "hint": "при надсиланні зі стисканням",
-                "text": "кожна сторона має бути меншою чи дорівнювати 1280px, інакше фото буде зменшено таким чином, щоб більша сторона дорівнювала 1280px"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

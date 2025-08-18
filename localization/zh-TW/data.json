@@ -308,7 +308,7 @@
                 "name": "圖片與影片說明",
                 "hint": "",
                 "text": "up to 1,024 characters",
-                "text_premium": "up to 2,048 characters"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "單一檔案大小限制",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "相片解析度",
                 "hint": "（開啟壓縮時）",
-                "text": "長與寬皆須≦1280 px，否則將縮圖使最大邊為 1280 px"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

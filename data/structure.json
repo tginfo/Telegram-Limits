@@ -585,6 +585,10 @@
             {
                 "id": "photo_resolution",
                 "icon": "settings_overscan"
+            },
+            {
+                "id": "photo_resolution_hd",
+                "icon": "hd"
             }
         ]
     },

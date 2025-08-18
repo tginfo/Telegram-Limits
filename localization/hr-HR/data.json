@@ -308,7 +308,7 @@
                 "name": "Opis medija",
                 "hint": "",
                 "text": "up to 1,024 characters",
-                "text_premium": "up to 2,048 characters"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Veličina datoteke",
@@ -692,7 +692,7 @@
             "photo_resolution": {
                 "name": "Rezolucija slike",
                 "hint": "kada se šalje s kompresijom",
-                "text": "svaka strana treba biti manja ili jednaka 1280px, inače će biti smanjena tako da će najveća stranica biti 1280px"
+                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
             }
         }
     },

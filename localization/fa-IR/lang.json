@@ -11,11 +11,11 @@
     "homepage": "صفحه اصلی",
     "language": "زبان",
     "search": "جستجو",
-    "last_update": "Last Update: {%date%}",
+    "last_update": "آخرین بروزرسانی: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
     "for_premium_users": "برای کاربران تلگرام پریمیوم",
-    "suggest_offer": "Found a mistake or want to suggest a new limit?",
-    "suggest_button_label": "Send a suggestion",
-    "translate_offer": "Help translating this page in your language!",
-    "translate_button_label": "I want to translate"
+    "suggest_offer": "اشتباهی پیدا کردید یا میخواید محدودیت جدیدی پیشنهاد دهید؟",
+    "suggest_button_label": "ارسال پیشنهاد",
+    "translate_offer": "به ترجمه این صفحه در زبان خودتان کمک کنید!",
+    "translate_button_label": "می‌خواهم ترجمه کنم"
 }

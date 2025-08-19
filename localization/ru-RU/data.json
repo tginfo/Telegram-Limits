@@ -536,7 +536,7 @@
             "inline_search_query": {
                 "name": "Inline search query",
                 "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "text": "до 256 символов после юзернейма бота"
             }
         }
     },
@@ -690,14 +690,14 @@
                 "text": "800x800px, до 2 MB"
             },
             "photo_resolution": {
-                "name": "Photo resolution (SD)",
+                "name": "Разрешение изображения (SD)",
                 "hint": "при отправке со сжатием",
-                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+                "text": "большая сторона должна содержать не более 1280px, иначе фото будет сжато так, чтобы большая сторона содержала 1280px"
             },
             "photo_resolution_hd": {
-                "name": "Photo resolution (HD)",
-                "hint": "when sent with compression",
-                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
+                "name": "Разрешение изображения (HD)",
+                "hint": "при отправке со сжатием",
+                "text": "большая сторона должна содержать не более 2048px (Android) или 2560px (iOS, PC), иначе фото будет сжато так, чтобы большая сторона содержала 2048/2560px"
             }
         }
     },

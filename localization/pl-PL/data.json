@@ -308,7 +308,7 @@
                 "name": "Opis plików multimedialnych",
                 "hint": "",
                 "text": "do 1024 znaków",
-                "text_premium": "up to 4,096 characters"
+                "text_premium": "do 4096 znaków"
             },
             "upload_size": {
                 "name": "Rozmiar wysłanych plików",
@@ -690,14 +690,14 @@
                 "text": "800x800px, do 2 MB"
             },
             "photo_resolution": {
-                "name": "Photo resolution (SD)",
+                "name": "Rozdzielczość zdjęć (SD)",
                 "hint": "kiedy wysłane z kompresją",
-                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+                "text": "każdy bok powinien być mniejszy lub równy 1280px, w przeciwnym razie zostanie zmniejszony tak, że największy bok będzie miał 1280px"
             },
             "photo_resolution_hd": {
-                "name": "Photo resolution (HD)",
-                "hint": "when sent with compression",
-                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
+                "name": "Rozdzielczość zdjęcia (HD)",
+                "hint": "kiedy wysłane z kompresją",
+                "text": "każdy bok powinien być mniejszy lub równy 2048px (Android) lub 2560 (iOS, PC), w przeciwnym razie zostanie zmniejszony tak, że największy bok będzie miał 2048/2560px"
             }
         }
     },

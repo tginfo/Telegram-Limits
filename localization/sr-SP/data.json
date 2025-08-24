@@ -26,7 +26,7 @@
             "self_destruction": {
                 "name": "Рок за самоуништење",
                 "hint": "ако је неактиван",
-                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+                "text": "1, 3, 6, 12, 18, 24 месеца (18 месеци подразумевано)"
             },
             "spam_ban": {
                 "name": "Забрана приступа због злоупотребе",
@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "Број канала и супергрупа",
-                "hint": "you can be member of (combined)",
+                "hint": "можете да будете члан (комбиновано)",
                 "text": "до 500 (укључујући и оне које поседујете)",
                 "text_premium": "до 1000 (укључујући и оне које поседујете)"
             },
@@ -68,19 +68,19 @@
                 "text": "неограничено; пре 2018. године – до 1.000.000 видљивих порука: погледај https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
-                "name": "Sticker packs per account",
+                "name": "Пакети стикера по налогу",
                 "hint": "",
-                "text": "up to 200"
+                "text": "до 200"
             },
             "emoji_packs_per_account": {
-                "name": "Emoji packs per account",
+                "name": "Пакети емоџија по налогу",
                 "hint": "",
-                "text": "up to 200"
+                "text": "до 200"
             },
             "username_ownership_for_auction": {
-                "name": "Minimum username ownership for auction",
+                "name": "Минимум власничких корисничких имена за аукцију",
                 "hint": "",
-                "text": "14 days"
+                "text": "14 дана"
             }
         }
     },
@@ -181,22 +181,22 @@
         }
     },
     "topic": {
-        "name": "Forum",
+        "name": "Форум",
         "items": {
             "topics_per_group": {
-                "name": "Topics per group",
+                "name": "Теме по групи",
                 "hint": "",
-                "text": "up to 1,000,000"
+                "text": "до 1.000.000"
             },
             "topic_title_length": {
-                "name": "Topic title length",
+                "name": "Дужина назива теме",
                 "hint": "",
-                "text": "up to 128 characters"
+                "text": "до 128 знакова"
             },
             "pinned_topics": {
-                "name": "Pinned topics",
+                "name": "Закачене теме",
                 "hint": "",
-                "text": "up to 5"
+                "text": "до 5"
             }
         }
     },
@@ -219,9 +219,9 @@
                 "text": "званично је изјављено да је неограничено, у пракси, стримовање постаје нестабилно на око 2000 истовремених гледалаца"
             },
             "voice_chat_title_length": {
-                "name": "Voice chat title length",
+                "name": "Дужина назива гласовног ћаскања",
                 "hint": "",
-                "text": "up to 40 characters"
+                "text": "до 40 знакова"
             },
             "voice_chat_schedule": {
                 "name": "Заказивање гласовних ћаскања",
@@ -308,13 +308,13 @@
                 "name": "Опис медија",
                 "hint": "",
                 "text": "до 1.024 знака",
-                "text_premium": "up to 4,096 characters"
+                "text_premium": "до 4.096 знакова"
             },
             "upload_size": {
                 "name": "Величина датотеке",
                 "hint": "",
-                "text": "up to 2 GB",
-                "text_premium": "up to 4 GB"
+                "text": "до 2 GB",
+                "text_premium": "до 4 GB"
             },
             "file_name_length": {
                 "name": "Дужина назива датотеке",
@@ -342,40 +342,40 @@
                 "text": "до 365 дана"
             },
             "custom_emoji_per_message": {
-                "name": "Custom emoji per message",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-                "text": "not available",
-                "text_premium": "up to 100 emoji"
+                "name": "Прилагођени емоџи по поруци",
+                "hint": "без Telegram Premium-а, прилагођени емоџи може бити послат само у Сачуване поруке, више од 100 прилагођених емоџија је замењено одговарајућим стандардним емоџијем",
+                "text": "није доступно",
+                "text_premium": "до 100 емоџија"
             },
             "links_per_message": {
-                "name": "Links per message",
+                "name": "Линкови по поруци",
                 "hint": "",
-                "text": "up to 100 links"
+                "text": "до 100 линкова"
             }
         }
     },
     "poll": {
-        "name": "Polls",
+        "name": "Анкете",
         "items": {
             "poll_question_length": {
-                "name": "Poll question length",
+                "name": "Дужина анкетних питања",
                 "hint": "",
-                "text": "1 to 255 characters"
+                "text": "1 до 255 знакова"
             },
             "quiz_question_length": {
-                "name": "Quiz question length",
+                "name": "Дужина питања квиза",
                 "hint": "",
-                "text": "1 to 200 characters"
+                "text": "1 до 200 знакова"
             },
             "poll_options_count": {
-                "name": "Poll options count",
+                "name": "Број опција анкете",
                 "hint": "",
-                "text": "2 to 10"
+                "text": "2 до 10"
             },
             "poll_option_length": {
-                "name": "Poll option length",
+                "name": "Дужина опција анкете",
                 "hint": "",
-                "text": "1 to 100 characters"
+                "text": "1 до 100 знакова"
             }
         }
     },
@@ -383,9 +383,9 @@
         "name": "Фасцикле",
         "items": {
             "name_length": {
-                "name": "Folder name length",
+                "name": "Дужина назива фолдера",
                 "hint": "",
-                "text": "up to 12 characters"
+                "text": "до 12 знакова"
             },
             "folder_amount": {
                 "name": "Број фасцикли",

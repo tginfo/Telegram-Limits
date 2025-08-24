@@ -78,7 +78,7 @@
                 "text": "до 200"
             },
             "username_ownership_for_auction": {
-                "name": "Минимум власничких корисничких имена за аукцију",
+                "name": "Минимално власништво корисничког имена за аукцију",
                 "hint": "",
                 "text": "14 дана"
             }
@@ -390,37 +390,37 @@
             "folder_amount": {
                 "name": "Број фасцикли",
                 "hint": "",
-                "text": "up to 10 folders",
-                "text_premium": "up to 30 folders"
+                "text": "до 10 фасцикли",
+                "text_premium": "до 30 фасцикли"
             },
             "chats_per_folder": {
-                "name": "Chats per folder",
-                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
+                "name": "Ћаскања по фасцикли",
+                "hint": "Не укључује ћаскања додата у фасциклу по њиховом типу (нпр. Канали). Укључује ћаскања додата у секцију Изузеци.",
+                "text": "до 100 ћаскања",
+                "text_premium": "до 200 ћаскања"
             },
             "pinned_chats_in_folder": {
                 "name": "Закачена ћаскања у фасцикли",
                 "hint": "",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
+                "text": "до 100 ћаскања",
+                "text_premium": "до 200 ћаскања"
             }
         }
     },
     "public_folders": {
-        "name": "Public Folders",
+        "name": "Јавне фасцикле",
         "items": {
             "public_folders_count": {
-                "name": "Number of public folders",
+                "name": "Број јавних фасцикли",
                 "hint": "",
-                "text": "up to 2 folders",
-                "text_premium": "up to 20 folders"
+                "text": "до 2 фасцикле",
+                "text_premium": "до 20 фасцикли"
             },
             "chats_per_public_folder": {
-                "name": "Chats/channels per public folder",
+                "name": "Групе/канали по јавној фасцикли",
                 "hint": "",
-                "text": "up to 100 items",
-                "text_premium": "up to 200 items"
+                "text": "до 100 ставки",
+                "text_premium": "до 200 ставки"
             }
         }
     },
@@ -431,12 +431,12 @@
                 "name": "Број ботова",
                 "hint": "(које је направио @BotFather)",
                 "text": "до 20 ботова",
-                "text_premium": "up to 40 items"
+                "text_premium": "до 40 ставки"
             },
             "username_length": {
-                "name": "Length of @username",
-                "hint": "for bots",
-                "text": "5 to 32 characters"
+                "name": "Дужина @username",
+                "hint": "за ботове",
+                "text": "од 5 до 32 знака"
             },
             "info_length": {
                 "name": "Дужина информација о боту",
@@ -499,9 +499,9 @@
                 "text": "до 30 порука у секунди између група"
             },
             "api_requests_frequency": {
-                "name": "API requests frequency",
+                "name": "Учесталост API захтева",
                 "hint": "",
-                "text": "up to about 30 requests per second"
+                "text": "до око 30 захтева по секунди"
             },
             "bot_commands_count": {
                 "name": "Број команди",
@@ -534,64 +534,64 @@
                 "text": "до 50 ставки по страници"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "name": "Упит инлајн претраге",
+                "hint": "(<@BotUsername> ваш упит за претрагу). Корисници могу да уносе упите без ограничења, али бот може да обради само одређен број знакова",
+                "text": "до 256 знакова након корисничког имена бота"
             }
         }
     },
     "stories": {
-        "name": "Stories",
+        "name": "Приче",
         "items": {
             "story_availability": {
-                "name": "Story availability",
-                "hint": "countries where stories are available without Telegram Premium",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "name": "Доступност приче",
+                "hint": "државе где су приче доступне без Telegram Premium-а",
+                "text": "Списак је доступан овде: https://tginfo.me/stories-by-countries-en"
             },
             "story_lifetime": {
-                "name": "Story lifetime",
-                "text": "24 hours",
-                "text_premium": "6/12/24/48 hours"
+                "name": "Трајање приче",
+                "text": "24 сата",
+                "text_premium": "6/12/24/48 сати"
             },
             "story_duration": {
-                "name": "Story duration",
-                "text": "up to 60 seconds"
+                "name": "Трајање приче",
+                "text": "до 60 секунди"
             },
             "story_viewers_visibility": {
-                "name": "Viewers visibility",
-                "text": "24 hours",
-                "text_premium": "unlimited"
+                "name": "Видљивост гледалаца",
+                "text": "24 сата",
+                "text_premium": "неограничено"
             },
             "story_daily_limit": {
-                "name": "Daily stories limit",
-                "text": "1 story",
-                "text_premium": "up to 100 stories"
+                "name": "Дневно ограничење прича",
+                "text": "1 прича",
+                "text_premium": "до 100 прича"
             },
             "story_weekly_limit": {
-                "name": "Weekly stories limit",
-                "text": "up to 3 stories",
-                "text_premium": "up to 700 stories"
+                "name": "Недељно ограничење прича",
+                "text": "до 3 приче",
+                "text_premium": "до 700 прича"
             },
             "story_monthly_limit": {
-                "name": "Monthly stories limit",
-                "text": "up to 10 stories",
-                "text_premium": "up to 3,000 stories"
+                "name": "Месечно ограничење прича",
+                "text": "до 10 прича",
+                "text_premium": "до 3.000 прича"
             },
             "story_text_length": {
-                "name": "Text length in story",
-                "text": "up to 200 characters",
-                "text_premium": "up to 2,048 characters"
+                "name": "Дужина текста у причи",
+                "text": "до 200 знака",
+                "text_premium": "до 2.048 знакова"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency",
-                "text": "not available",
-                "text_premium": "once per 3 hour"
+                "name": "Учесталост инкогнито коришћења",
+                "text": "није доступно",
+                "text_premium": "једном на 3 сата"
             },
             "story_incognito_duration": {
-                "name": "Incognito duration",
-                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
+                "name": "Инкогнито трајање",
+                "hint": "(нестају сви прегледи у последњих 5 минута пре него што је режим укључен, и нису забележени прегледи 25 минута након што је режим укључен)",
                 "text": "not available",
-                "text_premium": "30 minutes"
+                "text_premium": "30 минута"
             }
         }
     },
@@ -621,8 +621,8 @@
             "favorite_stickers": {
                 "name": "Број омиљених стикера",
                 "hint": "",
-                "text": "up to 5 items",
-                "text_premium": "up to 10 items"
+                "text": "до 5 ставки",
+                "text_premium": "до 10 ставки"
             },
             "pack_size": {
                 "name": "Број стикера у пакету",
@@ -660,9 +660,9 @@
                 "text": "до 62 знака"
             },
             "emojis_per_pack": {
-                "name": "Emojis per pack",
+                "name": "Емоџији по пакету",
                 "hint": "",
-                "text": "up to 200"
+                "text": "до 200"
             }
         }
     },
@@ -676,7 +676,7 @@
             },
             "text_size": {
                 "name": "Величина чланка",
-                "hint": "(including pictures)",
+                "hint": "(укључујући слике)",
                 "text": "до 64 KiB"
             }
         }
@@ -690,56 +690,56 @@
                 "text": "800x800px, до 2 MB"
             },
             "photo_resolution": {
-                "name": "Photo resolution (SD)",
+                "name": "Резолуција слике (SD)",
                 "hint": "када је послата са компресијом",
-                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+                "text": "свака страна би требало да буде мања или једнака 1280px, у супротном ће бити смањена тако да највећа страна износи 1280px"
             },
             "photo_resolution_hd": {
-                "name": "Photo resolution (HD)",
-                "hint": "when sent with compression",
-                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
+                "name": "Резолуција слике (HD)",
+                "hint": "када су послати компримовани",
+                "text": "свака страна би требало да буде мања или једнака 2048px (Android) или 2560px (iOS, PC), у супротном ће бити смањена тако да највећа страна износи 2048/2560px"
             }
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "Списак",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in checklist",
-                "text": "from 1 to 30"
+                "name": "Број ставки у списку",
+                "text": "од 1 до 30"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "name": "Опис списка",
+                "text": "од 1 до 255 знакова"
             },
             "item_caption": {
-                "name": "Item caption",
-                "text": "from 1 to 100 characters"
+                "name": "Опис ставки",
+                "text": "од 1 до 100 знакова"
             }
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "Поклони",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "Минимална цена надоградње поклона",
+                "text": "25 звездица"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
+                "name": "Максимални број закачених поклона",
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "name": "Период пре него што поклон може бити конвертован у звездице",
+                "text": "7 дана"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "name": "Период након којег поклони не могу бити размењени за звездице",
+                "text": "21 дан"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "Минимални износ звездица за повлачење",
+                "text": "1000 звездица"
             }
         }
     }

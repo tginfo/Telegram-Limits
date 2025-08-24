@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "Numero opzioni sondaggio",
                 "hint": "",
-                "text": "da 2 a 10"
+                "text": "2 to 12"
             },
             "poll_option_length": {
                 "name": "Lunghezza opzioni sondaggio",

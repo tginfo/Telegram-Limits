@@ -12,7 +12,7 @@
     "language": "Језик",
     "search": "Претрага",
     "last_update": "Последње ажурирање: {%date%}",
-    "search_last_update": "{%search%}. {%last_update%}",
+    "search_last_update": "{%search%}, {%last_update%}",
     "for_premium_users": "за Telegram premium кориснике",
     "suggest_offer": "Да ли сте пронашли грешку или желите да сугеришете ново ограничење?",
     "suggest_button_label": "Пошаљите предлог",

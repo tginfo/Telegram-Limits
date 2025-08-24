@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "投票选项数量",
                 "hint": "",
-                "text": "2 ~ 10 个"
+                "text": "2 to 12"
             },
             "poll_option_length": {
                 "name": "投票选项长度",

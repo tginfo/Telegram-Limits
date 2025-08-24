@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "Número de opções da enquete",
                 "hint": "",
-                "text": "2 até 10"
+                "text": "2 to 12"
             },
             "poll_option_length": {
                 "name": "Tamanho da opção de enquete",

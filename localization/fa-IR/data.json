@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "تعداد گزینه‌های نظرسنجی",
                 "hint": "",
-                "text": "از ۲ تا ۱۰ گزینه"
+                "text": "2 to 12"
             },
             "poll_option_length": {
                 "name": "طول گزینه‌های نظرسنجی",

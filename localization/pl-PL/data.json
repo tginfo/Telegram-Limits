@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "Ilość opcji ankiety",
                 "hint": "",
-                "text": "2 to 12"
+                "text": "2 do 12"
             },
             "poll_option_length": {
                 "name": "Długość opcji ankiety",

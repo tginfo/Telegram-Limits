@@ -731,11 +731,11 @@
             },
             "maximum_gifttostars_exchange_term": {
                 "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "text": "7 kun"
             },
             "minimum_term_stars_ownership_withdraw": {
                 "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "text": "21 kun"
             },
             "minimum_stars_amount_withdraw": {
                 "name": "Minimum stars amount for withdrawal",

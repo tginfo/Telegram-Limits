@@ -697,7 +697,7 @@
             "photo_resolution_hd": {
                 "name": "Photo resolution (HD)",
                 "hint": "when sent with compression",
-                "text": "each side should be less or equal to 2048px (Android) or 2560px (iOS, PC), else it will be downscaled so the biggest side will be 2048/2560px"
+                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
             }
         }
     },

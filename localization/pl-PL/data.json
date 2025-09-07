@@ -697,7 +697,7 @@
             "photo_resolution_hd": {
                 "name": "Rozdzielczość zdjęcia (HD)",
                 "hint": "kiedy wysłane z kompresją",
-                "text": "każdy bok powinien być mniejszy lub równy 2048px (Android) lub 2560 (iOS, PC), w przeciwnym razie zostanie zmniejszony tak, że największy bok będzie miał 2048/2560px"
+                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
             }
         }
     },

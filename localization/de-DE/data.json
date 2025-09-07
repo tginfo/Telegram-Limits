@@ -697,7 +697,7 @@
             "photo_resolution_hd": {
                 "name": "Fotoauflösung (HD)",
                 "hint": "beim Senden mit Komprimierung",
-                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+                "text": "Jede Seite sollte kleiner oder gleich 2560 Pixel sein, sonst wird sie verkleinert, sodass die größte Seite 2560 Pixel groß ist"
             }
         }
     },

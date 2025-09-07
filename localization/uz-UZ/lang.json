@@ -11,7 +11,7 @@
     "homepage": "Bosh sahifa",
     "language": "Til",
     "search": "Qidiruv",
-    "last_update": "Last Update: {%date%}",
+    "last_update": "Oxirgi yangilanish: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
     "for_premium_users": "Telegram Premium obunachilari uchun",
     "suggest_offer": "Found a mistake or want to suggest a new limit?",

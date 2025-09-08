@@ -14,8 +14,8 @@
     "last_update": "Oxirgi yangilanish: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
     "for_premium_users": "Telegram Premium obunachilari uchun",
-    "suggest_offer": "Found a mistake or want to suggest a new limit?",
-    "suggest_button_label": "Send a suggestion",
-    "translate_offer": "Help translating this page in your language!",
-    "translate_button_label": "I want to translate"
+    "suggest_offer": "Xato topdingizmi yoki yangi cheklov taklif qilmoqchimisiz?",
+    "suggest_button_label": "Taklif yuborish",
+    "translate_offer": "Ushbu sahifani o'z tilingizga tarjima qilishga yordam bering!",
+    "translate_button_label": "Men tarjima qilmoqchiman"
 }

@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "Kanallar va superguruhlar soni",
-                "hint": "you can be member of (combined)",
+                "hint": "siz a'zo bo'lishingiz mumkin bo'lgan (yoki birlashtirilgan)",
                 "text": "500 tagacha (o'zingiz ochganlar bilan)",
                 "text_premium": "1000 tagacha (o'zingiz ochganlar bilan)"
             },
@@ -308,7 +308,7 @@
                 "name": "Medialar uchun izoh",
                 "hint": "",
                 "text": "1,024 tagacha belgi",
-                "text_premium": "up to 4,096 characters"
+                "text_premium": "4,096 belgigacha"
             },
             "upload_size": {
                 "name": "Fayl o'lchamiga chegara",
@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "Soʻrovnoma javoblari soni",
                 "hint": "",
-                "text": "2 to 12"
+                "text": "2 tadan 12 gacha"
             },
             "poll_option_length": {
                 "name": "So'rovnoma javoblari uzunligi",
@@ -534,9 +534,9 @@
                 "text": "har bir sahifaga 50 tagacha element"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "name": "Inline qidiruv so'rovi",
+                "hint": "(<@BotUsername> sizning qidiruv so'rovingiz). Foydalanuvchilar so'rovlarni cheklovlarsiz kiritishlari mumkin, ammo bot faqat ma'lum miqdordagi belgilarni qayta ishlashi mumkin",
+                "text": "bot foydalanuvchi nomidan keyin 256 belgigacha"
             }
         }
     },
@@ -546,7 +546,7 @@
             "story_availability": {
                 "name": "Hikoya mavjudligi",
                 "hint": "Telegram Premiumsiz hikoyalar joylaydigan davlatlar",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "Roʻyxat bu yerda mavjud: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Hikoya faollik muddati ",
@@ -564,17 +564,17 @@
             },
             "story_daily_limit": {
                 "name": "Kundalik hikoyalar cheklovlari",
-                "text": "1 story",
+                "text": "1 ta hikoya",
                 "text_premium": "100 tagacha hikoyalar"
             },
             "story_weekly_limit": {
                 "name": "Haftalik hikoyalar cheklovlari",
-                "text": "up to 3 stories",
+                "text": "3 tagacha hikoya",
                 "text_premium": "700 tagacha hikoyalar"
             },
             "story_monthly_limit": {
                 "name": "Oylik hikoyalar cheklovlari",
-                "text": "up to 10 stories",
+                "text": "10 tagacha hikoya",
                 "text_premium": "3,000 tagacha hikoyalar"
             },
             "story_text_length": {
@@ -690,56 +690,56 @@
                 "text": "800x800 px, 2 MB gacha"
             },
             "photo_resolution": {
-                "name": "Photo resolution (SD)",
+                "name": "Fotosurat aniqligi (SD)",
                 "hint": "siqilish bilan yuborilganda",
-                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+                "text": "ear bir tomon 1280 piksel yoki undan kichik bo‘lishi kerak, aks holda rasm kichraytiriladi va eng katta tomoni 1280 piksel qilib cheklanadi"
             },
             "photo_resolution_hd": {
-                "name": "Photo resolution (HD)",
-                "hint": "when sent with compression",
-                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+                "name": "Fotosurat aniqligi (HD)",
+                "hint": "siqib yuborilganda",
+                "text": "ear bir tomon 2560 piksel yoki undan kichik bo‘lishi kerak, aks holda rasm kichraytiriladi va eng katta tomoni 2560 piksel bilan cheklanadi"
             }
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "Tekshirish ro'yxati",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in checklist",
-                "text": "from 1 to 30"
+                "name": "Tekshirish ro'yxatidagi elementlar soni",
+                "text": "1 tadan 30 tagacha"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "name": "Tekshirish roʻyxati sarlavhasi",
+                "text": "1 tadan 255 tagacha belgi"
             },
             "item_caption": {
-                "name": "Item caption",
-                "text": "from 1 to 100 characters"
+                "name": "Element sarlavhasi",
+                "text": "1 tadan 100 tagacha belgi"
             }
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "Sovg'alar",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "Sovg‘ani yuqori darajaga ko‘tarishning minimal narxi",
+                "text": "25 ta yulduz"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
+                "name": "Maksimal qadalgan sovg'alar soni",
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
+                "name": "Sovg‘ani yulduzlarga aylantirishdan oldingi kutish vaqti",
                 "text": "7 kun"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
+                "name": "Bu muddatdan keyin sovg‘ani yulduzlarga almashtirib bo‘lmaydi",
                 "text": "21 kun"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "Pul yechish uchun minimal yulduzlar soni",
+                "text": "1000 ta yulduz"
             }
         }
     }

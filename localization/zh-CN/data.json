@@ -697,7 +697,7 @@
             "photo_resolution_hd": {
                 "name": "图片分辨率（高清）",
                 "hint": "压缩发送时",
-                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+                "text": "每边应小于等于 2560px，否则将被压缩至长边为 2560px"
             }
         }
     },

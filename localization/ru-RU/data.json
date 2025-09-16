@@ -308,7 +308,7 @@
                 "name": "Описание к медиафайлам",
                 "hint": "",
                 "text": "до 1,024 символов",
-                "text_premium": "up to 4,096 characterstg://user? id=2091571519 tg://user? id=2140559342"
+                "text_premium": "up to 4,096 characters"
             },
             "upload_size": {
                 "name": "Объём отправляемых файлов",
@@ -739,7 +739,7 @@
             },
             "minimum_stars_amount_withdraw": {
                 "name": "Минимальная сумма звёзд для вывода",
-                "text": "tg://user?id=2140559342"
+                "text": "1000 звёзд"
             }
         }
     }

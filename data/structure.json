@@ -635,6 +635,10 @@
             {
                 "id": "minimum_stars_amount_withdraw",
                 "icon": "star"
+            },
+            {
+                "id": "gift_collections_users_profile",
+                "icon": "collections"
             }
         ]
     }

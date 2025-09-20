@@ -740,6 +740,10 @@
             "minimum_stars_amount_withdraw": {
                 "name": "提现所需的星币数量",
                 "text": "最少 1000 枚星币"
+            },
+            "gift_collections_users_profile": {
+                "name": "Gift collections in user's profile",
+                "text": "up to 10"
             }
         }
     }

@@ -740,6 +740,10 @@
             "minimum_stars_amount_withdraw": {
                 "name": "Pul yechish uchun minimal yulduzlar soni",
                 "text": "1000 ta yulduz"
+            },
+            "gift_collections_users_profile": {
+                "name": "Gift collections in user's profile",
+                "text": "up to 10"
             }
         }
     }

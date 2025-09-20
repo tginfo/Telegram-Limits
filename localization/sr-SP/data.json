@@ -697,7 +697,7 @@
             "photo_resolution_hd": {
                 "name": "Резолуција слике (HD)",
                 "hint": "када је послата компримована",
-                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+                "text": "свака страна би требало да буде мања или једнака 2560px, у супротном ће бити смањена тако да највећа страна износи 2560px"
             }
         }
     },

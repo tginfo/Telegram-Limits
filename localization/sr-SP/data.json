@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "Број опција анкете",
                 "hint": "",
-                "text": "2 to 12"
+                "text": "2 до 12"
             },
             "poll_option_length": {
                 "name": "Дужина опција анкете",

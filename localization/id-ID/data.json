@@ -740,6 +740,10 @@
             "minimum_stars_amount_withdraw": {
                 "name": "Minimum stars amount for withdrawal",
                 "text": "1000 stars"
+            },
+            "gift_collections_users_profile": {
+                "name": "Gift collections in user's profile",
+                "text": "up to 10"
             }
         }
     }

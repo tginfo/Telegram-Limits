@@ -740,6 +740,10 @@
             "minimum_stars_amount_withdraw": {
                 "name": "Минимални износ звездица за повлачење",
                 "text": "1000 звездица"
+            },
+            "gift_collections_users_profile": {
+                "name": "Gift collections in user's profile",
+                "text": "up to 10"
             }
         }
     }

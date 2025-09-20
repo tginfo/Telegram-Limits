@@ -740,6 +740,10 @@
             "minimum_stars_amount_withdraw": {
                 "name": "Минимальная сумма звёзд для вывода",
                 "text": "1000 звёзд"
+            },
+            "gift_collections_users_profile": {
+                "name": "Gift collections in user's profile",
+                "text": "up to 10"
             }
         }
     }

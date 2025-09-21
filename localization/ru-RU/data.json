@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "Количество опций опроса",
                 "hint": "",
-                "text": "\n"
+                "text": "2 to 12"
             },
             "poll_option_length": {
                 "name": "Длина варианта ответа в опросе",

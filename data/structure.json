@@ -493,6 +493,10 @@
             {
                 "id": "story_incognito_duration",
                 "icon": "timer_off"
+            },
+            {
+                "id": "stories_albums",
+                "icon": "collections"
             }
         ]
     },
@@ -639,6 +643,10 @@
             {
                 "id": "gift_collections_users_profile",
                 "icon": "collections"
+            },
+            {
+                "id": "maximum_period_convert_received_gift_stars",
+                "icon": "today"
             }
         ]
     }

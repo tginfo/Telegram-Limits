@@ -592,6 +592,10 @@
                 "hint": "(alle Ansichten der letzten 5 Minuten vor dem Einschalten des Modus verschwinden und Ansichten für 25 Minuten nach dem Einschalten werden nicht aufgezeichnet)",
                 "text": "nicht verfügbar",
                 "text_premium": "30 Minuten"
+            },
+            "stories_albums": {
+                "name": "Stories albums",
+                "text": "up to 100"
             }
         }
     },
@@ -744,6 +748,10 @@
             "gift_collections_users_profile": {
                 "name": "Gift collections in user's profile",
                 "text": "up to 10"
+            },
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Maximum period to convert received gift to stars",
+                "text": "7 days"
             }
         }
     }

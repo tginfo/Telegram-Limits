@@ -592,6 +592,10 @@
                 "hint": "(tutte le visualizzazioni degli ultimi 5 minuti, prima che la modalità sia stata attivata, spariscono e le visualizzazioni, dopo che è stato attivata la modalità, non verranno registrate per 25 minuti)",
                 "text": "non disponibile",
                 "text_premium": "30 minuti"
+            },
+            "stories_albums": {
+                "name": "Stories albums",
+                "text": "up to 100"
             }
         }
     },
@@ -744,6 +748,10 @@
             "gift_collections_users_profile": {
                 "name": "Raccolte regali nel profilo utente",
                 "text": "fino a 10"
+            },
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Maximum period to convert received gift to stars",
+                "text": "7 days"
             }
         }
     }

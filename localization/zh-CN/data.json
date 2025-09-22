@@ -592,6 +592,10 @@
                 "hint": "（启用前 5 分钟内的查看记录消失，启用后 25 分钟内的查看不被记录）",
                 "text": "不可用",
                 "text_premium": "30 分钟"
+            },
+            "stories_albums": {
+                "name": "Stories albums",
+                "text": "up to 100"
             }
         }
     },
@@ -744,6 +748,10 @@
             "gift_collections_users_profile": {
                 "name": "Gift collections in user's profile",
                 "text": "up to 10"
+            },
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Maximum period to convert received gift to stars",
+                "text": "7 days"
             }
         }
     }

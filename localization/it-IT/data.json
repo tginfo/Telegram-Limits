@@ -594,8 +594,8 @@
                 "text_premium": "30 minuti"
             },
             "stories_albums": {
-                "name": "Stories albums",
-                "text": "up to 100"
+                "name": "Album storie",
+                "text": "fino a 100"
             }
         }
     },
@@ -750,8 +750,8 @@
                 "text": "fino a 10"
             },
             "maximum_period_convert_received_gift_stars": {
-                "name": "Maximum period to convert received gift to stars",
-                "text": "7 days"
+                "name": "Periodo massimo per convertire il regalo ricevuto in stelle",
+                "text": "7 giorni"
             }
         }
     }

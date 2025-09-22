@@ -594,8 +594,8 @@
                 "text_premium": "30 минут"
             },
             "stories_albums": {
-                "name": "Stories albums",
-                "text": "up to 100"
+                "name": "Максимальное количество альбомов историй в профиле",
+                "text": "100"
             }
         }
     },
@@ -746,12 +746,12 @@
                 "text": "1000 звёзд"
             },
             "gift_collections_users_profile": {
-                "name": "Gift collections in user's profile",
-                "text": "up to 10"
+                "name": "Максимальное количество коллекций подарков в профиле",
+                "text": "10"
             },
             "maximum_period_convert_received_gift_stars": {
-                "name": "Maximum period to convert received gift to stars",
-                "text": "7 days"
+                "name": "Срок, в течение которого можно обменять полученный подарок на звёзды",
+                "text": "7 суток"
             }
         }
     }

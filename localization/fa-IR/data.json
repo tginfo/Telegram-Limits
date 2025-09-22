@@ -592,6 +592,10 @@
                 "hint": "(تمام بازدیدهای ۵ دقیقه قبل از فعال‌سازی این حالت حذف می‌شوند و بازدیدهای ۲۵ دقیقه پس از فعال‌سازی ثبت نمی‌شوند)",
                 "text": "غیرقابل دسترس",
                 "text_premium": "۳۰ دقیقه"
+            },
+            "stories_albums": {
+                "name": "Stories albums",
+                "text": "up to 100"
             }
         }
     },
@@ -744,6 +748,10 @@
             "gift_collections_users_profile": {
                 "name": "Gift collections in user's profile",
                 "text": "up to 10"
+            },
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Maximum period to convert received gift to stars",
+                "text": "7 days"
             }
         }
     }

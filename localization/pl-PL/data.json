@@ -746,12 +746,12 @@
                 "text": "1000 Gwiazdek"
             },
             "gift_collections_users_profile": {
-                "name": "Gift collections in user's profile",
-                "text": "up to 10"
+                "name": "Kolekcje prezentów w profilu użytkownika",
+                "text": "do 10"
             },
             "maximum_period_convert_received_gift_stars": {
-                "name": "Maximum period to convert received gift to stars",
-                "text": "7 days"
+                "name": "Maksymalny okres wymiany otrzymanego prezentu na Gwiazdki",
+                "text": "7 dni"
             }
         }
     }

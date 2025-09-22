@@ -592,6 +592,10 @@
                 "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
                 "text": "not available",
                 "text_premium": "30 minutes"
+            },
+            "stories_albums": {
+                "name": "Stories albums",
+                "text": "up to 100"
             }
         }
     },
@@ -744,6 +748,10 @@
             "gift_collections_users_profile": {
                 "name": "Gift collections in user's profile",
                 "text": "up to 10"
+            },
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Maximum period to convert received gift to stars",
+                "text": "7 days"
             }
         }
     }

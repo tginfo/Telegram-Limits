@@ -11,11 +11,11 @@
     "homepage": "首頁",
     "language": "語言",
     "search": "搜尋",
-    "last_update": "Last Update: {%date%}",
-    "search_last_update": "{%search%}. {%last_update%}",
-    "for_premium_users": "for Telegram Premium users",
-    "suggest_offer": "Found a mistake or want to suggest a new limit?",
-    "suggest_button_label": "Send a suggestion",
-    "translate_offer": "Help translating this page in your language!",
-    "translate_button_label": "I want to translate"
+    "last_update": "最後更新：{%date%}",
+    "search_last_update": "{%search%} {%last_update%}",
+    "for_premium_users": "針對 Telegram Premium 使用者",
+    "suggest_offer": "發現錯誤或想建議新限制？",
+    "suggest_button_label": "傳送建議",
+    "translate_offer": "幫忙將此頁面翻譯成您的語言！",
+    "translate_button_label": "我想要翻譯"
 }

@@ -10,7 +10,7 @@
             "bio": {
                 "name": "自我介紹",
                 "hint": "",
-                "text": "up to 70 characters",
+                "text": "最多 70 個字元",
                 "text_premium": "最多 140 個字元"
             },
             "name_length": {
@@ -26,25 +26,25 @@
             "self_destruction": {
                 "name": "自動刪除帳號時間",
                 "hint": "如在設定時間沒有活動",
-                "text": "1, 3, 6, 12, 18, 24 months (18 months by default)"
+                "text": "1、3、6、12、18、24 個月（預設 18 個月）"
             },
             "spam_ban": {
                 "name": "違反防垃圾規則封鎖",
                 "hint": "",
                 "text": "1 天～永久",
-                "text_premium": "from 1 second up to forever"
+                "text_premium": "1秒～永久"
             },
             "channels_and_chats_number": {
                 "name": "頻道與超級群組人數",
-                "hint": "you can be member of (combined)",
-                "text": "up to 500 (including ones you own)",
-                "text_premium": "up to 1000 (including ones you own)"
+                "hint": "（合併計算）",
+                "text": "最多 500 個（包含自己建立的）",
+                "text_premium": "最多 1000 個（包含自己建立的）"
             },
             "gifs_number": {
                 "name": "保存 GIF 數量",
                 "hint": "",
-                "text": "up to 200",
-                "text_premium": "up to 400"
+                "text": "最多 200 個",
+                "text_premium": "最多 400 個"
             },
             "video_length": {
                 "name": "動態頭貼長度",
@@ -59,8 +59,8 @@
             "accounts_number": {
                 "name": "登入帳號數量",
                 "hint": "（官方客戶端）",
-                "text": "up to 3",
-                "text_premium": "up to 4-6 (depends on app)"
+                "text": "最多 3 個",
+                "text_premium": "最多 4 到 6 個（依應用程式而定）"
             },
             "visible_messages": {
                 "name": "可見訊息數量",
@@ -68,19 +68,19 @@
                 "text": "無限制；2018 年以前 - 最多可見 1,000,000 則訊息：https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
-                "name": "Sticker packs per account",
+                "name": "每個帳號可以新增的貼圖包",
                 "hint": "",
-                "text": "up to 200"
+                "text": "最多 200 個"
             },
             "emoji_packs_per_account": {
-                "name": "Emoji packs per account",
+                "name": "每個帳號可以新增的表情包",
                 "hint": "",
-                "text": "up to 200"
+                "text": "最多 200 個"
             },
             "username_ownership_for_auction": {
-                "name": "Minimum username ownership for auction",
+                "name": "使用者名稱可以拍賣的最低天數",
                 "hint": "",
-                "text": "14 days"
+                "text": "14 天"
             }
         }
     },
@@ -105,8 +105,8 @@
             "pinned_number": {
                 "name": "主選單置頂對話清單",
                 "hint": "",
-                "text": "up to 5 chats or channels + 5 secret chats",
-                "text_premium": "up to 10 chats or channels"
+                "text": "最多 5 個對話或頻道 + 5 個私密對話",
+                "text_premium": "最多 10 個對話或頻道"
             },
             "group_name": {
                 "name": "群組名稱及描述",
@@ -181,22 +181,22 @@
         }
     },
     "topic": {
-        "name": "Forum",
+        "name": "論壇",
         "items": {
             "topics_per_group": {
-                "name": "Topics per group",
+                "name": "每個群組的討論串個數",
                 "hint": "",
-                "text": "up to 1,000,000"
+                "text": "最多 1,000,000 個"
             },
             "topic_title_length": {
-                "name": "Topic title length",
+                "name": "討論串標題長度",
                 "hint": "",
-                "text": "up to 128 characters"
+                "text": "最多 128 個字元"
             },
             "pinned_topics": {
-                "name": "Pinned topics",
+                "name": "可置頂的討論串",
                 "hint": "",
-                "text": "up to 5"
+                "text": "最多 5 個"
             }
         }
     },
@@ -219,9 +219,9 @@
                 "text": "官方聲稱為無限，但大約超過 2,000 人時直播可能會變得不穩定"
             },
             "voice_chat_title_length": {
-                "name": "Voice chat title length",
+                "name": "語音對話標題長度",
                 "hint": "",
-                "text": "up to 40 characters"
+                "text": "最多 40 個字元"
             },
             "voice_chat_schedule": {
                 "name": "排程訊息",
@@ -237,7 +237,7 @@
                 "name": "可以開立的頻道數目",
                 "hint": "（單一使用者）",
                 "text": "最多 10 個（包括群組）",
-                "text_premium": "up to 20 (including groups)"
+                "text_premium": "最多 20 個（包括群組）"
             },
             "username_length": {
                 "name": "使用者名稱長度",
@@ -307,14 +307,14 @@
             "media_descriptions": {
                 "name": "圖片與影片說明",
                 "hint": "",
-                "text": "up to 1,024 characters",
-                "text_premium": "up to 4,096 characters"
+                "text": "最多 1,024 個字元",
+                "text_premium": "最多 4,096 個字元"
             },
             "upload_size": {
                 "name": "單一檔案大小限制",
                 "hint": "",
-                "text": "up to 2 GB",
-                "text_premium": "up to 4 GB"
+                "text": "最大 2 GB",
+                "text_premium": "最大 4 GB"
             },
             "file_name_length": {
                 "name": "檔案名稱長度",
@@ -342,40 +342,40 @@
                 "text": "最多 365 天"
             },
             "custom_emoji_per_message": {
-                "name": "Custom emoji per message",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
-                "text": "not available",
-                "text_premium": "up to 100 emoji"
+                "name": "每個訊息的自訂表情符號",
+                "hint": "非 Telegram Premium 使用者只能發送自訂表情符號到「我的收藏」，超過 100 個自訂表情符號的部分會被取代成對應的標準表情符號",
+                "text": "不可用",
+                "text_premium": "最多 100 個自訂表情符號"
             },
             "links_per_message": {
-                "name": "Links per message",
+                "name": "每個訊息的連結數量",
                 "hint": "",
-                "text": "up to 100 links"
+                "text": "最多 100 個連結"
             }
         }
     },
     "poll": {
-        "name": "Polls",
+        "name": "投票",
         "items": {
             "poll_question_length": {
-                "name": "Poll question length",
+                "name": "投票問題字數",
                 "hint": "",
-                "text": "1 to 255 characters"
+                "text": "1 到 255 個字元"
             },
             "quiz_question_length": {
-                "name": "Quiz question length",
+                "name": "測驗問題字數",
                 "hint": "",
-                "text": "1 to 200 characters"
+                "text": "1 到 200 個字元"
             },
             "poll_options_count": {
-                "name": "Poll options count",
+                "name": "投票選項個數",
                 "hint": "",
-                "text": "2 to 12"
+                "text": "2 到 12 個"
             },
             "poll_option_length": {
-                "name": "Poll option length",
+                "name": "投票選項字數",
                 "hint": "",
-                "text": "1 to 100 characters"
+                "text": "1 到 100 個字元"
             }
         }
     },
@@ -383,44 +383,44 @@
         "name": "資料夾",
         "items": {
             "name_length": {
-                "name": "Folder name length",
+                "name": "資料夾名稱長度",
                 "hint": "",
-                "text": "up to 12 characters"
+                "text": "最多 12 個字元"
             },
             "folder_amount": {
                 "name": "資料夾數量",
                 "hint": "",
-                "text": "up to 10 folders",
-                "text_premium": "up to 30 folders"
+                "text": "最多 10 個資料夾",
+                "text_premium": "最多 30 個資料夾"
             },
             "chats_per_folder": {
-                "name": "Chats per folder",
-                "hint": "Does not include chats added to the folder by their type (e.g. Channels). Includes chats added to the Exceptions section.",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
+                "name": "每個資料夾的對話數量",
+                "hint": "不包含透過聊天室類型新增到資料夾的對話（例如：頻道）。包含新增到排除區域的對話。",
+                "text": "最多 100 個對話",
+                "text_premium": "最多 200 個對話"
             },
             "pinned_chats_in_folder": {
                 "name": "資料夾中可以置頂的對話數量",
                 "hint": "",
-                "text": "up to 100 chats",
-                "text_premium": "up to 200 chats"
+                "text": "最多 100 個對話",
+                "text_premium": "最多 200 個對話"
             }
         }
     },
     "public_folders": {
-        "name": "Public Folders",
+        "name": "公開資料夾",
         "items": {
             "public_folders_count": {
-                "name": "Number of public folders",
+                "name": "公開資料夾個數",
                 "hint": "",
-                "text": "up to 2 folders",
-                "text_premium": "up to 20 folders"
+                "text": "最多 2 個資料夾",
+                "text_premium": "最多 20 個資料夾"
             },
             "chats_per_public_folder": {
-                "name": "Chats/channels per public folder",
+                "name": "每個公開資料夾的對話或頻道個數",
                 "hint": "",
-                "text": "up to 100 items",
-                "text_premium": "up to 200 items"
+                "text": "最多 100 個",
+                "text_premium": "最多 200 個"
             }
         }
     },
@@ -431,12 +431,12 @@
                 "name": "機器人數量",
                 "hint": "(透過 @BotFather 創建)",
                 "text": "最多 20 個",
-                "text_premium": "up to 40 items"
+                "text_premium": "最多 40 個"
             },
             "username_length": {
-                "name": "Length of @username",
-                "hint": "for bots",
-                "text": "5 to 32 characters"
+                "name": "使用者名稱長度",
+                "hint": "（機器人）",
+                "text": "5 到 32 個字元"
             },
             "info_length": {
                 "name": "機器人資訊長度",
@@ -499,9 +499,9 @@
                 "text": "所有聊天室加起來不超過 30 則訊息"
             },
             "api_requests_frequency": {
-                "name": "API requests frequency",
+                "name": "API 請求頻率",
                 "hint": "",
-                "text": "up to about 30 requests per second"
+                "text": "每秒最多 30 個請求"
             },
             "bot_commands_count": {
                 "name": "可以顯示的指令數量",
@@ -534,68 +534,68 @@
                 "text": "每頁最多顯示 50 項"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "name": "Inline 搜尋內容",
+                "hint": "（<@BotUsername> 搜尋內容） 使用者可以無限制的輸入搜尋，但機器人只能處理限定字數",
+                "text": "機器人的使用者名稱後面最多 256 個字元"
             }
         }
     },
     "stories": {
-        "name": "Stories",
+        "name": "動態",
         "items": {
             "story_availability": {
-                "name": "Story availability",
-                "hint": "countries where stories are available without Telegram Premium",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "name": "可使用動態",
+                "hint": "非 Telegram Premium 使用者可使用動態的地區",
+                "text": "列表： https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
-                "name": "Story lifetime",
-                "text": "24 hours",
-                "text_premium": "6/12/24/48 hours"
+                "name": "動態生命週期",
+                "text": "24 小時",
+                "text_premium": "6/12/24/48 小時"
             },
             "story_duration": {
-                "name": "Story duration",
-                "text": "up to 60 seconds"
+                "name": "動態長度",
+                "text": "最多 60 秒"
             },
             "story_viewers_visibility": {
-                "name": "Viewers visibility",
-                "text": "24 hours",
-                "text_premium": "unlimited"
+                "name": "可檢視已檢視使用者的時間",
+                "text": "24 小時",
+                "text_premium": "無限制"
             },
             "story_daily_limit": {
-                "name": "Daily stories limit",
-                "text": "1 story",
-                "text_premium": "up to 100 stories"
+                "name": "每日動態限制",
+                "text": "1 個動態",
+                "text_premium": "最多 100 個動態"
             },
             "story_weekly_limit": {
-                "name": "Weekly stories limit",
-                "text": "up to 3 stories",
-                "text_premium": "up to 700 stories"
+                "name": "每週動態限制",
+                "text": "最多 3 個動態",
+                "text_premium": "最多 700 個動態"
             },
             "story_monthly_limit": {
-                "name": "Monthly stories limit",
-                "text": "up to 10 stories",
-                "text_premium": "up to 3,000 stories"
+                "name": "每月動態限制",
+                "text": "最多 10 個動態",
+                "text_premium": "最多 3,000 個動態"
             },
             "story_text_length": {
-                "name": "Text length in story",
-                "text": "up to 200 characters",
-                "text_premium": "up to 2,048 characters"
+                "name": "動態文字長度",
+                "text": "最多 200 個字元",
+                "text_premium": "最多 2,048 個字元"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency",
-                "text": "not available",
-                "text_premium": "once per 3 hour"
+                "name": "匿名使用頻率",
+                "text": "不可用",
+                "text_premium": "每 3 小時 1 次"
             },
             "story_incognito_duration": {
-                "name": "Incognito duration",
-                "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
-                "text": "not available",
-                "text_premium": "30 minutes"
+                "name": "隱身長度",
+                "hint": "（在模式啟用前 5 分鐘的所有檢視記錄會移除，且啟用後 25 分鐘內的檢視不會被記錄）",
+                "text": "不可用",
+                "text_premium": "30分鐘"
             },
             "stories_albums": {
-                "name": "Stories albums",
-                "text": "up to 100"
+                "name": "動態相簿",
+                "text": "最多 100 個"
             }
         }
     },
@@ -625,8 +625,8 @@
             "favorite_stickers": {
                 "name": "最愛貼圖",
                 "hint": "",
-                "text": "up to 5 items",
-                "text_premium": "up to 10 items"
+                "text": "最多 5 個項目",
+                "text_premium": "最多 10 個項目"
             },
             "pack_size": {
                 "name": "貼圖包中的貼圖數量",
@@ -664,9 +664,9 @@
                 "text": "最多 62 個字元"
             },
             "emojis_per_pack": {
-                "name": "Emojis per pack",
+                "name": "每個表情包的表情符號",
                 "hint": "",
-                "text": "up to 200"
+                "text": "最多 200 個"
             }
         }
     },
@@ -680,7 +680,7 @@
             },
             "text_size": {
                 "name": "文章大小",
-                "hint": "(including pictures)",
+                "hint": "（包括圖片）",
                 "text": "最大 64 KB"
             }
         }
@@ -694,52 +694,52 @@
                 "text": "必須為 800 x 800 px，檔案必須小於 2 MB"
             },
             "photo_resolution": {
-                "name": "Photo resolution (SD)",
+                "name": "相片解析度（標準畫質）",
                 "hint": "（開啟壓縮時）",
-                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+                "text": "長與寬皆須小於或等於 1280 px，否則將縮放圖片使最大邊為 1280 px"
             },
             "photo_resolution_hd": {
-                "name": "Photo resolution (HD)",
-                "hint": "when sent with compression",
-                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+                "name": "相片解析度（高畫質）",
+                "hint": "（開啟壓縮時）",
+                "text": "長與寬皆須小於或等於 2560 px，否則將縮放圖片使最大邊為 2560 px"
             }
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "核對清單",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in checklist",
-                "text": "from 1 to 30"
+                "name": "核對清單的項目數量",
+                "text": "1 到 30 個"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "name": "核對清單說明",
+                "text": "1 到 255 個字元"
             },
             "item_caption": {
-                "name": "Item caption",
-                "text": "from 1 to 100 characters"
+                "name": "項目說明",
+                "text": "1 到 100 個字元"
             }
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "禮物",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "禮物升級最低價格",
+                "text": "25 個星星"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
-                "text": "6"
+                "name": "最大置頂禮物數量",
+                "text": "6個"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "name": "禮物可轉換成星星的冷卻時間",
+                "text": "7 天"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "name": "禮物無法轉換為星星的時間",
+                "text": "21 天"
             },
             "minimum_stars_amount_withdraw": {
                 "name": "Minimum stars amount for withdrawal",

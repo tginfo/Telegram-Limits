@@ -35,7 +35,7 @@
                 "text_premium": "1秒～永久"
             },
             "channels_and_chats_number": {
-                "name": "頻道與超級群組人數",
+                "name": "可加入的頻道與超級群組個數",
                 "hint": "（合併計算）",
                 "text": "最多 500 個（包含自己建立的）",
                 "text_premium": "最多 1000 個（包含自己建立的）"
@@ -95,15 +95,15 @@
             "admins_number": {
                 "name": "管理員人數",
                 "hint": "在群組中",
-                "text": "高達 50 位"
+                "text": "最多 50 位"
             },
             "bots_amount": {
                 "name": "機器人數量",
                 "hint": "在群組中",
-                "text": "高達 20 個"
+                "text": "最多 20 個"
             },
             "pinned_number": {
-                "name": "主選單置頂對話清單",
+                "name": "主對話列表可以置頂的對話數量",
                 "hint": "",
                 "text": "最多 5 個對話或頻道 + 5 個私密對話",
                 "text_premium": "最多 10 個對話或頻道"
@@ -252,7 +252,7 @@
             "channel_admins": {
                 "name": "頻道管理員人數",
                 "hint": "（包含機器人）",
-                "text": "最多 50 個賬户"
+                "text": "最多 50 個帳號"
             },
             "editing": {
                 "name": "訊息編輯時限",

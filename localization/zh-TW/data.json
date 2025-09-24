@@ -738,20 +738,20 @@
                 "text": "7 天"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "禮物無法轉換為星星的時間",
+                "name": "禮物無法被轉換為星星的時間",
                 "text": "21 天"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "星星出金的最低數量",
+                "text": "1000 個星星"
             },
             "gift_collections_users_profile": {
-                "name": "Gift collections in user's profile",
-                "text": "up to 10"
+                "name": "使用者資料頁的禮物收藏集",
+                "text": "最多 10 個"
             },
             "maximum_period_convert_received_gift_stars": {
-                "name": "Maximum period to convert received gift to stars",
-                "text": "7 days"
+                "name": "轉換禮物為星星的最大期限",
+                "text": "7 天"
             }
         }
     }

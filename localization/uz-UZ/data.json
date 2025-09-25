@@ -594,8 +594,8 @@
                 "text_premium": "30 daqiqa"
             },
             "stories_albums": {
-                "name": "Stories albums",
-                "text": "up to 100"
+                "name": "Hikoyalar albomi",
+                "text": "100 tagacha"
             }
         }
     },
@@ -747,11 +747,11 @@
             },
             "gift_collections_users_profile": {
                 "name": "Gift collections in user's profile",
-                "text": "up to 10"
+                "text": "10 tagacha"
             },
             "maximum_period_convert_received_gift_stars": {
                 "name": "Maximum period to convert received gift to stars",
-                "text": "7 days"
+                "text": "7 kun"
             }
         }
     }

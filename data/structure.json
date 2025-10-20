@@ -63,6 +63,10 @@
             {
                 "id": "username_ownership_for_auction",
                 "icon": "gavel"
+            },
+            {
+                "id": "maximum_contact_note_length",
+                "icon": "note_alt"
             }
         ]
     },
@@ -188,6 +192,14 @@
             {
                 "id": "voice_chat_schedule",
                 "icon": "more_time"
+            },
+            {
+                "id": "comment_length",
+                "icon": "comment"
+            },
+            {
+                "id": "comment_lifetime",
+                "icon": "access_time"
             }
         ]
     },

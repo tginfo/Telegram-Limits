@@ -81,6 +81,10 @@
                 "name": "Mindestanzahl an Benutzernamen für Auktionen",
                 "hint": "",
                 "text": "14 Tage"
+            },
+            "maximum_contact_note_length": {
+                "name": "Maximum contact note length",
+                "text": "128 symbols"
             }
         }
     },
@@ -227,6 +231,16 @@
                 "name": "Geplante Sprachchats",
                 "hint": "",
                 "text": "bis zu 7 Tage im Voraus"
+            },
+            "comment_length": {
+                "name": "Comment length",
+                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "text": "128"
+            },
+            "comment_lifetime": {
+                "name": "Comment lifetime",
+                "hint": "Lifetime of comment, if not pinned",
+                "text": "10 seconds"
             }
         }
     },

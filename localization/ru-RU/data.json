@@ -81,6 +81,10 @@
                 "name": "Минимальное время владения именем пользователя для отправки на аукцион",
                 "hint": "",
                 "text": "14 дней"
+            },
+            "maximum_contact_note_length": {
+                "name": "Maximum contact note length",
+                "text": "128 symbols"
             }
         }
     },
@@ -227,6 +231,16 @@
                 "name": "Запланированные чаты",
                 "hint": "",
                 "text": "до 7 дней"
+            },
+            "comment_length": {
+                "name": "Comment length",
+                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "text": "128"
+            },
+            "comment_lifetime": {
+                "name": "Comment lifetime",
+                "hint": "Lifetime of comment, if not pinned",
+                "text": "10 seconds"
             }
         }
     },

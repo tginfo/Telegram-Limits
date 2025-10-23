@@ -81,6 +81,10 @@
                 "name": "حداقل مدت مالکیت نام کاربری برای مزایده",
                 "hint": "",
                 "text": "۱۴ روز"
+            },
+            "maximum_contact_note_length": {
+                "name": "Maximum contact note length",
+                "text": "128 symbols"
             }
         }
     },
@@ -227,6 +231,16 @@
                 "name": "گفتگوهای زمان‌بندی‌شده",
                 "hint": "",
                 "text": "تا ۷ روز پس از آن"
+            },
+            "comment_length": {
+                "name": "Comment length",
+                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "text": "128"
+            },
+            "comment_lifetime": {
+                "name": "Comment lifetime",
+                "hint": "Lifetime of comment, if not pinned",
+                "text": "10 seconds"
             }
         }
     },

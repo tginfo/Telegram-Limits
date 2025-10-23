@@ -83,8 +83,8 @@
                 "text": "14 giorni"
             },
             "maximum_contact_note_length": {
-                "name": "Maximum contact note length",
-                "text": "128 symbols"
+                "name": "Lunghezza massima della nota dell'utente",
+                "text": "128 caratteri"
             }
         }
     },
@@ -233,14 +233,14 @@
                 "text": "fino a 7 giorni in anticipo"
             },
             "comment_length": {
-                "name": "Comment length",
-                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "name": "Lunghezza commento",
+                "hint": "Lunghezza massima del messaggio che può esser inviato alla chat video/vocale",
                 "text": "128"
             },
             "comment_lifetime": {
-                "name": "Comment lifetime",
-                "hint": "Lifetime of comment, if not pinned",
-                "text": "10 seconds"
+                "name": "Durata del commento",
+                "hint": "Durata del commento, se non fissato",
+                "text": "10 secondi"
             }
         }
     },

@@ -81,6 +81,10 @@
                 "name": "拍卖所需最小用户名持有时间",
                 "hint": "",
                 "text": "14 天"
+            },
+            "maximum_contact_note_length": {
+                "name": "Maximum contact note length",
+                "text": "128 symbols"
             }
         }
     },
@@ -227,6 +231,16 @@
                 "name": "可提前预定的时长",
                 "hint": "",
                 "text": "最多提前 7 天"
+            },
+            "comment_length": {
+                "name": "Comment length",
+                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "text": "128"
+            },
+            "comment_lifetime": {
+                "name": "Comment lifetime",
+                "hint": "Lifetime of comment, if not pinned",
+                "text": "10 seconds"
             }
         }
     },

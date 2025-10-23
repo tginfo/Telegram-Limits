@@ -308,7 +308,7 @@
                 "name": "Описание к медиафайлам",
                 "hint": "",
                 "text": "до 1,024 символов",
-                "text_premium": "up to 4,096 characters"
+                "text_premium": "до 4 096 символов"
             },
             "upload_size": {
                 "name": "Объём отправляемых файлов",
@@ -370,7 +370,7 @@
             "poll_options_count": {
                 "name": "Количество опций опроса",
                 "hint": "",
-                "text": "2 to 12"
+                "text": "от 2 до 12"
             },
             "poll_option_length": {
                 "name": "Длина варианта ответа в опросе",
@@ -534,8 +534,8 @@
                 "text": "до 50 элементов на страницу"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
+                "name": "Поисковый запрос",
+                "hint": "(<@BotUsername> ваш поисковый запрос). Пользователи могут вводить запросы без ограничений, но бот может обрабатывать только определенное количество символов",
                 "text": "до 256 символов после юзернейма бота"
             }
         }

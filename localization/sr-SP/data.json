@@ -81,6 +81,10 @@
                 "name": "Минимално власништво корисничког имена за аукцију",
                 "hint": "",
                 "text": "14 дана"
+            },
+            "maximum_contact_note_length": {
+                "name": "Maximum contact note length",
+                "text": "128 symbols"
             }
         }
     },
@@ -227,6 +231,16 @@
                 "name": "Заказивање гласовних ћаскања",
                 "hint": "",
                 "text": "до 7 дана унапред"
+            },
+            "comment_length": {
+                "name": "Comment length",
+                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "text": "128"
+            },
+            "comment_lifetime": {
+                "name": "Comment lifetime",
+                "hint": "Lifetime of comment, if not pinned",
+                "text": "10 seconds"
             }
         }
     },

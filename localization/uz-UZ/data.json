@@ -26,7 +26,7 @@
             "self_destruction": {
                 "name": "Akkauntning o'z-o'zini yo'q qilish davri",
                 "hint": "faollik kuzatilmasa",
-                "text": "1, 3, 6, 12, 18, 24 oyda (Sukut bo'yicha 18 oy) "
+                "text": "1, 3, 6, 12, 18, 24 oyda (Standart boyicha 18 oy) "
             },
             "spam_ban": {
                 "name": "Spam taqiq",
@@ -81,6 +81,10 @@
                 "name": "Auksionga username yuborish uchun egalarning minimal vaqti",
                 "hint": "",
                 "text": "14 kun"
+            },
+            "maximum_contact_note_length": {
+                "name": "Maximum contact note length",
+                "text": "128 symbols"
             }
         }
     },
@@ -227,6 +231,16 @@
                 "name": "Rejalashtirilgan suhbatlar",
                 "hint": "",
                 "text": "keyingi 7 kungacha"
+            },
+            "comment_length": {
+                "name": "Comment length",
+                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "text": "128"
+            },
+            "comment_lifetime": {
+                "name": "Comment lifetime",
+                "hint": "Lifetime of comment, if not pinned",
+                "text": "10 seconds"
             }
         }
     },

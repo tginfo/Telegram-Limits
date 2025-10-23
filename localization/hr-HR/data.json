@@ -81,6 +81,10 @@
                 "name": "Minimum username ownership for auction",
                 "hint": "",
                 "text": "14 days"
+            },
+            "maximum_contact_note_length": {
+                "name": "Maximum contact note length",
+                "text": "128 symbols"
             }
         }
     },
@@ -227,6 +231,16 @@
                 "name": "Zakazani razgovori",
                 "hint": "",
                 "text": "do 7 dana unaprijed"
+            },
+            "comment_length": {
+                "name": "Comment length",
+                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "text": "128"
+            },
+            "comment_lifetime": {
+                "name": "Comment lifetime",
+                "hint": "Lifetime of comment, if not pinned",
+                "text": "10 seconds"
             }
         }
     },

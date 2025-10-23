@@ -81,6 +81,10 @@
                 "name": "Propriété minimale du nom d'utilisateur pour les enchères",
                 "hint": "",
                 "text": "14 jours"
+            },
+            "maximum_contact_note_length": {
+                "name": "Maximum contact note length",
+                "text": "128 symbols"
             }
         }
     },
@@ -227,6 +231,16 @@
                 "name": "Planification de salons",
                 "hint": "",
                 "text": "jusqu'à 7 jours"
+            },
+            "comment_length": {
+                "name": "Comment length",
+                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "text": "128"
+            },
+            "comment_lifetime": {
+                "name": "Comment lifetime",
+                "hint": "Lifetime of comment, if not pinned",
+                "text": "10 seconds"
             }
         }
     },

@@ -560,10 +560,10 @@
             "story_availability": {
                 "name": "Доступность историй",
                 "hint": "страны, где истории доступны без Telegram Premium",
-                "text": "Список доступен здесь: https://tginfo.me/stories-by-countries-en/"
+                "text": "Список доступен здесь: https://tginfo.me/stories-by-countries/"
             },
             "story_lifetime": {
-                "name": "Время исчезновения истории",
+                "name": "Срок жизни истории",
                 "text": "24 часа",
                 "text_premium": "6/12/24/48 часов"
             },

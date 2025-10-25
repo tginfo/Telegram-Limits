@@ -605,6 +605,10 @@
             {
                 "id": "photo_resolution_hd",
                 "icon": "hd"
+            },
+            {
+                "id": "dice_emoji_options",
+                "icon": "sports_basketball"
             }
         ]
     },

@@ -716,6 +716,10 @@
                 "name": "Photo resolution (HD)",
                 "hint": "when sent with compression",
                 "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+            },
+            "dice_emoji_options": {
+                "name": "Dice emoji options",
+                "text": "🎲🏀🎯"
             }
         }
     },

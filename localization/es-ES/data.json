@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "Límite de carga de archivos",
                 "hint": "con el servidor local de API de Bot",
-                "text": "hasta 2000 MB"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "Límite de descarga de archivos",

@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "Dosya yükleme sınırı",
                 "hint": "yerel Bot API sunucusu ile",
-                "text": "2000 MB'a kadar"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "Dosya indirme sınırı",

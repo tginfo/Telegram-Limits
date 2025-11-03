@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "محدودیت ارسال فایل",
                 "hint": "with local Bot API server",
-                "text": "تا ٢٠٠٠ مگابایت"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "محدودیت دریافت فایل",

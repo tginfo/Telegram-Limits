@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "上传文件大小限制",
                 "hint": "使用本地 Bot API 服务器时",
-                "text": "最大 2000 MB"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "下载文件大小限制",

@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "கோப்பின் பதிவேற்ற வரம்பு",
                 "hint": "உள்ளகக் கூளியின் செயலி நிரல் இடைமுகச் சேவையகமுடன்",
-                "text": "2000 MB வரை"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "கோப்பின் பதிவிறக்க வரம்பு",

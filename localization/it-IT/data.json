@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "Limite caricamento file",
                 "hint": "senza il server API Bot locale",
-                "text": "fino a 2000 MB"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "Limite di download di un file",

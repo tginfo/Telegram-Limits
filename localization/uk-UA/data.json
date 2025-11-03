@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "Ліміт на вивантаження файлів",
                 "hint": "з локальним Bot API сервером",
-                "text": "до 2000 Мб"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "Ліміт завантаження файлу",

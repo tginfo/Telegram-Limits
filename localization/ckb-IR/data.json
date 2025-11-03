@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "سنووری بەرزکردنەوەی پەڕگه",
                 "hint": "بە ڕاژەی Bot APIـی ناوخۆیی",
-                "text": "تا 2000 مێگابایت"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "سنووری داگرتنی پەڕگە",

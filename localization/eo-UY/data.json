@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "Dosieralŝuta limo",
                 "hint": "with local Bot API server",
-                "text": "ĝis 2000 MB"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "Dosierelŝuta limo",

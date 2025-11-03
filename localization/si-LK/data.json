@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "File upload limit",
                 "hint": "with local Bot API server",
-                "text": "up to 2000 MB"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "ගොනු බාගතකිරීමේ සීමාව",

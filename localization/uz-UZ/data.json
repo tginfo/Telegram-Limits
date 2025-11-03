@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "Fayllarni telegramga yuklash chegarasi",
                 "hint": "local Bot API serveri bilan",
-                "text": "2000 MB gacha"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "Fayllarni yuklab olish chegarasi",

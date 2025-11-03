@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "Batas unggahan berkas",
                 "hint": "dengan server Bot API lokal",
-                "text": "hingga 2000 MB"
+                "text": "up to 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "Batas unduhan berkas",

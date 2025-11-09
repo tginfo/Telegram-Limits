@@ -1,0 +1,21 @@
+{
+    "title": "Telegram Limits — Telegram Info",
+    "description": "Always up-to-date Telegram limits in {%year%}. Limitations on message length, number of stickers in sets, message frequency in Bot API, number of participants, editing, maximum file size and more",
+    "description_short": "Always up-to-date Telegram limits",
+    "study": "| Study",
+    "big_title": "Telegram Limits",
+    "article_name": "Why limitations exist",
+    "article_p1": "Just like any other service, Telegram uses limits to ensure that users follow Fair Usage Policy and to keep the service running.",
+    "article_p2": "This table lists the currently known Telegram limits and is being kept up to date.",
+    "loading": "Loading...",
+    "homepage": "Homepage",
+    "language": "Language",
+    "search": "Search",
+    "last_update": "Last Update: {%date%}",
+    "search_last_update": "{%search%}. {%last_update%}",
+    "for_premium_users": "for Telegram Premium users",
+    "suggest_offer": "Found a mistake or want to suggest a new limit?",
+    "suggest_button_label": "Send a suggestion",
+    "translate_offer": "Help translating this page in your language!",
+    "translate_button_label": "I want to translate"
+}

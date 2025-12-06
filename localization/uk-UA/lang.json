@@ -13,8 +13,8 @@
     "search": "Пошук",
     "last_update": "Востаннє оновлено: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
-    "for_premium_users": "для Telegram Premium користувачів",
-    "suggest_offer": "Знайшли помилку чи хочете запропонувати нову межу?",
+    "for_premium_users": "для користувачів Telegram Premium",
+    "suggest_offer": "Знайшли помилку чи хочете запропонувати новий ліміт?",
     "suggest_button_label": "Надіслати пропозицію",
     "translate_offer": "Допоможіть перекласти цю сторінку вашою мовою!",
     "translate_button_label": "Я хочу перекласти"

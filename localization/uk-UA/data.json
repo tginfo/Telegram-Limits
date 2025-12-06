@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "Кількість каналів та супергруп",
-                "hint": "you can be member of (combined)",
+                "hint": "ви можете бути членами (об'єднано)",
                 "text": "до 500 (враховуючи ті, якими ви володієте)",
                 "text_premium": "до 1000 (враховуючи ті, якими ви володієте)"
             },
@@ -83,8 +83,8 @@
                 "text": "14 днів"
             },
             "maximum_contact_note_length": {
-                "name": "Maximum contact note length",
-                "text": "128 symbols"
+                "name": "Максимальна довжина нотатки до контакту",
+                "text": "128 символів"
             }
         }
     },
@@ -233,14 +233,14 @@
                 "text": "до 7 днів наперед"
             },
             "comment_length": {
-                "name": "Comment length",
-                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "name": "Довжина коментаря",
+                "hint": "Максимальна довжина повідомлення яке може бути надіслана до відео/аудіо чатів",
                 "text": "128"
             },
             "comment_lifetime": {
-                "name": "Comment lifetime",
-                "hint": "Lifetime of comment, if not pinned",
-                "text": "10 seconds"
+                "name": "Час життя коментаря",
+                "hint": "Час життя коментарю, якщо він не закріплений",
+                "text": "10 секунд"
             }
         }
     },
@@ -322,7 +322,7 @@
                 "name": "Опис у медіа",
                 "hint": "",
                 "text": "до 1024 символів",
-                "text_premium": "up to 4,096 characters"
+                "text_premium": "до 4,096 символів"
             },
             "upload_size": {
                 "name": "Обмеження розміру файлу",
@@ -356,7 +356,7 @@
                 "text": "до 365 днів"
             },
             "custom_emoji_per_message": {
-                "name": "Кількість користувацьких емоджі в повідомленні",
+                "name": "Кількість користувацьких емодзі в повідомленні",
                 "hint": "без Telegram Premium, користувацькі емоджі можуть бути відправлені лише у Збережені, понад 100 користувацьких емоджі замінюються відповідним стандартним",
                 "text": "недоступно",
                 "text_premium": "до 100 емоджі"
@@ -384,7 +384,7 @@
             "poll_options_count": {
                 "name": "Кількість опцій опитування",
                 "hint": "",
-                "text": "2 to 12"
+                "text": "від 2 до 12"
             },
             "poll_option_length": {
                 "name": "Довжина варіанту відповіді в опитуванні",
@@ -470,7 +470,7 @@
             "upload_limit_botapi_local": {
                 "name": "Ліміт на вивантаження файлів",
                 "hint": "з локальним Bot API сервером",
-                "text": "up to 2000 MiB"
+                "text": "до 2000 Мб"
             },
             "download_limit_botapi": {
                 "name": "Ліміт завантаження файлу",
@@ -548,9 +548,9 @@
                 "text": "до 50 елементів на сторінку"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "name": "Inline пошуковий запит",
+                "hint": "(<@BotUsername> ваш пошуковий запит). Користувачі можуть вводити запити без обмежень, проте бот може обробляти тільки певну кількість знаків",
+                "text": "до 256 знаків після @username бота"
             }
         }
     },
@@ -608,8 +608,8 @@
                 "text_premium": "30 хвилин"
             },
             "stories_albums": {
-                "name": "Stories albums",
-                "text": "up to 100"
+                "name": "Альбом історій",
+                "text": "до 100"
             }
         }
     },
@@ -708,14 +708,14 @@
                 "text": "800x800px, до 2 Мб"
             },
             "photo_resolution": {
-                "name": "Photo resolution (SD)",
+                "name": "Роздільність фото (SD)",
                 "hint": "при надсиланні зі стисканням",
-                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+                "text": "кожна сторона має бути меншою або дорівнювати 1280 пікселям, інакше воно буде зменшено так, що більша сторона стане 1280 пікселів"
             },
             "photo_resolution_hd": {
-                "name": "Photo resolution (HD)",
-                "hint": "when sent with compression",
-                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+                "name": "Роздільність фото (HD)",
+                "hint": "при надсиланні зі стиканням",
+                "text": "кожна сторона має бути меншою або дорівнювати 2560 пікселям, інакше воно буде зменшено так, що більша сторона стане 2560 пікселів"
             }
         }
     },
@@ -760,11 +760,11 @@
                 "text": "1000 зірок"
             },
             "gift_collections_users_profile": {
-                "name": "Gift collections in user's profile",
-                "text": "up to 10"
+                "name": "Колекція подарунків в профілі користувача",
+                "text": "до 10"
             },
             "maximum_period_convert_received_gift_stars": {
-                "name": "Maximum period to convert received gift to stars",
+                "name": "Максимальний період під час якого подарунок можна конвертувати в зірки",
                 "text": "7 днів"
             }
         }

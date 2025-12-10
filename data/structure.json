@@ -67,6 +67,10 @@
             {
                 "id": "maximum_contact_note_length",
                 "icon": "note_alt"
+            },
+            {
+                "id": "maximum_passkeys_number",
+                "icon": "key"
             }
         ]
     },

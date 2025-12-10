@@ -85,6 +85,11 @@
             "maximum_contact_note_length": {
                 "name": "Максимальна довжина нотатки до контакту",
                 "text": "128 символів"
+            },
+            "maximum_passkeys_number": {
+                "name": "Maximum passkeys number",
+                "hint": "linked to a Telegram account",
+                "text": "up to 5 passkeys"
             }
         }
     },

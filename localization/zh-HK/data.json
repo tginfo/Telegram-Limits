@@ -85,6 +85,11 @@
             "maximum_contact_note_length": {
                 "name": "Maximum contact note length",
                 "text": "128 symbols"
+            },
+            "maximum_passkeys_number": {
+                "name": "Maximum passkeys number",
+                "hint": "linked to a Telegram account",
+                "text": "up to 5 passkeys"
             }
         }
     },

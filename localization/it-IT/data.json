@@ -87,9 +87,9 @@
                 "text": "128 caratteri"
             },
             "maximum_passkeys_number": {
-                "name": "Maximum passkeys number",
-                "hint": "linked to a Telegram account",
-                "text": "up to 5 passkeys"
+                "name": "Numero massimo di passkey",
+                "hint": "collegate a un account Telegram",
+                "text": "fino a 5 passkey"
             }
         }
     },

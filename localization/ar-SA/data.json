@@ -493,8 +493,8 @@
                 "text": "الأقصى ١٠٠ مدخلات"
             },
             "formatting_data": {
-                "name": "Message markup data",
-                "hint": "e.g. inline buttons",
+                "name": "بيانات علامة الرسالة",
+                "hint": "مثال: الأزرار المضمنة",
                 "text": "الأقصى ١٠ كيلوبايت"
             },
             "formatting_entities": {
@@ -503,24 +503,24 @@
                 "text": "الأقصى ١٠٠ عنصر"
             },
             "messaging_frequency": {
-                "name": "Message sending frequency",
+                "name": "تكرار إرسال الرسائل",
                 "hint": "في أي محادثة",
-                "text": "up to roughly one message per second, except maybe short bursts"
+                "text": "حتى رسالة واحدة تقريبا في الثانية الواحدة، باستثناء دفعات قصيرة"
             },
             "messaging_frequency_groups": {
-                "name": "Message sending frequency",
+                "name": "تكرار إرسال الرسائل",
                 "hint": "في الدردشات الجماعية",
                 "text": "up to 20 messages per second in the same chat"
             },
             "messaging_frequency_broadcast": {
-                "name": "Message broadcasting frequency",
-                "hint": "only applies when actively sending notifications to otherwise inactive chats",
-                "text": "up to 30 messages per second across chats"
+                "name": "تكرار بث الرسائل",
+                "hint": "ينطبق فقط عند إرسال الإشعارات بشكل نشط إلى محادثة غير نشطة",
+                "text": "ما يصل إلى 30 رسالة في الثانية عبر جميع المحادثات"
             },
             "api_requests_frequency": {
-                "name": "API requests frequency",
+                "name": "تكرار طلبات API",
                 "hint": "",
-                "text": "up to about 30 requests per second"
+                "text": "الحد اﻷقصى حوالي 30 طلب في الثانية"
             },
             "bot_commands_count": {
                 "name": "عدد الأوامر",
@@ -535,11 +535,11 @@
             "bot_command_description_length": {
                 "name": "طول وصف الأمر",
                 "hint": "",
-                "text": "up to 256 characters, must be non-empty when set via Bot API"
+                "text": "ما يصل إلى 256 حرفاً، يجب أن يكون غير فارغ عند تعيينه عبر API Bot"
             },
             "start_payload_size": {
                 "name": "طول حمولة /start للبوت",
-                "hint": "used in deep linking",
+                "hint": "يستخدم في الربط العميق",
                 "text": "حتى 64 بايت"
             },
             "bot_alert_length": {
@@ -553,23 +553,23 @@
                 "text": "عرض 50 عنصر في كل صفحة"
             },
             "inline_search_query": {
-                "name": "Inline search query",
-                "hint": "(<@BotUsername> your search query). Users can enter queries without restrictions, but the bot can only process a certain number of characters",
-                "text": "up to 256 characters after bot's username"
+                "name": "استعلام بحث مضمن",
+                "hint": "(<@BotUsername> استعلام البحث). يمكن للمستخدمين إدخال الاستفسارات دون قيود، ولكن البوت يمكنه معالجة عدد معين فقط من الأحرف",
+                "text": "ما يصل إلى 256 حرف بعد اسم المستخدم للبوت"
             }
         }
     },
     "stories": {
-        "name": "Stories",
+        "name": "القصص",
         "items": {
             "story_availability": {
-                "name": "Story availability",
-                "hint": "countries where stories are available without Telegram Premium",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "name": "توفر القصة",
+                "hint": "البلدان التي تتوفر فيها قصص بدون تيليجرام بريميوم",
+                "text": "القائمة متاحة هنا: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
-                "name": "Story lifetime",
-                "text": "24 hours",
+                "name": "عمر القصة",
+                "text": "24 ساعة",
                 "text_premium": "6/12/24/48 ساعات"
             },
             "story_duration": {
@@ -753,24 +753,24 @@
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "name": "فترة الانتظار قبل أن يمكن تحويل الهدية إلى نجوم",
+                "text": "7 أيام"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "name": "المدة التي لا يمكن بعدها تحويل الهدايا إلى نجوم",
+                "text": "21 يومًا"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "name": "الحد الأدنى لمبلغ النجوم للسحب",
+                "text": "1000 نجمة"
             },
             "gift_collections_users_profile": {
-                "name": "Gift collections in user's profile",
-                "text": "up to 10"
+                "name": "مجموعات الهدايا في الملف الشخصي للمستخدم",
+                "text": "كحد أقصى 10"
             },
             "maximum_period_convert_received_gift_stars": {
-                "name": "Maximum period to convert received gift to stars",
-                "text": "7 days"
+                "name": "المدة القصوى لتحويل الهدية المستلمة إلى نجوم",
+                "text": "7 أيام"
             }
         }
     }

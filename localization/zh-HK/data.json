@@ -4,7 +4,7 @@
         "items": {
             "username": {
                 "name": "使用者名稱",
-                "hint": "（例如：@hkersaddoil）",
+                "hint": "（例如：@cameraman）",
                 "text": "5 to 32 characters, starting from 4 characters for NFT usernames"
             },
             "bio": {

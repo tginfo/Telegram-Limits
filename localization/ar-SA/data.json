@@ -58,7 +58,7 @@
             },
             "accounts_number": {
                 "name": "عدد الحسابات",
-                "hint": "(تيليجرام الرسمي)",
+                "hint": "(ميليغرام",
                 "text": "ما يصل إلى 3",
                 "text_premium": "ما يصل إلى 4-6 (يعتمد على التطبيق)"
             },
@@ -700,7 +700,7 @@
             "text_size": {
                 "name": "حجم المقال",
                 "hint": "(بما في ذلك الصور)",
-                "text": "الأقصى ٦٤ كيلوبايت"
+                "text": "الأقصى 124 كيلوبايت"
             }
         }
     },
@@ -753,7 +753,7 @@
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "فترة الانتظار قبل أن يمكن تحويل الهدية إلى نجوم",
+                "name": "Cooldown before gift can be converted into stars",
                 "text": "7 أيام"
             },
             "minimum_term_stars_ownership_withdraw": {
@@ -762,7 +762,7 @@
             },
             "minimum_stars_amount_withdraw": {
                 "name": "الحد الأدنى لمبلغ النجوم للسحب",
-                "text": "1000 نجمة"
+                "text": "10000 نجمة"
             },
             "gift_collections_users_profile": {
                 "name": "مجموعات الهدايا في الملف الشخصي للمستخدم",

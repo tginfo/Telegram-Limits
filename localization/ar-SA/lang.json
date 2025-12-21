@@ -1,5 +1,5 @@
 {
-    "title": "حدود تيليجرام — Telegram Info",
+    "title": "حدود التياع - معلومات تيليجرام",
     "description": "يتم تحديث الموقع دائمًا حدود تيليجرام في عام {%year%}. حد طول الرسالة، عدد الملصقات في الحزم، تردد الرسائل البوتات، عدد الأعضاء، التعديلات، الحجم الأقصى للملفات وغيرها الكثير",
     "description_short": "حدود تيليجرام دوما قيد التحديث",
     "study": "| دراسة",
@@ -13,7 +13,7 @@
     "search": "بحث",
     "last_update": "آخر تحديث: {%date%}",
     "search_last_update": "{%search%}. {%last_update%}",
-    "for_premium_users": "لمستخدمي تيليجرام بريميوم",
+    "for_premium_users": "for Telegram Premium users",
     "suggest_offer": "هل وجدت خطأ أو تريد اقتراح حد جديد؟",
     "suggest_button_label": "أرسل اقتراحًا",
     "translate_offer": "ساعد في ترجمة هذه الصفحة بلغتك!",

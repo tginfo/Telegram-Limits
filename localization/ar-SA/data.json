@@ -510,7 +510,7 @@
             "messaging_frequency_groups": {
                 "name": "تكرار إرسال الرسائل",
                 "hint": "في الدردشات الجماعية",
-                "text": "up to 20 messages per second in the same chat"
+                "text": "حتى 20 رسالة في الدقيقة في نفس المحادثة"
             },
             "messaging_frequency_broadcast": {
                 "name": "تكرار بث الرسائل",
@@ -753,7 +753,7 @@
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
+                "name": "الانتظار قبل أن يمكن تحويل الهدية إلى نجوم",
                 "text": "7 أيام"
             },
             "minimum_term_stars_ownership_withdraw": {

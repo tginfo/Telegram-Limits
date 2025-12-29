@@ -83,13 +83,13 @@
                 "text": "14 天"
             },
             "maximum_contact_note_length": {
-                "name": "Maximum contact note length",
-                "text": "128 symbols"
+                "name": "联系人备注最大长度",
+                "text": "128个字符"
             },
             "maximum_passkeys_number": {
-                "name": "Maximum passkeys number",
-                "hint": "linked to a Telegram account",
-                "text": "up to 5 passkeys"
+                "name": "最大密钥数量",
+                "hint": "同一个账户可绑定的数量",
+                "text": "最多5个密钥"
             }
         }
     },

@@ -238,14 +238,14 @@
                 "text": "تا ۷ روز پس از آن"
             },
             "comment_length": {
-                "name": "Comment length",
+                "name": "طول نظر",
                 "hint": "Maximum length of message which can be sent to video/voice chat",
                 "text": "128"
             },
             "comment_lifetime": {
-                "name": "Comment lifetime",
+                "name": "عمر نظر",
                 "hint": "Lifetime of comment, if not pinned",
-                "text": "10 seconds"
+                "text": "۱۰ ثانیه"
             }
         }
     },

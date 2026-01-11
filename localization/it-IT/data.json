@@ -468,7 +468,7 @@
                 "text": "fino a 512 caratteri"
             },
             "upload_limit_botapi": {
-                "name": "Limite di grandezza per file",
+                "name": "Limite caricamento file",
                 "hint": "senza il server API Bot locale",
                 "text": "fino a 50 MB"
             },
@@ -720,7 +720,7 @@
             "photo_resolution_hd": {
                 "name": "Risoluzione foto (HD)",
                 "hint": "quando inviata compressa",
-                "text": "ogni lato dev'essere minore o uguale a 1280px, altrimenti verrà ridimensionata in modo che il lato più grande sia 1280px"
+                "text": "ogni lato dev'essere minore o uguale a 2560px, altrimenti verrà ridimensionata in modo che il lato più grande sia 2560px"
             }
         }
     },

@@ -186,6 +186,11 @@
                 "name": "Verfügbarkeit von Lesebestätigungen",
                 "hint": "",
                 "text": "für Chats mit bis zu 100 Mitgliedern. Die Liste der Nutzer ist nur für den Nutzer verfügbar, der die Nachricht gesendet hat"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

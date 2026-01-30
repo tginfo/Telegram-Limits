@@ -186,6 +186,11 @@
                 "name": "Visibilité des accusés de lecture",
                 "hint": "",
                 "text": "dans les échanges de 100 membres ou moins, la liste des utilisateurs ayant lus n'est disponible que pour l'utilisateur qui a envoyé le message"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

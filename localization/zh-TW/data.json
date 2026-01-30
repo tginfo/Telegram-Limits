@@ -186,6 +186,11 @@
                 "name": "查看已讀成員",
                 "hint": "",
                 "text": "成員須為 100 名成員以內，僅訊息發送者可見"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

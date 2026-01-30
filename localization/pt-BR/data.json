@@ -186,6 +186,11 @@
                 "name": "Disponibilidade de confirmações de leitura",
                 "hint": "",
                 "text": "para bate-papos com 100 membros ou menos, a lista de usuários está disponível apenas para o usuário que enviou a mensagem"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

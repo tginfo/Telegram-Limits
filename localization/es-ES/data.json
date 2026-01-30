@@ -186,6 +186,11 @@
                 "name": "Leer la disponibilidad de recibos",
                 "hint": "",
                 "text": "para chats con 100 miembros o menos, la lista de usuarios sólo está disponible para el usuario que envió el mensaje"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

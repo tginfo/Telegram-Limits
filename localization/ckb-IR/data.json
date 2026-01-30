@@ -186,6 +186,11 @@
                 "name": "دەرکەوتنی ئەو کەسانەی پەیامێکیان خوێندووەتەوە",
                 "hint": "",
                 "text": "بۆ ئەو وتووێژانەی کە 100 ئەندام یان کەمتریان هەیە، تەنیا بۆ خاوەنی پەیامەکەش دیارە"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

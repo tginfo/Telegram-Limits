@@ -186,6 +186,11 @@
                 "name": "“哪些成员已读”数据可见性",
                 "hint": "",
                 "text": "少于 100 人的群组可用；只有对应消息的发送者可见"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

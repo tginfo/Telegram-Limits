@@ -186,6 +186,11 @@
                 "name": "Oxundu bildirişi əlçatımlılığı",
                 "hint": "",
                 "text": "100 və ya daha az üzvlü söhbətlər üçün istifadəçi siyahısı, yalnız mesajı göndərən istifadəçi tərəfindən əlçatandır"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

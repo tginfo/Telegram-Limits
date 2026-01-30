@@ -186,6 +186,11 @@
                 "name": "توفر إيصالات القراءة",
                 "hint": "",
                 "text": "للمحادثات التي فيها 100 عضو أو أقل، قائمة المستخدمين متاحة فقط للمستخدم الذي أرسل الرسالة"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

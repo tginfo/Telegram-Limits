@@ -186,6 +186,11 @@
                 "name": "Ketersediaan tanda dibaca",
                 "hint": "",
                 "text": "untuk obrolan dengan 100 anggota atau kurang, daftar pengguna hanya tersedia untuk pengirim pesan saja"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

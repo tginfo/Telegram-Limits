@@ -150,6 +150,10 @@
             {
                 "id": "read_receipts_availability",
                 "icon": "date_range"
+            },
+            {
+                "id": "visible_list_members",
+                "icon": "person_search"
             }
         ]
     },

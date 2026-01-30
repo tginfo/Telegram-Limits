@@ -186,6 +186,11 @@
                 "name": "Read receipts availability",
                 "hint": "",
                 "text": "for chats with 100 members or less, the list of users is only available for the user who sent the message"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "for chats over 10000 members, server won't yield more members in response",
+                "text": "10000"
             }
         }
     },

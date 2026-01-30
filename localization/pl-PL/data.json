@@ -186,6 +186,11 @@
                 "name": "Widoczność potwierdzenia odczytu",
                 "hint": "",
                 "text": "dla czatów z maksymalnie 100 członkami; lista użytkowników jest dostępna tylko dla użytkownika, który wysłał wiadomość"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

@@ -189,8 +189,8 @@
             },
             "visible_list_members": {
                 "name": "Visible list of members",
-                "hint": "for chats over 10000 members, server won't yield more members in response",
-                "text": "10000"
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

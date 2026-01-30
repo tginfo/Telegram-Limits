@@ -186,6 +186,11 @@
                 "name": "دردسترس بودن رسیدها",
                 "hint": "",
                 "text": "برای گفتگوهای با ١٠٠ عضو یا کمتر، لیست کاربران فقط برای فرستنده پیام قابل دسترسی است"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

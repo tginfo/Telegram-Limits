@@ -188,9 +188,9 @@
                 "text": "per le chat con 100 membri o meno, la lista degli utenti è disponibile solo per chi ha inviato il messaggio"
             },
             "visible_list_members": {
-                "name": "Visible list of members",
-                "hint": "in big chats",
-                "text": "up to 10,000 users"
+                "name": "Visibilità elenco dei membri",
+                "hint": "nelle grandi chat",
+                "text": "fino a 10.000 utenti"
             }
         }
     },

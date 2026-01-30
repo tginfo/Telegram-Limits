@@ -186,6 +186,11 @@
                 "name": "Okundu bilgisi kullanılabilirliği",
                 "hint": "",
                 "text": "100 veya daha az üyeli gruplarda, yalnızca mesajı gönderen kullanıcı için kullanılabilir"
+            },
+            "visible_list_members": {
+                "name": "Visible list of members",
+                "hint": "in big chats",
+                "text": "up to 10,000 users"
             }
         }
     },

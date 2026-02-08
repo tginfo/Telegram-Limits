@@ -32,7 +32,7 @@
                 "name": "恶意灌水封禁时长",
                 "hint": "",
                 "text": "1 天 ~ 永久",
-                "text_premium": "1 秒 ~ 永久"
+                "text_premium": "from 1 second up to permanent"
             },
             "channels_and_chats_number": {
                 "name": "频道和超级群组数量",
@@ -47,9 +47,9 @@
                 "text_premium": "最多 400 个"
             },
             "video_length": {
-                "name": "视频头像时长",
+                "name": "Video avatar duration",
                 "hint": "",
-                "text": "最长 10 秒"
+                "text": "from 1 to 10 seconds"
             },
             "groups_and_channels_creation": {
                 "name": "创建频道和群组",
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "可见消息数量",
-                "hint": "（在私聊、机器人和传统群组间共享限制）",
+                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
                 "text": "无限；2018 年前 - 最多 100 万条消息可见：参阅 https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -90,6 +90,15 @@
                 "name": "最大密钥数量",
                 "hint": "同一个账户可绑定的数量",
                 "text": "最多5个密钥"
+            },
+            "session_duration": {
+                "name": "Session duration",
+                "text": "1 week, 1 month, 3 months, 6 months, or 12 months"
+            },
+            "notification_sounds_duration": {
+                "name": "Notification sounds duration",
+                "hint": "(custom files)",
+                "text": "from 1 to 5 seconds"
             }
         }
     },
@@ -191,6 +200,14 @@
                 "name": "Visible list of members",
                 "hint": "in big chats",
                 "text": "up to 10,000 users"
+            },
+            "boosts_needed_reach_level": {
+                "name": "Boosts needed to reach a level",
+                "text": "see https://boosts.tginfo.me calculator"
+            },
+            "hide_participants_setting_availability": {
+                "name": "Hide participants setting availability",
+                "text": "the chat must have at least 100 members"
             }
         }
     },
@@ -317,6 +334,10 @@
                 "name": "更改用户名后保留时长",
                 "hint": "（在此之后用户名对所有人可用，而非仅原所有者可用）",
                 "text": "约 15 ~ 30 分钟"
+            },
+            "boosts_needed_reach_level": {
+                "name": "Boosts needed to reach a level",
+                "text": "see https://boosts.tginfo.me calculator"
             }
         }
     },
@@ -350,6 +371,10 @@
                 "hint": "",
                 "text": "最长 1 分钟"
             },
+            "video_message_file_size": {
+                "name": "Video message file size",
+                "text": "Up to 12 MB"
+            },
             "album_size": {
                 "name": "单条消息中的图片和视频",
                 "hint": "（相册）",
@@ -375,6 +400,11 @@
                 "name": "每条消息中的链接",
                 "hint": "",
                 "text": "最多 100 个链接"
+            },
+            "number_unique_reaction_types": {
+                "name": "Number of unique reaction types",
+                "hint": "on a single message",
+                "text": "up to 11 reaction icons"
             }
         }
     },
@@ -504,7 +534,7 @@
             },
             "formatting_entities": {
                 "name": "格式化的实体",
-                "hint": "（加粗、斜体...）",
+                "hint": "(bold, italic etc.)",
                 "text": "最多 100 个"
             },
             "messaging_frequency": {
@@ -561,6 +591,11 @@
                 "name": "内联搜索查询",
                 "hint": "（<@BotUsername> 搜索内容）。用户可以不受限制地输入查询内容，但机器人只能处理一定数量的字符",
                 "text": "机器人用户名后最多 256 个字符"
+            },
+            "bot_transfers": {
+                "name": "Bot transfers",
+                "hint": "between accounts",
+                "text": "up to 5 in a day"
             }
         }
     },
@@ -620,6 +655,10 @@
             "stories_albums": {
                 "name": "Stories albums",
                 "text": "up to 100"
+            },
+            "stories_limit_reset_time": {
+                "name": "Stories limit reset time",
+                "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
             }
         }
     },
@@ -706,6 +745,11 @@
                 "name": "文章大小",
                 "hint": "(包括图片)",
                 "text": "最大 64 KiB"
+            },
+            "media_attachments": {
+                "name": "Media attachments",
+                "hint": "in articles",
+                "text": "Only external links; uploads were disabled"
             }
         }
     },
@@ -776,6 +820,39 @@
             "maximum_period_convert_received_gift_stars": {
                 "name": "Maximum period to convert received gift to stars",
                 "text": "7 days"
+            }
+        }
+    },
+    "boosts": {
+        "name": "Boosts",
+        "items": {
+            "number_boosts": {
+                "name": "Number of boosts if you bought Premium for yourself",
+                "hint": "",
+                "text": "see also: https://tginfo.me/boosts-and-channel-stories-en",
+                "text_premium": "4 boosts"
+            },
+            "number_boosts_2": {
+                "name": "Number of boosts if you received Premium as a gift",
+                "hint": "",
+                "text_premium": "1 boost"
+            },
+            "number_boosts_if_you_won_premium_giveaway": {
+                "name": "Number of boosts you get if you won Premium in a giveaway",
+                "text_premium": "giveaway Premium subscriptions give 0 boosts"
+            },
+            "boosts_you_get_gifting_somebody_premium": {
+                "name": "Boosts you get for gifting somebody Premium",
+                "text": "you gain 1 additional boost to what you already got"
+            },
+            "boost_transfer_cooldown": {
+                "name": "Boost transfer cooldown",
+                "hint": "if you want to change a channel you boost",
+                "text_premium": "24 hours"
+            },
+            "revoking_boosts": {
+                "name": "Revoking boosts",
+                "text": "is not possible, boosts can only be transferred"
             }
         }
     }

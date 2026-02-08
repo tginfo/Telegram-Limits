@@ -843,7 +843,7 @@
             },
             "boosts_you_get_gifting_somebody_premium": {
                 "name": "Boosts you get for gifting somebody Premium",
-                "text": "you gain 1 additional boost to what you already got"
+                "text": "you gain 3 additional boosts to what you already got"
             },
             "boost_transfer_cooldown": {
                 "name": "Boost transfer cooldown",

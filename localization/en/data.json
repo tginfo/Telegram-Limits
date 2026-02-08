@@ -32,7 +32,7 @@
                 "name": "Spam ban",
                 "hint": "",
                 "text": "from 1 day up to forever",
-                "text_premium": "from 1 second up to forever"
+                "text_premium": "from 1 second up to permanent"
             },
             "channels_and_chats_number": {
                 "name": "Channels and supergroups number",
@@ -47,7 +47,7 @@
                 "text_premium": "up to 400"
             },
             "video_length": {
-                "name": "Video-avatar duration",
+                "name": "Video avatar duration",
                 "hint": "",
                 "text": "from 1 to 10 seconds"
             },
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "Visible messages number",
-                "hint": "(shared limit between private chats, bots and legacy groups)",
+                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
                 "text": "unlimited; before 2018 year - up to 1,000,000 visible messages: see https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -534,7 +534,7 @@
             },
             "formatting_entities": {
                 "name": "Formatting entities",
-                "hint": "(bold, cursive etc.)",
+                "hint": "(bold, italic etc.)",
                 "text": "up to 100 items"
             },
             "messaging_frequency": {
@@ -839,7 +839,7 @@
             },
             "number_boosts_if_you_won_premium_giveaway": {
                 "name": "Number of boosts you get if you won Premium in a giveaway",
-                "text_premium": "Giveaway Premium subszriptions give 0 boosts"
+                "text_premium": "Giveaway Premium subscriptions give 0 boosts"
             },
             "boosts_you_get_gifting_somebody_premium": {
                 "name": "Boosts you get for gifting somebody Premium",

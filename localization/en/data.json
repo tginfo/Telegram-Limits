@@ -305,15 +305,15 @@
             },
             "paid_message_pin_duration": {
                 "name": "Stream comment pin duration",
-                "text": "no pinning for free\n1 minute for 10 stars\n2 minutes for 50 stars\n5 minutes for 100 stars\n10 minutes for 250 stars\n15 minutes for 500 stars\n30 minutes for 2,000 stars\n1 hour for 10,000 stars"
+                "text": "free: no pinning. 10 stars: 1 minute. 50 stars: 2 minutes. 100 stars: 5 minutes. 250 stars: 10 minutes. 500 stars: 15 minutes. 2,000 stars: 30 minutes. 10,000 stars: 1 hour"
             },
             "paid_message_length": {
                 "name": "Stream comment length",
-                "text": "up to 30 characters for free\nup to 60 characters for 10 stars\nup to 80 characters for 50 stars\nup to 110 characters for 100 stars\nup to 150 characters for 250 stars\nup to 200 characters for 500 stars\nup to 280 characters for 2,000 stars\nup to 400 characters for 10,000 stars"
+                "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
             },
             "paid_message_emoji_number": {
                 "name": "Stream comment emoji number",
-                "text": "no emoji for free allowed\nup to 1 emoji for 10 stars\nup to 2 emoji for 50 stars\nup to 3 emoji for 100 stars\nup to 4 emoji for 250 stars\nup to 7 emoji for 500 stars\nup to 10 emoji for 2,000 stars\nup to 20 emoji for 10,000 stars"
+                "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
             }
         }
     },

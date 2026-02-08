@@ -242,7 +242,7 @@
             "video_chat_broadcast": {
                 "name": "广播视频",
                 "hint": "（通过摄像头 / 屏幕共享）",
-                "text": "最多 30 人（同时）"
+                "text": "up to 1,000 broadcasting users simultaneously"
             },
             "video_chat_viewers": {
                 "name": "视频聊天的观众数",
@@ -330,6 +330,10 @@
                 "hint": "",
                 "text": "至少 50 位订阅者"
             },
+            "number_subscribers_see_story_statistics": {
+                "name": "Number of subscribers to see story statistics",
+                "text": "at least 1"
+            },
             "username_reservation": {
                 "name": "更改用户名后保留时长",
                 "hint": "（在此之后用户名对所有人可用，而非仅原所有者可用）",
@@ -338,6 +342,10 @@
             "boosts_needed_reach_level": {
                 "name": "Boosts needed to reach a level",
                 "text": "see https://boosts.tginfo.me calculator"
+            },
+            "similar_channels_eligibility": {
+                "name": "Similar Channels eligibility",
+                "text": "at least 300 subscribers; depends on channel content"
             }
         }
     },
@@ -374,6 +382,10 @@
             "video_message_file_size": {
                 "name": "Video message file size",
                 "text": "Up to 12 MB"
+            },
+            "video_message_diameter": {
+                "name": "Video message diameter",
+                "text": "384px"
             },
             "album_size": {
                 "name": "单条消息中的图片和视频",
@@ -455,7 +467,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "单个文件夹中可置顶的聊天数",
-                "hint": "",
+                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
                 "text": "最多 100 个对话",
                 "text_premium": "最多 200 个对话"
             }
@@ -605,7 +617,7 @@
             "story_availability": {
                 "name": "故事可用性",
                 "hint": "没有 Telegram Premium 时可使用故事的国家",
-                "text": "请在此处查看列表 (英文)：https://tginfo.me/stories-by-countries-en/"
+                "text": "1 free story \nThe list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "故事生存期",
@@ -674,6 +686,15 @@
                 "name": "用户名解析限制",
                 "hint": "（包括机器人和用户）",
                 "text": "每天至多 200 个用户名"
+            },
+            "hashtag_search_depth": {
+                "name": "Hashtag search results number",
+                "hint": "",
+                "text": "roughly last 5,000 messages"
+            },
+            "minimal_subscribers_public_search_eligibility": {
+                "name": "Minimal channel subscribers for public search eligibility",
+                "text": "at least 100 subscribers"
             }
         }
     },
@@ -853,6 +874,11 @@
             "revoking_boosts": {
                 "name": "Revoking boosts",
                 "text": "is not possible, boosts can only be transferred"
+            },
+            "maximum_boosts_number": {
+                "name": "Maximum boosts number on an account",
+                "hint": "(not fully confirmed)",
+                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
             }
         }
     }

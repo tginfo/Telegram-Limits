@@ -242,7 +242,7 @@
             "video_chat_broadcast": {
                 "name": "Трансляция видео",
                 "hint": "(камера, демонстрация экрана)",
-                "text": "до 30 вещающих пользователей одновременно"
+                "text": "up to 1,000 broadcasting users simultaneously"
             },
             "video_chat_viewers": {
                 "name": "Зрители видео-трансляции",
@@ -330,6 +330,10 @@
                 "hint": "",
                 "text": "50 и более"
             },
+            "number_subscribers_see_story_statistics": {
+                "name": "Number of subscribers to see story statistics",
+                "text": "at least 1"
+            },
             "username_reservation": {
                 "name": "Резервирование @username после смены",
                 "hint": "(время, на которое имя пользователя доступно только для его бывшего владельца)",
@@ -338,6 +342,10 @@
             "boosts_needed_reach_level": {
                 "name": "Boosts needed to reach a level",
                 "text": "see https://boosts.tginfo.me calculator"
+            },
+            "similar_channels_eligibility": {
+                "name": "Similar Channels eligibility",
+                "text": "at least 300 subscribers; depends on channel content"
             }
         }
     },
@@ -374,6 +382,10 @@
             "video_message_file_size": {
                 "name": "Video message file size",
                 "text": "Up to 12 MB"
+            },
+            "video_message_diameter": {
+                "name": "Video message diameter",
+                "text": "384px"
             },
             "album_size": {
                 "name": "Фото и видео в одном сообщении",
@@ -455,7 +467,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "Закреплённые чаты в папке",
-                "hint": "",
+                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
                 "text": "до 100 чатов",
                 "text_premium": "до 200 чатов"
             }
@@ -605,7 +617,7 @@
             "story_availability": {
                 "name": "Доступность историй",
                 "hint": "страны, где истории доступны без Telegram Premium",
-                "text": "Список доступен здесь: https://tginfo.me/stories-by-countries/"
+                "text": "1 free story \nThe list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Срок жизни истории",
@@ -674,6 +686,15 @@
                 "name": "Лимит на поиск по имени пользователя",
                 "hint": "(для ботов и пользователей суммарно)",
                 "text": "до 200 в день"
+            },
+            "hashtag_search_depth": {
+                "name": "Hashtag search results number",
+                "hint": "",
+                "text": "roughly last 5,000 messages"
+            },
+            "minimal_subscribers_public_search_eligibility": {
+                "name": "Minimal channel subscribers for public search eligibility",
+                "text": "at least 100 subscribers"
             }
         }
     },
@@ -853,6 +874,11 @@
             "revoking_boosts": {
                 "name": "Revoking boosts",
                 "text": "is not possible, boosts can only be transferred"
+            },
+            "maximum_boosts_number": {
+                "name": "Maximum boosts number on an account",
+                "hint": "(not fully confirmed)",
+                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
             }
         }
     }

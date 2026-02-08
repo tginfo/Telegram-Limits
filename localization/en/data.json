@@ -839,11 +839,11 @@
             },
             "number_boosts_if_you_won_premium_giveaway": {
                 "name": "Number of boosts you get if you won Premium in a giveaway",
-                "text_premium": "giveaway Premium subscriptions give 0 boosts"
+                "text_premium": "Giveaway Premium subscriptions give 0 boosts"
             },
             "boosts_you_get_gifting_somebody_premium": {
                 "name": "Boosts you get for gifting somebody Premium",
-                "text": "you gain 1 additional boost to what you already got"
+                "text": "You gain 3 additional boosts to what you already got"
             },
             "boost_transfer_cooldown": {
                 "name": "Boost transfer cooldown",
@@ -852,7 +852,7 @@
             },
             "revoking_boosts": {
                 "name": "Revoking boosts",
-                "text": "is not possible, boosts can only be transferred"
+                "text": "Is not possible, boosts can only be transferred"
             }
         }
     }

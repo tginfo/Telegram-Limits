@@ -843,7 +843,7 @@
             },
             "boosts_you_get_gifting_somebody_premium": {
                 "name": "Numero di potenziamenti che ricevi se regali il Premium a qualcuno",
-                "text": "you gain 3 additional boosts to what you already got"
+                "text": "ricevi 3 potenziamenti in più a quelli che hai già ottenuto"
             },
             "boost_transfer_cooldown": {
                 "name": "Tempo di attesa trasferimento potenziamento",

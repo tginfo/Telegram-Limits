@@ -99,6 +99,23 @@
                 "name": "Notification sounds duration",
                 "hint": "(custom files)",
                 "text": "from 1 to 5 seconds"
+            },
+            "number_saved_ringtones": {
+                "name": "Number of saved ringtones",
+                "text": "up to 100"
+            },
+            "welcome_card_title_length": {
+                "name": "Welcome card title length",
+                "text_premium": "up to 32 characters"
+            },
+            "welcome_card_text_length": {
+                "name": "Welcome card text length",
+                "text_premium": "up to 70 characters"
+            },
+            "number_business_chat_links": {
+                "name": "Number of business chat links",
+                "hint": "with predefined message text",
+                "text_premium": "up to 100 links"
             }
         }
     },
@@ -208,6 +225,15 @@
             "hide_participants_setting_availability": {
                 "name": "Hide participants setting availability",
                 "text": "the chat must have at least 100 members"
+            },
+            "number_manually_selected_reactions": {
+                "name": "Number of manually selected reactions",
+                "hint": "when \"Some reactions\" option is used",
+                "text": "up to 100"
+            },
+            "number_members_aggressive_antispam_availability": {
+                "name": "Number of members for Aggressive Anti-Spam availability",
+                "text": "at least 200 members"
             }
         }
     },
@@ -268,6 +294,26 @@
                 "name": "Comment lifetime",
                 "hint": "Lifetime of comment, if not pinned",
                 "text": "10 seconds"
+            },
+            "number_participants_endtoend_encrypted_calls": {
+                "name": "Number of participants in End-to-End encrypted private link calls",
+                "text": "up to 200 participants"
+            },
+            "paid_message_price": {
+                "name": "Paid stream comment message price",
+                "text": "up to 10,000 stars"
+            },
+            "paid_message_pin_duration": {
+                "name": "Stream comment pin duration",
+                "text": "free: no pinning. 10 stars: 1 minute. 50 stars: 2 minutes. 100 stars: 5 minutes. 250 stars: 10 minutes. 500 stars: 15 minutes. 2,000 stars: 30 minutes. 10,000 stars: 1 hour"
+            },
+            "paid_message_length": {
+                "name": "Stream comment length",
+                "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
+            },
+            "paid_message_emoji_number": {
+                "name": "Stream comment emoji number",
+                "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
             }
         }
     },
@@ -313,7 +359,7 @@
             "channel_deletion": {
                 "name": "Kanal silmə",
                 "hint": "",
-                "text": "1,000+ abunəçisi olan kanallar, yalnız Telegram dəstəyi ilə silinə bilər"
+                "text": "channels with more than 1K subscribers can be deleted only from a session that is a few days old and only if the current account had cloud password activated for a few days"
             },
             "private_channel_access": {
                 "name": "Gizli kanallara qoşulmadan baxma",
@@ -404,7 +450,7 @@
             },
             "custom_emoji_per_message": {
                 "name": "Custom emoji per message",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji; on low-end devices even less custom emojis may be displayed",
                 "text": "not available",
                 "text_premium": "up to 100 emoji"
             },
@@ -417,6 +463,18 @@
                 "name": "Number of unique reaction types",
                 "hint": "on a single message",
                 "text": "up to 11 reaction icons"
+            },
+            "speech_text_transcriptions": {
+                "name": "Number of speech to text transcriptions",
+                "hint": "for voice and video messages",
+                "text": "up to 2 free transcriptions weekly",
+                "text_premium": "unlimited"
+            },
+            "duration_speech_text_transcriptions": {
+                "name": "Duration of speech to text transcriptions",
+                "hint": "for voice and video messages",
+                "text": "up to 5 minutes",
+                "text_premium": "no duration limit set"
             }
         }
     },
@@ -442,6 +500,20 @@
                 "name": "Poll option length",
                 "hint": "",
                 "text": "1 to 100 characters"
+            },
+            "length_quoted_text": {
+                "name": "Length of a quoted text",
+                "text": "up to 1024 characters"
+            },
+            "quick_replies_number": {
+                "name": "Quick Replies number",
+                "hint": "(predefined templates)",
+                "text_premium": "up to 100 templates"
+            },
+            "quick_replies_messages_number": {
+                "name": "Quick Replies messages number",
+                "hint": "(number of messages that can be sent by a single Quick Reply)",
+                "text_premium": "up to 10 messages"
             }
         }
     },
@@ -487,6 +559,12 @@
                 "hint": "",
                 "text": "up to 100 items",
                 "text_premium": "up to 200 items"
+            },
+            "folder_links_number": {
+                "name": "Folder links number",
+                "hint": "per public folder",
+                "text": "up to 3 links",
+                "text_premium": "up to 10 links"
             }
         }
     },
@@ -608,6 +686,10 @@
                 "name": "Bot transfers",
                 "hint": "between accounts",
                 "text": "up to 5 in a day"
+            },
+            "length_custom_verification_text": {
+                "name": "Length of custom verification text",
+                "text": "from 1 to 70 characters"
             }
         }
     },
@@ -617,7 +699,7 @@
             "story_availability": {
                 "name": "Story availability",
                 "hint": "countries where stories are available without Telegram Premium",
-                "text": "1 free story \nThe list is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "Telegram is rolling out the free 1 story limit to more countries.\n\nThe list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Story lifetime",
@@ -654,12 +736,13 @@
                 "text_premium": "up to 2,048 characters"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency",
+                "name": "Incognito usage frequency (Hide My View)",
                 "text": "not available",
-                "text_premium": "once per 3 hour"
+                "text_premium": "once per 3 hours",
+                "hint": ""
             },
             "story_incognito_duration": {
-                "name": "Incognito duration",
+                "name": "Incognito duration (Hide My View)",
                 "hint": "(all views for the last 5 minutes before the mode is turned on disappear, and views for 25 minutes after it is turned on are not recorded)",
                 "text": "not available",
                 "text_premium": "30 minutes"
@@ -668,9 +751,23 @@
                 "name": "Stories albums",
                 "text": "up to 100"
             },
+            "number_stories_album": {
+                "name": "Number of stories in an album",
+                "text": "up to 100 stories"
+            },
             "stories_limit_reset_time": {
                 "name": "Stories limit reset time",
                 "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
+            },
+            "adding_clickable_links_stories": {
+                "name": "Adding clickable links to stories",
+                "text": "not available",
+                "text_premium": "up to 3 stickers"
+            },
+            "number_reaction_stickers": {
+                "name": "Number of reaction stickers",
+                "text": "only 1 reaction",
+                "text_premium": "up to 5 reactions"
             }
         }
     },
@@ -695,6 +792,12 @@
             "minimal_subscribers_public_search_eligibility": {
                 "name": "Minimal channel subscribers for public search eligibility",
                 "text": "at least 100 subscribers"
+            },
+            "number_recommended_channels": {
+                "name": "Number of recommended channels",
+                "hint": "(\"Similar channels\" in global search and specific channels)",
+                "text": "up to 10",
+                "text_premium": "up to 100"
             }
         }
     },
@@ -791,11 +894,21 @@
                 "name": "Photo resolution (HD)",
                 "hint": "when sent with compression",
                 "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+            },
+            "parallel_download_small_files": {
+                "name": "Parallel download for small files",
+                "hint": "(less than 20 MB)",
+                "text": "approximately up to 5 files"
+            },
+            "parallel_download_big_files": {
+                "name": "Parallel download for big files",
+                "hint": "(more than 20 MB)",
+                "text": "approximately up to 2 files"
             }
         }
     },
     "checklists": {
-        "name": "Checklists",
+        "name": "Checklists (To Do)",
         "items": {
             "max_number_items_list": {
                 "name": "Number of items in checklist",
@@ -812,7 +925,7 @@
         }
     },
     "gifts": {
-        "name": "Gifts",
+        "name": "Gifts & Stars",
         "items": {
             "minimum_gift_upgrade_price": {
                 "name": "Minimum price of a gift upgrade",
@@ -838,9 +951,64 @@
                 "name": "Gift collections in user's profile",
                 "text": "up to 10"
             },
+            "number_gifts_collection": {
+                "name": "Number of gifts in a collection",
+                "text": "up to 500 gifts"
+            },
             "maximum_period_convert_received_gift_stars": {
                 "name": "Maximum period to convert received gift to stars",
                 "text": "7 days"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "Number of stars that can be withdrawn in chats and channels",
+                "text": "from 1,000 stars to  25,000,000 stars"
+            },
+            "price_paid_media_post": {
+                "name": "Price for paid media in a post",
+                "text": "from 1 to 25,000 stars"
+            },
+            "paid_reaction_transaction_amount": {
+                "name": "Paid reaction transaction amount",
+                "text": "from 1 to 10,000 stars"
+            },
+            "length_message_attached_gift": {
+                "name": "Length of a message attached to a gift",
+                "text": "up to 128 characters"
+            },
+            "allowed_payouts_affiliate_programs": {
+                "name": "Allowed revenue share percentages in affiliate programs",
+                "hint": "per referred user",
+                "text": "from 0.1% to 80%"
+            },
+            "price_paid_message": {
+                "name": "Price for a private paid message",
+                "text": "from 1 to 10,000 stars"
+            },
+            "resale_price_collectible_gifts": {
+                "name": "Resale price for collectible gifts",
+                "hint": "in stars",
+                "text": "from 125 to 100,000 stars"
+            },
+            "resale_price_collectible_gifts_ton": {
+                "name": "Resale price for collectible gifts",
+                "hint": "in TON",
+                "text": "from 7 TON to 100,000 TON"
+            },
+            "price_suggested_channel_message": {
+                "name": "Price for a suggested channel message",
+                "text": "Free, or from 5 to 100,000 stars"
+            },
+            "guaranteed_duration_paid_message": {
+                "name": "Guaranteed duration of a paid post",
+                "text": "24 hours"
+            },
+            "paid_post_scheduling_timeframe": {
+                "name": "Paid post scheduling timeframe",
+                "text": "from 5 minutes to 31 days in advance"
+            },
+            "price_paid_post_ton_cryptocurrency": {
+                "name": "Price for a paid post in TON cryptocurrency",
+                "text": "from 0.01 TON to 10,000 TON"
             }
         }
     },
@@ -879,6 +1047,82 @@
                 "name": "Maximum boosts number on an account",
                 "hint": "(not fully confirmed)",
                 "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
+            },
+            "number_channels_giveaway": {
+                "name": "Number of channels in a giveaway",
+                "text": "up to 10 channels"
+            },
+            "number_countries_giveaway": {
+                "name": "Number of countries in a giveaway",
+                "text": "up to 10"
+            },
+            "giveaway_duration": {
+                "name": "Giveaway duration",
+                "text": "up to 31 days"
+            },
+            "channel_levels": {
+                "name": "Channel levels",
+                "text": "from 1 up to 100"
+            },
+            "minimum_level_set_channel_color": {
+                "name": "Level to set channel color",
+                "text": "at least level 5"
+            },
+            "level_set_channel_background_icon": {
+                "name": "Channel level to customize message accent color and emoji",
+                "text": "at least level 4"
+            },
+            "level_customize_profile_background_color_emoji": {
+                "name": "Channel level to customize profile background color and emoji",
+                "text": "at least level 7"
+            },
+            "level_set_emoji_status": {
+                "name": "Channel level to set emoji status",
+                "hint": "(only from official emoji sets)",
+                "text": "at least level 8"
+            },
+            "level_set_chat_wallpaper": {
+                "name": "Channel level to set one of the predefined chat themes",
+                "text": "at least level 9"
+            },
+            "level_set_custom_chat_wallpaper": {
+                "name": "Channel level to set a custom chat wallpaper",
+                "text": "at least level 10"
+            },
+            "level_activate_speech_transcriptions": {
+                "name": "Level to activate speech transcriptions",
+                "hint": "for users without Premium",
+                "text": "at least level 6"
+            },
+            "level_set_grouppromoted_emoji": {
+                "name": "Level to set group-promoted emoji",
+                "text": "at least level 4"
+            },
+            "group_level_customize_profile_background_color_emoji": {
+                "name": "Group level to customize profile background color and emoji",
+                "text": "at least level 5"
+            },
+            "group_level_set_emoji_status": {
+                "name": "Group level to set emoji status",
+                "hint": "(only from official emoji sets)",
+                "text": "at least level 8"
+            },
+            "chat_level_set_one_predefined_chat_themes": {
+                "name": "Chat level to set one of the predefined chat themes",
+                "text": "at least level 9"
+            },
+            "chat_level_set_custom_chat_wallpaper": {
+                "name": "Chat level to set a custom chat wallpaper",
+                "text": "at least level 10"
+            },
+            "channel_level_disable_ads": {
+                "name": "Channel level to disable ads",
+                "text": "at least level 50"
+            },
+            "channel_level_activate_channelwide_automatic_translation": {
+                "name": "Channel level to activate channel-wide automatic translation",
+                "hint": "for users without Premium",
+                "text": "at least level 3"
             }
         }
     }

@@ -713,7 +713,7 @@
     {
         "id": "boosts",
         "icon": "electric_bolt",
-        "color": "156, 39, 176",
+        "color": "255, 202, 40",
         "items": [
             {
                 "id": "number_boosts",

@@ -277,12 +277,20 @@
                 "icon": "poll"
             },
             {
+                "id": "number_subscribers_see_story_statistics",
+                "icon": "analytics"
+            },
+            {
                 "id": "username_reservation",
                 "icon": "timelapse"
             },
             {
                 "id": "boosts_needed_reach_level",
                 "icon": "electric_bolt"
+            },
+            {
+                "id": "similar_channels_eligibility",
+                "icon": "hub"
             }
         ]
     },
@@ -314,6 +322,10 @@
             {
                 "id": "video_message_file_size",
                 "icon": "slow_motion_video"
+            },
+            {
+                "id": "video_message_diameter",
+                "icon": "motion_photos_on"
             },
             {
                 "id": "album_size",
@@ -568,6 +580,14 @@
             {
                 "id": "username_resolve_limit",
                 "icon": "offline_bolt"
+            },
+            {
+                "id": "hashtag_search_depth",
+                "icon": "tag"
+            },
+            {
+                "id": "minimal_subscribers_public_search_eligibility",
+                "icon": "public"
             }
         ]
     },
@@ -738,6 +758,10 @@
             {
                 "id": "revoking_boosts",
                 "icon": "flash_off"
+            },
+            {
+                "id": "maximum_boosts_number",
+                "icon": "keyboard_double_arrow_up"
             }
         ]
     }

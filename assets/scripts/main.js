@@ -93,8 +93,25 @@ function uc(s) {
     return s.toUpperCase().replace(/Ё/, "Е")
 }
 
+var wordSplitPattern;
+try {
+    new RegExp('\\p{L}', 'u');
+    wordSplitPattern = /[^\p{L}\p{N}]+/u;
+} catch (e) {
+    wordSplitPattern = /[\s\-.,;:!?()[\]{}'"\/\\|@#$%^&*+=<>~`]+/;
+}
+
+function matchesSearch(text, searchWords) {
+    if (searchWords.length === 0) return true;
+    var ucText = uc(text);
+    return searchWords.every(function(word) {
+        return ucText.indexOf(word) !== -1;
+    });
+}
+
 function run() {
     var s = uc(document.getElementById("search").value.trim());
+    var searchWords = s.split(wordSplitPattern).filter(function(w) { return w.length > 0; });
 
 
     res.innerText = '';
@@ -104,7 +121,7 @@ function run() {
         var c = e.querySelector(".card");
         var h = e.querySelector(".header .name");
 
-        if (uc(h.innerText).indexOf(s) !== -1) {
+        if (matchesSearch(h.innerText, searchWords)) {
             se = 1;
             seA = 1;
         }
@@ -113,7 +130,7 @@ function run() {
             .forEach(function (i) {
                 var l = i.querySelector(".content");
 
-                if (seA || uc(l.innerText).indexOf(s) !== -1 || s.length === 0) {
+                if (seA || matchesSearch(l.innerText, searchWords) || searchWords.length === 0) {
                     se = 1;
                     c.appendChild(i)
                 }

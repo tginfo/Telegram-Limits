@@ -101,21 +101,21 @@
                 "text": "da 1 a 5 secondi"
             },
             "number_saved_ringtones": {
-                "name": "Number of saved ringtones",
-                "text": "up to 100"
+                "name": "Numero di suonerie salvate",
+                "text": "fino a 100"
             },
             "welcome_card_title_length": {
-                "name": "Welcome card title length",
-                "text_premium": "up to 32 characters"
+                "name": "Lunghezza titolo scheda di benvenuto",
+                "text_premium": "fino a 32 caratteri"
             },
             "welcome_card_text_length": {
-                "name": "Welcome card text length",
-                "text_premium": "up to 70 characters"
+                "name": "Lunghezza testo scheda di benvenuto",
+                "text_premium": "fino a 70 caratteri"
             },
             "number_business_chat_links": {
-                "name": "Number of business chat links",
-                "hint": "with predefined message text",
-                "text_premium": "up to 100 links"
+                "name": "Numero di link di business chat",
+                "hint": "con testo messaggio predefinito",
+                "text_premium": "fino a 100 link"
             }
         }
     },
@@ -227,9 +227,9 @@
                 "text": "la chat deve avere almeno 100 membri"
             },
             "number_manually_selected_reactions": {
-                "name": "Number of manually selected reactions",
-                "hint": "when \"Some reactions\" option is used",
-                "text": "up to 100"
+                "name": "Numero di reazioni selezionate manualmente",
+                "hint": "quando l'opzione \"Alcune reazioni\" è utilizzata",
+                "text": "fino a 100"
             },
             "number_members_aggressive_antispam_availability": {
                 "name": "Number of members for Aggressive Anti-Spam availability",
@@ -268,7 +268,7 @@
             "video_chat_broadcast": {
                 "name": "Video di Broadcast",
                 "hint": "(fotocamera, trasmissione dello schermo)",
-                "text": "up to 1,000 broadcasting users simultaneously"
+                "text": "fino a 1.000 broadcasting contemporaneamente"
             },
             "video_chat_viewers": {
                 "name": "Visualizzatori del broadcast video",
@@ -377,8 +377,8 @@
                 "text": "almeno 50"
             },
             "number_subscribers_see_story_statistics": {
-                "name": "Number of subscribers to see story statistics",
-                "text": "at least 1"
+                "name": "Numero di iscritti per vedere le statistiche della storia",
+                "text": "almeno 1"
             },
             "username_reservation": {
                 "name": "Proprietà di un username",
@@ -390,8 +390,8 @@
                 "text": "vedi il calcolatore https://boosts.tginfo.me"
             },
             "similar_channels_eligibility": {
-                "name": "Similar Channels eligibility",
-                "text": "at least 300 subscribers; depends on channel content"
+                "name": "Ammissibilità Canali Simili",
+                "text": "almeno 300 iscritti; dipende dal contenuto del canale"
             }
         }
     },
@@ -430,7 +430,7 @@
                 "text": "Fino a 12 MB"
             },
             "video_message_diameter": {
-                "name": "Video message diameter",
+                "name": "Diametro video messaggio",
                 "text": "384px"
             },
             "album_size": {
@@ -539,7 +539,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "Chat fissate in una cartella",
-                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
+                "hint": "(questo limite diminuisce del numero di chat singolarmente aggiunte alle impostazioni della cartella)",
                 "text": "fino a 100 chat",
                 "text_premium": "fino a 200 chat"
             }
@@ -785,13 +785,13 @@
                 "text": "fino a 200 username giornalieri"
             },
             "hashtag_search_depth": {
-                "name": "Hashtag search results number",
+                "name": "Numeri risultati ricerca hashtag",
                 "hint": "",
-                "text": "roughly last 5,000 messages"
+                "text": "circa gli ultimi 5.000 messaggi"
             },
             "minimal_subscribers_public_search_eligibility": {
-                "name": "Minimal channel subscribers for public search eligibility",
-                "text": "at least 100 subscribers"
+                "name": "Minimo di iscritti per l'ammissibilità alla ricerca pubblica",
+                "text": "almeno 100 iscritti"
             },
             "number_recommended_channels": {
                 "name": "Number of recommended channels",
@@ -1044,9 +1044,9 @@
                 "text": "non è possibile, i potenziamenti possono esser solo trasferiti"
             },
             "maximum_boosts_number": {
-                "name": "Maximum boosts number on an account",
-                "hint": "(not fully confirmed)",
-                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
+                "name": "Numero massimo di potenziamenti su un account",
+                "hint": "(non pienamente confermato)",
+                "text": "fino a 103 potenziamenti (4 potenziamenti per il proprio abbonamento Premium + 33 abbonamenti regalati)"
             },
             "number_channels_giveaway": {
                 "name": "Number of channels in a giveaway",

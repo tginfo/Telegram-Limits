@@ -242,7 +242,7 @@
             "video_chat_broadcast": {
                 "name": "Görüntü paylaşma",
                 "hint": "(kamera, ekran paylaşımı)",
-                "text": "aynı anda görüntü paylaşımı yapan 30 katılımcıya kadar"
+                "text": "up to 1,000 broadcasting users simultaneously"
             },
             "video_chat_viewers": {
                 "name": "Görüntü paylaşımını izleyenler",
@@ -330,6 +330,10 @@
                 "hint": "",
                 "text": "en az 50"
             },
+            "number_subscribers_see_story_statistics": {
+                "name": "Number of subscribers to see story statistics",
+                "text": "at least 1"
+            },
             "username_reservation": {
                 "name": "Kullanıcı adı değişim rezervasyonu",
                 "hint": "(kullanıcı adının herkes için kullanılabilir olmadan önceki zaman, sadece orijinal sahibine değil)",
@@ -338,6 +342,10 @@
             "boosts_needed_reach_level": {
                 "name": "Boosts needed to reach a level",
                 "text": "see https://boosts.tginfo.me calculator"
+            },
+            "similar_channels_eligibility": {
+                "name": "Similar Channels eligibility",
+                "text": "at least 300 subscribers; depends on channel content"
             }
         }
     },
@@ -374,6 +382,10 @@
             "video_message_file_size": {
                 "name": "Video message file size",
                 "text": "Up to 12 MB"
+            },
+            "video_message_diameter": {
+                "name": "Video message diameter",
+                "text": "384px"
             },
             "album_size": {
                 "name": "Tek mesajda resim ve videolar",
@@ -455,7 +467,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "Bir klasördeki sabit sohbetler",
-                "hint": "",
+                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
                 "text": "up to 100 chats",
                 "text_premium": "up to 200 chats"
             }
@@ -605,7 +617,7 @@
             "story_availability": {
                 "name": "Story availability",
                 "hint": "countries where stories are available without Telegram Premium",
-                "text": "The list is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "1 free story \nThe list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Story lifetime",
@@ -674,6 +686,15 @@
                 "name": "Username resolve limit",
                 "hint": "(hem botlar hem de kullanıcı hesapları için)",
                 "text": "günlük 200 adede kadar kullanıcı adı"
+            },
+            "hashtag_search_depth": {
+                "name": "Hashtag search results number",
+                "hint": "",
+                "text": "roughly last 5,000 messages"
+            },
+            "minimal_subscribers_public_search_eligibility": {
+                "name": "Minimal channel subscribers for public search eligibility",
+                "text": "at least 100 subscribers"
             }
         }
     },
@@ -853,6 +874,11 @@
             "revoking_boosts": {
                 "name": "Revoking boosts",
                 "text": "is not possible, boosts can only be transferred"
+            },
+            "maximum_boosts_number": {
+                "name": "Maximum boosts number on an account",
+                "hint": "(not fully confirmed)",
+                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
             }
         }
     }

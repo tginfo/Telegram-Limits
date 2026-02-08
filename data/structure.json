@@ -71,6 +71,14 @@
             {
                 "id": "maximum_passkeys_number",
                 "icon": "key"
+            },
+            {
+                "id": "session_duration",
+                "icon": "logout"
+            },
+            {
+                "id": "notification_sounds_duration",
+                "icon": "notifications_on"
             }
         ]
     },
@@ -154,6 +162,14 @@
             {
                 "id": "visible_list_members",
                 "icon": "person_search"
+            },
+            {
+                "id": "boosts_needed_reach_level",
+                "icon": "electric_bolt"
+            },
+            {
+                "id": "hide_participants_setting_availability",
+                "icon": "visibility_off"
             }
         ]
     },
@@ -263,6 +279,10 @@
             {
                 "id": "username_reservation",
                 "icon": "timelapse"
+            },
+            {
+                "id": "boosts_needed_reach_level",
+                "icon": "electric_bolt"
             }
         ]
     },
@@ -292,6 +312,10 @@
                 "icon": "motion_photos_on"
             },
             {
+                "id": "video_message_file_size",
+                "icon": "slow_motion_video"
+            },
+            {
                 "id": "album_size",
                 "icon": "dashboard"
             },
@@ -310,6 +334,10 @@
             {
                 "id": "links_per_message",
                 "icon": "link"
+            },
+            {
+                "id": "number_unique_reaction_types",
+                "icon": "emoji_emotions"
             }
         ]
     },
@@ -466,6 +494,10 @@
             {
                 "id": "inline_search_query",
                 "icon": "search"
+            },
+            {
+                "id": "bot_transfers",
+                "icon": "swap_horiz"
             }
         ]
     },
@@ -517,6 +549,10 @@
             {
                 "id": "stories_albums",
                 "icon": "collections"
+            },
+            {
+                "id": "stories_limit_reset_time",
+                "icon": "lock_clock"
             }
         ]
     },
@@ -594,6 +630,10 @@
             {
                 "id": "text_size",
                 "icon": "text_rotation_none"
+            },
+            {
+                "id": "media_attachments",
+                "icon": "perm_media"
             }
         ]
     },
@@ -667,6 +707,37 @@
             {
                 "id": "maximum_period_convert_received_gift_stars",
                 "icon": "today"
+            }
+        ]
+    },
+    {
+        "id": "boosts",
+        "icon": "electric_bolt",
+        "color": "255, 202, 40",
+        "items": [
+            {
+                "id": "number_boosts",
+                "icon": "how_to_vote"
+            },
+            {
+                "id": "number_boosts_2",
+                "icon": "loyalty"
+            },
+            {
+                "id": "number_boosts_if_you_won_premium_giveaway",
+                "icon": "emoji_events"
+            },
+            {
+                "id": "boosts_you_get_gifting_somebody_premium",
+                "icon": "wallet_giftcard"
+            },
+            {
+                "id": "boost_transfer_cooldown",
+                "icon": "swap_horiz"
+            },
+            {
+                "id": "revoking_boosts",
+                "icon": "flash_off"
             }
         ]
     }

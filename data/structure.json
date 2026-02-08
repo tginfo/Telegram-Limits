@@ -79,6 +79,22 @@
             {
                 "id": "notification_sounds_duration",
                 "icon": "notifications_on"
+            },
+            {
+                "id": "number_saved_ringtones",
+                "icon": "phonelink_ring"
+            },
+            {
+                "id": "welcome_card_title_length",
+                "icon": "contacts"
+            },
+            {
+                "id": "welcome_card_text_length",
+                "icon": "waving_hand"
+            },
+            {
+                "id": "number_business_chat_links",
+                "icon": "link"
             }
         ]
     },
@@ -170,6 +186,14 @@
             {
                 "id": "hide_participants_setting_availability",
                 "icon": "visibility_off"
+            },
+            {
+                "id": "number_manually_selected_reactions",
+                "icon": "emoji_emotions"
+            },
+            {
+                "id": "number_members_aggressive_antispam_availability",
+                "icon": "gpp_good"
             }
         ]
     },
@@ -224,6 +248,26 @@
             {
                 "id": "comment_lifetime",
                 "icon": "access_time"
+            },
+            {
+                "id": "number_participants_endtoend_encrypted_calls",
+                "icon": "enhanced_encryption"
+            },
+            {
+                "id": "paid_message_price",
+                "icon": "monetization_on"
+            },
+            {
+                "id": "paid_message_pin_duration",
+                "icon": "push_pin"
+            },
+            {
+                "id": "paid_message_length",
+                "icon": "text_rotation_none"
+            },
+            {
+                "id": "paid_message_emoji_number",
+                "icon": "emoji_emotions"
             }
         ]
     },
@@ -350,6 +394,14 @@
             {
                 "id": "number_unique_reaction_types",
                 "icon": "emoji_emotions"
+            },
+            {
+                "id": "speech_text_transcriptions",
+                "icon": "transcribe"
+            },
+            {
+                "id": "duration_speech_text_transcriptions",
+                "icon": "support_agent"
             }
         ]
     },
@@ -373,6 +425,18 @@
             {
                 "id": "poll_option_length",
                 "icon": "short_text"
+            },
+            {
+                "id": "length_quoted_text",
+                "icon": "format_quote"
+            },
+            {
+                "id": "quick_replies_number",
+                "icon": "quickreply"
+            },
+            {
+                "id": "quick_replies_messages_number",
+                "icon": "send_time_extension"
             }
         ]
     },
@@ -411,6 +475,10 @@
             {
                 "id": "chats_per_public_folder",
                 "icon": "groups"
+            },
+            {
+                "id": "folder_links_number",
+                "icon": "link"
             }
         ]
     },
@@ -510,6 +578,10 @@
             {
                 "id": "bot_transfers",
                 "icon": "swap_horiz"
+            },
+            {
+                "id": "length_custom_verification_text",
+                "icon": "verified"
             }
         ]
     },
@@ -563,8 +635,20 @@
                 "icon": "collections"
             },
             {
+                "id": "number_stories_album",
+                "icon": "camera_roll"
+            },
+            {
                 "id": "stories_limit_reset_time",
                 "icon": "lock_clock"
+            },
+            {
+                "id": "adding_clickable_links_stories",
+                "icon": "add_link"
+            },
+            {
+                "id": "number_reaction_stickers",
+                "icon": "add_reaction"
             }
         ]
     },
@@ -588,6 +672,10 @@
             {
                 "id": "minimal_subscribers_public_search_eligibility",
                 "icon": "public"
+            },
+            {
+                "id": "number_recommended_channels",
+                "icon": "campaign"
             }
         ]
     },
@@ -673,6 +761,14 @@
             {
                 "id": "photo_resolution_hd",
                 "icon": "hd"
+            },
+            {
+                "id": "parallel_download_small_files",
+                "icon": "file_copy"
+            },
+            {
+                "id": "parallel_download_big_files",
+                "icon": "folder_copy"
             }
         ]
     },
@@ -697,7 +793,7 @@
     },
     {
         "id": "gifts",
-        "icon": "card_giftcard",
+        "icon": "stars",
         "color": "239, 83, 80",
         "items": [
             {
@@ -725,8 +821,60 @@
                 "icon": "collections"
             },
             {
+                "id": "number_gifts_collection",
+                "icon": "collections_bookmark"
+            },
+            {
                 "id": "maximum_period_convert_received_gift_stars",
                 "icon": "today"
+            },
+            {
+                "id": "number_stars_that_can_be_withdrawn_chats_channels",
+                "icon": "account_balance_wallet"
+            },
+            {
+                "id": "price_paid_media_post",
+                "icon": "request_quote"
+            },
+            {
+                "id": "paid_reaction_transaction_amount",
+                "icon": "add_reaction"
+            },
+            {
+                "id": "length_message_attached_gift",
+                "icon": "loyalty"
+            },
+            {
+                "id": "allowed_payouts_affiliate_programs",
+                "icon": "recommend"
+            },
+            {
+                "id": "price_paid_message",
+                "icon": "textsms"
+            },
+            {
+                "id": "resale_price_collectible_gifts",
+                "icon": "sell"
+            },
+            {
+                "id": "resale_price_collectible_gifts_ton",
+                "icon": "pentagon"
+            },
+            {
+                "id": "price_suggested_channel_message",
+                "icon": "paid"
+            },
+            {
+                "id": "guaranteed_duration_paid_message",
+                "icon": "timelapse"
+            },
+            {
+                "id": "paid_post_scheduling_timeframe",
+                "icon": "schedule_send"
+            },
+            {
+                "id": "price_paid_post_ton_cryptocurrency",
+                "icon": "credit_card"
             }
         ]
     },
@@ -762,6 +910,78 @@
             {
                 "id": "maximum_boosts_number",
                 "icon": "keyboard_double_arrow_up"
+            },
+            {
+                "id": "number_channels_giveaway",
+                "icon": "campaign"
+            },
+            {
+                "id": "number_countries_giveaway",
+                "icon": "map"
+            },
+            {
+                "id": "giveaway_duration",
+                "icon": "calendar_month"
+            },
+            {
+                "id": "channel_levels",
+                "icon": "escalator"
+            },
+            {
+                "id": "minimum_level_set_channel_color",
+                "icon": "color_lens"
+            },
+            {
+                "id": "level_set_channel_background_icon",
+                "icon": "emoji_symbols"
+            },
+            {
+                "id": "level_customize_profile_background_color_emoji",
+                "icon": "contact_emergency"
+            },
+            {
+                "id": "level_set_emoji_status",
+                "icon": "assistant"
+            },
+            {
+                "id": "level_set_chat_wallpaper",
+                "icon": "now_wallpaper"
+            },
+            {
+                "id": "level_set_custom_chat_wallpaper",
+                "icon": "image_search"
+            },
+            {
+                "id": "level_activate_speech_transcriptions",
+                "icon": "transcribe"
+            },
+            {
+                "id": "level_set_grouppromoted_emoji",
+                "icon": "emoji_emotions"
+            },
+            {
+                "id": "group_level_customize_profile_background_color_emoji",
+                "icon": "contact_emergency"
+            },
+            {
+                "id": "group_level_set_emoji_status",
+                "icon": "assistant"
+            },
+            {
+                "id": "chat_level_set_one_predefined_chat_themes",
+                "icon": "now_wallpaper"
+            },
+            {
+                "id": "chat_level_set_custom_chat_wallpaper",
+                "icon": "image_search"
+            },
+            {
+                "id": "channel_level_disable_ads",
+                "icon": "money_off_csred"
+            },
+            {
+                "id": "channel_level_activate_channelwide_automatic_translation",
+                "icon": "translate"
             }
         ]
     }

@@ -32,7 +32,7 @@
                 "name": "Limitazione per spam",
                 "hint": "",
                 "text": "da 1 giorno a sempre",
-                "text_premium": "da 1 secondo fino a per sempre"
+                "text_premium": "from 1 second up to permanent"
             },
             "channels_and_chats_number": {
                 "name": "Numero di supergruppi e canali",
@@ -47,9 +47,9 @@
                 "text_premium": "fino a 400"
             },
             "video_length": {
-                "name": "Durata del video profilo",
+                "name": "Video avatar duration",
                 "hint": "",
-                "text": "fino a 10 secondi"
+                "text": "from 1 to 10 seconds"
             },
             "groups_and_channels_creation": {
                 "name": "Creazione di gruppi e canali",
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "Numero dei messaggi visibile",
-                "hint": "(limite condiviso tra chat private, bot e gruppi legacy)",
+                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
                 "text": "illimitato; prima dell'anno 2018 - fino a 1.000.000 di messaggi visibili: vedi https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -90,6 +90,15 @@
                 "name": "Numero massimo di passkey",
                 "hint": "collegate a un account Telegram",
                 "text": "fino a 5 passkey"
+            },
+            "session_duration": {
+                "name": "Session duration",
+                "text": "1 week, 1 month, 3 months, 6 months, or 12 months"
+            },
+            "notification_sounds_duration": {
+                "name": "Notification sounds duration",
+                "hint": "(custom files)",
+                "text": "from 1 to 5 seconds"
             }
         }
     },
@@ -191,6 +200,14 @@
                 "name": "Visibilità elenco dei membri",
                 "hint": "nelle grandi chat",
                 "text": "fino a 10.000 utenti"
+            },
+            "boosts_needed_reach_level": {
+                "name": "Boosts needed to reach a level",
+                "text": "see https://boosts.tginfo.me calculator"
+            },
+            "hide_participants_setting_availability": {
+                "name": "Hide participants setting availability",
+                "text": "the chat must have at least 100 members"
             }
         }
     },
@@ -317,6 +334,10 @@
                 "name": "Proprietà di un username",
                 "hint": "(tempo prima che il nome utente sia disponibile per tutti, non solo per il proprietario originale)",
                 "text": "circa 15-30 minuti"
+            },
+            "boosts_needed_reach_level": {
+                "name": "Boosts needed to reach a level",
+                "text": "see https://boosts.tginfo.me calculator"
             }
         }
     },
@@ -350,6 +371,10 @@
                 "hint": "",
                 "text": "fino ad 1 minuto"
             },
+            "video_message_file_size": {
+                "name": "Video message file size",
+                "text": "Up to 12 MB"
+            },
             "album_size": {
                 "name": "Immagini e video in un singolo messaggio",
                 "hint": "(album)",
@@ -375,6 +400,11 @@
                 "name": "Link per messaggio",
                 "hint": "",
                 "text": "fino a 100 link"
+            },
+            "number_unique_reaction_types": {
+                "name": "Number of unique reaction types",
+                "hint": "on a single message",
+                "text": "up to 11 reaction icons"
             }
         }
     },
@@ -504,7 +534,7 @@
             },
             "formatting_entities": {
                 "name": "Entità di formattazione",
-                "hint": "(grassetto, corsivo ecc.)",
+                "hint": "(bold, italic etc.)",
                 "text": "fino a 100 elementi"
             },
             "messaging_frequency": {
@@ -561,6 +591,11 @@
                 "name": "Ricerca inline",
                 "hint": "(<@BotUsername> testo della tua ricerca). Gli utenti possono inserire il testo senza restrizioni, ma il bot può elaborare solo un certo numero di caratteri",
                 "text": "fino a 256 caratteri dopo l'username del bot"
+            },
+            "bot_transfers": {
+                "name": "Bot transfers",
+                "hint": "between accounts",
+                "text": "up to 5 in a day"
             }
         }
     },
@@ -620,6 +655,10 @@
             "stories_albums": {
                 "name": "Album storie",
                 "text": "fino a 100"
+            },
+            "stories_limit_reset_time": {
+                "name": "Stories limit reset time",
+                "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
             }
         }
     },
@@ -706,6 +745,11 @@
                 "name": "Dimensione di un articolo",
                 "hint": "(foto incluse)",
                 "text": "fino a 64 KiB"
+            },
+            "media_attachments": {
+                "name": "Media attachments",
+                "hint": "in articles",
+                "text": "Only external links; uploads were disabled"
             }
         }
     },
@@ -776,6 +820,39 @@
             "maximum_period_convert_received_gift_stars": {
                 "name": "Periodo massimo per convertire il regalo ricevuto in stelle",
                 "text": "7 giorni"
+            }
+        }
+    },
+    "boosts": {
+        "name": "Boosts",
+        "items": {
+            "number_boosts": {
+                "name": "Number of boosts if you bought Premium for yourself",
+                "hint": "",
+                "text": "see also: https://tginfo.me/boosts-and-channel-stories-en",
+                "text_premium": "4 boosts"
+            },
+            "number_boosts_2": {
+                "name": "Number of boosts if you received Premium as a gift",
+                "hint": "",
+                "text_premium": "1 boost"
+            },
+            "number_boosts_if_you_won_premium_giveaway": {
+                "name": "Number of boosts you get if you won Premium in a giveaway",
+                "text_premium": "giveaway Premium subscriptions give 0 boosts"
+            },
+            "boosts_you_get_gifting_somebody_premium": {
+                "name": "Boosts you get for gifting somebody Premium",
+                "text": "you gain 1 additional boost to what you already got"
+            },
+            "boost_transfer_cooldown": {
+                "name": "Boost transfer cooldown",
+                "hint": "if you want to change a channel you boost",
+                "text_premium": "24 hours"
+            },
+            "revoking_boosts": {
+                "name": "Revoking boosts",
+                "text": "is not possible, boosts can only be transferred"
             }
         }
     }

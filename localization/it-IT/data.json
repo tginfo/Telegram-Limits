@@ -242,7 +242,7 @@
             "video_chat_broadcast": {
                 "name": "Video di Broadcast",
                 "hint": "(fotocamera, trasmissione dello schermo)",
-                "text": "fino a 30 utenti di broadcasting simultaneamente"
+                "text": "up to 1,000 broadcasting users simultaneously"
             },
             "video_chat_viewers": {
                 "name": "Visualizzatori del broadcast video",
@@ -330,6 +330,10 @@
                 "hint": "",
                 "text": "almeno 50"
             },
+            "number_subscribers_see_story_statistics": {
+                "name": "Number of subscribers to see story statistics",
+                "text": "at least 1"
+            },
             "username_reservation": {
                 "name": "Proprietà di un username",
                 "hint": "(tempo prima che il nome utente sia disponibile per tutti, non solo per il proprietario originale)",
@@ -338,6 +342,10 @@
             "boosts_needed_reach_level": {
                 "name": "Potenziamenti necessari per raggiungere un livello",
                 "text": "vedi il calcolatore https://boosts.tginfo.me"
+            },
+            "similar_channels_eligibility": {
+                "name": "Similar Channels eligibility",
+                "text": "at least 300 subscribers; depends on channel content"
             }
         }
     },
@@ -374,6 +382,10 @@
             "video_message_file_size": {
                 "name": "Dimensione video messaggio",
                 "text": "Fino a 12 MB"
+            },
+            "video_message_diameter": {
+                "name": "Video message diameter",
+                "text": "384px"
             },
             "album_size": {
                 "name": "Immagini e video in un singolo messaggio",
@@ -455,7 +467,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "Chat fissate in una cartella",
-                "hint": "",
+                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
                 "text": "fino a 100 chat",
                 "text_premium": "fino a 200 chat"
             }
@@ -605,7 +617,7 @@
             "story_availability": {
                 "name": "Disponibilità storie",
                 "hint": "paesi in cui le storie sono disponibili senza Telegram Premium",
-                "text": "La lista è disponibile qui: https://tginfo.me/stories-by-countries-en/"
+                "text": "1 free story \nThe list is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Disponibilità Storia",
@@ -674,6 +686,15 @@
                 "name": "Limite per la ricerca del nome utente",
                 "hint": "(sia per i bot che per gli account utente)",
                 "text": "fino a 200 username giornalieri"
+            },
+            "hashtag_search_depth": {
+                "name": "Hashtag search results number",
+                "hint": "",
+                "text": "roughly last 5,000 messages"
+            },
+            "minimal_subscribers_public_search_eligibility": {
+                "name": "Minimal channel subscribers for public search eligibility",
+                "text": "at least 100 subscribers"
             }
         }
     },
@@ -853,6 +874,11 @@
             "revoking_boosts": {
                 "name": "Rimozione potenziamento",
                 "text": "non è possibile, i potenziamenti possono esser solo trasferiti"
+            },
+            "maximum_boosts_number": {
+                "name": "Maximum boosts number on an account",
+                "hint": "(not fully confirmed)",
+                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
             }
         }
     }

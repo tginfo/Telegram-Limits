@@ -32,7 +32,7 @@
                 "name": "Спам-бан",
                 "hint": "",
                 "text": "от 1 дня до навсегда",
-                "text_premium": "from 1 second up to permanent"
+                "text_premium": "от 1 секунды до навсегда"
             },
             "channels_and_chats_number": {
                 "name": "Количество каналов и супергрупп",
@@ -47,9 +47,9 @@
                 "text_premium": "до 400"
             },
             "video_length": {
-                "name": "Video avatar duration",
+                "name": "Длительность видеоаватара",
                 "hint": "",
-                "text": "from 1 to 10 seconds"
+                "text": "от 1 до 10 секунд"
             },
             "groups_and_channels_creation": {
                 "name": "Создание групп и каналов",
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "Количество видимых сообщений",
-                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
+                "hint": "(общий лимит между личными чатами, ботами и базовыми группами)",
                 "text": "неограниченно; до 2018 года - до 1 000 000 сообщений: см. https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -87,35 +87,35 @@
                 "text": "128 символов"
             },
             "maximum_passkeys_number": {
-                "name": "Maximum passkeys number",
-                "hint": "linked to a Telegram account",
-                "text": "up to 5 passkeys"
+                "name": "Максимальное число ключей доступа Passkeys",
+                "hint": "привязанных к аккаунту Telegram",
+                "text": "до 5 ключей"
             },
             "session_duration": {
-                "name": "Session duration",
-                "text": "1 week, 1 month, 3 months, 6 months, or 12 months"
+                "name": "Длительность сессии",
+                "text": "1 неделя, 1 месяц, 3 месяца, 6 месяцев или 12 месяцев"
             },
             "notification_sounds_duration": {
-                "name": "Notification sounds duration",
-                "hint": "(custom files)",
-                "text": "from 1 to 5 seconds"
+                "name": "Длительность звука уведомления",
+                "hint": "(собственные файлы)",
+                "text": "от 1 до 5 секунд"
             },
             "number_saved_ringtones": {
-                "name": "Number of saved ringtones",
-                "text": "up to 100"
+                "name": "Количество сохранённых рингтонов",
+                "text": "до 100 штук"
             },
             "welcome_card_title_length": {
-                "name": "Welcome card title length",
-                "text_premium": "up to 32 characters"
+                "name": "Длина заголовка карточки в пустом чате",
+                "text_premium": "до 32 символов"
             },
             "welcome_card_text_length": {
-                "name": "Welcome card text length",
-                "text_premium": "up to 70 characters"
+                "name": "Длина текста карточки в пустом чате",
+                "text_premium": "до 70 символов"
             },
             "number_business_chat_links": {
-                "name": "Number of business chat links",
-                "hint": "with predefined message text",
-                "text_premium": "up to 100 links"
+                "name": "Количество бизнес-ссылок на чат",
+                "hint": "с заданным текстом сообщения",
+                "text_premium": "до 100 ссылок"
             }
         }
     },
@@ -214,26 +214,26 @@
                 "text": "для чатов со 100 участниками или меньше, список пользователей доступен только для пользователя, который отправил сообщение"
             },
             "visible_list_members": {
-                "name": "Visible list of members",
-                "hint": "in big chats",
-                "text": "up to 10,000 users"
+                "name": "Видимый список участников",
+                "hint": "в крупных чатах",
+                "text": "до 10 000 пользователей"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "Необходимое количество голосов для уровня",
+                "text": "см. калькулятор https://boosts.tginfo.me"
             },
             "hide_participants_setting_availability": {
-                "name": "Hide participants setting availability",
-                "text": "the chat must have at least 100 members"
+                "name": "Доступ к настройке \"скрыть участников\"",
+                "text": "в чате должно быть не менее 100 участников"
             },
             "number_manually_selected_reactions": {
-                "name": "Number of manually selected reactions",
-                "hint": "when \"Some reactions\" option is used",
-                "text": "up to 100"
+                "name": "Количество вручную выбранных реакций",
+                "hint": "когда используется опция \"Только выбранные\"",
+                "text": "до 100 штук"
             },
             "number_members_aggressive_antispam_availability": {
-                "name": "Number of members for Aggressive Anti-Spam availability",
-                "text": "at least 200 members"
+                "name": "Количество участников для активного антиспам-фильтра",
+                "text": "не менее 200 участников"
             }
         }
     },
@@ -268,7 +268,7 @@
             "video_chat_broadcast": {
                 "name": "Трансляция видео",
                 "hint": "(камера, демонстрация экрана)",
-                "text": "up to 1,000 broadcasting users simultaneously"
+                "text": "до 1 000 вещающих пользователей одновременно"
             },
             "video_chat_viewers": {
                 "name": "Зрители видео-трансляции",
@@ -296,23 +296,23 @@
                 "text": "10 секунд"
             },
             "number_participants_endtoend_encrypted_calls": {
-                "name": "Number of participants in End-to-End encrypted private link calls",
-                "text": "up to 200 participants"
+                "name": "Количество участников групповых звонков по ссылке со сквозным шифрованием",
+                "text": "до 200 участников"
             },
             "paid_message_price": {
-                "name": "Paid stream comment message price",
-                "text": "up to 10,000 stars"
+                "name": "Цена на платное сообщение к стриму",
+                "text": "до 10 000 звёзд"
             },
             "paid_message_pin_duration": {
-                "name": "Stream comment pin duration",
-                "text": "free: no pinning. 10 stars: 1 minute. 50 stars: 2 minutes. 100 stars: 5 minutes. 250 stars: 10 minutes. 500 stars: 15 minutes. 2,000 stars: 30 minutes. 10,000 stars: 1 hour"
+                "name": "Срок закреплённого сообщения к стриму",
+                "text": "бесплатно: без прикрепления. 10 звезд: 1 минута. 50 звезд: 2 минуты. 100 звезд: 5 минут. 250 звезд: 10 минут. 500 звезд: 15 минут. 2 000 звезд: 30 минут. 10 000 звезд: 1 час"
             },
             "paid_message_length": {
-                "name": "Stream comment length",
-                "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
+                "name": "Длина комментария к стриму",
+                "text": "бесплатно: 30 символов. 10 звёзд: 60 символов. 50 звёзд: 80 символов. 100 звёзд: 110 символов. 250 звёзд: 150 символов. 500 звёзд: 200 символов. 2 000 звезд: 280 символов. 10 000 звёзд: 400 символов"
             },
             "paid_message_emoji_number": {
-                "name": "Stream comment emoji number",
+                "name": "Количество эмодзи в комментарии к стриму",
                 "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
             }
         }

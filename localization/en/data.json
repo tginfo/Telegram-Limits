@@ -359,7 +359,7 @@
             "channel_deletion": {
                 "name": "Channel deletion",
                 "hint": "",
-                "text": "channels with more than 1K subscribers can be deleted only with Telegram support"
+                "text": "channels with more than 1K subscribers can be deleted only from a session that is a few days old and only if the current account had cloud password activated for a few days"
             },
             "private_channel_access": {
                 "name": "Viewing private channels without joining",
@@ -450,7 +450,7 @@
             },
             "custom_emoji_per_message": {
                 "name": "Custom emoji per message",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji",
+                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji; on low-end devices even less custom emojis may be displayed",
                 "text": "not available",
                 "text_premium": "up to 100 emoji"
             },

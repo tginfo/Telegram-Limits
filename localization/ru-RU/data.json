@@ -313,7 +313,7 @@
             },
             "paid_message_emoji_number": {
                 "name": "Количество эмодзи в комментарии к стриму",
-                "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
+                "text": "бесплатно: без эмодзи. 10 звёзд: 1 эмодзи. 50 звёзд: 2 эмодзи. 100 звёзд: 3 эмодзи. 250 звёзд: 4 эмодзи. 500 звёзд: 7 эмодзи. 2 000 звёзд: 10 эмодзи. 10 000 звёзд: 20 эмодзи"
             }
         }
     },
@@ -359,7 +359,7 @@
             "channel_deletion": {
                 "name": "Удаление канала",
                 "hint": "",
-                "text": "channels with more than 1K subscribers can be deleted only from a session that is a few days old and only if the current account had cloud password activated for a few days"
+                "text": "каналы с более чем 1K подписчиков могут быть удалены только из сеанса, которому уже несколько дней, и только если у текущего аккаунта установлен облачный пароль уже в течение нескольких дней"
             },
             "private_channel_access": {
                 "name": "Просмотр закрытых каналов без вступления",
@@ -377,8 +377,8 @@
                 "text": "50 и более"
             },
             "number_subscribers_see_story_statistics": {
-                "name": "Number of subscribers to see story statistics",
-                "text": "at least 1"
+                "name": "Количество подписчиков для просмотра статистики истории",
+                "text": "1 и более"
             },
             "username_reservation": {
                 "name": "Резервирование @username после смены",
@@ -386,12 +386,12 @@
                 "text": "около 15-30 минут"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "Необходимое количество голосов для уровня",
+                "text": "см. калькулятор https://boosts.tginfo.me"
             },
             "similar_channels_eligibility": {
-                "name": "Similar Channels eligibility",
-                "text": "at least 300 subscribers; depends on channel content"
+                "name": "Показ в секции «Похожие каналы»",
+                "text": "не менее 300 подписчиков; зависит от контента канала"
             }
         }
     },
@@ -426,11 +426,11 @@
                 "text": "до 1 минуты"
             },
             "video_message_file_size": {
-                "name": "Video message file size",
-                "text": "Up to 12 MB"
+                "name": "Размер файла видео-сообщения",
+                "text": "До 12 МБ"
             },
             "video_message_diameter": {
-                "name": "Video message diameter",
+                "name": "Диаметр видео-сообщения",
                 "text": "384px"
             },
             "album_size": {
@@ -450,7 +450,7 @@
             },
             "custom_emoji_per_message": {
                 "name": "Количество кастомных эмодзи в сообщении",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji; on low-end devices even less custom emojis may be displayed",
+                "hint": "без Telegram Premium, кастомные эмодзи могут быть отправлены только в Избранное, более 100 кастомных эмодзи заменяются соответствующими стандартными эмодзи; на слабых устройствах количество отображаемых эмодзи может быть ещё меньше",
                 "text": "недоступно",
                 "text_premium": "до 100 эмодзи"
             },
@@ -460,21 +460,21 @@
                 "text": "до 100 ссылок"
             },
             "number_unique_reaction_types": {
-                "name": "Number of unique reaction types",
-                "hint": "on a single message",
-                "text": "up to 11 reaction icons"
+                "name": "Количество уникальных типов реакций",
+                "hint": "в одном сообщении",
+                "text": "до 11 реакций"
             },
             "speech_text_transcriptions": {
-                "name": "Number of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 2 free transcriptions weekly",
-                "text_premium": "unlimited"
+                "name": "Количество использований функции распознавания речи",
+                "hint": "для голосовых и видео сообщений",
+                "text": "до 2 бесплатных транскрипций еженедельно",
+                "text_premium": "неограниченно"
             },
             "duration_speech_text_transcriptions": {
-                "name": "Duration of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 5 minutes",
-                "text_premium": "no duration limit set"
+                "name": "Длительность сообщений для функции распознавания речи",
+                "hint": "для голосовых и видео сообщений",
+                "text": "до 5 минут",
+                "text_premium": "не установлено ограничение продолжительности"
             }
         }
     },
@@ -502,18 +502,18 @@
                 "text": "от 1 до 100 символов"
             },
             "length_quoted_text": {
-                "name": "Length of a quoted text",
-                "text": "up to 1024 characters"
+                "name": "Длина цитируемого текста",
+                "text": "до 1 024 символов"
             },
             "quick_replies_number": {
-                "name": "Quick Replies number",
-                "hint": "(predefined templates)",
-                "text_premium": "up to 100 templates"
+                "name": "Количество быстрых ответов",
+                "hint": "(заданные шаблоны)",
+                "text_premium": "до 100 шаблонов"
             },
             "quick_replies_messages_number": {
-                "name": "Quick Replies messages number",
-                "hint": "(number of messages that can be sent by a single Quick Reply)",
-                "text_premium": "up to 10 messages"
+                "name": "Количество сообщений в быстром ответе",
+                "hint": "(количество сообщений, которые могут быть отправлены одним быстрым ответом)",
+                "text_premium": "до 10 сообщений"
             }
         }
     },
@@ -539,7 +539,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "Закреплённые чаты в папке",
-                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
+                "hint": "(это ограничение уменьшается на количество чатов, напрямую добавленных в настройки папки)",
                 "text": "до 100 чатов",
                 "text_premium": "до 200 чатов"
             }
@@ -561,10 +561,10 @@
                 "text_premium": "до 200 элементов"
             },
             "folder_links_number": {
-                "name": "Folder links number",
-                "hint": "per public folder",
-                "text": "up to 3 links",
-                "text_premium": "up to 10 links"
+                "name": "Количество ссылок на папку",
+                "hint": "в отдельно взятой публичной папке",
+                "text": "до 3 ссылок",
+                "text_premium": "до 10 ссылок"
             }
         }
     },
@@ -600,7 +600,7 @@
             "upload_limit_botapi_local": {
                 "name": "Лимит выгрузки файлов",
                 "hint": "с локальным сервером Bot API",
-                "text": "up to 2000 MiB"
+                "text": "до 2 000 МиБ"
             },
             "download_limit_botapi": {
                 "name": "Файлы принимаемые ботом",
@@ -624,7 +624,7 @@
             },
             "formatting_entities": {
                 "name": "Форматированные сущности",
-                "hint": "(bold, italic etc.)",
+                "hint": "(жирный, курсив и т.п.)",
                 "text": "до 100 элементов"
             },
             "messaging_frequency": {
@@ -683,13 +683,13 @@
                 "text": "до 256 символов после юзернейма бота"
             },
             "bot_transfers": {
-                "name": "Bot transfers",
-                "hint": "between accounts",
-                "text": "up to 5 in a day"
+                "name": "Передача ботов",
+                "hint": "между аккаунтами",
+                "text": "до 5 в день"
             },
             "length_custom_verification_text": {
-                "name": "Length of custom verification text",
-                "text": "from 1 to 70 characters"
+                "name": "Длина текста кастомной иконки верификации",
+                "text": "от 1 до 70 символов"
             }
         }
     },
@@ -699,7 +699,7 @@
             "story_availability": {
                 "name": "Доступность историй",
                 "hint": "страны, где истории доступны без Telegram Premium",
-                "text": "Telegram is rolling out the free 1 story limit to more countries.\n\nThe list is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "Telegram запускает бесплатный лимит в 1 историю в большем количестве стран.\n\nСписок доступен по ссылке: https://tginfo.me/stories-by-countries/"
             },
             "story_lifetime": {
                 "name": "Срок жизни истории",
@@ -736,13 +736,13 @@
                 "text_premium": "до 2 048 символов"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency (Hide My View)",
+                "name": "Частота использования режима инкогнито (скрыть просмотр)",
                 "text": "недоступно",
-                "text_premium": "once per 3 hours",
+                "text_premium": "один раз в 3 часа",
                 "hint": ""
             },
             "story_incognito_duration": {
-                "name": "Incognito duration (Hide My View)",
+                "name": "Длительность режима инкогнито (Скрыть просмотр)",
                 "hint": "(все просмотры за последние 5 минут до включения режима исчезают, просмотры после включения не фиксируются 25 минут)",
                 "text": "недоступно",
                 "text_premium": "30 минут"
@@ -752,22 +752,22 @@
                 "text": "100"
             },
             "number_stories_album": {
-                "name": "Number of stories in an album",
-                "text": "up to 100 stories"
+                "name": "Количество историй в альбоме",
+                "text": "до 100 историй"
             },
             "stories_limit_reset_time": {
-                "name": "Stories limit reset time",
-                "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
+                "name": "Время сброса лимита на публикацию историй",
+                "text": "лимит сбрасывается сразу на максимальное значение через 24 часа после публикации первой истории\n\nсм. также: https://tginfo.me/boosts-and-channel-stories"
             },
             "adding_clickable_links_stories": {
-                "name": "Adding clickable links to stories",
-                "text": "not available",
-                "text_premium": "up to 3 stickers"
+                "name": "Добавление интерактивных ссылок на истории",
+                "text": "недоступно",
+                "text_premium": "до 3 стикеров"
             },
             "number_reaction_stickers": {
-                "name": "Number of reaction stickers",
-                "text": "only 1 reaction",
-                "text_premium": "up to 5 reactions"
+                "name": "Количество стикеров-реакций",
+                "text": "только 1 реакция",
+                "text_premium": "до 5 реакций"
             }
         }
     },
@@ -785,19 +785,19 @@
                 "text": "до 200 в день"
             },
             "hashtag_search_depth": {
-                "name": "Hashtag search results number",
+                "name": "Число результатов поиска по хэштегу",
                 "hint": "",
-                "text": "roughly last 5,000 messages"
+                "text": "примерно 5 000 последних сообщений"
             },
             "minimal_subscribers_public_search_eligibility": {
-                "name": "Minimal channel subscribers for public search eligibility",
-                "text": "at least 100 subscribers"
+                "name": "Минимальное количество подписчиков на канале для показа в публичном поиске",
+                "text": "как минимум 100 подписчиков"
             },
             "number_recommended_channels": {
-                "name": "Number of recommended channels",
-                "hint": "(\"Similar channels\" in global search and specific channels)",
-                "text": "up to 10",
-                "text_premium": "up to 100"
+                "name": "Количество рекомендованных каналов",
+                "hint": "(«Похожие каналы» в глобальном поиске и конкретных каналах)",
+                "text": "до 10 штук",
+                "text_premium": "до 100 штук"
             }
         }
     },
@@ -871,9 +871,9 @@
                 "text": "до 64 KiB"
             },
             "media_attachments": {
-                "name": "Media attachments",
-                "hint": "in articles",
-                "text": "Only external links; uploads were disabled"
+                "name": "Медиа-вложения",
+                "hint": "в статьях",
+                "text": "Только внешние ссылки; загрузка была отключена"
             }
         }
     },
@@ -896,19 +896,19 @@
                 "text": "большая сторона должна содержать не более 2560px, иначе фото будет сжато так, чтобы большая сторона содержала 2560px"
             },
             "parallel_download_small_files": {
-                "name": "Parallel download for small files",
-                "hint": "(less than 20 MB)",
-                "text": "approximately up to 5 files"
+                "name": "Параллельная загрузка для небольших файлов",
+                "hint": "(менее 20 МБ)",
+                "text": "примерно до 5 файлов"
             },
             "parallel_download_big_files": {
-                "name": "Parallel download for big files",
-                "hint": "(more than 20 MB)",
-                "text": "approximately up to 2 files"
+                "name": "Параллельная загрузка для больших файлов",
+                "hint": "(более 20 МБ)",
+                "text": "примерно до 2 файлов"
             }
         }
     },
     "checklists": {
-        "name": "Checklists (To Do)",
+        "name": "Списки задач",
         "items": {
             "max_number_items_list": {
                 "name": "Количество элементов в списке задач",
@@ -925,7 +925,7 @@
         }
     },
     "gifts": {
-        "name": "Gifts & Stars",
+        "name": "Подарки и звёзды",
         "items": {
             "minimum_gift_upgrade_price": {
                 "name": "Минимальная цена за апгрейд подарка",
@@ -952,177 +952,177 @@
                 "text": "10"
             },
             "number_gifts_collection": {
-                "name": "Number of gifts in a collection",
-                "text": "up to 500 gifts"
+                "name": "Количество подарков в коллекции",
+                "text": "до 500 подарков"
             },
             "maximum_period_convert_received_gift_stars": {
                 "name": "Срок, в течение которого можно обменять полученный подарок на звёзды",
                 "text": "7 суток"
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Number of stars that can be withdrawn in chats and channels",
-                "text": "from 1,000 stars to  25,000,000 stars"
+                "name": "Количество звёзд, которые можно снять с баланса чата или бота",
+                "text": "от 1 000 звёзд до 25 000 000 звёзд"
             },
             "price_paid_media_post": {
-                "name": "Price for paid media in a post",
-                "text": "from 1 to 25,000 stars"
+                "name": "Цена за платные медиа в посте",
+                "text": "от 1 до 25 000 звёзд"
             },
             "paid_reaction_transaction_amount": {
-                "name": "Paid reaction transaction amount",
-                "text": "from 1 to 10,000 stars"
+                "name": "Сумма перевода через платные реакции",
+                "text": "от 1 до 10 000 звёзд"
             },
             "length_message_attached_gift": {
-                "name": "Length of a message attached to a gift",
-                "text": "up to 128 characters"
+                "name": "Длина сообщения, прикреплённого к подарку",
+                "text": "до 128 символов"
             },
             "allowed_payouts_affiliate_programs": {
-                "name": "Allowed revenue share percentages in affiliate programs",
-                "hint": "per referred user",
-                "text": "from 0.1% to 80%"
+                "name": "Допустимые проценты доли доходов в партнерских программах",
+                "hint": "на пользователя",
+                "text": "от 0.1% до 80%"
             },
             "price_paid_message": {
-                "name": "Price for a private paid message",
-                "text": "from 1 to 10,000 stars"
+                "name": "Цена за личное платное сообщение",
+                "text": "от 1 до 10 000 звёзд"
             },
             "resale_price_collectible_gifts": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in stars",
-                "text": "from 125 to 100,000 stars"
+                "name": "Цена на перепродажу коллекционных подарков",
+                "hint": "в звёздах",
+                "text": "от 125 до 100 000 звёзд"
             },
             "resale_price_collectible_gifts_ton": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in TON",
-                "text": "from 7 TON to 100,000 TON"
+                "name": "Цена на перепродажу коллекционных подарков",
+                "hint": "в TON",
+                "text": "от 7 TON до 100 000 TON"
             },
             "price_suggested_channel_message": {
-                "name": "Price for a suggested channel message",
-                "text": "Free, or from 5 to 100,000 stars"
+                "name": "Цена за предлагаемое сообщение в канал",
+                "text": "Бесплатно или от 5 до 100 000 звёзд"
             },
             "guaranteed_duration_paid_message": {
-                "name": "Guaranteed duration of a paid post",
-                "text": "24 hours"
+                "name": "Гарантированный срок не удаления платного поста",
+                "text": "24 часа"
             },
             "paid_post_scheduling_timeframe": {
-                "name": "Paid post scheduling timeframe",
-                "text": "from 5 minutes to 31 days in advance"
+                "name": "Диапазон планирования платных постов",
+                "text": "от 5 минут до 31 дней"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Price for a paid post in TON cryptocurrency",
-                "text": "from 0.01 TON to 10,000 TON"
+                "name": "Цена за платный пост в криптовалюте TON",
+                "text": "от 0.01 TON до 10 000 TON"
             }
         }
     },
     "boosts": {
-        "name": "Boosts",
+        "name": "Голоса",
         "items": {
             "number_boosts": {
-                "name": "Number of boosts if you bought Premium for yourself",
+                "name": "Количество голосов, если вы купили Premium для себя",
                 "hint": "",
-                "text": "see also: https://tginfo.me/boosts-and-channel-stories-en",
-                "text_premium": "4 boosts"
+                "text": "см. также: https://tginfo.me/boosts-and-channel-stories",
+                "text_premium": "4 голоса"
             },
             "number_boosts_2": {
-                "name": "Number of boosts if you received Premium as a gift",
+                "name": "Количество голосов, если вы получили Premium в качестве подарка",
                 "hint": "",
-                "text_premium": "1 boost"
+                "text_premium": "1 голос"
             },
             "number_boosts_if_you_won_premium_giveaway": {
-                "name": "Number of boosts you get if you won Premium in a giveaway",
-                "text_premium": "giveaway Premium subscriptions give 0 boosts"
+                "name": "Количество голосов, которое вы получите, если вы выиграли Premium в розыгрыше",
+                "text_premium": "подписки Premium из розыгрышей дают 0 голосов"
             },
             "boosts_you_get_gifting_somebody_premium": {
-                "name": "Boosts you get for gifting somebody Premium",
-                "text": "you gain 3 additional boosts to what you already got"
+                "name": "Количество голосов за дарение Premium другому пользователю",
+                "text": "вы получаете 3 дополнительных голоса к уже имеющимся"
             },
             "boost_transfer_cooldown": {
-                "name": "Boost transfer cooldown",
-                "hint": "if you want to change a channel you boost",
-                "text_premium": "24 hours"
+                "name": "Время ожидания для передачи голоса",
+                "hint": "если вы хотите изменить канал, за который вы проголосовали",
+                "text_premium": "24 часа"
             },
             "revoking_boosts": {
-                "name": "Revoking boosts",
-                "text": "is not possible, boosts can only be transferred"
+                "name": "Аннулирование голоса",
+                "text": "невозможно отобрать голоса, которые вы уже дали, их можно только перенести на другой канал"
             },
             "maximum_boosts_number": {
-                "name": "Maximum boosts number on an account",
-                "hint": "(not fully confirmed)",
-                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
+                "name": "Максимальное количество голосов на аккаунте",
+                "hint": "(не подтверждено полностью)",
+                "text": "до 103 голосов (4 с собственной премиум-подписки + с 33 подаренных подписок)"
             },
             "number_channels_giveaway": {
-                "name": "Number of channels in a giveaway",
-                "text": "up to 10 channels"
+                "name": "Количество каналов в розыгрыше",
+                "text": "до 10 каналов"
             },
             "number_countries_giveaway": {
-                "name": "Number of countries in a giveaway",
-                "text": "up to 10"
+                "name": "Количество стран в розыгрыше",
+                "text": "до 10 штук"
             },
             "giveaway_duration": {
-                "name": "Giveaway duration",
-                "text": "up to 31 days"
+                "name": "Длительность розыгрыша",
+                "text": "до 31 дней"
             },
             "channel_levels": {
-                "name": "Channel levels",
-                "text": "from 1 up to 100"
+                "name": "Уровни каналов",
+                "text": "от 1 до 100"
             },
             "minimum_level_set_channel_color": {
-                "name": "Level to set channel color",
-                "text": "at least level 5"
+                "name": "Уровень для задания цвета канала",
+                "text": "минимум 5 уровень"
             },
             "level_set_channel_background_icon": {
-                "name": "Channel level to customize message accent color and emoji",
-                "text": "at least level 4"
+                "name": "Уровень канала для настройки акцентного цвета сообщений и эмодзи",
+                "text": "минимум 4 уровень"
             },
             "level_customize_profile_background_color_emoji": {
-                "name": "Channel level to customize profile background color and emoji",
-                "text": "at least level 7"
+                "name": "Уровень канала для настройки цвета профиля и эмодзи",
+                "text": "минимум 7 уровень"
             },
             "level_set_emoji_status": {
-                "name": "Channel level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "name": "Уровень канала для установки эмодзи-статуса",
+                "hint": "(только из официальных наборов эмодзи)",
+                "text": "минимум 8 уровень"
             },
             "level_set_chat_wallpaper": {
-                "name": "Channel level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "Уровень канала для установки одной из предопределённых тем чата",
+                "text": "минимум 9 уровень"
             },
             "level_set_custom_chat_wallpaper": {
-                "name": "Channel level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "Уровень канала для настройки фона чата",
+                "text": "минимум 10 уровень"
             },
             "level_activate_speech_transcriptions": {
-                "name": "Level to activate speech transcriptions",
-                "hint": "for users without Premium",
-                "text": "at least level 6"
+                "name": "Уровень для активации функции транскрипции речи",
+                "hint": "для пользователей без Premium",
+                "text": "минимум 6 уровень"
             },
             "level_set_grouppromoted_emoji": {
-                "name": "Level to set group-promoted emoji",
-                "text": "at least level 4"
+                "name": "Уровень для задания эмодзи группы",
+                "text": "минимум 4 уровень"
             },
             "group_level_customize_profile_background_color_emoji": {
-                "name": "Group level to customize profile background color and emoji",
-                "text": "at least level 5"
+                "name": "Уровень чата для настройки цвета профиля и эмодзи",
+                "text": "минимум 5 уровень"
             },
             "group_level_set_emoji_status": {
-                "name": "Group level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "name": "Уровень группы для установки эмодзи-статуса",
+                "hint": "(только из официальных наборов эмодзи)",
+                "text": "минимум 8 уровень"
             },
             "chat_level_set_one_predefined_chat_themes": {
-                "name": "Chat level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "Уровень чата для установки одной из предопределённых тем чата",
+                "text": "минимум 9 уровень"
             },
             "chat_level_set_custom_chat_wallpaper": {
-                "name": "Chat level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "Уровень чата для настройки фона чата",
+                "text": "минимум 10 уровень"
             },
             "channel_level_disable_ads": {
-                "name": "Channel level to disable ads",
-                "text": "at least level 50"
+                "name": "Уровень канала для отключения рекламы",
+                "text": "минимум 50 уровень"
             },
             "channel_level_activate_channelwide_automatic_translation": {
-                "name": "Channel level to activate channel-wide automatic translation",
-                "hint": "for users without Premium",
-                "text": "at least level 3"
+                "name": "Уровень канала для активации автоматического перевода всех сообщений в канале",
+                "hint": "для пользователей без Premium",
+                "text": "минимум 3 уровень"
             }
         }
     }

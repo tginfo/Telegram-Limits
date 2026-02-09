@@ -968,47 +968,47 @@
                 "text": "da 1 a 25.000 stelle"
             },
             "paid_reaction_transaction_amount": {
-                "name": "Paid reaction transaction amount",
-                "text": "from 1 to 10,000 stars"
+                "name": "Prezzo per le reazioni a pagamanto",
+                "text": "da 1 a 10.000 stelle"
             },
             "length_message_attached_gift": {
-                "name": "Length of a message attached to a gift",
-                "text": "up to 128 characters"
+                "name": "Lunghezza di un messaggio allegato a un regalo",
+                "text": "fino a 128 caratteri"
             },
             "allowed_payouts_affiliate_programs": {
-                "name": "Allowed revenue share percentages in affiliate programs",
-                "hint": "per referred user",
-                "text": "from 0.1% to 80%"
+                "name": "Percentuali dei ricavi consentiti nei programmi di affiliazione",
+                "hint": "per utente",
+                "text": "da 0.1% a 80%"
             },
             "price_paid_message": {
-                "name": "Price for a private paid message",
-                "text": "from 1 to 10,000 stars"
+                "name": "Prezzo per un messaggio privato a pagamento",
+                "text": "da 1 a 10.000 stelle"
             },
             "resale_price_collectible_gifts": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in stars",
-                "text": "from 125 to 100,000 stars"
+                "name": "Prezzo di rivendita per i ragali collezionabili",
+                "hint": "in stelle",
+                "text": "da 125 a 100.000 stelle"
             },
             "resale_price_collectible_gifts_ton": {
-                "name": "Resale price for collectible gifts",
+                "name": "Prezzo di rivendita per i ragali collezionabili",
                 "hint": "in TON",
-                "text": "from 7 TON to 100,000 TON"
+                "text": "da 7 TON a 100.000 TON"
             },
             "price_suggested_channel_message": {
-                "name": "Price for a suggested channel message",
-                "text": "Free, or from 5 to 100,000 stars"
+                "name": "Prezzo per un messaggio suggerito nel canale",
+                "text": "Gratuito, o da 5 a 100.000 stelle"
             },
             "guaranteed_duration_paid_message": {
-                "name": "Guaranteed duration of a paid post",
-                "text": "24 hours"
+                "name": "Durata garantita di un post a pagamento",
+                "text": "24 ore"
             },
             "paid_post_scheduling_timeframe": {
-                "name": "Paid post scheduling timeframe",
-                "text": "from 5 minutes to 31 days in advance"
+                "name": "Tempo Programmazione posta a pagamento",
+                "text": "da 5 minuti a 31 giorni in anticipo"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Price for a paid post in TON cryptocurrency",
-                "text": "from 0.01 TON to 10,000 TON"
+                "name": "Prezzo per un post a pagamento in criptovaluta TON",
+                "text": "da 0.01 TON a 10.000 TON"
             }
         }
     },
@@ -1049,27 +1049,27 @@
                 "text": "fino a 103 potenziamenti (4 potenziamenti per il proprio abbonamento Premium + 33 abbonamenti regalati)"
             },
             "number_channels_giveaway": {
-                "name": "Number of channels in a giveaway",
-                "text": "up to 10 channels"
+                "name": "Numero di canali in un giveaway",
+                "text": "fino a 10 canali"
             },
             "number_countries_giveaway": {
-                "name": "Number of countries in a giveaway",
-                "text": "up to 10"
+                "name": "Numero di paesi in un giveaway",
+                "text": "fino a 10"
             },
             "giveaway_duration": {
-                "name": "Giveaway duration",
-                "text": "up to 31 days"
+                "name": "Durata giveaway",
+                "text": "fino a 31 giorni"
             },
             "channel_levels": {
-                "name": "Channel levels",
-                "text": "from 1 up to 100"
+                "name": "Livelli canale",
+                "text": "da 1 a 100"
             },
             "minimum_level_set_channel_color": {
-                "name": "Level to set channel color",
-                "text": "at least level 5"
+                "name": "Livello per impostare il colore del canale",
+                "text": "almeno livello 5"
             },
             "level_set_channel_background_icon": {
-                "name": "Channel level to customize message accent color and emoji",
+                "name": "Livello canale per personalizzare il colore di sfondo del profilo e le emoji",
                 "text": "almeno livello 4"
             },
             "level_customize_profile_background_color_emoji": {

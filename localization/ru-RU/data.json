@@ -477,18 +477,18 @@
                 "text_premium": "не установлено ограничение продолжительности"
             },
             "length_quoted_text": {
-                "name": "Length of a quoted text",
-                "text": "up to 1024 characters"
+                "name": "Длина цитируемого текста",
+                "text": "до 1 024 символов"
             },
             "quick_replies_number": {
-                "name": "Quick Replies number",
-                "hint": "(predefined templates)",
-                "text_premium": "up to 100 templates"
+                "name": "Количество быстрых ответов",
+                "hint": "(заданные шаблоны)",
+                "text_premium": "до 100 шаблонов"
             },
             "quick_replies_messages_number": {
-                "name": "Quick Replies messages number",
-                "hint": "(number of messages that can be sent by a single Quick Reply)",
-                "text_premium": "up to 10 messages"
+                "name": "Количество сообщений в быстром ответе",
+                "hint": "(количество сообщений, которые могут быть отправлены одним быстрым ответом)",
+                "text_premium": "до 10 сообщений"
             }
         }
     },

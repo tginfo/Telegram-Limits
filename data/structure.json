@@ -402,6 +402,18 @@
             {
                 "id": "duration_speech_text_transcriptions",
                 "icon": "support_agent"
+            },
+            {
+                "id": "length_quoted_text",
+                "icon": "format_quote"
+            },
+            {
+                "id": "quick_replies_number",
+                "icon": "quickreply"
+            },
+            {
+                "id": "quick_replies_messages_number",
+                "icon": "send_time_extension"
             }
         ]
     },
@@ -425,18 +437,6 @@
             {
                 "id": "poll_option_length",
                 "icon": "short_text"
-            },
-            {
-                "id": "length_quoted_text",
-                "icon": "format_quote"
-            },
-            {
-                "id": "quick_replies_number",
-                "icon": "quickreply"
-            },
-            {
-                "id": "quick_replies_messages_number",
-                "icon": "send_time_extension"
             }
         ]
     },

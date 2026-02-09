@@ -475,6 +475,20 @@
                 "hint": "for voice and video messages",
                 "text": "up to 5 minutes",
                 "text_premium": "no duration limit set"
+            },
+            "length_quoted_text": {
+                "name": "Length of a quoted text",
+                "text": "up to 1024 characters"
+            },
+            "quick_replies_number": {
+                "name": "Quick Replies number",
+                "hint": "(predefined templates)",
+                "text_premium": "up to 100 templates"
+            },
+            "quick_replies_messages_number": {
+                "name": "Quick Replies messages number",
+                "hint": "(number of messages that can be sent by a single Quick Reply)",
+                "text_premium": "up to 10 messages"
             }
         }
     },
@@ -500,20 +514,6 @@
                 "name": "Довжина варіанту відповіді в опитуванні",
                 "hint": "",
                 "text": "від 1 до 100 символів"
-            },
-            "length_quoted_text": {
-                "name": "Length of a quoted text",
-                "text": "up to 1024 characters"
-            },
-            "quick_replies_number": {
-                "name": "Quick Replies number",
-                "hint": "(predefined templates)",
-                "text_premium": "up to 100 templates"
-            },
-            "quick_replies_messages_number": {
-                "name": "Quick Replies messages number",
-                "hint": "(number of messages that can be sent by a single Quick Reply)",
-                "text_premium": "up to 10 messages"
             }
         }
     },

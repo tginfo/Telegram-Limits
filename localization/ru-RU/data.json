@@ -475,6 +475,20 @@
                 "hint": "для голосовых и видео сообщений",
                 "text": "до 5 минут",
                 "text_premium": "не установлено ограничение продолжительности"
+            },
+            "length_quoted_text": {
+                "name": "Length of a quoted text",
+                "text": "up to 1024 characters"
+            },
+            "quick_replies_number": {
+                "name": "Quick Replies number",
+                "hint": "(predefined templates)",
+                "text_premium": "up to 100 templates"
+            },
+            "quick_replies_messages_number": {
+                "name": "Quick Replies messages number",
+                "hint": "(number of messages that can be sent by a single Quick Reply)",
+                "text_premium": "up to 10 messages"
             }
         }
     },
@@ -500,20 +514,6 @@
                 "name": "Длина варианта ответа в опросе",
                 "hint": "",
                 "text": "от 1 до 100 символов"
-            },
-            "length_quoted_text": {
-                "name": "Длина цитируемого текста",
-                "text": "до 1 024 символов"
-            },
-            "quick_replies_number": {
-                "name": "Количество быстрых ответов",
-                "hint": "(заданные шаблоны)",
-                "text_premium": "до 100 шаблонов"
-            },
-            "quick_replies_messages_number": {
-                "name": "Количество сообщений в быстром ответе",
-                "hint": "(количество сообщений, которые могут быть отправлены одним быстрым ответом)",
-                "text_premium": "до 10 сообщений"
             }
         }
     },
@@ -1090,7 +1090,7 @@
                 "text": "минимум 10 уровень"
             },
             "level_activate_speech_transcriptions": {
-                "name": "Уровень для активации функции транскрипции речи",
+                "name": "Уровень для активации функции распознавания речи",
                 "hint": "для пользователей без Premium",
                 "text": "минимум 6 уровень"
             },

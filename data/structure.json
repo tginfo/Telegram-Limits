@@ -591,6 +591,10 @@
         "color": "76, 175, 80",
         "items": [
             {
+                "id": "free_stories_number",
+                "icon": "credit_card_off"
+            },
+            {
                 "id": "story_availability",
                 "icon": "public"
             },

@@ -696,10 +696,15 @@
     "stories": {
         "name": "Истории",
         "items": {
+            "free_stories_number": {
+                "name": "Account lifetime number of stories that can be posted without Premium",
+                "text": "up to 3 stories; any stories ever posted, under any conditions, still count against this limit, including deleted stories, stories posted with Premium, and stories that were posted for free when the feature launched",
+                "text_premium": "doesn't apply when Premium is active"
+            },
             "story_availability": {
                 "name": "Доступность историй",
                 "hint": "страны, где истории доступны без Telegram Premium",
-                "text": "Telegram запускает бесплатный лимит в 1 историю в большем количестве стран.\n\nСписок доступен по ссылке: https://tginfo.me/stories-by-countries/"
+                "text": "Telegram is rolling out the free 1 story limit globally.\n\nThe list of countries where stories used to be paid-only is available here: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Срок жизни истории",

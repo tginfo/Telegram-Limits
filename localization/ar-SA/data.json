@@ -32,7 +32,7 @@
                 "name": "حظر الإزعاج",
                 "hint": "",
                 "text": "الحظر على الأقل يوم و قد يستمر إلى الأبد",
-                "text_premium": "from 1 second up to permanent"
+                "text_premium": "قد يستمر من 1 ثانية واحدة أو إلى الأبد"
             },
             "channels_and_chats_number": {
                 "name": "عدد القنوات و المجموعات الكبرى",
@@ -47,9 +47,9 @@
                 "text_premium": "ما يصل إلى 400"
             },
             "video_length": {
-                "name": "Video avatar duration",
+                "name": "مدة فيديو الملف الشخصي",
                 "hint": "",
-                "text": "from 1 to 10 seconds"
+                "text": "من ثانية إلى عشر ثوانٍ"
             },
             "groups_and_channels_creation": {
                 "name": "إنشاء مجموعات وقنوات",
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "عدد الرسائل المرئية",
-                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
+                "hint": "(هذا الحدّ يشمل المحادثات الخاصة، البوتات، والمجموعات اﻷساسية \"البدائية\")",
                 "text": "غير محدود؛ قبل عام 2018 - حتى 1,000,000 رسالة مرئية: انظر https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -92,30 +92,30 @@
                 "text": "الحد اﻷقصى 5 مفاتيح مرور"
             },
             "session_duration": {
-                "name": "Session duration",
-                "text": "1 week, 1 month, 3 months, 6 months, or 12 months"
+                "name": "مدة الجلسة",
+                "text": "أسبوع أو شهر أو 3 أشهر أو 6 أشهر أو 12 شهراً"
             },
             "notification_sounds_duration": {
-                "name": "Notification sounds duration",
-                "hint": "(custom files)",
-                "text": "from 1 to 5 seconds"
+                "name": "مدة صوت الإشعار",
+                "hint": "(ملفات مخصصة)",
+                "text": "من 1 إلى 5 ثوانٍ"
             },
             "number_saved_ringtones": {
-                "name": "Number of saved ringtones",
-                "text": "up to 100"
+                "name": "عدد نغمات الرنين المحفوظة",
+                "text": "كحد أقصى 100"
             },
             "welcome_card_title_length": {
-                "name": "Welcome card title length",
-                "text_premium": "up to 32 characters"
+                "name": "طول عنوان بطاقة الترحيب",
+                "text_premium": "كحد أقصى 32 حرف"
             },
             "welcome_card_text_length": {
-                "name": "Welcome card text length",
-                "text_premium": "up to 70 characters"
+                "name": "طول نص بطاقة الترحيب",
+                "text_premium": "كحد أقصى 70 حرفًا"
             },
             "number_business_chat_links": {
-                "name": "Number of business chat links",
-                "hint": "with predefined message text",
-                "text_premium": "up to 100 links"
+                "name": "عدد روابط محادثات العمل",
+                "hint": "مع نص رسالة محدد مسبقاً",
+                "text_premium": "100 رابط كحد أقصى"
             }
         }
     },
@@ -214,9 +214,9 @@
                 "text": "للمحادثات التي فيها 100 عضو أو أقل، قائمة المستخدمين متاحة فقط للمستخدم الذي أرسل الرسالة"
             },
             "visible_list_members": {
-                "name": "Visible list of members",
-                "hint": "in big chats",
-                "text": "up to 10,000 users"
+                "name": "قائمة أعضاء مرئية",
+                "hint": "في المحادثات الكبيرة",
+                "text": "10,000 مستخدم كحد أقصى"
             },
             "boosts_needed_reach_level": {
                 "name": "Boosts needed to reach a level",

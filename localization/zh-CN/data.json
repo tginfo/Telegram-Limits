@@ -93,29 +93,29 @@
             },
             "session_duration": {
                 "name": "Session duration",
-                "text": "1 week, 1 month, 3 months, 6 months, or 12 months"
+                "text": "1 周、1 个月、3 个月、6 个月或 12 个月"
             },
             "notification_sounds_duration": {
                 "name": "Notification sounds duration",
-                "hint": "(custom files)",
-                "text": "from 1 to 5 seconds"
+                "hint": "（自定义文件）",
+                "text": "1 到 5 秒"
             },
             "number_saved_ringtones": {
-                "name": "Number of saved ringtones",
-                "text": "up to 100"
+                "name": "可保存铃声数",
+                "text": "最多 100 个"
             },
             "welcome_card_title_length": {
-                "name": "Welcome card title length",
-                "text_premium": "up to 32 characters"
+                "name": "欢迎卡片标题长度",
+                "text_premium": "最多 32 个字符"
             },
             "welcome_card_text_length": {
-                "name": "Welcome card text length",
-                "text_premium": "up to 70 characters"
+                "name": "欢迎卡片文本长度",
+                "text_premium": "最多 70 个字符"
             },
             "number_business_chat_links": {
-                "name": "Number of business chat links",
-                "hint": "with predefined message text",
-                "text_premium": "up to 100 links"
+                "name": "商业聊天链接数量",
+                "hint": "带预定义消息文本",
+                "text_premium": "最多 100 个链接"
             }
         }
     },
@@ -214,22 +214,22 @@
                 "text": "少于 100 人的群组可用；只有对应消息的发送者可见"
             },
             "visible_list_members": {
-                "name": "Visible list of members",
-                "hint": "in big chats",
-                "text": "up to 10,000 users"
+                "name": "可见成员列表",
+                "hint": "在大型对话",
+                "text": "最多 10,000 位用户"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "达到某一级别所需的助力",
+                "text": "参见 https://boosts.tginfo.me calculator"
             },
             "hide_participants_setting_availability": {
-                "name": "Hide participants setting availability",
-                "text": "the chat must have at least 100 members"
+                "name": "隐藏成员设置可用性",
+                "text": "对话必须有至少 100 个成员"
             },
             "number_manually_selected_reactions": {
-                "name": "Number of manually selected reactions",
-                "hint": "when \"Some reactions\" option is used",
-                "text": "up to 100"
+                "name": "可手动选择的表态数量",
+                "hint": "当启用“某些表态”选项时",
+                "text": "最多 100 个"
             },
             "number_members_aggressive_antispam_availability": {
                 "name": "Number of members for Aggressive Anti-Spam availability",
@@ -377,8 +377,8 @@
                 "text": "至少 50 位订阅者"
             },
             "number_subscribers_see_story_statistics": {
-                "name": "Number of subscribers to see story statistics",
-                "text": "at least 1"
+                "name": "查看统计数据所需的订阅者数量",
+                "text": "至少 1 位"
             },
             "username_reservation": {
                 "name": "更改用户名后保留时长",
@@ -483,12 +483,12 @@
             "quick_replies_number": {
                 "name": "Quick Replies number",
                 "hint": "(predefined templates)",
-                "text_premium": "up to 100 templates"
+                "text_premium": "最多 100 个模板"
             },
             "quick_replies_messages_number": {
-                "name": "Quick Replies messages number",
-                "hint": "(number of messages that can be sent by a single Quick Reply)",
-                "text_premium": "up to 10 messages"
+                "name": "快速回复消息数量",
+                "hint": "（单个快速回复可发送的消息数量）",
+                "text_premium": "最多 10 条消息"
             }
         }
     },
@@ -561,10 +561,10 @@
                 "text_premium": "最多 200 个"
             },
             "folder_links_number": {
-                "name": "Folder links number",
-                "hint": "per public folder",
-                "text": "up to 3 links",
-                "text_premium": "up to 10 links"
+                "name": "文件夹链接数量",
+                "hint": "每个公开文件夹",
+                "text": "最多 3 个链接",
+                "text_premium": "最多 10 个链接"
             }
         }
     },
@@ -600,7 +600,7 @@
             "upload_limit_botapi_local": {
                 "name": "上传文件大小限制",
                 "hint": "使用本地 Bot API 服务器时",
-                "text": "up to 2000 MiB"
+                "text": "最大 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "下载文件大小限制",
@@ -624,7 +624,7 @@
             },
             "formatting_entities": {
                 "name": "格式化的实体",
-                "hint": "(bold, italic etc.)",
+                "hint": "（加粗、斜体等）",
                 "text": "最多 100 个"
             },
             "messaging_frequency": {
@@ -683,13 +683,13 @@
                 "text": "机器人用户名后最多 256 个字符"
             },
             "bot_transfers": {
-                "name": "Bot transfers",
-                "hint": "between accounts",
-                "text": "up to 5 in a day"
+                "name": "机器人转移",
+                "hint": "所有者账户变更",
+                "text": "每天最多 5 次"
             },
             "length_custom_verification_text": {
-                "name": "Length of custom verification text",
-                "text": "from 1 to 70 characters"
+                "name": "自定义验证文本长度",
+                "text": "1 到 70 个字符"
             }
         }
     },
@@ -754,20 +754,20 @@
             },
             "stories_albums": {
                 "name": "Stories albums",
-                "text": "up to 100"
+                "text": "最多 100 个"
             },
             "number_stories_album": {
                 "name": "Number of stories in an album",
-                "text": "up to 100 stories"
+                "text": "最多 100 条故事"
             },
             "stories_limit_reset_time": {
-                "name": "Stories limit reset time",
+                "name": "故事限制重置时间",
                 "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
             },
             "adding_clickable_links_stories": {
-                "name": "Adding clickable links to stories",
-                "text": "not available",
-                "text_premium": "up to 3 stickers"
+                "name": "添加可点击链接到故事",
+                "text": "不可用",
+                "text_premium": "最多 3 张贴纸"
             },
             "number_reaction_stickers": {
                 "name": "Number of reaction stickers",
@@ -801,8 +801,8 @@
             "number_recommended_channels": {
                 "name": "Number of recommended channels",
                 "hint": "(\"Similar channels\" in global search and specific channels)",
-                "text": "up to 10",
-                "text_premium": "up to 100"
+                "text": "最多 10 个",
+                "text_premium": "最多 100 个"
             }
         }
     },
@@ -877,7 +877,7 @@
             },
             "media_attachments": {
                 "name": "Media attachments",
-                "hint": "in articles",
+                "hint": "在文章中",
                 "text": "Only external links; uploads were disabled"
             }
         }
@@ -902,11 +902,11 @@
             },
             "parallel_download_small_files": {
                 "name": "Parallel download for small files",
-                "hint": "(less than 20 MB)",
-                "text": "approximately up to 5 files"
+                "hint": "(小于 20 MB)",
+                "text": "最多约 5 个文件"
             },
             "parallel_download_big_files": {
-                "name": "Parallel download for big files",
+                "name": "大文件并行下载",
                 "hint": "(more than 20 MB)",
                 "text": "approximately up to 2 files"
             }
@@ -1005,7 +1005,7 @@
             },
             "guaranteed_duration_paid_message": {
                 "name": "Guaranteed duration of a paid post",
-                "text": "24 hours"
+                "text": "24 小时"
             },
             "paid_post_scheduling_timeframe": {
                 "name": "Paid post scheduling timeframe",
@@ -1018,18 +1018,18 @@
         }
     },
     "boosts": {
-        "name": "Boosts",
+        "name": "助力",
         "items": {
             "number_boosts": {
-                "name": "Number of boosts if you bought Premium for yourself",
+                "name": "为自己购买 Premium 的助力数量",
                 "hint": "",
-                "text": "see also: https://tginfo.me/boosts-and-channel-stories-en",
-                "text_premium": "4 boosts"
+                "text": "参见 https://tginfo.me/boosts-and-channel-stories-en",
+                "text_premium": "4 次助力"
             },
             "number_boosts_2": {
                 "name": "Number of boosts if you received Premium as a gift",
                 "hint": "",
-                "text_premium": "1 boost"
+                "text_premium": "1 次助力"
             },
             "number_boosts_if_you_won_premium_giveaway": {
                 "name": "Number of boosts you get if you won Premium in a giveaway",
@@ -1042,7 +1042,7 @@
             "boost_transfer_cooldown": {
                 "name": "Boost transfer cooldown",
                 "hint": "if you want to change a channel you boost",
-                "text_premium": "24 hours"
+                "text_premium": "24 小时"
             },
             "revoking_boosts": {
                 "name": "Revoking boosts",
@@ -1050,7 +1050,7 @@
             },
             "maximum_boosts_number": {
                 "name": "Maximum boosts number on an account",
-                "hint": "(not fully confirmed)",
+                "hint": "(未完全确认)",
                 "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
             },
             "number_channels_giveaway": {
@@ -1059,15 +1059,15 @@
             },
             "number_countries_giveaway": {
                 "name": "Number of countries in a giveaway",
-                "text": "up to 10"
+                "text": "最多 10 个"
             },
             "giveaway_duration": {
                 "name": "Giveaway duration",
-                "text": "up to 31 days"
+                "text": "最长 31 天"
             },
             "channel_levels": {
-                "name": "Channel levels",
-                "text": "from 1 up to 100"
+                "name": "频道等级",
+                "text": "1 到 100 级"
             },
             "minimum_level_set_channel_color": {
                 "name": "Level to set channel color",

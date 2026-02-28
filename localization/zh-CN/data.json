@@ -32,7 +32,7 @@
                 "name": "恶意灌水封禁时长",
                 "hint": "",
                 "text": "1 天 ~ 永久",
-                "text_premium": "from 1 second up to permanent"
+                "text_premium": "1 秒 ~ 永久"
             },
             "channels_and_chats_number": {
                 "name": "频道和超级群组数量",
@@ -47,9 +47,9 @@
                 "text_premium": "最多 400 个"
             },
             "video_length": {
-                "name": "Video avatar duration",
+                "name": "视频头像时长",
                 "hint": "",
-                "text": "from 1 to 10 seconds"
+                "text": "1 到 10 秒"
             },
             "groups_and_channels_creation": {
                 "name": "创建频道和群组",
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "可见消息数量",
-                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
+                "hint": "（在私信、机器人和旧版“基础”群组间共享限制）",
                 "text": "无限；2018 年前 - 最多 100 万条消息可见：参阅 https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -92,11 +92,11 @@
                 "text": "最多5个密钥"
             },
             "session_duration": {
-                "name": "Session duration",
+                "name": "会话时长",
                 "text": "1 周、1 个月、3 个月、6 个月或 12 个月"
             },
             "notification_sounds_duration": {
-                "name": "Notification sounds duration",
+                "name": "通知提示音持续时间",
                 "hint": "（自定义文件）",
                 "text": "1 到 5 秒"
             },
@@ -232,8 +232,8 @@
                 "text": "最多 100 个"
             },
             "number_members_aggressive_antispam_availability": {
-                "name": "Number of members for Aggressive Anti-Spam availability",
-                "text": "at least 200 members"
+                "name": "侵略反垃圾邮件所需成员数",
+                "text": "至少 200 名成员"
             }
         }
     },
@@ -268,7 +268,7 @@
             "video_chat_broadcast": {
                 "name": "广播视频",
                 "hint": "（通过摄像头 / 屏幕共享）",
-                "text": "up to 1,000 broadcasting users simultaneously"
+                "text": "最多 1,000 位广播用户同时在线"
             },
             "video_chat_viewers": {
                 "name": "视频聊天的观众数",
@@ -286,34 +286,34 @@
                 "text": "最多提前 7 天"
             },
             "comment_length": {
-                "name": "Comment length",
-                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "name": "评论长度",
+                "hint": "可以发送到视频/语音聊天的最大消息长度",
                 "text": "128"
             },
             "comment_lifetime": {
-                "name": "Comment lifetime",
-                "hint": "Lifetime of comment, if not pinned",
-                "text": "10 seconds"
+                "name": "评论显示时间",
+                "hint": "未置顶评论的持续时间",
+                "text": "10 秒"
             },
             "number_participants_endtoend_encrypted_calls": {
-                "name": "Number of participants in End-to-End encrypted private link calls",
-                "text": "up to 200 participants"
+                "name": "端到端加密私密通话中的参与者数量",
+                "text": "最多 200 人参与"
             },
             "paid_message_price": {
-                "name": "Paid stream comment message price",
-                "text": "up to 10,000 stars"
+                "name": "付费直播评论消息价格",
+                "text": "最多 10,000 枚星币"
             },
             "paid_message_pin_duration": {
-                "name": "Stream comment pin duration",
-                "text": "free: no pinning. 10 stars: 1 minute. 50 stars: 2 minutes. 100 stars: 5 minutes. 250 stars: 10 minutes. 500 stars: 15 minutes. 2,000 stars: 30 minutes. 10,000 stars: 1 hour"
+                "name": "直播置顶评论持续时间",
+                "text": "免费：不置顶。10 枚星币：1 分钟。50 枚星币：2 分钟。100 枚星币：5 分钟。250 枚星币：10 分钟。500 枚星币：15 分钟。2,000 枚星币：30 分钟。10,000 枚星币：1 小时"
             },
             "paid_message_length": {
-                "name": "Stream comment length",
-                "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
+                "name": "直播评论长度",
+                "text": "免费：30 个字符。10 枚星币：60 个字符。50 枚星币：80 个字符。100 枚星币：110 个字符。250 枚星币：150 个字符。500 枚星币：200 个字符。2,000 枚星币：280 个字符。10,000 枚星币：400 个字符"
             },
             "paid_message_emoji_number": {
-                "name": "Stream comment emoji number",
-                "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
+                "name": "直播评论表情数",
+                "text": "免费：不允许使用表情。10 枚星币：1 个表情。50 枚星币：2 个表情。100 枚星币：3 个表情。250 枚星币：4 个表情。500 枚星币：7 个表情。2,000 枚星币：10 个表情。10,000 枚星币：20 个表情"
             }
         }
     },
@@ -427,7 +427,7 @@
             },
             "video_message_file_size": {
                 "name": "Video message file size",
-                "text": "Up to 12 MB"
+                "text": "最大 12 MB"
             },
             "video_message_diameter": {
                 "name": "Video message diameter",
@@ -468,7 +468,7 @@
                 "name": "Number of speech to text transcriptions",
                 "hint": "for voice and video messages",
                 "text": "up to 2 free transcriptions weekly",
-                "text_premium": "unlimited"
+                "text_premium": "无限制"
             },
             "duration_speech_text_transcriptions": {
                 "name": "Duration of speech to text transcriptions",
@@ -478,7 +478,7 @@
             },
             "length_quoted_text": {
                 "name": "Length of a quoted text",
-                "text": "up to 1024 characters"
+                "text": "最多 1024 个字符"
             },
             "quick_replies_number": {
                 "name": "Quick Replies number",
@@ -1083,19 +1083,19 @@
             },
             "level_set_emoji_status": {
                 "name": "Channel level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "hint": "(仅来自官方表情包)",
+                "text": "至少 8 级"
             },
             "level_set_chat_wallpaper": {
-                "name": "Channel level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "设置预设对话主题所需的频道等级",
+                "text": "至少 9 级"
             },
             "level_set_custom_chat_wallpaper": {
-                "name": "Channel level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "设置自定义对话墙纸所需的频道等级",
+                "text": "至少 10 级"
             },
             "level_activate_speech_transcriptions": {
-                "name": "Level to activate speech transcriptions",
+                "name": "激活语音转写所需的等级",
                 "hint": "for users without Premium",
                 "text": "at least level 6"
             },

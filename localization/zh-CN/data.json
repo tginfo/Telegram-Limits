@@ -220,7 +220,7 @@
             },
             "boosts_needed_reach_level": {
                 "name": "达到某一级别所需的助力",
-                "text": "参见 https://boosts.tginfo.me calculator"
+                "text": "参见 https://boosts.tginfo.me 计算器"
             },
             "hide_participants_setting_availability": {
                 "name": "隐藏成员设置可用性",
@@ -386,12 +386,12 @@
                 "text": "约 15 ~ 30 分钟"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "达到某一级别所需的助力",
+                "text": "参见 https://boosts.tginfo.me 计算器"
             },
             "similar_channels_eligibility": {
-                "name": "Similar Channels eligibility",
-                "text": "at least 300 subscribers; depends on channel content"
+                "name": "类似频道显示资格",
+                "text": "至少 300 位订阅者；取决于频道内容"
             }
         }
     },
@@ -426,11 +426,11 @@
                 "text": "最长 1 分钟"
             },
             "video_message_file_size": {
-                "name": "Video message file size",
+                "name": "视频消息文件大小",
                 "text": "最大 12 MB"
             },
             "video_message_diameter": {
-                "name": "Video message diameter",
+                "name": "视频消息直径",
                 "text": "384px"
             },
             "album_size": {
@@ -450,7 +450,7 @@
             },
             "custom_emoji_per_message": {
                 "name": "每条消息中的自定义表情",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji; on low-end devices even less custom emojis may be displayed",
+                "hint": "若没有 Telegram Premium，仅能向消息收藏夹发送自定义表情；超过 100 个自定义表情将被相应标准表情替换；在低端设备上显示的自定义表情数量可能更少",
                 "text": "不可用",
                 "text_premium": "最多 100 个表情"
             },
@@ -461,18 +461,18 @@
             },
             "number_unique_reaction_types": {
                 "name": "Number of unique reaction types",
-                "hint": "on a single message",
-                "text": "up to 11 reaction icons"
+                "hint": "单条消息中",
+                "text": "最多 11 种表态"
             },
             "speech_text_transcriptions": {
                 "name": "Number of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 2 free transcriptions weekly",
+                "hint": "适用于语音和视频消息",
+                "text": "每周最多 2 次免费转换",
                 "text_premium": "无限制"
             },
             "duration_speech_text_transcriptions": {
-                "name": "Duration of speech to text transcriptions",
-                "hint": "for voice and video messages",
+                "name": "语音转文字时长",
+                "hint": "适用于语音和视频消息",
                 "text": "最长 5 分钟",
                 "text_premium": "无持续时间限制"
             },
@@ -635,7 +635,7 @@
             "messaging_frequency_groups": {
                 "name": "消息发送速率",
                 "hint": "在群组中",
-                "text": "同对话中每秒最多 20 条消息"
+                "text": "同对话中每分钟最多 20 条消息"
             },
             "messaging_frequency_broadcast": {
                 "name": "消息广播速率",
@@ -770,7 +770,7 @@
                 "text_premium": "最多 3 张贴纸"
             },
             "number_reaction_stickers": {
-                "name": "Number of reaction stickers",
+                "name": "表态贴纸数量",
                 "text": "仅 1 个表态",
                 "text_premium": "最多 5 个表态"
             }
@@ -790,17 +790,17 @@
                 "text": "每天至多 200 个用户名"
             },
             "hashtag_search_depth": {
-                "name": "Hashtag search results number",
+                "name": "标签搜索结果数量",
                 "hint": "",
                 "text": "约最近 5,000 条消息"
             },
             "minimal_subscribers_public_search_eligibility": {
-                "name": "Minimal channel subscribers for public search eligibility",
+                "name": "公开搜索资格所需最小订阅者数",
                 "text": "至少 100 位订阅者"
             },
             "number_recommended_channels": {
                 "name": "推荐频道数量",
-                "hint": "(\"Similar channels\" in global search and specific channels)",
+                "hint": "(全局搜索和特定频道中的“类似频道”)",
                 "text": "最多 10 个",
                 "text_premium": "最多 100 个"
             }
@@ -876,9 +876,9 @@
                 "text": "最大 64 KiB"
             },
             "media_attachments": {
-                "name": "Media attachments",
+                "name": "媒体附件",
                 "hint": "在文章中",
-                "text": "Only external links; uploads were disabled"
+                "text": "仅允许外部链接；上传功能已禁用"
             }
         }
     },
@@ -901,7 +901,7 @@
                 "text": "每边应小于等于 2560px，否则将被压缩至长边为 2560px"
             },
             "parallel_download_small_files": {
-                "name": "Parallel download for small files",
+                "name": "小文件并行下载",
                 "hint": "(小于 20 MB)",
                 "text": "最多约 5 个文件"
             },
@@ -953,67 +953,67 @@
                 "text": "最少 1000 枚星币"
             },
             "gift_collections_users_profile": {
-                "name": "Gift collections in user's profile",
+                "name": "用户个人资料中的礼物收藏",
                 "text": "最多 10 个"
             },
             "number_gifts_collection": {
-                "name": "Number of gifts in a collection",
-                "text": "up to 500 gifts"
+                "name": "收藏集中的礼物数量",
+                "text": "最多 500 个礼物"
             },
             "maximum_period_convert_received_gift_stars": {
                 "name": "Maximum period to convert received gift to stars",
-                "text": "7 days"
+                "text": "7 天"
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
                 "name": "Number of stars that can be withdrawn in chats and channels",
-                "text": "from 1,000 stars to  25,000,000 stars"
+                "text": "1,000 到 25,000,000 枚星币"
             },
             "price_paid_media_post": {
                 "name": "Price for paid media in a post",
-                "text": "from 1 to 25,000 stars"
+                "text": "1 到 25,000 枚星币"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Paid reaction transaction amount",
-                "text": "from 1 to 10,000 stars"
+                "text": "1 到 10,000 枚星币"
             },
             "length_message_attached_gift": {
                 "name": "Length of a message attached to a gift",
-                "text": "up to 128 characters"
+                "text": "最多 128 个字符"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Allowed revenue share percentages in affiliate programs",
-                "hint": "per referred user",
-                "text": "from 0.1% to 80%"
+                "hint": "每位推荐用户",
+                "text": "0.1% 到 80%"
             },
             "price_paid_message": {
-                "name": "Price for a private paid message",
-                "text": "from 1 to 10,000 stars"
+                "name": "付费私信的价格",
+                "text": "1 到 10,000 枚星币"
             },
             "resale_price_collectible_gifts": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in stars",
+                "name": "可收藏礼物的转售价格",
+                "hint": "星币",
                 "text": "125 到 100,000 星币"
             },
             "resale_price_collectible_gifts_ton": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in TON",
-                "text": "from 7 TON to 100,000 TON"
+                "name": "可收藏礼物的转售价格",
+                "hint": "TON",
+                "text": "7 TON 到 100,000 TON"
             },
             "price_suggested_channel_message": {
-                "name": "Price for a suggested channel message",
-                "text": "Free, or from 5 to 100,000 stars"
+                "name": "建议频道帖子的价格",
+                "text": "免费或 5 到 100,000 枚星币"
             },
             "guaranteed_duration_paid_message": {
                 "name": "Guaranteed duration of a paid post",
                 "text": "24 小时"
             },
             "paid_post_scheduling_timeframe": {
-                "name": "Paid post scheduling timeframe",
-                "text": "from 5 minutes to 31 days in advance"
+                "name": "付费帖子排期框架",
+                "text": "提前 5 分钟到 31 天"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Price for a paid post in TON cryptocurrency",
-                "text": "from 0.01 TON to 10,000 TON"
+                "name": "TON 加密货币付费帖子的价格",
+                "text": "0.01 TON 到 10,000 TON"
             }
         }
     },
@@ -1027,42 +1027,42 @@
                 "text_premium": "4 次助力"
             },
             "number_boosts_2": {
-                "name": "Number of boosts if you received Premium as a gift",
+                "name": "收到 Premium 礼物可获得的助力次数",
                 "hint": "",
                 "text_premium": "1 次助力"
             },
             "number_boosts_if_you_won_premium_giveaway": {
-                "name": "Number of boosts you get if you won Premium in a giveaway",
-                "text_premium": "giveaway Premium subscriptions give 0 boosts"
+                "name": "在赠品活动中赢得 Premium 可获得的助力次数",
+                "text_premium": "赠品活动的 Premium 订阅可获得 0 次助力"
             },
             "boosts_you_get_gifting_somebody_premium": {
-                "name": "Boosts you get for gifting somebody Premium",
-                "text": "you gain 3 additional boosts to what you already got"
+                "name": "赠送某人 Premium 时你可获得的助力次数",
+                "text": "可额外获得 3 次助力次数"
             },
             "boost_transfer_cooldown": {
-                "name": "Boost transfer cooldown",
-                "hint": "if you want to change a channel you boost",
+                "name": "助力转移冷却时间",
+                "hint": "若要更改助力的频道",
                 "text_premium": "24 小时"
             },
             "revoking_boosts": {
-                "name": "Revoking boosts",
-                "text": "is not possible, boosts can only be transferred"
+                "name": "撤销助力",
+                "text": "无法实现，仅可转移助力"
             },
             "maximum_boosts_number": {
-                "name": "Maximum boosts number on an account",
+                "name": "单账号最大助力数",
                 "hint": "(未完全确认)",
-                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
+                "text": "最多 103 次助力（自有 Premium 订阅的 4 次 + 33 份赠送的订阅）"
             },
             "number_channels_giveaway": {
-                "name": "Number of channels in a giveaway",
-                "text": "up to 10 channels"
+                "name": "赠品活动频道数",
+                "text": "最多 10 个频道"
             },
             "number_countries_giveaway": {
-                "name": "Number of countries in a giveaway",
+                "name": "赠品活动国家/地区数",
                 "text": "最多 10 个"
             },
             "giveaway_duration": {
-                "name": "Giveaway duration",
+                "name": "赠品活动持续时间",
                 "text": "最长 31 天"
             },
             "channel_levels": {
@@ -1070,19 +1070,19 @@
                 "text": "1 到 100 级"
             },
             "minimum_level_set_channel_color": {
-                "name": "Level to set channel color",
-                "text": "at least level 5"
+                "name": "设置频道颜色所需级别",
+                "text": "至少 5 级"
             },
             "level_set_channel_background_icon": {
-                "name": "Channel level to customize message accent color and emoji",
-                "text": "at least level 4"
+                "name": "设置频道强调色和表情所需级别",
+                "text": "至少 4 级"
             },
             "level_customize_profile_background_color_emoji": {
-                "name": "Channel level to customize profile background color and emoji",
-                "text": "at least level 7"
+                "name": "设置频道资料页面背景色和表情所需级别",
+                "text": "至少 7 级"
             },
             "level_set_emoji_status": {
-                "name": "Channel level to set emoji status",
+                "name": "设置表情状态所需频道级别",
                 "hint": "(仅来自官方表情包)",
                 "text": "至少 8 级"
             },
@@ -1096,38 +1096,38 @@
             },
             "level_activate_speech_transcriptions": {
                 "name": "激活语音转写所需的等级",
-                "hint": "for users without Premium",
-                "text": "at least level 6"
+                "hint": "无 Premium 的用户",
+                "text": "至少 6 级"
             },
             "level_set_grouppromoted_emoji": {
                 "name": "Level to set group-promoted emoji",
-                "text": "at least level 4"
+                "text": "至少 4 级"
             },
             "group_level_customize_profile_background_color_emoji": {
                 "name": "Group level to customize profile background color and emoji",
-                "text": "at least level 5"
+                "text": "至少 5 级"
             },
             "group_level_set_emoji_status": {
                 "name": "Group level to set emoji status",
                 "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "text": "至少 8 级"
             },
             "chat_level_set_one_predefined_chat_themes": {
                 "name": "Chat level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "text": "至少 9 级"
             },
             "chat_level_set_custom_chat_wallpaper": {
                 "name": "Chat level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "text": "至少 10 级"
             },
             "channel_level_disable_ads": {
-                "name": "Channel level to disable ads",
-                "text": "at least level 50"
+                "name": "禁用广告所需频道等级",
+                "text": "至少 50 级"
             },
             "channel_level_activate_channelwide_automatic_translation": {
                 "name": "Channel level to activate channel-wide automatic translation",
-                "hint": "for users without Premium",
-                "text": "at least level 3"
+                "hint": "无 Premium 的用户",
+                "text": "至少 3 级"
             }
         }
     }

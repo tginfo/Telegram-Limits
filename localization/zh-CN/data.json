@@ -473,16 +473,16 @@
             "duration_speech_text_transcriptions": {
                 "name": "Duration of speech to text transcriptions",
                 "hint": "for voice and video messages",
-                "text": "up to 5 minutes",
-                "text_premium": "no duration limit set"
+                "text": "最长 5 分钟",
+                "text_premium": "无持续时间限制"
             },
             "length_quoted_text": {
-                "name": "Length of a quoted text",
+                "name": "引用文本的长度",
                 "text": "最多 1024 个字符"
             },
             "quick_replies_number": {
-                "name": "Quick Replies number",
-                "hint": "(predefined templates)",
+                "name": "快速回复数量",
+                "hint": "(预定义模板)",
                 "text_premium": "最多 100 个模板"
             },
             "quick_replies_messages_number": {
@@ -743,7 +743,7 @@
             "story_incognito_frequency": {
                 "name": "Incognito usage frequency (Hide My View)",
                 "text": "不可用",
-                "text_premium": "once per 3 hours",
+                "text_premium": "每 3 小时一次",
                 "hint": ""
             },
             "story_incognito_duration": {
@@ -753,11 +753,11 @@
                 "text_premium": "30 分钟"
             },
             "stories_albums": {
-                "name": "Stories albums",
+                "name": "故事合集",
                 "text": "最多 100 个"
             },
             "number_stories_album": {
-                "name": "Number of stories in an album",
+                "name": "合集中的故事数量",
                 "text": "最多 100 条故事"
             },
             "stories_limit_reset_time": {
@@ -771,8 +771,8 @@
             },
             "number_reaction_stickers": {
                 "name": "Number of reaction stickers",
-                "text": "only 1 reaction",
-                "text_premium": "up to 5 reactions"
+                "text": "仅 1 个表态",
+                "text_premium": "最多 5 个表态"
             }
         }
     },
@@ -792,14 +792,14 @@
             "hashtag_search_depth": {
                 "name": "Hashtag search results number",
                 "hint": "",
-                "text": "roughly last 5,000 messages"
+                "text": "约最近 5,000 条消息"
             },
             "minimal_subscribers_public_search_eligibility": {
                 "name": "Minimal channel subscribers for public search eligibility",
-                "text": "at least 100 subscribers"
+                "text": "至少 100 位订阅者"
             },
             "number_recommended_channels": {
-                "name": "Number of recommended channels",
+                "name": "推荐频道数量",
                 "hint": "(\"Similar channels\" in global search and specific channels)",
                 "text": "最多 10 个",
                 "text_premium": "最多 100 个"
@@ -907,13 +907,13 @@
             },
             "parallel_download_big_files": {
                 "name": "大文件并行下载",
-                "hint": "(more than 20 MB)",
-                "text": "approximately up to 2 files"
+                "hint": "(大于 20 MB)",
+                "text": "最多约 2 个文件"
             }
         }
     },
     "checklists": {
-        "name": "Checklists (To Do)",
+        "name": "清单 (待办事项)",
         "items": {
             "max_number_items_list": {
                 "name": "清单中的项目数",
@@ -930,7 +930,7 @@
         }
     },
     "gifts": {
-        "name": "Gifts & Stars",
+        "name": "礼物与星币",
         "items": {
             "minimum_gift_upgrade_price": {
                 "name": "礼物升级的最低价格",
@@ -954,7 +954,7 @@
             },
             "gift_collections_users_profile": {
                 "name": "Gift collections in user's profile",
-                "text": "up to 10"
+                "text": "最多 10 个"
             },
             "number_gifts_collection": {
                 "name": "Number of gifts in a collection",
@@ -992,7 +992,7 @@
             "resale_price_collectible_gifts": {
                 "name": "Resale price for collectible gifts",
                 "hint": "in stars",
-                "text": "from 125 to 100,000 stars"
+                "text": "125 到 100,000 星币"
             },
             "resale_price_collectible_gifts_ton": {
                 "name": "Resale price for collectible gifts",

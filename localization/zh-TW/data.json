@@ -194,7 +194,7 @@
                 "text": "最少 100 個成員"
             },
             "chat_role_length": {
-                "name": "管理員頭銜長度",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "最多 16 個字元"
             },

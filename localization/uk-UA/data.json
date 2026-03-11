@@ -194,7 +194,7 @@
                 "text": "групи з 100+ учасниками"
             },
             "chat_role_length": {
-                "name": "Довжина мітки адміністратора",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "до 16 символів"
             },

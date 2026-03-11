@@ -194,7 +194,7 @@
                 "text": "සාමාජිකයින් 100+ සහිත සමූහ"
             },
             "chat_role_length": {
-                "name": "Admin role length",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "අකුරු 16 ක් දක්වා"
             },

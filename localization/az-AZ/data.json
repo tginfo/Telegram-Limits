@@ -194,7 +194,7 @@
                 "text": "100+ iştirakçı sayı olan qruplar"
             },
             "chat_role_length": {
-                "name": "Admin rolu uzunluğu",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "16 simvola qədər"
             },

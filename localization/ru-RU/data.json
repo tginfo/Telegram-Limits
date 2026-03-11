@@ -194,7 +194,7 @@
                 "text": "группы с не менее 100 участников"
             },
             "chat_role_length": {
-                "name": "Длина метки администратора",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "до 16 символов"
             },

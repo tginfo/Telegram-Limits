@@ -194,7 +194,7 @@
                 "text": "100+ katılımcılı gruplar"
             },
             "chat_role_length": {
-                "name": "Yönetici başlığı uzunluğu",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "16 karaktere kadar"
             },

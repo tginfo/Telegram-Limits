@@ -194,7 +194,7 @@
                 "text": "групе са 100+ чланова"
             },
             "chat_role_length": {
-                "name": "Дужина назива админа",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "до 16 знакова"
             },

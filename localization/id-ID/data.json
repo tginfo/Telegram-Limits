@@ -194,7 +194,7 @@
                 "text": "grup dengan 100+ partisipan"
             },
             "chat_role_length": {
-                "name": "Panjang gelar Admin",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "hingga 16 karakter"
             },

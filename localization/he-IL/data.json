@@ -194,7 +194,7 @@
                 "text": "לקבוצות עם 100 או יותר חברים"
             },
             "chat_role_length": {
-                "name": "האורך המקסימלי של הכותרת למנהלים",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "עד 16 תווים"
             },

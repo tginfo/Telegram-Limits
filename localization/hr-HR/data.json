@@ -194,7 +194,7 @@
                 "text": "grupe koje imaju najmanje 100 članova"
             },
             "chat_role_length": {
-                "name": "Duljina administratorske titule",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "do 16 znakova"
             },

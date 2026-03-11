@@ -194,7 +194,7 @@
                 "text": "拥有大于 100 名成员的群组"
             },
             "chat_role_length": {
-                "name": "群管理头衔长度",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "最多 16 个字符"
             },

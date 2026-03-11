@@ -194,7 +194,7 @@
                 "text": "100+ ishtirokchilari bo'lgan guruhlar"
             },
             "chat_role_length": {
-                "name": "Admin amali nomi uzunligi",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "16 tagacha belgi"
             },

@@ -194,7 +194,7 @@
                 "text": "grupoj kun 100+ partoprenantoj"
             },
             "chat_role_length": {
-                "name": "Longeco de la administranta rolo",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "ĝis 16 signoj"
             },

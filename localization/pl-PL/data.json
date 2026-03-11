@@ -194,7 +194,7 @@
                 "text": "grupy z ponad 100 uczestnikami"
             },
             "chat_role_length": {
-                "name": "Długość tytułu administratora",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "do 16 znaków"
             },

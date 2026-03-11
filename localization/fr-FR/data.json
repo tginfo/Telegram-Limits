@@ -194,7 +194,7 @@
                 "text": "groupes avec plus de 100 membres"
             },
             "chat_role_length": {
-                "name": "Longueur d'un titre administrateur",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "jusqu'à 16 caractères"
             },

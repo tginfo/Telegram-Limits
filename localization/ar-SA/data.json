@@ -194,7 +194,7 @@
                 "text": "المجموعات التي تضم 100+ عضو"
             },
             "chat_role_length": {
-                "name": "طول دور المسؤول",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "ما يصل إلى 16 حرفًا"
             },
@@ -219,21 +219,21 @@
                 "text": "10,000 مستخدم كحد أقصى"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "التعزيزات المطلوبة للوصول الى مستوى",
+                "text": "انظر الحاسبة هنا https://boosts.tginfo.me"
             },
             "hide_participants_setting_availability": {
-                "name": "Hide participants setting availability",
-                "text": "the chat must have at least 100 members"
+                "name": "وجود خِيار إخفاء إعدادات المشاركين",
+                "text": "يجب أن تحتوي المحادثة على 100 عضو على الأقل"
             },
             "number_manually_selected_reactions": {
-                "name": "Number of manually selected reactions",
-                "hint": "when \"Some reactions\" option is used",
-                "text": "up to 100"
+                "name": "عدد ردود الفعل المختارة يدوياً",
+                "hint": "عندما يتم استخدام خيار \"بعض ردود الفعل\"",
+                "text": "100 كحد أقصى"
             },
             "number_members_aggressive_antispam_availability": {
-                "name": "Number of members for Aggressive Anti-Spam availability",
-                "text": "at least 200 members"
+                "name": "عدد اﻷعضاء اللازم ليتوفّر خِيار المكافحة الشرسة للرسائل المزعجة",
+                "text": "200 عضو على الأقل"
             }
         }
     },
@@ -268,7 +268,7 @@
             "video_chat_broadcast": {
                 "name": "بث الفيديو",
                 "hint": "(الكاميرا، مشاركة الشاشة)",
-                "text": "up to 1,000 broadcasting users simultaneously"
+                "text": "ما يصل إلى 1,000 مستخدم يبث في وقت واحد"
             },
             "video_chat_viewers": {
                 "name": "مشاهدي بث الفيديو",
@@ -296,24 +296,24 @@
                 "text": "10 ثوانٍ"
             },
             "number_participants_endtoend_encrypted_calls": {
-                "name": "Number of participants in End-to-End encrypted private link calls",
-                "text": "up to 200 participants"
+                "name": "عدد المستخدمين المنضمين للمكالمات المشفرة من النهاية للنهاية عبر رابط الدعوة",
+                "text": "200 مشترك كحد أقصى"
             },
             "paid_message_price": {
-                "name": "Paid stream comment message price",
-                "text": "up to 10,000 stars"
+                "name": "سعر رسالة التعليق على البث المدفوعة",
+                "text": "10,000 نجمة كحدّ أقصى"
             },
             "paid_message_pin_duration": {
-                "name": "Stream comment pin duration",
-                "text": "free: no pinning. 10 stars: 1 minute. 50 stars: 2 minutes. 100 stars: 5 minutes. 250 stars: 10 minutes. 500 stars: 15 minutes. 2,000 stars: 30 minutes. 10,000 stars: 1 hour"
+                "name": "مدة تثبيت التعليق على البثّ",
+                "text": "مجاناً: لا يوجد تثبيت 10 نجوم: دقيقة واحدة. 50 نجمة: دقيقتان. 100 نجمة: 5 دقائق. 250 نجمة: 10 دقائق. 500 نجمة: 15 دقيقة. 2000 نجمة: 30 دقيقة. 10,000 نجمة: ساعة واحدة"
             },
             "paid_message_length": {
-                "name": "Stream comment length",
-                "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
+                "name": "طول التعليق على البث",
+                "text": "مجاني: 30 حرفاً. 10 نجوم: 60 حرفاً. 50 نجمة: 80 حرفاً. 100 نجمة: 110 حرفاً. 250 نجمة: 150 حرفاً. 500 نجمة: 200 حرف. 2000 نجمة: 280 حرفاً. 10,000 نجمة: 400 حرف"
             },
             "paid_message_emoji_number": {
-                "name": "Stream comment emoji number",
-                "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
+                "name": "عدد الرموز التعبيرية في التعليق على البث",
+                "text": "مجانا: لا رموز تعبيرية. 10 نجوم: رمز تعبيري واحد. 50 نجمة: رمزان تعبيريّان. 100 نجمة: 3 رموز. 250 نجمة: 4 رموز. 500 نجمة: 7 رموز. 2,000 نجمة: 10 رموز. 10,000 نجمة: 20 رمز"
             }
         }
     },
@@ -359,7 +359,7 @@
             "channel_deletion": {
                 "name": "حذف القناة",
                 "hint": "",
-                "text": "channels with more than 1K subscribers can be deleted only from a session that is a few days old and only if the current account had cloud password activated for a few days"
+                "text": "القنوات التي بها أكثر من ألف مشترك لا يمكن حذفها إلا من جلسة عمرها بضعة أيام وفقط إذا كان الحساب الحالي قد تم تفعيل كلمة المرور السحابية عليه منذ بضعة أيام على اﻷقل"
             },
             "private_channel_access": {
                 "name": "مشاهدة القنوات الخاصة دون الانضمام",
@@ -377,8 +377,8 @@
                 "text": "الأدنى ٥٠"
             },
             "number_subscribers_see_story_statistics": {
-                "name": "Number of subscribers to see story statistics",
-                "text": "at least 1"
+                "name": "عدد المشتركين المطلوب لتتمكن من رؤية إحصائيات القصة",
+                "text": "على اﻷقل 1"
             },
             "username_reservation": {
                 "name": "مهلة حجز اسم المستخدم",
@@ -386,12 +386,12 @@
                 "text": "حوالي ١٥-٣٠ دقيقة"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "التعزيزات المطلوبة للوصول الى مستوى ما",
+                "text": "انظر الحاسبة هنا https://boosts.tginfo.me"
             },
             "similar_channels_eligibility": {
-                "name": "Similar Channels eligibility",
-                "text": "at least 300 subscribers; depends on channel content"
+                "name": "عدد المشتركين المطلوب ليظهر في قناتك خيار القنوات المشابهة",
+                "text": "300 مشترك على الأقل؛ يعتمد على محتوى القناة"
             }
         }
     },
@@ -426,11 +426,11 @@
                 "text": "دقيقة واحدة"
             },
             "video_message_file_size": {
-                "name": "Video message file size",
-                "text": "Up to 12 MB"
+                "name": "حجم ملفات الفيديو",
+                "text": "الحد الأقصى 12 ميجابايت"
             },
             "video_message_diameter": {
-                "name": "Video message diameter",
+                "name": "قطر رسالة الفيديو",
                 "text": "384px"
             },
             "album_size": {
@@ -450,7 +450,7 @@
             },
             "custom_emoji_per_message": {
                 "name": "رمز تعبيري مخصص لكل رسالة",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji; on low-end devices even less custom emojis may be displayed",
+                "hint": "بدون تيليجرام بريميوم، يمكن إرسال الرموز التعبيرية المخصصة فقط إلى الرسائل المحفوظة، يتم استبدال أكثر من 100 رمز تعبيري مخصص بالرموز التعبيرية القياسية المقابلة؛ على الأجهزة ذات المواصفات المنخفضة قد يتم عرض عدد أقل من الرموز التعبيرية المخصصة",
                 "text": "غير متوفر",
                 "text_premium": "حتى 100 رمز تعبيري"
             },
@@ -460,35 +460,35 @@
                 "text": "100 رابط كحد أقصى"
             },
             "number_unique_reaction_types": {
-                "name": "Number of unique reaction types",
-                "hint": "on a single message",
-                "text": "up to 11 reaction icons"
+                "name": "عدد أنواع التفاعلات الفريدة",
+                "hint": "على رسالة واحدة",
+                "text": "11 تفاعلًا كحدّ أقصى"
             },
             "speech_text_transcriptions": {
-                "name": "Number of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 2 free transcriptions weekly",
-                "text_premium": "unlimited"
+                "name": "عدد مرات تحويل الصوت إلى نص",
+                "hint": "للرسائل الصوتية والفيديو",
+                "text": "ما يصل إلى تحويلين مجانيّين أسبوعيًا",
+                "text_premium": "غير محدود"
             },
             "duration_speech_text_transcriptions": {
-                "name": "Duration of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 5 minutes",
-                "text_premium": "no duration limit set"
+                "name": "مدة الصوتيات المفرّغة إلى نص",
+                "hint": "للرسائل الصوتية والفيديو",
+                "text": "5 دقائق كحدّ أقصى",
+                "text_premium": "لم يتم تحديد مدة"
             },
             "length_quoted_text": {
-                "name": "Length of a quoted text",
-                "text": "up to 1024 characters"
+                "name": "طول النص المقتبس",
+                "text": "كحد أقصى 1024 حرف"
             },
             "quick_replies_number": {
-                "name": "Quick Replies number",
-                "hint": "(predefined templates)",
-                "text_premium": "up to 100 templates"
+                "name": "عدد الردود السريعة",
+                "hint": "(قوالب محددة مسبقا)",
+                "text_premium": "ما يصل إلى 100 قالب"
             },
             "quick_replies_messages_number": {
-                "name": "Quick Replies messages number",
-                "hint": "(number of messages that can be sent by a single Quick Reply)",
-                "text_premium": "up to 10 messages"
+                "name": "عدد رسائل الردود السريعة",
+                "hint": "(عدد الرسائل التي يمكن إرسالها بواسطة رد سريع واحد)",
+                "text_premium": "ما يصل إلى 10 رسائل"
             }
         }
     },
@@ -539,7 +539,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "المحادثات المثبتة في المجلد",
-                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
+                "hint": "(هذا الحد يقلل كلما زاد عدد المحادثات التي تمت إضافتها بشكل فردي إلى إعدادات المجلد)",
                 "text": "الحد اﻷقصى 100 محادثة",
                 "text_premium": "الحد اﻷقصى 200 محادثة"
             }
@@ -561,10 +561,10 @@
                 "text_premium": "الحد الأقصى 200 عنصر"
             },
             "folder_links_number": {
-                "name": "Folder links number",
-                "hint": "per public folder",
-                "text": "up to 3 links",
-                "text_premium": "up to 10 links"
+                "name": "عدد روابط المجلد",
+                "hint": "لكل مجلد عام",
+                "text": "3 روابط كحد أقصى",
+                "text_premium": "10 روابط كحد أقصى"
             }
         }
     },
@@ -624,7 +624,7 @@
             },
             "formatting_entities": {
                 "name": "تنسيقات النصوص",
-                "hint": "(bold, italic etc.)",
+                "hint": "(غامق، مائل إلخ.)",
                 "text": "الأقصى ١٠٠ عنصر"
             },
             "messaging_frequency": {
@@ -683,13 +683,13 @@
                 "text": "ما يصل إلى 256 حرف بعد اسم المستخدم للبوت"
             },
             "bot_transfers": {
-                "name": "Bot transfers",
-                "hint": "between accounts",
-                "text": "up to 5 in a day"
+                "name": "تحويلات البوت",
+                "hint": "بين الحسابات",
+                "text": "5 كحدٍ أقصى يوميًا"
             },
             "length_custom_verification_text": {
-                "name": "Length of custom verification text",
-                "text": "from 1 to 70 characters"
+                "name": "طول نص التحقق المخصص",
+                "text": "من 1 إلى 70 حرفًا"
             }
         }
     },
@@ -697,14 +697,14 @@
         "name": "القصص",
         "items": {
             "free_stories_number": {
-                "name": "Account lifetime number of stories that can be posted without Premium",
-                "text": "up to 3 stories; any stories ever posted, under any conditions, still count against this limit, including deleted stories, stories posted with Premium, and stories that were posted for free when the feature launched",
-                "text_premium": "doesn't apply when Premium is active"
+                "name": "عدد القصص التي يمكن نشرها طوال العمر على الحساب بدون اشتراك مميز",
+                "text": "حتى 3 قصص؛ أي قصص تم نشرها على الإطلاق، تحت أي شروط، لا تزال تحسب في هذا الحد، بما في ذلك القصص المحذوفة، القصص المنشورة أثناء الاشتراك بتلجرام المميز، والقصص التي نشرت مجانا عندما تم إطلاق ميزة القصص",
+                "text_premium": "لا ينطبق عندما يكون لديك اشتراك فعّال بتلجرام المميز"
             },
             "story_availability": {
                 "name": "توفر القصة",
                 "hint": "البلدان التي تتوفر فيها قصص بدون تيليجرام بريميوم",
-                "text": "Telegram is rolling out the free 1 story limit globally.\n\nThe list of countries where stories used to be paid-only is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "بدأ تلجرام يتيح نشر قصة واحدة فقط مجانًا لجميع الدول حول العالم.\nيمكنك الاطلاع على قائمة الدول التي كانت ميزة نشر القصص فيها سابقًا مدفوعة فقط، من هنا:\nhttps://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "عمر القصة",
@@ -741,13 +741,13 @@
                 "text_premium": "كحد أقصى 2,048 حرفًا"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency (Hide My View)",
+                "name": "عدد مرات استخدام الوضع الخفي (إخفاء أنني شاهدت القصة)",
                 "text": "غير متوفر",
-                "text_premium": "once per 3 hours",
+                "text_premium": "مرة واحدة كل 3 ساعات",
                 "hint": ""
             },
             "story_incognito_duration": {
-                "name": "Incognito duration (Hide My View)",
+                "name": "مدة التخفي (إخفاء أني شاهدت القصة)",
                 "hint": "(جميع المشاهدات لآخر 5 دقائق قبل أن يتم تشغيل وضع التخفي ستُمسح، ولن يتم تسجيل المشاهدات خلال الـ 25 دقيقة بعد تشغيلها)",
                 "text": "غير متوفر",
                 "text_premium": "30 دقيقة"
@@ -757,22 +757,22 @@
                 "text": "كحد أقصى 100"
             },
             "number_stories_album": {
-                "name": "Number of stories in an album",
-                "text": "up to 100 stories"
+                "name": "عدد القصص في الألبوم",
+                "text": "الحد اﻷقصى 100 قصة"
             },
             "stories_limit_reset_time": {
-                "name": "Stories limit reset time",
-                "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
+                "name": "وقت إعادة تعيين حدود القصص",
+                "text": "الحد الأقصى يقفز مرة أخرى إلى أقصى قيمة له في 24 ساعة بعد نشر القصة الأولى\n\nأنظر أيضا: https://tginfo.me/boosts-and-channel-stories-en"
             },
             "adding_clickable_links_stories": {
-                "name": "Adding clickable links to stories",
-                "text": "not available",
-                "text_premium": "up to 3 stickers"
+                "name": "إضافة روابط قابلة للنقر إلى القصص",
+                "text": "غير متوفر",
+                "text_premium": "3 ملصقات كحدّ أقصى"
             },
             "number_reaction_stickers": {
-                "name": "Number of reaction stickers",
-                "text": "only 1 reaction",
-                "text_premium": "up to 5 reactions"
+                "name": "عدد ملصقات التفاعل",
+                "text": "تفاعل واحد فقط",
+                "text_premium": "5 تفاعلات كحدّ أقصى"
             }
         }
     },
@@ -790,19 +790,19 @@
                 "text": "مايصل إلى 200 أسم مستخدم يوميًا"
             },
             "hashtag_search_depth": {
-                "name": "Hashtag search results number",
+                "name": "عدد نتائج البحث عبر الهاشتاق",
                 "hint": "",
-                "text": "roughly last 5,000 messages"
+                "text": "آخر 5,000 رسالة تقريبا"
             },
             "minimal_subscribers_public_search_eligibility": {
-                "name": "Minimal channel subscribers for public search eligibility",
-                "text": "at least 100 subscribers"
+                "name": "الحد الأدنى للمشتركين في القناة لتظهر في البحث العام",
+                "text": "100 مشترك على الأقل"
             },
             "number_recommended_channels": {
-                "name": "Number of recommended channels",
-                "hint": "(\"Similar channels\" in global search and specific channels)",
-                "text": "up to 10",
-                "text_premium": "up to 100"
+                "name": "عدد القنوات الموصى بها",
+                "hint": "(\"قنوات مماثلة\" في البحث العام وقنوات محددة)",
+                "text": "10 كحد أقصى",
+                "text_premium": "100 كحد أقصى"
             }
         }
     },
@@ -876,9 +876,9 @@
                 "text": "الأقصى 124 كيلوبايت"
             },
             "media_attachments": {
-                "name": "Media attachments",
-                "hint": "in articles",
-                "text": "Only external links; uploads were disabled"
+                "name": "الوسائط المرفقة",
+                "hint": "في المقالات",
+                "text": "الروابط الخارجية فقط؛ تم تعطيل الرفع"
             }
         }
     },
@@ -901,19 +901,19 @@
                 "text": "يجب أن يكون كل جانب أقل أو يساوي 2560 بكسل، وإلا سيتم تقليصه بحيث يكون الجانب الأكبر هو 2560 بكسل"
             },
             "parallel_download_small_files": {
-                "name": "Parallel download for small files",
-                "hint": "(less than 20 MB)",
-                "text": "approximately up to 5 files"
+                "name": "تحميل مواز للملفات الصغيرة",
+                "hint": "(أقل من 20 ميغابايت)",
+                "text": "نحو 5 ملفات كحد أقصى"
             },
             "parallel_download_big_files": {
-                "name": "Parallel download for big files",
-                "hint": "(more than 20 MB)",
-                "text": "approximately up to 2 files"
+                "name": "تحميل مواز للملفات الكبيرة",
+                "hint": "(أكثر من 20 ميغابايت)",
+                "text": "نحو ملفّين اثنين كحد أقصى"
             }
         }
     },
     "checklists": {
-        "name": "Checklists (To Do)",
+        "name": "قوائم التحقق (قوائم المهام)",
         "items": {
             "max_number_items_list": {
                 "name": "عدد العناصر في قائمة التحقق",
@@ -930,7 +930,7 @@
         }
     },
     "gifts": {
-        "name": "Gifts & Stars",
+        "name": "الهدايا والنجوم",
         "items": {
             "minimum_gift_upgrade_price": {
                 "name": "الحد الأدنى لسعر ترقية الهدية",
@@ -957,177 +957,177 @@
                 "text": "كحد أقصى 10"
             },
             "number_gifts_collection": {
-                "name": "Number of gifts in a collection",
-                "text": "up to 500 gifts"
+                "name": "عدد الهدايا في أي مجموعة",
+                "text": "500 هدية كحدّ أقصى"
             },
             "maximum_period_convert_received_gift_stars": {
                 "name": "المدة القصوى لتحويل الهدية المستلمة إلى نجوم",
                 "text": "7 أيام"
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Number of stars that can be withdrawn in chats and channels",
-                "text": "from 1,000 stars to  25,000,000 stars"
+                "name": "عدد النجوم التي يمكن سحبها في المحادثات والقنوات",
+                "text": "من 1,000 نجمة حتى 25,000,000 نجمة"
             },
             "price_paid_media_post": {
-                "name": "Price for paid media in a post",
-                "text": "from 1 to 25,000 stars"
+                "name": "سعر الوسائط المدفوعة في المنشور",
+                "text": "من 1 إلى 25,000 نجمة"
             },
             "paid_reaction_transaction_amount": {
-                "name": "Paid reaction transaction amount",
-                "text": "from 1 to 10,000 stars"
+                "name": "مبلغ الحوالة للتفاعلات المدفوعة",
+                "text": "من 1 إلى 10,000 نجمة"
             },
             "length_message_attached_gift": {
-                "name": "Length of a message attached to a gift",
-                "text": "up to 128 characters"
+                "name": "طول الرسالة المرفقة بالهدية",
+                "text": "ما يصل إلى 128 حرفًا"
             },
             "allowed_payouts_affiliate_programs": {
-                "name": "Allowed revenue share percentages in affiliate programs",
-                "hint": "per referred user",
-                "text": "from 0.1% to 80%"
+                "name": "النسب المئوية لحصة الإيرادات المسموح بها في البرامج المنتسبة",
+                "hint": "لكل مستخدم تمت إحالته",
+                "text": "من 0.1% إلى 80%"
             },
             "price_paid_message": {
-                "name": "Price for a private paid message",
-                "text": "from 1 to 10,000 stars"
+                "name": "سعر الرسالة الخاصة المدفوعة",
+                "text": "من 1 إلى 10,000 نجمة"
             },
             "resale_price_collectible_gifts": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in stars",
-                "text": "from 125 to 100,000 stars"
+                "name": "سعر إعادة البيع للهدايا القابلة للتحصيل",
+                "hint": "بالنجوم",
+                "text": "من 125 إلى 100,000 نجمة"
             },
             "resale_price_collectible_gifts_ton": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in TON",
-                "text": "from 7 TON to 100,000 TON"
+                "name": "سعر إعادة البيع للهدايا القابلة للتحصيل",
+                "hint": "بعملة TON",
+                "text": "من 7 TON إلى 100,000 TON"
             },
             "price_suggested_channel_message": {
-                "name": "Price for a suggested channel message",
-                "text": "Free, or from 5 to 100,000 stars"
+                "name": "السعر لرسالة قناة مقترحة",
+                "text": "مجاناً، أو من 5 إلى 100,000 نجمة"
             },
             "guaranteed_duration_paid_message": {
-                "name": "Guaranteed duration of a paid post",
-                "text": "24 hours"
+                "name": "المدة المضمونة للمنشور المدفوع",
+                "text": "24 ساعة"
             },
             "paid_post_scheduling_timeframe": {
-                "name": "Paid post scheduling timeframe",
-                "text": "from 5 minutes to 31 days in advance"
+                "name": "اﻹطار الزمني لجدولة المنشورات المدفوعة",
+                "text": "من 5 دقائق إلى 31 يوماً مسبقاً"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Price for a paid post in TON cryptocurrency",
-                "text": "from 0.01 TON to 10,000 TON"
+                "name": "سعر المنشور المدفوع بعملة TON",
+                "text": "من 0.01 TON إلى 10,000 TON"
             }
         }
     },
     "boosts": {
-        "name": "Boosts",
+        "name": "التعزيزات",
         "items": {
             "number_boosts": {
-                "name": "Number of boosts if you bought Premium for yourself",
+                "name": "عدد التعزيزات إذا قمت بشراء تلجرام بريميوم لنفسك",
                 "hint": "",
-                "text": "see also: https://tginfo.me/boosts-and-channel-stories-en",
-                "text_premium": "4 boosts"
+                "text": "انظر أيضا: https://tginfo.me/boosts-and-channel-stories-en",
+                "text_premium": "4 تعزيزات"
             },
             "number_boosts_2": {
-                "name": "Number of boosts if you received Premium as a gift",
+                "name": "عدد التعزيزات إذا كنت قد حصلت على الاشتراك المميز كهدية",
                 "hint": "",
-                "text_premium": "1 boost"
+                "text_premium": "تعزيز واحد"
             },
             "number_boosts_if_you_won_premium_giveaway": {
-                "name": "Number of boosts you get if you won Premium in a giveaway",
-                "text_premium": "giveaway Premium subscriptions give 0 boosts"
+                "name": "عدد التعزيزات التي تحصل عليها إذا فزت بالاشتراك المميز من السحب",
+                "text_premium": "لا تحصل على أي تعزيز إذا فزت بالاشتراك المميز عن طريق السحب"
             },
             "boosts_you_get_gifting_somebody_premium": {
-                "name": "Boosts you get for gifting somebody Premium",
-                "text": "you gain 3 additional boosts to what you already got"
+                "name": "التعزيزات التي تحصل عليها إذا أهديت شخصًا الاشتراك المميز",
+                "text": "يضاف لك 3 تعزيزات زيادة على ما كان عندك مسبقًا"
             },
             "boost_transfer_cooldown": {
-                "name": "Boost transfer cooldown",
-                "hint": "if you want to change a channel you boost",
-                "text_premium": "24 hours"
+                "name": "مدة الانتظار اﻹجبارية قبل تحويل التعزيز لقناة أخرى",
+                "hint": "إذا كنت ترغب بتغيير القناة التي ستهديها التعزيز",
+                "text_premium": "24 ساعة"
             },
             "revoking_boosts": {
-                "name": "Revoking boosts",
-                "text": "is not possible, boosts can only be transferred"
+                "name": "إلغاء التعزيزات",
+                "text": "غير ممكن، فقط يمكنك تحويل التعزيز لقناة أخرى"
             },
             "maximum_boosts_number": {
-                "name": "Maximum boosts number on an account",
-                "hint": "(not fully confirmed)",
-                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
+                "name": "الحد اﻷقصى لعدد التعزيزات للحساب",
+                "hint": "(غير مؤكّد بالكامل)",
+                "text": "ما يصل إلى 103 تعزيز (4 تعزيزات من الاشتراك المميز الخاص بك + 33 من التي أهديتها لغيرك)"
             },
             "number_channels_giveaway": {
-                "name": "Number of channels in a giveaway",
-                "text": "up to 10 channels"
+                "name": "عدد القنوات المشاركات في السحب",
+                "text": "10 قنوات كحدّ أقصى"
             },
             "number_countries_giveaway": {
-                "name": "Number of countries in a giveaway",
-                "text": "up to 10"
+                "name": "عدد البلدان المختارة في السحب",
+                "text": "10 كحد أقصى"
             },
             "giveaway_duration": {
-                "name": "Giveaway duration",
-                "text": "up to 31 days"
+                "name": "مدة السحب",
+                "text": "31 يومًا كحدّ أقصى"
             },
             "channel_levels": {
-                "name": "Channel levels",
-                "text": "from 1 up to 100"
+                "name": "مستويات القناة",
+                "text": "من 1 إلى 100"
             },
             "minimum_level_set_channel_color": {
-                "name": "Level to set channel color",
-                "text": "at least level 5"
+                "name": "المستوى المطلوب لتعيين لون القناة",
+                "text": "المستوى 5 على الأقل"
             },
             "level_set_channel_background_icon": {
-                "name": "Channel level to customize message accent color and emoji",
-                "text": "at least level 4"
+                "name": "مستوى القناة لتخصيص لون لهجة الرسالة والرموز التعبيرية",
+                "text": "المستوى 4 على الأقل"
             },
             "level_customize_profile_background_color_emoji": {
-                "name": "Channel level to customize profile background color and emoji",
-                "text": "at least level 7"
+                "name": "مستوى القناة لتخصيص لون خلفية الملف الشخصي والرموز التعبيرية",
+                "text": "المستوى 7 على الأقل"
             },
             "level_set_emoji_status": {
-                "name": "Channel level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "name": "مستوى القناة لتعيين حالة الرمز التعبيري",
+                "hint": "(فقط من مجموعات الرموز التعبيرية الرسمية)",
+                "text": "المستوى 8 على الأقل"
             },
             "level_set_chat_wallpaper": {
-                "name": "Channel level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "مستوى القناة لتعيين واحدة من سمات المحادثة المحددة مسبقاً",
+                "text": "المستوى 9 على الأقل"
             },
             "level_set_custom_chat_wallpaper": {
-                "name": "Channel level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "مستوى القناة لتعيين خلفية محادثة مخصصة",
+                "text": "المستوى 10 على الأقل"
             },
             "level_activate_speech_transcriptions": {
-                "name": "Level to activate speech transcriptions",
-                "hint": "for users without Premium",
-                "text": "at least level 6"
+                "name": "المستوى المطلوب لتفعيل خاصية تفريغ الصوتيات",
+                "hint": "للمستخدمين بدون اشتراك مميز",
+                "text": "المستوى 6 على الأقل"
             },
             "level_set_grouppromoted_emoji": {
-                "name": "Level to set group-promoted emoji",
-                "text": "at least level 4"
+                "name": "مستوى لتعيين الرموز التعبيرية التي تروج لها المجموعة",
+                "text": "المستوى 4 على الأقل"
             },
             "group_level_customize_profile_background_color_emoji": {
-                "name": "Group level to customize profile background color and emoji",
-                "text": "at least level 5"
+                "name": "مستوى المجموعة لتخصيص لون خلفية الملف الشخصي والرموز التعبيرية",
+                "text": "المستوى 5 على الأقل"
             },
             "group_level_set_emoji_status": {
-                "name": "Group level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "name": "مستوى المجموعة لتعيين حالة الرموز التعبيرية",
+                "hint": "(فقط من مجموعات الرموز التعبيرية الرسمية)",
+                "text": "المستوى 8 على الأقل"
             },
             "chat_level_set_one_predefined_chat_themes": {
-                "name": "Chat level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "مستوى الدردشة لتعيين واحدة من سمات الدردشة المحددة مسبقاً",
+                "text": "المستوى 9 على الأقل"
             },
             "chat_level_set_custom_chat_wallpaper": {
-                "name": "Chat level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "مستوى الدردشة لتعيين خلفية محادثة مخصصة",
+                "text": "المستوى 10 على الأقل"
             },
             "channel_level_disable_ads": {
-                "name": "Channel level to disable ads",
-                "text": "at least level 50"
+                "name": "مستوى القناة المطلوب لإيقاف الإعلانات",
+                "text": "المستوى 50 على الأقل"
             },
             "channel_level_activate_channelwide_automatic_translation": {
-                "name": "Channel level to activate channel-wide automatic translation",
-                "hint": "for users without Premium",
-                "text": "at least level 3"
+                "name": "مستوى القناة المطلوب لتفعيل الترجمة التلقائية على القناة",
+                "hint": "للمستخدمين بدون اشتراك مميز",
+                "text": "المستوى 3 على الأقل"
             }
         }
     }

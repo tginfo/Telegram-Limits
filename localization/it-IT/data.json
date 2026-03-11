@@ -194,7 +194,7 @@
                 "text": "gruppi da almeno 100 partecipanti"
             },
             "chat_role_length": {
-                "name": "Lunghezza del ruolo da admin",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "fino a 16 caratteri"
             },

@@ -194,7 +194,7 @@
                 "text": "گروه با بیش از ۱۰۰ عضو"
             },
             "chat_role_length": {
-                "name": "طول لقب ادمین",
+                "name": "Admin/user tag length",
                 "hint": "",
                 "text": "تا ۱۶ کاراکتر"
             },

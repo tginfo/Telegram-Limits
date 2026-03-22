@@ -32,7 +32,7 @@
                 "name": "Spam taqiq",
                 "hint": "",
                 "text": "1-kundan boshlab umrbod",
-                "text_premium": "from 1 second up to permanent"
+                "text_premium": "1 soniyadan doimiygacha"
             },
             "channels_and_chats_number": {
                 "name": "Kanallar va superguruhlar soni",
@@ -47,9 +47,9 @@
                 "text_premium": "400 tagacha"
             },
             "video_length": {
-                "name": "Video avatar duration",
+                "name": "Video avatar davomiyligi",
                 "hint": "",
-                "text": "from 1 to 10 seconds"
+                "text": "1 dan 10 sekundgacha"
             },
             "groups_and_channels_creation": {
                 "name": "Guruh va kanal ochish",
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "Ko'rinadigan xabarlar soni",
-                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
+                "hint": "(shaxsiy chatlar, botlar va eski \"asosiy\" guruhlar o'rtasidagi umumiy limit)",
                 "text": "cheksiz; 2018 yilgacha - 1 000 000 tagacha ko'rinadigan xabarlar: Batafsil: https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -92,30 +92,30 @@
                 "text": "5 ta passkey'gacha"
             },
             "session_duration": {
-                "name": "Session duration",
-                "text": "1 week, 1 month, 3 months, 6 months, or 12 months"
+                "name": "Sessiya davomiyligi",
+                "text": "1 hafta, 1 oy, 3 oy, 6 oy yoki 12 oy"
             },
             "notification_sounds_duration": {
-                "name": "Notification sounds duration",
-                "hint": "(custom files)",
-                "text": "from 1 to 5 seconds"
+                "name": "Bildirishnoma tovushlarining davomiyligi",
+                "hint": "(maxsus fayllar)",
+                "text": "1 dan 5 sekundgacha"
             },
             "number_saved_ringtones": {
-                "name": "Number of saved ringtones",
-                "text": "up to 100"
+                "name": "Saqlangan jiringlash ohanglari soni",
+                "text": "100 tagacha"
             },
             "welcome_card_title_length": {
-                "name": "Welcome card title length",
-                "text_premium": "up to 32 characters"
+                "name": "Xush kelibsiz kartasi sarlavhasining uzunligi",
+                "text_premium": "32 tagacha belgi"
             },
             "welcome_card_text_length": {
-                "name": "Welcome card text length",
-                "text_premium": "up to 70 characters"
+                "name": "Xush kelibsiz kartasi sarlavhasining uzunligi",
+                "text_premium": "70 tagacha belgi"
             },
             "number_business_chat_links": {
-                "name": "Number of business chat links",
-                "hint": "with predefined message text",
-                "text_premium": "up to 100 links"
+                "name": "Biznes chat havolalari soni",
+                "hint": "oldindan belgilangan xabar matni bilan",
+                "text_premium": "100 tagacha havola"
             }
         }
     },
@@ -194,7 +194,7 @@
                 "text": "100+ ishtirokchilari bo'lgan guruhlar"
             },
             "chat_role_length": {
-                "name": "Admin/user tag length",
+                "name": "Administrator/foydalanuvchi yorlig'i uzunligi",
                 "hint": "",
                 "text": "16 tagacha belgi"
             },
@@ -214,26 +214,26 @@
                 "text": "100 yoki undan kam a'zolari bor chatlar uchun, o'qigan foydalanuvchilar ro'yxati faqat xabarni yuborgan foydalanuvchigagina ko'rinadi"
             },
             "visible_list_members": {
-                "name": "Visible list of members",
-                "hint": "in big chats",
-                "text": "up to 10,000 users"
+                "name": "Ko'rinadigan a'zolar ro'yxati",
+                "hint": "katta suhbatlarda",
+                "text": "10 000 foydalanuvchigacha"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "Bir darajaga erishish uchun zarur bo'lgan kuchaytirishlar",
+                "text": "https://boosts.tginfo.me kalkulyatoriga qarang"
             },
             "hide_participants_setting_availability": {
-                "name": "Hide participants setting availability",
-                "text": "the chat must have at least 100 members"
+                "name": "Ishtirokchilar sozlamalarini yashirish",
+                "text": "chatda kamida 100 a'zo bo'lishi kerak"
             },
             "number_manually_selected_reactions": {
-                "name": "Number of manually selected reactions",
-                "hint": "when \"Some reactions\" option is used",
-                "text": "up to 100"
+                "name": "Qo'lda tanlangan reaksiyalar soni",
+                "hint": "\"Ba'zi reaksiyalar\" opsiyasi ishlatilganda",
+                "text": "100 tagacha"
             },
             "number_members_aggressive_antispam_availability": {
-                "name": "Number of members for Aggressive Anti-Spam availability",
-                "text": "at least 200 members"
+                "name": "Aggressive Anti-Spam mavjudligi uchun a'zolar soni",
+                "text": "kamida 200 a'zo"
             }
         }
     },
@@ -268,7 +268,7 @@
             "video_chat_broadcast": {
                 "name": "Video translyatsiya",
                 "hint": "(kamera, ekranni ko'rsatish)",
-                "text": "up to 1,000 broadcasting users simultaneously"
+                "text": "bir vaqtning o'zida 1000 tagacha translyatsiya foydalanuvchilari"
             },
             "video_chat_viewers": {
                 "name": "Video translyatsiya kuzatuvchilari",
@@ -296,16 +296,16 @@
                 "text": "10 soniya"
             },
             "number_participants_endtoend_encrypted_calls": {
-                "name": "Number of participants in End-to-End encrypted private link calls",
-                "text": "up to 200 participants"
+                "name": "Boshidan oxirigacha shifrlangan shaxsiy havola qo'ng'iroqlaridagi ishtirokchilar soni",
+                "text": "200 tagacha ishtirokchi"
             },
             "paid_message_price": {
-                "name": "Paid stream comment message price",
-                "text": "up to 10,000 stars"
+                "name": "Pullik strimdagi izoh xabari narxi",
+                "text": "10 000 yulduzgacha"
             },
             "paid_message_pin_duration": {
-                "name": "Stream comment pin duration",
-                "text": "free: no pinning. 10 stars: 1 minute. 50 stars: 2 minutes. 100 stars: 5 minutes. 250 stars: 10 minutes. 500 stars: 15 minutes. 2,000 stars: 30 minutes. 10,000 stars: 1 hour"
+                "name": "Izohlarni qadash davomiyligi",
+                "text": "bepul: qadash shart emas. 10 yulduz: 1 daqiqa. 50 yulduz: 2 daqiqa. 100 yulduz: 5 daqiqa. 250 yulduz: 10 daqiqa. 500 yulduz: 15 daqiqa. 2000 yulduz: 30 daqiqa. 10000 yulduz: 1 soat"
             },
             "paid_message_length": {
                 "name": "Stream comment length",

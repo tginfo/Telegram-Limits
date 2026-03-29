@@ -430,7 +430,7 @@
                 "text": "12 MB gacha"
             },
             "video_message_diameter": {
-                "name": "Video message diameter",
+                "name": "Video xabar diametri",
                 "text": "384px"
             },
             "album_size": {
@@ -468,27 +468,27 @@
                 "name": "Number of speech to text transcriptions",
                 "hint": "for voice and video messages",
                 "text": "up to 2 free transcriptions weekly",
-                "text_premium": "unlimited"
+                "text_premium": "cheklanmagan"
             },
             "duration_speech_text_transcriptions": {
                 "name": "Duration of speech to text transcriptions",
                 "hint": "for voice and video messages",
-                "text": "up to 5 minutes",
+                "text": "5 daqiqagacha",
                 "text_premium": "no duration limit set"
             },
             "length_quoted_text": {
                 "name": "Length of a quoted text",
-                "text": "up to 1024 characters"
+                "text": "1024 ta belgigacha"
             },
             "quick_replies_number": {
                 "name": "Quick Replies number",
                 "hint": "(predefined templates)",
-                "text_premium": "up to 100 templates"
+                "text_premium": "100 tagacha shablon"
             },
             "quick_replies_messages_number": {
                 "name": "Quick Replies messages number",
                 "hint": "(number of messages that can be sent by a single Quick Reply)",
-                "text_premium": "up to 10 messages"
+                "text_premium": "10 tagacha xabar"
             }
         }
     },
@@ -564,7 +564,7 @@
                 "name": "Folder links number",
                 "hint": "per public folder",
                 "text": "3 tagacha havola",
-                "text_premium": "up to 10 links"
+                "text_premium": "10 tagacha havola"
             }
         }
     },
@@ -624,7 +624,7 @@
             },
             "formatting_entities": {
                 "name": "Formatlash sub'ektlari",
-                "hint": "(bold, italic etc.)",
+                "hint": "(qalin, kursiv va boshqalar)",
                 "text": "100 tagacha"
             },
             "messaging_frequency": {
@@ -685,11 +685,11 @@
             "bot_transfers": {
                 "name": "Bot transfers",
                 "hint": "between accounts",
-                "text": "up to 5 in a day"
+                "text": "kuniga 5 tagacha"
             },
             "length_custom_verification_text": {
                 "name": "Length of custom verification text",
-                "text": "from 1 to 70 characters"
+                "text": "1 tadan 70 tagacha belgi"
             }
         }
     },
@@ -743,7 +743,7 @@
             "story_incognito_frequency": {
                 "name": "Incognito usage frequency (Hide My View)",
                 "text": "Mavjud emas",
-                "text_premium": "once per 3 hours",
+                "text_premium": "har 3 soatda bir marotaba",
                 "hint": ""
             },
             "story_incognito_duration": {
@@ -758,7 +758,7 @@
             },
             "number_stories_album": {
                 "name": "Number of stories in an album",
-                "text": "up to 100 stories"
+                "text": "100 tagacha hikoyalar"
             },
             "stories_limit_reset_time": {
                 "name": "Stories limit reset time",
@@ -767,7 +767,7 @@
             "adding_clickable_links_stories": {
                 "name": "Adding clickable links to stories",
                 "text": "not available",
-                "text_premium": "up to 3 stickers"
+                "text_premium": "3 tagacha stiker"
             },
             "number_reaction_stickers": {
                 "name": "Number of reaction stickers",
@@ -1005,7 +1005,7 @@
             },
             "guaranteed_duration_paid_message": {
                 "name": "Guaranteed duration of a paid post",
-                "text": "24 hours"
+                "text": "24 soat"
             },
             "paid_post_scheduling_timeframe": {
                 "name": "Paid post scheduling timeframe",
@@ -1042,7 +1042,7 @@
             "boost_transfer_cooldown": {
                 "name": "Boost transfer cooldown",
                 "hint": "if you want to change a channel you boost",
-                "text_premium": "24 hours"
+                "text_premium": "24 soat"
             },
             "revoking_boosts": {
                 "name": "Revoking boosts",

@@ -427,7 +427,7 @@
             },
             "video_message_file_size": {
                 "name": "Video message file size",
-                "text": "Up to 12 MB"
+                "text": "12 MB gacha"
             },
             "video_message_diameter": {
                 "name": "Video message diameter",

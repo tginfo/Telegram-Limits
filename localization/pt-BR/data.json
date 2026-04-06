@@ -32,7 +32,7 @@
                 "name": "Ban por spam",
                 "hint": "",
                 "text": "de 1 dia até sempre",
-                "text_premium": "from 1 second up to permanent"
+                "text_premium": "de 1 segundo até permanente"
             },
             "channels_and_chats_number": {
                 "name": "Número de canais e supergrupos",
@@ -47,9 +47,9 @@
                 "text_premium": "até 400"
             },
             "video_length": {
-                "name": "Video avatar duration",
+                "name": "Duração do vídeo de perfil",
                 "hint": "",
-                "text": "from 1 to 10 seconds"
+                "text": "de 1 a 10 segundos"
             },
             "groups_and_channels_creation": {
                 "name": "Criação de grupos e canais",
@@ -83,39 +83,39 @@
                 "text": "14 dias"
             },
             "maximum_contact_note_length": {
-                "name": "Maximum contact note length",
-                "text": "128 symbols"
+                "name": "Tamanho máximo da nota de contato",
+                "text": "128 símbolos"
             },
             "maximum_passkeys_number": {
-                "name": "Maximum passkeys number",
-                "hint": "linked to a Telegram account",
-                "text": "up to 5 passkeys"
+                "name": "Número máximo de chaves de acesso",
+                "hint": "vinculado a uma conta do Telegram",
+                "text": "até 5 chaves de acesso"
             },
             "session_duration": {
-                "name": "Session duration",
-                "text": "1 week, 1 month, 3 months, 6 months, or 12 months"
+                "name": "Duração de sessão",
+                "text": "1 semana, 1 mês, 3 meses, 6 meses, ou 12 meses"
             },
             "notification_sounds_duration": {
                 "name": "Notification sounds duration",
-                "hint": "(custom files)",
-                "text": "from 1 to 5 seconds"
+                "hint": "(arquivos personalizados)",
+                "text": "de 1 a 5 segundos"
             },
             "number_saved_ringtones": {
-                "name": "Number of saved ringtones",
-                "text": "up to 100"
+                "name": "Número de toques salvos",
+                "text": "até 100"
             },
             "welcome_card_title_length": {
                 "name": "Welcome card title length",
-                "text_premium": "up to 32 characters"
+                "text_premium": "até 32 caracteres"
             },
             "welcome_card_text_length": {
                 "name": "Welcome card text length",
-                "text_premium": "up to 70 characters"
+                "text_premium": "até 70 caracteres"
             },
             "number_business_chat_links": {
                 "name": "Number of business chat links",
                 "hint": "with predefined message text",
-                "text_premium": "up to 100 links"
+                "text_premium": "até 100 links"
             }
         }
     },
@@ -194,7 +194,7 @@
                 "text": "grupos com +100 participantes"
             },
             "chat_role_length": {
-                "name": "Admin/user tag length",
+                "name": "Comprimento da tag de administrador/usuário",
                 "hint": "",
                 "text": "até 16 caracteres"
             },
@@ -214,9 +214,9 @@
                 "text": "para bate-papos com 100 membros ou menos, a lista de usuários está disponível apenas para o usuário que enviou a mensagem"
             },
             "visible_list_members": {
-                "name": "Visible list of members",
-                "hint": "in big chats",
-                "text": "up to 10,000 users"
+                "name": "Lista visível dos membros",
+                "hint": "em chats grandes",
+                "text": "até 10,000 usuários"
             },
             "boosts_needed_reach_level": {
                 "name": "Boosts needed to reach a level",
@@ -229,11 +229,11 @@
             "number_manually_selected_reactions": {
                 "name": "Number of manually selected reactions",
                 "hint": "when \"Some reactions\" option is used",
-                "text": "up to 100"
+                "text": "até 100"
             },
             "number_members_aggressive_antispam_availability": {
                 "name": "Number of members for Aggressive Anti-Spam availability",
-                "text": "at least 200 members"
+                "text": "pelo menos 200 membros"
             }
         }
     },
@@ -268,7 +268,7 @@
             "video_chat_broadcast": {
                 "name": "Transmitir vídeo",
                 "hint": "(câmera, transmissão de tela)",
-                "text": "up to 1,000 broadcasting users simultaneously"
+                "text": "até 1,000 usuários de transmissão simultânea"
             },
             "video_chat_viewers": {
                 "name": "Visualizadores de vídeo",
@@ -286,22 +286,22 @@
                 "text": "até 7 dias"
             },
             "comment_length": {
-                "name": "Comment length",
-                "hint": "Maximum length of message which can be sent to video/voice chat",
+                "name": "Comprimento do comentário",
+                "hint": "Comprimento máximo da mensagem que pode ser enviada para o chat de vídeo/voz",
                 "text": "128"
             },
             "comment_lifetime": {
                 "name": "Comment lifetime",
                 "hint": "Lifetime of comment, if not pinned",
-                "text": "10 seconds"
+                "text": "10 segundos"
             },
             "number_participants_endtoend_encrypted_calls": {
                 "name": "Number of participants in End-to-End encrypted private link calls",
-                "text": "up to 200 participants"
+                "text": "até 200 participantes"
             },
             "paid_message_price": {
                 "name": "Paid stream comment message price",
-                "text": "up to 10,000 stars"
+                "text": "até 10.000 estrelas"
             },
             "paid_message_pin_duration": {
                 "name": "Stream comment pin duration",
@@ -378,7 +378,7 @@
             },
             "number_subscribers_see_story_statistics": {
                 "name": "Number of subscribers to see story statistics",
-                "text": "at least 1"
+                "text": "pelo menos 1"
             },
             "username_reservation": {
                 "name": "Reserva de alteração de nome",
@@ -427,7 +427,7 @@
             },
             "video_message_file_size": {
                 "name": "Video message file size",
-                "text": "Up to 12 MB"
+                "text": "Até 12 MB"
             },
             "video_message_diameter": {
                 "name": "Video message diameter",
@@ -462,33 +462,33 @@
             "number_unique_reaction_types": {
                 "name": "Number of unique reaction types",
                 "hint": "on a single message",
-                "text": "up to 11 reaction icons"
+                "text": "até 11 ícones de reação"
             },
             "speech_text_transcriptions": {
                 "name": "Number of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 2 free transcriptions weekly",
-                "text_premium": "unlimited"
+                "hint": "para mensagens de voz e vídeo",
+                "text": "até 2 transcrições gratuitas semanalmente",
+                "text_premium": "ilimitada"
             },
             "duration_speech_text_transcriptions": {
-                "name": "Duration of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 5 minutes",
-                "text_premium": "no duration limit set"
+                "name": "Duração da fala em transcrições de texto",
+                "hint": "para mensagens de voz e vídeo",
+                "text": "até 5 minutos",
+                "text_premium": "nenhum limite de duração definido"
             },
             "length_quoted_text": {
                 "name": "Length of a quoted text",
-                "text": "up to 1024 characters"
+                "text": "até 1024 caracteres"
             },
             "quick_replies_number": {
                 "name": "Quick Replies number",
                 "hint": "(predefined templates)",
-                "text_premium": "up to 100 templates"
+                "text_premium": "até 100 modelos"
             },
             "quick_replies_messages_number": {
                 "name": "Quick Replies messages number",
                 "hint": "(number of messages that can be sent by a single Quick Reply)",
-                "text_premium": "up to 10 messages"
+                "text_premium": "até 10 mensagens"
             }
         }
     },
@@ -508,7 +508,7 @@
             "poll_options_count": {
                 "name": "Número de opções da enquete",
                 "hint": "",
-                "text": "2 to 12"
+                "text": "2 até 12"
             },
             "poll_option_length": {
                 "name": "Tamanho da opção de enquete",
@@ -561,10 +561,10 @@
                 "text_premium": "até 200 itens"
             },
             "folder_links_number": {
-                "name": "Folder links number",
-                "hint": "per public folder",
-                "text": "up to 3 links",
-                "text_premium": "up to 10 links"
+                "name": "Número de links da pasta",
+                "hint": "por pasta pública",
+                "text": "até 3 links",
+                "text_premium": "até 10 links"
             }
         }
     },
@@ -600,7 +600,7 @@
             "upload_limit_botapi_local": {
                 "name": "Limite de envio de arquivos",
                 "hint": "com o servidor local de API de Bot",
-                "text": "up to 2000 MiB"
+                "text": "até 2000 MiB"
             },
             "download_limit_botapi": {
                 "name": "Limite de download de arquivos",
@@ -624,7 +624,7 @@
             },
             "formatting_entities": {
                 "name": "Entidades de formatação",
-                "hint": "(bold, italic etc.)",
+                "hint": "(negrito, itálico, etc.)",
                 "text": "até 100 itens"
             },
             "messaging_frequency": {
@@ -684,12 +684,12 @@
             },
             "bot_transfers": {
                 "name": "Bot transfers",
-                "hint": "between accounts",
-                "text": "up to 5 in a day"
+                "hint": "entre contas",
+                "text": "até 5 por dia"
             },
             "length_custom_verification_text": {
                 "name": "Length of custom verification text",
-                "text": "from 1 to 70 characters"
+                "text": "de 1 a 70 caracteres"
             }
         }
     },
@@ -699,7 +699,7 @@
             "free_stories_number": {
                 "name": "Account lifetime number of stories that can be posted without Premium",
                 "text": "up to 3 stories; any stories ever posted, under any conditions, still count against this limit, including deleted stories, stories posted with Premium, and stories that were posted for free when the feature launched",
-                "text_premium": "doesn't apply when Premium is active"
+                "text_premium": "não se aplica quando Premium está ativo"
             },
             "story_availability": {
                 "name": "Disponibilidade do story",
@@ -727,12 +727,12 @@
             },
             "story_weekly_limit": {
                 "name": "Limite semanal de stories",
-                "text": "up to 3 stories",
+                "text": "até 3 stories",
                 "text_premium": "até 700 stories"
             },
             "story_monthly_limit": {
                 "name": "Limite mensal de stories",
-                "text": "up to 10 stories",
+                "text": "até 10 stories",
                 "text_premium": "até 3.000 stories"
             },
             "story_text_length": {
@@ -743,7 +743,7 @@
             "story_incognito_frequency": {
                 "name": "Incognito usage frequency (Hide My View)",
                 "text": "indisponível",
-                "text_premium": "once per 3 hours",
+                "text_premium": "uma vez a cada 3 horas",
                 "hint": ""
             },
             "story_incognito_duration": {
@@ -753,26 +753,26 @@
                 "text_premium": "30 minutos"
             },
             "stories_albums": {
-                "name": "Stories albums",
-                "text": "up to 100"
+                "name": "Álbuns de stories",
+                "text": "até 100"
             },
             "number_stories_album": {
                 "name": "Number of stories in an album",
-                "text": "up to 100 stories"
+                "text": "até 100 stories"
             },
             "stories_limit_reset_time": {
-                "name": "Stories limit reset time",
+                "name": "Tempo limite para redefinir stories",
                 "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
             },
             "adding_clickable_links_stories": {
                 "name": "Adding clickable links to stories",
-                "text": "not available",
-                "text_premium": "up to 3 stickers"
+                "text": "indisponível",
+                "text_premium": "até 3 adesivos"
             },
             "number_reaction_stickers": {
-                "name": "Number of reaction stickers",
-                "text": "only 1 reaction",
-                "text_premium": "up to 5 reactions"
+                "name": "Número de adesivos de reações",
+                "text": "apenas 1 reação",
+                "text_premium": "até 5 reações"
             }
         }
     },
@@ -792,17 +792,17 @@
             "hashtag_search_depth": {
                 "name": "Hashtag search results number",
                 "hint": "",
-                "text": "roughly last 5,000 messages"
+                "text": "aproximadamente as últimas 5.000 mensagens"
             },
             "minimal_subscribers_public_search_eligibility": {
                 "name": "Minimal channel subscribers for public search eligibility",
-                "text": "at least 100 subscribers"
+                "text": "pelo menos 100 assinantes"
             },
             "number_recommended_channels": {
                 "name": "Number of recommended channels",
                 "hint": "(\"Similar channels\" in global search and specific channels)",
-                "text": "up to 10",
-                "text_premium": "up to 100"
+                "text": "até 10",
+                "text_premium": "até 100"
             }
         }
     },
@@ -876,8 +876,8 @@
                 "text": "até 64 KiB"
             },
             "media_attachments": {
-                "name": "Media attachments",
-                "hint": "in articles",
+                "name": "Mídias anexadas",
+                "hint": "em artigos",
                 "text": "Only external links; uploads were disabled"
             }
         }
@@ -891,24 +891,24 @@
                 "text": "800x800px, até 2 MB"
             },
             "photo_resolution": {
-                "name": "Photo resolution (SD)",
+                "name": "Resolução da foto (SD)",
                 "hint": "quando enviado com compressão",
-                "text": "each side should be less or equal to 1280px, else it will be downscaled so the biggest side will be 1280px"
+                "text": "cada lado deve ser menor ou igual a 1280px, caso contrário, ele será redimensionado para baixo, então o lado maior será 1280px"
             },
             "photo_resolution_hd": {
-                "name": "Photo resolution (HD)",
-                "hint": "when sent with compression",
-                "text": "each side should be less or equal to 2560px, else it will be downscaled so the biggest side will be 2560px"
+                "name": "Resolução da foto (HD)",
+                "hint": "quando enviado com compressão",
+                "text": "cada lado deve ser menor ou igual a 2560px, senão ele será redimensionado para baixo, então o lado maior será 2560px"
             },
             "parallel_download_small_files": {
-                "name": "Parallel download for small files",
-                "hint": "(less than 20 MB)",
-                "text": "approximately up to 5 files"
+                "name": "Download paralelo para arquivos pequenos",
+                "hint": "(menos de 20 MB)",
+                "text": "aproximadamente até 5 arquivos"
             },
             "parallel_download_big_files": {
-                "name": "Parallel download for big files",
-                "hint": "(more than 20 MB)",
-                "text": "approximately up to 2 files"
+                "name": "Download paralelo para arquivos grandes",
+                "hint": "(mais de 20 MB)",
+                "text": "aproximadamente até 2 arquivos"
             }
         }
     },
@@ -917,95 +917,95 @@
         "items": {
             "max_number_items_list": {
                 "name": "Number of items in checklist",
-                "text": "from 1 to 30"
+                "text": "de 1 para 30"
             },
             "checklist_caption": {
                 "name": "Checklist caption",
-                "text": "from 1 to 255 characters"
+                "text": "de 1 a 255 caracteres"
             },
             "item_caption": {
-                "name": "Item caption",
-                "text": "from 1 to 100 characters"
+                "name": "Legenda do item",
+                "text": "de 1 a 100 caracteres"
             }
         }
     },
     "gifts": {
-        "name": "Gifts & Stars",
+        "name": "Presentes e Estrelas",
         "items": {
             "minimum_gift_upgrade_price": {
-                "name": "Minimum price of a gift upgrade",
-                "text": "25 stars"
+                "name": "Preço mínimo de uma melhoria de presente",
+                "text": "25 estrelas"
             },
             "maximum_pinned_gifts_amount": {
-                "name": "Maximum pinned gifts number",
+                "name": "Número máximo de presentes fixados",
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
                 "name": "Cooldown before gift can be converted into stars",
-                "text": "7 days"
+                "text": "7 dias"
             },
             "minimum_term_stars_ownership_withdraw": {
                 "name": "Term after which gifts can't be exchanged for stars",
-                "text": "21 days"
+                "text": "21 dias"
             },
             "minimum_stars_amount_withdraw": {
                 "name": "Minimum stars amount for withdrawal",
-                "text": "1000 stars"
+                "text": "1000 estrelas"
             },
             "gift_collections_users_profile": {
                 "name": "Gift collections in user's profile",
-                "text": "up to 10"
+                "text": "até 10"
             },
             "number_gifts_collection": {
                 "name": "Number of gifts in a collection",
-                "text": "up to 500 gifts"
+                "text": "até 500 presentes"
             },
             "maximum_period_convert_received_gift_stars": {
                 "name": "Maximum period to convert received gift to stars",
-                "text": "7 days"
+                "text": "7 dias"
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
                 "name": "Number of stars that can be withdrawn in chats and channels",
-                "text": "from 1,000 stars to  25,000,000 stars"
+                "text": "de 1.000 estrelas para 25.000.000 estrelas"
             },
             "price_paid_media_post": {
-                "name": "Price for paid media in a post",
-                "text": "from 1 to 25,000 stars"
+                "name": "Preço para mídia paga em uma postagem",
+                "text": "de 1 a 25.000 estrelas"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Paid reaction transaction amount",
-                "text": "from 1 to 10,000 stars"
+                "text": "de 1 a 10.000 estrelas"
             },
             "length_message_attached_gift": {
-                "name": "Length of a message attached to a gift",
-                "text": "up to 128 characters"
+                "name": "Comprimento de uma mensagem anexada a um presente",
+                "text": "até 128 caracteres"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Allowed revenue share percentages in affiliate programs",
-                "hint": "per referred user",
-                "text": "from 0.1% to 80%"
+                "hint": "por usuário indicado",
+                "text": "de 0,1% para 80%"
             },
             "price_paid_message": {
-                "name": "Price for a private paid message",
-                "text": "from 1 to 10,000 stars"
+                "name": "Preço para uma mensagem privada paga",
+                "text": "de 1 a 10.000 estrelas"
             },
             "resale_price_collectible_gifts": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in stars",
-                "text": "from 125 to 100,000 stars"
+                "name": "Preço de sequência para presentes colecionáveis",
+                "hint": "em estrelas",
+                "text": "de 125 a 100.000 estrelas"
             },
             "resale_price_collectible_gifts_ton": {
                 "name": "Resale price for collectible gifts",
-                "hint": "in TON",
-                "text": "from 7 TON to 100,000 TON"
+                "hint": "em TON",
+                "text": "de 7 TON a 100.000 TON"
             },
             "price_suggested_channel_message": {
                 "name": "Price for a suggested channel message",
-                "text": "Free, or from 5 to 100,000 stars"
+                "text": "Grátis, de 5 a 100.000 estrelas"
             },
             "guaranteed_duration_paid_message": {
-                "name": "Guaranteed duration of a paid post",
-                "text": "24 hours"
+                "name": "Duração garantida de uma postagem paga",
+                "text": "24 horas"
             },
             "paid_post_scheduling_timeframe": {
                 "name": "Paid post scheduling timeframe",
@@ -1013,23 +1013,23 @@
             },
             "price_paid_post_ton_cryptocurrency": {
                 "name": "Price for a paid post in TON cryptocurrency",
-                "text": "from 0.01 TON to 10,000 TON"
+                "text": "de 0.01 TON para 10.000 TON"
             }
         }
     },
     "boosts": {
-        "name": "Boosts",
+        "name": "Impulsos",
         "items": {
             "number_boosts": {
                 "name": "Number of boosts if you bought Premium for yourself",
                 "hint": "",
                 "text": "see also: https://tginfo.me/boosts-and-channel-stories-en",
-                "text_premium": "4 boosts"
+                "text_premium": "4 impulsos"
             },
             "number_boosts_2": {
                 "name": "Number of boosts if you received Premium as a gift",
                 "hint": "",
-                "text_premium": "1 boost"
+                "text_premium": "1 impulso"
             },
             "number_boosts_if_you_won_premium_giveaway": {
                 "name": "Number of boosts you get if you won Premium in a giveaway",
@@ -1042,7 +1042,7 @@
             "boost_transfer_cooldown": {
                 "name": "Boost transfer cooldown",
                 "hint": "if you want to change a channel you boost",
-                "text_premium": "24 hours"
+                "text_premium": "24 horas"
             },
             "revoking_boosts": {
                 "name": "Revoking boosts",
@@ -1050,84 +1050,84 @@
             },
             "maximum_boosts_number": {
                 "name": "Maximum boosts number on an account",
-                "hint": "(not fully confirmed)",
-                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
+                "hint": "(não totalmente confirmado)",
+                "text": "até 103 bônus (4 bônus de uma assinatura Premium + 33 assinaturas doadas)"
             },
             "number_channels_giveaway": {
                 "name": "Number of channels in a giveaway",
-                "text": "up to 10 channels"
+                "text": "até 10 canais"
             },
             "number_countries_giveaway": {
-                "name": "Number of countries in a giveaway",
-                "text": "up to 10"
+                "name": "Número de países em um presente",
+                "text": "até 10"
             },
             "giveaway_duration": {
-                "name": "Giveaway duration",
-                "text": "up to 31 days"
+                "name": "Duração do sorteio",
+                "text": "até 31 dias"
             },
             "channel_levels": {
-                "name": "Channel levels",
-                "text": "from 1 up to 100"
+                "name": "Níveis de canal",
+                "text": "de 1 até 100"
             },
             "minimum_level_set_channel_color": {
-                "name": "Level to set channel color",
-                "text": "at least level 5"
+                "name": "Nível para definir cor do canal",
+                "text": "pelo menos nível 5"
             },
             "level_set_channel_background_icon": {
-                "name": "Channel level to customize message accent color and emoji",
-                "text": "at least level 4"
+                "name": "Nível do canal para personalizar a cor dos detalhes da mensagem e emoji",
+                "text": "pelo menos nível 4"
             },
             "level_customize_profile_background_color_emoji": {
-                "name": "Channel level to customize profile background color and emoji",
-                "text": "at least level 7"
+                "name": "Nível do canal para personalizar a cor de fundo do perfil e emojis",
+                "text": "pelo menos nível 7"
             },
             "level_set_emoji_status": {
-                "name": "Channel level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "name": "Nível do canal para definir o status de emoji",
+                "hint": "(somente de emojis oficiais)",
+                "text": "pelo menos nível 8"
             },
             "level_set_chat_wallpaper": {
-                "name": "Channel level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "Nível do canal para definir um dos temas de chat predefinidos",
+                "text": "pelo menos nível 9"
             },
             "level_set_custom_chat_wallpaper": {
-                "name": "Channel level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "Nível do canal para definir um papel de parede de chat personalizado",
+                "text": "pelo menos nível 10"
             },
             "level_activate_speech_transcriptions": {
-                "name": "Level to activate speech transcriptions",
-                "hint": "for users without Premium",
-                "text": "at least level 6"
+                "name": "Nível para ativar as transcrições da fala",
+                "hint": "para usuários sem o Premium",
+                "text": "pelo menos nível 6"
             },
             "level_set_grouppromoted_emoji": {
-                "name": "Level to set group-promoted emoji",
-                "text": "at least level 4"
+                "name": "Nível para definir os emojis promovidos em grupo",
+                "text": "pelo menos nível 4"
             },
             "group_level_customize_profile_background_color_emoji": {
-                "name": "Group level to customize profile background color and emoji",
-                "text": "at least level 5"
+                "name": "Nível do grupo para personalizar a cor de fundo do perfil e emojis",
+                "text": "pelo menos nível 5"
             },
             "group_level_set_emoji_status": {
-                "name": "Group level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "name": "Nível do grupo para definir o status dos emojis",
+                "hint": "(somente de emojis oficiais)",
+                "text": "pelo menos nível 8"
             },
             "chat_level_set_one_predefined_chat_themes": {
-                "name": "Chat level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "Nível de chat para definir um dos temas predefinidos",
+                "text": "pelo menos nível 9"
             },
             "chat_level_set_custom_chat_wallpaper": {
-                "name": "Chat level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "Nível do chat para definir um papel de parede de chat personalizado",
+                "text": "pelo menos nível 10"
             },
             "channel_level_disable_ads": {
-                "name": "Channel level to disable ads",
-                "text": "at least level 50"
+                "name": "Nível do canal para desativar os anúncios",
+                "text": "pelo menos nível 50"
             },
             "channel_level_activate_channelwide_automatic_translation": {
-                "name": "Channel level to activate channel-wide automatic translation",
-                "hint": "for users without Premium",
-                "text": "at least level 3"
+                "name": "Nível do canal para ativar a tradução automática para canal",
+                "hint": "para usuários sem o Premium",
+                "text": "pelo menos nível 3"
             }
         }
     }

@@ -426,7 +426,7 @@
                 "text": "1 daqiqagacha"
             },
             "video_message_file_size": {
-                "name": "Video message file size",
+                "name": "Video xabar fayl o'lchami",
                 "text": "12 MB gacha"
             },
             "video_message_diameter": {
@@ -771,7 +771,7 @@
             },
             "number_reaction_stickers": {
                 "name": "Number of reaction stickers",
-                "text": "only 1 reaction",
+                "text": "faqat 1 ta reaksiya",
                 "text_premium": "up to 5 reactions"
             }
         }
@@ -792,11 +792,11 @@
             "hashtag_search_depth": {
                 "name": "Hashtag search results number",
                 "hint": "",
-                "text": "roughly last 5,000 messages"
+                "text": "taxminan oxirgi 5'000 ta xabar"
             },
             "minimal_subscribers_public_search_eligibility": {
                 "name": "Minimal channel subscribers for public search eligibility",
-                "text": "at least 100 subscribers"
+                "text": "kamida 100 ta obunachi"
             },
             "number_recommended_channels": {
                 "name": "Number of recommended channels",
@@ -930,7 +930,7 @@
         }
     },
     "gifts": {
-        "name": "Gifts & Stars",
+        "name": "Sovg'alar & Yulduzlar",
         "items": {
             "minimum_gift_upgrade_price": {
                 "name": "Sovg‘ani yuqori darajaga ko‘tarishning minimal narxi",
@@ -958,7 +958,7 @@
             },
             "number_gifts_collection": {
                 "name": "Number of gifts in a collection",
-                "text": "up to 500 gifts"
+                "text": "500 tagacha sovg'a"
             },
             "maximum_period_convert_received_gift_stars": {
                 "name": "Qabul qilingan sovg'ani yulduzlarga aylantirish uchun maksimal muddat",
@@ -970,7 +970,7 @@
             },
             "price_paid_media_post": {
                 "name": "Price for paid media in a post",
-                "text": "from 1 to 25,000 stars"
+                "text": "1 dan 25,000 tagacha yulduz"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Paid reaction transaction amount",
@@ -996,7 +996,7 @@
             },
             "resale_price_collectible_gifts_ton": {
                 "name": "Resale price for collectible gifts",
-                "hint": "in TON",
+                "hint": "TON da",
                 "text": "from 7 TON to 100,000 TON"
             },
             "price_suggested_channel_message": {

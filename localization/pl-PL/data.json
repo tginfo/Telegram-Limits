@@ -220,20 +220,20 @@
             },
             "boosts_needed_reach_level": {
                 "name": "Ulepszenia potrzebne do osiągnięcia poziomu",
-                "text": "see https://boosts.tginfo.me calculator"
+                "text": "zobacz kalkulator https://boosts.tginfo.me"
             },
             "hide_participants_setting_availability": {
-                "name": "Hide participants setting availability",
-                "text": "the chat must have at least 100 members"
+                "name": "Ukrywanie ustawienia dostępności uczestników",
+                "text": "czat musi mieć co najmniej 100 członków"
             },
             "number_manually_selected_reactions": {
-                "name": "Number of manually selected reactions",
-                "hint": "when \"Some reactions\" option is used",
-                "text": "up to 100"
+                "name": "Liczba ręcznie wybranych reakcji,",
+                "hint": "gdy używana jest opcja \"Niektóre reakcje\"",
+                "text": "do 100"
             },
             "number_members_aggressive_antispam_availability": {
-                "name": "Number of members for Aggressive Anti-Spam availability",
-                "text": "at least 200 members"
+                "name": "Liczba członków dla dostępności Agresywnego antyspamu",
+                "text": "co najmniej 200 członków"
             }
         }
     },
@@ -268,7 +268,7 @@
             "video_chat_broadcast": {
                 "name": "Transmisja wideo",
                 "hint": "(kamera, udostępnianie ekranu)",
-                "text": "up to 1,000 broadcasting users simultaneously"
+                "text": "do 1000 użytkowników nadawczych jednocześnie"
             },
             "video_chat_viewers": {
                 "name": "Widzowie transmisji wideo",
@@ -296,24 +296,24 @@
                 "text": "10 sekund"
             },
             "number_participants_endtoend_encrypted_calls": {
-                "name": "Number of participants in End-to-End encrypted private link calls",
-                "text": "up to 200 participants"
+                "name": "Liczba uczestników w połączeniach prywatnych zaszyfrowanych end-to-end",
+                "text": "do 200 uczestników"
             },
             "paid_message_price": {
-                "name": "Paid stream comment message price",
-                "text": "up to 10,000 stars"
+                "name": "Cena płatnego komentarza do transmisji",
+                "text": "do 10 000 Gwiazdek"
             },
             "paid_message_pin_duration": {
-                "name": "Stream comment pin duration",
-                "text": "free: no pinning. 10 stars: 1 minute. 50 stars: 2 minutes. 100 stars: 5 minutes. 250 stars: 10 minutes. 500 stars: 15 minutes. 2,000 stars: 30 minutes. 10,000 stars: 1 hour"
+                "name": "Czas trwania przypięcia komentarza do transmisji",
+                "text": "darmowe: bez przypinania. 10 Gwiazdek: 1 minuta. 50 Gwiazdek: 2 minuty. 100 Gwiazdek: 5 minut. 250 Gwiazdek: 10 minut. 500 Gwiazdek: 15 minut. 2 000 Gwiazdek: 30 minut. 10 000 Gwiazdek: 1 godzina"
             },
             "paid_message_length": {
-                "name": "Stream comment length",
-                "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
+                "name": "Długość komentarza do transmisji",
+                "text": "darmowe: 30 znaków. 10 Gwiazdek: 60 znaków. 50 Gwiazdek: 80 znaków. 100 Gwiazdek: 110 znaków. 250 Gwiazdek: 150 znaków. 500 Gwiazdek: 200 znaków. 2 000 Gwiazdek: 280 znaków. 10 000 Gwiazdek: 400 znaków"
             },
             "paid_message_emoji_number": {
-                "name": "Stream comment emoji number",
-                "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
+                "name": "Ilość emoji w komentarzu do transmisji",
+                "text": "darmowy: bez emoji. 10 Gwiazdek: 1 emoji. 50 Gwiazdek: 2 emoji. 100 Gwiazdek: 3 emoji. 250 Gwiazdek: 4 emoji. 500 Gwiazdek: 7 emoji. 2 000 Gwiazdek: 10 emoji. 10 000 Gwiazdek: 20 emoji"
             }
         }
     },
@@ -359,7 +359,7 @@
             "channel_deletion": {
                 "name": "Usuwanie kanału",
                 "hint": "",
-                "text": "channels with more than 1K subscribers can be deleted only from a session that is a few days old and only if the current account had cloud password activated for a few days"
+                "text": "kanały z ponad 1 tys. subskrybentów można usunąć tylko z sesji, która ma kilka dni i tylko wtedy, gdy bieżące konto ma aktywne hasło do chmury od kilku dni"
             },
             "private_channel_access": {
                 "name": "Przeglądanie prywatnych kanałów bez dołączania",
@@ -377,8 +377,8 @@
                 "text": "co najmniej 50"
             },
             "number_subscribers_see_story_statistics": {
-                "name": "Number of subscribers to see story statistics",
-                "text": "at least 1"
+                "name": "Liczba subskrybentów, aby zobaczyć statystyki relacji",
+                "text": "co najmniej 1"
             },
             "username_reservation": {
                 "name": "Rezerwacja @nazwy użytkownika po zmianie",
@@ -386,12 +386,12 @@
                 "text": "około 15-30 minut"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "Ulepszenia potrzebne do osiągnięcia poziomu",
+                "text": "zobacz kalkulator https://boosts.tginfo.me"
             },
             "similar_channels_eligibility": {
-                "name": "Similar Channels eligibility",
-                "text": "at least 300 subscribers; depends on channel content"
+                "name": "Kwalifikowalność podobnych kanałów",
+                "text": "co najmniej 300 subskrybentów; zależy od zawartości kanału"
             }
         }
     },
@@ -426,11 +426,11 @@
                 "text": "do 1 minuty"
             },
             "video_message_file_size": {
-                "name": "Video message file size",
-                "text": "Up to 12 MB"
+                "name": "Rozmiar pliku wiadomości wideo",
+                "text": "Do 12 MB"
             },
             "video_message_diameter": {
-                "name": "Video message diameter",
+                "name": "Średnica wiadomości wideo",
                 "text": "384px"
             },
             "album_size": {
@@ -450,7 +450,7 @@
             },
             "custom_emoji_per_message": {
                 "name": "Własne emoji na wiadomość",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji; on low-end devices even less custom emojis may be displayed",
+                "hint": "bez Telegram Premium niestandardowe emoji można wysyłać tylko do Zapisanych wiadomości; ponad 100 niestandardowych emoji jest zastępowanych odpowiednimi standardowymi emoji; na urządzeniach o niższej wydajności może być wyświetlanych jeszcze mniej niestandardowych emoji",
                 "text": "niedostępne",
                 "text_premium": "do 100 emoji"
             },
@@ -460,35 +460,35 @@
                 "text": "do 100 linków"
             },
             "number_unique_reaction_types": {
-                "name": "Number of unique reaction types",
-                "hint": "on a single message",
-                "text": "up to 11 reaction icons"
+                "name": "Liczba unikalnych typów reakcji",
+                "hint": "na jedną wiadomość",
+                "text": "do 11 ikon reakcji"
             },
             "speech_text_transcriptions": {
-                "name": "Number of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 2 free transcriptions weekly",
-                "text_premium": "unlimited"
+                "name": "Liczba transkrypcji mowy na tekst",
+                "hint": "dla wiadomości głosowych i wideo",
+                "text": "do 2 darmowych transkrypcji tygodniowo",
+                "text_premium": "nielimitowane"
             },
             "duration_speech_text_transcriptions": {
-                "name": "Duration of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 5 minutes",
-                "text_premium": "no duration limit set"
+                "name": "Czas trwania transkrypcji mowy na tekst",
+                "hint": "dla wiadomości głosowych i wideo",
+                "text": "do 5 minut",
+                "text_premium": "brak limitu czasu trwania"
             },
             "length_quoted_text": {
-                "name": "Length of a quoted text",
-                "text": "up to 1024 characters"
+                "name": "Długość cytowanego tekstu",
+                "text": "do 1024 znaków"
             },
             "quick_replies_number": {
-                "name": "Quick Replies number",
-                "hint": "(predefined templates)",
-                "text_premium": "up to 100 templates"
+                "name": "Liczba szybkich odpowiedzi",
+                "hint": "(predefiniowane szablony)",
+                "text_premium": "do 100 szablonów"
             },
             "quick_replies_messages_number": {
-                "name": "Quick Replies messages number",
-                "hint": "(number of messages that can be sent by a single Quick Reply)",
-                "text_premium": "up to 10 messages"
+                "name": "Liczba wiadomości dla szybkiej odpowiedzi",
+                "hint": "(liczba wiadomości, które można wysłać za pomocą jednej szybkiej odpowiedzi)",
+                "text_premium": "do 10 wiadomości"
             }
         }
     },
@@ -539,7 +539,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "Przypięte czaty w folderze",
-                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
+                "hint": "(ten limit zmniejsza się o liczbę czatów dodanych indywidualnie do ustawień folderu)",
                 "text": "do 100 czatów",
                 "text_premium": "do 200 czatów"
             }

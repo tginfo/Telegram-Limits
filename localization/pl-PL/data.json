@@ -561,10 +561,10 @@
                 "text_premium": "do 200 sztuk"
             },
             "folder_links_number": {
-                "name": "Folder links number",
-                "hint": "per public folder",
-                "text": "up to 3 links",
-                "text_premium": "up to 10 links"
+                "name": "Liczba linków folderu",
+                "hint": "na każdy folder publiczny",
+                "text": "do 3 linków",
+                "text_premium": "do 10 linków"
             }
         }
     },
@@ -594,7 +594,7 @@
             },
             "upload_limit_botapi": {
                 "name": "Pliki wysłane przez bota",
-                "hint": "bez lokalnego serwera API bota",
+                "hint": "bez lokalnego serwera Bot API",
                 "text": "do 50 MB"
             },
             "upload_limit_botapi_local": {
@@ -624,7 +624,7 @@
             },
             "formatting_entities": {
                 "name": "Formatowanie obiektów",
-                "hint": "(bold, italic etc.)",
+                "hint": "(pogrubienie, pochylenie itp.)",
                 "text": "do 100 elementów"
             },
             "messaging_frequency": {

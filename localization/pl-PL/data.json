@@ -32,7 +32,7 @@
                 "name": "Blokada za SPAM",
                 "hint": "",
                 "text": "od 1 dnia do na zawsze",
-                "text_premium": "from 1 second up to permanent"
+                "text_premium": "od 1 sekundy do stałej"
             },
             "channels_and_chats_number": {
                 "name": "Liczba kanałów i supergrup",
@@ -47,9 +47,9 @@
                 "text_premium": "do 400"
             },
             "video_length": {
-                "name": "Video avatar duration",
+                "name": "Czas trwania awatara wideo",
                 "hint": "",
-                "text": "from 1 to 10 seconds"
+                "text": "od 1 do 10 sekund"
             },
             "groups_and_channels_creation": {
                 "name": "Tworzenie grup i kanałów",
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "Liczba widocznych wiadomości",
-                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
+                "hint": "(limit współdzielony między prywatnymi czatami, botami i starszymi „podstawowymi” grupami)",
                 "text": "nieograniczona; przed 2018 r. – do 1 000 000 widocznych wiadomości: zobacz https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -92,30 +92,30 @@
                 "text": "do 5 kluczy dostępu"
             },
             "session_duration": {
-                "name": "Session duration",
-                "text": "1 week, 1 month, 3 months, 6 months, or 12 months"
+                "name": "Czas trwania sesji",
+                "text": "1 tydzień, 1 miesiąc, 3 miesiące, 6 miesięcy lub 12 miesięcy"
             },
             "notification_sounds_duration": {
-                "name": "Notification sounds duration",
-                "hint": "(custom files)",
-                "text": "from 1 to 5 seconds"
+                "name": "Czas trwania dźwięków powiadomień",
+                "hint": "(własne pliki)",
+                "text": "od 1 do 5 sekund"
             },
             "number_saved_ringtones": {
-                "name": "Number of saved ringtones",
-                "text": "up to 100"
+                "name": "Ilość zapisanych dzwonków",
+                "text": "do 100"
             },
             "welcome_card_title_length": {
-                "name": "Welcome card title length",
-                "text_premium": "up to 32 characters"
+                "name": "Długość tytułu karty powitalnej",
+                "text_premium": "do 32 znaków"
             },
             "welcome_card_text_length": {
-                "name": "Welcome card text length",
-                "text_premium": "up to 70 characters"
+                "name": "Długość tekstu karty powitalnej",
+                "text_premium": "do 70 znaków"
             },
             "number_business_chat_links": {
-                "name": "Number of business chat links",
-                "hint": "with predefined message text",
-                "text_premium": "up to 100 links"
+                "name": "Liczba linków czatu biznesowego",
+                "hint": "z predefiniowanym tekstem wiadomości",
+                "text_premium": "do 100 linków"
             }
         }
     },
@@ -194,7 +194,7 @@
                 "text": "grupy z ponad 100 uczestnikami"
             },
             "chat_role_length": {
-                "name": "Admin/user tag length",
+                "name": "Długość etykiety administratora / użytkownika",
                 "hint": "",
                 "text": "do 16 znaków"
             },
@@ -214,12 +214,12 @@
                 "text": "dla czatów z maksymalnie 100 członkami; lista użytkowników jest dostępna tylko dla użytkownika, który wysłał wiadomość"
             },
             "visible_list_members": {
-                "name": "Visible list of members",
-                "hint": "in big chats",
-                "text": "up to 10,000 users"
+                "name": "Widoczna lista członków",
+                "hint": "w dużych czatach",
+                "text": "do 10 000 użytkowników"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
+                "name": "Ulepszenia potrzebne do osiągnięcia poziomu",
                 "text": "see https://boosts.tginfo.me calculator"
             },
             "hide_participants_setting_availability": {
@@ -886,7 +886,7 @@
         "name": "Różne",
         "items": {
             "properties": {
-                "name": "Właściwości awatara wideo ",
+                "name": "Właściwości awatara wideo",
                 "hint": "",
                 "text": "800x800px, do 2 MB"
             },

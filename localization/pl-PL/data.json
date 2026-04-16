@@ -305,11 +305,11 @@
             },
             "paid_message_pin_duration": {
                 "name": "Czas trwania przypięcia komentarza do transmisji",
-                "text": "darmowe: bez przypinania. 10 Gwiazdek: 1 minuta. 50 Gwiazdek: 2 minuty. 100 Gwiazdek: 5 minut. 250 Gwiazdek: 10 minut. 500 Gwiazdek: 15 minut. 2 000 Gwiazdek: 30 minut. 10 000 Gwiazdek: 1 godzina"
+                "text": "darmowy: bez przypinania. 10 Gwiazdek: 1 minuta. 50 Gwiazdek: 2 minuty. 100 Gwiazdek: 5 minut. 250 Gwiazdek: 10 minut. 500 Gwiazdek: 15 minut. 2 000 Gwiazdek: 30 minut. 10 000 Gwiazdek: 1 godzina"
             },
             "paid_message_length": {
                 "name": "Długość komentarza do transmisji",
-                "text": "darmowe: 30 znaków. 10 Gwiazdek: 60 znaków. 50 Gwiazdek: 80 znaków. 100 Gwiazdek: 110 znaków. 250 Gwiazdek: 150 znaków. 500 Gwiazdek: 200 znaków. 2 000 Gwiazdek: 280 znaków. 10 000 Gwiazdek: 400 znaków"
+                "text": "darmowy: 30 znaków. 10 Gwiazdek: 60 znaków. 50 Gwiazdek: 80 znaków. 100 Gwiazdek: 110 znaków. 250 Gwiazdek: 150 znaków. 500 Gwiazdek: 200 znaków. 2 000 Gwiazdek: 280 znaków. 10 000 Gwiazdek: 400 znaków"
             },
             "paid_message_emoji_number": {
                 "name": "Ilość emoji w komentarzu do transmisji",
@@ -973,52 +973,52 @@
                 "text": "od 1 do 25 000 Gwiazdek"
             },
             "paid_reaction_transaction_amount": {
-                "name": "Paid reaction transaction amount",
-                "text": "from 1 to 10,000 stars"
+                "name": "Kwota transakcji płatnej reakcji",
+                "text": "od 1 do 10 000 Gwiazdek"
             },
             "length_message_attached_gift": {
-                "name": "Length of a message attached to a gift",
-                "text": "up to 128 characters"
+                "name": "Długość wiadomości dołączonej do prezentu",
+                "text": "do 128 znaków"
             },
             "allowed_payouts_affiliate_programs": {
-                "name": "Allowed revenue share percentages in affiliate programs",
-                "hint": "per referred user",
-                "text": "from 0.1% to 80%"
+                "name": "Dozwolony procent udziału w przychodach w programach partnerskich",
+                "hint": "na poleconego użytkownika",
+                "text": "od 0,1% do 80%"
             },
             "price_paid_message": {
-                "name": "Price for a private paid message",
-                "text": "from 1 to 10,000 stars"
+                "name": "Cena prywatnej płatnej wiadomości",
+                "text": "od 1 do 10 000 Gwiazdek"
             },
             "resale_price_collectible_gifts": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in stars",
-                "text": "from 125 to 100,000 stars"
+                "name": "Cena odsprzedaży prezentów kolekcjonerskich",
+                "hint": "w Gwiazdkach",
+                "text": "od 125 do 100 000 Gwiazdek"
             },
             "resale_price_collectible_gifts_ton": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in TON",
-                "text": "from 7 TON to 100,000 TON"
+                "name": "Cena odsprzedaży prezentów kolekcjonerskich",
+                "hint": "w TON",
+                "text": "od 7 do 100 000 TON"
             },
             "price_suggested_channel_message": {
-                "name": "Price for a suggested channel message",
-                "text": "Free, or from 5 to 100,000 stars"
+                "name": "Cena proponowanej wiadomości na kanale",
+                "text": "Bezpłatna lub od 5 do 100 000 Gwiazdek"
             },
             "guaranteed_duration_paid_message": {
-                "name": "Guaranteed duration of a paid post",
-                "text": "24 hours"
+                "name": "Gwarantowany czas trwania płatnego wpisu",
+                "text": "24 godziny"
             },
             "paid_post_scheduling_timeframe": {
-                "name": "Paid post scheduling timeframe",
-                "text": "from 5 minutes to 31 days in advance"
+                "name": "Ramy czasowe planowania płatnego wpisu",
+                "text": "od 5 minut do 31 dni wcześniej"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Price for a paid post in TON cryptocurrency",
-                "text": "from 0.01 TON to 10,000 TON"
+                "name": "Cena płatnego wpisu w kryptowalucie TON",
+                "text": "od 0,01 do 10 000 TON"
             }
         }
     },
     "boosts": {
-        "name": "Boosts",
+        "name": "Ulepszenia",
         "items": {
             "number_boosts": {
                 "name": "Number of boosts if you bought Premium for yourself",

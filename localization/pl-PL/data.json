@@ -1040,94 +1040,94 @@
                 "text": "otrzymasz 3 dodatkowe ulepszenia do tego, co już masz"
             },
             "boost_transfer_cooldown": {
-                "name": "Boost transfer cooldown",
-                "hint": "if you want to change a channel you boost",
-                "text_premium": "24 hours"
+                "name": "Czas odnowienia transferu ulepszenia,",
+                "hint": "jeśli chcesz zmienić kanał, który ulepszasz",
+                "text_premium": "24 godziny"
             },
             "revoking_boosts": {
-                "name": "Revoking boosts",
-                "text": "is not possible, boosts can only be transferred"
+                "name": "Anulowanie ulepszenia",
+                "text": "nie jest możliwe, ulepszenia można jedynie przenieść"
             },
             "maximum_boosts_number": {
-                "name": "Maximum boosts number on an account",
-                "hint": "(not fully confirmed)",
-                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
+                "name": "Maksymalna liczba ulepszeń na koncie",
+                "hint": "(nie jest w pełni potwierdzona)",
+                "text": "do 103 ulepszeń (4 ulepszenia z własnej subskrypcji Premium + 33 podarowane subskrypcje)"
             },
             "number_channels_giveaway": {
-                "name": "Number of channels in a giveaway",
-                "text": "up to 10 channels"
+                "name": "Liczba kanałów w loterii",
+                "text": "do 10 kanałów"
             },
             "number_countries_giveaway": {
-                "name": "Number of countries in a giveaway",
-                "text": "up to 10"
+                "name": "Liczba krajów w loterii",
+                "text": "do 10"
             },
             "giveaway_duration": {
-                "name": "Giveaway duration",
-                "text": "up to 31 days"
+                "name": "Czas trwania loterii",
+                "text": "do 31 dni"
             },
             "channel_levels": {
-                "name": "Channel levels",
-                "text": "from 1 up to 100"
+                "name": "Poziomy kanału",
+                "text": "od 1 do 100"
             },
             "minimum_level_set_channel_color": {
-                "name": "Level to set channel color",
-                "text": "at least level 5"
+                "name": "Poziom, aby ustawić kolor kanału",
+                "text": "co najmniej poziom 5"
             },
             "level_set_channel_background_icon": {
-                "name": "Channel level to customize message accent color and emoji",
-                "text": "at least level 4"
+                "name": "Poziom kanału, aby dostosować kolor akcentu wiadomości i emoji",
+                "text": "co najmniej poziom 4"
             },
             "level_customize_profile_background_color_emoji": {
-                "name": "Channel level to customize profile background color and emoji",
-                "text": "at least level 7"
+                "name": "Poziom kanału, aby dostosować kolor tła profilu i emoji",
+                "text": "co najmniej poziom 7"
             },
             "level_set_emoji_status": {
-                "name": "Channel level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "name": "Poziom kanału, aby ustawić status emoji",
+                "hint": "(tylko z oficjalnych zestawów emoji)",
+                "text": "co najmniej poziom 8"
             },
             "level_set_chat_wallpaper": {
-                "name": "Channel level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "Poziom kanału, aby ustawić jeden z predefiniowanych motywów czatu",
+                "text": "co najmniej poziom 9"
             },
             "level_set_custom_chat_wallpaper": {
-                "name": "Channel level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "Poziom kanału, aby ustawić własną tapetę czatu",
+                "text": "co najmniej poziom 10"
             },
             "level_activate_speech_transcriptions": {
-                "name": "Level to activate speech transcriptions",
-                "hint": "for users without Premium",
-                "text": "at least level 6"
+                "name": "Poziom, aby aktywować transkrypcje mowy",
+                "hint": "dla użytkowników bez Premium",
+                "text": "co najmniej poziom 6"
             },
             "level_set_grouppromoted_emoji": {
-                "name": "Level to set group-promoted emoji",
-                "text": "at least level 4"
+                "name": "Poziom, aby ustawić emoji promowane przez grupę",
+                "text": "co najmniej poziom 4"
             },
             "group_level_customize_profile_background_color_emoji": {
-                "name": "Group level to customize profile background color and emoji",
-                "text": "at least level 5"
+                "name": "Poziom grupy, aby dostosować kolor tła profilu i emoji",
+                "text": "co najmniej poziom 5"
             },
             "group_level_set_emoji_status": {
-                "name": "Group level to set emoji status",
-                "hint": "(only from official emoji sets)",
-                "text": "at least level 8"
+                "name": "Poziom grupy, aby ustawić status emoji",
+                "hint": "(tylko z oficjalnych zestawów emoji)",
+                "text": "co najmniej poziom 8"
             },
             "chat_level_set_one_predefined_chat_themes": {
-                "name": "Chat level to set one of the predefined chat themes",
-                "text": "at least level 9"
+                "name": "Poziom czatu, aby ustawić jeden z predefiniowanych motywów czatu",
+                "text": "co najmniej poziom 9"
             },
             "chat_level_set_custom_chat_wallpaper": {
-                "name": "Chat level to set a custom chat wallpaper",
-                "text": "at least level 10"
+                "name": "Poziom czatu, aby ustawić własną tapetę czatu",
+                "text": "co najmniej poziom 10"
             },
             "channel_level_disable_ads": {
-                "name": "Channel level to disable ads",
-                "text": "at least level 50"
+                "name": "Poziom kanału, aby wyłączyć reklamy",
+                "text": "co najmniej poziom 50"
             },
             "channel_level_activate_channelwide_automatic_translation": {
-                "name": "Channel level to activate channel-wide automatic translation",
-                "hint": "for users without Premium",
-                "text": "at least level 3"
+                "name": "Poziom kanału, aby aktywować automatyczne tłumaczenie dla całego kanału",
+                "hint": "dla użytkowników bez Premium",
+                "text": "co najmniej poziom 3"
             }
         }
     }

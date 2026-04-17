@@ -1021,23 +1021,23 @@
         "name": "Ulepszenia",
         "items": {
             "number_boosts": {
-                "name": "Number of boosts if you bought Premium for yourself",
+                "name": "Liczba ulepszeń, jeśli masz kupione Premium",
                 "hint": "",
-                "text": "see also: https://tginfo.me/boosts-and-channel-stories-en",
-                "text_premium": "4 boosts"
+                "text": "zobacz także: https://tginfo.me/boosts-and-channel-stories-en",
+                "text_premium": "4 ulepszenia"
             },
             "number_boosts_2": {
-                "name": "Number of boosts if you received Premium as a gift",
+                "name": "Liczba ulepszeń, jeśli otrzymałeś Premium w prezencie",
                 "hint": "",
-                "text_premium": "1 boost"
+                "text_premium": "1 ulepszenie"
             },
             "number_boosts_if_you_won_premium_giveaway": {
-                "name": "Number of boosts you get if you won Premium in a giveaway",
-                "text_premium": "giveaway Premium subscriptions give 0 boosts"
+                "name": "Liczba ulepszeń, które otrzymasz, jeśli wygrasz Premium w loterii",
+                "text_premium": "loterie subskrypcji Premium dają 0 ulepszeń"
             },
             "boosts_you_get_gifting_somebody_premium": {
-                "name": "Boosts you get for gifting somebody Premium",
-                "text": "you gain 3 additional boosts to what you already got"
+                "name": "Ulepszenia, które otrzymasz za obdarowanie kogoś Premium",
+                "text": "otrzymasz 3 dodatkowe ulepszenia do tego, co już masz"
             },
             "boost_transfer_cooldown": {
                 "name": "Boost transfer cooldown",

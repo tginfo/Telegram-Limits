@@ -308,7 +308,7 @@
                 "text": "bepul: qadash shart emas. 10 yulduz: 1 daqiqa. 50 yulduz: 2 daqiqa. 100 yulduz: 5 daqiqa. 250 yulduz: 10 daqiqa. 500 yulduz: 15 daqiqa. 2000 yulduz: 30 daqiqa. 10000 yulduz: 1 soat"
             },
             "paid_message_length": {
-                "name": "Stream comment length",
+                "name": "Strim izohining uzunligi",
                 "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
             },
             "paid_message_emoji_number": {

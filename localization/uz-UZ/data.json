@@ -461,7 +461,7 @@
             },
             "number_unique_reaction_types": {
                 "name": "Number of unique reaction types",
-                "hint": "on a single message",
+                "hint": "bir xabarda",
                 "text": "up to 11 reaction icons"
             },
             "speech_text_transcriptions": {
@@ -801,8 +801,8 @@
             "number_recommended_channels": {
                 "name": "Number of recommended channels",
                 "hint": "(\"Similar channels\" in global search and specific channels)",
-                "text": "up to 10",
-                "text_premium": "up to 100"
+                "text": "10 tagacha",
+                "text_premium": "100 tagacha"
             }
         }
     },
@@ -876,7 +876,7 @@
                 "text": "64 Kb gacha"
             },
             "media_attachments": {
-                "name": "Media attachments",
+                "name": "Media biriktiruv",
                 "hint": "in articles",
                 "text": "Only external links; uploads were disabled"
             }
@@ -903,12 +903,12 @@
             "parallel_download_small_files": {
                 "name": "Parallel download for small files",
                 "hint": "(less than 20 MB)",
-                "text": "approximately up to 5 files"
+                "text": "taxminan 5 tagacha fayl"
             },
             "parallel_download_big_files": {
                 "name": "Parallel download for big files",
-                "hint": "(more than 20 MB)",
-                "text": "approximately up to 2 files"
+                "hint": "(20 MB dan ortiq)",
+                "text": "taxminan 2 tagacha fayl"
             }
         }
     },
@@ -957,7 +957,7 @@
                 "text": "10 tagacha"
             },
             "number_gifts_collection": {
-                "name": "Number of gifts in a collection",
+                "name": "To'plamdagi sovg'alar soni",
                 "text": "500 tagacha sovg'a"
             },
             "maximum_period_convert_received_gift_stars": {
@@ -966,7 +966,7 @@
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
                 "name": "Number of stars that can be withdrawn in chats and channels",
-                "text": "from 1,000 stars to  25,000,000 stars"
+                "text": "1,000 yulduzdan 25,000,000 yulduzgacha"
             },
             "price_paid_media_post": {
                 "name": "Price for paid media in a post",
@@ -974,19 +974,19 @@
             },
             "paid_reaction_transaction_amount": {
                 "name": "Paid reaction transaction amount",
-                "text": "from 1 to 10,000 stars"
+                "text": "1 dan 10,000 tagacha yulduz"
             },
             "length_message_attached_gift": {
-                "name": "Length of a message attached to a gift",
-                "text": "up to 128 characters"
+                "name": "Sovg'aga biriktirilgan xabar uzunligi",
+                "text": "128 tagacha belgi"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Allowed revenue share percentages in affiliate programs",
                 "hint": "per referred user",
-                "text": "from 0.1% to 80%"
+                "text": "0.1% dan 80% gacha"
             },
             "price_paid_message": {
-                "name": "Price for a private paid message",
+                "name": "Shaxsiyda pullik xabar uchun narx",
                 "text": "from 1 to 10,000 stars"
             },
             "resale_price_collectible_gifts": {

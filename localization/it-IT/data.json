@@ -514,6 +514,11 @@
                 "name": "Lunghezza opzioni sondaggio",
                 "hint": "",
                 "text": "da 1 a 100 caratteri"
+            },
+            "maximum_countries_number": {
+                "name": "Maximum countries number",
+                "hint": "If poll is geo limited",
+                "text": "12"
             }
         }
     },
@@ -1014,6 +1019,11 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "Prezzo per un post a pagamento in criptovaluta TON",
                 "text": "da 0.01 TON a 10.000 TON"
+            },
+            "cooldown_before_ton_withdrawal": {
+                "name": "Cooldown before TON withdrawal",
+                "hint": "via Fragment.com",
+                "text": "2 days"
             }
         }
     },
@@ -1128,6 +1138,20 @@
                 "name": "Livello canale per attivare la traduzione automatica via canale",
                 "hint": "per utenti senza Premium",
                 "text": "almeno livello 3"
+            }
+        }
+    },
+    "ai_editor": {
+        "name": "AI Editor",
+        "items": {
+            "maximum_style_numbers": {
+                "name": "Maximum style numbers",
+                "hint": "In AI Editor",
+                "text": "20"
+            },
+            "style_title_length": {
+                "name": "Style title length",
+                "text": "12 characters"
             }
         }
     }

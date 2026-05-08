@@ -516,8 +516,8 @@
                 "text": "da 1 a 100 caratteri"
             },
             "maximum_countries_number": {
-                "name": "Maximum countries number",
-                "hint": "If poll is geo limited",
+                "name": "Numero massimo di paesi",
+                "hint": "Se il sondaggio è limitato geograficamente",
                 "text": "12"
             }
         }
@@ -1021,9 +1021,9 @@
                 "text": "da 0.01 TON a 10.000 TON"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Cooldown before TON withdrawal",
-                "hint": "via Fragment.com",
-                "text": "2 days"
+                "name": "Attesa prima del prelievo dei TON",
+                "hint": "tramite Fragment.com",
+                "text": "2 giorni"
             }
         }
     },
@@ -1142,16 +1142,16 @@
         }
     },
     "ai_editor": {
-        "name": "AI Editor",
+        "name": "Editor IA",
         "items": {
             "maximum_style_numbers": {
-                "name": "Maximum style numbers",
-                "hint": "In AI Editor",
+                "name": "Numero massimo di stili",
+                "hint": "Nell'Editor IA",
                 "text": "20"
             },
             "style_title_length": {
-                "name": "Style title length",
-                "text": "12 characters"
+                "name": "Lunghezza titolo stile",
+                "text": "12 caratteri"
             }
         }
     }

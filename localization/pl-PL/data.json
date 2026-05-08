@@ -516,8 +516,8 @@
                 "text": "1 do 100 znaków"
             },
             "maximum_countries_number": {
-                "name": "Maximum countries number",
-                "hint": "If poll is geo limited",
+                "name": "Maksymalna liczba krajów,",
+                "hint": "jeśli ankieta jest ograniczona geograficznie",
                 "text": "12"
             }
         }
@@ -1021,9 +1021,9 @@
                 "text": "od 0,01 do 10 000 TON"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Cooldown before TON withdrawal",
-                "hint": "via Fragment.com",
-                "text": "2 days"
+                "name": "Zamrożenie przed wypłatą TON",
+                "hint": "przez Fragment.com",
+                "text": "2 dni"
             }
         }
     },
@@ -1142,16 +1142,16 @@
         }
     },
     "ai_editor": {
-        "name": "AI Editor",
+        "name": "Edytor AI",
         "items": {
             "maximum_style_numbers": {
-                "name": "Maximum style numbers",
-                "hint": "In AI Editor",
+                "name": "Maksymalna liczba stylów",
+                "hint": "w edytorze AI",
                 "text": "20"
             },
             "style_title_length": {
-                "name": "Style title length",
-                "text": "12 characters"
+                "name": "Długość tytułu stylu",
+                "text": "12 znaków"
             }
         }
     }

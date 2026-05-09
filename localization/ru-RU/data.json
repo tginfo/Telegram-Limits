@@ -516,7 +516,7 @@
                 "text": "от 1 до 100 символов"
             },
             "maximum_countries_number": {
-                "name": "Maximum countries number",
+                "name": "Максимальное количество стран",
                 "hint": "If poll is geo limited",
                 "text": "12"
             }
@@ -1021,9 +1021,9 @@
                 "text": "от 0.01 TON до 10 000 TON"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Cooldown before TON withdrawal",
-                "hint": "via Fragment.com",
-                "text": "2 days"
+                "name": "Период ожидания перед выводом TON",
+                "hint": "за продажу подарка, через Fragment.com",
+                "text": "2 суток"
             }
         }
     },
@@ -1142,16 +1142,16 @@
         }
     },
     "ai_editor": {
-        "name": "AI Editor",
+        "name": "ИИ-редактор",
         "items": {
             "maximum_style_numbers": {
-                "name": "Maximum style numbers",
-                "hint": "In AI Editor",
+                "name": "Максимальное количество стилей",
+                "hint": "В ИИ-редакторе",
                 "text": "20"
             },
             "style_title_length": {
-                "name": "Style title length",
-                "text": "12 characters"
+                "name": "Максимальная длина названия стиля",
+                "text": "12 символов"
             }
         }
     }

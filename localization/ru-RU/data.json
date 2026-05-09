@@ -517,7 +517,7 @@
             },
             "maximum_countries_number": {
                 "name": "Максимальное количество стран",
-                "hint": "If poll is geo limited",
+                "hint": "Если опрос ограничен по странам",
                 "text": "12"
             }
         }

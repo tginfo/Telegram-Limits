@@ -194,7 +194,7 @@
                 "text": "المجموعات التي تضم 100+ عضو"
             },
             "chat_role_length": {
-                "name": "Admin/user tag length",
+                "name": "طول وسم المشرف/المستخدم",
                 "hint": "",
                 "text": "ما يصل إلى 16 حرفًا"
             },
@@ -516,8 +516,8 @@
                 "text": "من 1 إلى 100 حرف"
             },
             "maximum_countries_number": {
-                "name": "Maximum countries number",
-                "hint": "If poll is geo limited",
+                "name": "الحد الأقصى لعدد البلدان",
+                "hint": "إذا كان الاستطلاع محدودا جغرافيا",
                 "text": "12"
             }
         }
@@ -1021,9 +1021,9 @@
                 "text": "من 0.01 TON إلى 10,000 TON"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Cooldown before TON withdrawal",
-                "hint": "via Fragment.com",
-                "text": "2 days"
+                "name": "مدّة التبريد قبل سحب TON",
+                "hint": "عبر Fragment.com",
+                "text": "2 يومًا"
             }
         }
     },
@@ -1142,16 +1142,16 @@
         }
     },
     "ai_editor": {
-        "name": "AI Editor",
+        "name": "محرر AI",
         "items": {
             "maximum_style_numbers": {
-                "name": "Maximum style numbers",
-                "hint": "In AI Editor",
+                "name": "أقصى أعداد للأنماط",
+                "hint": "في محرر AI",
                 "text": "20"
             },
             "style_title_length": {
-                "name": "Style title length",
-                "text": "12 characters"
+                "name": "طول عنوان النمط",
+                "text": "12 حرفًا"
             }
         }
     }

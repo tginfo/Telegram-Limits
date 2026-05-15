@@ -300,20 +300,20 @@
                 "text": "até 200 participantes"
             },
             "paid_message_price": {
-                "name": "Paid stream comment message price",
+                "name": "Preço máximo de mensagens pagas em transmissões",
                 "text": "até 10.000 estrelas"
             },
             "paid_message_pin_duration": {
-                "name": "Stream comment pin duration",
-                "text": "free: no pinning. 10 stars: 1 minute. 50 stars: 2 minutes. 100 stars: 5 minutes. 250 stars: 10 minutes. 500 stars: 15 minutes. 2,000 stars: 30 minutes. 10,000 stars: 1 hour"
+                "name": "Duração máxima de comentário fixado em transmissão",
+                "text": "grátis: impossível fixar. 10⭐: 1 minuto. 50⭐: 2 minutos. 100⭐: 5 minutos. 250⭐: 10 minutos. 500⭐: 15 minutos. 2.000⭐: 30 minutos. 10.000⭐: 1 hora"
             },
             "paid_message_length": {
-                "name": "Stream comment length",
-                "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
+                "name": "Comprimento de comentário em transmissão",
+                "text": "grátis: 30 caracteres. 10⭐: 60 caracteres. 50⭐: 80 caracteres. 100⭐: 110 caracteres. 250⭐: 150 caracteres. 500⭐: 200 caracteres. 2.000⭐: 280 caracteres. 10.000⭐: 400 caracteres"
             },
             "paid_message_emoji_number": {
-                "name": "Stream comment emoji number",
-                "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
+                "name": "Número de emoji em comentários de transmissão",
+                "text": "grátis: nenhum emoji. 10⭐: 1 emoji. 50⭐: 2 emoji. 100⭐: 3 emoji. 250⭐: 4 emoji. 500⭐: 7 emoji. 2.000⭐: 10 emoji. 10.000⭐: 20 emoji"
             }
         }
     },
@@ -359,7 +359,7 @@
             "channel_deletion": {
                 "name": "Exclusão de canal",
                 "hint": "",
-                "text": "channels with more than 1K subscribers can be deleted only from a session that is a few days old and only if the current account had cloud password activated for a few days"
+                "text": "canais com mais de mil assinantes só podem ser deletados por uma sessão velha de alguns dias e somente se a conta atual tiver a senha da nuvem ativada por alguns dias"
             },
             "private_channel_access": {
                 "name": "Visualizando canais privados sem entrar",
@@ -377,7 +377,7 @@
                 "text": "ao menos 50"
             },
             "number_subscribers_see_story_statistics": {
-                "name": "Number of subscribers to see story statistics",
+                "name": "Número de inscritos para ver as estatísticas do story",
                 "text": "pelo menos 1"
             },
             "username_reservation": {
@@ -386,12 +386,12 @@
                 "text": "cerca de 15-30 minutos"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "Impulsos necessários para atingir um nível",
+                "text": "calcule em https://boosts.tginfo.me"
             },
             "similar_channels_eligibility": {
-                "name": "Similar Channels eligibility",
-                "text": "at least 300 subscribers; depends on channel content"
+                "name": "Elegível para Canais Similares",
+                "text": "pelo menos 300 inscritos; a depender do conteúdo do canal"
             }
         }
     },
@@ -426,11 +426,11 @@
                 "text": "até 1 minuto"
             },
             "video_message_file_size": {
-                "name": "Video message file size",
+                "name": "Tamanho da mensagem de vídeo",
                 "text": "Até 12 MB"
             },
             "video_message_diameter": {
-                "name": "Video message diameter",
+                "name": "Diâmetro da mensagem de vídeo",
                 "text": "384px"
             },
             "album_size": {
@@ -450,7 +450,7 @@
             },
             "custom_emoji_per_message": {
                 "name": "Emojis personalizados por mensagem",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji; on low-end devices even less custom emojis may be displayed",
+                "hint": "sem Telegram Premium, emoji customizados podem ser enviados apenas para as Mensagens Salvas; acima de 100 emoji customizados, serão substituídos pelo emoji correspondente padrão; em dispositivos mais simples ainda menos emoji personalizados podem ser exibidos",
                 "text": "não disponível",
                 "text_premium": "até 100 emojis"
             },
@@ -460,12 +460,12 @@
                 "text": "até 100 links"
             },
             "number_unique_reaction_types": {
-                "name": "Number of unique reaction types",
-                "hint": "on a single message",
+                "name": "Número de tipos de reações únicas",
+                "hint": "em uma única mensagem",
                 "text": "até 11 ícones de reação"
             },
             "speech_text_transcriptions": {
-                "name": "Number of speech to text transcriptions",
+                "name": "Número de transcrições de voz para texto",
                 "hint": "para mensagens de voz e vídeo",
                 "text": "até 2 transcrições gratuitas semanalmente",
                 "text_premium": "ilimitada"
@@ -477,17 +477,17 @@
                 "text_premium": "nenhum limite de duração definido"
             },
             "length_quoted_text": {
-                "name": "Length of a quoted text",
+                "name": "Tamanho de uma citação",
                 "text": "até 1024 caracteres"
             },
             "quick_replies_number": {
-                "name": "Quick Replies number",
-                "hint": "(predefined templates)",
+                "name": "Número de Respostas Rápidas",
+                "hint": "(modelos predefinidos)",
                 "text_premium": "até 100 modelos"
             },
             "quick_replies_messages_number": {
-                "name": "Quick Replies messages number",
-                "hint": "(number of messages that can be sent by a single Quick Reply)",
+                "name": "Número de mensagens das Respostas Rápidas",
+                "hint": "(número de mensagens que podem ser enviadas com uma única Resposta Rápida)",
                 "text_premium": "até 10 mensagens"
             }
         }
@@ -516,8 +516,8 @@
                 "text": "1 até 100 caracteres"
             },
             "maximum_countries_number": {
-                "name": "Maximum countries number",
-                "hint": "If poll is geo limited",
+                "name": "Número máximo de países",
+                "hint": "Se a enquete for restrita geograficamente",
                 "text": "12"
             }
         }
@@ -544,7 +544,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "Chats fixados em uma pasta",
-                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
+                "hint": "(este limite diminui pelo número de chats individualmente adicionados às configurações da pasta)",
                 "text": "até 100 chats",
                 "text_premium": "até 200 chats"
             }
@@ -688,12 +688,12 @@
                 "text": "até 256 caracteres após o nome de usuário do bot"
             },
             "bot_transfers": {
-                "name": "Bot transfers",
+                "name": "Transferências de bot",
                 "hint": "entre contas",
                 "text": "até 5 por dia"
             },
             "length_custom_verification_text": {
-                "name": "Length of custom verification text",
+                "name": "Tamanho de texto de verificação personalizado",
                 "text": "de 1 a 70 caracteres"
             }
         }
@@ -702,14 +702,14 @@
         "name": "Stories",
         "items": {
             "free_stories_number": {
-                "name": "Account lifetime number of stories that can be posted without Premium",
-                "text": "up to 3 stories; any stories ever posted, under any conditions, still count against this limit, including deleted stories, stories posted with Premium, and stories that were posted for free when the feature launched",
+                "name": "Número vitalício de stories que podem ser publicadas sem Premium",
+                "text": "até 3 stories; quaisquer stories publicadas, em qualquer condição, é contada a esse limite, incluindo stories deletadas, stories enviadas com Premium, e stories que foram publicadas gratuitamente quando a função foi lançada",
                 "text_premium": "não se aplica quando Premium está ativo"
             },
             "story_availability": {
                 "name": "Disponibilidade do story",
                 "hint": "países onde os stories estão disponíveis sem o Telegram Premium",
-                "text": "Telegram is rolling out the free 1 story limit globally.\n\nThe list of countries where stories used to be paid-only is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "Telegram está lançando o limite de 1 story de graça globalmente.\n\nA lista de países onde stories eram disponíveis apenas com Premium está disponível em https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Tempo do story",
@@ -746,13 +746,13 @@
                 "text_premium": "até 2.048 caracteres"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency (Hide My View)",
+                "name": "Frequência do modo invisível (Esconder Que Eu Vi)",
                 "text": "indisponível",
                 "text_premium": "uma vez a cada 3 horas",
                 "hint": ""
             },
             "story_incognito_duration": {
-                "name": "Incognito duration (Hide My View)",
+                "name": "Duração do modo invisível (Esconder Que Eu Vi)",
                 "hint": "(todas as visualizações dos últimos 5 minutos antes do modo ser ativado desaparecem, e as visualizações de 25 minutos após ele ser ativado não são gravadas)",
                 "text": "não disponível",
                 "text_premium": "30 minutos"
@@ -762,15 +762,15 @@
                 "text": "até 100"
             },
             "number_stories_album": {
-                "name": "Number of stories in an album",
+                "name": "Número de stories em um álbum",
                 "text": "até 100 stories"
             },
             "stories_limit_reset_time": {
                 "name": "Tempo limite para redefinir stories",
-                "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
+                "text": "o limite retorna ao seu valor máximo 24 horas após o primeiro story ser publicado"
             },
             "adding_clickable_links_stories": {
-                "name": "Adding clickable links to stories",
+                "name": "Adicionar links clicáveis a stories",
                 "text": "indisponível",
                 "text_premium": "até 3 adesivos"
             },
@@ -795,17 +795,17 @@
                 "text": "até 200 nomes de usuário por dia"
             },
             "hashtag_search_depth": {
-                "name": "Hashtag search results number",
+                "name": "Número de resultados da pesquisa por hashtag",
                 "hint": "",
                 "text": "aproximadamente as últimas 5.000 mensagens"
             },
             "minimal_subscribers_public_search_eligibility": {
-                "name": "Minimal channel subscribers for public search eligibility",
+                "name": "Número mínimo de inscritos do canal para elegibilidade de pesquisa pública",
                 "text": "pelo menos 100 assinantes"
             },
             "number_recommended_channels": {
-                "name": "Number of recommended channels",
-                "hint": "(\"Similar channels\" in global search and specific channels)",
+                "name": "Número de canais recomendados",
+                "hint": "(\"Canais similares\" na busca global e em canais específicos)",
                 "text": "até 10",
                 "text_premium": "até 100"
             }
@@ -883,7 +883,7 @@
             "media_attachments": {
                 "name": "Mídias anexadas",
                 "hint": "em artigos",
-                "text": "Only external links; uploads were disabled"
+                "text": "Apenas links externos; uploads foram desativados"
             }
         }
     },
@@ -918,14 +918,14 @@
         }
     },
     "checklists": {
-        "name": "Checklists (To Do)",
+        "name": "Lista de tarefas",
         "items": {
             "max_number_items_list": {
-                "name": "Number of items in checklist",
+                "name": "Número de itens na lista de tarefas",
                 "text": "de 1 para 30"
             },
             "checklist_caption": {
-                "name": "Checklist caption",
+                "name": "Legenda da lista de tarefa",
                 "text": "de 1 a 255 caracteres"
             },
             "item_caption": {
@@ -946,31 +946,31 @@
                 "text": "6"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars",
+                "name": "Cooldown antes do presente poder ser convertido em estrelas",
                 "text": "7 dias"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Term after which gifts can't be exchanged for stars",
+                "name": "Tempo após o qual o presente não pode ser convertido em estrelas",
                 "text": "21 dias"
             },
             "minimum_stars_amount_withdraw": {
-                "name": "Minimum stars amount for withdrawal",
+                "name": "Mínima quantia de estrelas para saque",
                 "text": "1000 estrelas"
             },
             "gift_collections_users_profile": {
-                "name": "Gift collections in user's profile",
+                "name": "Coleções de presente no perfil do usuário",
                 "text": "até 10"
             },
             "number_gifts_collection": {
-                "name": "Number of gifts in a collection",
+                "name": "Número de presentes em uma coleção",
                 "text": "até 500 presentes"
             },
             "maximum_period_convert_received_gift_stars": {
-                "name": "Maximum period to convert received gift to stars",
+                "name": "Período máximo para converter presentes recebidos em estrelas",
                 "text": "7 dias"
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Number of stars that can be withdrawn in chats and channels",
+                "name": "Número de estrelas que podem ser sacadas em conversas e canais",
                 "text": "de 1.000 estrelas para 25.000.000 estrelas"
             },
             "price_paid_media_post": {
@@ -978,7 +978,7 @@
                 "text": "de 1 a 25.000 estrelas"
             },
             "paid_reaction_transaction_amount": {
-                "name": "Paid reaction transaction amount",
+                "name": "Valor máximo da reação paga",
                 "text": "de 1 a 10.000 estrelas"
             },
             "length_message_attached_gift": {
@@ -986,7 +986,7 @@
                 "text": "até 128 caracteres"
             },
             "allowed_payouts_affiliate_programs": {
-                "name": "Allowed revenue share percentages in affiliate programs",
+                "name": "Porcentagens de participação de receita permitidas nos programas de afiliados",
                 "hint": "por usuário indicado",
                 "text": "de 0,1% para 80%"
             },
@@ -1000,12 +1000,12 @@
                 "text": "de 125 a 100.000 estrelas"
             },
             "resale_price_collectible_gifts_ton": {
-                "name": "Resale price for collectible gifts",
+                "name": "Preço de revenda para presentes colecionáveis",
                 "hint": "em TON",
                 "text": "de 7 TON a 100.000 TON"
             },
             "price_suggested_channel_message": {
-                "name": "Price for a suggested channel message",
+                "name": "Preço para sugerir uma mensagem em um canal",
                 "text": "Grátis, de 5 a 100.000 estrelas"
             },
             "guaranteed_duration_paid_message": {
@@ -1013,17 +1013,17 @@
                 "text": "24 horas"
             },
             "paid_post_scheduling_timeframe": {
-                "name": "Paid post scheduling timeframe",
-                "text": "from 5 minutes to 31 days in advance"
+                "name": "Prazo de agendamento de postagem paga",
+                "text": "de 5 minutos até 31 dias no futuro"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Price for a paid post in TON cryptocurrency",
+                "name": "Preço por uma publicação paga em criptomoeda TON",
                 "text": "de 0.01 TON para 10.000 TON"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Cooldown before TON withdrawal",
-                "hint": "via Fragment.com",
-                "text": "2 days"
+                "name": "Cooldown antes do saque de TON",
+                "hint": "pelo Fragment.com",
+                "text": "2 dias"
             }
         }
     },
@@ -1031,40 +1031,40 @@
         "name": "Impulsos",
         "items": {
             "number_boosts": {
-                "name": "Number of boosts if you bought Premium for yourself",
+                "name": "Número de impulsos se você comprou o Premium para você mesmo",
                 "hint": "",
-                "text": "see also: https://tginfo.me/boosts-and-channel-stories-en",
+                "text": "ver também: https://tginfo.me/boosts-and-channel-stories-en",
                 "text_premium": "4 impulsos"
             },
             "number_boosts_2": {
-                "name": "Number of boosts if you received Premium as a gift",
+                "name": "Número de impulsos se você recebeu Premium como presente",
                 "hint": "",
                 "text_premium": "1 impulso"
             },
             "number_boosts_if_you_won_premium_giveaway": {
-                "name": "Number of boosts you get if you won Premium in a giveaway",
-                "text_premium": "giveaway Premium subscriptions give 0 boosts"
+                "name": "Número de impulsos que você recebe se ganhou Premium em um sorteio",
+                "text_premium": "receber Premium em sorteio dá 0 impulsos"
             },
             "boosts_you_get_gifting_somebody_premium": {
-                "name": "Boosts you get for gifting somebody Premium",
-                "text": "you gain 3 additional boosts to what you already got"
+                "name": "Impulsos que você recebe ao presentear alguém com Premium",
+                "text": "você ganha 3 impulsos adicionais ao que já possui"
             },
             "boost_transfer_cooldown": {
-                "name": "Boost transfer cooldown",
-                "hint": "if you want to change a channel you boost",
+                "name": "Cooldown de transferência de impulso",
+                "hint": "caso queira trocar o impulso de chat",
                 "text_premium": "24 horas"
             },
             "revoking_boosts": {
-                "name": "Revoking boosts",
-                "text": "is not possible, boosts can only be transferred"
+                "name": "Revogar impulsos",
+                "text": "impossível, impulsos podem apenas ser transferidos"
             },
             "maximum_boosts_number": {
-                "name": "Maximum boosts number on an account",
+                "name": "Número máximo de impulsos em uma conta",
                 "hint": "(não totalmente confirmado)",
                 "text": "até 103 bônus (4 bônus de uma assinatura Premium + 33 assinaturas doadas)"
             },
             "number_channels_giveaway": {
-                "name": "Number of channels in a giveaway",
+                "name": "Número de países em um sorteio",
                 "text": "até 10 canais"
             },
             "number_countries_giveaway": {
@@ -1142,16 +1142,16 @@
         }
     },
     "ai_editor": {
-        "name": "AI Editor",
+        "name": "Editor IA",
         "items": {
             "maximum_style_numbers": {
-                "name": "Maximum style numbers",
-                "hint": "In AI Editor",
+                "name": "Número máximo de estilos",
+                "hint": "No Editor IA",
                 "text": "20"
             },
             "style_title_length": {
-                "name": "Style title length",
-                "text": "12 characters"
+                "name": "Tamanho do título do estilo",
+                "text": "12 caracteres"
             }
         }
     }

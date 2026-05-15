@@ -36,7 +36,7 @@
             },
             "channels_and_chats_number": {
                 "name": "Número de canais e supergrupos",
-                "hint": "you can be member of (combined)",
+                "hint": "você pode ser membro de (em conjunto)",
                 "text": "até 500 (incluindo os que você é dono)",
                 "text_premium": "até 1000 (incluindo os que você é dono)"
             },
@@ -64,7 +64,7 @@
             },
             "visible_messages": {
                 "name": "Número de mensagens visíveis",
-                "hint": "(shared limit between private chats, bots and legacy \"basic\" groups)",
+                "hint": "(limite compartilhado entre chats privados, bots e grupos \"básicos\")",
                 "text": "ilimitado; antes de 2018 - até 1.000.000 de mensagens visíveis: veja https://twitter.com/telegram/status/1060910769410371584"
             },
             "sticker_packs_per_account": {
@@ -96,7 +96,7 @@
                 "text": "1 semana, 1 mês, 3 meses, 6 meses, ou 12 meses"
             },
             "notification_sounds_duration": {
-                "name": "Notification sounds duration",
+                "name": "Duração dos sons de notificação",
                 "hint": "(arquivos personalizados)",
                 "text": "de 1 a 5 segundos"
             },
@@ -105,16 +105,16 @@
                 "text": "até 100"
             },
             "welcome_card_title_length": {
-                "name": "Welcome card title length",
+                "name": "Tamanho do título da página de boas-vindas",
                 "text_premium": "até 32 caracteres"
             },
             "welcome_card_text_length": {
-                "name": "Welcome card text length",
+                "name": "Tamanho do texto da página de boas-vindas",
                 "text_premium": "até 70 caracteres"
             },
             "number_business_chat_links": {
-                "name": "Number of business chat links",
-                "hint": "with predefined message text",
+                "name": "Número de links de chats business",
+                "hint": "com mensagem de texto predefinida",
                 "text_premium": "até 100 links"
             }
         }
@@ -219,20 +219,20 @@
                 "text": "até 10,000 usuários"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "Impulsos necessários para atingir um nível",
+                "text": "calcule em https://boosts.tginfo.me"
             },
             "hide_participants_setting_availability": {
-                "name": "Hide participants setting availability",
-                "text": "the chat must have at least 100 members"
+                "name": "Opção de ocultar membros",
+                "text": "o chat deve ter pelo menos 100 membros"
             },
             "number_manually_selected_reactions": {
-                "name": "Number of manually selected reactions",
-                "hint": "when \"Some reactions\" option is used",
+                "name": "Número de reações manualmente selecionáveis",
+                "hint": "quando se usa a opção \"Algumas reações\"",
                 "text": "até 100"
             },
             "number_members_aggressive_antispam_availability": {
-                "name": "Number of members for Aggressive Anti-Spam availability",
+                "name": "Número de membros para usar o Antispam Agressivo",
                 "text": "pelo menos 200 membros"
             }
         }
@@ -291,12 +291,12 @@
                 "text": "128"
             },
             "comment_lifetime": {
-                "name": "Comment lifetime",
-                "hint": "Lifetime of comment, if not pinned",
+                "name": "Duração de um comentário",
+                "hint": "caso o comentário não seja fixado",
                 "text": "10 segundos"
             },
             "number_participants_endtoend_encrypted_calls": {
-                "name": "Number of participants in End-to-End encrypted private link calls",
+                "name": "Número de participantes em link de chamadas criptografadas de ponta a ponta",
                 "text": "até 200 participantes"
             },
             "paid_message_price": {

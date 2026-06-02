@@ -116,6 +116,10 @@
                 "name": "Number of business chat links",
                 "hint": "with predefined message text",
                 "text_premium": "up to 100 links"
+            },
+            "birthday_setchange": {
+                "name": "Birthday set/change",
+                "text": "3 per week"
             }
         }
     },

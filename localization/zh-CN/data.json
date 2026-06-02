@@ -941,25 +941,26 @@
     "gifts": {
         "name": "礼物与星币",
         "items": {
-            "minimum_gift_upgrade_price": {
-                "name": "礼物升级的最低价格",
-                "text": "25 枚星币"
+            "maximum_period_convert_received_gift_stars": {
+                "name": "将收到的礼物转换为星币的最大期限",
+                "text": "7 天"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars from new session",
+                "text": "7 天"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Cooldown before gift can be transferred to another user",
+                "text": "21 天",
+                "hint": "if gift was bought with stars which were bought with fiat currency"
+            },
+            "length_message_attached_gift": {
+                "name": "附加到礼物的消息长度",
+                "text": "最多 128 个字符"
             },
             "maximum_pinned_gifts_amount": {
                 "name": "最大置顶礼物数",
                 "text": "6"
-            },
-            "maximum_gifttostars_exchange_term": {
-                "name": "将礼物转换为星币前的冷却时间",
-                "text": "7 天"
-            },
-            "minimum_term_stars_ownership_withdraw": {
-                "name": "礼物无法再转换为星币的周期",
-                "text": "21 天"
-            },
-            "minimum_stars_amount_withdraw": {
-                "name": "提现所需的星币数量",
-                "text": "最少 1000 枚星币"
             },
             "gift_collections_users_profile": {
                 "name": "用户个人资料中的礼物收藏",
@@ -969,51 +970,51 @@
                 "name": "收藏集中的礼物数量",
                 "text": "最多 500 个礼物"
             },
-            "maximum_period_convert_received_gift_stars": {
-                "name": "将收到的礼物转换为星币的最大期限",
-                "text": "7 天"
+            "resale_price_collectible_gifts": {
+                "name": "可收藏礼物的转售价格",
+                "hint": "星币",
+                "text": "125 到 100,000 星币"
             },
-            "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "可以在对话和频道中提现的星币数量",
-                "text": "1,000 到 25,000,000 枚星币"
-            },
-            "price_paid_media_post": {
-                "name": "付费媒体帖子价格",
-                "text": "1 到 25,000 枚星币"
+            "minimum_gift_upgrade_price": {
+                "name": "礼物升级的最低价格",
+                "text": "20% of gift price"
             },
             "paid_reaction_transaction_amount": {
                 "name": "付费表态交易金额",
                 "text": "1 到 10,000 枚星币"
             },
-            "length_message_attached_gift": {
-                "name": "附加到礼物的消息长度",
-                "text": "最多 128 个字符"
+            "price_paid_media_post": {
+                "name": "付费媒体帖子价格",
+                "text": "1 到 25,000 枚星币"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "提现所需的星币数量",
+                "text": "最少 1000 枚星币"
+            },
+            "price_paid_message": {
+                "name": "付费私信的价格",
+                "text": "from 1 to 35,000 stars"
+            },
+            "price_suggested_channel_message": {
+                "name": "建议频道帖子的价格",
+                "text": "Free, or from 2 to 35,000 stars"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "可以在对话和频道中提现的星币数量",
+                "text": "1,000 到 25,000,000 枚星币"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "在联盟计划中允许的收入共享百分比",
                 "hint": "每位推荐用户",
                 "text": "0.1% 到 80%"
             },
-            "price_paid_message": {
-                "name": "付费私信的价格",
-                "text": "1 到 10,000 枚星币"
-            },
-            "resale_price_collectible_gifts": {
-                "name": "可收藏礼物的转售价格",
-                "hint": "星币",
-                "text": "125 到 100,000 星币"
-            },
             "resale_price_collectible_gifts_ton": {
                 "name": "可收藏礼物的转售价格",
                 "hint": "TON",
                 "text": "7 TON 到 100,000 TON"
             },
-            "price_suggested_channel_message": {
-                "name": "建议频道帖子的价格",
-                "text": "免费或 5 到 100,000 枚星币"
-            },
             "guaranteed_duration_paid_message": {
-                "name": "付费帖子的保证期限",
+                "name": "Minimal guaranteed duration of a paid post",
                 "text": "24 小时"
             },
             "paid_post_scheduling_timeframe": {
@@ -1023,6 +1024,10 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "TON 加密货币付费帖子的价格",
                 "text": "0.01 TON 到 10,000 TON"
+            },
+            "minimal_ton_value_withdrawal_from_account": {
+                "name": "Minimal TON value for withdrawal from account",
+                "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
                 "name": "TON 提现前冷却时间",

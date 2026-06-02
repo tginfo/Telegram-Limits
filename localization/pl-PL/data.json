@@ -118,8 +118,8 @@
                 "text_premium": "do 100 linków"
             },
             "birthday_setchange": {
-                "name": "Birthday set/change",
-                "text": "3 per week"
+                "name": "Ustawienie/zmiana daty urodzenia",
+                "text": "3 tygodniowo"
             }
         }
     },
@@ -946,13 +946,13 @@
                 "text": "7 dni"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars from new session",
+                "name": "Czas oczekiwania przed możliwością wymiany prezentu na Gwiazdki z nowej sesji",
                 "text": "7 dni"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Cooldown before gift can be transferred to another user",
+                "name": "Czas oczekiwania przed przeniesieniem prezentu na innego użytkownika,",
                 "text": "21 dni",
-                "hint": "if gift was bought with stars which were bought with fiat currency"
+                "hint": "jeśli prezent został zakupiony za Gwiazdki, które zostały zakupione za walutę fiducjarną"
             },
             "length_message_attached_gift": {
                 "name": "Długość wiadomości dołączonej do prezentu",
@@ -977,7 +977,7 @@
             },
             "minimum_gift_upgrade_price": {
                 "name": "Minimalna cena ulepszenia prezentu",
-                "text": "20% of gift price"
+                "text": "20% ceny prezentu"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Kwota transakcji płatnej reakcji",
@@ -1030,7 +1030,7 @@
                 "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Zamrożenie przed wypłatą TON",
+                "name": "Czas oczekiwania przed wypłatą TON",
                 "hint": "przez Fragment.com",
                 "text": "2 dni"
             }
@@ -1059,7 +1059,7 @@
                 "text": "otrzymasz 3 dodatkowe ulepszenia do tego, co już masz"
             },
             "boost_transfer_cooldown": {
-                "name": "Czas odnowienia transferu ulepszenia,",
+                "name": "Czas oczekiwania na transfer ulepszenia,",
                 "hint": "jeśli chcesz zmienić kanał, który ulepszasz",
                 "text_premium": "24 godziny"
             },

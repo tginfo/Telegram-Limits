@@ -941,25 +941,26 @@
     "gifts": {
         "name": "Sovg'alar & Yulduzlar",
         "items": {
-            "minimum_gift_upgrade_price": {
-                "name": "Sovg‘ani yuqori darajaga ko‘tarishning minimal narxi",
-                "text": "25 ta yulduz"
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Qabul qilingan sovg'ani yulduzlarga aylantirish uchun maksimal muddat",
+                "text": "7 kun"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars from new session",
+                "text": "7 kun"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Cooldown before gift can be transferred to another user",
+                "text": "21 kun",
+                "hint": "if gift was bought with stars which were bought with fiat currency"
+            },
+            "length_message_attached_gift": {
+                "name": "Sovg'aga biriktirilgan xabar uzunligi",
+                "text": "128 tagacha belgi"
             },
             "maximum_pinned_gifts_amount": {
                 "name": "Maksimal qadalgan sovg'alar soni",
                 "text": "6"
-            },
-            "maximum_gifttostars_exchange_term": {
-                "name": "Sovg‘ani yulduzlarga aylantirishdan oldingi kutish vaqti",
-                "text": "7 kun"
-            },
-            "minimum_term_stars_ownership_withdraw": {
-                "name": "Bu muddatdan keyin sovg‘ani yulduzlarga almashtirib bo‘lmaydi",
-                "text": "21 kun"
-            },
-            "minimum_stars_amount_withdraw": {
-                "name": "Pul yechish uchun minimal yulduzlar soni",
-                "text": "1000 ta yulduz"
             },
             "gift_collections_users_profile": {
                 "name": "Foydalanuvchi profilidagi sovg'alar to'plami",
@@ -969,51 +970,51 @@
                 "name": "To'plamdagi sovg'alar soni",
                 "text": "500 tagacha sovg'a"
             },
-            "maximum_period_convert_received_gift_stars": {
-                "name": "Qabul qilingan sovg'ani yulduzlarga aylantirish uchun maksimal muddat",
-                "text": "7 kun"
+            "resale_price_collectible_gifts": {
+                "name": "Resale price for collectible gifts",
+                "hint": "in stars",
+                "text": "from 125 to 100,000 stars"
             },
-            "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Number of stars that can be withdrawn in chats and channels",
-                "text": "1,000 yulduzdan 25,000,000 yulduzgacha"
-            },
-            "price_paid_media_post": {
-                "name": "Price for paid media in a post",
-                "text": "1 dan 25,000 tagacha yulduz"
+            "minimum_gift_upgrade_price": {
+                "name": "Sovg‘ani yuqori darajaga ko‘tarishning minimal narxi",
+                "text": "20% of gift price"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Paid reaction transaction amount",
                 "text": "1 dan 10,000 tagacha yulduz"
             },
-            "length_message_attached_gift": {
-                "name": "Sovg'aga biriktirilgan xabar uzunligi",
-                "text": "128 tagacha belgi"
+            "price_paid_media_post": {
+                "name": "Price for paid media in a post",
+                "text": "1 dan 25,000 tagacha yulduz"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "Pul yechish uchun minimal yulduzlar soni",
+                "text": "1000 ta yulduz"
+            },
+            "price_paid_message": {
+                "name": "Shaxsiyda pullik xabar uchun narx",
+                "text": "from 1 to 35,000 stars"
+            },
+            "price_suggested_channel_message": {
+                "name": "Price for a suggested channel message",
+                "text": "Free, or from 2 to 35,000 stars"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "Number of stars that can be withdrawn in chats and channels",
+                "text": "1,000 yulduzdan 25,000,000 yulduzgacha"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Allowed revenue share percentages in affiliate programs",
                 "hint": "per referred user",
                 "text": "0.1% dan 80% gacha"
             },
-            "price_paid_message": {
-                "name": "Shaxsiyda pullik xabar uchun narx",
-                "text": "1 tadan 10,000 tagacha yulduz"
-            },
-            "resale_price_collectible_gifts": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in stars",
-                "text": "from 125 to 100,000 stars"
-            },
             "resale_price_collectible_gifts_ton": {
                 "name": "Resale price for collectible gifts",
                 "hint": "TON da",
                 "text": "from 7 TON to 100,000 TON"
             },
-            "price_suggested_channel_message": {
-                "name": "Price for a suggested channel message",
-                "text": "Free, or from 5 to 100,000 stars"
-            },
             "guaranteed_duration_paid_message": {
-                "name": "Guaranteed duration of a paid post",
+                "name": "Minimal guaranteed duration of a paid post",
                 "text": "24 soat"
             },
             "paid_post_scheduling_timeframe": {
@@ -1023,6 +1024,10 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "Price for a paid post in TON cryptocurrency",
                 "text": "from 0.01 TON to 10,000 TON"
+            },
+            "minimal_ton_value_withdrawal_from_account": {
+                "name": "Minimal TON value for withdrawal from account",
+                "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
                 "name": "Cooldown before TON withdrawal",

@@ -118,8 +118,8 @@
                 "text_premium": "fino a 100 link"
             },
             "birthday_setchange": {
-                "name": "Birthday set/change",
-                "text": "3 per week"
+                "name": "Imposta/modifica compleanno",
+                "text": "3 a settimana"
             }
         }
     },
@@ -941,25 +941,26 @@
     "gifts": {
         "name": "Regali e Stelle",
         "items": {
-            "minimum_gift_upgrade_price": {
-                "name": "Prezzo minimo di potenziamento di un regalo",
-                "text": "25 stelle"
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Periodo massimo per convertire il regalo ricevuto in stelle",
+                "text": "7 giorni"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars from new session",
+                "text": "7 giorni"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Cooldown before gift can be transferred to another user",
+                "text": "21 giorni",
+                "hint": "if gift was bought with stars which were bought with fiat currency"
+            },
+            "length_message_attached_gift": {
+                "name": "Lunghezza di un messaggio allegato a un regalo",
+                "text": "fino a 128 caratteri"
             },
             "maximum_pinned_gifts_amount": {
                 "name": "Numero massimo di regali fissati",
                 "text": "6"
-            },
-            "maximum_gifttostars_exchange_term": {
-                "name": "Tempo di attesa prima di convertire un nuovo regalo in stelle",
-                "text": "7 giorni"
-            },
-            "minimum_term_stars_ownership_withdraw": {
-                "name": "Termine dopo il quale i regali non possono esser più scambiati per stelle",
-                "text": "21 giorni"
-            },
-            "minimum_stars_amount_withdraw": {
-                "name": "Stelle minime per prelevare",
-                "text": "1000 stelle"
             },
             "gift_collections_users_profile": {
                 "name": "Raccolte regali nel profilo utente",
@@ -969,51 +970,51 @@
                 "name": "Numero di regali in una collezione",
                 "text": "fino a 500 regali"
             },
-            "maximum_period_convert_received_gift_stars": {
-                "name": "Periodo massimo per convertire il regalo ricevuto in stelle",
-                "text": "7 giorni"
+            "resale_price_collectible_gifts": {
+                "name": "Prezzo di rivendita per i ragali collezionabili",
+                "hint": "in stelle",
+                "text": "da 125 a 100.000 stelle"
             },
-            "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Numero di stelle che possono esser prelevate in chat e canali",
-                "text": "da 1.000 stelle a 25.000.000 stelle"
-            },
-            "price_paid_media_post": {
-                "name": "Prezzo per un media a pagamento in un post",
-                "text": "da 1 a 25.000 stelle"
+            "minimum_gift_upgrade_price": {
+                "name": "Prezzo minimo di potenziamento di un regalo",
+                "text": "20% of gift price"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Prezzo per le reazioni a pagamanto",
                 "text": "da 1 a 10.000 stelle"
             },
-            "length_message_attached_gift": {
-                "name": "Lunghezza di un messaggio allegato a un regalo",
-                "text": "fino a 128 caratteri"
+            "price_paid_media_post": {
+                "name": "Prezzo per un media a pagamento in un post",
+                "text": "da 1 a 25.000 stelle"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "Stelle minime per prelevare",
+                "text": "1000 stelle"
+            },
+            "price_paid_message": {
+                "name": "Prezzo per un messaggio privato a pagamento",
+                "text": "from 1 to 35,000 stars"
+            },
+            "price_suggested_channel_message": {
+                "name": "Prezzo per un messaggio suggerito nel canale",
+                "text": "Free, or from 2 to 35,000 stars"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "Numero di stelle che possono esser prelevate in chat e canali",
+                "text": "da 1.000 stelle a 25.000.000 stelle"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Percentuali dei ricavi consentiti nei programmi di affiliazione",
                 "hint": "per utente",
                 "text": "da 0.1% a 80%"
             },
-            "price_paid_message": {
-                "name": "Prezzo per un messaggio privato a pagamento",
-                "text": "da 1 a 10.000 stelle"
-            },
-            "resale_price_collectible_gifts": {
-                "name": "Prezzo di rivendita per i ragali collezionabili",
-                "hint": "in stelle",
-                "text": "da 125 a 100.000 stelle"
-            },
             "resale_price_collectible_gifts_ton": {
                 "name": "Prezzo di rivendita per i ragali collezionabili",
                 "hint": "in TON",
                 "text": "da 7 TON a 100.000 TON"
             },
-            "price_suggested_channel_message": {
-                "name": "Prezzo per un messaggio suggerito nel canale",
-                "text": "Gratuito, o da 5 a 100.000 stelle"
-            },
             "guaranteed_duration_paid_message": {
-                "name": "Durata garantita di un post a pagamento",
+                "name": "Minimal guaranteed duration of a paid post",
                 "text": "24 ore"
             },
             "paid_post_scheduling_timeframe": {
@@ -1023,6 +1024,10 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "Prezzo per un post a pagamento in criptovaluta TON",
                 "text": "da 0.01 TON a 10.000 TON"
+            },
+            "minimal_ton_value_withdrawal_from_account": {
+                "name": "Minimal TON value for withdrawal from account",
+                "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
                 "name": "Attesa prima del prelievo dei TON",

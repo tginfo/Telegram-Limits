@@ -95,6 +95,10 @@
             {
                 "id": "number_business_chat_links",
                 "icon": "link"
+            },
+            {
+                "id": "birthday_setchange",
+                "icon": "cake"
             }
         ]
     },

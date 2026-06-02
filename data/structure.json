@@ -809,12 +809,8 @@
         "color": "239, 83, 80",
         "items": [
             {
-                "id": "minimum_gift_upgrade_price",
-                "icon": "stars"
-            },
-            {
-                "id": "maximum_pinned_gifts_amount",
-                "icon": "push_pin"
+                "id": "maximum_period_convert_received_gift_stars",
+                "icon": "today"
             },
             {
                 "id": "maximum_gifttostars_exchange_term",
@@ -825,8 +821,12 @@
                 "icon": "import_export"
             },
             {
-                "id": "minimum_stars_amount_withdraw",
-                "icon": "star"
+                "id": "length_message_attached_gift",
+                "icon": "loyalty"
+            },
+            {
+                "id": "maximum_pinned_gifts_amount",
+                "icon": "push_pin"
             },
             {
                 "id": "gift_collections_users_profile",
@@ -837,44 +837,44 @@
                 "icon": "collections_bookmark"
             },
             {
-                "id": "maximum_period_convert_received_gift_stars",
-                "icon": "today"
+                "id": "resale_price_collectible_gifts",
+                "icon": "sell"
             },
             {
-                "id": "number_stars_that_can_be_withdrawn_chats_channels",
-                "icon": "account_balance_wallet"
-            },
-            {
-                "id": "price_paid_media_post",
-                "icon": "request_quote"
+                "id": "minimum_gift_upgrade_price",
+                "icon": "stars"
             },
             {
                 "id": "paid_reaction_transaction_amount",
                 "icon": "add_reaction"
             },
             {
-                "id": "length_message_attached_gift",
-                "icon": "loyalty"
+                "id": "price_paid_media_post",
+                "icon": "request_quote"
             },
             {
-                "id": "allowed_payouts_affiliate_programs",
-                "icon": "recommend"
+                "id": "minimum_stars_amount_withdraw",
+                "icon": "star"
             },
             {
                 "id": "price_paid_message",
                 "icon": "textsms"
             },
             {
-                "id": "resale_price_collectible_gifts",
-                "icon": "sell"
+                "id": "price_suggested_channel_message",
+                "icon": "paid"
+            },
+            {
+                "id": "number_stars_that_can_be_withdrawn_chats_channels",
+                "icon": "account_balance_wallet"
+            },
+            {
+                "id": "allowed_payouts_affiliate_programs",
+                "icon": "recommend"
             },
             {
                 "id": "resale_price_collectible_gifts_ton",
                 "icon": "pentagon"
-            },
-            {
-                "id": "price_suggested_channel_message",
-                "icon": "paid"
             },
             {
                 "id": "guaranteed_duration_paid_message",
@@ -887,6 +887,10 @@
             {
                 "id": "price_paid_post_ton_cryptocurrency",
                 "icon": "credit_card"
+            },
+            {
+                "id": "minimal_ton_value_withdrawal_from_account",
+                "icon": "attach_money"
             },
             {
                 "id": "cooldown_before_ton_withdrawal",

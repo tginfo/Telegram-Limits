@@ -116,6 +116,10 @@
                 "name": "Liczba linków czatu biznesowego",
                 "hint": "z predefiniowanym tekstem wiadomości",
                 "text_premium": "do 100 linków"
+            },
+            "birthday_setchange": {
+                "name": "Birthday set/change",
+                "text": "3 per week"
             }
         }
     },

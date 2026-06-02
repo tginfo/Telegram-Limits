@@ -116,6 +116,10 @@
                 "name": "Biznes chat havolalari soni",
                 "hint": "oldindan belgilangan xabar matni bilan",
                 "text_premium": "100 tagacha havola"
+            },
+            "birthday_setchange": {
+                "name": "Birthday set/change",
+                "text": "3 per week"
             }
         }
     },

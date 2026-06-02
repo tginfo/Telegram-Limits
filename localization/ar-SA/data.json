@@ -116,6 +116,10 @@
                 "name": "عدد روابط محادثات العمل",
                 "hint": "مع نص رسالة محدد مسبقاً",
                 "text_premium": "100 رابط كحد أقصى"
+            },
+            "birthday_setchange": {
+                "name": "Birthday set/change",
+                "text": "3 per week"
             }
         }
     },

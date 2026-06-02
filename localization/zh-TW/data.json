@@ -941,25 +941,26 @@
     "gifts": {
         "name": "Gifts & Stars",
         "items": {
-            "minimum_gift_upgrade_price": {
-                "name": "禮物升級最低價格",
-                "text": "25 個星星"
+            "maximum_period_convert_received_gift_stars": {
+                "name": "轉換禮物為星星的最大期限",
+                "text": "7 天"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars from new session",
+                "text": "7 天"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Cooldown before gift can be transferred to another user",
+                "text": "21 天",
+                "hint": "if gift was bought with stars which were bought with fiat currency"
+            },
+            "length_message_attached_gift": {
+                "name": "Length of a message attached to a gift",
+                "text": "up to 128 characters"
             },
             "maximum_pinned_gifts_amount": {
                 "name": "最大置頂禮物數量",
                 "text": "6個"
-            },
-            "maximum_gifttostars_exchange_term": {
-                "name": "禮物可轉換成星星的冷卻時間",
-                "text": "7 天"
-            },
-            "minimum_term_stars_ownership_withdraw": {
-                "name": "禮物無法被轉換為星星的時間",
-                "text": "21 天"
-            },
-            "minimum_stars_amount_withdraw": {
-                "name": "星星出金的最低數量",
-                "text": "1000 個星星"
             },
             "gift_collections_users_profile": {
                 "name": "使用者資料頁的禮物收藏集",
@@ -969,51 +970,51 @@
                 "name": "Number of gifts in a collection",
                 "text": "up to 500 gifts"
             },
-            "maximum_period_convert_received_gift_stars": {
-                "name": "轉換禮物為星星的最大期限",
-                "text": "7 天"
+            "resale_price_collectible_gifts": {
+                "name": "Resale price for collectible gifts",
+                "hint": "in stars",
+                "text": "from 125 to 100,000 stars"
             },
-            "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Number of stars that can be withdrawn in chats and channels",
-                "text": "from 1,000 stars to  25,000,000 stars"
-            },
-            "price_paid_media_post": {
-                "name": "Price for paid media in a post",
-                "text": "from 1 to 25,000 stars"
+            "minimum_gift_upgrade_price": {
+                "name": "禮物升級最低價格",
+                "text": "20% of gift price"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Paid reaction transaction amount",
                 "text": "from 1 to 10,000 stars"
             },
-            "length_message_attached_gift": {
-                "name": "Length of a message attached to a gift",
-                "text": "up to 128 characters"
+            "price_paid_media_post": {
+                "name": "Price for paid media in a post",
+                "text": "from 1 to 25,000 stars"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "星星出金的最低數量",
+                "text": "1000 個星星"
+            },
+            "price_paid_message": {
+                "name": "Price for a private paid message",
+                "text": "from 1 to 35,000 stars"
+            },
+            "price_suggested_channel_message": {
+                "name": "Price for a suggested channel message",
+                "text": "Free, or from 2 to 35,000 stars"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "Number of stars that can be withdrawn in chats and channels",
+                "text": "from 1,000 stars to  25,000,000 stars"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Allowed revenue share percentages in affiliate programs",
                 "hint": "per referred user",
                 "text": "from 0.1% to 80%"
             },
-            "price_paid_message": {
-                "name": "Price for a private paid message",
-                "text": "from 1 to 10,000 stars"
-            },
-            "resale_price_collectible_gifts": {
-                "name": "Resale price for collectible gifts",
-                "hint": "in stars",
-                "text": "from 125 to 100,000 stars"
-            },
             "resale_price_collectible_gifts_ton": {
                 "name": "Resale price for collectible gifts",
                 "hint": "in TON",
                 "text": "from 7 TON to 100,000 TON"
             },
-            "price_suggested_channel_message": {
-                "name": "Price for a suggested channel message",
-                "text": "Free, or from 5 to 100,000 stars"
-            },
             "guaranteed_duration_paid_message": {
-                "name": "Guaranteed duration of a paid post",
+                "name": "Minimal guaranteed duration of a paid post",
                 "text": "24 hours"
             },
             "paid_post_scheduling_timeframe": {
@@ -1023,6 +1024,10 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "Price for a paid post in TON cryptocurrency",
                 "text": "from 0.01 TON to 10,000 TON"
+            },
+            "minimal_ton_value_withdrawal_from_account": {
+                "name": "Minimal TON value for withdrawal from account",
+                "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
                 "name": "Cooldown before TON withdrawal",

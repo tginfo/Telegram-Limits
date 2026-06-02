@@ -946,13 +946,13 @@
                 "text": "7 giorni"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars from new session",
+                "name": "Tempo di attesa prima di convertire un nuovo regalo in stelle",
                 "text": "7 giorni"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Cooldown before gift can be transferred to another user",
+                "name": "Tempo di attesa prima che un regalo possa esser trasferito ad un altro utente",
                 "text": "21 giorni",
-                "hint": "if gift was bought with stars which were bought with fiat currency"
+                "hint": "se il regalo è stato comprato con le stelle che sono state comprate con una valuta a corso legale"
             },
             "length_message_attached_gift": {
                 "name": "Lunghezza di un messaggio allegato a un regalo",
@@ -977,7 +977,7 @@
             },
             "minimum_gift_upgrade_price": {
                 "name": "Prezzo minimo di potenziamento di un regalo",
-                "text": "20% of gift price"
+                "text": "20% del prezzo del regalo"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Prezzo per le reazioni a pagamanto",
@@ -993,11 +993,11 @@
             },
             "price_paid_message": {
                 "name": "Prezzo per un messaggio privato a pagamento",
-                "text": "from 1 to 35,000 stars"
+                "text": "da 1 a 35.000 stelle"
             },
             "price_suggested_channel_message": {
                 "name": "Prezzo per un messaggio suggerito nel canale",
-                "text": "Free, or from 2 to 35,000 stars"
+                "text": "Gratis, o da 2 a 35.000 stelle"
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
                 "name": "Numero di stelle che possono esser prelevate in chat e canali",
@@ -1014,7 +1014,7 @@
                 "text": "da 7 TON a 100.000 TON"
             },
             "guaranteed_duration_paid_message": {
-                "name": "Minimal guaranteed duration of a paid post",
+                "name": "Durata minima garantita di un post a pagamento",
                 "text": "24 ore"
             },
             "paid_post_scheduling_timeframe": {
@@ -1026,7 +1026,7 @@
                 "text": "da 0.01 TON a 10.000 TON"
             },
             "minimal_ton_value_withdrawal_from_account": {
-                "name": "Minimal TON value for withdrawal from account",
+                "name": "Valore TON minimo per il prelievo dall'account",
                 "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {

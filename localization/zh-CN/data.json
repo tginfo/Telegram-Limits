@@ -194,7 +194,7 @@
                 "text": "拥有大于 100 名成员的群组"
             },
             "chat_role_length": {
-                "name": "Admin/user tag length",
+                "name": "管理员/用户标签长度",
                 "hint": "",
                 "text": "最多 16 个字符"
             },
@@ -1023,7 +1023,7 @@
             "cooldown_before_ton_withdrawal": {
                 "name": "Cooldown before TON withdrawal",
                 "hint": "via Fragment.com",
-                "text": "2 days"
+                "text": "2 天"
             }
         }
     },
@@ -1142,16 +1142,16 @@
         }
     },
     "ai_editor": {
-        "name": "AI Editor",
+        "name": "AI 编辑器",
         "items": {
             "maximum_style_numbers": {
                 "name": "Maximum style numbers",
-                "hint": "In AI Editor",
+                "hint": "AI 编辑器中",
                 "text": "20"
             },
             "style_title_length": {
-                "name": "Style title length",
-                "text": "12 characters"
+                "name": "故事标题长度",
+                "text": "12 个字符"
             }
         }
     }

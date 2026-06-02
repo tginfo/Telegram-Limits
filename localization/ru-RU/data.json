@@ -116,6 +116,10 @@
                 "name": "Количество бизнес-ссылок на чат",
                 "hint": "с заданным текстом сообщения",
                 "text_premium": "до 100 ссылок"
+            },
+            "birthday_setchange": {
+                "name": "Birthday set/change",
+                "text": "3 per week"
             }
         }
     },

@@ -941,25 +941,26 @@
     "gifts": {
         "name": "الهدايا والنجوم",
         "items": {
-            "minimum_gift_upgrade_price": {
-                "name": "الحد الأدنى لسعر ترقية الهدية",
-                "text": "25 نجمة"
+            "maximum_period_convert_received_gift_stars": {
+                "name": "المدة القصوى لتحويل الهدية المستلمة إلى نجوم",
+                "text": "7 أيام"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars from new session",
+                "text": "7 أيام"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Cooldown before gift can be transferred to another user",
+                "text": "21 يومًا",
+                "hint": "if gift was bought with stars which were bought with fiat currency"
+            },
+            "length_message_attached_gift": {
+                "name": "طول الرسالة المرفقة بالهدية",
+                "text": "ما يصل إلى 128 حرفًا"
             },
             "maximum_pinned_gifts_amount": {
                 "name": "الحد الأقصى لعدد الهدايا المثبتة",
                 "text": "6"
-            },
-            "maximum_gifttostars_exchange_term": {
-                "name": "الانتظار قبل أن يمكن تحويل الهدية إلى نجوم",
-                "text": "7 أيام"
-            },
-            "minimum_term_stars_ownership_withdraw": {
-                "name": "المدة التي لا يمكن بعدها تحويل الهدايا إلى نجوم",
-                "text": "21 يومًا"
-            },
-            "minimum_stars_amount_withdraw": {
-                "name": "الحد الأدنى لمبلغ النجوم للسحب",
-                "text": "10000 نجمة"
             },
             "gift_collections_users_profile": {
                 "name": "مجموعات الهدايا في الملف الشخصي للمستخدم",
@@ -969,51 +970,51 @@
                 "name": "عدد الهدايا في أي مجموعة",
                 "text": "500 هدية كحدّ أقصى"
             },
-            "maximum_period_convert_received_gift_stars": {
-                "name": "المدة القصوى لتحويل الهدية المستلمة إلى نجوم",
-                "text": "7 أيام"
+            "resale_price_collectible_gifts": {
+                "name": "سعر إعادة البيع للهدايا القابلة للتحصيل",
+                "hint": "بالنجوم",
+                "text": "من 125 إلى 100,000 نجمة"
             },
-            "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "عدد النجوم التي يمكن سحبها في المحادثات والقنوات",
-                "text": "من 1,000 نجمة حتى 25,000,000 نجمة"
-            },
-            "price_paid_media_post": {
-                "name": "سعر الوسائط المدفوعة في المنشور",
-                "text": "من 1 إلى 25,000 نجمة"
+            "minimum_gift_upgrade_price": {
+                "name": "الحد الأدنى لسعر ترقية الهدية",
+                "text": "20% of gift price"
             },
             "paid_reaction_transaction_amount": {
                 "name": "مبلغ الحوالة للتفاعلات المدفوعة",
                 "text": "من 1 إلى 10,000 نجمة"
             },
-            "length_message_attached_gift": {
-                "name": "طول الرسالة المرفقة بالهدية",
-                "text": "ما يصل إلى 128 حرفًا"
+            "price_paid_media_post": {
+                "name": "سعر الوسائط المدفوعة في المنشور",
+                "text": "من 1 إلى 25,000 نجمة"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "الحد الأدنى لمبلغ النجوم للسحب",
+                "text": "10000 نجمة"
+            },
+            "price_paid_message": {
+                "name": "سعر الرسالة الخاصة المدفوعة",
+                "text": "from 1 to 35,000 stars"
+            },
+            "price_suggested_channel_message": {
+                "name": "السعر لرسالة قناة مقترحة",
+                "text": "Free, or from 2 to 35,000 stars"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "عدد النجوم التي يمكن سحبها في المحادثات والقنوات",
+                "text": "من 1,000 نجمة حتى 25,000,000 نجمة"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "النسب المئوية لحصة الإيرادات المسموح بها في البرامج المنتسبة",
                 "hint": "لكل مستخدم تمت إحالته",
                 "text": "من 0.1% إلى 80%"
             },
-            "price_paid_message": {
-                "name": "سعر الرسالة الخاصة المدفوعة",
-                "text": "من 1 إلى 10,000 نجمة"
-            },
-            "resale_price_collectible_gifts": {
-                "name": "سعر إعادة البيع للهدايا القابلة للتحصيل",
-                "hint": "بالنجوم",
-                "text": "من 125 إلى 100,000 نجمة"
-            },
             "resale_price_collectible_gifts_ton": {
                 "name": "سعر إعادة البيع للهدايا القابلة للتحصيل",
                 "hint": "بعملة TON",
                 "text": "من 7 TON إلى 100,000 TON"
             },
-            "price_suggested_channel_message": {
-                "name": "السعر لرسالة قناة مقترحة",
-                "text": "مجاناً، أو من 5 إلى 100,000 نجمة"
-            },
             "guaranteed_duration_paid_message": {
-                "name": "المدة المضمونة للمنشور المدفوع",
+                "name": "Minimal guaranteed duration of a paid post",
                 "text": "24 ساعة"
             },
             "paid_post_scheduling_timeframe": {
@@ -1023,6 +1024,10 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "سعر المنشور المدفوع بعملة TON",
                 "text": "من 0.01 TON إلى 10,000 TON"
+            },
+            "minimal_ton_value_withdrawal_from_account": {
+                "name": "Minimal TON value for withdrawal from account",
+                "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
                 "name": "مدّة التبريد قبل سحب TON",

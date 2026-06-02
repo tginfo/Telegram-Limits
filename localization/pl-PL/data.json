@@ -941,25 +941,26 @@
     "gifts": {
         "name": "Prezenty i Gwiazdki",
         "items": {
-            "minimum_gift_upgrade_price": {
-                "name": "Minimalna cena ulepszenia prezentu",
-                "text": "25 Gwiazdek"
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Maksymalny okres wymiany otrzymanego prezentu na Gwiazdki",
+                "text": "7 dni"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars from new session",
+                "text": "7 dni"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Cooldown before gift can be transferred to another user",
+                "text": "21 dni",
+                "hint": "if gift was bought with stars which were bought with fiat currency"
+            },
+            "length_message_attached_gift": {
+                "name": "Długość wiadomości dołączonej do prezentu",
+                "text": "do 128 znaków"
             },
             "maximum_pinned_gifts_amount": {
                 "name": "Maksymalna liczba przypiętych prezentów",
                 "text": "6"
-            },
-            "maximum_gifttostars_exchange_term": {
-                "name": "Zamrożenie przed zamianą prezentu na Gwiazdki",
-                "text": "7 dni"
-            },
-            "minimum_term_stars_ownership_withdraw": {
-                "name": "Termin, po którym prezentów nie można wymienić na Gwiazdki",
-                "text": "21 dni"
-            },
-            "minimum_stars_amount_withdraw": {
-                "name": "Minimalna liczba Gwiazdek do wypłaty",
-                "text": "1000 Gwiazdek"
             },
             "gift_collections_users_profile": {
                 "name": "Kolekcje prezentów w profilu użytkownika",
@@ -969,51 +970,51 @@
                 "name": "Liczba prezentów w kolekcji",
                 "text": "do 500 prezentów"
             },
-            "maximum_period_convert_received_gift_stars": {
-                "name": "Maksymalny okres wymiany otrzymanego prezentu na Gwiazdki",
-                "text": "7 dni"
+            "resale_price_collectible_gifts": {
+                "name": "Cena odsprzedaży prezentów kolekcjonerskich",
+                "hint": "w Gwiazdkach",
+                "text": "od 125 do 100 000 Gwiazdek"
             },
-            "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Liczba Gwiazdek, które można wycofać na czatach i kanałach",
-                "text": "od 1 000 do 25 000 000 Gwiazdek"
-            },
-            "price_paid_media_post": {
-                "name": "Cena płatnych multimediów we wpisie",
-                "text": "od 1 do 25 000 Gwiazdek"
+            "minimum_gift_upgrade_price": {
+                "name": "Minimalna cena ulepszenia prezentu",
+                "text": "20% of gift price"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Kwota transakcji płatnej reakcji",
                 "text": "od 1 do 10 000 Gwiazdek"
             },
-            "length_message_attached_gift": {
-                "name": "Długość wiadomości dołączonej do prezentu",
-                "text": "do 128 znaków"
+            "price_paid_media_post": {
+                "name": "Cena płatnych multimediów we wpisie",
+                "text": "od 1 do 25 000 Gwiazdek"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "Minimalna liczba Gwiazdek do wypłaty",
+                "text": "1000 Gwiazdek"
+            },
+            "price_paid_message": {
+                "name": "Cena prywatnej płatnej wiadomości",
+                "text": "from 1 to 35,000 stars"
+            },
+            "price_suggested_channel_message": {
+                "name": "Cena proponowanej wiadomości na kanale",
+                "text": "Free, or from 2 to 35,000 stars"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "Liczba Gwiazdek, które można wycofać na czatach i kanałach",
+                "text": "od 1 000 do 25 000 000 Gwiazdek"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Dozwolony procent udziału w przychodach w programach partnerskich",
                 "hint": "na poleconego użytkownika",
                 "text": "od 0,1% do 80%"
             },
-            "price_paid_message": {
-                "name": "Cena prywatnej płatnej wiadomości",
-                "text": "od 1 do 10 000 Gwiazdek"
-            },
-            "resale_price_collectible_gifts": {
-                "name": "Cena odsprzedaży prezentów kolekcjonerskich",
-                "hint": "w Gwiazdkach",
-                "text": "od 125 do 100 000 Gwiazdek"
-            },
             "resale_price_collectible_gifts_ton": {
                 "name": "Cena odsprzedaży prezentów kolekcjonerskich",
                 "hint": "w TON",
                 "text": "od 7 do 100 000 TON"
             },
-            "price_suggested_channel_message": {
-                "name": "Cena proponowanej wiadomości na kanale",
-                "text": "Bezpłatna lub od 5 do 100 000 Gwiazdek"
-            },
             "guaranteed_duration_paid_message": {
-                "name": "Gwarantowany czas trwania płatnego wpisu",
+                "name": "Minimal guaranteed duration of a paid post",
                 "text": "24 godziny"
             },
             "paid_post_scheduling_timeframe": {
@@ -1023,6 +1024,10 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "Cena płatnego wpisu w kryptowalucie TON",
                 "text": "od 0,01 do 10 000 TON"
+            },
+            "minimal_ton_value_withdrawal_from_account": {
+                "name": "Minimal TON value for withdrawal from account",
+                "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
                 "name": "Zamrożenie przed wypłatą TON",

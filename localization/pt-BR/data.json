@@ -941,25 +941,26 @@
     "gifts": {
         "name": "Presentes e Estrelas",
         "items": {
-            "minimum_gift_upgrade_price": {
-                "name": "Preço mínimo de uma melhoria de presente",
-                "text": "25 estrelas"
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Período máximo para converter presentes recebidos em estrelas",
+                "text": "7 dias"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars from new session",
+                "text": "7 dias"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Cooldown before gift can be transferred to another user",
+                "text": "21 dias",
+                "hint": "if gift was bought with stars which were bought with fiat currency"
+            },
+            "length_message_attached_gift": {
+                "name": "Comprimento de uma mensagem anexada a um presente",
+                "text": "até 128 caracteres"
             },
             "maximum_pinned_gifts_amount": {
                 "name": "Número máximo de presentes fixados",
                 "text": "6"
-            },
-            "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown antes do presente poder ser convertido em estrelas",
-                "text": "7 dias"
-            },
-            "minimum_term_stars_ownership_withdraw": {
-                "name": "Tempo após o qual o presente não pode ser convertido em estrelas",
-                "text": "21 dias"
-            },
-            "minimum_stars_amount_withdraw": {
-                "name": "Mínima quantia de estrelas para saque",
-                "text": "1000 estrelas"
             },
             "gift_collections_users_profile": {
                 "name": "Coleções de presente no perfil do usuário",
@@ -969,51 +970,51 @@
                 "name": "Número de presentes em uma coleção",
                 "text": "até 500 presentes"
             },
-            "maximum_period_convert_received_gift_stars": {
-                "name": "Período máximo para converter presentes recebidos em estrelas",
-                "text": "7 dias"
+            "resale_price_collectible_gifts": {
+                "name": "Preço de sequência para presentes colecionáveis",
+                "hint": "em estrelas",
+                "text": "de 125 a 100.000 estrelas"
             },
-            "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Número de estrelas que podem ser sacadas em conversas e canais",
-                "text": "de 1.000 estrelas para 25.000.000 estrelas"
-            },
-            "price_paid_media_post": {
-                "name": "Preço para mídia paga em uma postagem",
-                "text": "de 1 a 25.000 estrelas"
+            "minimum_gift_upgrade_price": {
+                "name": "Preço mínimo de uma melhoria de presente",
+                "text": "20% of gift price"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Valor máximo da reação paga",
                 "text": "de 1 a 10.000 estrelas"
             },
-            "length_message_attached_gift": {
-                "name": "Comprimento de uma mensagem anexada a um presente",
-                "text": "até 128 caracteres"
+            "price_paid_media_post": {
+                "name": "Preço para mídia paga em uma postagem",
+                "text": "de 1 a 25.000 estrelas"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "Mínima quantia de estrelas para saque",
+                "text": "1000 estrelas"
+            },
+            "price_paid_message": {
+                "name": "Preço para uma mensagem privada paga",
+                "text": "from 1 to 35,000 stars"
+            },
+            "price_suggested_channel_message": {
+                "name": "Preço para sugerir uma mensagem em um canal",
+                "text": "Free, or from 2 to 35,000 stars"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "Número de estrelas que podem ser sacadas em conversas e canais",
+                "text": "de 1.000 estrelas para 25.000.000 estrelas"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Porcentagens de participação de receita permitidas nos programas de afiliados",
                 "hint": "por usuário indicado",
                 "text": "de 0,1% para 80%"
             },
-            "price_paid_message": {
-                "name": "Preço para uma mensagem privada paga",
-                "text": "de 1 a 10.000 estrelas"
-            },
-            "resale_price_collectible_gifts": {
-                "name": "Preço de sequência para presentes colecionáveis",
-                "hint": "em estrelas",
-                "text": "de 125 a 100.000 estrelas"
-            },
             "resale_price_collectible_gifts_ton": {
                 "name": "Preço de revenda para presentes colecionáveis",
                 "hint": "em TON",
                 "text": "de 7 TON a 100.000 TON"
             },
-            "price_suggested_channel_message": {
-                "name": "Preço para sugerir uma mensagem em um canal",
-                "text": "Grátis, de 5 a 100.000 estrelas"
-            },
             "guaranteed_duration_paid_message": {
-                "name": "Duração garantida de uma postagem paga",
+                "name": "Minimal guaranteed duration of a paid post",
                 "text": "24 horas"
             },
             "paid_post_scheduling_timeframe": {
@@ -1023,6 +1024,10 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "Preço por uma publicação paga em criptomoeda TON",
                 "text": "de 0.01 TON para 10.000 TON"
+            },
+            "minimal_ton_value_withdrawal_from_account": {
+                "name": "Minimal TON value for withdrawal from account",
+                "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
                 "name": "Cooldown antes do saque de TON",

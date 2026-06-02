@@ -941,25 +941,26 @@
     "gifts": {
         "name": "Подарки и звёзды",
         "items": {
-            "minimum_gift_upgrade_price": {
-                "name": "Минимальная цена за апгрейд подарка",
-                "text": "25 звёзд"
+            "maximum_period_convert_received_gift_stars": {
+                "name": "Срок, в течение которого можно обменять полученный подарок на звёзды",
+                "text": "7 суток"
+            },
+            "maximum_gifttostars_exchange_term": {
+                "name": "Cooldown before gift can be converted into stars from new session",
+                "text": "7 дней"
+            },
+            "minimum_term_stars_ownership_withdraw": {
+                "name": "Cooldown before gift can be transferred to another user",
+                "text": "21 день",
+                "hint": "if gift was bought with stars which were bought with fiat currency"
+            },
+            "length_message_attached_gift": {
+                "name": "Длина сообщения, прикреплённого к подарку",
+                "text": "до 128 символов"
             },
             "maximum_pinned_gifts_amount": {
                 "name": "Максимальное количество закреплённых подарков",
                 "text": "6"
-            },
-            "maximum_gifttostars_exchange_term": {
-                "name": "Время ожидания перед тем, как подарок можно будет обменять на звёзды",
-                "text": "7 дней"
-            },
-            "minimum_term_stars_ownership_withdraw": {
-                "name": "Срок, после которого подарок нельзя обменять на звёзды",
-                "text": "21 день"
-            },
-            "minimum_stars_amount_withdraw": {
-                "name": "Минимальная сумма звёзд для вывода",
-                "text": "1 000 звёзд"
             },
             "gift_collections_users_profile": {
                 "name": "Максимальное количество коллекций подарков в профиле",
@@ -969,51 +970,51 @@
                 "name": "Количество подарков в коллекции",
                 "text": "до 500 подарков"
             },
-            "maximum_period_convert_received_gift_stars": {
-                "name": "Срок, в течение которого можно обменять полученный подарок на звёзды",
-                "text": "7 суток"
+            "resale_price_collectible_gifts": {
+                "name": "Цена на перепродажу коллекционных подарков",
+                "hint": "в звёздах",
+                "text": "от 125 до 100 000 звёзд"
             },
-            "number_stars_that_can_be_withdrawn_chats_channels": {
-                "name": "Количество звёзд, которые можно снять с баланса чата или бота",
-                "text": "от 1 000 звёзд до 25 000 000 звёзд"
-            },
-            "price_paid_media_post": {
-                "name": "Цена за платные медиа в посте",
-                "text": "от 1 до 25 000 звёзд"
+            "minimum_gift_upgrade_price": {
+                "name": "Минимальная цена за апгрейд подарка",
+                "text": "20% of gift price"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Сумма перевода через платные реакции",
                 "text": "от 1 до 10 000 звёзд"
             },
-            "length_message_attached_gift": {
-                "name": "Длина сообщения, прикреплённого к подарку",
-                "text": "до 128 символов"
+            "price_paid_media_post": {
+                "name": "Цена за платные медиа в посте",
+                "text": "от 1 до 25 000 звёзд"
+            },
+            "minimum_stars_amount_withdraw": {
+                "name": "Минимальная сумма звёзд для вывода",
+                "text": "1 000 звёзд"
+            },
+            "price_paid_message": {
+                "name": "Цена за личное платное сообщение",
+                "text": "from 1 to 35,000 stars"
+            },
+            "price_suggested_channel_message": {
+                "name": "Цена за предлагаемое сообщение в канал",
+                "text": "Free, or from 2 to 35,000 stars"
+            },
+            "number_stars_that_can_be_withdrawn_chats_channels": {
+                "name": "Количество звёзд, которые можно снять с баланса чата или бота",
+                "text": "от 1 000 звёзд до 25 000 000 звёзд"
             },
             "allowed_payouts_affiliate_programs": {
                 "name": "Допустимые проценты доли доходов в партнерских программах",
                 "hint": "на пользователя",
                 "text": "от 0.1% до 80%"
             },
-            "price_paid_message": {
-                "name": "Цена за личное платное сообщение",
-                "text": "от 1 до 10 000 звёзд"
-            },
-            "resale_price_collectible_gifts": {
-                "name": "Цена на перепродажу коллекционных подарков",
-                "hint": "в звёздах",
-                "text": "от 125 до 100 000 звёзд"
-            },
             "resale_price_collectible_gifts_ton": {
                 "name": "Цена на перепродажу коллекционных подарков",
                 "hint": "в TON",
                 "text": "от 7 TON до 100 000 TON"
             },
-            "price_suggested_channel_message": {
-                "name": "Цена за предлагаемое сообщение в канал",
-                "text": "Бесплатно или от 5 до 100 000 звёзд"
-            },
             "guaranteed_duration_paid_message": {
-                "name": "Гарантированный срок не удаления платного поста",
+                "name": "Minimal guaranteed duration of a paid post",
                 "text": "24 часа"
             },
             "paid_post_scheduling_timeframe": {
@@ -1023,6 +1024,10 @@
             "price_paid_post_ton_cryptocurrency": {
                 "name": "Цена за платный пост в криптовалюте TON",
                 "text": "от 0.01 TON до 10 000 TON"
+            },
+            "minimal_ton_value_withdrawal_from_account": {
+                "name": "Minimal TON value for withdrawal from account",
+                "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {
                 "name": "Период ожидания перед выводом TON",

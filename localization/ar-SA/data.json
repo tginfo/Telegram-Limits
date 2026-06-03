@@ -782,6 +782,10 @@
                 "name": "عدد ملصقات التفاعل",
                 "text": "تفاعل واحد فقط",
                 "text_premium": "5 تفاعلات كحدّ أقصى"
+            },
+            "pinned_stories": {
+                "name": "Pinned stories",
+                "text": "3"
             }
         }
     },

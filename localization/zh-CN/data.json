@@ -185,7 +185,7 @@
             "participants_to_see_stats": {
                 "name": "查看统计数据所需的成员数量",
                 "hint": "",
-                "text": "至少 500"
+                "text": "至少 500 位成员"
             },
             "username_reservation": {
                 "name": "更改用户名后保留时长",
@@ -236,7 +236,7 @@
                 "text": "最多 100 个"
             },
             "number_members_aggressive_antispam_availability": {
-                "name": "侵略反垃圾邮件所需成员数",
+                "name": "积极反垃圾邮件所需成员数",
                 "text": "至少 200 名成员"
             }
         }
@@ -277,7 +277,7 @@
             "video_chat_viewers": {
                 "name": "视频聊天的观众数",
                 "hint": "",
-                "text": "官方声称为“不限”；实际测试中，观众达到约 2,000 时，直播流可能会变得不稳定。"
+                "text": "官方声称为“不限”；实测发现，约 2,000 人同时观看时直播流开始不稳定"
             },
             "voice_chat_title_length": {
                 "name": "语音聊天标题长度",
@@ -1159,7 +1159,7 @@
                 "text": "20"
             },
             "style_title_length": {
-                "name": "故事标题长度",
+                "name": "风格标题长度",
                 "text": "12 个字符"
             }
         }

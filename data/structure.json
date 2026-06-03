@@ -661,6 +661,10 @@
             {
                 "id": "number_reaction_stickers",
                 "icon": "add_reaction"
+            },
+            {
+                "id": "pinned_stories",
+                "icon": "push_pin"
             }
         ]
     },

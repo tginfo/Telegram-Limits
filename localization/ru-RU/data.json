@@ -782,6 +782,10 @@
                 "name": "Количество стикеров-реакций",
                 "text": "только 1 реакция",
                 "text_premium": "до 5 реакций"
+            },
+            "pinned_stories": {
+                "name": "Pinned stories",
+                "text": "3"
             }
         }
     },

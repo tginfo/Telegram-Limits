@@ -782,6 +782,10 @@
                 "name": "表态贴纸数量",
                 "text": "仅 1 个表态",
                 "text_premium": "最多 5 个表态"
+            },
+            "pinned_stories": {
+                "name": "Pinned stories",
+                "text": "3"
             }
         }
     },

@@ -782,6 +782,10 @@
                 "name": "Liczba naklejek reakcyjnych",
                 "text": "tylko 1 reakcja",
                 "text_premium": "do 5 reakcji"
+            },
+            "pinned_stories": {
+                "name": "Pinned stories",
+                "text": "3"
             }
         }
     },

@@ -782,6 +782,10 @@
                 "name": "Número de adesivos de reações",
                 "text": "apenas 1 reação",
                 "text_premium": "até 5 reações"
+            },
+            "pinned_stories": {
+                "name": "Pinned stories",
+                "text": "3"
             }
         }
     },

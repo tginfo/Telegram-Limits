@@ -782,6 +782,10 @@
                 "name": "Number of reaction stickers",
                 "text": "only 1 reaction",
                 "text_premium": "up to 5 reactions"
+            },
+            "pinned_stories": {
+                "name": "Pinned stories",
+                "text": "up to 3"
             }
         }
     },

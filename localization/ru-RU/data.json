@@ -118,8 +118,8 @@
                 "text_premium": "до 100 ссылок"
             },
             "birthday_setchange": {
-                "name": "Birthday set/change",
-                "text": "3 per week"
+                "name": "Изменение даты рождения",
+                "text": "3 в неделю"
             }
         }
     },
@@ -946,13 +946,13 @@
                 "text": "7 суток"
             },
             "maximum_gifttostars_exchange_term": {
-                "name": "Cooldown before gift can be converted into stars from new session",
+                "name": "Время ожидания перед тем, как подарок можно обменять на звёзды из нового сеанса",
                 "text": "7 дней"
             },
             "minimum_term_stars_ownership_withdraw": {
-                "name": "Cooldown before gift can be transferred to another user",
+                "name": "Время ожидания перед тем, как подарок может быть передан другому пользователю",
                 "text": "21 день",
-                "hint": "if gift was bought with stars which were bought with fiat currency"
+                "hint": "если подарок приобретён за здёзды, оплаченные фиатной валютой"
             },
             "length_message_attached_gift": {
                 "name": "Длина сообщения, прикреплённого к подарку",
@@ -977,7 +977,7 @@
             },
             "minimum_gift_upgrade_price": {
                 "name": "Минимальная цена за апгрейд подарка",
-                "text": "20% of gift price"
+                "text": "20% от цены подарка"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Сумма перевода через платные реакции",
@@ -993,11 +993,11 @@
             },
             "price_paid_message": {
                 "name": "Цена за личное платное сообщение",
-                "text": "from 1 to 35,000 stars"
+                "text": "от 1 до 35000 звёзд"
             },
             "price_suggested_channel_message": {
                 "name": "Цена за предлагаемое сообщение в канал",
-                "text": "Free, or from 2 to 35,000 stars"
+                "text": "Бесплатно, или от 2 до 35000 звёзд"
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
                 "name": "Количество звёзд, которые можно снять с баланса чата или бота",
@@ -1014,7 +1014,7 @@
                 "text": "от 7 TON до 100 000 TON"
             },
             "guaranteed_duration_paid_message": {
-                "name": "Minimal guaranteed duration of a paid post",
+                "name": "Гарантированный срок неудаления платного поста",
                 "text": "24 часа"
             },
             "paid_post_scheduling_timeframe": {
@@ -1026,7 +1026,7 @@
                 "text": "от 0.01 TON до 10 000 TON"
             },
             "minimal_ton_value_withdrawal_from_account": {
-                "name": "Minimal TON value for withdrawal from account",
+                "name": "Минимальное количество TON, которое можно вывести с аккаунта",
                 "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {

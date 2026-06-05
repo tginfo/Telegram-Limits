@@ -118,8 +118,8 @@
                 "text_premium": "até 100 links"
             },
             "birthday_setchange": {
-                "name": "Birthday set/change",
-                "text": "3 per week"
+                "name": "Definir/mudança de aniversário",
+                "text": "3 por semana"
             }
         }
     },
@@ -784,7 +784,7 @@
                 "text_premium": "até 5 reações"
             },
             "pinned_stories": {
-                "name": "Pinned stories",
+                "name": "Stories fixados",
                 "text": "3"
             }
         }
@@ -981,7 +981,7 @@
             },
             "minimum_gift_upgrade_price": {
                 "name": "Preço mínimo de uma melhoria de presente",
-                "text": "20% of gift price"
+                "text": "20% do preço do presente"
             },
             "paid_reaction_transaction_amount": {
                 "name": "Valor máximo da reação paga",
@@ -997,11 +997,11 @@
             },
             "price_paid_message": {
                 "name": "Preço para uma mensagem privada paga",
-                "text": "from 1 to 35,000 stars"
+                "text": "de 1 a 35.000 estrelas"
             },
             "price_suggested_channel_message": {
                 "name": "Preço para sugerir uma mensagem em um canal",
-                "text": "Free, or from 2 to 35,000 stars"
+                "text": "Grátis, de 2 a 35.000 estrelas"
             },
             "number_stars_that_can_be_withdrawn_chats_channels": {
                 "name": "Número de estrelas que podem ser sacadas em conversas e canais",
@@ -1018,7 +1018,7 @@
                 "text": "de 7 TON a 100.000 TON"
             },
             "guaranteed_duration_paid_message": {
-                "name": "Minimal guaranteed duration of a paid post",
+                "name": "Duração mínima garantida de uma publicação paga",
                 "text": "24 horas"
             },
             "paid_post_scheduling_timeframe": {
@@ -1030,7 +1030,7 @@
                 "text": "de 0.01 TON para 10.000 TON"
             },
             "minimal_ton_value_withdrawal_from_account": {
-                "name": "Minimal TON value for withdrawal from account",
+                "name": "Valor TON mínimo para retirada da conta",
                 "text": "10 TON"
             },
             "cooldown_before_ton_withdrawal": {

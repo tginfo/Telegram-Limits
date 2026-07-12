@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Lunghezza di un messaggio",
                 "hint": "",
-                "text": "fino a 4,096 caratteri"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Didascalia dei media",

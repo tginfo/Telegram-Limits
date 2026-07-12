@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Panjang sebuah pesan",
                 "hint": "",
-                "text": "hingga 4.096 karakter"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Keterangan Media",

@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Длина одного сообщения",
                 "hint": "",
-                "text": "до 4 096 символов"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Описание к медиафайлам",

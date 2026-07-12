@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Tek mesaj uzunluğu",
                 "hint": "",
-                "text": "4,096 karaktere kadar"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Medya açıklaması",

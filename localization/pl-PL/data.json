@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Długość jednej wiadomości",
                 "hint": "",
-                "text": "do 4096 znaków"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Opis plików multimedialnych",

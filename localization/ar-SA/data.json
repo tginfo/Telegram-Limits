@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "طول الرسالة الواحدة",
                 "hint": "",
-                "text": "٤٠٩٦ حرفاً"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "وصف الوسائط",

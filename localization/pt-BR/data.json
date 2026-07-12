@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Tamanho de uma mensagem",
                 "hint": "",
-                "text": "até 4.096 caracteres"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Legendas de mídia",

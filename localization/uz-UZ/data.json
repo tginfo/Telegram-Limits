@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Bitta xabar uzunligi",
                 "hint": "",
-                "text": "4,096 tagacha belgi"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Medialar uchun izoh",

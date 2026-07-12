@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Bir mesajın uzunluğu",
                 "hint": "",
-                "text": "4,096 simvola qədər"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Media açıqlaması",

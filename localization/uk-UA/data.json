@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Довжина одного повідомлення",
                 "hint": "",
-                "text": "до 4,096 символів"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Опис у медіа",

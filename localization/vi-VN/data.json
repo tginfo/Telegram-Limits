@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "One message length",
                 "hint": "",
-                "text": "up to 4,096 characters"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Media captions",

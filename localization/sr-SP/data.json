@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "Дужина једне поруке",
                 "hint": "",
-                "text": "до 4096 знакова"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "Опис медија",

@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "درێژیی یەک پەیام",
                 "hint": "",
-                "text": "تا 4,096 نووسە"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "ژێرنووسی ڕەنگاڵەکان",

@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "單一訊息長度",
                 "hint": "",
-                "text": "最多 4,096 個字元"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "圖片與影片說明",

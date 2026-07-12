@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "אורך הודעה אחת",
                 "hint": "",
-                "text": "עד 4,096 תווים"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "כתוביות על מדיה",

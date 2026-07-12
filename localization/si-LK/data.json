@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "එක් පණිවිඩයක දිග",
                 "hint": "",
-                "text": "අක්ෂර 4,096 ක් දක්වා"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "ඡායාරූප සටහන",

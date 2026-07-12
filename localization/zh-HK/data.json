@@ -405,7 +405,7 @@
             "single_message_length": {
                 "name": "字數上限",
                 "hint": "",
-                "text": "最多 4,096 個字"
+                "text": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "附件描述",

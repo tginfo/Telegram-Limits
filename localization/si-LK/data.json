@@ -405,7 +405,8 @@
             "single_message_length": {
                 "name": "එක් පණිවිඩයක දිග",
                 "hint": "",
-                "text": "up to 8,192 characters"
+                "text": "up to 4,096 characters",
+                "text_premium": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "ඡායාරූප සටහන",

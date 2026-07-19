@@ -405,7 +405,8 @@
             "single_message_length": {
                 "name": "ஒரு தகவலின் நீளம்",
                 "hint": "",
-                "text": "up to 8,192 characters"
+                "text": "up to 4,096 characters",
+                "text_premium": "up to 8,192 characters"
             },
             "media_descriptions": {
                 "name": "ஒலியொளிக் குறிப்பு",

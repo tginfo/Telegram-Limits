@@ -1023,5 +1023,28 @@
                 "icon": "drive_file_rename_outline"
             }
         ]
+    },
+    {
+        "id": "articles",
+        "icon": "note_alt",
+        "color": "188, 245, 66",
+        "items": [
+            {
+                "id": "length",
+                "icon": "format_color_text"
+            },
+            {
+                "id": "blocks",
+                "icon": "reorder"
+            },
+            {
+                "id": "nested_formatting_levels",
+                "icon": "format_indent_increase"
+            },
+            {
+                "id": "media",
+                "icon": "image"
+            }
+        ]
     }
 ]

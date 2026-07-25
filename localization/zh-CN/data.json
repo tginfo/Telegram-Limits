@@ -1168,5 +1168,29 @@
                 "text": "12 个字符"
             }
         }
+    },
+    "articles": {
+        "name": "Articles",
+        "items": {
+            "length": {
+                "name": "Length",
+                "text": "32,768 UTF-8 characters"
+            },
+            "blocks": {
+                "name": "Blocks",
+                "hint": "(nested blocks, list items, ordered list items, table rows, quotation blocks, and details blocks, and so on)",
+                "text": "500"
+            },
+            "nested_formatting_levels": {
+                "name": "Nested formatting levels",
+                "hint": "(for lists)",
+                "text": "16"
+            },
+            "media": {
+                "name": "Media",
+                "hint": "images, videos, audio files",
+                "text": "50"
+            }
+        }
     }
 }

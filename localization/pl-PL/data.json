@@ -1170,25 +1170,25 @@
         }
     },
     "articles": {
-        "name": "Articles",
+        "name": "Artykuły",
         "items": {
             "length": {
-                "name": "Length",
-                "text": "32,768 UTF-8 characters"
+                "name": "Długość",
+                "text": "32 768 znaków UTF-8"
             },
             "blocks": {
-                "name": "Blocks",
-                "hint": "(nested blocks, list items, ordered list items, table rows, quotation blocks, and details blocks, and so on)",
+                "name": "Bloki",
+                "hint": "(zagnieżdżone bloki, listy elementów, uporządkowane listy elementów, wiersze tabeli, bloki cytowań i bloki szczegółów itd.)",
                 "text": "500"
             },
             "nested_formatting_levels": {
-                "name": "Nested formatting levels",
-                "hint": "(for lists)",
+                "name": "Poziomy zagnieżdżenia formatowania",
+                "hint": "(dla list)",
                 "text": "16"
             },
             "media": {
-                "name": "Media",
-                "hint": "images, videos, audio files",
+                "name": "Multimedia",
+                "hint": "zdjęcia, filmy, pliki audio",
                 "text": "50"
             }
         }

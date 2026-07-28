@@ -1170,25 +1170,25 @@
         }
     },
     "articles": {
-        "name": "Articles",
+        "name": "Articoli",
         "items": {
             "length": {
-                "name": "Length",
-                "text": "32,768 UTF-8 characters"
+                "name": "Lunghezza",
+                "text": "32.768 caratteri UTF-8"
             },
             "blocks": {
-                "name": "Blocks",
-                "hint": "(nested blocks, list items, ordered list items, table rows, quotation blocks, and details blocks, and so on)",
+                "name": "Blocchi",
+                "hint": "(blocchi annidati, elementi di lista, elementi di lista ordinati, righe di tabella, blocchi di citazione, e blocchi di dettagli e così via)",
                 "text": "500"
             },
             "nested_formatting_levels": {
-                "name": "Nested formatting levels",
-                "hint": "(for lists)",
+                "name": "Livelli formattazione annidati",
+                "hint": "(per lista)",
                 "text": "16"
             },
             "media": {
                 "name": "Media",
-                "hint": "images, videos, audio files",
+                "hint": "immagini, video, file audio",
                 "text": "50"
             }
         }

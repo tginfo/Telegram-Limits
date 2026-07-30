@@ -1170,25 +1170,25 @@
         }
     },
     "articles": {
-        "name": "Articles",
+        "name": "Статьи",
         "items": {
             "length": {
-                "name": "Length",
-                "text": "32,768 UTF-8 characters"
+                "name": "Длина",
+                "text": "32 768 символов в UTF-8"
             },
             "blocks": {
-                "name": "Blocks",
-                "hint": "(nested blocks, list items, ordered list items, table rows, quotation blocks, and details blocks, and so on)",
+                "name": "Блоки",
+                "hint": "(вложенные блоки, элементы списка, упорядоченные элементы списка, строки таблиц, кавычки и подробные блоки и так далее)",
                 "text": "500"
             },
             "nested_formatting_levels": {
-                "name": "Nested formatting levels",
-                "hint": "(for lists)",
+                "name": "Вложенные уровни форматирования",
+                "hint": "(для списков)",
                 "text": "16"
             },
             "media": {
-                "name": "Media",
-                "hint": "images, videos, audio files",
+                "name": "Мультимедиа",
+                "hint": "изображения, видео, аудио файлы",
                 "text": "50"
             }
         }

@@ -505,11 +505,6 @@
                 "hint": "",
                 "text": "1 do 255 znaków"
             },
-            "quiz_question_length": {
-                "name": "Długość pytania quizu",
-                "hint": "",
-                "text": "1 do 200 znaków"
-            },
             "poll_options_count": {
                 "name": "Ilość opcji ankiety",
                 "hint": "",
@@ -524,6 +519,19 @@
                 "name": "Maksymalna liczba krajów,",
                 "hint": "jeśli ankieta jest ograniczona geograficznie",
                 "text": "12"
+            },
+            "poll_description_length": {
+                "name": "Poll Description length",
+                "text": "4,096"
+            },
+            "poll_duration": {
+                "name": "Poll duration",
+                "text": "up to 30 days"
+            },
+            "countries": {
+                "name": "Countries",
+                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
+                "text": "up to 12"
             }
         }
     },
@@ -1190,6 +1198,10 @@
                 "name": "Multimedia",
                 "hint": "zdjęcia, filmy, pliki audio",
                 "text": "50"
+            },
+            "columns_table": {
+                "name": "Kolumny w tabeli",
+                "text": "20"
             }
         }
     }

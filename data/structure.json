@@ -1044,6 +1044,10 @@
             {
                 "id": "media",
                 "icon": "image"
+            },
+            {
+                "id": "columns_table",
+                "icon": "view_column"
             }
         ]
     }

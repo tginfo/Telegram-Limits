@@ -1190,6 +1190,10 @@
                 "name": "Media",
                 "hint": "images, videos, audio files",
                 "text": "50"
+            },
+            "columns_table": {
+                "name": "Columns in table",
+                "text": "20"
             }
         }
     }

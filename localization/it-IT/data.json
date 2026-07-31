@@ -505,11 +505,6 @@
                 "hint": "",
                 "text": "da 1 a 255 caratteri"
             },
-            "quiz_question_length": {
-                "name": "Lunghezza domanda quiz",
-                "hint": "",
-                "text": "da 1 a 200 caratteri"
-            },
             "poll_options_count": {
                 "name": "Numero opzioni sondaggio",
                 "hint": "",
@@ -524,6 +519,19 @@
                 "name": "Numero massimo di paesi",
                 "hint": "Se il sondaggio è limitato geograficamente",
                 "text": "12"
+            },
+            "poll_description_length": {
+                "name": "Poll Description length",
+                "text": "4,096"
+            },
+            "poll_duration": {
+                "name": "Poll duration",
+                "text": "up to 30 days"
+            },
+            "countries": {
+                "name": "Countries",
+                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
+                "text": "up to 12"
             }
         }
     },
@@ -1190,6 +1198,10 @@
                 "name": "Media",
                 "hint": "immagini, video, file audio",
                 "text": "50"
+            },
+            "columns_table": {
+                "name": "Colonne tabella",
+                "text": "20"
             }
         }
     }

@@ -505,11 +505,6 @@
                 "hint": "",
                 "text": "от 1 до 255 символов"
             },
-            "quiz_question_length": {
-                "name": "Длина заголовка Опроса",
-                "hint": "",
-                "text": "от 1 до 200 символов"
-            },
             "poll_options_count": {
                 "name": "Количество опций опроса",
                 "hint": "",
@@ -524,6 +519,19 @@
                 "name": "Максимальное количество стран",
                 "hint": "Если опрос ограничен по странам",
                 "text": "12"
+            },
+            "poll_description_length": {
+                "name": "Poll Description length",
+                "text": "4,096"
+            },
+            "poll_duration": {
+                "name": "Poll duration",
+                "text": "up to 30 days"
+            },
+            "countries": {
+                "name": "Countries",
+                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
+                "text": "up to 12"
             }
         }
     },
@@ -1190,6 +1198,10 @@
                 "name": "Мультимедиа",
                 "hint": "изображения, видео, аудио файлы",
                 "text": "50"
+            },
+            "columns_table": {
+                "name": "Columns in table",
+                "text": "20"
             }
         }
     }

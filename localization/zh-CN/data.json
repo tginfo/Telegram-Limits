@@ -505,11 +505,6 @@
                 "hint": "",
                 "text": "1 ~ 255 个字符"
             },
-            "quiz_question_length": {
-                "name": "测验问题长度",
-                "hint": "",
-                "text": "1 ~ 200 个字符"
-            },
             "poll_options_count": {
                 "name": "投票选项数量",
                 "hint": "",
@@ -524,6 +519,19 @@
                 "name": "最大国家/地区数量",
                 "hint": "对受地理位置限制的投票",
                 "text": "12"
+            },
+            "poll_description_length": {
+                "name": "Poll Description length",
+                "text": "4,096"
+            },
+            "poll_duration": {
+                "name": "Poll duration",
+                "text": "up to 30 days"
+            },
+            "countries": {
+                "name": "Countries",
+                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
+                "text": "up to 12"
             }
         }
     },
@@ -1190,6 +1198,10 @@
                 "name": "Media",
                 "hint": "images, videos, audio files",
                 "text": "50"
+            },
+            "columns_table": {
+                "name": "Columns in table",
+                "text": "20"
             }
         }
     }

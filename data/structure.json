@@ -431,8 +431,8 @@
                 "icon": "help_outline"
             },
             {
-                "id": "quiz_question_length",
-                "icon": "quiz"
+                "id": "poll_description_length",
+                "icon": "text_snippet"
             },
             {
                 "id": "poll_options_count",
@@ -445,6 +445,14 @@
             {
                 "id": "maximum_countries_number",
                 "icon": "add_location_alt"
+            },
+            {
+                "id": "poll_duration",
+                "icon": "access_time"
+            },
+            {
+                "id": "countries_voters",
+                "icon": "flag"
             }
         ]
     },

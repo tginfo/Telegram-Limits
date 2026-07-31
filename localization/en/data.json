@@ -505,10 +505,9 @@
                 "hint": "",
                 "text": "1 to 255 characters"
             },
-            "quiz_question_length": {
-                "name": "Quiz question length",
-                "hint": "",
-                "text": "1 to 200 characters"
+            "poll_description_length": {
+                "name": "Poll description length",
+                "text": "4096 characters"
             },
             "poll_options_count": {
                 "name": "Poll options count",
@@ -524,6 +523,15 @@
                 "name": "Maximum countries number",
                 "hint": "If poll is geo limited",
                 "text": "12"
+            },
+            "poll_duration": {
+                "name": "Poll duration",
+                "text": "up to 30 days"
+            },
+            "countries_voters": {
+                "name": "Countries of voters",
+                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
+                "text": "up t0 12"
             }
         }
     },

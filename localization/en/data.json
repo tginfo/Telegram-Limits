@@ -505,11 +505,6 @@
                 "hint": "",
                 "text": "1 to 255 characters"
             },
-            "quiz_question_length": {
-                "name": "Quiz question length",
-                "hint": "",
-                "text": "1 to 200 characters"
-            },
             "poll_options_count": {
                 "name": "Poll options count",
                 "hint": "",

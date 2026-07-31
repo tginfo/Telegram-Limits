@@ -431,10 +431,6 @@
                 "icon": "help_outline"
             },
             {
-                "id": "quiz_question_length",
-                "icon": "quiz"
-            },
-            {
                 "id": "poll_options_count",
                 "icon": "list_alt"
             },

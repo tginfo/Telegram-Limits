@@ -441,6 +441,18 @@
             {
                 "id": "maximum_countries_number",
                 "icon": "add_location_alt"
+            },
+            {
+                "id": "poll_description_length",
+                "icon": "text_snippet"
+            },
+            {
+                "id": "poll_duration",
+                "icon": "access_time_filled"
+            },
+            {
+                "id": "countries",
+                "icon": "flag"
             }
         ]
     },

@@ -521,17 +521,17 @@
                 "text": "12"
             },
             "poll_description_length": {
-                "name": "Poll Description length",
-                "text": "4,096"
+                "name": "Описание опроса",
+                "text": "4 096"
             },
             "poll_duration": {
-                "name": "Poll duration",
-                "text": "up to 30 days"
+                "name": "Длительность опроса",
+                "text": "до 30 суток"
             },
             "countries": {
-                "name": "Countries",
-                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
-                "text": "up to 12"
+                "name": "Количество стран участников опроса",
+                "hint": "(для опросов на каналах, если включено ограничение по странам голосующих)",
+                "text": "до 12"
             }
         }
     },
@@ -1200,7 +1200,7 @@
                 "text": "50"
             },
             "columns_table": {
-                "name": "Columns in table",
+                "name": "Количество столбцов в таблице",
                 "text": "20"
             }
         }

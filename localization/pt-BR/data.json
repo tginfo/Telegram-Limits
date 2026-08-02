@@ -238,6 +238,10 @@
             "number_members_aggressive_antispam_availability": {
                 "name": "Número de membros para usar o Antispam Agressivo",
                 "text": "pelo menos 200 membros"
+            },
+            "events_timetolive_recent_actions": {
+                "name": "Events time-to-live in Recent Actions",
+                "text": "48 hours"
             }
         }
     },
@@ -396,6 +400,10 @@
             "similar_channels_eligibility": {
                 "name": "Elegível para Canais Similares",
                 "text": "pelo menos 300 inscritos; a depender do conteúdo do canal"
+            },
+            "events_timetolive_recent_actions": {
+                "name": "Events time-to-live in Recent Actions",
+                "text": "48 hours"
             }
         }
     },

@@ -238,6 +238,10 @@
             "number_members_aggressive_antispam_availability": {
                 "name": "Количество участников для активного антиспам-фильтра",
                 "text": "не менее 200 участников"
+            },
+            "events_timetolive_recent_actions": {
+                "name": "Events time-to-live in Recent Actions",
+                "text": "48 hours"
             }
         }
     },
@@ -396,6 +400,10 @@
             "similar_channels_eligibility": {
                 "name": "Показ в секции «Похожие каналы»",
                 "text": "не менее 300 подписчиков; зависит от контента канала"
+            },
+            "events_timetolive_recent_actions": {
+                "name": "Events time-to-live in Recent Actions",
+                "text": "48 hours"
             }
         }
     },
@@ -526,7 +534,7 @@
             },
             "poll_duration": {
                 "name": "Длительность опроса",
-                "text": "до 30 суток"
+                "text": "до 30 дней"
             },
             "countries": {
                 "name": "Количество стран участников опроса",
@@ -956,7 +964,7 @@
         "items": {
             "maximum_period_convert_received_gift_stars": {
                 "name": "Срок, в течение которого можно обменять полученный подарок на звёзды",
-                "text": "7 суток"
+                "text": "7 дней"
             },
             "maximum_gifttostars_exchange_term": {
                 "name": "Время ожидания перед тем, как подарок можно обменять на звёзды из нового сеанса",
@@ -1045,7 +1053,7 @@
             "cooldown_before_ton_withdrawal": {
                 "name": "Период ожидания перед выводом TON",
                 "hint": "за продажу подарка, через Fragment.com",
-                "text": "2 суток"
+                "text": "2 дня"
             }
         }
     },

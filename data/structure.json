@@ -198,6 +198,10 @@
             {
                 "id": "number_members_aggressive_antispam_availability",
                 "icon": "gpp_good"
+            },
+            {
+                "id": "events_timetolive_recent_actions",
+                "icon": "access_time_filled"
             }
         ]
     },
@@ -339,6 +343,10 @@
             {
                 "id": "similar_channels_eligibility",
                 "icon": "hub"
+            },
+            {
+                "id": "events_timetolive_recent_actions",
+                "icon": "access_time_filled"
             }
         ]
     },

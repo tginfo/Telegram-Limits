@@ -238,6 +238,10 @@
             "number_members_aggressive_antispam_availability": {
                 "name": "Number of members for Aggressive Anti-Spam availability",
                 "text": "at least 200 members"
+            },
+            "events_timetolive_recent_actions": {
+                "name": "Events time-to-live in Recent Actions",
+                "text": "48 hours"
             }
         }
     },
@@ -396,6 +400,10 @@
             "similar_channels_eligibility": {
                 "name": "Similar Channels eligibility",
                 "text": "at least 300 subscribers; depends on channel content"
+            },
+            "events_timetolive_recent_actions": {
+                "name": "Events time-to-live in Recent Actions",
+                "text": "48 hours"
             }
         }
     },

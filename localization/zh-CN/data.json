@@ -238,6 +238,10 @@
             "number_members_aggressive_antispam_availability": {
                 "name": "积极反垃圾邮件所需成员数",
                 "text": "至少 200 名成员"
+            },
+            "events_timetolive_recent_actions": {
+                "name": "Events time-to-live in Recent Actions",
+                "text": "48 hours"
             }
         }
     },
@@ -396,6 +400,10 @@
             "similar_channels_eligibility": {
                 "name": "类似频道显示资格",
                 "text": "至少 300 位订阅者；取决于频道内容"
+            },
+            "events_timetolive_recent_actions": {
+                "name": "Events time-to-live in Recent Actions",
+                "text": "48 hours"
             }
         }
     },

@@ -240,8 +240,8 @@
                 "text": "almeno 200 membri"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "name": "Durata visibilità degli eventi nelle azioni recenti",
+                "text": "48 ore"
             }
         }
     },
@@ -402,8 +402,8 @@
                 "text": "almeno 300 iscritti; dipende dal contenuto del canale"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "name": "Durata visibilità degli eventi nelle azioni recenti",
+                "text": "48 ore"
             }
         }
     },
@@ -529,17 +529,17 @@
                 "text": "12"
             },
             "poll_description_length": {
-                "name": "Poll Description length",
-                "text": "4,096"
+                "name": "Lunghezza descrizione sondaggio",
+                "text": "4.096"
             },
             "poll_duration": {
-                "name": "Poll duration",
-                "text": "up to 30 days"
+                "name": "Durata sondaggio",
+                "text": "fino a 30 giorni"
             },
             "countries": {
-                "name": "Countries",
-                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
-                "text": "up to 12"
+                "name": "Paesi",
+                "hint": "(per i sondaggi nei canali, se l'opzione \"Limita per Paese\" è abilitata)",
+                "text": "fino a 12"
             }
         }
     },

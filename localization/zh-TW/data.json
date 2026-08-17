@@ -516,7 +516,7 @@
             "poll_options_count": {
                 "name": "投票選項個數",
                 "hint": "",
-                "text": "2 到 12 個"
+                "text": "1 to 12"
             },
             "poll_option_length": {
                 "name": "投票選項字數",

@@ -516,7 +516,7 @@
             "poll_options_count": {
                 "name": "تعداد گزینه‌های نظرسنجی",
                 "hint": "",
-                "text": "2 to 12"
+                "text": "1 to 12"
             },
             "poll_option_length": {
                 "name": "طول گزینه‌های نظرسنجی",

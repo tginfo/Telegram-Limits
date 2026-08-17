@@ -516,7 +516,7 @@
             "poll_options_count": {
                 "name": "عدد خيارات الاستبيان",
                 "hint": "",
-                "text": "2 إلى 12"
+                "text": "1 to 12"
             },
             "poll_option_length": {
                 "name": "طول خيار الاستبيان",

@@ -240,8 +240,8 @@
                 "text": "co najmniej 200 członków"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "name": "Czas wyświetlania zdarzenia w sekcji „Ostatnie zdarzenia”",
+                "text": "48 godzin"
             }
         }
     },
@@ -402,8 +402,8 @@
                 "text": "co najmniej 300 subskrybentów; zależy od zawartości kanału"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "name": "Czas wyświetlania zdarzenia w sekcji „Ostatnie zdarzenia”",
+                "text": "48 godzin"
             }
         }
     },
@@ -516,7 +516,7 @@
             "poll_options_count": {
                 "name": "Ilość opcji ankiety",
                 "hint": "",
-                "text": "2 do 12"
+                "text": "1 to 12"
             },
             "poll_option_length": {
                 "name": "Długość opcji ankiety",

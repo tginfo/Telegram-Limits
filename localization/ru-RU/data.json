@@ -516,7 +516,7 @@
             "poll_options_count": {
                 "name": "Количество опций опроса",
                 "hint": "",
-                "text": "от 2 до 12"
+                "text": "1 to 12"
             },
             "poll_option_length": {
                 "name": "Длина варианта ответа в опросе",

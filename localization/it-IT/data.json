@@ -516,7 +516,7 @@
             "poll_options_count": {
                 "name": "Numero opzioni sondaggio",
                 "hint": "",
-                "text": "1 to 12"
+                "text": "da 1 a 12"
             },
             "poll_option_length": {
                 "name": "Lunghezza opzioni sondaggio",

@@ -347,6 +347,10 @@
             {
                 "id": "events_timetolive_recent_actions",
                 "icon": "access_time_filled"
+            },
+            {
+                "id": "welcome_messages_availability",
+                "icon": "waving_hand"
             }
         ]
     },

@@ -404,6 +404,11 @@
             "events_timetolive_recent_actions": {
                 "name": "Durata visibilità degli eventi nelle azioni recenti",
                 "text": "48 ore"
+            },
+            "welcome_messages_availability": {
+                "name": "Welcome Messages availability",
+                "hint": "maximum channel subscribers number",
+                "text": "unlimited"
             }
         }
     },

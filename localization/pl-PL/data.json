@@ -404,6 +404,11 @@
             "events_timetolive_recent_actions": {
                 "name": "Czas wyświetlania zdarzenia w sekcji „Ostatnie zdarzenia”",
                 "text": "48 godzin"
+            },
+            "welcome_messages_availability": {
+                "name": "Welcome Messages availability",
+                "hint": "maximum channel subscribers number",
+                "text": "unlimited"
             }
         }
     },

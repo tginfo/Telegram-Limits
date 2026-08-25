@@ -402,8 +402,8 @@
                 "text": "не менее 300 подписчиков; зависит от контента канала"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "name": "События по времени в последних действиях",
+                "text": "48 часов"
             },
             "welcome_messages_availability": {
                 "name": "Welcome Messages availability",

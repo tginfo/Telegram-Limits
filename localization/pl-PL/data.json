@@ -406,9 +406,9 @@
                 "text": "48 godzin"
             },
             "welcome_messages_availability": {
-                "name": "Welcome Messages availability",
-                "hint": "maximum channel subscribers number",
-                "text": "unlimited"
+                "name": "Dostępność wiadomości powitalnych",
+                "hint": "maksymalna liczba subskrybentów kanału",
+                "text": "nieograniczona"
             }
         }
     },

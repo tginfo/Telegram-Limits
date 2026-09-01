@@ -244,8 +244,8 @@
                 "text": "48 ore"
             },
             "welcome_messages_number": {
-                "name": "Welcome messages number",
-                "text": "up to 3"
+                "name": "Numero messaggi di benvenuto",
+                "text": "fino a 3"
             }
         }
     },
@@ -415,8 +415,8 @@
                 "text": "illimitati"
             },
             "welcome_messages_number": {
-                "name": "Welcome messages number",
-                "text": "up to 3"
+                "name": "Numero messaggi di benvenuto",
+                "text": "fino a 3"
             }
         }
     },

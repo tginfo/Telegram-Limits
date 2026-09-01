@@ -242,6 +242,10 @@
             "events_timetolive_recent_actions": {
                 "name": "Durata visibilità degli eventi nelle azioni recenti",
                 "text": "48 ore"
+            },
+            "welcome_messages_number": {
+                "name": "Welcome messages number",
+                "text": "up to 3"
             }
         }
     },
@@ -409,6 +413,10 @@
                 "name": "Disponibilita Messaggi di benvenuto",
                 "hint": "numero massimo di iscritti al canale",
                 "text": "illimitati"
+            },
+            "welcome_messages_number": {
+                "name": "Welcome messages number",
+                "text": "up to 3"
             }
         }
     },

@@ -242,6 +242,10 @@
             "events_timetolive_recent_actions": {
                 "name": "Events time-to-live in Recent Actions",
                 "text": "48 hours"
+            },
+            "welcome_messages_number": {
+                "name": "Welcome messages number",
+                "text": "up to 3"
             }
         }
     },
@@ -409,6 +413,10 @@
                 "name": "Welcome Messages availability",
                 "hint": "maximum channel subscribers number",
                 "text": "unlimited"
+            },
+            "welcome_messages_number": {
+                "name": "Welcome messages number",
+                "text": "up to 3"
             }
         }
     },

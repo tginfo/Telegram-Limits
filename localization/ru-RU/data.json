@@ -240,12 +240,12 @@
                 "text": "не менее 200 участников"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "name": "Время отображения событий в \"Недавних действиях\"",
+                "text": "последние 48 часов"
             },
             "welcome_messages_number": {
                 "name": "Welcome messages number",
-                "text": "up to 3"
+                "text": "до 3"
             }
         }
     },
@@ -410,13 +410,13 @@
                 "text": "48 часов"
             },
             "welcome_messages_availability": {
-                "name": "Welcome Messages availability",
+                "name": "Доступность приветственных сообщений",
                 "hint": "maximum channel subscribers number",
-                "text": "unlimited"
+                "text": "не ограничено"
             },
             "welcome_messages_number": {
-                "name": "Welcome messages number",
-                "text": "up to 3"
+                "name": "Количество приветственных сообщений",
+                "text": "до 3"
             }
         }
     },
@@ -529,7 +529,7 @@
             "poll_options_count": {
                 "name": "Количество опций опроса",
                 "hint": "",
-                "text": "1 to 12"
+                "text": "от 1 до 12"
             },
             "poll_option_length": {
                 "name": "Длина варианта ответа в опросе",

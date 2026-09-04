@@ -240,7 +240,7 @@
                 "text": "至少 200 名成员"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
+                "name": "“最近操作”中的操作显示持续时间",
                 "text": "48 小时"
             },
             "welcome_messages_number": {
@@ -406,12 +406,12 @@
                 "text": "至少 300 位订阅者；取决于频道内容"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "name": "“最近操作”中的操作显示持续时间",
+                "text": "48 小时"
             },
             "welcome_messages_availability": {
-                "name": "Welcome Messages availability",
-                "hint": "maximum channel subscribers number",
+                "name": "欢迎消息可用性",
+                "hint": "最大频道订阅者数",
                 "text": "无限制"
             },
             "welcome_messages_number": {
@@ -542,17 +542,17 @@
                 "text": "12"
             },
             "poll_description_length": {
-                "name": "Poll Description length",
+                "name": "投票描述长度",
                 "text": "4,096"
             },
             "poll_duration": {
-                "name": "Poll duration",
-                "text": "up to 30 days"
+                "name": "投票持续时长",
+                "text": "最长 30 天"
             },
             "countries": {
-                "name": "Countries",
-                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
-                "text": "up to 12"
+                "name": "国家/地区",
+                "hint": "(适用于频道中的投票，如果“按国家/地区限制”已启用)",
+                "text": "最多 12 条"
             }
         }
     },
@@ -814,7 +814,7 @@
                 "text_premium": "最多 5 个表态"
             },
             "pinned_stories": {
-                "name": "Pinned stories",
+                "name": "置顶故事数",
                 "text": "3"
             }
         }
@@ -1199,25 +1199,25 @@
         }
     },
     "articles": {
-        "name": "Articles",
+        "name": "文章",
         "items": {
             "length": {
-                "name": "Length",
-                "text": "32,768 UTF-8 characters"
+                "name": "长度",
+                "text": "32,768 个 UTF-8 字符"
             },
             "blocks": {
-                "name": "Blocks",
+                "name": "块",
                 "hint": "(nested blocks, list items, ordered list items, table rows, quotation blocks, and details blocks, and so on)",
                 "text": "500"
             },
             "nested_formatting_levels": {
-                "name": "Nested formatting levels",
-                "hint": "(for lists)",
+                "name": "嵌套格式化级别",
+                "hint": "(对列表)",
                 "text": "16"
             },
             "media": {
-                "name": "Media",
-                "hint": "images, videos, audio files",
+                "name": "媒体",
+                "hint": "图片、视频、音频文件",
                 "text": "50"
             },
             "columns_table": {

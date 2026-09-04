@@ -1207,7 +1207,7 @@
             },
             "blocks": {
                 "name": "块",
-                "hint": "(nested blocks, list items, ordered list items, table rows, quotation blocks, and details blocks, and so on)",
+                "hint": "(嵌套块、列表项、排序列表项、表格行、应用块和详细方块等)",
                 "text": "500"
             },
             "nested_formatting_levels": {

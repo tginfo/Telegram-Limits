@@ -618,6 +618,10 @@
             {
                 "id": "length_custom_verification_text",
                 "icon": "verified"
+            },
+            {
+                "id": "referrer_start_link",
+                "icon": "not_started"
             }
         ]
     },

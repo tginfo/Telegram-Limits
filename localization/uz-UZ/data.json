@@ -240,11 +240,11 @@
                 "text": "kamida 200 a'zo"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
+                "name": "So‘nggi harakatlardagi hodisalarning amal qilish muddati",
                 "text": "48 soat"
             },
             "welcome_messages_number": {
-                "name": "Welcome messages number",
+                "name": "Xush kelibsiz xabarlari soni",
                 "text": "3 tagacha"
             }
         }
@@ -321,11 +321,11 @@
             },
             "paid_message_length": {
                 "name": "Strim izohining uzunligi",
-                "text": "free: 30 characters. 10 stars: 60 characters. 50 stars: 80 characters. 100 stars: 110 characters. 250 stars: 150 characters. 500 stars: 200 characters. 2,000 stars: 280 characters. 10,000 stars: 400 characters"
+                "text": "bepul: 30 ta belgi. 10 ta yulduzcha: 60 ta belgi. 50 ta yulduzcha: 80 ta belgi. 100 ta yulduzcha: 110 ta belgi. 250 ta yulduzcha: 150 ta belgi. 500 ta yulduzcha: 200 ta belgi. 2 000 ta yulduzcha: 280 ta belgi. 10 000 ta yulduzcha: 400 ta belgi"
             },
             "paid_message_emoji_number": {
-                "name": "Stream comment emoji number",
-                "text": "free: no emojis. 10 stars: 1 emoji. 50 stars: 2 emojis. 100 stars: 3 emojis. 250 stars: 4 emojis. 500 stars: 7 emojis. 2,000 stars: 10 emojis. 10,000 stars: 20 emojis"
+                "name": "Translyatsiya izohi emojisi raqami",
+                "text": "bepul: emoji yo‘q. 10 yulduz: 1 ta emoji. 50 yulduz: 2 ta emoji. 100 yulduz: 3 ta emoji. 250 yulduz: 4 ta emoji. 500 yulduz: 7 ta emoji. 2 000 yulduz: 10 ta emoji. 10 000 yulduz: 20 ta emoji"
             }
         }
     },
@@ -371,7 +371,7 @@
             "channel_deletion": {
                 "name": "Kanalni o'chirish",
                 "hint": "",
-                "text": "channels with more than 1K subscribers can be deleted only from a session that is a few days old and only if the current account had cloud password activated for a few days"
+                "text": "1K dan ortiq obunachiga ega kanallarni faqat bir necha kunlik sessiya orqali va faqat joriy akkauntda bulutli parol cloud password bir necha kun davomida faollashtirilgan bo‘lsagina o‘chirish mumkin"
             },
             "private_channel_access": {
                 "name": "Yopiq kanallarni a'zo bo'lmasdan ko'rish",
@@ -389,7 +389,7 @@
                 "text": "kamida 50"
             },
             "number_subscribers_see_story_statistics": {
-                "name": "Number of subscribers to see story statistics",
+                "name": "Hikoya statistikasi ko‘rinadigan obunachilar soni",
                 "text": "kamida 1"
             },
             "username_reservation": {
@@ -398,8 +398,8 @@
                 "text": "tahminan 15-30 daqiqa"
             },
             "boosts_needed_reach_level": {
-                "name": "Boosts needed to reach a level",
-                "text": "see https://boosts.tginfo.me calculator"
+                "name": "Darajaga erishish uchun kuchaytirgichlar kerak",
+                "text": "https://boosts.tginfo.me kalkulyatoriga qarang"
             },
             "similar_channels_eligibility": {
                 "name": "Similar Channels eligibility",

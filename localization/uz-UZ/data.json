@@ -118,8 +118,8 @@
                 "text_premium": "100 tagacha havola"
             },
             "birthday_setchange": {
-                "name": "Birthday set/change",
-                "text": "3 per week"
+                "name": "Tug'ilgan kunni o'rnatish/o'zgartirish",
+                "text": "haftasiga 3 marta"
             }
         }
     },
@@ -241,11 +241,11 @@
             },
             "events_timetolive_recent_actions": {
                 "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "text": "48 soat"
             },
             "welcome_messages_number": {
                 "name": "Welcome messages number",
-                "text": "up to 3"
+                "text": "3 tagacha"
             }
         }
     },
@@ -407,16 +407,16 @@
             },
             "events_timetolive_recent_actions": {
                 "name": "Events time-to-live in Recent Actions",
-                "text": "48 hours"
+                "text": "48 soat"
             },
             "welcome_messages_availability": {
                 "name": "Welcome Messages availability",
                 "hint": "maximum channel subscribers number",
-                "text": "unlimited"
+                "text": "cheklanmagan"
             },
             "welcome_messages_number": {
                 "name": "Welcome messages number",
-                "text": "up to 3"
+                "text": "3 tagacha"
             }
         }
     },
@@ -426,8 +426,8 @@
             "single_message_length": {
                 "name": "Bitta xabar uzunligi",
                 "hint": "",
-                "text": "up to 4,096 characters",
-                "text_premium": "up to 8,192 characters"
+                "text": "4,096 tagacha belgi",
+                "text_premium": "8,192 ta belgigacha"
             },
             "media_descriptions": {
                 "name": "Medialar uchun izoh",
@@ -529,7 +529,7 @@
             "poll_options_count": {
                 "name": "Soʻrovnoma javoblari soni",
                 "hint": "",
-                "text": "1 to 12"
+                "text": "1 tadan 12 gacha"
             },
             "poll_option_length": {
                 "name": "So'rovnoma javoblari uzunligi",
@@ -539,20 +539,20 @@
             "maximum_countries_number": {
                 "name": "Maximum countries number",
                 "hint": "If poll is geo limited",
-                "text": "12"
+                "text": "12 ta"
             },
             "poll_description_length": {
                 "name": "Poll Description length",
-                "text": "4,096"
+                "text": "4,096 ta belgi"
             },
             "poll_duration": {
                 "name": "Poll duration",
                 "text": "up to 30 days"
             },
             "countries": {
-                "name": "Countries",
+                "name": "Mamlakatlar soni",
                 "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
-                "text": "up to 12"
+                "text": "12 tagacha"
             }
         }
     },

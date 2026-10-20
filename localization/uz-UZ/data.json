@@ -402,20 +402,20 @@
                 "text": "https://boosts.tginfo.me kalkulyatoriga qarang"
             },
             "similar_channels_eligibility": {
-                "name": "Similar Channels eligibility",
-                "text": "at least 300 subscribers; depends on channel content"
+                "name": "O‘xshash kanallar uchun muvofiqlik",
+                "text": "kamida 300 ta obunachi; kanal mazmuniga bog‘liq"
             },
             "events_timetolive_recent_actions": {
-                "name": "Events time-to-live in Recent Actions",
+                "name": "So‘nggi harakatlar bo‘limidagi hodisalarning yashash muddati",
                 "text": "48 soat"
             },
             "welcome_messages_availability": {
-                "name": "Welcome Messages availability",
-                "hint": "maximum channel subscribers number",
+                "name": "Xush kelibsiz xabarlarining mavjudligi",
+                "hint": "kanal obunachilarining maksimal soni",
                 "text": "cheklanmagan"
             },
             "welcome_messages_number": {
-                "name": "Welcome messages number",
+                "name": "Xush kelibsiz xabarlari soni",
                 "text": "3 tagacha"
             }
         }
@@ -476,7 +476,7 @@
             },
             "custom_emoji_per_message": {
                 "name": "Xabardagi emojilar soni",
-                "hint": "without Telegram Premium, custom emoji can be sent only to Saved Messages, more than 100 custom emoji are replaced with the corresponding standard emoji; on low-end devices even less custom emojis may be displayed",
+                "hint": "telegram Premium bo‘lmagan taqdirda, maxsus emojilarni faqat Saqlangan xabarlar bo‘limiga yuborish mumkin; 100 dan ortiq maxsus emojilar esa ularga mos keladigan standart emojilar bilan almashtiriladi; quvvati pastroq qurilmalarda esa maxsus emojilar bundan ham kamroq miqdorda ko‘rsatilishi mumkin",
                 "text": "Mavjud emas",
                 "text_premium": "100 tagacha emoji"
             },
@@ -486,34 +486,34 @@
                 "text": "100 tagacha havola"
             },
             "number_unique_reaction_types": {
-                "name": "Number of unique reaction types",
+                "name": "Noyob reaksiya turlari soni",
                 "hint": "bir xabarda",
-                "text": "up to 11 reaction icons"
+                "text": "11 tagacha reaksiya belgisi"
             },
             "speech_text_transcriptions": {
-                "name": "Number of speech to text transcriptions",
-                "hint": "for voice and video messages",
-                "text": "up to 2 free transcriptions weekly",
+                "name": "Nutqdan matnga o‘girilgan transkripsiyalar soni",
+                "hint": "ovozli va video xabarlar uchun",
+                "text": "haftasiga 2 tagacha bepul transkripsiya",
                 "text_premium": "cheklanmagan"
             },
             "duration_speech_text_transcriptions": {
-                "name": "Duration of speech to text transcriptions",
-                "hint": "for voice and video messages",
+                "name": "Nutqni matnga aylantirish jarayonining davomiyligi",
+                "hint": "ovozli va video xabarlar uchun",
                 "text": "5 daqiqagacha",
-                "text_premium": "no duration limit set"
+                "text_premium": "davomiylik cheklovi belgilanmagan"
             },
             "length_quoted_text": {
-                "name": "Length of a quoted text",
+                "name": "Iqtibos keltirilgan matn uzunligi",
                 "text": "1024 ta belgigacha"
             },
             "quick_replies_number": {
-                "name": "Quick Replies number",
-                "hint": "(predefined templates)",
+                "name": "Tezkor javoblar soni",
+                "hint": "(oldindan belgilangan andozalar)",
                 "text_premium": "100 tagacha shablon"
             },
             "quick_replies_messages_number": {
-                "name": "Quick Replies messages number",
-                "hint": "(number of messages that can be sent by a single Quick Reply)",
+                "name": "Tezkor javob xabarlari soni",
+                "hint": "(bitta tezkor javob orqali yuborish mumkin bo‘lgan xabarlar soni)",
                 "text_premium": "10 tagacha xabar"
             }
         }
@@ -537,21 +537,21 @@
                 "text": "1 dan 100 tagacha belgi"
             },
             "maximum_countries_number": {
-                "name": "Maximum countries number",
-                "hint": "If poll is geo limited",
+                "name": "Mamlakatlarning maksimal soni",
+                "hint": "Agar so‘rovnoma cheklangan bo‘lsa",
                 "text": "12 ta"
             },
             "poll_description_length": {
-                "name": "Poll Description length",
+                "name": "So‘rovnoma tavsifi uzunligi",
                 "text": "4,096 ta belgi"
             },
             "poll_duration": {
-                "name": "Poll duration",
-                "text": "up to 30 days"
+                "name": "So‘rov davomiyligi",
+                "text": "30 kungacha"
             },
             "countries": {
                 "name": "Mamlakatlar soni",
-                "hint": "(for polls in channels, if \"Limit by Country\" is enabled)",
+                "hint": "(kanallardagi so‘rovnomalar uchun, agar \"Mamlakat bo‘yicha cheklash\" yoqilgan bo‘lsa)",
                 "text": "12 tagacha"
             }
         }
@@ -578,7 +578,7 @@
             },
             "pinned_chats_in_folder": {
                 "name": "Jilddagi qadalgan xabarlar ",
-                "hint": "(this limit decreases by the number of chats individually added to the folder settings)",
+                "hint": "(bu cheklov papka sozlamalariga alohida qo‘shilgan chatlar soni miqdorida kamayadi)",
                 "text": "100 tagacha",
                 "text_premium": "200 tagacha"
             }
@@ -600,8 +600,8 @@
                 "text_premium": "200 tagacha belgilar"
             },
             "folder_links_number": {
-                "name": "Folder links number",
-                "hint": "per public folder",
+                "name": "Papka havolalari soni",
+                "hint": "har bir umumiy papka uchun",
                 "text": "3 tagacha havola",
                 "text_premium": "10 tagacha havola"
             }
@@ -722,12 +722,12 @@
                 "text": "bot foydalanuvchi nomidan keyin 256 belgigacha"
             },
             "bot_transfers": {
-                "name": "Bot transfers",
-                "hint": "between accounts",
+                "name": "Bot o‘tkazmalari",
+                "hint": "hisoblar o‘rtasida",
                 "text": "kuniga 5 tagacha"
             },
             "length_custom_verification_text": {
-                "name": "Length of custom verification text",
+                "name": "Maxsus tasdiqlash matnining uzunligi",
                 "text": "1 tadan 70 tagacha belgi"
             }
         }
@@ -736,14 +736,14 @@
         "name": "Hikoyalar",
         "items": {
             "free_stories_number": {
-                "name": "Account lifetime number of stories that can be posted without Premium",
-                "text": "up to 3 stories; any stories ever posted, under any conditions, still count against this limit, including deleted stories, stories posted with Premium, and stories that were posted for free when the feature launched",
-                "text_premium": "doesn't apply when Premium is active"
+                "name": "Premium obunasisiz akkaunt davomida jami joylashtirish mumkin bo‘lgan hikoyalar soni",
+                "text": "3 tagacha hikoya; qachon bo‘lishidan qat’i nazar, qanday shartlarda e’lon qilinganidan qat’i nazar, barcha hikoyalar ushbu cheklovga kiradi — bunga o‘chirilgan hikoyalar, Premium orqali joylashtirilgan hikoyalar hamda ushbu funksiya ishga tushirilgan vaqtda bepul e’lon qilingan hikoyalar ham kiradi",
+                "text_premium": "premium faol bo‘lganda amal qilmaydi"
             },
             "story_availability": {
                 "name": "Hikoya mavjudligi",
                 "hint": "Telegram Premiumsiz hikoyalar joylaydigan davlatlar",
-                "text": "Telegram is rolling out the free 1 story limit globally.\n\nThe list of countries where stories used to be paid-only is available here: https://tginfo.me/stories-by-countries-en/"
+                "text": "Telegram butun dunyo bo‘ylab bepul foydalanuvchilar uchun 1 ta hikoya joylashtirish imkoniyatini taqdim etmoqda.\n\nIlgari faqat pulli obuna orqaligina «hikoya» joylashtirish mumkin bo‘lgan mamlakatlar ro‘yxati bilan bu yerda tanishishingiz mumkin: https://tginfo.me/stories-by-countries-en/"
             },
             "story_lifetime": {
                 "name": "Hikoya faollik muddati ",
@@ -780,13 +780,13 @@
                 "text_premium": "2,048 tagacha belgi"
             },
             "story_incognito_frequency": {
-                "name": "Incognito usage frequency (Hide My View)",
+                "name": "Inkognito rejimidan foydalanish chastotasi (Ko‘rinishni yashirish)",
                 "text": "Mavjud emas",
                 "text_premium": "har 3 soatda bir marotaba",
                 "hint": ""
             },
             "story_incognito_duration": {
-                "name": "Incognito duration (Hide My View)",
+                "name": "Inkognito davomiyligi (Ko‘rinishimni yashirish)",
                 "hint": "(Ohirgi 5 daqiqadagi barcha ko'rishlar berkitiladi, va keyingi 25 daqiqadagi ko'rishlar qayd etilmaydi)",
                 "text": "Mavjud emas",
                 "text_premium": "30 daqiqa"
@@ -796,25 +796,25 @@
                 "text": "100 tagacha"
             },
             "number_stories_album": {
-                "name": "Number of stories in an album",
+                "name": "Albomdagi hikoyalar soni",
                 "text": "100 tagacha hikoyalar"
             },
             "stories_limit_reset_time": {
-                "name": "Stories limit reset time",
-                "text": "the limit jumps back to its maximum value in 24 hours after the first story was published\n\nsee also: https://tginfo.me/boosts-and-channel-stories-en"
+                "name": "Hikoyalar cheklovni tiklash vaqtini belgilaydi",
+                "text": "birinchi hikoya nashr etilganidan keyin 24 soat ichida limit maksimal qiymatiga qaytadi.\n\nshuningdek qarang: https://tginfo.me/boosts-and-channel-stories-en"
             },
             "adding_clickable_links_stories": {
-                "name": "Adding clickable links to stories",
-                "text": "not available",
+                "name": "Hikoyalarga bosiladigan havolalar qo‘shish",
+                "text": "mavjud emas",
                 "text_premium": "3 tagacha stiker"
             },
             "number_reaction_stickers": {
-                "name": "Number of reaction stickers",
+                "name": "Reaksiya stikerlari soni",
                 "text": "faqat 1 ta reaksiya",
-                "text_premium": "up to 5 reactions"
+                "text_premium": "5 tagacha reaksiya"
             },
             "pinned_stories": {
-                "name": "Pinned stories",
+                "name": "Qadalgan hikoyalar",
                 "text": "3"
             }
         }
@@ -833,16 +833,16 @@
                 "text": "kuniga 200 tagacha foydalanuvchi nomi"
             },
             "hashtag_search_depth": {
-                "name": "Hashtag search results number",
+                "name": "Xeshteg bo‘yicha qidiruv natijalari soni",
                 "hint": "",
                 "text": "taxminan oxirgi 5'000 ta xabar"
             },
             "minimal_subscribers_public_search_eligibility": {
-                "name": "Minimal channel subscribers for public search eligibility",
+                "name": "Ommaviy qidiruvda ko‘rinish uchun kanal obunachilarining minimal soni",
                 "text": "kamida 100 ta obunachi"
             },
             "number_recommended_channels": {
-                "name": "Number of recommended channels",
+                "name": "Tavsiya etilgan kanallar soni",
                 "hint": "(\"Similar channels\" in global search and specific channels)",
                 "text": "10 tagacha",
                 "text_premium": "100 tagacha"
@@ -1104,7 +1104,7 @@
             "maximum_boosts_number": {
                 "name": "Maximum boosts number on an account",
                 "hint": "(not fully confirmed)",
-                "text": "up to 103 boosts (4 boosts from own Premium subscription + 33 gifted subscriptions)"
+                "text": "103 tagacha kuchaytirish (shaxsiy Premium obunadan 4 ta kuchaytirish + sovg‘a qilingan 33 ta obuna)"
             },
             "number_channels_giveaway": {
                 "name": "Number of channels in a giveaway",

@@ -729,6 +729,11 @@
             "length_custom_verification_text": {
                 "name": "Length of custom verification text",
                 "text": "from 1 to 70 characters"
+            },
+            "referrer_start_link": {
+                "name": "Referrer Start Link",
+                "hint": "Applies when opening the XXXbot/start?XXX link",
+                "text": "50 start per hour"
             }
         }
     },

@@ -1044,8 +1044,8 @@
             },
             "resale_price_collectible_gifts_ton": {
                 "name": "Cena odsprzedaży prezentów kolekcjonerskich",
-                "hint": "w TON",
-                "text": "od 7 do 100 000 TON"
+                "hint": "in GRAM",
+                "text": "from 7 GRAM to 100,000 GRAM"
             },
             "guaranteed_duration_paid_message": {
                 "name": "Minimalny gwarantowany czas trwania płatnego wpisu",
@@ -1056,15 +1056,15 @@
                 "text": "od 5 minut do 31 dni wcześniej"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Cena płatnego wpisu w kryptowalucie TON",
-                "text": "od 0,01 do 10 000 TON"
+                "name": "Price for a paid post in GRAM cryptocurrency",
+                "text": "from 0.01 GRAM to 10,000 GRAM"
             },
             "minimal_ton_value_withdrawal_from_account": {
-                "name": "Minimalna ilość TON do wypłaty z konta",
-                "text": "10 TON"
+                "name": "Minimal GRAM value for withdrawal from account",
+                "text": "10 GRAM"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Czas oczekiwania przed wypłatą TON",
+                "name": "Cooldown before GRAM withdrawal",
                 "hint": "przez Fragment.com",
                 "text": "2 dni"
             }

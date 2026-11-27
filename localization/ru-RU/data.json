@@ -1044,8 +1044,8 @@
             },
             "resale_price_collectible_gifts_ton": {
                 "name": "Цена на перепродажу коллекционных подарков",
-                "hint": "в TON",
-                "text": "от 7 TON до 100 000 TON"
+                "hint": "in GRAM",
+                "text": "from 7 GRAM to 100,000 GRAM"
             },
             "guaranteed_duration_paid_message": {
                 "name": "Гарантированный срок неудаления платного поста",
@@ -1056,15 +1056,15 @@
                 "text": "от 5 минут до 31 дней"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Цена за платный пост в криптовалюте TON",
-                "text": "от 0.01 TON до 10 000 TON"
+                "name": "Price for a paid post in GRAM cryptocurrency",
+                "text": "from 0.01 GRAM to 10,000 GRAM"
             },
             "minimal_ton_value_withdrawal_from_account": {
-                "name": "Минимальное количество TON, которое можно вывести с аккаунта",
-                "text": "10 TON"
+                "name": "Minimal GRAM value for withdrawal from account",
+                "text": "10 GRAM"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Период ожидания перед выводом TON",
+                "name": "Cooldown before GRAM withdrawal",
                 "hint": "за продажу подарка, через Fragment.com",
                 "text": "2 дня"
             }

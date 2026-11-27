@@ -1044,8 +1044,8 @@
             },
             "resale_price_collectible_gifts_ton": {
                 "name": "可收藏礼物的转售价格",
-                "hint": "TON",
-                "text": "7 TON 到 100,000 TON"
+                "hint": "in GRAM",
+                "text": "from 7 GRAM to 100,000 GRAM"
             },
             "guaranteed_duration_paid_message": {
                 "name": "付费帖子的最小保证期限",
@@ -1056,15 +1056,15 @@
                 "text": "提前 5 分钟到 31 天"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "TON 加密货币付费帖子的价格",
-                "text": "0.01 TON 到 10,000 TON"
+                "name": "Price for a paid post in GRAM cryptocurrency",
+                "text": "from 0.01 GRAM to 10,000 GRAM"
             },
             "minimal_ton_value_withdrawal_from_account": {
-                "name": "提现账户中 TON 所需的最小数量",
-                "text": "10 TON"
+                "name": "Minimal GRAM value for withdrawal from account",
+                "text": "10 GRAM"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "TON 提现前冷却时间",
+                "name": "Cooldown before GRAM withdrawal",
                 "hint": "通过 Fragment.com",
                 "text": "2 天"
             }

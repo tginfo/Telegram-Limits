@@ -1045,7 +1045,7 @@
             "resale_price_collectible_gifts_ton": {
                 "name": "Prezzo di rivendita per i ragali collezionabili",
                 "hint": "in GRAM",
-                "text": "from 7 GRAM to 100,000 GRAM"
+                "text": "da 7 GRAM a 100.000 GRAM"
             },
             "guaranteed_duration_paid_message": {
                 "name": "Durata minima garantita di un post a pagamento",
@@ -1056,15 +1056,15 @@
                 "text": "da 5 minuti a 31 giorni in anticipo"
             },
             "price_paid_post_ton_cryptocurrency": {
-                "name": "Price for a paid post in GRAM cryptocurrency",
-                "text": "from 0.01 GRAM to 10,000 GRAM"
+                "name": "Prezzo per un post a pagamento in criptovaluta GRAM",
+                "text": "da 0,01 GRAM a 10.000 GRAM"
             },
             "minimal_ton_value_withdrawal_from_account": {
-                "name": "Minimal GRAM value for withdrawal from account",
+                "name": "Valore GRAM minimo per il prelievo dall'account",
                 "text": "10 GRAM"
             },
             "cooldown_before_ton_withdrawal": {
-                "name": "Cooldown before GRAM withdrawal",
+                "name": "Attesa prima del prelievo dei GRAM",
                 "hint": "tramite Fragment.com",
                 "text": "2 giorni"
             }
